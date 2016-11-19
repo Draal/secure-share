@@ -1,0 +1,24 @@
+{
+  "name": "secure-share",
+  "version": "0.1.0",
+  "description": "Sensitive data sharing system with client side encryption",
+  "main": "main.go",
+  "dependencies": {
+    "uglifyjs": "~2.4.10",
+    "minifier": "~0.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Draal/secure-share.git"
+  },
+  "keywords": [
+    "security"
+  ],
+  "author": "Denys Misko",
+  "private": true,
+  "license": "BSD"
+}

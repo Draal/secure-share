@@ -1,0 +1,18 @@
+<html>
+<head>
+  <script type="text/javascript" src="/bower_components/crypto-js/crypto-js.js"></script>
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/share.js"></script>
+</head>
+<body>
+  <div id="error" style="color:red"></div>
+  <div style="display:none" id="secret_div">Shared secret:<br/>
+    <textarea cols="80" rows="10" id="source"></textarea><br/>
+    <a id="secret_file"></a>
+  </div>
+  <div style="display:none" id="passphrase_div" >Passphrase:<br/>
+    <input type="password"  id="passphrase"/><br/>
+  </div>
+  <input type="button" style="display:none" id="show_button" value="Show Secret"/>
+</body>
+</html>

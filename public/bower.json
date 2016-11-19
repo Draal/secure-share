@@ -1,0 +1,10 @@
+{
+	"name": "secure-share",
+	"version": "0.0.1",
+	"private": true,
+	"main": "./public/index.html",
+	"dependencies": {
+		"crypto-js": "~3.1.8",
+		"jquery": "~2.1.1"
+	}
+}

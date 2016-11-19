@@ -1,0 +1,27 @@
+<html>
+<head>
+  <script type="text/javascript" src="/bower_components/crypto-js/crypto-js.js"></script>
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/share.js"></script>
+</head>
+<body>
+  <div id="secret_div">
+    <div>Shared secret:<br/>
+    <textarea cols="80" rows="10" id="source"></textarea>
+    </div>
+    <div>Shared file:<br/>
+      <input type="file" id="source_file">
+    </div>
+    <div>Passphrase:<br/>
+      <input type="password"  id="passphrase"/><br/>
+    </div>
+    <input type="button" id="encrypt_button" value="Secure share"/>
+  </div>
+  <div style="display:none" id="link_div">
+    <p style="text-align:center">
+      <input type="text" size="255" id="share_url"/>
+    </p>
+    <input type="button" id="re_share_button" value="Re-share"/> | <input type="button" id="new_button" value="New secret"/>
+  </div>
+</body>
+</html>

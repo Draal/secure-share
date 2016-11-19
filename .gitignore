@@ -1,0 +1,6 @@
+public/bower_components/
+node_modules/
+bin/
+pkgs/
+secure-share
+*.min.js
