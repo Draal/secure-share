@@ -1,27 +1,54 @@
 <html>
 <head>
+  <link rel="stylesheet" href="/css/w3.min.css">
   <script type="text/javascript" src="/bower_components/crypto-js/crypto-js.js"></script>
   <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="/js/share.js"></script>
 </head>
 <body>
-  <div id="secret_div">
-    <div>Shared secret:<br/>
-    <textarea cols="80" rows="10" id="source"></textarea>
-    </div>
-    <div>Shared file:<br/>
-      <input type="file" id="source_file">
-    </div>
-    <div>Passphrase:<br/>
-      <input type="password"  id="passphrase"/><br/>
-    </div>
-    <input type="button" id="encrypt_button" value="Secure share"/>
+
+
+<ul class="w3-navbar w3-black" style="max-width:1000px;margin:auto">
+  <li><a href="/">SafeShare</a></li>
+  <li class="w3-right"><a href="#">About</a></li>
+</ul>
+
+<div class="w3-main w3-content" style="max-width:1000px">
+  <div class="w3-panel w3-red" id="error" style="display:none">
+    <span onclick="this.parentElement.style.display='none'" class="w3-closebtn">&times;</span>
+    <h3></h3>
+    <p></p>
   </div>
-  <div style="display:none" id="link_div">
-    <p style="text-align:center">
-      <input type="text" size="255" id="share_url"/>
+  <div class="w3-container w3-card-4 w3-light-grey" id="secret_div">
+    <p>
+      <label class="w3-label w3-text-black">Your secret:</label>
+      <textarea cols="80" rows="5" id="source" class="w3-input w3-border w3-round-large"></textarea>
     </p>
-    <input type="button" id="re_share_button" value="Re-share"/> | <input type="button" id="new_button" value="New secret"/>
+    <p>
+      <label class="w3-label w3-text-black">Your secret file (128kB max):</label>
+      <input type="file" id="source_file">
+    </p>
+    <p style="width:50%">
+      <label class="w3-label w3-text-black">Passphrase (Optional):</label>
+      <input type="password"  id="passphrase" class="w3-input w3-border w3-round-large"/>
+    </p>
+
+    <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="encrypt_button">Encrypt and get link</button></div>
   </div>
+  <div class="w3-panel w3-light-grey w3-leftbar w3-border-green" style="display:none" id="link_div">
+    <p>
+      <label class="w3-label w3-text-black">Safely share this link:</label>
+      <input type="text" class="w3-input w3-border w3-round-large" id="share_url"/>
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="re_share_button">Get another link</button></div>
+      </div>
+      <div class="w3-half">
+        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="new_button">Share another secret</button></div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

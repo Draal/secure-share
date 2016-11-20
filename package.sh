@@ -10,6 +10,14 @@ do
 	gzip -c $i > $i.gz
 done
 
+rm -f public/css/*.min.css
+for i in `ls public/css/*.css`
+do
+        minVer=`echo $i | sed 's/\.css/.min.css/'`
+        node_modules/.bin/minify $i --output $minVer
+        gzip -c $i  > $i.gz
+        gzip -c $minVer  > $minVer.gz
+done
 
 for i in `ls public/js/*.js | grep -v '.min.'`
 do

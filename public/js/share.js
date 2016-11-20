@@ -21,6 +21,13 @@ function SecureShare()
     return baseLink() + "/s/"+id+"#" + hash
   }
 
+  var showError = function(title, message) {
+    var err = $("#error");
+    err.find("h3").html(title);
+    err.find("p").html(message);
+    err.show();
+  }
+
   var encrypt = function(text, passphrase, attach) {
     var secret = {
       att: attach,
@@ -70,14 +77,16 @@ function SecureShare()
     $("#source").val("");
     $("#source_file").val("");
   });
+
   $("#encrypt_button").click(function() {
+    $("#error").hide();
     var text = $("#source").val();
     var passphrase = $("#passphrase").val();
     var input = document.getElementById('source_file');
     if (input && input.files && input.files[0]) {
       var file = input.files[0];
       if (file.size > 1024 * 128) { // 128 kb max file size
-        alert("Maximum file size should not exceed 128kb");
+        showError("Maximum file size exceed", "Maximum file size should not exceed 128kb");
         return;
       }
       var fr = new FileReader();
@@ -93,7 +102,7 @@ function SecureShare()
       return;
     }
     if (!text) {
-      alert("Text or file should be provided");
+      showError("Nothing to share", "Text or file should be provided");
       return;
     }
     encrypt(text, passphrase);
@@ -128,27 +137,33 @@ function SecureShare()
           iv: base64KeyDecode(keyParts[0]),
         }));
       }
+      $("#first_div").hide();
       if (data.attach) {
         var d = JSON.parse(dec);
-        $("#secret_file").html("Download: " + d.n);
-        $("#secret_file").attr("href", d.d);
-        $("#secret_file").attr("download", d.n);
+        var sf = $("#secret_file");
+        sf.show();
+        var a = sf.find("a");
+        a.html("Download: " + d.n);
+        a.attr("href", d.d);
+        a.attr("download", d.n);
         $("#source").val(d.t);
       } else {
         $("#source").val(dec);
       }
       $("#secret_div").show();
     }).fail(function(data){
-      $("#error").html(data.responseJSON.error.code + ": " + data.responseJSON.error.message);
-      $("#error").show();
+      showError(data.responseJSON.error.code, data.responseJSON.error.message);
     });
   })
+  $(".new_share").click(function() {
+    window.location.href = '/';
+  });
   if (window.location.pathname.match(/^\/s\//) && window.location.hash.length > 0) {
     keyParts = window.location.hash.substring(1).split("|");
     if (keyParts.length == 1) {
       $("#passphrase_div").show()
     } else if (keyParts.length != 2) {
-      alert("Got wrong keys: " + keyParts);
+      showError("Incorrect link", "Your link has wrong structure");
       return;
     }
     $("#show_button").show();

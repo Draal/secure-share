@@ -4,3 +4,4 @@ bin/
 pkgs/
 secure-share
 *.min.js
+*.min.css

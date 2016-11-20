@@ -123,7 +123,7 @@ func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request) {
 		h.errorHandler(w, r, BadRequest{fmt.Errorf("Provide a correct passphrase %d tries left", h.maxWrongPasswordTries-tryCount)})
 		return
 	}
-	h.storage.Delete(id)
+	//h.storage.Delete(id)
 
 	answer := struct {
 		Id     string `json:"id"`
