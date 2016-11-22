@@ -4,7 +4,7 @@
 function SecureShare()
 {
   var urlHashFy = function(text) {
-    return text.replace(/\+/g, '-').replace(/\//g, '_').replace(/\=+$/g, '|');
+    return text.replace(/\+/g, '-').replace(/\//g, '_').replace(/\=+$/g, '');
   };
   var base64KeyDecode = function(key) {
     var k = key.replace(/\-/g, '+').replace(/_/g, '/') + "=";
@@ -36,23 +36,20 @@ function SecureShare()
     var encFile;
     var hash = ""
     if (passphrase == "") {
-      var iv  = CryptoJS.lib.WordArray.random(32);
-      var key = CryptoJS.lib.WordArray.random(32);
-      hash = urlHashFy(iv.toString(CryptoJS.enc.Base64));
-      hash += urlHashFy(key.toString(CryptoJS.enc.Base64));
-      hash = hash.substring(0, hash.length-1);
-      encText = CryptoJS.AES.encrypt(text, key, {
-        iv: iv,
+      var h = CryptoJS.lib.WordArray.random(16);
+      var passphrase  = h.toString(CryptoJS.enc.Base64);
+      encText = CryptoJS.AES.encrypt(text, passphrase, {
         mode: CryptoJS.mode.CBC,
         padding: CryptoJS.pad.Pkcs7
       });
+      h.concat(encText.salt);
+      hash = urlHashFy(h.toString(CryptoJS.enc.Base64));
     } else {
       encText = CryptoJS.AES.encrypt(text, passphrase, {
         mode: CryptoJS.mode.CBC,
         padding: CryptoJS.pad.Pkcs7
       });
       hash = urlHashFy(encText.salt.toString(CryptoJS.enc.Base64));
-      hash = hash.substring(0, hash.length-1);
       secret.passHash = CryptoJS.HmacSHA256(passphrase, hash).toString(CryptoJS.enc.Base64);
     }
     secret.data = encText.ciphertext.toString(CryptoJS.enc.Base64);
@@ -108,13 +105,19 @@ function SecureShare()
     encrypt(text, passphrase);
   });
 
-  var keyParts = [];
+  var hashSalt;
+  var hashPassPhrase;
+
   $("#show_button").click(function() {
     $("#error").hide();
     var secret = {};
-    if (keyParts.length == 1) {
-      var passphrase = $("#passphrase").val();
-      secret.passHash = CryptoJS.HmacSHA256(passphrase, keyParts[0]).toString(CryptoJS.enc.Base64);
+    var passphrase = "";
+    if (hashPassPhrase) {
+      passphrase = hashPassPhrase;
+    } else {
+      passphrase = $("#passphrase").val();
+      var hash = urlHashFy(hashSalt.toString(CryptoJS.enc.Base64));
+      secret.passHash = CryptoJS.HmacSHA256(passphrase, hash).toString(CryptoJS.enc.Base64);
     }
     var id = window.location.pathname.split("/")
     secret.id = id[id.length-1]
@@ -124,19 +127,13 @@ function SecureShare()
       data: secret,
       dataType: "json"
     }).done(function(data) {
-      var dec = "";
-      if (keyParts.length == 1) {
-        dec = CryptoJS.enc.Utf8.stringify(CryptoJS.AES.decrypt(CryptoJS.lib.CipherParams.create({
-          ciphertext: CryptoJS.enc.Base64.parse(data.data), salt: base64KeyDecode(keyParts[0])
-          }), passphrase, {
-              mode: CryptoJS.mode.CBC,
-              padding: CryptoJS.pad.Pkcs7
-          }));
-      } else {
-        dec = CryptoJS.enc.Utf8.stringify(CryptoJS.AES.decrypt(data.data, base64KeyDecode(keyParts[1]), {
-          iv: base64KeyDecode(keyParts[0]),
+      var dec = CryptoJS.enc.Utf8.stringify(CryptoJS.AES.decrypt(CryptoJS.lib.CipherParams.create({
+        ciphertext: CryptoJS.enc.Base64.parse(data.data), salt: hashSalt
+        }), passphrase, {
+            mode: CryptoJS.mode.CBC,
+            padding: CryptoJS.pad.Pkcs7
         }));
-      }
+
       $("#first_div").hide();
       if (data.attach) {
         var d = JSON.parse(dec);
@@ -159,14 +156,19 @@ function SecureShare()
     window.location.href = '/';
   });
   if (window.location.pathname.match(/^\/s\//) && window.location.hash.length > 0) {
-    keyParts = window.location.hash.substring(1).split("|");
-    if (keyParts.length == 1) {
-      $("#passphrase_div").show()
-    } else if (keyParts.length != 2) {
+    var keyParts = base64KeyDecode(window.location.hash.substring(1));
+    if (keyParts.sigBytes == 8) {
+      hashSalt = keyParts;
+      $("#passphrase_div").show();
+    } else if (keyParts.sigBytes == 24) {
+      var h = keyParts.toString(CryptoJS.enc.Hex);
+      hashPassPhrase = CryptoJS.enc.Hex.parse(h.substring(0, 32)).toString(CryptoJS.enc.Base64);
+      hashSalt = CryptoJS.enc.Hex.parse(h.substring(32));
+      $("#show_button").show();
+    } else {
       showError("Incorrect link", "Your link has wrong structure");
       return;
     }
-    $("#show_button").show();
   }
 };
 

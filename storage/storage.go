@@ -4,6 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"io"
+	"strings"
 )
 
 type Storage interface {
@@ -21,5 +22,5 @@ func GenerateRandomId() (string, error) {
 	if _, err := io.ReadFull(rand.Reader, key); err != nil {
 		return "", IdGenerationError{err}
 	}
-	return base64.URLEncoding.EncodeToString(key), nil
+	return strings.Replace(base64.URLEncoding.EncodeToString(key), "=", "", -1), nil
 }

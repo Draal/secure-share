@@ -5,6 +5,8 @@ set -e
 GOOS=linux GOARCH=amd64 go build
 
 (cd public && bower install)
+
+node_modules/.bin/uglifyjs ./public/bower_components/crypto-js/crypto-js.js -c -o ./public/bower_components/crypto-js/crypto-js.min.js
 for i in `find public/bower_components/ -name "*.min.js"`
 do
 	gzip -c $i > $i.gz

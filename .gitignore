@@ -2,6 +2,7 @@ public/bower_components/
 node_modules/
 bin/
 pkgs/
+templates/ego.go
 secure-share
 *.min.js
 *.min.css
