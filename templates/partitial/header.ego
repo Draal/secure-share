@@ -5,9 +5,10 @@
   <script type="text/javascript" src="<%=ctx.Config.GetAssetUrl("crypto-js.js")%>"></script>
   <script type="text/javascript" src="<%=ctx.Config.GetAssetUrl("jquery.js")%>"></script>
   <script type="text/javascript" src="<%=ctx.Config.GetAssetUrl("share.js")%>"></script>
+  <title>Encrypt.One - share your sensetive information encrypted in your browser!</title>
 </head>
 <body>
 <ul class="w3-navbar w3-black" style="max-width:1000px;margin:auto">
-  <li><a href="/">SafeShare</a></li>
+  <li><a href="/">Encrypt.One</a></li>
   <li class="w3-right"><a href="#">About</a></li>
 </ul>

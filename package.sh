@@ -2,7 +2,7 @@
 
 set -e
 
-GOOS=linux GOARCH=amd64 go build
+GOOS=linux GOARCH=amd64 go build -o $1
 
 (cd public && bower install)
 
@@ -37,6 +37,6 @@ gitnum=`git rev-list v$release..HEAD --count`
 ver=${release}.${gitnum}-${githash}
 mkdir -p pkgs
 rm -f pkgs/*
-archive=pkgs/secure-share.$branch$ver.tar
-tar -cf $archive secure-share public
+archive=pkgs/$1.$branch$ver.tar
+tar -cf $archive $1 public
 gzip $archive
