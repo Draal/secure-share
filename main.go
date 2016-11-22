@@ -15,9 +15,9 @@ func main() {
 	}
 	http.HandleFunc("/", handler.Handler)
 
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "8080"
+	listen := os.Getenv("LISTEN")
+	if listen == "" {
+		listen = ":8080"
 	}
-	http.ListenAndServe(":"+port, nil)
+	http.ListenAndServe(listen, nil)
 }
