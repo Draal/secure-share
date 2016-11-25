@@ -2,6 +2,15 @@
 
 set -e
 
+go get github.com/benbjohnson/ego/cmd/ego
+go get github.com/FinalLevel/go-i18n/goi18n
+
+(cd translation
+$GOPATH/bin/goi18n *.all.json *.untranslated.json
+$GOPATH/bin/goi18n *.all.json
+)
+
+go generate
 GOOS=linux GOARCH=amd64 go build -o $1
 
 (cd public && bower install)
@@ -38,5 +47,5 @@ ver=${release}.${gitnum}-${githash}
 mkdir -p pkgs
 rm -f pkgs/*
 archive=pkgs/$1.$branch$ver.tar
-tar -cf $archive $1 public
+tar -cf $archive $1 translation public
 gzip $archive

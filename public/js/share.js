@@ -59,11 +59,30 @@ function SecureShare()
       data: secret,
       dataType: "json"
     }).done(function(data) {
+      $("#share_url").attr("share_id", data.id);
       $("#share_url").val(formLink(data.id, hash));
+      var expires = new Date(data.expires*1000);
+      $("#expires").find("b").html(expires);
       $("#link_div").show();
       $("#secret_div").hide();
+    }).fail(function(data) {
+      showError(data.responseJSON.error.code, data.responseJSON.error.message);
     });
   }
+  $("#delete_button").click(function() {
+    var id = $("#share_url").attr("share_id");
+    $.ajax({
+      url: baseLink() + "/g?id=" + id,
+      type: "delete",
+      dataType: "json"
+    }).done(function(data) {
+      $("#new_button").click();
+    }).fail(function(data) {
+      showError("Server error", "Couldn't delete share");
+      return;
+    });
+  });
+
   $("#re_share_button").click(function() {
     $("#encrypt_button").click();
   });
@@ -82,8 +101,9 @@ function SecureShare()
     var input = document.getElementById('source_file');
     if (input && input.files && input.files[0]) {
       var file = input.files[0];
-      if (file.size > 1024 * 128) { // 128 kb max file size
-        showError("Maximum file size exceed", "Maximum file size should not exceed 128kb");
+      var sourceFile = $("#source_file");
+      if (file.size > sourceFile.attr("maxsize")) {
+        showError(sourceFile.attr("maxsize-error-title"), sourceFile.attr("maxsize-error-message"));
         return;
       }
       var fr = new FileReader();

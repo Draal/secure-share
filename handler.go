@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bytes"
+	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"net/http"
@@ -22,7 +24,6 @@ type Handler struct {
 	defaultExpire         int64
 	badPasswords          map[string]int
 	maxWrongPasswordTries int
-	maxDataLength         int
 }
 
 type Data struct {
@@ -82,25 +83,39 @@ func (e BadRequest) FriendlyMessage() string {
 }
 
 func (h *Handler) postHandler(w http.ResponseWriter, r *http.Request, ctx *context.Context) {
-	data := Data{
-		Data:   r.FormValue("data"),
-		Hash:   r.FormValue("passHash"),
+	data := storage.Data{
 		Attach: r.FormValue("att") == "true",
 	}
-	if len(data.Data) > h.maxDataLength {
-		h.errorHandler(w, r, BadRequest{fmt.Errorf("Maximum data size has been exceeded %d out of %d", len(data.Data), h.maxDataLength)})
+	var err error
+	data.Data, err = base64.StdEncoding.DecodeString(r.FormValue("data"))
+	if err != nil {
+		h.errorHandler(w, r, BadRequest{fmt.Errorf("Data parse error: %s", err.Error())})
 		return
 	}
-	id, err := h.storage.Post(data, time.Now().Unix()+h.defaultExpire)
+	if hash := r.FormValue("passHash"); hash != "" {
+		data.PassHash, err = base64.StdEncoding.DecodeString(hash)
+		if err != nil {
+			h.errorHandler(w, r, BadRequest{fmt.Errorf("Passphrase hash parse error: %s", err.Error())})
+			return
+		}
+	}
+	if len(data.Data) > int(ctx.MaxFileSize)*2 { // allow twice size for encoding overheads
+		h.errorHandler(w, r, BadRequest{fmt.Errorf("Maximum data size has been exceeded %d out of %d", len(data.Data), ctx.MaxFileSize)})
+		return
+	}
+	expires := time.Now().Unix() + h.defaultExpire
+	id, err := h.storage.Post(data, expires)
 	if err != nil {
 		h.errorHandler(w, r, err)
 		return
 	}
 
 	answer := struct {
-		Id string `json:"id"`
+		Id      string `json:"id"`
+		Expires int64  `json:"expires"`
 	}{
-		Id: id,
+		Id:      id,
+		Expires: expires,
 	}
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	json.NewEncoder(w).Encode(answer)
@@ -112,21 +127,31 @@ func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request, ctx *contex
 		h.errorHandler(w, r, BadRequest{fmt.Errorf("Provide an id")})
 		return
 	}
-	data := Data{}
-	err := h.storage.Get(id, &data)
+	if r.Method == http.MethodDelete {
+		h.storage.Delete(id)
+		w.WriteHeader(http.StatusOK)
+		w.Write([]byte("{}"))
+		return
+	}
+	data, err := h.storage.Get(id)
 	if err != nil {
 		h.errorHandler(w, r, err)
 		return
 	}
-	if data.Hash != "" && data.Hash != r.FormValue("passHash") {
-		tryCount := h.badPasswords[id]
-		tryCount++
-		h.badPasswords[id] = tryCount
-		if tryCount >= h.maxWrongPasswordTries {
-			h.storage.Delete(id)
+	if len(data.PassHash) > 0 {
+		if passHash, err := base64.StdEncoding.DecodeString(r.FormValue("passHash")); err != nil {
+			h.errorHandler(w, r, BadRequest{fmt.Errorf("Passphrase hash parse error: %s", err.Error())})
+			return
+		} else if !bytes.Equal(data.PassHash, passHash) {
+			tryCount := h.badPasswords[id]
+			tryCount++
+			h.badPasswords[id] = tryCount
+			if tryCount >= h.maxWrongPasswordTries {
+				h.storage.Delete(id)
+			}
+			h.errorHandler(w, r, BadRequest{fmt.Errorf("Provide a correct passphrase %d tries left", h.maxWrongPasswordTries-tryCount)})
+			return
 		}
-		h.errorHandler(w, r, BadRequest{fmt.Errorf("Provide a correct passphrase %d tries left", h.maxWrongPasswordTries-tryCount)})
-		return
 	}
 	h.storage.Delete(id)
 
@@ -136,7 +161,7 @@ func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request, ctx *contex
 		Attach bool   `json:"attach,omitempty"`
 	}{
 		Id:     id,
-		Data:   data.Data,
+		Data:   base64.StdEncoding.EncodeToString(data.Data),
 		Attach: data.Attach,
 	}
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
@@ -155,8 +180,10 @@ var hashRe = regexp.MustCompile(`\.[0-9a-f]+(\.[a-z]+)$`)
 
 func (h *Handler) Handler(w http.ResponseWriter, r *http.Request) {
 	ctx := &context.Context{
-		Config: h.config,
+		Config:      h.config,
+		MaxFileSize: h.config.MaxFileSize,
 	}
+	ctx.T, ctx.CurrentLang = h.config.GetLanguage(r, "")
 	if r.URL.Path == "/" {
 		h.indexHandler(w, r, ctx)
 		return
@@ -180,13 +207,22 @@ func OpenHandlerFromEnv() (*Handler, error) {
 	if err != nil {
 		return nil, err
 	}
+	var st storage.Storage
+	switch os.Getenv("STORAGE_TYPE") {
+	case "disk":
+		st, err = storage.OpenDiskStorageFromEnv()
+		if err != nil {
+			return nil, fmt.Errorf("Coudn't open disk storage: %s", err.Error())
+		}
+	default:
+		st = storage.OpenMemoryStorage()
+	}
 	handler := Handler{
 		config:                config,
-		storage:               storage.OpenMemoryStorage(),
+		storage:               st,
 		badPasswords:          make(map[string]int),
-		defaultExpire:         3600 * 24 * 7,  // expire in a week by default
-		maxWrongPasswordTries: 3,              // allow only 3 password tries
-		maxDataLength:         128 * 3 * 1024, // tripple max file size because of base64 encoding overhead
+		defaultExpire:         3600 * 24 * 7, // expire in a week by default
+		maxWrongPasswordTries: 3,             // allow only 3 password tries
 	}
 	return &handler, nil
 }

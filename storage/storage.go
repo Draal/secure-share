@@ -7,15 +7,22 @@ import (
 	"strings"
 )
 
+type Data struct {
+	Data     []byte
+	PassHash []byte
+	Attach   bool
+}
+
 type Storage interface {
-	Post(data interface{}, expire int64) (string, error)
-	Get(id string, data interface{}) error
+	Post(data Data, expires int64) (string, error)
+	Get(id string) (Data, error)
 	Delete(id string) error
 }
 
 type IdGenerationError struct{ error }
 type DataError struct{ error }
 type NotFound struct{ error }
+type IoError struct{ error }
 
 func GenerateRandomId() (string, error) {
 	key := make([]byte, 16)

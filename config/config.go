@@ -4,9 +4,13 @@ import (
 	"fmt"
 	"hash/crc32"
 	"io/ioutil"
+	"net/http"
 	"os"
 	"path"
+	"strconv"
 	"strings"
+
+	"github.com/FinalLevel/go-i18n/i18n"
 )
 
 type Config struct {
@@ -14,6 +18,7 @@ type Config struct {
 	UseMinified bool
 	UseHashing  bool
 	assets      map[string]string
+	MaxFileSize int64
 }
 
 func (c *Config) calcAssetCrc32(p string) (string, error) {
@@ -64,15 +69,38 @@ func (c *Config) GetAssetUrl(name string) string {
 	return c.assets[name]
 }
 
+func (c *Config) loadTranslationFiles() error {
+	if err := i18n.LoadTranslationFile("translation/en-us.all.json"); err != nil {
+		return err
+	}
+	return nil
+}
+
+const (
+	LangEnglish = "en-us"
+)
+
+func (c *Config) GetLanguage(req *http.Request, setLang string) (t i18n.TranslateFunc, lang string) {
+	acceptLang := req.Header.Get("Accept-Language")
+	transF, _, resLang := i18n.Tfunc(setLang, acceptLang, LangEnglish)
+	return transF, resLang[:2]
+}
+
 func OpenFromEnv() (*Config, error) {
 	config := Config{
 		Root:        "./public",
 		UseMinified: os.Getenv("USE_MINIFIED") != "",
 		UseHashing:  os.Getenv("USE_HASHING") != "",
+		MaxFileSize: 5 * 1024 * 1024,
 	}
-	err := config.calcAssetsCrc32()
-	if err != nil {
-		return nil, fmt.Errorf("Can't calculate crc32: %s", err.Error())
+	if maxFileSize, _ := strconv.ParseInt(os.Getenv("MAX_FILE_SIZE"), 10, 64); maxFileSize > 0 {
+		config.MaxFileSize = maxFileSize
+	}
+	if err := config.calcAssetsCrc32(); err != nil {
+		return nil, fmt.Errorf("Couldn't calculate crc32: %s", err.Error())
+	}
+	if err := config.loadTranslationFiles(); err != nil {
+		return nil, fmt.Errorf("Couldn't load translation files: %s", err.Error())
 	}
 	return &config, nil
 }

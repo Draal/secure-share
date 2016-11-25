@@ -6,3 +6,4 @@ templates/ego.go
 secure-share
 *.min.js
 *.min.css
+translation/*.untranslated.json

@@ -12,26 +12,26 @@
   </div>
   <div style="display:none" class="w3-container w3-card-4 w3-light-grey" id="secret_div">
     <p>
-      <label class="w3-label w3-text-black">Shared secret:</label>
+      <label class="w3-label w3-text-black"><%=ctx.T("label_shared_secret")%>:</label>
       <textarea cols="80" rows="5" id="source" class="w3-input w3-border w3-round-large"></textarea>
     </p>
     <p>
-      <p class="w3-label w3-text-black" style="display:none" id="secret_file">Shared file: <a></a></p>
+      <p class="w3-label w3-text-black" style="display:none" id="secret_file"><%=ctx.T("label_shared_file")%>: <a></a></p>
     </p>
-    <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large new_share">Share another secret</button></div>
+    <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large new_share"><%=ctx.T("new_button")%></button></div>
   </div>
 
   <div class="w3-container w3-card-4 w3-light-grey w3-padding-bottom" id="first_div">
     <p style="width:50%;display:none" id="passphrase_div">
-      <label class="w3-label w3-text-black">Passphrase:</label>
+      <label class="w3-label w3-text-black"><%=ctx.T("label_decode_passphrase")%>:</label>
       <input type="password"  id="passphrase" class="w3-input w3-border w3-round-large"/>
     </p>
     <div class="w3-row-padding">
       <div class="w3-half">
-        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="show_button">Show Secret</button></div>
+        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="show_button"><%=ctx.T("show_secret_button")%></button></div>
       </div>
       <div class="w3-half">
-        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large new_share">Share another secret</button></div>
+        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large new_share"><%=ctx.T("new_button")%></button></div>
       </div>
     </div>
   </div>

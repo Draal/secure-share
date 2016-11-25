@@ -1,15 +1,14 @@
 package storage
 
 import (
-	"encoding/json"
 	"fmt"
 	"sync"
 	"time"
 )
 
 type memoryItem struct {
-	Data   []byte
-	Expire int64
+	Data
+	Expires int64
 }
 type memoryItemMap map[string]memoryItem
 
@@ -18,11 +17,7 @@ type Memory struct {
 	sync sync.Mutex
 }
 
-func (m *Memory) Post(data interface{}, expire int64) (string, error) {
-	dataBytes, err := json.Marshal(data)
-	if err != nil {
-		return "", DataError{err}
-	}
+func (m *Memory) Post(data Data, expires int64) (string, error) {
 	m.sync.Lock()
 	defer m.sync.Unlock()
 
@@ -34,22 +29,19 @@ func (m *Memory) Post(data interface{}, expire int64) (string, error) {
 		if _, present := m.data[id]; present {
 			continue
 		}
-		m.data[id] = memoryItem{
-			Data:   dataBytes,
-			Expire: expire,
-		}
+		m.data[id] = memoryItem{Data: data, Expires: expires}
 		return id, nil
 	}
 	return "", IdGenerationError{fmt.Errorf("Could not find unique id")}
 }
 
-func (m *Memory) Get(id string, data interface{}) error {
+func (m *Memory) Get(id string) (Data, error) {
 	m.sync.Lock()
 	defer m.sync.Unlock()
-	if d, present := m.data[id]; present && d.Expire > time.Now().Unix() {
-		return json.Unmarshal(d.Data, data)
+	if d, present := m.data[id]; present && d.Expires > time.Now().Unix() {
+		return d.Data, nil
 	} else {
-		return NotFound{fmt.Errorf("Id %s not found", id)}
+		return Data{}, NotFound{fmt.Errorf("Id %s not found", id)}
 	}
 }
 
@@ -66,7 +58,7 @@ func (m *Memory) gc() {
 	m.sync.Lock()
 	defer m.sync.Unlock()
 	for key, val := range m.data {
-		if val.Expire > now {
+		if val.Expires > now {
 			saveItems[key] = val
 		}
 	}

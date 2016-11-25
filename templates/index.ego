@@ -12,31 +12,41 @@
   </div>
   <div class="w3-container w3-card-4 w3-light-grey" id="secret_div">
     <p>
-      <label class="w3-label w3-text-black">Your secret:</label>
+      <label class="w3-label w3-text-black"><%=ctx.T("label_your_secret")%>:</label>
       <textarea cols="80" rows="5" id="source" class="w3-input w3-border w3-round-large"></textarea>
     </p>
     <p>
-      <label class="w3-label w3-text-black">Your secret file (128kB max):</label>
-      <input type="file" id="source_file">
+<%
+  stringMaxFileSize := ctx.GetMaxFileSizeString()
+%>
+      <label class="w3-label w3-text-black"><%=ctx.T("label_your_file", map[string]interface{}{
+        "Limit": stringMaxFileSize,
+      })%>:</label>
+      <input type="file" id="source_file" maxsize="<%=ctx.MaxFileSize%>" maxsize-error-title="<%=ctx.T("maxsize-error-title")%>", maxsize-error-message="<%=ctx.T("maxsize-error-message", map[string]interface{}{
+        "Limit": stringMaxFileSize,
+      })%>">
     </p>
     <p style="width:50%">
-      <label class="w3-label w3-text-black">Passphrase (Optional):</label>
+      <label class="w3-label w3-text-black"><%=ctx.T("label_passphrase")%>:</label>
       <input type="password"  id="passphrase" class="w3-input w3-border w3-round-large"/>
     </p>
-
-    <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="encrypt_button">Encrypt and get link</button></div>
+    <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="encrypt_button"><%=ctx.T("encrypt_button")%></button></div>
   </div>
   <div class="w3-panel w3-light-grey w3-leftbar w3-border-green" style="display:none" id="link_div">
     <p>
-      <label class="w3-label w3-text-black">Safely share this link:</label>
+      <label class="w3-label w3-text-black"><%=ctx.T("label_share_link")%>:</label>
       <input type="text" class="w3-input w3-border w3-round-large" id="share_url" onfocus="this.select()" onclick="this.select()" />
+      <p class="w3-label w3-text-black" id="expires"><%=ctx.T("expires")%>: <b></b></p>
     </p>
     <div class="w3-row-padding">
-      <div class="w3-half">
-        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="re_share_button">Get another link</button></div>
+      <div class="w3-third">
+        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="re_share_button"><%=ctx.T("re_share_button")%></button></div>
       </div>
-      <div class="w3-half">
-        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="new_button">Share another secret</button></div>
+      <div class="w3-third">
+        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-red w3-round-large" id="delete_button"><%=ctx.T("delete_button")%></button></div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="new_button"><%=ctx.T("new_button")%></button></div>
       </div>
     </div>
   </div>
