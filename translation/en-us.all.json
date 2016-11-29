@@ -1,70 +1,70 @@
 [
   {
-    "id": "title",
-    "translation": "Encrypt.One - share your sensetive information securely encrypted in your browser!"
-  },
-  {
-    "id": "label_your_secret",
-    "translation": "Your secret"
-  },
-  {
-    "id": "maxsize-error-title",
-    "translation": "Maximum file size exceed"
-  },
-  {
-    "id": "maxsize-error-message",
-    "translation": "Maximum file size should not exceed {{.Limit}}"
-  },
-  {
-    "id": "label_your_file",
-    "translation": "Your secret file ({{.Limit}} max)"
-  },
-  {
-    "id": "label_passphrase",
-    "translation": "Passphrase (Optional)"
-  },
-  {
-    "id": "label_decode_passphrase",
-    "translation": "Passphrase"
+    "id": "delete_button",
+    "translation": "Delete"
   },
   {
     "id": "encrypt_button",
     "translation": "Encrypt and get link"
   },
   {
-    "id": "re_share_button",
-    "translation": "Get another link"
+    "id": "expires",
+    "translation": "Expires"
   },
   {
-    "id": "delete_button",
-    "translation": "Delete"
+    "id": "label_decode_passphrase",
+    "translation": "Passphrase"
   },
   {
-    "id": "new_button",
-    "translation": "Share another secret"
-  },
-  {
-    "id": "show_secret_button",
-    "translation": "Show Secret"
+    "id": "label_passphrase",
+    "translation": "Passphrase (Optional)"
   },
   {
     "id": "label_share_link",
     "translation": "Safely share this link"
   },
   {
-    "id": "expires",
-    "translation": "Expires"
+    "id": "label_shared_file",
+    "translation": "Shared file"
   },
   {
     "id": "label_shared_secret",
     "translation": "Shared secret"
   },
   {
-    "id": "label_shared_file",
-    "translation": "Shared file"
+    "id": "label_your_file",
+    "translation": "Your secret file ({{.Limit}} max)"
+  },
+  {
+    "id": "label_your_secret",
+    "translation": "Your secret"
+  },
+  {
+    "id": "maxsize-error-message",
+    "translation": "Maximum file size should not exceed {{.Limit}}"
+  },
+  {
+    "id": "maxsize-error-title",
+    "translation": "Maximum file size exceed"
   },
   {
     "id": "menu_about",
     "translation": "About"
+  },
+  {
+    "id": "new_button",
+    "translation": "Share another secret"
+  },
+  {
+    "id": "re_share_button",
+    "translation": "Get another link"
+  },
+  {
+    "id": "show_secret_button",
+    "translation": "Show Secret"
+  },
+  {
+    "id": "title",
+    "translation": "Encrypt.One - share your sensetive information securely encrypted in your browser!"
   }
 ]

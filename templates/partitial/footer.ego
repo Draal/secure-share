@@ -1,3 +1,13 @@
 <%! func Footer(w io.Writer, ctx *context.Context) error %>
+<div class="w3-main w3-content" style="max-width:1000px">
+  <div class="w3-panel w3-light-grey w3-leftbar w3-border-green">
+    <h3>Why it is safer to use <a href="https://encrypt.one/">encrypt.one</a> than the other services?</h3>
+    <ul>
+      <li>All information is encrypted by AES 256 bit encryption with either your passphrase or a randomly generated key on <b>your browser side</b>. As a result nothing can be decrypted on the server.</li>
+      <li>Even when you do not provide a passphrase, we put a randomly generated key into the hash part of the link which is never sent to the server. As a result your information can be decrypted only on the client (browser) side, and only by the person who you send the link to.</li>
+      <li>The source codes are open source and available on <a href="https://github.com/Draal/secure-share" target="_blank">Github</a>.</li>
+    </ul>
+  </div>
+</div>
 </body>
 </html>
