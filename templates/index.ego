@@ -1,55 +1,128 @@
 <%% import (
         "github.com/Draal/secure-share/context"
+        "time"
 )
 %%><%! func Index(w io.Writer, ctx *context.Context) error %><%
   Header(w, ctx)
 %>
-<div class="w3-main w3-content" style="max-width:1000px">
-  <div class="w3-panel w3-red" id="error" style="display:none">
-    <span onclick="this.parentElement.style.display='none'" class="w3-closebtn">&times;</span>
-    <h3></h3>
-    <p></p>
-  </div>
-  <div class="w3-container w3-card-4 w3-light-grey" id="secret_div">
-    <p>
-      <label class="w3-label w3-text-black"><%=ctx.T("label_your_secret")%>:</label>
-      <textarea cols="80" rows="5" id="source" class="w3-input w3-border w3-round-large"></textarea>
-    </p>
-    <p>
+<div class="w3-container" id="secret_div">
+	<h1 class="w3-margin-top w3-text-grey w3-center"><%=ctx.T("index_h1")%></h1>
+
+	<div class="w3-panel w3-red" id="error" style="display:none">
+		<span onclick="this.parentElement.style.display='none'" class="w3-closebtn">&times;</span>
+		<p></p>
+	</div>
+
+	<p>
+		<textarea cols="80" rows="3" id="source" class="w3-input w3-border w3-round" placeholder="<%=ctx.T("placeholder_secret")%>"></textarea>
+		<span class="e-link" id="generate-secret"><%=ctx.T("generate_secret")%></span>
+	</p>
+	<p class="w3-text-grey b-file"/>
 <%
   stringMaxFileSize := ctx.GetMaxFileSizeString()
 %>
-      <label class="w3-label w3-text-black"><%=ctx.T("label_your_file", map[string]interface{}{
-        "Limit": stringMaxFileSize,
-      })%>:</label>
-      <input type="file" id="source_file" maxsize="<%=ctx.MaxFileSize%>" maxsize-error-title="<%=ctx.T("maxsize-error-title")%>", maxsize-error-message="<%=ctx.T("maxsize-error-message", map[string]interface{}{
-        "Limit": stringMaxFileSize,
-      })%>">
-    </p>
-    <p style="width:50%">
-      <label class="w3-label w3-text-black"><%=ctx.T("label_passphrase")%>:</label>
-      <input type="password"  id="passphrase" class="w3-input w3-border w3-round-large"/>
-    </p>
-    <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="encrypt_button"><%=ctx.T("encrypt_button")%></button></div>
-  </div>
-  <div class="w3-panel w3-light-grey w3-leftbar w3-border-green" style="display:none" id="link_div">
-    <p>
-      <label class="w3-label w3-text-black"><%=ctx.T("label_share_link")%>:</label>
-      <input type="text" class="w3-input w3-border w3-round-large" id="share_url" onfocus="this.select()" onclick="this.select()" />
-      <p class="w3-label w3-text-black" id="expires"><%=ctx.T("expires")%>: <b></b></p>
-    </p>
-    <div class="w3-row-padding">
-      <div class="w3-third">
-        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="re_share_button"><%=ctx.T("re_share_button")%></button></div>
-      </div>
-      <div class="w3-third">
-        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-red w3-round-large" id="delete_button"><%=ctx.T("delete_button")%></button></div>
-      </div>
-      <div class="w3-third">
-        <div class="w3-center w3-padding-medium"><button class="w3-btn w3-green w3-round-large" id="new_button"><%=ctx.T("new_button")%></button></div>
-      </div>
-    </div>
-  </div>
+		<span class="t-file" id="t-file"><%=ctx.T("drag_or_upload", map[string]interface{}{
+      "Limit": stringMaxFileSize,
+    })%></span>
+    <input type="file" id="source_file" tabindex="-1" maxsize="<%=ctx.MaxFileSize%>" maxsize-error-title="<%=ctx.T("maxsize-error-title")%>", maxsize-error-message="<%=ctx.T("maxsize-error-message", map[string]interface{}{
+      "Limit": stringMaxFileSize,
+    })%>">
+	</p>
+	<p class="w3-padding-bottom">
+		<input type="password" id="passphrase" class="w3-input w3-border w3-round" placeholder="<%=ctx.T("placeholder_passphrase")%>"/>
+		<span class="e-link" id="generate-passphrase"><%=ctx.T("generate_passphrase")%></span>
+	</p>
+
+	<p class="w3-row w3-padding-16">
+		<button class="w3-input w3-btn w3-green w3-border-0 w3-round" id="encrypt_button"><%=ctx.T("encrypt_button")%></button>
+	</p>
+
+<!--/secret_div-->
 </div>
 
+<div class="w3-container w3-padding-16" id="link_div" style="display:none;">
+	<p>
+		<label for="share_url"><%=ctx.T("label_share_link")%>:</label>
+		<input type="text" class="w3-input w3-border w3-round" id="share_url" onfocus="this.select()" onclick="this.select()" />
+	</p>
+
+	<p class="w3-padding-bottom w3-text-grey w3-small" id="expires" label="<%=ctx.T("expires")%>:"></p>
+
+	<p class="w3-row w3-padding-16">
+		<button class="w3-left w3-btn w3-blue w3-border-0 w3-round" id="re_share_button"><%=ctx.T("re_share_button")%></button>
+		<button class="w3-right w3-btn w3-brown w3-border-0 w3-round" id="delete_button"><%=ctx.T("delete_button")%></button>
+	</p>
+	<p>
+		<button class="w3-input w3-btn w3-green w3-border-0 w3-round" id="new_button"><%=ctx.T("new_button")%></button>
+	</p>
+<!--/link_div-->
+</div>
+
+<div id="generator_div" class="w3-modal">
+	<div class="w3-modal-content w3-animate-zoom w3-card-4 w3-container w3-padding-16">
+		<header class="w3-container">
+      <span onclick='$("#generator_div").hide()' class="w3-closebtn">&times;</span>
+			<h3 class="w3-text-grey"><%=ctx.T("generator_h3")%></h3>
+		</header>
+
+		<div class="w3-container">
+			<label class="w3-text-grey"><%=ctx.T("gn_character_sets")%>:</label>
+			<div class="w3-row w3-padding-bottom">
+				<div class="w3-third">
+					<input id="generator_upper" class="w3-check" type="checkbox" checked />
+					<label class="w3-validate" for="generator_upper"><%=ctx.T("gn_upper_letters")%></label>
+					<br />
+					<input id="generator_dashes" class="w3-check" type="checkbox" />
+					<label class="w3-validate" for="generator_dashes"><%=ctx.T("gn_dashes")%></label>
+				</div>
+				<div class="w3-third">
+					<input id="generator_special" class="w3-check" type="checkbox" />
+					<label class="w3-validate" for="generator_special"><%=ctx.T("gn_spacial_characters")%></label>
+					<br />
+					<input id="generator_lower" class="w3-check" type="checkbox" checked />
+					<label class="w3-validate" for="generator_lower"><%=ctx.T("gn_lower_letters")%></label>
+				</div>
+				<div class="w3-third">
+					<input id="generator_number" class="w3-check" type="checkbox" checked />
+					<label class="w3-validate" for="generator_number"><%=ctx.T("gn_numbers")%></label>
+					<br />
+					<input id="generator_spaces" class="w3-check" type="checkbox" />
+					<label class="w3-validate" for="generator_spaces"><%=ctx.T("gn_white_spaces")%></label>
+				</div>
+			<!--/fieldset-->
+			</div>
+		</div>
+
+		<div class="w3-row w3-padding">
+			<label class="w3-text-grey" for="generator_length"><%=ctx.T("gn_length")%>:</label>
+			<input type="number" class="w3-input w3-border w3-round" id="generator_length" value="12" size="3" maxlength="3" max="128" pattern="[0-9]{2}" style="width: auto!important;" />
+		</div>
+
+		<div class="w3-row w3-padding">
+			<label class="w3-text-grey"><%=ctx.T("gn_quality")%>:</label>
+			<div class="w3-progress-container w3-round-xlarge">
+				<div id="generator_quality" class="w3-progressbar w3-blue-grey w3-round-xlarge" style="width:25%">
+					<div class="w3-center w3-text-white">25%</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="w3-row w3-padding">
+			<label class="w3-text-grey" for="generator_psw"><%=ctx.T("gn_password")%>:</label>
+			<div class="w3-col w3-right w3-center" style="width:64px;margin-top:24px;">
+				<span id="generator_regen" style="cursor:pointer;" title="Re-Generate"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"><path fill="#0074E0" d="M24.5,7.5C22.3,5.3,19.3,4,16,4C9.4,4,4,9.4,4,16c0,6.6,5.4,12,12,12c5.6,0,10.3-3.8,11.6-9 h-3.1c-1.2,3.5-4.6,6-8.5,6c-5,0-9-4-9-9c0-5,4-9,9-9c2.5,0,4.7,1,6.3,2.7l-4.8,4.8H28V4L24.5,7.5z"/></svg></span>
+			</div>
+			<div class="w3-rest">
+				<input type="text" class="w3-input w3-border w3-round" id="generator_psw" value="" onfocus="this.select()" onclick="this.select()" />
+			</div>
+		</div>
+
+		<footer class="w3-container w3-margin-top">
+			<p class="w3-margin-top">
+				<button class="w3-input w3-btn w3-blue w3-border-0 w3-round" id="generator_secret_btn" style="display:none"><%=ctx.T("generator_insert_secret")%></button>
+        <button class="w3-input w3-btn w3-blue w3-border-0 w3-round" id="generator_passphrase_btn" style="display:none"><%=ctx.T("generator_insert_passphrase")%></button>
+			</p>
+		</footer>
+	</div>
+</div>
 <% Footer(w, ctx) %>

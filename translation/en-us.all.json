@@ -16,8 +16,8 @@
     "translation": "Passphrase"
   },
   {
-    "id": "label_passphrase",
-    "translation": "Passphrase (Optional)"
+    "id": "placeholder_passphrase",
+    "translation": "Type Passphrase (optional)"
   },
   {
     "id": "label_share_link",
@@ -32,12 +32,12 @@
     "translation": "Shared secret"
   },
   {
-    "id": "label_your_file",
+    "id": "drag_or_upload",
     "translation": "Your secret file ({{.Limit}} max)"
   },
   {
-    "id": "label_your_secret",
-    "translation": "Your secret"
+    "id": "placeholder_secret",
+    "translation": "Type your Secret"
   },
   {
     "id": "maxsize-error-message",

@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"math/rand"
 	"os"
 	"path"
 	"path/filepath"
@@ -25,7 +24,7 @@ type Disk struct {
 }
 
 func (s *Disk) FormPath(id string) string {
-	return fmt.Sprintf("%s/%s/%s", s.paths[rand.Int()%len(s.paths)], id[:1], id)
+	return fmt.Sprintf("%s/%s/%s", s.paths[(int(id[0])+int(id[1]))%len(s.paths)], id[:1], id)
 }
 
 func (s *Disk) Post(data Data, expires int64) (string, error) {

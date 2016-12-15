@@ -62,12 +62,18 @@ function SecureShare()
       $("#share_url").attr("share_id", data.id);
       $("#share_url").val(formLink(data.id, hash));
       var expires = new Date(data.expires*1000);
-      $("#expires").find("b").html(expires);
+      $("#expires").html($("#expires").attr("label") + " " + expires);
       $("#link_div").show();
       $("#secret_div").hide();
     }).fail(function(data) {
       showError(data.responseJSON.error.code, data.responseJSON.error.message);
     });
+  }
+  var resetFile = function() {
+    if ($("#t-file").attr("label")) {
+      $("#t-file").html($("#t-file").attr("label"));
+    }
+    $("#source_file").val("");
   }
   $("#delete_button").click(function() {
     var id = $("#share_url").attr("share_id");
@@ -91,7 +97,42 @@ function SecureShare()
     $("#secret_div").show();
     $("#passphrase").val("");
     $("#source").val("");
-    $("#source_file").val("");
+    resetFile();
+  });
+
+
+  var stringFileSize = function(size) {
+    var s = size / (1024 * 1024);
+    if (s > 1) {
+      s = Math.floor(s)
+      return s + "." + Math.round(((size - (s *(1024 * 1024)))  / (1024 * 1024)) *10) + "MB";
+    } else {
+      s = Math.floor(size / 1024);
+      if (s < 99) {
+        return s + "." + Math.round(((size - (s *1024))  / 1024) *10) + "KB";
+      } else {
+        return Math.round(size / 1024) + "KB";
+      }
+    }
+  };
+  $("#source_file").change(function() {
+    var input = document.getElementById('source_file');
+    if (input && input.files && input.files[0]) {
+      var file = input.files[0];
+      var sourceFile = $("#source_file");
+      if (file.size > sourceFile.attr("maxsize")) {
+        resetFile();
+        showError(sourceFile.attr("maxsize-error-title"), sourceFile.attr("maxsize-error-message"));
+        return;
+      }
+      if (!$("#t-file").attr("label")) {
+        $("#t-file").attr("label", $("#t-file").html());
+      }
+      $("#t-file").html(file.name + " (" + stringFileSize(file.size) + ")");
+      return
+    } else {
+      resetFile();
+    }
   });
 
   $("#encrypt_button").click(function() {
@@ -190,6 +231,100 @@ function SecureShare()
       return;
     }
   }
+
+  $("#generate-secret").click(function() {
+    $("#generator_secret_btn").show();
+    $("#generator_passphrase_btn").hide();
+    regenerate();
+    $("#generator_div").show();
+  });
+  $("#generate-passphrase").click(function() {
+    $("#generator_secret_btn").hide();
+    $("#generator_passphrase_btn").show();
+    regenerate();
+    $("#generator_div").show();
+  });
+
+  var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+  var digits = "0123456789";
+  var dashes = "-_";
+  var special = ";#$^<>{}[].()";
+  var space = " ";
+  var regenerate = function() {
+    var set = [];
+    if ($("#generator_upper").prop("checked")) {
+      set = set.concat(upperCase.split(""));
+    }
+    if ($("#generator_lower").prop("checked")) {
+      set = set.concat(lowerCase.split(""));
+    }
+    if ($("#generator_number").prop("checked")) {
+      set = set.concat(digits.split(""));
+    }
+    if ($("#generator_dashes").prop("checked")) {
+      set = set.concat(dashes.split(""));
+    }
+    if ($("#generator_special").prop("checked")) {
+      set = set.concat(special.split(""));
+    }
+    if ($("#generator_spaces").prop("checked")) {
+      set = set.concat([" "]);
+    }
+    var length = parseInt($("#generator_length").val());
+    var password = "";
+    var words = CryptoJS.lib.WordArray.random(length*4).words;
+    for (var i = 0; i < length; i++) {
+      var l = set.length;
+      if (i == 0 || i == length - 1) { // don't put spaces in front & back of the password
+        l -= 1;
+      }
+      password += set[Math.abs(words[i]) % l];
+    }
+    var sets = {};
+    var variants = 0;
+    for (var i = 0; i < password.length; i++) {
+      if (!sets["upperCase"] && upperCase.indexOf(password[i]) != -1) {
+        sets["upperCase"] = 1;
+        variants += upperCase.length;
+      } else if (!sets["lowerCase"] && lowerCase.indexOf(password[i]) != -1) {
+        sets["lowerCase"] = 1;
+        variants += lowerCase.length;
+      } else if (!sets["digits"] && digits.indexOf(password[i]) != -1) {
+        sets["digits"] = 1;
+        variants += digits.length;
+      } else if (!sets["dashes"] && dashes.indexOf(password[i]) != -1) {
+        sets["dashes"] = 1;
+        variants += dashes.length;
+      } else if (!sets["special"] && special.indexOf(password[i]) != -1) {
+        sets["special"] = 1;
+        variants += special.length;
+      } else if (!sets["spaces"] && password[i] == " ") {
+        sets["spaces"] = 1;
+        variants += 1;
+      }
+    }
+    var years = Math.pow(variants, length) / (34250000 * 3600 * 24 * 360);
+    if (years > 400000) {
+      years = 400000;
+    }
+    var quality = Math.round((years / 400000) * 100) + '%';
+    $("#generator_quality").width(quality).find("div").html(quality);
+    console.log(variants, length, years, quality);
+
+    $("#generator_psw").val(password);
+  };
+  $("#generator_div").find("input[type=checkbox]").change(regenerate);
+  $("#generator_length").change(regenerate);
+  $("#generator_regen").click(regenerate);
+  $("#generator_secret_btn").click(function() {
+    $("#source").val($("#generator_psw").val());
+    $("#generator_div").hide();
+  });
+  $("#generator_passphrase_btn").click(function() {
+    $("#passphrase").val($("#generator_psw").val());
+    $("#generator_div").hide();
+  });
 };
 
 $(function() {
