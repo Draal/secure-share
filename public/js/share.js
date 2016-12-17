@@ -21,9 +21,11 @@ function SecureShare()
     return baseLink() + "/s/"+id+"#" + hash
   }
 
-  var showError = function(title, message) {
+  var showError = function(code, message) {
     var err = $("#error");
-    err.find("h3").html(title);
+    if (message == "") {
+      message = code;
+    }
     err.find("p").html(message);
     err.show();
   }
@@ -210,6 +212,10 @@ function SecureShare()
       }
       $("#secret_div").show();
     }).fail(function(data){
+      if (data.responseJSON.error.code == "Secure.Share.NotFound") {
+        $("#new_button").show();
+        $("#show_button").hide();
+      }
       showError(data.responseJSON.error.code, data.responseJSON.error.message);
     });
   })
