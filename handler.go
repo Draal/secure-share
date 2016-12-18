@@ -176,6 +176,25 @@ func (h *Handler) showHandler(w http.ResponseWriter, r *http.Request, ctx *conte
 	template.Show(w, ctx)
 }
 
+func (h *Handler) SaveLanguageToCookie(lang string, w http.ResponseWriter) {
+	expire := time.Now().AddDate(5, 0, 0)
+	cookie := http.Cookie{
+		Name:    "lang",
+		Value:   lang,
+		Path:    "/",
+		Expires: expire,
+	}
+	http.SetCookie(w, &cookie)
+}
+
+func (h *Handler) GetLanguageFromCookie(r *http.Request) string {
+	lang, _ := r.Cookie("lang")
+	if lang != nil {
+		return lang.Value
+	}
+	return ""
+}
+
 var hashRe = regexp.MustCompile(`\.[0-9a-f]+(\.[a-z]+)$`)
 
 func (h *Handler) Handler(w http.ResponseWriter, r *http.Request) {
@@ -183,7 +202,20 @@ func (h *Handler) Handler(w http.ResponseWriter, r *http.Request) {
 		Config:      h.config,
 		MaxFileSize: h.config.MaxFileSize,
 	}
-	ctx.T, ctx.CurrentLang = h.config.GetLanguage(r, "")
+	setLanguage := ""
+	if len(r.URL.Path) >= 4 {
+		for _, l := range ctx.Config.Languages {
+			if strings.HasPrefix(r.URL.Path[1:], l.Iso) {
+				setLanguage = l.Code
+				r.URL.Path = "/"
+				break
+			}
+		}
+		h.SaveLanguageToCookie(setLanguage, w)
+	} else {
+		setLanguage = h.GetLanguageFromCookie(r)
+	}
+	ctx.T, ctx.CurrentLang = h.config.GetLanguage(r, setLanguage)
 	if r.URL.Path == "/" {
 		h.indexHandler(w, r, ctx)
 		return

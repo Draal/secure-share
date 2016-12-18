@@ -13,12 +13,20 @@ import (
 	"github.com/FinalLevel/go-i18n/i18n"
 )
 
+type Language struct {
+	Code      string
+	Iso       string
+	Name      string
+	ShortName string
+}
+
 type Config struct {
 	Root        string
 	UseMinified bool
 	UseHashing  bool
 	assets      map[string]string
 	MaxFileSize int64
+	Languages   []Language
 }
 
 func (c *Config) calcAssetCrc32(p string) (string, error) {
@@ -73,7 +81,20 @@ func (c *Config) loadTranslationFiles() error {
 	if err := i18n.LoadTranslationFile("translation/en-us.all.json"); err != nil {
 		return err
 	}
+	c.Languages = []Language{
+		Language{Code: "en-us", Iso: "eng", Name: "English", ShortName: "ENG"},
+		Language{Code: "ru-ru", Iso: "rus", Name: "Русский", ShortName: "РУС"},
+	}
 	return nil
+}
+
+func (c *Config) GetLanguageByCode(code string) Language {
+	for _, l := range c.Languages {
+		if l.Code == code {
+			return l
+		}
+	}
+	return Language{}
 }
 
 const (
@@ -83,7 +104,7 @@ const (
 func (c *Config) GetLanguage(req *http.Request, setLang string) (t i18n.TranslateFunc, lang string) {
 	acceptLang := req.Header.Get("Accept-Language")
 	transF, _, resLang := i18n.Tfunc(setLang, acceptLang, LangEnglish)
-	return transF, resLang[:2]
+	return transF, resLang
 }
 
 func OpenFromEnv() (*Config, error) {

@@ -30,6 +30,20 @@ function SecureShare()
     err.show();
   }
 
+  var getRandomBytes = function(length) {
+    var array = new Uint8Array(length);
+    if (window.crypto) {
+      console.log("Using window.crypto");
+      window.crypto.getRandomValues(array);
+      return array;
+    } else {
+      console.log("Using math random");
+      for (i = 0; i < array.length; i++) {
+        array[i] = Math.random() * 255;
+      }
+    }
+  }
+
   var encrypt = function(text, passphrase, attach) {
     var secret = {
       att: attach,
@@ -279,7 +293,7 @@ function SecureShare()
     }
     var length = parseInt($("#generator_length").val());
     var password = "";
-    var words = CryptoJS.lib.WordArray.random(length*4).words;
+    var words = getRandomBytes(length);
     for (var i = 0; i < length; i++) {
       var l = set.length;
       if (i == 0 || i == length - 1) { // don't put spaces in front & back of the password

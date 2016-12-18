@@ -1,6 +1,10 @@
-<%! func Header(w io.Writer, ctx *context.Context) error %><!DOCTYPE html>
+<%% import (
+        "github.com/Draal/secure-share/config"
+        "time"
+)
+%%><%! func Header(w io.Writer, ctx *context.Context) error %><!DOCTYPE html>
 <!DOCTYPE html>
-<html lang="<%=ctx.CurrentLang%>">
+<html lang="<%=ctx.CurrentLang[:2]%>">
 <head itemtype="http://schema.org/WebSite">
 	<title><%=ctx.T("title")%></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -36,12 +40,17 @@
 	<div class="w3-main w3-content">
 	<div class="w3-row">
 		<div class="w3-dropdown-hover w3-right w3-margin-right">
-			<span class="w3-padding w3-text-grey w3-border w3-round w3-small">EN</span>
+			<span class="w3-padding w3-text-grey w3-border w3-round w3-small"><%=ctx.Config.GetLanguageByCode(ctx.CurrentLang).ShortName%></span>
 			<div class="w3-dropdown-content w3-card-4 w3-border w3-small">
-				<a href="#">DE</a>
-				<a href="#">FR</a>
-				<a href="#">РУ</a>
-				<a href="#">УК</a>
+<%
+	for _, l := range ctx.Config.Languages {
+		path := fmt.Sprintf("/%s/", l.Iso)
+		if (l.Code == config.LangEnglish) {
+			path = "/"
+		}
+		fmt.Fprintf(w, `<a href="%s">%s</a>`, path, l.ShortName)
+	}
+%>
 			</div>
 			<!--/dropdown-->
 		</div>
