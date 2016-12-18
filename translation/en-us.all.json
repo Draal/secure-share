@@ -1,43 +1,107 @@
 [
   {
+    "id": "decrypt_in_browser",
+    "translation": "Decrypt in the recipient browser"
+  },
+  {
+    "id": "decrypt_in_browser_text",
+    "translation": "After you send the link and the passphrase via any kind of communication, the recipient browser decrypts it and the information is deleted from the server."
+  },
+  {
     "id": "delete_button",
     "translation": "Delete"
-  },
-  {
-    "id": "encrypt_button",
-    "translation": "Encrypt and get link"
-  },
-  {
-    "id": "expires",
-    "translation": "Expires"
-  },
-  {
-    "id": "label_decode_passphrase",
-    "translation": "Passphrase"
-  },
-  {
-    "id": "placeholder_passphrase",
-    "translation": "Type Passphrase (optional)"
-  },
-  {
-    "id": "label_share_link",
-    "translation": "Safely share this link"
-  },
-  {
-    "id": "label_shared_file",
-    "translation": "Shared file"
-  },
-  {
-    "id": "label_shared_secret",
-    "translation": "Shared secret"
   },
   {
     "id": "drag_or_upload",
     "translation": "Your secret file ({{.Limit}} max)"
   },
   {
-    "id": "placeholder_secret",
-    "translation": "Type your Secret"
+    "id": "encrypt_button",
+    "translation": "Encrypt and get link"
+  },
+  {
+    "id": "encrypt_in_browser",
+    "translation": "Encrypt in your browser"
+  },
+  {
+    "id": "encrypt_in_browser_text",
+    "translation": "Before information is sent to the server it is encrypted (by AES 256) in your browser with a randomly generated key or your passpharase."
+  },
+  {
+    "id": "expires",
+    "translation": "Expires"
+  },
+  {
+    "id": "generate_passphrase",
+    "translation": "Generate passphrase"
+  },
+  {
+    "id": "generate_secret",
+    "translation": "Generate password"
+  },
+  {
+    "id": "generator_h3",
+    "translation": "Random password generator"
+  },
+  {
+    "id": "generator_insert_passphrase",
+    "translation": "Insert as the passphrase"
+  },
+  {
+    "id": "generator_insert_secret",
+    "translation": "Insert as the secret field"
+  },
+  {
+    "id": "gn_character_sets",
+    "translation": "Character sets"
+  },
+  {
+    "id": "gn_dashes",
+    "translation": "Dashes (-_)"
+  },
+  {
+    "id": "gn_length",
+    "translation": "Length"
+  },
+  {
+    "id": "gn_lower_letters",
+    "translation": "lower letters"
+  },
+  {
+    "id": "gn_numbers",
+    "translation": "Numbers"
+  },
+  {
+    "id": "gn_password",
+    "translation": "Password"
+  },
+  {
+    "id": "gn_quality",
+    "translation": "Quality"
+  },
+  {
+    "id": "gn_regenerate",
+    "translation": "Regenerate"
+  },
+  {
+    "id": "gn_special_characters",
+    "translation": "Special characters (;#$^\u003c\u003e)"
+  },
+  {
+    "id": "gn_upper_letters",
+    "translation": "UPPER LETTERS"
+  },
+  {
+    "id": "gn_white_spaces",
+    "translation": "White spaces"
+  },
+  {
+    "id": "index_h1",
+    "translation": "Encrypted text and files sharing"
+  },
+  {
+    "id": "label_share_link",
+    "translation": "Safely share this link"
   },
   {
     "id": "maxsize-error-message",
@@ -48,20 +112,40 @@
     "translation": "Maximum file size exceed"
   },
   {
-    "id": "menu_about",
-    "translation": "About"
-  },
-  {
     "id": "new_button",
     "translation": "Share another secret"
+  },
+  {
+    "id": "placeholder_passphrase",
+    "translation": "Type Passphrase (optional)"
+  },
+  {
+    "id": "placeholder_secret",
+    "translation": "Type your Secret"
   },
   {
     "id": "re_share_button",
     "translation": "Get another link"
   },
   {
+    "id": "service_advantages",
+    "translation": "Why it is safer to use ENCRYPT.One than the other services?"
+  },
+  {
     "id": "show_secret_button",
     "translation": "Show Secret"
+  },
+  {
+    "id": "soruce_code_footer",
+    "translation": "The project source code is available on {{.Link}}"
+  },
+  {
+    "id": "storage_on_server",
+    "translation": "Storage on the server"
+  },
+  {
+    "id": "storage_on_server_text",
+    "translation": "Our server receives your information encrypted and cannot decrypt it, because the link or your passphrase never send to the server."
   },
   {
     "id": "title",

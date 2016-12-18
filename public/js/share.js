@@ -3,6 +3,13 @@
 
 function SecureShare()
 {
+  $("#languages_dropdown").find("a").click(function() {
+    if ($(this).attr("href") == "/") {
+      var expires = new Date();
+      expires.setTime(expires.getTime() + (360 * 24 * 60 * 60 * 1000));
+      document.cookie = 'lang=en-us;path=/;expires=' + expires.toUTCString();
+    }
+  });
   var urlHashFy = function(text) {
     return text.replace(/\+/g, '-').replace(/\//g, '_').replace(/\=+$/g, '');
   };
@@ -35,13 +42,13 @@ function SecureShare()
     if (window.crypto) {
       console.log("Using window.crypto");
       window.crypto.getRandomValues(array);
-      return array;
     } else {
       console.log("Using math random");
-      for (i = 0; i < array.length; i++) {
+      for (var i = 0; i < array.length; i++) {
         array[i] = Math.random() * 255;
       }
     }
+    return array;
   }
 
   var encrypt = function(text, passphrase, attach) {
@@ -52,12 +59,13 @@ function SecureShare()
     var encFile;
     var hash = ""
     if (passphrase == "") {
-      var h = CryptoJS.lib.WordArray.random(16);
-      var passphrase  = h.toString(CryptoJS.enc.Base64);
+      var h = getRandomBytes(16);
+      var passphrase  = window.btoa(String.fromCharCode.apply(null, h));
       encText = CryptoJS.AES.encrypt(text, passphrase, {
         mode: CryptoJS.mode.CBC,
         padding: CryptoJS.pad.Pkcs7
       });
+      h = CryptoJS.enc.Base64.parse(passphrase);
       h.concat(encText.salt);
       hash = urlHashFy(h.toString(CryptoJS.enc.Base64));
     } else {

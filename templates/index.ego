@@ -77,7 +77,7 @@
 				</div>
 				<div class="w3-third">
 					<input id="generator_special" class="w3-check" type="checkbox" />
-					<label class="w3-validate" for="generator_special"><%=ctx.T("gn_spacial_characters")%></label>
+					<label class="w3-validate" for="generator_special"><%=ctx.T("gn_special_characters")%></label>
 					<br />
 					<input id="generator_lower" class="w3-check" type="checkbox" checked />
 					<label class="w3-validate" for="generator_lower"><%=ctx.T("gn_lower_letters")%></label>
@@ -110,7 +110,7 @@
 		<div class="w3-row w3-padding">
 			<label class="w3-text-grey" for="generator_psw"><%=ctx.T("gn_password")%>:</label>
 			<div class="w3-col w3-right w3-center" style="width:64px;margin-top:24px;">
-				<span id="generator_regen" style="cursor:pointer;" title="Re-Generate"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"><path fill="#0074E0" d="M24.5,7.5C22.3,5.3,19.3,4,16,4C9.4,4,4,9.4,4,16c0,6.6,5.4,12,12,12c5.6,0,10.3-3.8,11.6-9 h-3.1c-1.2,3.5-4.6,6-8.5,6c-5,0-9-4-9-9c0-5,4-9,9-9c2.5,0,4.7,1,6.3,2.7l-4.8,4.8H28V4L24.5,7.5z"/></svg></span>
+				<span id="generator_regen" style="cursor:pointer;" title="<%=ctx.T("gn_regenerate")%>"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"><path fill="#0074E0" d="M24.5,7.5C22.3,5.3,19.3,4,16,4C9.4,4,4,9.4,4,16c0,6.6,5.4,12,12,12c5.6,0,10.3-3.8,11.6-9 h-3.1c-1.2,3.5-4.6,6-8.5,6c-5,0-9-4-9-9c0-5,4-9,9-9c2.5,0,4.7,1,6.3,2.7l-4.8,4.8H28V4L24.5,7.5z"/></svg></span>
 			</div>
 			<div class="w3-rest">
 				<input type="text" class="w3-input w3-border w3-round" id="generator_psw" value="" onfocus="this.select()" onclick="this.select()" />

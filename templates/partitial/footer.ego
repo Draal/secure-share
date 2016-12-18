@@ -6,21 +6,21 @@
 <div class="w3-row w3-white">
 	<div class="w3-main w3-content w3-padding-32" style="max-width:1280px">
 
-		<h2 class="w3-container w3-center w3-text-grey">Why it is safer to use ENCRYPT.One than the other services?</h2>
+		<h2 class="w3-container w3-center w3-text-grey"><%=ctx.T("service_advantages")%></h2>
 		<div class="w3-row">
 			<div class="w3-third w3-container w3-center">
-				<h3 class="w3-text-grey">Шифрование в вашем браузере</h3>
-				<p>До отправки на сервер информация шифруется (метод AES 256) в вашем браузере при помощи случайно сгенерированного ключа или введенного вами пароля.</p>
+				<h3 class="w3-text-grey"><%=ctx.T("encrypt_in_browser")%></h3>
+				<p><%=ctx.T("encrypt_in_browser_text")%></p>
 				<i class="i-about i-about-1"></i>
 			</div>
 			<div class="w3-third w3-container w3-center">
-				<h3 class="w3-text-grey">Передача и хранение на сервере</h3>
-				<p>После получения данных сервер хранит их в зашифрованном виде без возможности расшифровки, поскольку ссылка и пароль никогда не передаются на сервер.</p>
+				<h3 class="w3-text-grey"><%=ctx.T("storage_on_server")%></h3>
+				<p><%=ctx.T("storage_on_server_text")%></p>
 				<i class="i-about i-about-2"></i>
 			</div>
 			<div class="w3-third w3-container w3-center">
-				<h3 class="w3-text-grey">Расшифровка браузером получателя</h3>
-				<p>Вы любым способом передаете получателю ссылку ключ и пароль, он расшифровывает полученную информацию в своем браузере, после чего данные с сервера удаляются.</p>
+				<h3 class="w3-text-grey"><%=ctx.T("decrypt_in_browser")%></h3>
+				<p><%=ctx.T("decrypt_in_browser_text")%></p>
 				<i class="i-about i-about-3"></i>
 			</div>
 		</div>
@@ -33,7 +33,9 @@
 <div class="w3-row">
 	<div class="w3-main w3-content">
 		<div class="w3-container w3-padding-32 w3-center w3-text-white w3-small">
-			Более детальное описание сервиса <a href="#">читайте тут</a>. Исходный код проекта открыт и доступен на <a href="https://github.com/Draal/secure-share" target="_blank">Github</a>.
+			<%==ctx.T("soruce_code_footer", map[string]interface{}{
+				"Link": `<a href="https://github.com/Draal/secure-share" target="_blank">Github</a>`,
+			})%>
 			<p>&copy;&nbsp;<%=time.Now().Year()%>. FINAL LEVEL. All Rights Reserved.</p>
 		</div>
 

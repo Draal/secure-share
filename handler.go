@@ -207,11 +207,11 @@ func (h *Handler) Handler(w http.ResponseWriter, r *http.Request) {
 		for _, l := range ctx.Config.Languages {
 			if strings.HasPrefix(r.URL.Path[1:], l.Iso) {
 				setLanguage = l.Code
+				h.SaveLanguageToCookie(setLanguage, w)
 				r.URL.Path = "/"
 				break
 			}
 		}
-		h.SaveLanguageToCookie(setLanguage, w)
 	} else {
 		setLanguage = h.GetLanguageFromCookie(r)
 	}

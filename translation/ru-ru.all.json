@@ -1,0 +1,154 @@
+[
+  {
+    "id": "decrypt_in_browser",
+    "translation": "Расшифровка браузером получателя"
+  },
+  {
+    "id": "decrypt_in_browser_text",
+    "translation": "Вы любым способом передаете получателю ссылку ключ и пароль, он расшифровывает полученную информацию в своем браузере, после чего данные с сервера удаляются."
+  },
+  {
+    "id": "delete_button",
+    "translation": "Удалить"
+  },
+  {
+    "id": "drag_or_upload",
+    "translation": "Ваш секретный файл (макс. {{.Limit}})"
+  },
+  {
+    "id": "encrypt_button",
+    "translation": "Зашифровать и получить ссылку"
+  },
+  {
+    "id": "encrypt_in_browser",
+    "translation": "Шифрование в вашем браузере"
+  },
+  {
+    "id": "encrypt_in_browser_text",
+    "translation": "До отправки на сервер информация шифруется (метод AES 256) в вашем браузере при помощи случайно сгенерированного ключа или введенного вами пароля."
+  },
+  {
+    "id": "expires",
+    "translation": "Действительна до"
+  },
+  {
+    "id": "generate_passphrase",
+    "translation": "Сгенерировать пароль для шифрования"
+  },
+  {
+    "id": "generate_secret",
+    "translation": "Сгенерировать пароль"
+  },
+  {
+    "id": "generator_h3",
+    "translation": "Генератор случайных паролей"
+  },
+  {
+    "id": "generator_insert_passphrase",
+    "translation": "Вставить как пароль для ссылки"
+  },
+  {
+    "id": "generator_insert_secret",
+    "translation": "Вставить в поле секрета"
+  },
+  {
+    "id": "gn_character_sets",
+    "translation": "Наборы символов"
+  },
+  {
+    "id": "gn_dashes",
+    "translation": "Тире (-_)"
+  },
+  {
+    "id": "gn_length",
+    "translation": "Длина"
+  },
+  {
+    "id": "gn_lower_letters",
+    "translation": "маленькие буквы"
+  },
+  {
+    "id": "gn_numbers",
+    "translation": "Числа"
+  },
+  {
+    "id": "gn_password",
+    "translation": "Пароль"
+  },
+  {
+    "id": "gn_quality",
+    "translation": "Качество"
+  },
+  {
+    "id": "gn_regenerate",
+    "translation": "Перегенерировать"
+  },
+  {
+    "id": "gn_special_characters",
+    "translation": "Специальные символы (;#$^\u003c\u003e)"
+  },
+  {
+    "id": "gn_upper_letters",
+    "translation": "БОЛЬШИЕ БУКВЫ"
+  },
+  {
+    "id": "gn_white_spaces",
+    "translation": "Пробелы"
+  },
+  {
+    "id": "index_h1",
+    "translation": "Отправка шифрованного текста или файла"
+  },
+  {
+    "id": "label_share_link",
+    "translation": "Безопасно передавайте эту ссылку"
+  },
+  {
+    "id": "maxsize-error-message",
+    "translation": "Максимальный размер файла не должен превышать {{.Limit}}"
+  },
+  {
+    "id": "maxsize-error-title",
+    "translation": "Превышен максимальный размер файла"
+  },
+  {
+    "id": "new_button",
+    "translation": "Отправить еще один секрет"
+  },
+  {
+    "id": "placeholder_passphrase",
+    "translation": "Введите пароль (опционально)"
+  },
+  {
+    "id": "placeholder_secret",
+    "translation": "Введите вашу секретную информацию"
+  },
+  {
+    "id": "re_share_button",
+    "translation": "Получить еще одну ссылку"
+  },
+  {
+    "id": "service_advantages",
+    "translation": "Почему использовать ENCRYPT.One безопастнее чем другие сервисы?"
+  },
+  {
+    "id": "show_secret_button",
+    "translation": "Показать секрет"
+  },
+  {
+    "id": "soruce_code_footer",
+    "translation": "Исходный код проекта открыт и доступен на {{.Link}}"
+  },
+  {
+    "id": "storage_on_server",
+    "translation": "Передача и хранение на сервере"
+  },
+  {
+    "id": "storage_on_server_text",
+    "translation": "Cервер получает информацию в зашифрованном виде без возможности расшифровки, поскольку ссылка и пароль никогда не передаются на сервер."
+  },
+  {
+    "id": "title",
+    "translation": "Encrypt.One - обменивайтесь вашей приватной информацией безопасно шифруя ее в вашем браузере!"
+  }
+]
