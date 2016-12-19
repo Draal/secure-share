@@ -85,7 +85,7 @@
   },
   {
     "id": "gn_special_characters",
-    "translation": "Специальные символы (;#$^\u003c\u003e)"
+    "translation": "Спец. символы (;#$^\u003c\u003e)"
   },
   {
     "id": "gn_upper_letters",
@@ -97,7 +97,24 @@
   },
   {
     "id": "index_h1",
-    "translation": "Отправка шифрованного текста или файла"
+    "translation": "Отправка зашифрованного текста или файла"
+  },
+  {
+    "id": "invalid_passphrase",
+    "translation": {
+      "few": "Неправильный пароль. Осталось {{.Count}} попытки",
+      "many": "Неправильный пароль. Осталось {{.Count}} попыток",
+      "one": "Неправильный пароль. Осталась одна попытка",
+      "other": "Неправильный пароль. Осталось {{.Count}} попыток"
+    }
+  },
+  {
+    "id": "secret_not_found",
+    "translation": "Секрет был удален или его срок действия истек"
+  },
+  {
+    "id": "label_decode_passphrase",
+    "translation": "Пароль"
   },
   {
     "id": "label_share_link",
@@ -149,6 +166,6 @@
   },
   {
     "id": "title",
-    "translation": "Encrypt.One - обменивайтесь вашей приватной информацией безопасно шифруя ее в вашем браузере!"
+    "translation": "Шифрование и передача текста и файлов — Encrypt.One"
   }
 ]

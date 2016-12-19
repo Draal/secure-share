@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/base64"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
 	"os"
@@ -42,6 +43,12 @@ func recordEvent(r *http.Request, evt map[string]interface{}) {
 	json.NewEncoder(os.Stdout).Encode(evt)
 }
 
+type NotFound struct{ error }
+
+func (e NotFound) FriendlyMessage() string {
+	return e.Error()
+}
+
 func (h *Handler) errorHandler(w http.ResponseWriter, r *http.Request, err error) {
 	recordEvent(r, map[string]interface{}{
 		"error": err.Error(),
@@ -50,7 +57,7 @@ func (h *Handler) errorHandler(w http.ResponseWriter, r *http.Request, err error
 	switch err.(type) {
 	case BadRequest:
 		status = http.StatusBadRequest
-	case storage.NotFound:
+	case storage.NotFound, NotFound:
 		status = http.StatusNotFound
 	}
 	splitCode := strings.Split(fmt.Sprintf("%T", err), ".")
@@ -135,6 +142,9 @@ func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request, ctx *contex
 	}
 	data, err := h.storage.Get(id)
 	if err != nil {
+		if _, ok := err.(storage.NotFound); ok {
+			err = NotFound{errors.New(ctx.T("secret_not_found"))}
+		}
 		h.errorHandler(w, r, err)
 		return
 	}
@@ -148,8 +158,10 @@ func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request, ctx *contex
 			h.badPasswords[id] = tryCount
 			if tryCount >= h.maxWrongPasswordTries {
 				h.storage.Delete(id)
+				h.errorHandler(w, r, NotFound{errors.New(ctx.T("secret_not_found"))})
+			} else {
+				h.errorHandler(w, r, BadRequest{errors.New(ctx.T("invalid_passphrase", h.maxWrongPasswordTries-tryCount))})
 			}
-			h.errorHandler(w, r, BadRequest{fmt.Errorf("Provide a correct passphrase %d tries left", h.maxWrongPasswordTries-tryCount)})
 			return
 		}
 	}

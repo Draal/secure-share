@@ -100,6 +100,21 @@
     "translation": "Encrypted text and files sharing"
   },
   {
+    "id": "invalid_passphrase",
+    "translation": {
+      "one": "Invalid passphrase. One try left",
+      "other": "Invalid passphrase. {{.Count}} tries left"
+    }
+  },
+  {
+    "id": "secret_not_found",
+    "translation": "The secret has been deleted or expired"
+  },
+  {
+    "id": "label_decode_passphrase",
+    "translation": "Password"
+  },
+  {
     "id": "label_share_link",
     "translation": "Safely share this link"
   },
