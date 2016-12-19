@@ -25,7 +25,7 @@
   },
   {
     "id": "encrypt_in_browser_text",
-    "translation": "Before information is sent to the server it is encrypted (by AES 256) in your browser with a randomly generated key or your passpharase."
+    "translation": "Before information is sent to the server it is encrypted (by AES 256) in your browser with a randomly generated key or your passphrase."
   },
   {
     "id": "expires",
