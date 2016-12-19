@@ -1,5 +1,4 @@
 <%% import (
-        "github.com/Draal/secure-share/config"
         "time"
 )
 %%><%! func Header(w io.Writer, ctx *context.Context) error %><!DOCTYPE html>
@@ -13,15 +12,14 @@
 	<meta name="MobileOptimized" content="320" />
 	<meta name="PalmComputingPlatform" content="true" />
 	<meta charset="utf-8" />
-	<meta itemprop="description" name="description" content="" />
-	<meta itemprop="keywords" name="keywords" content="" />
+	<meta itemprop="description" name="description" content="<%=ctx.T("meta_description")%>" />
+	<meta itemprop="keywords" name="keywords" content="<%=ctx.T("meta_keywords")%>" />
 	<meta property="og:title" itemprop="name" content="" />
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" itemprop="url" content="" />
-	<meta property="og:image" content="" />
-	<meta property="fb:app_id" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
+	<meta property="og:url" itemprop="url" content="https://encrypt.one/" />
+	<meta property="og:image" content="<%=ctx.T("title")%>" />
+	<meta property="og:site_name" content="Encrypt.One" />
+	<meta property="og:description" content="<%=ctx.T("meta_description")%>" />
 
   <link rel="stylesheet" href="<%=ctx.Config.GetAssetUrl("w3.css")%>" />
   <script type="text/javascript" src="<%=ctx.Config.GetAssetUrl("crypto-js.js")%>"></script>
@@ -44,11 +42,7 @@
 			<div class="w3-dropdown-content w3-card-4 w3-border w3-small" id="languages_dropdown">
 <%
 	for _, l := range ctx.Config.Languages {
-		path := fmt.Sprintf("/%s/", l.Iso)
-		if (l.Code == config.LangEnglish) {
-			path = "/"
-		}
-		fmt.Fprintf(w, `<a href="%s">%s</a>`, path, l.ShortName)
+		fmt.Fprintf(w, `<a href="?lang=%s">%s</a>`, l.Code[:2], l.ShortName)
 	}
 %>
 			</div>

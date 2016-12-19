@@ -3,13 +3,10 @@
 
 function SecureShare()
 {
-  $("#languages_dropdown").find("a").click(function() {
-    if ($(this).attr("href") == "/") {
-      var expires = new Date();
-      expires.setTime(expires.getTime() + (360 * 24 * 60 * 60 * 1000));
-      document.cookie = 'lang=en-us;path=/;expires=' + expires.toUTCString();
-    }
+  $("#languages_dropdown").find("a").each(function() {
+    $(this).attr("href", $(this).attr("href") + window.location.hash);
   });
+
   var urlHashFy = function(text) {
     return text.replace(/\+/g, '-').replace(/\//g, '_').replace(/\=+$/g, '');
   };

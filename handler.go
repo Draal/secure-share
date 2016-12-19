@@ -215,12 +215,11 @@ func (h *Handler) Handler(w http.ResponseWriter, r *http.Request) {
 		MaxFileSize: h.config.MaxFileSize,
 	}
 	setLanguage := ""
-	if len(r.URL.Path) >= 4 {
+	if lang := r.URL.Query().Get("lang"); lang != "" {
 		for _, l := range ctx.Config.Languages {
-			if strings.HasPrefix(r.URL.Path[1:], l.Iso) {
+			if l.Code[:2] == lang {
 				setLanguage = l.Code
 				h.SaveLanguageToCookie(setLanguage, w)
-				r.URL.Path = "/"
 				break
 			}
 		}

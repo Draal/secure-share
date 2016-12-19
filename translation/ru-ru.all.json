@@ -109,10 +109,6 @@
     }
   },
   {
-    "id": "secret_not_found",
-    "translation": "Секрет был удален или его срок действия истек"
-  },
-  {
     "id": "label_decode_passphrase",
     "translation": "Пароль"
   },
@@ -121,12 +117,24 @@
     "translation": "Безопасно передавайте эту ссылку"
   },
   {
+    "id": "label_shared_secret",
+    "translation": "Полученный секрет"
+  },
+  {
     "id": "maxsize-error-message",
     "translation": "Максимальный размер файла не должен превышать {{.Limit}}"
   },
   {
     "id": "maxsize-error-title",
     "translation": "Превышен максимальный размер файла"
+  },
+  {
+    "id": "meta_description",
+    "translation": "Encrypt.One — сервис для обмена зашифрованными сообщениями и файлами. Шифрование прямо в браузере. Безопасное хранение текста и файла на сервере."
+  },
+  {
+    "id": "meta_keywords",
+    "translation": "шифрование, шифрование текста, шифрование файла, безопасная передача текста, безопасная передача файла"
   },
   {
     "id": "new_button",
@@ -143,6 +151,10 @@
   {
     "id": "re_share_button",
     "translation": "Получить еще одну ссылку"
+  },
+  {
+    "id": "secret_not_found",
+    "translation": "Секрет был удален или его срок действия истек"
   },
   {
     "id": "service_advantages",

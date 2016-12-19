@@ -23,7 +23,7 @@ safe and secure. it was achieved by using full client-side encryption model.
 
 ```sh
   npm -i
-  ./package.sh
+  ./package.sh encryptone
 ```
 
 ## Run

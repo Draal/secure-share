@@ -97,7 +97,7 @@
   },
   {
     "id": "index_h1",
-    "translation": "Encrypted text and files sharing"
+    "translation": "Sharing encrypted text or file"
   },
   {
     "id": "invalid_passphrase",
@@ -105,10 +105,6 @@
       "one": "Invalid passphrase. One try left",
       "other": "Invalid passphrase. {{.Count}} tries left"
     }
-  },
-  {
-    "id": "secret_not_found",
-    "translation": "The secret has been deleted or expired"
   },
   {
     "id": "label_decode_passphrase",
@@ -119,12 +115,24 @@
     "translation": "Safely share this link"
   },
   {
+    "id": "label_shared_secret",
+    "translation": "Shared secret"
+  },
+  {
     "id": "maxsize-error-message",
     "translation": "Maximum file size should not exceed {{.Limit}}"
   },
   {
     "id": "maxsize-error-title",
     "translation": "Maximum file size exceed"
+  },
+  {
+    "id": "meta_description",
+    "translation": "Encrypt.One — encrypted text and files sharing service. Browser encryption."
+  },
+  {
+    "id": "meta_keywords",
+    "translation": "encryption, text encryption, file encryption, secure text transfer, secure file transfer"
   },
   {
     "id": "new_button",
@@ -141,6 +149,10 @@
   {
     "id": "re_share_button",
     "translation": "Get another link"
+  },
+  {
+    "id": "secret_not_found",
+    "translation": "The secret has been deleted or expired"
   },
   {
     "id": "service_advantages",
