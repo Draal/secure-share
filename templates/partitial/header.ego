@@ -1,7 +1,7 @@
 <%% import (
         "time"
 )
-%%><%! func Header(w io.Writer, ctx *context.Context) error %><!DOCTYPE html>
+%%><%! func Header(w io.Writer, ctx *context.Context) error %>
 <!DOCTYPE html>
 <html lang="<%=ctx.CurrentLang[:2]%>">
 <head itemtype="http://schema.org/WebSite">
