@@ -140,7 +140,8 @@ func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request, ctx *contex
 		w.Write([]byte("{}"))
 		return
 	}
-	data, err := h.storage.Get(id)
+	passHash := r.FormValue("passHash")
+	data, err := h.storage.Get(id, passHash)
 	if err != nil {
 		if _, ok := err.(storage.NotFound); ok {
 			err = NotFound{errors.New(ctx.T("secret_not_found"))}
@@ -149,7 +150,7 @@ func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request, ctx *contex
 		return
 	}
 	if len(data.PassHash) > 0 {
-		if passHash, err := base64.StdEncoding.DecodeString(r.FormValue("passHash")); err != nil {
+		if passHash, err := base64.StdEncoding.DecodeString(passHash); err != nil {
 			h.errorHandler(w, r, BadRequest{fmt.Errorf("Passphrase hash parse error: %s", err.Error())})
 			return
 		} else if !bytes.Equal(data.PassHash, passHash) {

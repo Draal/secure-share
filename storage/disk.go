@@ -72,7 +72,7 @@ func (s *Disk) Post(data Data, expires int64) (string, error) {
 	return "", IdGenerationError{fmt.Errorf("Could not find unique id")}
 }
 
-func (s *Disk) Get(id string) (Data, error) {
+func (s *Disk) Get(id string, passHash string) (Data, error) {
 	p := s.FormPath(id)
 	if d, err := os.Lstat(p); err != nil {
 		if os.IsNotExist(err) {

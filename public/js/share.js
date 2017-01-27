@@ -36,9 +36,10 @@ function SecureShare()
 
   var getRandomBytes = function(length) {
     var array = new Uint8Array(length);
-    if (window.crypto) {
+    var crypto = window.crypto || window.msCrypto;
+    if (crypto) {
       console.log("Using window.crypto");
-      window.crypto.getRandomValues(array);
+      crypto.getRandomValues(array);
     } else {
       console.log("Using math random");
       for (var i = 0; i < array.length; i++) {
@@ -118,6 +119,7 @@ function SecureShare()
     $("#secret_div").show();
     $("#passphrase").val("");
     $("#source").val("");
+    $("#encrypt_button").prop('disabled', false);
     resetFile();
   });
 
@@ -158,6 +160,7 @@ function SecureShare()
 
   $("#encrypt_button").click(function() {
     $("#error").hide();
+    $(this).prop('disabled', true);
     var text = $("#source").val();
     var passphrase = $("#passphrase").val();
     var input = document.getElementById('source_file');
@@ -187,11 +190,35 @@ function SecureShare()
     encrypt(text, passphrase);
   });
 
+  var dataToBlobURL = function(dataURL) {
+    var contentType = contentType || '';
+    var sliceSize = sliceSize || 512;
+    var dataIdx = dataURL.indexOf(',');
+    if (dataIdx == -1) {
+      return null;
+    }
+    var header = dataURL.slice(5, dataIdx);
+    var contentTypeIdx = header.indexOf(';')
+    if (contentTypeIdx != -1) {
+      contentType = header.slice(0, contentTypeIdx);
+    }
+    var b64Data = dataURL.slice(dataIdx+1);
+
+
+    var binary = atob(b64Data);
+    var byteArray = new Uint8Array(binary.length);
+    for( var i = 0; i < binary.length; i++ ) {
+      byteArray[i] = binary.charCodeAt(i)
+    }
+    var blob = new Blob([byteArray], {type: contentType});
+    return URL.createObjectURL(blob);
+  }
   var hashSalt;
   var hashPassPhrase;
 
   $("#show_button").click(function() {
     $("#error").hide();
+    $(this).prop('disabled', true);
     var secret = {};
     var passphrase = "";
     if (hashPassPhrase) {
@@ -220,12 +247,16 @@ function SecureShare()
       if (data.attach) {
         var d = JSON.parse(dec);
         var sf = $("#secret_file");
-        sf.show();
         var a = sf.find("a");
-        a.html("Download: " + d.n);
-        a.attr("href", d.d);
+        if (d.n == "") {
+          d.n == "download";
+        }
+        a.html(d.n);
+        var blobUrl = dataToBlobURL(d.d);
+        a.attr("href", blobUrl);
         a.attr("download", d.n);
         $("#source").val(d.t);
+        sf.show();
       } else {
         $("#source").val(dec);
       }
@@ -236,6 +267,7 @@ function SecureShare()
         $("#show_button").hide();
       }
       showError(data.responseJSON.error.code, data.responseJSON.error.message);
+      $("#show_button").prop('disabled', false);
     });
   })
   $(".new_share").click(function() {
@@ -251,6 +283,7 @@ function SecureShare()
       hashPassPhrase = CryptoJS.enc.Hex.parse(h.substring(0, 32)).toString(CryptoJS.enc.Base64);
       hashSalt = CryptoJS.enc.Hex.parse(h.substring(32));
       $("#show_button").show();
+      $("#show_button").prop('disabled', false);
     } else {
       showError("Incorrect link", "Your link has wrong structure");
       return;

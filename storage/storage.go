@@ -15,7 +15,7 @@ type Data struct {
 
 type Storage interface {
 	Post(data Data, expires int64) (string, error)
-	Get(id string) (Data, error)
+	Get(id string, passHash string) (Data, error)
 	Delete(id string) error
 }
 

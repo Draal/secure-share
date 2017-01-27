@@ -115,6 +115,10 @@
     "translation": "Safely share this link"
   },
   {
+    "id": "label_shared_file",
+    "translation": "Shared file"
+  },
+  {
     "id": "label_shared_secret",
     "translation": "Shared secret"
   },

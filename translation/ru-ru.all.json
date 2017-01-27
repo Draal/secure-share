@@ -117,6 +117,10 @@
     "translation": "Безопасно передавайте эту ссылку"
   },
   {
+    "id": "label_shared_file",
+    "translation": "Отосланный файл"
+  },
+  {
     "id": "label_shared_secret",
     "translation": "Полученный секрет"
   },

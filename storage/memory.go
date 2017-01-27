@@ -35,7 +35,7 @@ func (m *Memory) Post(data Data, expires int64) (string, error) {
 	return "", IdGenerationError{fmt.Errorf("Could not find unique id")}
 }
 
-func (m *Memory) Get(id string) (Data, error) {
+func (m *Memory) Get(id string, passHash string) (Data, error) {
 	m.sync.Lock()
 	defer m.sync.Unlock()
 	if d, present := m.data[id]; present && d.Expires > time.Now().Unix() {
