@@ -153,6 +153,10 @@
     "translation": "Введите вашу секретную информацию"
   },
   {
+    "id": "progress_spiner",
+    "translation": "Защищаем"
+  },
+  {
     "id": "re_share_button",
     "translation": "Получить еще одну ссылку"
   },

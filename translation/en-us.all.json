@@ -151,6 +151,10 @@
     "translation": "Type your Secret"
   },
   {
+    "id": "progress_spiner",
+    "translation": "Protecting"
+  },
+  {
     "id": "re_share_button",
     "translation": "Get another link"
   },

@@ -87,7 +87,11 @@ function SecureShare()
       $("#expires").html($("#expires").attr("label") + " " + expires);
       $("#link_div").show();
       $("#secret_div").hide();
+      $("#progress_spiner").hide();
+      $("#encrypt_button").prop('disabled', false);
     }).fail(function(data) {
+      $("#progress_spiner").hide();
+      $("#encrypt_button").prop('disabled', false);
       showError(data.responseJSON.error.code, data.responseJSON.error.message);
     });
   }
@@ -120,6 +124,7 @@ function SecureShare()
     $("#passphrase").val("");
     $("#source").val("");
     $("#encrypt_button").prop('disabled', false);
+    $("#progress_spiner").hide();
     resetFile();
   });
 
@@ -161,6 +166,7 @@ function SecureShare()
   $("#encrypt_button").click(function() {
     $("#error").hide();
     $(this).prop('disabled', true);
+    $("#progress_spiner").show();
     var text = $("#source").val();
     var passphrase = $("#passphrase").val();
     var input = document.getElementById('source_file');
@@ -219,6 +225,7 @@ function SecureShare()
   $("#show_button").click(function() {
     $("#error").hide();
     $(this).prop('disabled', true);
+    $("#progress_spiner").show();
     var secret = {};
     var passphrase = "";
     if (hashPassPhrase) {
@@ -261,6 +268,7 @@ function SecureShare()
         $("#source").val(dec);
       }
       $("#secret_div").show();
+      $("#progress_spiner").hide();
     }).fail(function(data){
       if (data.responseJSON.error.code == "Secure.Share.NotFound") {
         $("#new_button").show();
@@ -268,12 +276,23 @@ function SecureShare()
       }
       showError(data.responseJSON.error.code, data.responseJSON.error.message);
       $("#show_button").prop('disabled', false);
+      $("#progress_spiner").hide();
     });
   })
   $(".new_share").click(function() {
     window.location.href = '/';
   });
-  if (window.location.pathname.match(/^\/s\//) && window.location.hash.length > 0) {
+
+  var wrongLink = function() {
+    showError("Incorrect link", "Your link has wrong structure");
+    $("#new_button").show();
+    $("#show_button").hide();
+  }
+  if (window.location.pathname.match(/^\/s\//)) {
+    if (window.location.hash.length == 0) {
+      wrongLink();
+      return;
+    }
     var keyParts = base64KeyDecode(window.location.hash.substring(1));
     if (keyParts.sigBytes == 8) {
       hashSalt = keyParts;
@@ -284,8 +303,9 @@ function SecureShare()
       hashSalt = CryptoJS.enc.Hex.parse(h.substring(32));
       $("#show_button").show();
       $("#show_button").prop('disabled', false);
+      $("#progress_spiner").hide();
     } else {
-      showError("Incorrect link", "Your link has wrong structure");
+      wrongLink();
       return;
     }
   }
