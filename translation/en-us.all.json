@@ -1,11 +1,11 @@
 [
   {
     "id": "decrypt_in_browser",
-    "translation": "Decrypt in the recipient browser"
+    "translation": "Decrypt in the recipient's browser"
   },
   {
     "id": "decrypt_in_browser_text",
-    "translation": "After you send the link and the passphrase via any kind of communication, the recipient browser decrypts it and the information is deleted from the server."
+    "translation": "Send your link with the passphrase via any kind of communication. Once the recipient's browser decrypts it the information is deleted from the server."
   },
   {
     "id": "delete_button",
@@ -45,11 +45,11 @@
   },
   {
     "id": "generator_insert_passphrase",
-    "translation": "Insert as the passphrase"
+    "translation": "Fill in passphrase field"
   },
   {
     "id": "generator_insert_secret",
-    "translation": "Insert as the secret field"
+    "translation": "Fill in secret field"
   },
   {
     "id": "gn_character_sets",
@@ -65,7 +65,7 @@
   },
   {
     "id": "gn_lower_letters",
-    "translation": "lower letters"
+    "translation": "lower case letters"
   },
   {
     "id": "gn_numbers",
@@ -89,15 +89,15 @@
   },
   {
     "id": "gn_upper_letters",
-    "translation": "UPPER LETTERS"
+    "translation": "UPPER CASE LETTERS"
   },
   {
     "id": "gn_white_spaces",
-    "translation": "White spaces"
+    "translation": "Whitespaces"
   },
   {
     "id": "index_h1",
-    "translation": "Sharing encrypted text or file"
+    "translation": "Share encrypted text or file"
   },
   {
     "id": "invalid_passphrase",
@@ -128,7 +128,7 @@
   },
   {
     "id": "maxsize-error-title",
-    "translation": "Maximum file size exceed"
+    "translation": "Maximum file size exceeded"
   },
   {
     "id": "meta_description",
@@ -164,7 +164,7 @@
   },
   {
     "id": "service_advantages",
-    "translation": "Why it is safer to use ENCRYPT.One than the other services?"
+    "translation": "Why is ENCRYPT.One safer than other services?"
   },
   {
     "id": "show_secret_button",
@@ -176,14 +176,14 @@
   },
   {
     "id": "storage_on_server",
-    "translation": "Storage on the server"
+    "translation": "Store on our server"
   },
   {
     "id": "storage_on_server_text",
-    "translation": "Our server receives your information encrypted and cannot decrypt it, because the link or your passphrase never send to the server."
+    "translation": "Our server receives your information encrypted and cannot decrypt it, because neither the link nor your passphrase were ever sent to the server."
   },
   {
     "id": "title",
-    "translation": "Encrypt.One - share your sensetive information securely encrypted in your browser!"
+    "translation": "Encrypt.One - share your sensitive information securely encrypted in your browser!"
   }
 ]
