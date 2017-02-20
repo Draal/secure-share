@@ -26,6 +26,7 @@ function SecureShare()
   }
 
   var showError = function(code, message) {
+    $("#progress_spiner").hide();
     var err = $("#error");
     if (message == "") {
       message = code;
@@ -170,11 +171,12 @@ function SecureShare()
     var text = $("#source").val();
     var passphrase = $("#passphrase").val();
     var input = document.getElementById('source_file');
-    if (input && input.files && input.files[0]) {
+    if (input && input.files.length && input.files[0]) {
       var file = input.files[0];
       var sourceFile = $("#source_file");
       if (file.size > sourceFile.attr("maxsize")) {
         showError(sourceFile.attr("maxsize-error-title"), sourceFile.attr("maxsize-error-message"));
+        $(this).prop('disabled', false);
         return;
       }
       var fr = new FileReader();
@@ -189,7 +191,8 @@ function SecureShare()
       fr.readAsDataURL(file);
       return;
     }
-    if (!text) {
+    if (!text || !text.length) {
+      $(this).prop('disabled', false);
       showError("Nothing to share", "Text or file should be provided");
       return;
     }
