@@ -3,6 +3,8 @@
 The main goal of `https://encrypt.one` is to make sensitive information sharing
 safe and secure. it was achieved by using full client-side encryption model.
 
+Created by [Final Level](https://final-level.com/).
+
 ## Advantages
 
 - Before information is sent to the server it is encrypted (by AES 256) in your browser with a randomly generated key or your passphrase by [crypto-js](https://github.com/brix/crypto-js).

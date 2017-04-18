@@ -36,7 +36,7 @@
 			<%==ctx.T("soruce_code_footer", map[string]interface{}{
 				"Link": `<a href="https://github.com/Draal/secure-share" target="_blank">Github</a>`,
 			})%>
-			<p>&copy;&nbsp;<%=time.Now().Year()%>. FINAL LEVEL. All Rights Reserved.</p>
+			<p>&copy;&nbsp;<%=time.Now().Year()%>. <a href="https://final-level.com/" target="_blank">FINAL LEVEL</a>. All Rights Reserved.</p>
 		</div>
 
 	<!--/w3-main-->
