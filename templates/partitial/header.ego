@@ -1,7 +1,10 @@
-<%% import (
-        "time"
+<%
+package template
+import (
+	"github.com/Draal/secure-share/context"
 )
-%%><%! func Header(w io.Writer, ctx *context.Context) error %><!DOCTYPE html>
+
+func Header(w io.Writer, ctx *context.Context) { %><!DOCTYPE html>
 <html lang="<%=ctx.CurrentLang[:2]%>">
 <head itemtype="http://schema.org/WebSite">
 	<title><%=ctx.T("title")%></title>
@@ -56,3 +59,6 @@
 		</div>
 	<!--/w3-row-->
 	</div>
+<%
+  }
+%>

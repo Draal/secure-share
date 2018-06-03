@@ -1,6 +1,6 @@
 package main
 
-//go:generate $GOPATH/bin/ego -o templates/ego.go -package=template templates
+//go:generate $GOPATH/bin/ego templates templates/partitial
 
 import (
 	"log"

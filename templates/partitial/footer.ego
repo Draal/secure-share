@@ -1,4 +1,10 @@
-<%! func Footer(w io.Writer, ctx *context.Context) error %>
+<%
+package template
+import (
+	"github.com/Draal/secure-share/context"
+	"time"
+)
+func Footer(w io.Writer, ctx *context.Context) { %>
 <!--/w3-main-->
 </div>
 <!--/w3-row-->
@@ -60,3 +66,7 @@
 </div>
 </body>
 </html>
+
+<%
+}
+%>

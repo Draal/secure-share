@@ -1,8 +1,12 @@
-<%% import (
-        "github.com/Draal/secure-share/context"
+<%
+package template
+import (
+	"github.com/Draal/secure-share/context"
+  template "github.com/Draal/secure-share/templates/partitial"
 )
-%%><%! func Show(w io.Writer, ctx *context.Context) error %><%
-  Header(w, ctx)
+
+func Show(w io.Writer, ctx *context.Context)  {
+  template.Header(w, ctx)
 %>
 <div class="w3-container w3-padding-16" id="first_div">
   <div class="w3-panel w3-red" id="error" style="display:none">
@@ -33,4 +37,7 @@
 			</p>
 <!--/secret_div-->
 </div>
-<% Footer(w, ctx) %>
+<%
+  template.Footer(w, ctx)
+}
+%>

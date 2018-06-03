@@ -25,7 +25,7 @@ Created by [Final Level](https://final-level.com/).
 
 ```sh
   npm -i
-  ./package.sh encryptone
+  GOOS=linux GOARCH=amd64 ./package.sh encryptone
 ```
 
 ## Run

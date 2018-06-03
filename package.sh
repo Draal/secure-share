@@ -11,7 +11,7 @@ $GOPATH/bin/goi18n *.all.json
 )
 
 go generate
-GOOS=linux GOARCH=amd64 go build -o $1
+go build -o $1
 
 (cd public && bower install)
 

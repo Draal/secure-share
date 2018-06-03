@@ -1,9 +1,12 @@
-<%% import (
-        "github.com/Draal/secure-share/context"
-        "time"
+<%
+package template
+import (
+	"github.com/Draal/secure-share/context"
+  template "github.com/Draal/secure-share/templates/partitial"
 )
-%%><%! func Index(w io.Writer, ctx *context.Context) error %><%
-  Header(w, ctx)
+
+func Index(w io.Writer, ctx *context.Context) {
+  template.Header(w, ctx)
 %>
 <div class="w3-container" id="secret_div">
 	<h1 class="w3-margin-top w3-text-grey w3-center"><%=ctx.T("index_h1")%></h1>
@@ -125,4 +128,7 @@
 		</footer>
 	</div>
 </div>
-<% Footer(w, ctx) %>
+<%
+  template.Footer(w, ctx)
+}
+%>
