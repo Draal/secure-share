@@ -1,5 +1,9 @@
 [
   {
+    "id": "citatis_partner",
+    "translation": "Citatis - Best Quotes by Famous People"
+  },
+  {
     "id": "decrypt_in_browser",
     "translation": "Decrypt in the recipient's browser"
   },
@@ -141,6 +145,14 @@
   {
     "id": "new_button",
     "translation": "Share another secret"
+  },
+  {
+    "id": "orb_partner",
+    "translation": "Online Radio Box - Free Online Internet Radio Stations"
+  },
+  {
+    "id": "our_sponsors",
+    "translation": "Our Sponsors"
   },
   {
     "id": "placeholder_passphrase",

@@ -1,5 +1,9 @@
 [
   {
+    "id": "citatis_partner",
+    "translation": "Citatis - Лучшие цитаты известных людей"
+  },
+  {
     "id": "decrypt_in_browser",
     "translation": "Расшифровка браузером получателя"
   },
@@ -143,6 +147,14 @@
   {
     "id": "new_button",
     "translation": "Отправить еще один секрет"
+  },
+  {
+    "id": "orb_partner",
+    "translation": "Online Radio Box - Слушайте интернет радио онлайн"
+  },
+  {
+    "id": "our_sponsors",
+    "translation": "Наши спонсоры"
   },
   {
     "id": "placeholder_passphrase",
