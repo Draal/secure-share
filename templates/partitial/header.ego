@@ -16,10 +16,10 @@ func Header(w io.Writer, ctx *context.Context) { %><!DOCTYPE html>
 	<meta charset="utf-8" />
 	<meta itemprop="description" name="description" content="<%=ctx.T("meta_description")%>" />
 	<meta itemprop="keywords" name="keywords" content="<%=ctx.T("meta_keywords")%>" />
-	<meta property="og:title" itemprop="name" content="" />
+	<meta property="og:title" itemprop="name" content="<%=ctx.T("title")%>" />
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" itemprop="url" content="https://encrypt.one/" />
-	<meta property="og:image" content="<%=ctx.T("title")%>" />
+	<meta property="og:image" content="" />
 	<meta property="og:site_name" content="Encrypt.One" />
 	<meta property="og:description" content="<%=ctx.T("meta_description")%>" />
 
