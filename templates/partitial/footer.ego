@@ -33,11 +33,14 @@ func Footer(w io.Writer, ctx *context.Context) { %>
 		<hr class="w3-border-top" />
 		<h2 class="w3-center w3-padding-top w3-text-grey"><%=ctx.T("our_sponsors")%></h2>
 		<div class="w3-row">
-			<div class="w3-half w3-container w3-center">
+			<div class="w3-third w3-container w3-center">
 				<a href="https://onlineradiobox.com/" class="i-sponsor i-sponsor-1"><img src="/img/orb_logo_gray.svg" alt="<%=ctx.T("orb_partner")%>" /></a>
 			</div>
-			<div class="w3-half w3-container w3-center">
+			<div class="w3-third w3-container w3-center">
 				<a href="https://citatis.com/" class="i-sponsor i-sponsor-2"><img src="/img/citatis_logo.svg" alt="<%=ctx.T("citatis_partner")%>" /></a>
+			</div>
+			<div class="w3-third w3-container w3-center">
+				<a href="https://dayspedia.com" class="i-sponsor i-sponsor-3" title="Dayspedia — it's all about Time!"><img src="/img/dp_logo.svg" alt="Dayspedia — it's all about Time!"></a>
 			</div>
 		</div>
 	<!--/w3-main-->
