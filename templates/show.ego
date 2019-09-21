@@ -1,11 +1,11 @@
 <%
 package template
 import (
-	"github.com/Draal/secure-share/context"
+	scontext "github.com/Draal/secure-share/context"
   template "github.com/Draal/secure-share/templates/partitial"
 )
 
-func Show(w io.Writer, ctx *context.Context)  {
+func Show(w io.Writer, ctx *scontext.Context)  {
   template.Header(w, ctx)
 %>
 <div class="w3-container w3-padding-16" id="first_div">
