@@ -40,7 +40,7 @@ func Footer(w io.Writer, ctx *scontext.Context) { %>
 				<a href="https://citatis.com/" class="i-sponsor i-sponsor-2"><img src="/img/citatis_logo.svg" alt="<%=ctx.T("citatis_partner")%>" /></a>
 			</div>
 			<div class="w3-third w3-container w3-center">
-				<a href="https://dayspedia.com" class="i-sponsor i-sponsor-3" title="Dayspedia — it's all about Time!"><img src="/img/dp_logo.svg" alt="Dayspedia — it's all about Time!"></a>
+				<a href="https://dayspedia.com" class="i-sponsor i-sponsor-3" title="<%=ctx.T("dayspedia_partner")%>"><img src="/img/dp_logo.svg" alt="<%=ctx.T("dayspedia_partner")%>"></a>
 			</div>
 		</div>
 	<!--/w3-main-->
