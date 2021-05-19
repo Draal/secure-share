@@ -369,11 +369,40 @@ textarea{resize:vertical;}
 .i-about-2 {background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiB4bWw6c3BhY2U9InByZXNlcnZlIj48Y2lyY2xlIGZpbGw9IiM5Q0M0RjciIGN4PSI4IiBjeT0iNC41IiByPSIxIi8+PGNpcmNsZSBmaWxsPSIjOUNDNEY3IiBjeD0iOCIgY3k9IjEwLjUiIHI9IjEiLz48Y2lyY2xlIGZpbGw9IiM5Q0M0RjciIGN4PSI4IiBjeT0iMTYuNSIgcj0iMSIvPjxwYXRoIGZpbGw9IiM5Q0M0RjciIGQ9Ik0xMywyM3YtMmg1YzEuMSwwLDItMC45LDItMlYyYzAtMS4xLTAuOS0yLTItMkg2QzQuOSwwLDQsMC45LDQsMnYxN2MwLDEuMSwwLjksMiwyLDJoNXYySDJ2MWgyMHYtMUgxM3ogTTYsMmgxMnY1SDZWMnogTTYsOGgxMnY1SDZWOHogTTYsMTl2LTVoMTJ2NUg2eiIvPjwvc3ZnPg==) no-repeat;}
 .i-about-3 {background:url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiM5M0NGODgiIGQ9Ik00LDE4aDE2YzEuMSwwLDItMC45LDItMmwwLTEwYzAtMS4xLTAuOS0yLTItMkg0QzIuOSw0LDIsNC45LDIsNnYxMEMyLDE3LjEsMi45LDE4LDQsMTh6IE00LDZoMTZ2MTBINFY2eiIvPjxwYXRoIGZpbGw9IiM5M0NGODgiIGQ9Ik0yMywxOUgxYy0wLjYsMC0xLDAuNC0xLDFjMCwwLjYsMC40LDEsMSwxaDIyYzAuNiwwLDEtMC40LDEtMUMyNCwxOS40LDIzLjYsMTksMjMsMTl6Ii8+PC9zdmc+) no-repeat;}
 
-.i-sponsor{display:inline-block; vertical-align:middle;}
-.i-sponsor img{display:inline-block; vertical-align:top; height:56px;}
-.i-sponsor-1 svg{width:240px;}
-.i-sponsor-2 svg{width:134px;}
-.i-sponsor-3 svg{width:53px;}
+.footer__sponsors__list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-indent: 0;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-flow: row wrap;
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	}
+@media screen and (min-width:800px){
+	.footer__sponsors__list{
+		-ms-flex-pack: justify;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		}
+	}
+.footer__sponsors__list > li{
+	margin:0;
+	padding:16px;
+	-webkit-align-self: flex-start;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+	-ms-flex: 0 1 auto;
+	-webkit-box-flex: 0;
+	flex: 0 1 auto;
+	}
+.footer__sponsors__list > li img{height:40px;width:auto;vertical-align:top}
 
 @-webkit-keyframes spin{
 	0%{-webkit-transform: rotateY(0);transform: rotateY(0)}

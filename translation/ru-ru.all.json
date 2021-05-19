@@ -133,6 +133,10 @@
     "translation": "Полученный секрет"
   },
   {
+    "id": "mahjong_partner",
+    "translation": "Mahjong Chest - играйте маджонг онлайн!"
+  },
+  {
     "id": "maxsize-error-message",
     "translation": "Максимальный размер файла не должен превышать {{.Limit}}"
   },

@@ -32,20 +32,24 @@ func Footer(w io.Writer, ctx *scontext.Context) { %>
 		</div>
 		<hr class="w3-border-top" />
 		<h2 class="w3-center w3-padding-top w3-padding-bottom w3-text-grey"><%=ctx.T("our_sponsors")%></h2>
-		<div class="w3-row">
-			<div class="w3-quarter w3-container w3-center">
-				<a href="https://onlineradiobox.com/" class="i-sponsor i-sponsor-1"><img src="/img/orb_logo_gray.svg" alt="<%=ctx.T("orb_partner")%>" /></a>
-			</div>
-			<div class="w3-quarter w3-container w3-center">
-				<a href="https://citatis.com/" class="i-sponsor i-sponsor-2"><img src="/img/citatis_logo.svg" alt="<%=ctx.T("citatis_partner")%>" /></a>
-			</div>
-			<div class="w3-quarter w3-container w3-center">
-				<a href="https://dayspedia.com" class="i-sponsor i-sponsor-3" title="<%=ctx.T("dayspedia_partner")%>"><img src="/img/dp_logo.svg" alt="<%=ctx.T("dayspedia_partner")%>"></a>
-			</div>
-			<div class="w3-quarter w3-container w3-center">
-				<a href="https://puzzlegarage.com/" class="i-sponsor i-sponsor-4" title="<%=ctx.T("puzzlegarage_partner")%>"><img src="/img/pg_logo.svg" alt="<%=ctx.T("puzzlegarage_partner")%>" /></a>
-			</div>
-		</div>
+
+		<ul class="footer__sponsors__list">
+			<li>
+				<a href="https://onlineradiobox.com/"><img src="/img/orb_logo_gray.svg" alt="<%=ctx.T("orb_partner")%>" /></a>
+			</li>
+			<li>
+				<a href="https://citatis.com/" rel="noopener"><img src="/img/citatis_logo.svg" alt="<%=ctx.T("citatis_partner")%>" /></a>
+			</li>
+			<li>
+				<a href="https://dayspedia.com" rel="noopener" title="<%=ctx.T("dayspedia_partner")%>"><img src="/img/dp_logo.svg" alt="<%=ctx.T("dayspedia_partner")%>"></a>
+			</li>
+			<li>
+				<a href="https://puzzlegarage.com/" rel="noopener" title="<%=ctx.T("puzzlegarage_partner")%>"><img src="/img/pg_logo.svg" alt="<%=ctx.T("puzzlegarage_partner")%>" /></a>
+			</li>
+			<li>
+				<a href="https://mahjongchest.com/" rel="noopener" title="<%=ctx.T("mahjong_partner")%>" ><img src="/img/mhj_logo.svg" alt="<%=ctx.T("mahjong_partner")%>" /></a>
+			</li>
+		</ul>
 	<!--/w3-main-->
 	</div>
 <!--/w3-row-->

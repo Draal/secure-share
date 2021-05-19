@@ -131,6 +131,10 @@
     "translation": "Shared secret"
   },
   {
+    "id": "mahjong_partner",
+    "translation": "Mahjong Chest - play mahjong online!"
+  },
+  {
     "id": "maxsize-error-message",
     "translation": "Maximum file size should not exceed {{.Limit}}"
   },
