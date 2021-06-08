@@ -49,6 +49,9 @@ func Footer(w io.Writer, ctx *scontext.Context) { %>
 			<li>
 				<a href="https://mahjongchest.com/" rel="noopener" title="<%=ctx.T("mahjong_partner")%>" ><img src="/img/mhj_logo.svg" alt="<%=ctx.T("mahjong_partner")%>" /></a>
 			</li>
+			<li>
+				<a href="https://sudokutable.com/" rel="noopener" title="<%=ctx.T("sudoku_partner")%>" ><img src="/img/sdk_logo.svg" alt="<%=ctx.T("sudoku_partner")%>" /></a>
+			</li>
 		</ul>
 	<!--/w3-main-->
 	</div>

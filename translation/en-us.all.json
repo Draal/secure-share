@@ -207,6 +207,10 @@
     "translation": "Our server receives your information encrypted and cannot decrypt it, because neither the link nor your passphrase were ever sent to the server."
   },
   {
+    "id": "sudoku_partner",
+    "translation": "Sudoku Table — play sudoku online!"
+  },
+  {
     "id": "title",
     "translation": "Encrypt \u0026 Decrypt Text or File Online (AES encryption) — Encrypt.One"
   }
