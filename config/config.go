@@ -84,9 +84,13 @@ func (c *Config) loadTranslationFiles() error {
 	if err := i18n.LoadTranslationFile("translation/ru-ru.all.json"); err != nil {
 		return err
 	}
+	if err := i18n.LoadTranslationFile("translation/uk-uk.all.json"); err != nil {
+		return err
+	}
 	c.Languages = []Language{
 		Language{Code: "en-us", Iso: "eng", Name: "English", ShortName: "ENG"},
 		Language{Code: "ru-ru", Iso: "rus", Name: "Русский", ShortName: "РУС"},
+		Language{Code: "uk-uk", Iso: "ukr", Name: "Українська", ShortName: "УКР"},
 	}
 	return nil
 }
