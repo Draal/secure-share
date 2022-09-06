@@ -4,8 +4,8 @@
   "description": "Sensitive data sharing system with client side encryption",
   "main": "main.go",
   "dependencies": {
-    "uglifyjs": "~2.4.10",
-    "minifier": "~0.7.1"
+    "minifier": "~0.7.1",
+    "uglify-es": "^3.3.9"
   },
   "devDependencies": {},
   "scripts": {

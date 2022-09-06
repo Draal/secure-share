@@ -38,9 +38,6 @@ func Footer(w io.Writer, ctx *scontext.Context) { %>
 				<a href="https://onlineradiobox.com/"><img src="/img/orb_logo_gray.svg" alt="<%=ctx.T("orb_partner")%>" /></a>
 			</li>
 			<li>
-				<a href="https://citatis.com/" rel="noopener"><img src="/img/citatis_logo.svg" alt="<%=ctx.T("citatis_partner")%>" /></a>
-			</li>
-			<li>
 				<a href="https://dayspedia.com" rel="noopener" title="<%=ctx.T("dayspedia_partner")%>"><img src="/img/dp_logo.svg" alt="<%=ctx.T("dayspedia_partner")%>"></a>
 			</li>
 			<li>
@@ -52,6 +49,9 @@ func Footer(w io.Writer, ctx *scontext.Context) { %>
 			<li>
 				<a href="https://sudokutable.com/" rel="noopener" title="<%=ctx.T("sudoku_partner")%>" ><img src="/img/sdk_logo.svg" alt="<%=ctx.T("sudoku_partner")%>" /></a>
 			</li>
+			<li>
+				<a href="https://colorsbattle.com/" rel="noopener" title="<%=ctx.T("colorsbattle_partner")%>"><img src="/img/cb_logo.svg" alt="<%=ctx.T("colorsbattle_partner")%>"></a>
+			</li>		
 		</ul>
 	<!--/w3-main-->
 	</div>
