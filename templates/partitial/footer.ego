@@ -44,6 +44,9 @@ func Footer(w io.Writer, ctx *scontext.Context) { %>
 				<a href="https://puzzlegarage.com/" rel="noopener" title="<%=ctx.T("puzzlegarage_partner")%>"><img src="/img/pg_logo.svg" alt="<%=ctx.T("puzzlegarage_partner")%>" /></a>
 			</li>
 			<li>
+				<a href="https://solitairehut.com/" rel="noopener" title="<%=ctx.T("solitairehut_partner")%>"><img src="/img/solitaire_logo.svg" alt="<%=ctx.T("solitairehut_partner")%>" /></a>
+			</li>
+			<li>
 				<a href="https://mahjongchest.com/" rel="noopener" title="<%=ctx.T("mahjong_partner")%>" ><img src="/img/mhj_logo.svg" alt="<%=ctx.T("mahjong_partner")%>" /></a>
 			</li>
 			<li>

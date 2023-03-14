@@ -199,6 +199,10 @@
     "translation": "Show Secret"
   },
   {
+    "id": "solitairehut_partner",
+    "translation": "Solitaire Hut - play the best Solitaire games online!"
+  },
+  {
     "id": "soruce_code_footer",
     "translation": "The project source code is available on {{.Link}}"
   },
