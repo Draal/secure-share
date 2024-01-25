@@ -1,2 +1,4 @@
 github.com/FinalLevel/go-i18n v0.0.0-20220906100433-af1f28aa88c0 h1:quLIviHyOYkM52WUVvLhcwJt76gD+YlP+hBLz4IKuMQ=
 github.com/FinalLevel/go-i18n v0.0.0-20220906100433-af1f28aa88c0/go.mod h1:DLsx+797YdOBXikFwjTmiJkRU8+eUGasnuJ/KM/KJBY=
+github.com/benbjohnson/ego v0.4.3 h1:9uO96riax3fhvRBpbUK5cZvZ14u9U4ZcGgrANwppFqs=
+github.com/benbjohnson/ego v0.4.3/go.mod h1:Sa5eTS6AJJy62BL2Y4ba70gt0ZayBXw2R5yZUD1ves8=

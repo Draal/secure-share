@@ -201,6 +201,10 @@
     "translation": "Показать секрет"
   },
   {
+    "id": "solitairehut_partner",
+    "translation": "Solitaire Hut - играйте в лучшие Солитер пасьянсы онлайн!"
+  },
+  {
     "id": "soruce_code_footer",
     "translation": "Исходный код проекта открыт и доступен на {{.Link}}"
   },
@@ -215,10 +219,6 @@
   {
     "id": "sudoku_partner",
     "translation": "Sudoku Table — Решайте судоку онлайн!"
-  },
-  {
-    "id": "solitairehut_partner",
-    "translation": "Solitaire Hut - играйте в лучшие Солитер пасьянсы онлайн!"
   },
   {
     "id": "title",
