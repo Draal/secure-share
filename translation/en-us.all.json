@@ -8,6 +8,14 @@
     "translation": "Colors Battle — fight for color dominance! Play with computer or other players online for free!"
   },
   {
+    "id": "minesweeper_partner",
+    "translation": "Minesweeper Quest — finish the best Minesweeper quests online!"
+  },
+  {
+    "id": "reversi_partner",
+    "translation": "Reversi Battle — play Reversi with computer or other players online for free!"
+  },
+  {
     "id": "dayspedia_partner",
     "translation": "Dayspedia — it's all about Time!"
   },

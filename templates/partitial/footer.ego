@@ -55,6 +55,12 @@ func Footer(w io.Writer, ctx *scontext.Context) { %>
 			<li>
 				<a href="https://colorsbattle.com/" rel="noopener" title="<%=ctx.T("colorsbattle_partner")%>"><img src="/img/cb_logo.svg" alt="<%=ctx.T("colorsbattle_partner")%>"></a>
 			</li>		
+			<li>
+				<a href="https://minesweeperquest.com/" rel="noopener" title="<%=ctx.T("minesweeper_partner")%>"><img src="/img/minesweeperquest_logo.svg" alt="<%=ctx.T("minesweeper_partner")%>"></a>
+			</li>
+			<li>
+				<a href="https://reversibattle.com/" rel="noopener" title="<%=ctx.T("reversi_partner")%>"><img src="/img/reversibattle_logo.svg" alt="<%=ctx.T("reversi_partner")%>"></a>
+			</li>
 		</ul>
 	<!--/w3-main-->
 	</div>
