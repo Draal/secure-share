@@ -386,15 +386,15 @@ textarea{resize:vertical;}
 	justify-content: center;
 	}
 @media screen and (min-width:800px){
-	.footer__sponsors__list{
+	/*.footer__sponsors__list{
 		-ms-flex-pack: justify;
 		-webkit-box-pack: justify;
 		justify-content: space-between;
-		}
+		}*/
 	}
 .footer__sponsors__list > li{
 	margin:0;
-	padding:16px;
+	padding:16px 32px;
 	-webkit-align-self: flex-start;
 	-ms-flex-item-align: start;
 	align-self: flex-start;
