@@ -4,6 +4,18 @@
     "translation": "Citatis - Best Quotes by Famous People"
   },
   {
+    "id": "minesweeper_partner",
+    "translation": "Minesweeper"
+  },
+  {
+    "id": "reversi_partner",
+    "translation": "Reversi"
+  },
+  {
+    "id": "backgammon_partner",
+    "translation": "Backgammon"
+  },
+  {
     "id": "colorsbattle_partner",
     "translation": "Colors Battle — fight for color dominance! Play with computer or other players online for free!"
   },

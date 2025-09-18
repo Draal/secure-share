@@ -4,6 +4,18 @@
     "translation": "Citatis - Лучшие цитаты известных людей"
   },
   {
+    "id": "minesweeper_partner",
+    "translation": "Сапер"
+  },
+  {
+    "id": "reversi_partner",
+    "translation": "Реверси"
+  },
+  {
+    "id": "backgammon_partner",
+    "translation": "Нарды"
+  },
+  {
     "id": "colorsbattle_partner",
     "translation": "Colors Battle - сражайтесь за цветовое господство! Играйте с компьютером или другими игроками онлайн бесплатно!"
   },
