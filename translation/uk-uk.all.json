@@ -1,0 +1,240 @@
+[
+  {
+    "id": "citatis_partner",
+    "translation": "Citatis - Найкращі цитати відомих людей"
+  },
+  {
+    "id": "minesweeper_partner",
+    "translation": "Сапер"
+  },
+  {
+    "id": "reversi_partner",
+    "translation": "Реверсі"
+  },
+  {
+    "id": "backgammon_partner",
+    "translation": "Нарди"
+  },
+  {
+    "id": "colorsbattle_partner",
+    "translation": "Colors Battle – боріться за колірне панування! Грайте з комп'ютером або іншими гравцями онлайн безкоштовно!"
+  },
+  {
+    "id": "dayspedia_partner",
+    "translation": "Dayspedia - буквально все про Час!"
+  },
+  {
+    "id": "decrypt_in_browser",
+    "translation": "Розшифровка браузером отримувача"
+  },
+  {
+    "id": "decrypt_in_browser_text",
+    "translation": "Ви будь-яким способом передаєте отримувачеві посилання, ключ і пароль, він розшифровує отриману інформацію в своєму браузері, після чого дані з сервера видаляються."
+  },
+  {
+    "id": "delete_button",
+    "translation": "Видалити"
+  },
+  {
+    "id": "drag_or_upload",
+    "translation": "Ваш секретний файл (макс. {{.Limit}})"
+  },
+  {
+    "id": "encrypt_button",
+    "translation": "Зашифрувати та отримати посилання"
+  },
+  {
+    "id": "encrypt_in_browser",
+    "translation": "Шифрування у вашому браузері"
+  },
+  {
+    "id": "encrypt_in_browser_text",
+    "translation": "До відправлення на сервер інформація шифрується (метод AES 256) у вашому браузері за допомогою випадково згенерованого ключа або введеного вами пароля."
+  },
+  {
+    "id": "expires",
+    "translation": "Дійсна до"
+  },
+  {
+    "id": "generate_passphrase",
+    "translation": "Згенерувати пароль для шифрування"
+  },
+  {
+    "id": "generate_secret",
+    "translation": "Згенерувати пароль"
+  },
+  {
+    "id": "generator_h3",
+    "translation": "Генератор випадкових паролів"
+  },
+  {
+    "id": "generator_insert_passphrase",
+    "translation": "Вставити як пароль для посилання"
+  },
+  {
+    "id": "generator_insert_secret",
+    "translation": "Вставити в поле секрету"
+  },
+  {
+    "id": "gn_character_sets",
+    "translation": "Набори символів"
+  },
+  {
+    "id": "gn_dashes",
+    "translation": "Тире (-_)"
+  },
+  {
+    "id": "gn_length",
+    "translation": "Довжина"
+  },
+  {
+    "id": "gn_lower_letters",
+    "translation": "маленькі літери"
+  },
+  {
+    "id": "gn_numbers",
+    "translation": "Числа"
+  },
+  {
+    "id": "gn_password",
+    "translation": "Пароль"
+  },
+  {
+    "id": "gn_quality",
+    "translation": "Якість"
+  },
+  {
+    "id": "gn_regenerate",
+    "translation": "Перегенерувати"
+  },
+  {
+    "id": "gn_special_characters",
+    "translation": "Спец. символи (;#$^\u003c\u003e)"
+  },
+  {
+    "id": "gn_upper_letters",
+    "translation": "ВЕЛИКІ ЛІТЕРИ"
+  },
+  {
+    "id": "gn_white_spaces",
+    "translation": "Пробіли"
+  },
+  {
+    "id": "index_h1",
+    "translation": "Відправлення зашифрованого тексту чи файлу"
+  },
+  {
+    "id": "invalid_passphrase",
+    "translation": {
+      "few": "Невірний пароль. Залишилось {{.Count}} спроб",
+      "many": "Невірний пароль. Залишилось {{.Count}} спроб",
+      "one": "Невірний пароль. Залишилась одна спроба",
+      "other": "Невірний пароль. Залишилось {{.Count}} спроб"
+    }
+  },
+  {
+    "id": "label_decode_passphrase",
+    "translation": "Пароль"
+  },
+  {
+    "id": "label_share_link",
+    "translation": "Безпечно передавайте це посилання"
+  },
+  {
+    "id": "label_shared_file",
+    "translation": "Відісланий файл"
+  },
+  {
+    "id": "label_shared_secret",
+    "translation": "Отриманий секрет"
+  },
+  {
+    "id": "mahjong_partner",
+    "translation": "Mahjong Chest – грайте маджонг онлайн!"
+  },
+  {
+    "id": "maxsize-error-message",
+    "translation": "Максимальний размір файлу не повинен перевищувати {{.Limit}}"
+  },
+  {
+    "id": "maxsize-error-title",
+    "translation": "Перевищено максимальний розмір файлу"
+  },
+  {
+    "id": "meta_description",
+    "translation": "Encrypt.One — сервіс для обміну зашифрованими повідомленнями та файлами. Шифрування безпосередньо в браузері. Безпечне збереження тексту і файлу на сервері."
+  },
+  {
+    "id": "meta_keywords",
+    "translation": "шифрування, шифрування тексту, шифрування файлу, безпечна передача тексту, безпечна передача файлу"
+  },
+  {
+    "id": "new_button",
+    "translation": "Відправити ще один секрет"
+  },
+  {
+    "id": "orb_partner",
+    "translation": "Online Radio Box - Слухайте інтернет радіо онлайн"
+  },
+  {
+    "id": "our_sponsors",
+    "translation": "Наші спонсори"
+  },
+  {
+    "id": "placeholder_passphrase",
+    "translation": "Введіть пароль (опціонально)"
+  },
+  {
+    "id": "placeholder_secret",
+    "translation": "Введіть вашу секретну інформацію"
+  },
+  {
+    "id": "progress_spiner",
+    "translation": "Захищаємо"
+  },
+  {
+    "id": "puzzlegarage_partner",
+    "translation": "Puzzle Garage - грайте у найкращі пазли онлайн!"
+  },
+  {
+    "id": "re_share_button",
+    "translation": "Отримати ще одне посилання"
+  },
+  {
+    "id": "secret_not_found",
+    "translation": "Секрет був видалений або його термін дії вичерпався"
+  },
+  {
+    "id": "service_advantages",
+    "translation": "Чому використовувати ENCRYPT.One безпечніше ніж інші сервіси?"
+  },
+  {
+    "id": "show_secret_button",
+    "translation": "Показати секрет"
+  },
+  {
+    "id": "solitairehut_partner",
+    "translation": "Solitaire Hut - грайте в найкращі Солітер пасьянси онлайн!"
+  },
+  {
+    "id": "soruce_code_footer",
+    "translation": "Вихідний код проекту відкритий та доступний на {{.Link}}"
+  },
+  {
+    "id": "storage_on_server",
+    "translation": "Передача та збереження на сервері"
+  },
+  {
+    "id": "storage_on_server_text",
+    "translation": "Cервер отримує інформацію в зашифрованому вигляді без можливості розсшифровки, оскільки посилання та пароль ніколи не передаються на сервер."
+  },
+  {
+    "id": "sudoku_partner",
+    "translation": "Sudoku Table - Вирішуйте судоку онлайн!"
+  },
+  {
+    "id": "title",
+    "translation": "Шифрування та передача тексту і файлів"
+  }
+]
+
