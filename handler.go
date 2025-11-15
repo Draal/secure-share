@@ -241,6 +241,10 @@ func (h *Handler) Handler(w http.ResponseWriter, r *http.Request) {
 	case "g":
 		h.getHandler(w, r, ctx)
 	default:
+		if r.URL.Path == "/googleed203f16e9c1b9a9.html" {
+			w.Write([]byte("google-site-verification: googleed203f16e9c1b9a9.html\n"))
+			return
+		}
 		p := hashRe.ReplaceAllString(r.URL.Path, "$1")
 		http.ServeFile(w, r, path.Join("public", p))
 	}

@@ -1,19 +1,11 @@
 [
   {
-    "id": "citatis_partner",
-    "translation": "Citatis - Найкращі цитати відомих людей"
-  },
-  {
-    "id": "minesweeper_partner",
-    "translation": "Сапер"
-  },
-  {
-    "id": "reversi_partner",
-    "translation": "Реверсі"
-  },
-  {
     "id": "backgammon_partner",
     "translation": "Нарди"
+  },
+  {
+    "id": "citatis_partner",
+    "translation": "Citatis - Найкращі цитати відомих людей"
   },
   {
     "id": "colorsbattle_partner",
@@ -169,6 +161,10 @@
     "translation": "шифрування, шифрування тексту, шифрування файлу, безпечна передача тексту, безпечна передача файлу"
   },
   {
+    "id": "minesweeper_partner",
+    "translation": "Сапер"
+  },
+  {
     "id": "new_button",
     "translation": "Відправити ще один секрет"
   },
@@ -199,6 +195,10 @@
   {
     "id": "re_share_button",
     "translation": "Отримати ще одне посилання"
+  },
+  {
+    "id": "reversi_partner",
+    "translation": "Реверсі"
   },
   {
     "id": "secret_not_found",
@@ -237,4 +237,3 @@
     "translation": "Шифрування та передача тексту і файлів"
   }
 ]
-

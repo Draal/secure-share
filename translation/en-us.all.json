@@ -1,19 +1,11 @@
 [
   {
-    "id": "citatis_partner",
-    "translation": "Citatis - Best Quotes by Famous People"
-  },
-  {
-    "id": "minesweeper_partner",
-    "translation": "Minesweeper"
-  },
-  {
-    "id": "reversi_partner",
-    "translation": "Reversi"
-  },
-  {
     "id": "backgammon_partner",
     "translation": "Backgammon"
+  },
+  {
+    "id": "citatis_partner",
+    "translation": "Citatis - Best Quotes by Famous People"
   },
   {
     "id": "colorsbattle_partner",
@@ -167,6 +159,10 @@
     "translation": "encryption, text encryption, file encryption, secure text transfer, secure file transfer"
   },
   {
+    "id": "minesweeper_partner",
+    "translation": "Minesweeper"
+  },
+  {
     "id": "new_button",
     "translation": "Share another secret"
   },
@@ -197,6 +193,10 @@
   {
     "id": "re_share_button",
     "translation": "Get another link"
+  },
+  {
+    "id": "reversi_partner",
+    "translation": "Reversi"
   },
   {
     "id": "secret_not_found",
