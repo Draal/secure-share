@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Sorğunu emal etmək mümkün olmadı. Səhifəni yeniləyin və yenidən cəhd edin."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Bu keçid sirri məhv etməyə icazə vermir."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Sirr tapılmadı: artıq açılıb, məhv edilib və ya vaxtı bitib."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Bu sirri açmaq üçün parol tələb olunur."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Həddindən artıq sorğu. Bir dəqiqə gözləyin və yenidən cəhd edin."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Bizim tərəfdə xəta baş verdi. Bir dəqiqə sonra yenidən cəhd edin."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Fayl çox böyükdür. Limit {{.MaxFileSize}}-dır."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Parol üç dəfə səhv daxil edildiyi üçün sirr silindi."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Yanlış parol. Qalan cəhdlər: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Bağla"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Kopyalandı"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopyala"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Keçidlər"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Məxfilik"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Layihə"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Tez-tez verilən suallar"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Təlimatlar"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Necə işləyir"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Təhlükəsizlik"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Resurslar"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Fayl göndər"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Parol generatoru"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Sirr paylaş"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Xidmət"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Parol və faylları paylaşmaq üçün birdəfəlik keçidlər. Brauzerinizdə şifrələnir."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "GitHub-da mənbə kodu"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Azərbaycan dili"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "AZ"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Saytın dili: Azərbaycan dili"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One ana səhifəsi"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: parolu birdəfəlik keçidlə paylaşın"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Tez-tez verilən suallar"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Parol generatoru"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Necə işləyir"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Əsas naviqasiya"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Məzmuna keç"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "İstənilən şəhər üçün vaxt, təqvimlər və bayramlar"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Birbaşa brauzerdə pulsuz oyunlar"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Dünyanın hər yerindən minlərlə radio stansiyası"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One sponsorlarımız sayəsində pulsuzdur"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tünd"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Mövzu"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Açıq"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistem"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Onu alıcıya göndərin. Sirr yalnız bir dəfə açıla bilər."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Keçidiniz hazırdır"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Başqa keçid al"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Eyni sirr üçün hər alıcıya ayrı keçid. Cari keçid işləməyə davam edəcək, lakin onu buradan artıq məhv edə bilməyəcəksiniz."
+  },
+  {
+    "id": "created.back",
+    "translation": "Yeni sirr"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "İndi məhv et"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Sirr məhv edilsin? Keçid dərhal işləməyi dayandıracaq."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Sirri məhv etmək mümkün olmadı. Yenidən cəhd edin."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Yanlış şəxsə göndərdiniz? Sirri məhv edin, keçid dərhal işləməyi dayandırsın."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Sirri məhv etdiniz. Məlumatlar serverdən silinib və keçid artıq işləmir."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Sirr məhv edildi"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Heç kim keçidi vaxtında açmadı. Məlumatlar serverdən silinib və keçid artıq işləmir."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Keçidin vaxtı bitdi"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Keçidi kopyala"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Birdəfəlik keçid"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Bu keçid artıq işləmir"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Keçid yalnız yaradıldığı vərəqdə göstərilir. Sirri buradan hələ də məhv edə bilərsiniz."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One birdəfəlik keçidinin göndərici səhifəsi: keçidi paylaşın və ya sirri məhv edin."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Keçidiniz hazırdır — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Yeni keçid yarat"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Birdəfəlik keçidin QR kodu"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Keçidi açmaq üçün telefonun kamerasını koda yönəldin. Kodu başqalarına göstərməyin: o, keçid kimi sirri açır."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Keçidin QR kodu"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Bununla göndər"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-poçt"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR kodu"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Sizin üçün bir sirr"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Sirrə birdəfəlik keçid:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Son etibarlılıq tarixi"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Məsləhət:</strong> xüsusilə həssas məlumatlar üçün keçidə parol əlavə edin və onu başqa yolla, məsələn, səslə bildirin. Beləliklə bir mesajın ələ keçirilməsi heç nəyi üzə çıxarmayacaq."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Fayl əlavə et"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Faylı əlavə etmək üçün buraxın"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Faylı birbaşa sahəyə sürükləyə bilərsiniz."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Maksimum {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Bu brauzer şifrələməni dəstəkləmir. Onu yeniləyin və ya saytı başqa brauzerdə açın."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Mətn yapışdırın və ya fayl əlavə edin."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Fayl çox böyükdür. Limit {{.MaxFileSize}}-dır."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Serverə qoşulmaq mümkün olmadı. Bağlantınızı yoxlayın və yenidən cəhd edin."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Açılış parolunu daxil edin və ya parol qorunmasını söndürün."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "mətnlə birlikdə şifrələnəcək"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Faylı sil"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Parol yarat"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Sirr sahəsinə daxil et"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Təklif et"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Keçid ələ keçirilsə belə, bu parol olmadan sirr açılmayacaq. Parolu alıcıya ayrıca, məsələn, səslə və ya başqa mesajlaşma tətbiqində bildirin."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Açılış parolu"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Məsələn, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Parolla qoru"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Nə paylaşmaq istəyirsiniz?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Parol, API açarı, giriş məlumatları…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Keçid ayarları"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Birdəfəlik keçid yarat"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Şifrələnir…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 gün"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 saat"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 gün"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 gün"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Bitmə müddəti"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Saxlanma müddəti"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Brauzerinizdə yaradılan və heç yerə göndərilməyən güclü parollar, parol ifadələri və PIN-lər üçün pulsuz generator. Nəticəni birdəfəlik keçidlə paylaşın."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Güclü Parol Generatoru — Pulsuz və Məxfi | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Rəqəmlər (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Uzunluq"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Kiçik hərflər (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Oxşar simvollar olmadan (0 və O, l və 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Simvollar"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "İşarələr (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Böyük hərflər (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Təsadüfi sözlərdən ibarət ifadəni demək və yadda saxlamaq asandır, lakin onu təxmin etmək uzun parol qədər çətindir. Sözlər EFF-in açıq söz siyahısındandır."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Sözlərin sayı"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Rəqəmlərin sayı"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Yenidən yarat"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Birdəfəlik keçidlə göndər"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Nəticə birbaşa formaya daxil edilir və yalnız bir dəfə açılan keçid alırsınız."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Bu parolu paylaşmaq lazımdır?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropiya ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Orta"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Yalnız PIN üçün uyğundur"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Güclü"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Çox güclü"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Zəif"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Parol növü"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Parol"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Parol ifadəsi"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Ən azı 14–16 simvol. Uzunluq hərfləri işarələrlə əvəz etməkdən daha yaxşı qoruyur."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Uzun"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Mürəkkəb parolları yadda saxlamağa ehtiyac yoxdur: parol menecerindən istifadə edin."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Parol menecerində saxlanılan"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Parolu nə güclü edir"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Hər xidmət üçün fərqli parol. Beləliklə bir parolun sızması digər hesablarınızı açmaz."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unikal"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Parol generatoru"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Xeyr. Sirr göndərilməzdən əvvəl brauzerinizdə şifrələnir. Açar keçiddə # işarəsindən sonra yerləşir və ünvanın bu hissəsi heç vaxt serverə çatmır."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Heç nə baş vermir. Sirr yalnız «Sirri göstər» düyməsinə basıldıqdan sonra görünür, önizləmə botları isə düymələri basmır."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Seçdiyiniz saxlanma müddəti bitdikdə sirr avtomatik silinir."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Bəli. Keçidinizin səhifəsində «İndi məhv et» düyməsi var. Bundan sonra keçid işləmir."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Xeyr. Nə göndərənin, nə də alıcının hesaba ehtiyacı var."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Cavab tapmadınız? GitHub-da müraciət yaradın."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Sirrimi oxuya bilərsiniz?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Mesajlaşma tətbiqinin önizləmə botu keçidi açsa nə baş verər?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Alıcı keçidi heç açmasa nə olar?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Göndərdikdən sonra keçidi ləğv edə bilərəm?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Qeydiyyatdan keçməliyəm?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Tez-tez verilən suallar"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Sirriniz birbaşa brauzerinizdə şifrələnir. Alıcı keçidi bir dəfə açır, sonra məlumatlar serverdən silinir."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Qeydiyyatsız"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Cihazınızda AES-256 şifrələməsi"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Açıq mənbə"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Parolları birdəfəlik keçidlərlə təhlükəsiz paylaşın"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Parol, API açarı, giriş məlumatları və ya fayl. Hər şey göndərilməzdən əvvəl brauzerinizdə şifrələnir."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Sirrinizi yapışdırın"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram, WhatsApp, Signal, Slack, e-poçt və ya başqa mesajlaşma tətbiqi ilə. Söhbətdə parolun özü deyil, yalnız keçid qalır."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Keçidi göndərin"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Baxıldıqdan sonra məlumatlar serverdən silinir. Keçidi ikinci dəfə açmaq olmaz."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Keçid istifadə olunur"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Necə işləyir"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Parolları, şəxsi mesajları, API açarlarını və faylları şifrələnmiş birdəfəlik keçidlərlə göndərin. Sirlər baxıldıqdan sonra silinir. Pulsuz, açıq mənbəli, qeydiyyatsız."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Birdəfəlik Gizli Keçidlər — Parolları Təhlükəsiz Paylaşın | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Parolları və hesab məlumatlarını söhbət tarixçəsində saxlamadan paylaşın."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Parollar və giriş məlumatları"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Yalnız bir dəfə açıla bilən həssas mesajlar göndərin."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Şəxsi mesajlar"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "API açarlarını, giriş tokenlərini və konfiqurasiya fayllarını komandanızla təhlükəsiz paylaşın."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API açarları və giriş məlumatları"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Şəxsi sənədləri və {{.MaxFileSize}} ölçüsünə qədər faylları şifrələnmiş birdəfəlik keçidlərlə paylaşın."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Məxfi fayllar"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Özünü silən mesajları, parolları, API açarlarını və şəxsi faylları təhlükəsiz göndərin. Hər sirr brauzerdə şifrələnir və baxıldıqdan sonra serverdən silinir."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Birdəfəlik keçidlə nə paylaşmaq olar?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Sizdə qalır.</strong> Şifrənin açılması açarı. Brauzerlər # işarəsindən sonranı heç vaxt serverə göndərmir."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Serverə gedir.</strong> Şifrələnmiş məlumatların ünvanı: açar olmadan bunlar sadəcə təsadüfi baytlardır."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Brauzerin daxili Web Crypto API-si və AES-256-GCM. Üçüncü tərəf kitabxanaları yoxdur."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Brauzerdə şifrələnir"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Bütün kod <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub-da</a> dərc edilib. Hər kəs şifrələmənin necə işlədiyini yoxlaya bilər."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Açıq mənbə"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Qeydiyyat, üçüncü tərəf skriptləri və izləyicilər yoxdur. Buna görə kuki bildirişi də yoxdur."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Artıq heç nə yoxdur"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Şifrənin açılması açarı keçiddə # işarəsindən sonra yerləşir. Brauzerlər ünvanın bu hissəsini heç vaxt serverə göndərmir, buna görə onu yalnız siz və alıcı görə bilərsiniz."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Necə işlədiyi haqqında daha çox"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Niyə sirrinizi oxuya bilmirik"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Sirr paylaş"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "GitHub-da kod"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Açıq mənbə"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.One-ın bütün kodu GitHub-dadır. Hər kəs şifrələmənin necə işlədiyini və açarın heç vaxt serverə getmədiyini yoxlaya bilər."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Özünüz yoxlayın"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Məlumat axını"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Sirr göndərilməzdən əvvəl şifrələnir və yalnız alıcı tərəfindən açılır. Arada məlumatlar həmişə şifrəli qalır."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Şifrəli məlumatları yükləyir, açarı keçiddən götürür və sirri yerli olaraq açır. Server dərhal sonra məlumatları silir."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Alıcının brauzeri"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Təsadüfi açar yaradır və brauzerin daxili Web Crypto API-si ilə mətni və faylı AES-256-GCM istifadə edərək şifrələyir."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Göndərənin brauzeri"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Yalnız şifrəli baytları qəbul edir və saxlayır. Açar olmadan nə biz, nə də serverə giriş əldə edən başqa biri onları oxuya bilər."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One serveri"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Server yalnız şifrəli məlumatları görür"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One sirrinizi birbaşa brauzerdə şifrələyir. Serverə yalnız şifrəli məlumatlar gedir, açar isə keçiddə qalır və göndərənlə alıcının cihazlarını heç vaxt tərk etmir."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Necə işləyir və niyə təhlükəsizdir"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Keçidin içində"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Keçidin iki hissəsi var. Birincisi şifrəli məlumatların saxlandığı yeri göstərir. # işarəsindən sonrakı ikinci hissə şifrənin açılması açarıdır."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Tam keçidə sahib olan hər kəs sirri aça bilər. Onu yalnız alıcıya göndərin və həssas məlumatlar üçün parol əlavə edin."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Tam keçid giriş verir"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Brauzerlər # işarəsindən sonrakı hissəni sorğulara daxil etmir. Buna görə açar nə server jurnallarında, nə də aralıq şəbəkə nöqtələrində olur."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Heç vaxt serverə göndərilmir"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Açar cihazınızda təsadüfi yaradılır. Onu bütün variantları sınamaqla təxmin etmək mümkün deyil."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Hər keçid üçün yeni"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Açar # işarəsindən sonradır"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.One sirləri brauzerdə necə şifrələyir: AES-256-GCM, # sonrası açar, saxlanma, məlumatların silinməsi və parol qorunması."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Encrypt.One necə işləyir: ucdan-uca şifrələnmiş sirr paylaşımı"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Parol generatorunu aç"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Açılış parolu"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Parol keçid ələ keçirilsə belə sirri qoruyur. Onsuz alıcı yalnız giriş sahəsini görür."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Üç yanlış cəhddən sonra sirr silinir. Parolu bütün variantları sınamaqla təxmin etmək mümkün deyil."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Üç cəhd"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Formada «Təklif et» düyməsinə basın və ya parol generatorundan ifadə seçin: onu ucadan oxumaq asandır."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Özünüz uydurmayın"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Parolu başqa yolla bildirin: səslə, başqa mesajlaşma tətbiqində və ya şəxsən. Beləliklə bir mesajın ələ keçirilməsi heç nəyi açıqlamaz."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Ayrıca paylaşın"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Həssas məlumatlar üçün ikinci qıfıl"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Açılış parolu üç dəfə səhv daxil edilərsə, sirr həmişəlik silinir."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Üç yanlış paroldan sonra"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Keçid səhifəsindəki «İndi məhv et» düyməsi sirri dərhal silir."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Sizin əmrlə"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Keçid seçdiyiniz saxlanma müddətində açılmasa, sirr avtomatik silinir."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Vaxtı bitdikdə"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Alıcı sirri açan kimi məlumatlar silinir. Keçid ikinci dəfə işləməyəcək."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Açıldıqdan sonra"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Yanlış parol cəhdlərinin sayğacı"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Şifrələnmiş mətn və fayl"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Serverdə saxlanılır"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Seçdiyiniz saxlanma müddəti"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Saxlanma"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Server sirri alıcının açması üçün lazım olan müddət ərzində saxlayır."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Keçiddəki şifrənin açılması açarı"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Açılış parolu"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Sirrin açıq mətndə məzmunu"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Heç vaxt serverə çatmır"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Server nəyi saxlayır və nə vaxt silir"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Parol generatoru"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Ana səhifəyə keç"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.One-da belə səhifə yoxdur."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Səhifə tapılmadı — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Ünvan səhv yazılmış və ya səhifə köçürülmüş ola bilər. Birdəfəlik keçid açırdınızsa, onun tam kopyalandığını yoxlayın."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Səhifə tapılmadı"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Bu siyasət dəyişərsə, yeni versiyanı bu səhifədə dərc edəcək və yuxarıdakı tarixi yeniləyəcəyik.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Siyasət dəyişiklikləri"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Məxfilik suallarınızı <a href=\"https://github.com/Draal/secure-share/issues\">GitHub müraciətlərində</a> verin.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Suallar"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>alıcı sirri açdıqdan dərhal sonra;</li><li>keçid səhifəsində «İndi məhv et» düyməsinə basdıqda;</li><li>üçüncü yanlış paroldan sonra;</li><li>bir saatdan yeddi günə qədər seçilən müddət bitdikdə. Vaxtı bitmiş sirr dərhal əlçatan olmur və məlumatları gündəlik təmizləmə zamanı silinir.</li></ul><p>Silinmiş sirri bərpa etmək olmaz. Keçid önizləmələri yaradan mesajlaşma botları sirri sərf etmir: məlumatlar yalnız «Sirri göstər» düyməsinə basıldıqdan sonra verilir.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Məlumatlar nə vaxt silinir"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Parollar, parol ifadələri və PIN-lər brauzerinizdə kriptoqrafik təsadüfi ədəd generatoru ilə yaradılır və heç vaxt serverə göndərilmir.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Parol generatoru"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One elə qurulub ki, sirri yalnız alıcı oxuya bilsin — hətta biz də oxuya bilmərik. Aşağıda xidmətdən hansı məlumatların keçdiyi və onlarla nə baş verdiyi göstərilir."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Tətbiq serveri yalnız API sorğularını qeyd edir: sorğu növü, nəticə və emal vaxtı. IP ünvanları, sirr identifikatorları, tokenlər, səhifə ünvanları və sorğu məzmunu qeydə alınmır.</p><p>Xidməti tam axtarış hücumlarından və sui-istifadədən qorumaq üçün server hər IP ünvanına düşən sorğuların tezliyini məhdudlaşdırır. Ünvan yalnız yaddaşda istifadə edilir və saxlanmır.</p><p>Tətbiqin qarşısındakı veb server standart giriş jurnalı saxlaya bilər: IP ünvanı, vaxt və səhifə ünvanının # sonrası olmayan hissəsi. Belə jurnallar yalnız hücumlardan qorunmaq üçün istifadə olunur və məhdud müddət saxlanır.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Texniki jurnallar"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One məxfilik siyasəti: xidmət hansı məlumatları alır, onları nə qədər saxlayır və niyə sirlərinizi oxuya bilmir."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Məxfilik Siyasəti — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Parolun özü heç vaxt brauzerdən çıxmır. Brauzer parol və keçid açarından iki müstəqil dəyər yaradır: şifrələmə açarı və yoxlama heşi (600 000 iterasiyalı PBKDF2, sonra HKDF). Serverə yalnız heş göndərilir. Server ondan parolu yoxlamaq üçün istifadə edir, lakin nə parolu, nə də açarı öyrənə bilir.</p><p>Üç yanlış cəhddən sonra sirr silinir. Cəhd sayğacı serverin yaddaşında saxlanır və ziyarətçiyə deyil, sirrə bağlıdır.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Açılış parolu"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Sirri kimin yaratdığını və ya açdığını bilmirik: xidmət məlumatları insanlarla, hesablarla və ya IP ünvanları ilə əlaqələndirmir. Buna görə konkret şəxsin məlumatlarını tapa, təqdim edə və ya silə bilmirik. Sirrinizi vaxtı bitmədən silmək üçün keçid səhifəsini açın və «İndi məhv et» düyməsinə basın.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Hüquqlarınız"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Mətn və əlavə edilmiş fayl göndərilməzdən əvvəl brauzerdə daxili Web Crypto API vasitəsilə AES-256-GCM ilə şifrələnir. Faylın adı və növü məzmunla birlikdə şifrələnir.</p><p>Serverdə yalnız bunlar saxlanır:</p><ul><li>şifrəli məlumatlar;</li><li>bitmə vaxtı;</li><li>faylın əlavə edilib-edilməməsi;</li><li>açılış parolu təyin etmisinizsə, parol yoxlama heşi.</li></ul><p>Şifrənin açılması açarı keçidin # işarəsindən sonrakı hissəsidir. Brauzerlər həmin hissəni heç vaxt serverə göndərmir, buna görə nə biz, nə də serverə giriş əldə edən biri məlumatların şifrəsini aça bilər. Eyni səbəbdən keçid itərsə, sirri bərpa edə bilmirik.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Sirlər və fayllar"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One parolları, açarları və faylları birdəfəlik keçidlərlə paylaşmaq üçün pulsuz xidmətdir. Qeydiyyat tələb olunmur. Xidmət <a href=\"https://final-level.com/\">FINAL LEVEL</a> tərəfindən hazırlanır və idarə olunur.</p><p>Keçidi istədiyiniz üsulla özünüz göndərirsiniz. Mesajlaşma tətbiqi, e-poçt və ya SMS ələ keçirilə bilər və onda keçidi ilk açan şəxs sirri alır. Vacib məlumatlar üçün açılış parolu təyin edin və onu başqa kanalla paylaşın.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Xidmət necə işləyir"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Sirriniz brauzerinizdə şifrələnir. Server yalnız şifrəli məlumatları alır və onları oxuya bilmir.</li><li>Şifrənin açılması açarı keçiddə # işarəsindən sonra yerləşir və heç vaxt serverə göndərilmir.</li><li>Qeydiyyat, reklam, analitika və üçüncü tərəf skriptləri yoxdur.</li><li>Sirr açılan kimi və ya seçilən müddət bitdikdə silinir.</li><li>Tətbiq serveri IP ünvanlarını və sirr identifikatorlarını qeydə almır.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Qısa məlumat"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Mənbə kodu <a href=\"https://github.com/Draal/secure-share\">GitHub-da</a> açıqdır: şifrələməni yoxlaya və ya öz nüsxənizi işlədə bilərsiniz.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Açıq mənbə"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Reklam və ya analitika kukilərindən istifadə etmirik. Sayt brauzerinizdə yalnız işləmək üçün lazım olanları saxlayır:</p><ul><li><code>lang</code> kukisi — seçim menyusunda seçmisinizsə, diliniz;</li><li>localStorage-da rəng mövzusu, dil bildirişini bağladığınızın işarəsi və bu brauzerdən məhv edilmiş keçidlərin işarələri;</li><li>sessionStorage-da generator parolu ana səhifədəki formaya köçürülərkən saxlanır. Daxil edildikdən dərhal sonra silinir.</li></ul><p>Bunlardan yalnız dil kukisi serverə çatır və server səhifənin versiyasını seçmək üçün ondan istifadə edir. Hamısını brauzer ayarlarından silə bilərsiniz.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Kukilər və brauzer yaddaşı"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Sayt üçüncü tərəf skriptləri, şriftləri, sayğacları və ya reklamları yükləmir: şriftlər də daxil olmaqla hər şey öz serverimizdən verilir. Məlumatları üçüncü tərəflərə satmır və paylaşmırıq.</p><p>Telegram, WhatsApp və e-poçtla göndərmə düymələri, həmçinin sponsor saytlarına keçidlər adi keçidlərdir. Xarici xidmət yalnız kliklədikdə məlumat alır və bundan sonra onun öz siyasəti qüvvədədir.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Üçüncü tərəf xidmətləri"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Məxfilik siyasəti"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Son yeniləmə: 25 oktyabr 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Keçid zədələnib və ya tam kopyalanmayıb. Göndərəndən onu yenidən göndərməsini istəyin."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Məlumatlar alındı, lakin şifrəsini açmaq mümkün olmadı: keçid zədələnib. Sirr artıq serverdən silinib, ona görə göndərəndən yenisini yaratmasını istəyin."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Serverə qoşulmaq mümkün olmadı. Bağlantınızı yoxlayın və yenidən cəhd edin."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Həddindən artıq cəhd. Bir dəqiqə gözləyin və yenidən cəhd edin."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Sirri açmaq mümkün olmadı"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Öz keçidinizi yaradın"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Birdəfəlik keçidlər necə işləyir"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Sirr artıq açılıb və ya vaxtı bitib. Keçidi yenidən açmaq olmaz."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Göndərəndən yeni keçid yaratmasını istəyin. Bu keçidi açmamısınızsa, ona bildirin: başqa biri görmüş ola bilər."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Bu sirr artıq əlçatan deyil"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Ona yalnız bir dəfə baxmaq olar. Dərhal sonra serverdən silinəcək."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Bu sirr parolla qorunur. Ona yalnız bir dəfə baxmaq olar, sonra serverdən silinəcək."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Kimsə sizə sirr göndərib"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One birdəfəlik keçidi. Sirri bir dəfə açmaq olar, sonra serverdən silinir."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Kimsə sizə sirr göndərib — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Parolu daxil edin."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Göndərən parolu ayrıca bildirməli idi. Üç yanlış cəhddən sonra sirr silinir."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Açılış parolu"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Aç"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Öz sirrinizi paylaşın"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Öz birdəfəlik keçidinizi yaradın. Qeydiyyatsız."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Sizin də parol paylaşmağınız lazımdır?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Sirri göstər"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Serverdən silindi"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Yüklə"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Sonradan lazım olacaqsa saxlayın: bu səhifəni bağladıqdan sonra sirri yenidən açmaq mümkün deyil."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Sirrin mətni"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Sirriniz"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Açılır…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One nədir?"
+  }
+]

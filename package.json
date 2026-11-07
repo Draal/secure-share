@@ -1,24 +1,22 @@
 {
-  "name": "secure-share",
-  "version": "0.1.0",
-  "description": "Sensitive data sharing system with client side encryption",
-  "main": "main.go",
-  "dependencies": {
-    "minifier": "~0.7.1",
-    "uglify-es": "^3.3.9"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "encrypt-one",
+  "version": "2.0.0",
+  "description": "One-time secret links with client-side encryption",
+  "private": true,
+  "license": "BSD",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Draal/secure-share.git"
+    "url": "git@github.com:alex-tanchik/encrypt-one.git"
   },
-  "keywords": [
-    "security"
-  ],
-  "author": "Denys Misko",
-  "private": true,
-  "license": "BSD"
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test 'tests/*.test.js'"
+  },
+  "devDependencies": {
+    "clean-css-cli": "5.6.3",
+    "terser": "5.36.0"
+  }
 }

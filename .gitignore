@@ -1,10 +1,11 @@
-public/bower_components/
 node_modules/
 bin/
 pkgs/
-templates/ego.go
 secure-share
+encryptone
 *.min.js
 *.min.css
-*.ego.go
 translation/*.untranslated.json
+.DS_Store
+public/**/*.gz
+dev.env

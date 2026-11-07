@@ -1,0 +1,13 @@
+{{define "qr-dialog"}}<dialog class="dialog" id="qr-dialog" aria-labelledby="qr-title" aria-describedby="qr-text">
+  <div class="dialog__inner">
+    <div class="dialog__head">
+      <h2 class="dialog__title" id="qr-title">{{t "created.qr.title"}}</h2>
+      <button type="button" class="btn btn--ghost btn--icon dialog__close" data-dialog-close aria-label="{{t "common.close"}}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+    </div>
+    <div class="qr"><img data-qr-image width="220" height="220" alt="{{t "created.qr.alt"}}"></div>
+    <p class="dialog__text" id="qr-text">{{t "created.qr.text"}}</p>
+    <div class="qr-link" data-link-text></div>
+    <button type="button" class="btn btn--secondary btn--md btn--block" data-dialog-close>{{t "common.close"}}</button>
+  </div>
+</dialog>
+{{end}}

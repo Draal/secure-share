@@ -1,0 +1,97 @@
+{{define "manage-view"}}<div class="manage" data-title="{{t "created.meta.title"}}"
+  data-msg-destroy-error="{{t "created.destroy.error"}}" data-msg-destroy-confirm="{{t "created.destroy.confirm"}}">
+<section class="manage__view" data-view="alive">
+  <a class="back-link" href="{{url ""}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg><span>{{t "created.back"}}</span></a>
+
+  <div class="card card--roomy result">
+    <div class="result__head">
+      <span class="result__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div class="result__titles">
+        <h1 class="result__title">{{t "created.alive.title"}}</h1>
+        <p class="result__lead">{{t "created.alive.lead"}}</p>
+      </div>
+    </div>
+    <p class="note note--sm" data-link-unavailable hidden>{{t "created.link.unavailable"}}</p>
+    <div class="result__group" data-link-group>
+      <span class="label" id="secret-link-label">{{t "created.link.label"}}</span>
+      <div class="link-row">
+        <div class="link-box" dir="ltr" id="secret-link" aria-labelledby="secret-link-label"><span data-link-base></span><span class="link-box__key" data-link-key></span></div>
+        <button type="button" class="btn btn--primary btn--xl copy-btn" data-copy="#secret-link">
+          <span class="copy-btn__idle"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8.5" y="8.5" width="12" height="12" rx="2.5"/><path d="M15.5 8.5V6a2.5 2.5 0 0 0-2.5-2.5H6A2.5 2.5 0 0 0 3.5 6v7A2.5 2.5 0 0 0 6 15.5h2.5"/></svg><span>{{t "created.link.copy"}}</span></span>
+          <span class="copy-btn__done"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>{{t "common.copied"}}</span></span>
+        </button>
+      </div>
+      <div class="link-extra" data-another-wrap hidden>
+        <button type="button" class="btn btn--tint btn--sm" data-another><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="M5 12h14"/></svg><span>{{t "created.another.button"}}</span></button>
+        <p class="hint">{{t "created.another.hint"}}</p>
+      </div>
+    </div>
+    <div class="result__group" data-share-group>
+      <span class="label" id="share-label">{{t "created.share.label"}}</span>
+      <div class="share-grid" role="group" aria-labelledby="share-label" data-share-text="{{t "created.share.text"}}" data-share-subject="{{t "created.share.subject"}}">
+        <a class="btn btn--secondary" href="#" data-share="telegram" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.5 3.5-19 7.5 7 2.5 2.5 7z"/><path d="m9.5 13.5 5-5"/></svg><span>Telegram</span></a>
+        <a class="btn btn--secondary" href="#" data-share="whatsapp" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.6-4.3A8.5 8.5 0 1 1 20.5 11.5z"/></svg><span>WhatsApp</span></a>
+        <a class="btn btn--secondary" href="#" data-share="mail"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg><span>{{t "created.share.mail"}}</span></a>
+        <button type="button" class="btn btn--secondary" data-dialog-open="qr-dialog" aria-haspopup="dialog"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="14" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="3.5" y="14" width="6.5" height="6.5" rx="1"/><path d="M14 14h2.5v2.5H14zM18 18h2.5v2.5H18zM18 14h2.5M14 18v2.5"/></svg><span>{{t "created.share.qr"}}</span></button>
+      </div>
+    </div>
+    <div class="status-row">
+      <div class="status-row__main">
+        <div class="status-item">
+          <span class="status-item__label">{{t "created.status.expiresLabel"}}</span>
+          <time class="status-item__value" data-expires></time>
+        </div>
+        <button type="button" class="btn btn--danger" data-destroy><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M9 7V4.5h6V7"/><path d="M6 7l1 13h10l1-13"/></svg><span>{{t "created.destroy.button"}}</span></button>
+      </div>
+      <p class="status-row__note">{{t "created.destroy.text"}}</p>
+      <p class="field-error" role="alert" data-manage-error hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5 2.5 20h19z"/><path d="M12 10v4.5"/><path d="M12 17.5v.5"/></svg><span data-manage-error-text></span></p>
+    </div>
+  </div>
+
+  <div class="note">
+    <svg class="note__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
+    <p>{{th "created.tip"}}</p>
+  </div>
+</section>
+<section class="manage__view" data-view="expired" hidden>
+  <a class="back-link" href="{{url ""}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg><span>{{t "created.back"}}</span></a>
+
+  <div class="card card--roomy result">
+    <div class="result__head">
+      <span class="result__icon result__icon--muted"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+      <div class="result__titles">
+        <h1 class="result__title">{{t "created.expired.title"}}</h1>
+        <p class="result__lead">{{t "created.expired.lead"}}</p>
+      </div>
+    </div>
+    <div class="result__group">
+      <span class="label">{{t "created.link.labelInactive"}}</span>
+      <div class="link-row">
+        <div class="link-box is-inactive" dir="ltr"><span data-link-base></span><span class="link-box__key" data-link-key></span></div>
+      </div>
+    </div>
+    <a class="btn btn--dark btn--xl btn--block" href="{{url ""}}"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="M5 12h14"/></svg><span>{{t "created.newSecret"}}</span></a>
+  </div>
+</section>
+<section class="manage__view" data-view="destroyed" hidden>
+  <a class="back-link" href="{{url ""}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg><span>{{t "created.back"}}</span></a>
+
+  <div class="card card--roomy result">
+    <div class="result__head">
+      <span class="result__icon result__icon--danger"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M9 7V4.5h6V7"/><path d="M6 7l1 13h10l1-13"/></svg></span>
+      <div class="result__titles">
+        <h1 class="result__title">{{t "created.destroyed.title"}}</h1>
+        <p class="result__lead">{{t "created.destroyed.lead"}}</p>
+      </div>
+    </div>
+    <div class="result__group">
+      <span class="label">{{t "created.link.labelInactive"}}</span>
+      <div class="link-row">
+        <div class="link-box is-inactive" dir="ltr"><span data-link-base></span><span class="link-box__key" data-link-key></span></div>
+      </div>
+    </div>
+    <a class="btn btn--dark btn--xl btn--block" href="{{url ""}}"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="M5 12h14"/></svg><span>{{t "created.newSecret"}}</span></a>
+  </div>
+</section>
+</div>
+{{end}}

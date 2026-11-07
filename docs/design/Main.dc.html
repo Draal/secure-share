@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Encrypt.One — главная</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400..700&amp;family=JetBrains+Mono:wght@400..600&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#161A23}a:hover{color:#586070}
+a:focus-visible,button:focus-visible,textarea:focus-visible{outline:2px solid #0B7A5E;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #F4F6F8; color: #161A23; font-family: 'Onest', system-ui, -apple-system, 'Segoe UI', sans-serif; -webkit-font-smoothing: antialiased">
+
+<header style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="Main.dc.html" aria-label="Encrypt.One — на главную" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #161A23">
+<svg width="25" height="36" viewBox="0 0 41 59" aria-hidden="true"><path fill="{{accent}}" d="M0,0c0,0,0,28.9,0,37.7c0,11.7,15.2,18.4,20.5,21c6.1-3.1,20.5-9.4,20.5-21C41,28.6,41,0,41,0H0z M39,37.3 l-18,18v-4.6l18-18V37.3z M21,38.7l18-18v4.6l-18,18V38.7z M39,19.3l-18,18v-4.6l18-18V19.3z M39,13.3l-18,18v-4.6l18-18V13.3z M39,7.3l-18,18v-4.6l18-18V7.3z M21,19.3v-4.6L33.7,2h4.6L21,19.3z M21,13.3V8.7L27.7,2h4.6L21,13.3z M21,7.3V2h5.3L21,7.3z M39,31.3l-18,18v-4.6l18-18V31.3z M2,37.7V2h18v54.3C14.3,53.5,2,47.3,2,37.7z M21.9,55.8l17-17C38.2,47.3,28,52.7,21.9,55.8z"></path></svg>
+<span style="font-size: 21px; font-weight: 650; letter-spacing: -0.025em">encrypt<span style="color: {{accent}}">.one</span></span>
+</a>
+<nav aria-label="Основная навигация" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px">
+<a href="Generator.dc.html" style="padding: 12px 14px; border-radius: 10px; text-decoration: none; font-size: 15px; font-weight: 500; color: #161A23">Генератор паролей</a>
+<a href="#how" style="padding: 12px 14px; border-radius: 10px; text-decoration: none; font-size: 15px; font-weight: 500; color: #161A23">Как это работает</a>
+<a href="#faq" style="padding: 12px 14px; border-radius: 10px; text-decoration: none; font-size: 15px; font-weight: 500; color: #161A23">Вопросы</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 8px">
+<button type="button" aria-label="Язык сайта: русский" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 12px; border: 1px solid #D5DAE1; border-radius: 10px; background: #FFFFFF; font: inherit; font-size: 15px; font-weight: 500; color: #161A23; cursor: pointer">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"></path></svg>
+Русский
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+</button>
+<a href="https://github.com/Draal/secure-share" aria-label="Исходный код на GitHub" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 10px; color: #161A23">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+</a>
+</div>
+</header>
+
+<main>
+<section style="max-width: 1200px; margin: 0 auto; padding: 40px 24px 96px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 56px">
+<div style="flex: 1 1 380px; min-width: 0; padding-top: 28px; display: flex; flex-direction: column; gap: 24px">
+<h1 style="margin: 0; font-size: clamp(38px, 4.4vw, 60px); line-height: 1.04; letter-spacing: -0.035em; font-weight: 650; color: #161A23">Передайте пароль одноразовой ссылкой</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.55; color: #586070; max-width: 30em">Секрет шифруется прямо в вашем браузере. Получатель откроет ссылку один раз, после чего данные удаляются с сервера.</p>
+<ul style="list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; align-items: center; gap: 12px; font-size: 16px; color: #161A23"><span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 999px; background: {{accentTint}}; color: {{accent}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span>Без регистрации</li>
+<li style="display: flex; align-items: center; gap: 12px; font-size: 16px; color: #161A23"><span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 999px; background: {{accentTint}}; color: {{accent}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span>Шифрование AES-256 на вашем устройстве</li>
+<li style="display: flex; align-items: center; gap: 12px; font-size: 16px; color: #161A23"><span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 999px; background: {{accentTint}}; color: {{accent}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span>Открытый исходный код</li>
+</ul>
+</div>
+
+<div style="flex: 1.25 1 520px; min-width: 0; background: #FFFFFF; border: 1px solid #E2E6EC; border-radius: 24px; padding: 24px; box-shadow: 0 1px 2px rgba(22, 26, 35, 0.05), 0 28px 56px -28px rgba(22, 26, 35, 0.22); display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="secret" style="font-size: 14px; font-weight: 600; color: #161A23">Что нужно передать</label>
+<div style="display: flex; flex-direction: column; border: 1.5px solid #D5DAE1; border-radius: 16px; background: #FBFCFD">
+<textarea id="secret" rows="5" placeholder="Пароль, API-ключ, данные для входа…" style="display: block; width: 100%; box-sizing: border-box; min-height: 160px; padding: 18px 18px 8px; border: 0; border-radius: 16px 16px 0 0; background: transparent; resize: vertical; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 15px; line-height: 1.65; color: #161A23"></textarea>
+<sc-if value="{{hasFile}}" hint-placeholder-val="{{true}}">
+<div style="margin: 0 12px; display: flex; align-items: center; gap: 12px; padding: 6px 4px 6px 10px; border: 1px solid #E2E6EC; border-radius: 12px; background: #FFFFFF">
+<span style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 10px; background: {{accentTint}}; color: {{accent}}"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+<span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 14.5px; font-weight: 600; color: #161A23; overflow-wrap: anywhere">server-access.pdf</span><span style="font-size: 13px; color: #586070">240 КБ, зашифруется вместе с текстом</span></span>
+<button type="button" aria-label="Убрать файл" onClick="{{removeFile}}" style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; border-radius: 10px; background: transparent; color: #586070; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button>
+</div>
+</sc-if>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 10px 12px 12px">
+<button type="button" onClick="{{attach}}" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 14px; border: 1px solid #E2E6EC; border-radius: 10px; background: #FFFFFF; font: inherit; font-size: 14px; font-weight: 500; color: #161A23; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20.5 11.5-8.4 8.4a5.3 5.3 0 0 1-7.5-7.5l8.4-8.4a3.5 3.5 0 0 1 5 5l-8.4 8.4a1.8 1.8 0 0 1-2.5-2.5l7.7-7.7"></path></svg>Прикрепить файл</button>
+<span style="font-size: 13.5px; color: #586070">Можно перетащить файл прямо в поле. До [ЛИМИТ] МБ.</span>
+</div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-size: 14px; font-weight: 600; color: #161A23">Настройки ссылки</span>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<button type="button" aria-pressed="{{protect}}" aria-controls="protect-panel" onClick="{{toggleProtect}}" style="{{protectPill}}"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="15.5" r="4.5"></circle><path d="m10.7 12.3 9.8-9.8"></path><path d="m17 6 3 3"></path><path d="m14.5 8.5 2 2"></path></svg>Защитить паролем</button>
+<button type="button" aria-haspopup="listbox" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 12px 0 14px; border: 1px solid #D5DAE1; border-radius: 999px; background: #FFFFFF; font: inherit; font-size: 14px; color: #161A23; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>Хранить <strong style="font-weight: 600">24 часа</strong><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+<button type="button" aria-haspopup="listbox" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 12px 0 14px; border: 1px solid #D5DAE1; border-radius: 999px; background: #FFFFFF; font: inherit; font-size: 14px; color: #161A23; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg>Просмотров: <strong style="font-weight: 600">1</strong><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+</div>
+<sc-if value="{{protect}}" hint-placeholder-val="{{true}}">
+<div id="protect-panel" style="display: flex; flex-direction: column; gap: 8px; padding: 16px; border: 1px solid #E2E6EC; border-radius: 14px; background: #FBFCFD">
+<label for="pass" style="font-size: 14px; font-weight: 600; color: #161A23">Пароль для открытия</label>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<input id="pass" type="text" placeholder="Например, maple-orbit-velvet" style="flex: 1 1 200px; min-width: 0; box-sizing: border-box; height: 48px; padding: 0 14px; border: 1.5px solid #D5DAE1; border-radius: 12px; background: #FFFFFF; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 15px; color: #161A23">
+<button type="button" style="display: inline-flex; align-items: center; gap: 8px; height: 48px; padding: 0 14px; border: 1px solid #D5DAE1; border-radius: 12px; background: #FFFFFF; font: inherit; font-size: 14px; font-weight: 500; color: #161A23; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3.5"></rect><circle cx="8.5" cy="8.5" r="1.3" fill="currentColor"></circle><circle cx="12" cy="12" r="1.3" fill="currentColor"></circle><circle cx="15.5" cy="15.5" r="1.3" fill="currentColor"></circle></svg>Придумать</button>
+</div>
+<span style="font-size: 13.5px; line-height: 1.5; color: #586070">Без этого пароля секрет не откроется, даже если ссылку перехватят. Сообщите его получателю отдельно, например голосом или другим мессенджером.</span>
+</div>
+</sc-if>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 12px">
+<a href="Created.dc.html" style="display: flex; align-items: center; justify-content: center; gap: 10px; height: 58px; border-radius: 14px; background: {{accent}}; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"></rect><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"></path></svg>Создать одноразовую ссылку</a>
+
+</div>
+</div>
+</section>
+
+<section id="how" style="max-width: 1200px; margin: 0 auto; padding: 24px 24px 96px">
+<h2 style="margin: 0 0 40px; font-size: clamp(28px, 3vw, 40px); line-height: 1.1; letter-spacing: -0.03em; font-weight: 650">Как это работает</h2>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 40px">
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 2px solid #161A23">
+<span style="display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 999px; border: 1.5px solid #161A23; font-size: 15px; font-weight: 600">1</span>
+<h3 style="margin: 4px 0 0; font-size: 21px; font-weight: 600; letter-spacing: -0.015em">Вставьте секрет</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #586070">Пароль, API-ключ, данные для входа или файл. Всё шифруется ещё до отправки в вашем браузере.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 2px solid #161A23">
+<span style="display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 999px; border: 1.5px solid #161A23; font-size: 15px; font-weight: 600">2</span>
+<h3 style="margin: 4px 0 0; font-size: 21px; font-weight: 600; letter-spacing: -0.015em">Отправьте ссылку</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #586070">Через Telegram, WhatsApp, Signal, Viber, почту или любой другой мессенджер. В переписке останется только ссылка, а не сам пароль.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 2px solid #161A23">
+<span style="display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 999px; border: 1.5px solid #161A23; font-size: 15px; font-weight: 600">3</span>
+<h3 style="margin: 4px 0 0; font-size: 21px; font-weight: 600; letter-spacing: -0.015em">Ссылка сгорает</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #586070">После просмотра данные удаляются с сервера. Открыть ссылку второй раз уже нельзя.</p>
+</li>
+</ol>
+</section>
+
+<section style="background: #FFFFFF; border-top: 1px solid #E2E6EC; border-bottom: 1px solid #E2E6EC">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 640px">
+<h2 style="margin: 0; font-size: clamp(28px, 3vw, 40px); line-height: 1.1; letter-spacing: -0.03em; font-weight: 650">Почему мы не можем прочитать ваш секрет</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #586070">Ключ расшифровки находится в самой ссылке, после символа #. Браузер никогда не отправляет эту часть адреса на сервер, поэтому её видите только вы и получатель.</p>
+</div>
+
+<div style="overflow-x: auto">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; row-gap: 32px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: clamp(19px, 3.1vw, 44px); letter-spacing: -0.02em">
+<div style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<span style="padding: 10px 4px; color: #161A23">encrypt.one/s/k7Qm2xPa</span>
+<span aria-hidden="true" style="height: 14px; margin: 0 4px; border: 2px solid #A3AAB6; border-top: 0; border-radius: 0 0 8px 8px"></span>
+<span style="max-width: 320px; padding: 0 4px; font-family: 'Onest', system-ui, sans-serif; font-size: 15px; line-height: 1.55; letter-spacing: 0; color: #586070"><strong style="color: #161A23; font-weight: 600">Уходит на сервер.</strong> Адрес зашифрованных данных: без ключа это просто набор байтов.</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<span style="padding: 10px 12px; border-radius: 12px; background: {{accentTint}}; color: {{accent}}; font-weight: 600">#Vb3RtL9qWzE4</span>
+<span aria-hidden="true" style="height: 14px; margin: 0 12px; border: 2px solid {{accent}}; border-top: 0; border-radius: 0 0 8px 8px"></span>
+<span style="max-width: 320px; padding: 0 12px; font-family: 'Onest', system-ui, sans-serif; font-size: 15px; line-height: 1.55; letter-spacing: 0; color: #586070"><strong style="color: #161A23; font-weight: 600">Остаётся у вас.</strong> Ключ расшифровки. Браузер не передаёт серверу ничего, что стоит после #.</span>
+</div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 40px; padding-top: 40px; border-top: 1px solid #E2E6EC">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{accent}}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5"></rect><path d="M3 9h18"></path><path d="M9.5 14.5h5"></path></svg>
+<h3 style="margin: 4px 0 0; font-size: 18px; font-weight: 600">Шифрование в браузере</h3>
+<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: #586070">Встроенный в браузер Web Crypto API и алгоритм AES-256-GCM. Никаких сторонних библиотек.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{accent}}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5"></path><path d="m16 7 5 5-5 5"></path></svg>
+<h3 style="margin: 4px 0 0; font-size: 18px; font-weight: 600">Открытый код</h3>
+<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: #586070">Весь код опубликован на <a href="https://github.com/Draal/secure-share" style="color: {{accent}}; font-weight: 500">GitHub</a>. Любой может проверить, как устроено шифрование.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{accent}}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.5 3.2 8.3 7.5 9.5 4.3-1.2 7.5-5 7.5-9.5V6z"></path><path d="m9 12 2 2 4-4"></path></svg>
+<h3 style="margin: 4px 0 0; font-size: 18px; font-weight: 600">Ничего лишнего</h3>
+<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: #586070">Без регистрации, сторонних скриптов и трекеров. Поэтому на сайте нет и баннера про cookie.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 48px">
+<h2 style="margin: 0 0 32px; font-size: clamp(28px, 3vw, 40px); line-height: 1.1; letter-spacing: -0.03em; font-weight: 650">Для чего это нужно</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); column-gap: 56px">
+<a href="#" style="display: flex; align-items: center; gap: 20px; padding: 24px 0; border-top: 1px solid #DCE1E7; text-decoration: none; color: #161A23">
+<span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 19px; font-weight: 600; letter-spacing: -0.01em">Пароль от Wi-Fi для гостей</span><span style="font-size: 15.5px; line-height: 1.55; color: #586070">Вместо бумажки на холодильнике и сообщения, которое годами висит в чате.</span></span>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a>
+<a href="#" style="display: flex; align-items: center; gap: 20px; padding: 24px 0; border-top: 1px solid #DCE1E7; text-decoration: none; color: #161A23">
+<span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 19px; font-weight: 600; letter-spacing: -0.01em">Доступы для клиента или подрядчика</span><span style="font-size: 15.5px; line-height: 1.55; color: #586070">Логин и пароль от сайта, хостинга или админки одним сообщением, которое потом исчезнет.</span></span>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a>
+<a href="#" style="display: flex; align-items: center; gap: 20px; padding: 24px 0; border-top: 1px solid #DCE1E7; text-decoration: none; color: #161A23">
+<span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 19px; font-weight: 600; letter-spacing: -0.01em">API-ключ или .env-файл коллеге</span><span style="font-size: 15.5px; line-height: 1.55; color: #586070">Ключи не останутся в истории Slack, Telegram или почты.</span></span>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a>
+<a href="#" style="display: flex; align-items: center; gap: 20px; padding: 24px 0; border-top: 1px solid #DCE1E7; text-decoration: none; color: #161A23">
+<span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 19px; font-weight: 600; letter-spacing: -0.01em">Данные для входа новому сотруднику</span><span style="font-size: 15.5px; line-height: 1.55; color: #586070">Временный пароль, который сотрудник сменит при первом входе.</span></span>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a>
+</div>
+</section>
+
+<section id="faq" style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 112px; display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-size: clamp(28px, 3vw, 40px); line-height: 1.1; letter-spacing: -0.03em; font-weight: 650">Вопросы и ответы</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #586070; max-width: 26em">Не нашли ответ? Напишите нам на [EMAIL] или откройте issue на GitHub.</p>
+</div>
+<div style="flex: 2 1 560px; min-width: 0; border-bottom: 1px solid #DCE1E7">
+<div style="border-top: 1px solid #DCE1E7">
+<h3 style="margin: 0"><button type="button" onClick="{{t0}}" aria-expanded="{{f0}}" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; border: 0; background: transparent; font: inherit; font-size: 18px; font-weight: 600; color: #161A23; text-align: left; cursor: pointer"><span>Можете ли вы прочитать мой секрет?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; transition: transform 0.2s; {{c0}}"><path d="m6 9 6 6 6-6"></path></svg></button></h3>
+<sc-if value="{{f0}}" hint-placeholder-val="{{true}}"><p style="margin: 0; padding: 0 48px 24px 0; font-size: 16px; line-height: 1.65; color: #586070">Нет. Секрет шифруется в вашем браузере до отправки. Ключ хранится в ссылке после символа #, а эта часть адреса никогда не попадает на сервер.</p></sc-if>
+</div>
+<div style="border-top: 1px solid #DCE1E7">
+<h3 style="margin: 0"><button type="button" onClick="{{t1}}" aria-expanded="{{f1}}" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; border: 0; background: transparent; font: inherit; font-size: 18px; font-weight: 600; color: #161A23; text-align: left; cursor: pointer"><span>Что, если ссылку откроет бот мессенджера для превью?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; transition: transform 0.2s; {{c1}}"><path d="m6 9 6 6 6-6"></path></svg></button></h3>
+<sc-if value="{{f1}}" hint-placeholder-val="{{false}}"><p style="margin: 0; padding: 0 48px 24px 0; font-size: 16px; line-height: 1.65; color: #586070">Ничего не случится. Секрет появляется только после нажатия кнопки «Показать секрет», а боты кнопки не нажимают.</p></sc-if>
+</div>
+<div style="border-top: 1px solid #DCE1E7">
+<h3 style="margin: 0"><button type="button" onClick="{{t2}}" aria-expanded="{{f2}}" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; border: 0; background: transparent; font: inherit; font-size: 18px; font-weight: 600; color: #161A23; text-align: left; cursor: pointer"><span>Что будет, если получатель не откроет ссылку?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; transition: transform 0.2s; {{c2}}"><path d="m6 9 6 6 6-6"></path></svg></button></h3>
+<sc-if value="{{f2}}" hint-placeholder-val="{{false}}"><p style="margin: 0; padding: 0 48px 24px 0; font-size: 16px; line-height: 1.65; color: #586070">Секрет удалится сам, когда истечёт выбранный срок хранения.</p></sc-if>
+</div>
+<div style="border-top: 1px solid #DCE1E7">
+<h3 style="margin: 0"><button type="button" onClick="{{t3}}" aria-expanded="{{f3}}" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; border: 0; background: transparent; font: inherit; font-size: 18px; font-weight: 600; color: #161A23; text-align: left; cursor: pointer"><span>Можно ли отозвать ссылку после отправки?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; transition: transform 0.2s; {{c3}}"><path d="m6 9 6 6 6-6"></path></svg></button></h3>
+<sc-if value="{{f3}}" hint-placeholder-val="{{false}}"><p style="margin: 0; padding: 0 48px 24px 0; font-size: 16px; line-height: 1.65; color: #586070">Да. На странице с готовой ссылкой есть кнопка «Уничтожить сейчас». После этого ссылка перестанет работать.</p></sc-if>
+</div>
+<div style="border-top: 1px solid #DCE1E7">
+<h3 style="margin: 0"><button type="button" onClick="{{t4}}" aria-expanded="{{f4}}" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; border: 0; background: transparent; font: inherit; font-size: 18px; font-weight: 600; color: #161A23; text-align: left; cursor: pointer"><span>Нужно ли регистрироваться?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#586070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; transition: transform 0.2s; {{c4}}"><path d="m6 9 6 6 6-6"></path></svg></button></h3>
+<sc-if value="{{f4}}" hint-placeholder-val="{{false}}"><p style="margin: 0; padding: 0 48px 24px 0; font-size: 16px; line-height: 1.65; color: #586070">Нет. Ни отправителю, ни получателю не нужен аккаунт.</p></sc-if>
+</div>
+</div>
+</section>
+</main>
+
+<footer style="background: #FFFFFF; border-top: 1px solid #E2E6EC">
+<div style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 32px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1.4 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<a href="Main.dc.html" aria-label="Encrypt.One — на главную" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #161A23">
+<svg width="21" height="30" viewBox="0 0 41 59" aria-hidden="true"><path fill="{{accent}}" d="M0,0c0,0,0,28.9,0,37.7c0,11.7,15.2,18.4,20.5,21c6.1-3.1,20.5-9.4,20.5-21C41,28.6,41,0,41,0H0z M39,37.3 l-18,18v-4.6l18-18V37.3z M21,38.7l18-18v4.6l-18,18V38.7z M39,19.3l-18,18v-4.6l18-18V19.3z M39,13.3l-18,18v-4.6l18-18V13.3z M39,7.3l-18,18v-4.6l18-18V7.3z M21,19.3v-4.6L33.7,2h4.6L21,19.3z M21,13.3V8.7L27.7,2h4.6L21,13.3z M21,7.3V2h5.3L21,7.3z M39,31.3l-18,18v-4.6l18-18V31.3z M2,37.7V2h18v54.3C14.3,53.5,2,47.3,2,37.7z M21.9,55.8l17-17C38.2,47.3,28,52.7,21.9,55.8z"></path></svg>
+<span style="font-size: 19px; font-weight: 650; letter-spacing: -0.025em">encrypt<span style="color: {{accent}}">.one</span></span>
+</a>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #586070; max-width: 22em">Одноразовые ссылки для паролей и файлов. Шифрование в браузере.</p>
+</div>
+<nav aria-label="Сервис" style="flex: 1 1 180px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 14px; font-weight: 600; color: #161A23">Сервис</span>
+<a href="Main.dc.html" style="font-size: 15px; color: #586070; text-decoration: none">Отправить секрет</a>
+<a href="#" style="font-size: 15px; color: #586070; text-decoration: none">Отправить файл</a>
+<a href="Generator.dc.html" style="font-size: 15px; color: #586070; text-decoration: none">Генератор паролей</a>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #586070">Запросить секрет <span style="padding: 2px 8px; border-radius: 999px; background: #EDF0F3; font-size: 12px; font-weight: 600; color: #586070">скоро</span></span>
+</nav>
+<nav aria-label="Приложения" style="flex: 1 1 180px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 14px; font-weight: 600; color: #161A23">Приложения</span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #586070">Telegram <span style="padding: 2px 8px; border-radius: 999px; background: #EDF0F3; font-size: 12px; font-weight: 600; color: #586070">скоро</span></span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #586070">Расширение для браузера <span style="padding: 2px 8px; border-radius: 999px; background: #EDF0F3; font-size: 12px; font-weight: 600; color: #586070">скоро</span></span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #586070">API и CLI <span style="padding: 2px 8px; border-radius: 999px; background: #EDF0F3; font-size: 12px; font-weight: 600; color: #586070">скоро</span></span>
+</nav>
+<nav aria-label="Ресурсы" style="flex: 1 1 180px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 14px; font-weight: 600; color: #161A23">Ресурсы</span>
+<a href="#how" style="font-size: 15px; color: #586070; text-decoration: none">Как это работает</a>
+<a href="#" style="font-size: 15px; color: #586070; text-decoration: none">Безопасность</a>
+<a href="#faq" style="font-size: 15px; color: #586070; text-decoration: none">Вопросы и ответы</a>
+<a href="#" style="font-size: 15px; color: #586070; text-decoration: none">Гайды</a>
+</nav>
+<nav aria-label="Проект" style="flex: 1 1 180px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 14px; font-weight: 600; color: #161A23">Проект</span>
+<a href="https://github.com/Draal/secure-share" style="font-size: 15px; color: #586070; text-decoration: none">GitHub</a>
+<a href="#" style="font-size: 15px; color: #586070; text-decoration: none">Конфиденциальность</a>
+<a href="#" style="font-size: 15px; color: #586070; text-decoration: none">Контакты</a>
+</nav>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding-top: 24px; border-top: 1px solid #E2E6EC; font-size: 14px; color: #586070">
+<span>© 2016–2026 Encrypt.One</span>
+<nav aria-label="Язык сайта" style="display: flex; gap: 20px">
+<a href="#" lang="en" style="color: #586070; text-decoration: none">English</a>
+<a href="#" aria-current="page" style="color: #161A23; font-weight: 600; text-decoration: none">Русский</a>
+<a href="#" lang="uk" style="color: #586070; text-decoration: none">Українська</a>
+</nav>
+</div>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#0B7A5E","options":["#0B7A5E","#3446D6","#0B6BCB","#6B3FD1"]},"$preview":{"width":1440,"height":3400}}'>
+class Component extends DCLogic {
+  rgba(hex, a) {
+    var h = String(hex || '').replace('#', '');
+    if (h.length !== 6) return 'rgba(11, 122, 94, ' + a + ')';
+    var n = parseInt(h, 16);
+    return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + a + ')';
+  }
+  renderVals() {
+    var self = this;
+    var s = this.state || {};
+    var accent = this.props.accent ?? '#0B7A5E';
+    var open = s.open === undefined ? 0 : s.open;
+    var hasFile = s.hasFile === undefined ? true : s.hasFile;
+    var protect = s.protect === undefined ? true : s.protect;
+    var vals = {
+      accent: accent,
+      accentTint: this.rgba(accent, 0.1),
+      hasFile: hasFile,
+      attach: function () { self.setState({ hasFile: true }); },
+      removeFile: function () { self.setState({ hasFile: false }); },
+      protect: protect,
+      toggleProtect: function () { self.setState({ protect: !protect }); },
+      protectPill: 'display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 14px; border-radius: 999px; font: inherit; font-size: 14px; cursor: pointer; ' + (protect ? 'border: 1.5px solid ' + accent + '; background: ' + this.rgba(accent, 0.1) + '; color: ' + accent + '; font-weight: 600' : 'border: 1px solid #D5DAE1; background: #FFFFFF; color: #161A23; font-weight: 400')
+    };
+    [0, 1, 2, 3, 4].forEach(function (i) {
+      vals['f' + i] = open === i;
+      vals['t' + i] = function () { self.setState({ open: open === i ? -1 : i }); };
+      vals['c' + i] = open === i ? 'transform: rotate(180deg)' : 'transform: none';
+    });
+    return vals;
+  }
+}
+</script>
+</body>
+</html>

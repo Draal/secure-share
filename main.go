@@ -1,11 +1,10 @@
 package main
 
-//go:generate $GOPATH/bin/ego templates templates/partitial
-
 import (
 	"log"
 	"net/http"
 	"os"
+	"time"
 )
 
 func main() {
@@ -13,11 +12,18 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	http.HandleFunc("/", handler.Handler)
 
 	listen := os.Getenv("LISTEN")
 	if listen == "" {
 		listen = ":8080"
 	}
-	http.ListenAndServe(listen, nil)
+	server := &http.Server{
+		Addr:              listen,
+		Handler:           handler,
+		ReadHeaderTimeout: 10 * time.Second,
+		ReadTimeout:       60 * time.Second,
+		WriteTimeout:      60 * time.Second,
+		IdleTimeout:       120 * time.Second,
+	}
+	log.Fatal(server.ListenAndServe())
 }

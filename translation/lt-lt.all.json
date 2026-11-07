@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Nepavyko apdoroti užklausos. Atnaujinkite puslapį ir bandykite dar kartą."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Ši nuoroda neleidžia sunaikinti paslapties."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Paslaptis nerasta: ji jau atidaryta, sunaikinta arba jos galiojimas baigėsi."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Šiai paslapčiai atidaryti reikia slaptažodžio."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Per daug užklausų. Palaukite minutę ir bandykite dar kartą."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Mūsų pusėje įvyko klaida. Bandykite dar kartą po minutės."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Failas per didelis. Riba yra {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Slaptažodis tris kartus įvestas neteisingai, todėl paslaptis ištrinta."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Neteisingas slaptažodis. Likę bandymai: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Uždaryti"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Nukopijuota"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopijuoti"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Nuorodos"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privatumas"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projektas"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Dažniausi klausimai"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Vadovai"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Kaip tai veikia"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Saugumas"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Ištekliai"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Siųsti failą"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Slaptažodžių generatorius"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Bendrinti paslaptį"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Paslauga"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Vienkartinės nuorodos slaptažodžiams ir failams bendrinti. Šifruojama jūsų naršyklėje."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Pirminis kodas „GitHub“"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Lietuvių kalba"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "LT"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Svetainės kalba: lietuvių"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "„Encrypt.One“ pradžia"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: bendrinkite slaptažodį vienkartine nuoroda"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Dažniausi klausimai"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Slaptažodžių generatorius"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Kaip tai veikia"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Pagrindinė navigacija"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Pereiti prie turinio"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Laikas, kalendoriai ir šventės bet kuriame mieste"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Nemokami žaidimai tiesiai naršyklėje"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tūkstančiai radijo stočių iš viso pasaulio"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "„Encrypt.One“ yra nemokama mūsų rėmėjų dėka"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tamsi"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Šviesi"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistemos"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Nusiųskite ją gavėjui. Paslaptį galima atidaryti tik vieną kartą."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Jūsų nuoroda paruošta"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Gauti kitą nuorodą"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Tai pačiai paslapčiai — atskira nuoroda kiekvienam gavėjui. Dabartinė nuoroda veiks toliau, tačiau iš čia jos sunaikinti nebegalėsite."
+  },
+  {
+    "id": "created.back",
+    "translation": "Nauja paslaptis"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Sunaikinti dabar"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Sunaikinti paslaptį? Nuoroda iškart nustos veikti."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Nepavyko sunaikinti paslapties. Bandykite dar kartą."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Išsiuntėte ne tam žmogui? Sunaikinkite paslaptį ir nuoroda iškart nustos veikti."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Paslaptį sunaikinote. Duomenys ištrinti iš serverio, o nuoroda nebeveikia."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Paslaptis sunaikinta"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Niekas laiku neatidarė nuorodos. Duomenys ištrinti iš serverio, o nuoroda nebeveikia."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Nuorodos galiojimas baigėsi"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopijuoti nuorodą"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Vienkartinė nuoroda"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Ši nuoroda nebeveikia"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Nuoroda rodoma tik kortelėje, kurioje ji buvo sukurta. Paslaptį iš čia vis dar galite sunaikinti."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "„Encrypt.One“ vienkartinės nuorodos siuntėjo puslapis: bendrinkite nuorodą arba sunaikinkite paslaptį."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Jūsų nuoroda paruošta — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Sukurti naują nuorodą"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Vienkartinės nuorodos QR kodas"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Nukreipkite telefono kamerą į kodą, kad atidarytumėte nuorodą. Nerodykite kodo kitiems: jis atveria paslaptį kaip ir nuoroda."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Nuorodos QR kodas"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Siųsti per"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "El. paštas"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR kodas"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Paslaptis jums"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Vienkartinė nuoroda į paslaptį:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Galioja iki"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Patarimas:</strong> itin jautriems duomenims pridėkite slaptažodį ir perduokite jį kitu būdu, pavyzdžiui, balsu. Tuomet vienos žinutės perėmimas nieko neatskleis."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Pridėti failą"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Paleiskite, kad pridėtumėte failą"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Failą galite nutempti tiesiai į lauką."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Iki {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Ši naršyklė nepalaiko šifravimo. Atnaujinkite ją arba atidarykite svetainę kitoje naršyklėje."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Įklijuokite tekstą arba pridėkite failą."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Failas per didelis. Riba yra {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Nepavyko prisijungti prie serverio. Patikrinkite ryšį ir bandykite dar kartą."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Įveskite atidarymo slaptažodį arba išjunkite apsaugą slaptažodžiu."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "bus užšifruotas kartu su tekstu"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Pašalinti failą"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Generuoti slaptažodį"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Įterpti į paslapties lauką"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Pasiūlyti"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Be šio slaptažodžio paslaptis neatsivers net perėmus nuorodą. Praneškite jį gavėjui atskirai, pavyzdžiui, balsu arba per kitą susirašinėjimo programėlę."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Atidarymo slaptažodis"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Pavyzdžiui, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Apsaugoti slaptažodžiu"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Kuo norite pasidalyti?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Slaptažodis, API raktas, prisijungimo duomenys…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Nuorodos nustatymai"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Sukurti vienkartinę nuorodą"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Šifruojama…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 diena"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 valanda"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 dienos"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 dienos"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Baigsis po"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Saugojimo laikas"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Nemokamas stiprių slaptažodžių, slaptafrazės ir PIN kodų generatorius. Jie sukuriami naršyklėje ir niekur nesiunčiami. Bendrinkite rezultatą vienkartine nuoroda."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Stiprių slaptažodžių generatorius — nemokamas ir privatus | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Skaitmenys (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Ilgis"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Mažosios raidės (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Be panašių ženklų (0 ir O, l ir 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Ženklai"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Simboliai (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Didžiosios raidės (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Atsitiktinių žodžių frazę lengva ištarti ir prisiminti, bet taip pat sunku atspėti kaip ilgą slaptažodį. Žodžiai paimti iš atviro EFF sąrašo."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Žodžių skaičius"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Skaitmenų skaičius"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Generuoti dar kartą"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Siųsti vienkartine nuoroda"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Rezultatas iškart įkeliamas į formą, o jūs gaunate tik kartą atidaromą nuorodą."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Reikia pasidalyti šiuo slaptažodžiu?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropija ≈ {bits} bitų"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Vidutinis"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Tinka tik kaip PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Stiprus"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Labai stiprus"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Silpnas"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Slaptažodžio tipas"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Slaptažodis"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Slaptafrazė"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Bent 14–16 ženklų. Ilgis apsaugo geriau nei raidžių pakeitimas simboliais."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Ilgas"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Sudėtingų slaptažodžių įsiminti nereikia: naudokite slaptažodžių tvarkyklę."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Saugomas slaptažodžių tvarkyklėje"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Kas daro slaptažodį stiprų"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Kiekvienai paslaugai naudokite atskirą. Tuomet vieno slaptažodžio nutekėjimas neatvers kitų paskyrų."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unikalus"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Slaptažodžių generatorius"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Ne. Paslaptis užšifruojama jūsų naršyklėje prieš siunčiant. Raktas yra nuorodoje po ženklo #, o ši adreso dalis niekada nepasiekia serverio."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Nieko nenutinka. Paslaptis pasirodo tik paspaudus „Rodyti paslaptį“, o peržiūros robotai mygtukų nespaudžia."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Paslaptis automatiškai ištrinama pasibaigus pasirinktam saugojimo laikui."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Taip. Nuorodos puslapyje yra mygtukas „Sunaikinti dabar“. Po to nuoroda nebeveikia."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Ne. Paskyros nereikia nei siuntėjui, nei gavėjui."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Neradote atsakymo? Sukurkite užklausą „GitHub“."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Ar galite perskaityti mano paslaptį?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Kas bus, jei susirašinėjimo programėlės peržiūros robotas atidarys nuorodą?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Kas bus, jei gavėjas niekada neatidarys nuorodos?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Ar galiu atšaukti nuorodą ją išsiuntęs?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Ar reikia registruotis?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Dažniausi klausimai"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Jūsų paslaptis užšifruojama tiesiai naršyklėje. Gavėjas atidaro nuorodą vieną kartą, tada duomenys ištrinami iš serverio."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Be registracijos"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 šifravimas jūsų įrenginyje"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Atvirasis kodas"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Saugiai dalykitės slaptažodžiais vienkartinėmis nuorodomis"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Slaptažodis, API raktas, prisijungimo duomenys arba failas. Viskas užšifruojama naršyklėje prieš siunčiant."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Įklijuokite paslaptį"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Per „Telegram“, „WhatsApp“, „Signal“, „Slack“, el. paštą ar kitą susirašinėjimo programėlę. Pokalbyje lieka tik nuoroda, o ne pats slaptažodis."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Nusiųskite nuorodą"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Po peržiūros duomenys ištrinami iš serverio. Nuorodos negalima atidaryti antrą kartą."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Nuoroda sunaudojama"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Kaip tai veikia"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Siųskite slaptažodžius, privačias žinutes, API raktus ir failus šifruotomis vienkartinėmis nuorodomis. Paslaptys ištrinamos po peržiūros. Nemokama, atvirasis kodas, be registracijos."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Vienkartinės paslapčių nuorodos — saugiai dalykitės slaptažodžiais | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Dalykitės slaptažodžiais ir paskyros duomenimis nepalikdami jų pokalbių istorijoje."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Slaptažodžiai ir prisijungimo duomenys"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Siųskite jautrias žinutes, kurias galima atidaryti tik kartą."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Privačios žinutės"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Saugiai dalykitės API raktais, prieigos raktais ir konfigūracijos failais su komanda."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API raktai ir prieigos duomenys"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Dalykitės privačiais dokumentais ir failais iki {{.MaxFileSize}} šifruotomis vienkartinėmis nuorodomis."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Konfidencialūs failai"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Saugiai siųskite save sunaikinančias žinutes, slaptažodžius, API raktus ir privačius failus. Kiekviena paslaptis šifruojama naršyklėje ir po peržiūros ištrinama iš serverio."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Kuo galima dalytis vienkartine nuoroda?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Lieka jums.</strong> Iššifravimo raktas. Naršyklės niekada nesiunčia serveriui dalies po #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Siunčiama į serverį.</strong> Šifruotų duomenų adresas: be rakto tai tik atsitiktiniai baitai."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Naršyklėje integruota Web Crypto API ir AES-256-GCM. Be trečiųjų šalių bibliotekų."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Šifruojama naršyklėje"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Visas kodas paskelbtas <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">„GitHub“</a>. Kiekvienas gali patikrinti, kaip veikia šifravimas."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Atvirasis kodas"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Be registracijos, trečiųjų šalių scenarijų ir sekiklių. Todėl nėra ir slapukų juostos."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Nieko nereikalingo"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Iššifravimo raktas yra nuorodoje po ženklo #. Naršyklės niekada nesiunčia šios adreso dalies serveriui, todėl ją matote tik jūs ir gavėjas."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Daugiau apie veikimą"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Kodėl negalime perskaityti jūsų paslapties"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Bendrinti paslaptį"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kodas „GitHub“"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Atvirasis kodas"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Visas „Encrypt.One“ kodas yra „GitHub“. Kiekvienas gali pamatyti, kaip veikia šifravimas, ir patikrinti, kad raktas niekada nepatenka į serverį."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Patikrinkite patys"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Duomenų srautas"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Paslaptis užšifruojama prieš siunčiant ir iššifruojama tik gavėjo. Tarp šių veiksmų duomenys visada lieka užšifruoti."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Atsisiunčia šifruotus duomenis, paima raktą iš nuorodos ir iššifruoja paslaptį vietoje. Serveris iškart po to ištrina duomenis."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Gavėjo naršyklė"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Sukuria atsitiktinį raktą ir užšifruoja tekstą bei failą su AES-256-GCM, naudodama naršyklėje integruotą Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Siuntėjo naršyklė"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Priima ir saugo tik šifruotus baitus. Be rakto jų negali perskaityti nei mes, nei kas nors, gavęs prieigą prie serverio."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "„Encrypt.One“ serveris"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Serveris mato tik šifruotus duomenis"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "„Encrypt.One“ užšifruoja jūsų paslaptį tiesiai naršyklėje. Į serverį keliauja tik šifruoti duomenys, o raktas lieka nuorodoje ir niekada nepalieka siuntėjo bei gavėjo įrenginių."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Kaip tai veikia ir kodėl saugu"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Nuorodos viduje"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Nuoroda turi dvi dalis. Pirmoji nurodo, kur saugomi šifruoti duomenys. Antroji, po #, yra iššifravimo raktas."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Kiekvienas, turintis visą nuorodą, gali atidaryti paslaptį. Siųskite ją tik gavėjui ir jautriems duomenims pridėkite slaptažodį."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Visa nuoroda suteikia prieigą"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Naršyklės į užklausas neįtraukia dalies po #. Todėl rakto nėra nei serverio žurnaluose, nei tarpiniuose tinklo taškuose."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Niekada nesiunčiamas į serverį"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Raktas atsitiktinai sugeneruojamas jūsų įrenginyje. Jo neįmanoma atspėti perrenkant visas galimybes."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Naujas kiekvienai nuorodai"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Raktas yra po #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Kaip „Encrypt.One“ šifruoja paslaptis naršyklėje: AES-256-GCM, raktas po #, saugojimas, duomenų ištrynimas ir apsauga slaptažodžiu."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Kaip veikia Encrypt.One: paslapčių bendrinimas su galiniu šifravimu"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Atidaryti slaptažodžių generatorių"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Atidarymo slaptažodis"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Slaptažodis saugo paslaptį net perėmus nuorodą. Be jo gavėjas mato tik įvesties lauką."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Po trijų neteisingų bandymų paslaptis ištrinama. Slaptažodžio neįmanoma atspėti perrenkant visas galimybes."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Trys bandymai"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Formoje spustelėkite „Pasiūlyti“ arba pasirinkite frazę iš slaptažodžių generatoriaus: ją lengva perskaityti garsiai."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Negalvokite jo patys"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Perduokite slaptažodį kitu būdu: balsu, per kitą susirašinėjimo programėlę arba asmeniškai. Tuomet vienos žinutės perėmimas nieko neatskleis."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Perduokite atskirai"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Antra spyna jautriems duomenims"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Tris kartus neteisingai įvedus atidarymo slaptažodį, paslaptis ištrinama visam laikui."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Po trijų neteisingų slaptažodžių"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Mygtukas „Sunaikinti dabar“ nuorodos puslapyje iškart ištrina paslaptį."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Jūsų prašymu"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Jei nuoroda neatidaroma per pasirinktą saugojimo laiką, paslaptis automatiškai ištrinama."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Pasibaigus galiojimui"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Gavėjui atidarius paslaptį, duomenys ištrinami. Nuoroda antrą kartą neveiks."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Po atidarymo"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Neteisingų slaptažodžio bandymų skaitiklis"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Šifruotas tekstas ir failas"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Saugoma serveryje"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Pasirinktas saugojimo laikas"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Saugojimas"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Serveris saugo paslaptį tiek laiko, kiek gavėjui reikia jai atidaryti."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Nuorodoje esantis iššifravimo raktas"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Atidarymo slaptažodis"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Paslapties turinys atviru tekstu"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Niekada nepasiekia serverio"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Ką serveris saugo ir kada ištrina"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Slaptažodžių generatorius"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Į pradžią"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Tokio puslapio „Encrypt.One“ nėra."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Puslapis nerastas — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adresas gali būti įvestas neteisingai arba puslapis perkeltas. Jei atidarėte vienkartinę nuorodą, patikrinkite, ar ji nukopijuota visa."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Puslapis nerastas"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Jei ši politika pasikeis, naują versiją paskelbsime šiame puslapyje ir atnaujinsime datą viršuje.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Politikos pakeitimai"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Privatumo klausimus pateikite <a href=\"https://github.com/Draal/secure-share/issues\">„GitHub“ užklausose</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Klausimai"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>iškart po to, kai gavėjas atidaro paslaptį;</li><li>kai nuorodos puslapyje paspaudžiate „Sunaikinti dabar“;</li><li>po trečio neteisingo slaptažodžio;</li><li>pasibaigus pasirinktam laikotarpiui nuo vienos valandos iki septynių dienų. Pasibaigusios paslapties iškart nebegalima gauti, o jos duomenys ištrinami kasdienio valymo metu.</li></ul><p>Ištrintos paslapties atkurti negalima. Susirašinėjimo programėlių robotai, kuriantys nuorodų peržiūras, paslapties nesunaudoja: duomenys pateikiami tik paspaudus „Rodyti paslaptį“.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Kada duomenys ištrinami"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Slaptažodžiai, slaptafrazės ir PIN kodai sukuriami jūsų naršyklėje kriptografiniu atsitiktinių skaičių generatoriumi ir niekada nesiunčiami į serverį.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Slaptažodžių generatorius"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "„Encrypt.One“ sukurtas taip, kad paslaptį galėtų perskaityti tik gavėjas — net mes negalime. Toliau aprašoma, kokie duomenys perduodami per paslaugą ir kas su jais vyksta."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Programos serveris registruoja tik API užklausas: užklausos tipą, rezultatą ir apdorojimo laiką. IP adresai, paslapčių identifikatoriai, prieigos raktai, puslapių adresai ir užklausų turinys neregistruojami.</p><p>Siekdamas apsaugoti paslaugą nuo perrinkimo atakų ir piktnaudžiavimo, serveris riboja užklausų dažnumą vienam IP adresui. Adresas naudojamas tik atmintyje ir neišsaugomas.</p><p>Prieš programą esantis žiniatinklio serveris gali saugoti standartinį prieigos žurnalą: IP adresą, laiką ir puslapio adresą be dalies po #. Tokie žurnalai naudojami tik apsaugai nuo atakų ir saugomi ribotą laiką.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Techniniai žurnalai"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "„Encrypt.One“ privatumo politika: kokius duomenis paslauga gauna, kiek laiko juos saugo ir kodėl negali perskaityti jūsų paslapčių."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Privatumo politika — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Pats slaptažodis niekada nepalieka naršyklės. Iš slaptažodžio ir nuorodos rakto naršyklė išveda dvi nepriklausomas reikšmes: šifravimo raktą ir tikrinimo maišą (PBKDF2 su 600 000 iteracijų, tada HKDF). Į serverį siunčiama tik maiša. Serveris ją naudoja slaptažodžiui patikrinti, tačiau negali sužinoti nei slaptažodžio, nei rakto.</p><p>Po trijų neteisingų bandymų paslaptis ištrinama. Bandymų skaitiklis laikomas serverio atmintyje ir susietas su paslaptimi, o ne su lankytoju.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Atidarymo slaptažodis"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Nežinome, kas sukūrė ar atidarė paslaptį: paslauga nesieja duomenų su žmonėmis, paskyromis ar IP adresais. Todėl negalime rasti, pateikti ar ištrinti konkretaus asmens duomenų. Norėdami ištrinti paslaptį anksčiau, atidarykite nuorodos puslapį ir paspauskite „Sunaikinti dabar“.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Jūsų teisės"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Tekstas ir pridėtas failas prieš siunčiant užšifruojami jūsų naršyklėje naudojant AES-256-GCM ir integruotą Web Crypto API. Failo pavadinimas ir tipas užšifruojami kartu su turiniu.</p><p>Serveryje saugoma tik:</p><ul><li>užšifruoti duomenys;</li><li>galiojimo pabaigos laikas;</li><li>ar pridėtas failas;</li><li>slaptažodžio tikrinimo maiša, jei nustatėte atidarymo slaptažodį.</li></ul><p>Iššifravimo raktas yra nuorodos dalis po ženklo #. Naršyklės niekada nesiunčia šios dalies į serverį, todėl nei mes, nei prieigą prie serverio gavęs asmuo negalime iššifruoti duomenų. Dėl tos pačios priežasties negalime atkurti paslapties, jei nuoroda prarandama.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Paslaptys ir failai"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>„Encrypt.One“ yra nemokama paslauga slaptažodžiams, raktams ir failams bendrinti vienkartinėmis nuorodomis. Registracija nereikalinga. Paslaugą kuria ir valdo <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Nuorodą siunčiate patys bet kuriuo būdu. Žinutė programėlėje, el. laiškas ar SMS gali būti perimti, tada paslaptį gauna pirmasis nuorodą atidaręs asmuo. Svarbiems duomenims nustatykite atidarymo slaptažodį ir perduokite jį kitu kanalu.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Kaip veikia paslauga"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Jūsų paslaptis šifruojama naršyklėje. Serveris gauna tik šifruotus duomenis ir negali jų perskaityti.</li><li>Iššifravimo raktas yra nuorodoje po # ir niekada nesiunčiamas į serverį.</li><li>Be registracijos, reklamų, analizės ir trečiųjų šalių scenarijų.</li><li>Paslaptis ištrinama iškart ją atidarius arba pasibaigus pasirinktam laikotarpiui.</li><li>Programos serveris neregistruoja IP adresų ar paslapčių identifikatorių.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Trumpai"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Pirminis kodas atviras <a href=\"https://github.com/Draal/secure-share\">„GitHub“</a>: galite patikrinti šifravimą arba paleisti savo kopiją.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Atvirasis kodas"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Nenaudojame reklaminių ar analitinių slapukų. Svetainė jūsų naršyklėje saugo tik tai, ko reikia veikimui:</p><ul><li><code>lang</code> slapuką — jūsų kalbą, jei pasirinkote ją meniu;</li><li>localStorage — spalvų temą, žymą apie uždarytą kalbos pranešimą ir iš šios naršyklės sunaikintų nuorodų žymas;</li><li>sessionStorage — generatoriaus slaptažodį, kol jis perkeliamas į pradžios puslapio formą. Jis pašalinamas iškart po įterpimo.</li></ul><p>Serverį pasiekia tik kalbos slapukas, pagal kurį parenkama puslapio versija. Viską galite ištrinti naršyklės nustatymuose.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Slapukai ir naršyklės saugykla"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Svetainė neįkelia trečiųjų šalių scenarijų, šriftų, skaitiklių ar reklamų: viskas, įskaitant šriftus, pateikiama iš mūsų serverio. Duomenų trečiosioms šalims neparduodame ir su jomis nesidalijame.</p><p>Siuntimo per „Telegram“, „WhatsApp“ ir el. paštą mygtukai bei nuorodos į rėmėjų svetaines yra paprastos nuorodos. Išorinė paslauga duomenis gauna tik spustelėjus, o tada galioja jos politika.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Trečiųjų šalių paslaugos"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Privatumo politika"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Paskutinį kartą atnaujinta: 2026 m. spalio 25 d."
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Nuoroda sugadinta arba nukopijuota ne visa. Paprašykite siuntėjo atsiųsti ją dar kartą."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Duomenys gauti, bet jų nepavyko iššifruoti: nuoroda sugadinta. Paslaptis jau ištrinta iš serverio, todėl paprašykite siuntėjo sukurti naują."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Nepavyko prisijungti prie serverio. Patikrinkite ryšį ir bandykite dar kartą."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Per daug bandymų. Palaukite minutę ir bandykite dar kartą."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Nepavyko atidaryti paslapties"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Sukurkite savo nuorodą"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Kaip veikia vienkartinės nuorodos"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Ji jau atidaryta arba jos galiojimas baigėsi. Nuorodos nebegalima atidaryti dar kartą."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Paprašykite siuntėjo sukurti naują nuorodą. Jei šios neatidarėte, praneškite jam: galbūt ją matė kas nors kitas."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Ši paslaptis nebepasiekiama"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Ją galima peržiūrėti tik vieną kartą. Iškart po to ji bus ištrinta iš serverio."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Paslaptis apsaugota slaptažodžiu. Ją galima peržiūrėti tik vieną kartą, tada ji bus ištrinta iš serverio."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Kažkas atsiuntė jums paslaptį"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Vienkartinė „Encrypt.One“ nuoroda. Paslaptį galima atidaryti kartą, tada ji ištrinama iš serverio."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Kažkas atsiuntė jums paslaptį — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Įveskite slaptažodį."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Siuntėjas turėjo perduoti slaptažodį atskirai. Po trijų neteisingų bandymų paslaptis ištrinama."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Atidarymo slaptažodis"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Atidaryti"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Bendrinkite savo paslaptį"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Sukurkite savo vienkartinę nuorodą. Be registracijos."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Reikia pasidalyti slaptažodžiu?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Rodyti paslaptį"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Ištrinta iš serverio"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Atsisiųsti"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Išsaugokite ją, jei prireiks vėliau: uždarius puslapį paslapties vėl atidaryti nepavyks."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Paslapties tekstas"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Jūsų paslaptis"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Atidaroma…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Kas yra Encrypt.One?"
+  }
+]

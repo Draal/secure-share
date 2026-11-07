@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "अनुरोध पूरा नहीं हो सका। पृष्ठ फिर से लोड करके दोबारा प्रयास करें।"
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "इस लिंक से गोपनीय जानकारी नष्ट नहीं की जा सकती।"
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "गोपनीय जानकारी नहीं मिली: इसे पहले ही खोला या नष्ट किया जा चुका है या इसकी अवधि समाप्त हो गई है।"
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "इस गोपनीय जानकारी को खोलने के लिए पासवर्ड चाहिए।"
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "बहुत अधिक अनुरोध। एक मिनट रुककर दोबारा प्रयास करें।"
+  },
+  {
+    "id": "api.error.server",
+    "translation": "हमारी ओर से कुछ गड़बड़ हुई। एक मिनट बाद दोबारा प्रयास करें।"
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "फ़ाइल बहुत बड़ी है। सीमा {{.MaxFileSize}} है।"
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "तीन बार गलत पासवर्ड डालने के कारण गोपनीय जानकारी मिटा दी गई है।"
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "गलत पासवर्ड। शेष प्रयास: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "बंद करें"
+  },
+  {
+    "id": "common.copied",
+    "translation": "कॉपी हो गया"
+  },
+  {
+    "id": "common.copy",
+    "translation": "कॉपी करें"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "लिंक"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "गोपनीयता"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "परियोजना"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "अक्सर पूछे जाने वाले प्रश्न"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "मार्गदर्शिकाएँ"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "यह कैसे काम करता है"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "सुरक्षा"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "संसाधन"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "फ़ाइल भेजें"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "पासवर्ड जनरेटर"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "गोपनीय जानकारी साझा करें"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "सेवा"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "पासवर्ड और फ़ाइलें साझा करने के लिए एक बार इस्तेमाल होने वाले लिंक। आपके ब्राउज़र में एन्क्रिप्ट किए जाते हैं।"
+  },
+  {
+    "id": "common.github.label",
+    "translation": "GitHub पर स्रोत कोड"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "हिन्दी"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "HI"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "साइट की भाषा: हिन्दी"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One का मुख्य पृष्ठ"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: एक बार इस्तेमाल होने वाले लिंक से पासवर्ड साझा करें"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "अक्सर पूछे जाने वाले प्रश्न"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "पासवर्ड जनरेटर"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "यह कैसे काम करता है"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "मुख्य नेविगेशन"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "सामग्री पर जाएँ"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "किसी भी शहर का समय, कैलेंडर और छुट्टियाँ"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "सीधे ब्राउज़र में मुफ़्त गेम"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "दुनिया भर के हज़ारों रेडियो स्टेशन"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "हमारे प्रायोजकों की बदौलत Encrypt.One मुफ़्त है"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "गहरा"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "थीम"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "हल्का"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "सिस्टम के अनुसार"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "इसे प्राप्तकर्ता को भेजें। गोपनीय जानकारी केवल एक बार खोली जा सकती है।"
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "आपका लिंक तैयार है"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "एक और लिंक पाएँ"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "उसी गोपनीय जानकारी के लिए प्रत्येक प्राप्तकर्ता को अलग लिंक दें। मौजूदा लिंक काम करता रहेगा, लेकिन आप उसे यहाँ से नष्ट नहीं कर पाएँगे।"
+  },
+  {
+    "id": "created.back",
+    "translation": "नई गोपनीय जानकारी"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "अभी नष्ट करें"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "गोपनीय जानकारी नष्ट करें? लिंक तुरंत काम करना बंद कर देगा।"
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "गोपनीय जानकारी नष्ट नहीं की जा सकी। कृपया दोबारा प्रयास करें।"
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "गलत व्यक्ति को भेज दिया? गोपनीय जानकारी नष्ट करें और लिंक तुरंत काम करना बंद कर देगा।"
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "आपने गोपनीय जानकारी नष्ट कर दी। डेटा सर्वर से मिटा दिया गया है और लिंक अब काम नहीं करता।"
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "गोपनीय जानकारी नष्ट हो गई"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "किसी ने समय पर लिंक नहीं खोला। डेटा सर्वर से मिटा दिया गया है और लिंक अब काम नहीं करता।"
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "लिंक की अवधि समाप्त हो गई"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "लिंक कॉपी करें"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "एक बार इस्तेमाल होने वाला लिंक"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "यह लिंक अब काम नहीं करता"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "लिंक केवल उसी टैब में दिखाया जाता है जहाँ इसे बनाया गया था। आप यहाँ से गोपनीय जानकारी अब भी नष्ट कर सकते हैं।"
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One के एक बार इस्तेमाल होने वाले लिंक का प्रेषक पृष्ठ: लिंक साझा करें या गोपनीय जानकारी नष्ट करें।"
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "आपका लिंक तैयार है — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "नया लिंक बनाएँ"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "एक बार इस्तेमाल होने वाले लिंक का QR कोड"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "लिंक खोलने के लिए फ़ोन के कैमरे से इसे स्कैन करें। कोड दूसरों को न दिखाएँ: लिंक की तरह यह भी गोपनीय जानकारी खोलता है।"
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "लिंक का QR कोड"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "इसके ज़रिए भेजें"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "ईमेल"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR कोड"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "आपके लिए गोपनीय जानकारी"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "गोपनीय जानकारी का एक बार इस्तेमाल होने वाला लिंक:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "इस समय तक मान्य"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>सुझाव:</strong> बहुत संवेदनशील डेटा के लिए लिंक पर पासवर्ड लगाएँ और उसे किसी दूसरे तरीके से, जैसे बोलकर, बताएँ। तब केवल एक संदेश पकड़े जाने से जानकारी नहीं मिलेगी।"
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "फ़ाइल जोड़ें"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "फ़ाइल जोड़ने के लिए यहाँ छोड़ें"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "आप फ़ाइल को सीधे इस क्षेत्र में खींच सकते हैं।"
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "अधिकतम {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "यह ब्राउज़र एन्क्रिप्शन का समर्थन नहीं करता। इसे अपडेट करें या साइट किसी दूसरे ब्राउज़र में खोलें।"
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "कुछ टेक्स्ट डालें या फ़ाइल जोड़ें।"
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "फ़ाइल बहुत बड़ी है। सीमा {{.MaxFileSize}} है।"
+  },
+  {
+    "id": "form.error.network",
+    "translation": "सर्वर से संपर्क नहीं हो सका। अपना कनेक्शन जाँचें और दोबारा प्रयास करें।"
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "खोलने का पासवर्ड डालें या पासवर्ड सुरक्षा बंद करें।"
+  },
+  {
+    "id": "form.file.note",
+    "translation": "टेक्स्ट के साथ एन्क्रिप्ट की गई"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "फ़ाइल हटाएँ"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "पासवर्ड बनाएँ"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "गोपनीय जानकारी के क्षेत्र में डालें"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "सुझाएँ"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "इस पासवर्ड के बिना गोपनीय जानकारी नहीं खुलेगी, भले ही लिंक किसी और को मिल जाए। इसे प्राप्तकर्ता को अलग से बताएँ, जैसे बोलकर या किसी दूसरे मैसेंजर में।"
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "खोलने का पासवर्ड"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "उदाहरण: maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "पासवर्ड से सुरक्षित करें"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "आप क्या साझा करना चाहते हैं?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "पासवर्ड, API कुंजी, लॉगिन विवरण…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "लिंक की सेटिंग"
+  },
+  {
+    "id": "form.submit",
+    "translation": "एक बार इस्तेमाल होने वाला लिंक बनाएँ"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "एन्क्रिप्ट किया जा रहा है…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 दिन"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 घंटा"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 दिन"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 दिन"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "अवधि समाप्त होगी"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "संग्रहण अवधि"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "मुफ़्त मज़बूत पासवर्ड जनरेटर: यादृच्छिक पासवर्ड, पासफ़्रेज़ और PIN सीधे आपके ब्राउज़र में बनते हैं और कहीं भेजे नहीं जाते। परिणाम एक बार इस्तेमाल होने वाले लिंक से साझा करें।"
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "मज़बूत पासवर्ड जनरेटर — मुफ़्त और निजी | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "अंक (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "लंबाई"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "छोटे अक्षर (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "मिलते-जुलते अक्षर न रखें (0 और O, l और 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "अक्षर और चिह्न"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "चिह्न (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "बड़े अक्षर (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "यादृच्छिक शब्दों वाला वाक्य बोलना और याद रखना आसान है, फिर भी लंबे पासवर्ड की तरह अनुमान लगाना कठिन है। शब्द EFF की सार्वजनिक सूची से लिए गए हैं।"
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "शब्दों की संख्या"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "अंकों की संख्या"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "दोबारा बनाएँ"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "एक बार इस्तेमाल होने वाले लिंक से भेजें"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "यह सीधे फ़ॉर्म में जाएगा और आपको केवल एक बार खुलने वाला लिंक मिलेगा।"
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "क्या यह पासवर्ड साझा करना है?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "एंट्रॉपी ≈ {bits} बिट"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "ठीक-ठाक"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "केवल PIN के लिए उपयुक्त"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "मज़बूत"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "बहुत मज़बूत"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "कमज़ोर"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "पासवर्ड का प्रकार"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "पासवर्ड"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "पासफ़्रेज़"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "कम से कम 14–16 अक्षर। अक्षरों को चिह्नों से बदलने की तुलना में लंबाई बेहतर सुरक्षा देती है।"
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "लंबा"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "जटिल पासवर्ड याद रखने की ज़रूरत नहीं: इसके लिए पासवर्ड मैनेजर है।"
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "पासवर्ड मैनेजर में रखा हुआ"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "पासवर्ड को मज़बूत क्या बनाता है"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "हर सेवा के लिए अलग पासवर्ड। तब एक पासवर्ड लीक होने से आपके दूसरे खाते नहीं खुलेंगे।"
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "अलग"
+  },
+  {
+    "id": "generator.title",
+    "translation": "पासवर्ड जनरेटर"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "नहीं। गोपनीय जानकारी भेजने से पहले आपके ब्राउज़र में एन्क्रिप्ट होती है। कुंजी लिंक में # के बाद होती है और पते का वह हिस्सा कभी सर्वर तक नहीं पहुँचता।"
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "कुछ नहीं होता। गोपनीय जानकारी तभी दिखती है जब कोई «गोपनीय जानकारी दिखाएँ» दबाता है, और प्रीव्यू बॉट बटन नहीं दबाते।"
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "आपके चुने हुए संग्रहण समय के समाप्त होने पर गोपनीय जानकारी अपने आप मिट जाती है।"
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "हाँ। आपके लिंक वाले पृष्ठ पर «अभी नष्ट करें» बटन है। उसके बाद लिंक काम करना बंद कर देता है।"
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "नहीं। न प्रेषक को और न ही प्राप्तकर्ता को खाते की ज़रूरत है।"
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "जवाब नहीं मिला? GitHub पर एक इश्यू खोलें।"
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "क्या आप मेरी गोपनीय जानकारी पढ़ सकते हैं?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "अगर मैसेंजर का प्रीव्यू बॉट लिंक खोले तो क्या होगा?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "अगर प्राप्तकर्ता कभी लिंक न खोले तो क्या होगा?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "क्या भेजने के बाद लिंक रद्द कर सकते हैं?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "क्या पंजीकरण ज़रूरी है?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "अक्सर पूछे जाने वाले प्रश्न"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "आपकी गोपनीय जानकारी सीधे आपके ब्राउज़र में एन्क्रिप्ट होती है। प्राप्तकर्ता एक बार लिंक खोलता है और फिर डेटा सर्वर से मिट जाता है।"
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "पंजीकरण नहीं"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "आपके डिवाइस पर AES-256 एन्क्रिप्शन"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "ओपन सोर्स"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "एक बार इस्तेमाल होने वाले लिंक से पासवर्ड सुरक्षित साझा करें"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "पासवर्ड, API कुंजी, लॉगिन विवरण या फ़ाइल। भेजने से पहले सब कुछ आपके ब्राउज़र में एन्क्रिप्ट होता है।"
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "अपनी गोपनीय जानकारी डालें"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram, WhatsApp, Signal, Slack, ईमेल या किसी अन्य मैसेंजर से। चैट में केवल लिंक रहता है, पासवर्ड नहीं।"
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "लिंक भेजें"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "देखने के बाद डेटा सर्वर से मिट जाता है। लिंक दोबारा नहीं खोला जा सकता।"
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "लिंक निष्क्रिय हो जाता है"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "यह कैसे काम करता है"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "एन्क्रिप्ट किए गए एक बार इस्तेमाल होने वाले लिंक से पासवर्ड, निजी संदेश, API कुंजियाँ और फ़ाइलें भेजें। देखने के बाद गोपनीय जानकारी मिट जाती है। मुफ़्त, ओपन सोर्स, बिना पंजीकरण।"
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "एक बार इस्तेमाल होने वाले गोपनीय लिंक — सुरक्षित पासवर्ड साझा करें | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "पासवर्ड और खाता विवरण चैट इतिहास में छोड़े बिना साझा करें।"
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "पासवर्ड और लॉगिन विवरण"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "संवेदनशील संदेश भेजें जिन्हें केवल एक बार खोला जा सकता है।"
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "निजी संदेश"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "टीम के सदस्यों से API कुंजियाँ, एक्सेस टोकन और कॉन्फ़िगरेशन फ़ाइलें सुरक्षित साझा करें।"
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API कुंजियाँ और खाता विवरण"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "एन्क्रिप्ट किए गए एक बार इस्तेमाल होने वाले लिंक से {{.MaxFileSize}} तक के निजी दस्तावेज़ और फ़ाइलें साझा करें।"
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "गोपनीय फ़ाइलें"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "अपने आप मिटने वाले संदेश, पासवर्ड, API कुंजियाँ और निजी फ़ाइलें सुरक्षित भेजें। हर गोपनीय जानकारी आपके ब्राउज़र में एन्क्रिप्ट होती है और देखने के बाद सर्वर से मिट जाती है।"
+  },
+  {
+    "id": "home.share.title",
+    "translation": "एक बार इस्तेमाल होने वाले लिंक से क्या साझा कर सकते हैं?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>आपके पास रहती है।</strong> डिक्रिप्शन कुंजी। ब्राउज़र # के बाद का हिस्सा कभी सर्वर को नहीं भेजते।"
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>सर्वर पर जाता है।</strong> एन्क्रिप्ट किए गए डेटा का पता: कुंजी के बिना यह केवल यादृच्छिक बाइट्स हैं।"
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "ब्राउज़र का बिल्ट-इन Web Crypto API और AES-256-GCM। कोई बाहरी लाइब्रेरी नहीं।"
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "ब्राउज़र में एन्क्रिप्ट किया गया"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "सारा कोड <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a> पर प्रकाशित है। कोई भी एन्क्रिप्शन की कार्यप्रणाली जाँच सकता है।"
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "ओपन सोर्स"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "न पंजीकरण, न बाहरी स्क्रिप्ट, न ट्रैकर। इसलिए कुकी बैनर भी नहीं है।"
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "कुछ भी अतिरिक्त नहीं"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "डिक्रिप्शन कुंजी लिंक में # के बाद होती है। ब्राउज़र पते का यह हिस्सा कभी सर्वर को नहीं भेजते, इसलिए इसे केवल आप और प्राप्तकर्ता देख सकते हैं।"
+  },
+  {
+    "id": "home.why.more",
+    "translation": "यह कैसे काम करता है, और जानें"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "हम आपकी गोपनीय जानकारी क्यों नहीं पढ़ सकते"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "गोपनीय जानकारी साझा करें"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "GitHub पर कोड"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "ओपन सोर्स"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.One का सारा कोड GitHub पर है। कोई भी देख सकता है कि एन्क्रिप्शन कैसे काम करता है और सुनिश्चित कर सकता है कि कुंजी कभी सर्वर तक नहीं जाती।"
+  },
+  {
+    "id": "how.code.title",
+    "translation": "खुद जाँचें"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "डेटा का प्रवाह"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "गोपनीय जानकारी भेजने से पहले एन्क्रिप्ट होती है और केवल प्राप्तकर्ता उसे डिक्रिप्ट करता है। बीच में डेटा हमेशा एन्क्रिप्ट रहता है।"
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "एन्क्रिप्ट किया गया डेटा डाउनलोड करता है, लिंक से कुंजी लेता है और अपने डिवाइस पर गोपनीय जानकारी डिक्रिप्ट करता है। इसके तुरंत बाद सर्वर डेटा मिटा देता है।"
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "प्राप्तकर्ता का ब्राउज़र"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "यादृच्छिक कुंजी बनाता है और ब्राउज़र के बिल्ट-इन Web Crypto API से टेक्स्ट और फ़ाइल को AES-256-GCM द्वारा एन्क्रिप्ट करता है।"
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "प्रेषक का ब्राउज़र"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "केवल एन्क्रिप्ट किए गए बाइट्स प्राप्त और संग्रहीत करता है। कुंजी के बिना इन्हें न हम पढ़ सकते हैं, न सर्वर तक पहुँचने वाला कोई अन्य व्यक्ति।"
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One सर्वर"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "सर्वर को केवल एन्क्रिप्ट किया गया डेटा दिखता है"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One आपकी गोपनीय जानकारी सीधे आपके ब्राउज़र में एन्क्रिप्ट करता है। केवल एन्क्रिप्ट किया गया डेटा सर्वर पर जाता है, जबकि कुंजी लिंक में रहती है और प्रेषक तथा प्राप्तकर्ता के डिवाइस से बाहर नहीं जाती।"
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "यह कैसे काम करता है और सुरक्षित क्यों है"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "लिंक के अंदर"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "लिंक के दो हिस्से हैं। पहला बताता है कि एन्क्रिप्ट किया गया डेटा कहाँ संग्रहीत है। दूसरा, # के बाद का हिस्सा, डिक्रिप्शन कुंजी है।"
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "जिसके पास पूरा लिंक है वह गोपनीय जानकारी खोल सकता है। इसे केवल प्राप्तकर्ता को भेजें और संवेदनशील डेटा के लिए पासवर्ड लगाएँ।"
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "पूरा लिंक ही पहुँच देता है"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "ब्राउज़र अनुरोधों में # के बाद का हिस्सा शामिल नहीं करते। इसलिए कुंजी न सर्वर लॉग में होती है, न रास्ते में किसी नेटवर्क पर।"
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "कभी सर्वर को नहीं भेजी जाती"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "कुंजी आपके डिवाइस पर यादृच्छिक रूप से बनती है। उसका अनुमान लगाना संभव नहीं है।"
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "हर लिंक के लिए नई"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "कुंजी # के बाद रहती है"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.One आपके ब्राउज़र में गोपनीय जानकारी कैसे एन्क्रिप्ट करता है: AES-256-GCM, लिंक में # के बाद की कुंजी, सर्वर क्या रखता है, डेटा कब मिटता है और पासवर्ड क्यों लगाएँ।"
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Encrypt.One कैसे काम करता है: एंड-टू-एंड एन्क्रिप्टेड गोपनीय जानकारी"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "पासवर्ड जनरेटर खोलें"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "खोलने का पासवर्ड"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "लिंक किसी और को मिल जाने पर भी पासवर्ड गोपनीय जानकारी की रक्षा करता है। इसके बिना प्राप्तकर्ता को केवल इनपुट फ़ील्ड दिखती है।"
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "तीन गलत प्रयासों के बाद गोपनीय जानकारी मिट जाती है। बार-बार अनुमान लगाकर पासवर्ड खोजना काम नहीं करेगा।"
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "तीन प्रयास"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "फ़ॉर्म में «सुझाएँ» दबाएँ या पासवर्ड जनरेटर से पासफ़्रेज़ लें: उसे बोलकर बताना आसान है।"
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "खुद न बनाएँ"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "पासवर्ड किसी दूसरे तरीके से बताएँ: बोलकर, दूसरे मैसेंजर में या व्यक्तिगत रूप से। तब केवल एक संदेश पकड़े जाने से जानकारी नहीं मिलेगी।"
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "अलग से बताएँ"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "संवेदनशील डेटा के लिए दूसरा ताला"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "खोलने का पासवर्ड तीन बार गलत डालने पर गोपनीय जानकारी हमेशा के लिए मिट जाती है।"
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "तीन गलत पासवर्ड के बाद"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "लिंक पृष्ठ पर «अभी नष्ट करें» बटन गोपनीय जानकारी तुरंत मिटा देता है।"
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "जब आप चाहें"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "आपके चुने संग्रहण समय में लिंक न खोला जाए तो गोपनीय जानकारी अपने आप मिट जाती है।"
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "अवधि समाप्त होने पर"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "प्राप्तकर्ता के गोपनीय जानकारी खोलते ही डेटा मिट जाता है। लिंक दोबारा काम नहीं करेगा।"
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "खोले जाने के बाद"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "गलत पासवर्ड प्रयासों का काउंटर"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "एन्क्रिप्ट किया गया टेक्स्ट और फ़ाइल"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "सर्वर पर संग्रहीत"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "आपके द्वारा चुना गया संग्रहण समय"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "संग्रहण"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "सर्वर गोपनीय जानकारी उतने समय तक रखता है जितना प्राप्तकर्ता को खोलने के लिए चाहिए।"
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "लिंक की डिक्रिप्शन कुंजी"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "खोलने का पासवर्ड"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "सादे टेक्स्ट में गोपनीय जानकारी"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "कभी सर्वर तक नहीं पहुँचता"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "सर्वर क्या संग्रहीत करता है और कब मिटाता है"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "पासवर्ड जनरेटर"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "मुख्य पृष्ठ पर जाएँ"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.One पर ऐसा कोई पृष्ठ नहीं है।"
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "पृष्ठ नहीं मिला — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "पते में गलती हो सकती है या पृष्ठ कहीं और चला गया हो सकता है। यदि आप एक बार इस्तेमाल होने वाला लिंक खोल रहे थे, तो जाँचें कि वह पूरा कॉपी किया गया है।"
+  },
+  {
+    "id": "notFound.title",
+    "translation": "पृष्ठ नहीं मिला"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>यदि यह नीति बदलती है, तो हम नया संस्करण इस पृष्ठ पर प्रकाशित करेंगे और ऊपर दी गई तारीख बदलेंगे।</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "इस नीति में बदलाव"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>गोपनीयता से जुड़े प्रश्न <a href=\"https://github.com/Draal/secure-share/issues\">GitHub इश्यू</a> में पूछें।</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "प्रश्न"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>प्राप्तकर्ता के जानकारी खोलते ही;</li><li>लिंक पृष्ठ पर «अभी नष्ट करें» दबाने पर;</li><li>तीसरे गलत पासवर्ड के बाद;</li><li>चुनी अवधि समाप्त होने पर। यह अवधि 1 घंटे से 7 दिन तक है। इसके बाद जानकारी उपलब्ध नहीं रहती और दैनिक सफाई में उसका डेटा मिटता है।</li></ul><p>मिटाई गई जानकारी वापस नहीं लाई जा सकती। प्रीव्यू बनाने वाले बॉट जानकारी नहीं खोलते: डेटा केवल «गोपनीय जानकारी दिखाएँ» दबाने पर मिलता है।</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "डेटा कब मिटाया जाता है"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>पासवर्ड, पासफ़्रेज़ और PIN आपके ब्राउज़र में क्रिप्टोग्राफिक यादृच्छिक संख्या जनरेटर से बनाए जाते हैं और कभी सर्वर को नहीं भेजे जाते।</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "पासवर्ड जनरेटर"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One इस तरह बना है कि केवल प्राप्तकर्ता गोपनीय जानकारी पढ़ सके — हम भी नहीं। यहाँ बताया गया है कि सेवा से कौन-सा डेटा गुजरता है और उसका क्या होता है।"
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>सर्वर केवल API अनुरोध का प्रकार, परिणाम और समय दर्ज करता है। IP पते, आईडी, टोकन, पृष्ठ के पते और अनुरोध की सामग्री दर्ज नहीं होते।</p><p>दुरुपयोग से बचने के लिए सर्वर प्रत्येक IP पते के अनुरोधों की दर सीमित करता है। पता केवल मेमोरी में उपयोग होता है और सहेजा नहीं जाता।</p><p>वेब सर्वर मानक एक्सेस लॉग रख सकता है: IP पता, समय और पृष्ठ का पता, # के बाद के हिस्से के बिना। लॉग केवल हमलों से सुरक्षा के लिए उपयोग होते हैं और सीमित समय तक रखे जाते हैं।</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "तकनीकी लॉग"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One की गोपनीयता नीति: सेवा क्या डेटा प्राप्त करती है, कितने समय रखती है और आपकी जानकारी क्यों नहीं पढ़ सकती।"
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "गोपनीयता नीति — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>पासवर्ड कभी आपके ब्राउज़र से बाहर नहीं जाता। पासवर्ड और लिंक की कुंजी से ब्राउज़र दो स्वतंत्र मान बनाता है: एन्क्रिप्शन कुंजी और जाँच हैश (600,000 पुनरावृत्तियों वाला PBKDF2, फिर HKDF)। केवल हैश सर्वर को भेजा जाता है। सर्वर उससे पासवर्ड जाँचता है लेकिन न पासवर्ड जान सकता है न कुंजी।</p><p>तीन गलत प्रयासों के बाद जानकारी मिट जाती है। प्रयासों का काउंटर सर्वर की मेमोरी में रहता है और आगंतुक के बजाय जानकारी से जुड़ा होता है।</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "खोलने का पासवर्ड"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>हमें नहीं पता कि गोपनीय जानकारी किसने बनाई या खोली: सेवा डेटा को किसी व्यक्ति, खाते या IP पते से नहीं जोड़ती। इसलिए हम किसी विशेष व्यक्ति का डेटा खोज, सौंप या मिटा नहीं सकते। अवधि समाप्त होने से पहले अपनी जानकारी मिटाने के लिए लिंक पृष्ठ खोलें और «अभी नष्ट करें» दबाएँ।</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "आपके अधिकार"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>टेक्स्ट और फ़айл भेजने से पहले आपके ब्राउज़र में Web Crypto API और AES-256-GCM से एन्क्रिप्ट होते हैं। फ़ाइल का नाम और प्रकार भी एन्क्रिप्ट होते हैं।</p><p>सर्वर केवल यह रखता है:</p><ul><li>एन्क्रिप्ट किया गया डेटा;</li><li>समाप्ति का समय;</li><li>फ़ाइल संलग्न है या नहीं;</li><li>खोलने का पासवर्ड हो तो उसका जाँच हैश।</li></ul><p>डिक्रिप्शन कुंजी लिंक में # के बाद है। ब्राउज़र इसे सर्वर को नहीं भेजते, इसलिए हम या सर्वर तक पहुँचने वाला अन्य व्यक्ति डेटा नहीं पढ़ सकते। लिंक खो जाने पर हम जानकारी वापस नहीं ला सकते।</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "गोपनीय जानकारी और फ़ाइलें"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One एक बार इस्तेमाल होने वाले लिंक से पासवर्ड, कुंजी और फ़ाइलें साझा करने की मुफ़्त सेवा है। पंजीकरण आवश्यक नहीं है। सेवा का विकास और संचालन <a href=\"https://final-level.com/\">FINAL LEVEL</a> करता है।</p><p>आप लिंक अपनी पसंद से भेजते हैं। मैसेंजर, ईमेल या SMS बीच में पकड़ा जा सकता है और जो पहले लिंक खोलेगा उसे जानकारी मिलेगी। महत्वपूर्ण डेटा के लिए पासवर्ड लगाएँ और उसे दूसरे माध्यम से बताएँ।</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "सेवा कैसे काम करती है"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>आपकी जानकारी आपके ब्राउज़र में एन्क्रिप्ट होती है। सर्वर केवल एन्क्रिप्ट किया गया डेटा प्राप्त करता है और उसे पढ़ नहीं सकता।</li><li>डिक्रिप्शन कुंजी लिंक में # के बाद रहती है और कभी सर्वर को नहीं भेजी जाती।</li><li>न पंजीकरण, न विज्ञापन, न एनालिटिक्स और न बाहरी स्क्रिप्ट।</li><li>जानकारी खुलते ही या चुनी अवधि समाप्त होते ही मिट जाती है।</li><li>एप्लिकेशन सर्वर IP पते या जानकारी के आईडी दर्ज नहीं करता।</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "संक्षेप में"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>स्रोत कोड <a href=\"https://github.com/Draal/secure-share\">GitHub</a> पर खुला है: आप एन्क्रिप्शन की कार्यप्रणाली जाँच सकते हैं या अपनी प्रति चला सकते हैं।</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "ओपन सोर्स"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>हम विज्ञापन या एनालिटिक्स कुकी का उपयोग नहीं करते। साइट आपके ब्राउज़र में केवल काम के लिए आवश्यक जानकारी रखती है:</p><ul><li><code>lang</code> कुकी — यदि आपने चयनकर्ता से भाषा चुनी है तो वह भाषा;</li><li>localStorage में — रंग थीम, भाषा बैनर बंद करने की जानकारी और इस ब्राउज़र से नष्ट किए गए लिंक की जानकारी;</li><li>sessionStorage में — जनरेटर का पासवर्ड, जब उसे मुख्य पृष्ठ के फ़ॉर्म में भेजा जाता है। डालते ही वह हटा दिया जाता है।</li></ul><p>इनमें से केवल भाषा कुकी सर्वर तक पहुँचती है, जो उससे पृष्ठ का संस्करण चुनता है। आप ब्राउज़र सेटिंग में यह सब मिटा सकते हैं।</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "कुकी और ब्राउज़र संग्रहण"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>साइट बाहरी स्क्रिप्ट, फ़ॉन्ट, काउंटर या विज्ञापन लोड नहीं करती: फ़ॉन्ट सहित सब कुछ हमारे सर्वर से आता है। हम डेटा तीसरे पक्ष को बेचते या साझा नहीं करते।</p><p>Telegram, WhatsApp और ईमेल से भेजने के बटन तथा प्रायोजकों की साइटों के लिंक सामान्य लिंक हैं। बाहरी सेवा को डेटा तभी मिलता है जब आप किसी लिंक पर क्लिक करते हैं; इसके बाद उसकी अपनी नीति लागू होती है।</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "तीसरे पक्ष की सेवाएँ"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "गोपनीयता नीति"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "अंतिम अपडेट: 25 अक्टूबर 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "लिंक क्षतिग्रस्त है या पूरा कॉपी नहीं हुआ। प्रेषक से इसे दोबारा भेजने को कहें।"
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "डेटा आ गया लेकिन डिक्रिप्ट नहीं हो सका: लिंक क्षतिग्रस्त है। जानकारी सर्वर से पहले ही मिट चुकी है, इसलिए प्रेषक से नया लिंक बनाने को कहें।"
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "सर्वर से संपर्क नहीं हो सका। अपना कनेक्शन जाँचें और दोबारा प्रयास करें।"
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "बहुत अधिक प्रयास। एक मिनट रुककर दोबारा प्रयास करें।"
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "गोपनीय जानकारी नहीं खोली जा सकी"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "अपना लिंक बनाएँ"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "एक बार इस्तेमाल होने वाले लिंक कैसे काम करते हैं"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "इसे पहले ही खोला जा चुका है या इसकी अवधि समाप्त हो गई है। लिंक दोबारा नहीं खोला जा सकता।"
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "प्रेषक से नया लिंक बनाने को कहें। यदि आपने यह लिंक नहीं खोला, तो उन्हें बताएँ: संभव है किसी और ने इसे देखा हो।"
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "यह गोपनीय जानकारी अब उपलब्ध नहीं है"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "इसे केवल एक बार देखा जा सकता है। उसके तुरंत बाद यह सर्वर से मिट जाएगी।"
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "यह गोपनीय जानकारी पासवर्ड से सुरक्षित है। इसे केवल एक बार देखा जा सकता है, फिर यह सर्वर से मिट जाएगी।"
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "किसी ने आपको गोपनीय जानकारी भेजी है"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One का एक बार इस्तेमाल होने वाला लिंक। जानकारी एक बार खोली जा सकती है, फिर सर्वर से मिट जाती है।"
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "किसी ने आपको गोपनीय जानकारी भेजी है — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "पासवर्ड डालें।"
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "प्रेषक ने आपको पासवर्ड अलग से दिया होगा। तीन गलत प्रयासों के बाद जानकारी मिट जाती है।"
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "खोलने का पासवर्ड"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "खोलें"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "अपनी गोपनीय जानकारी साझा करें"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "अपना एक बार इस्तेमाल होने वाला लिंक बनाएँ। पंजीकरण नहीं।"
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "क्या आपको भी पासवर्ड साझा करना है?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "गोपनीय जानकारी दिखाएँ"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "सर्वर से मिटा दिया गया"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "डाउनलोड करें"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "यदि बाद में ज़रूरत हो तो इसे सहेज लें: यह पृष्ठ बंद करने के बाद जानकारी दोबारा नहीं खोली जा सकती।"
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "गोपनीय टेक्स्ट"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "आपकी गोपनीय जानकारी"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "खोला जा रहा है…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One क्या है?"
+  }
+]

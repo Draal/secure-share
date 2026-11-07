@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Pyyntöä ei voitu käsitellä. Lataa sivu uudelleen ja yritä uudestaan."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Tämä linkki ei oikeuta salaisuuden tuhoamiseen."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Salaisuutta ei löytynyt: se on jo avattu, tuhottu tai vanhentunut."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Tämän salaisuuden avaamiseen tarvitaan salasana."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Liian monta pyyntöä. Odota minuutti ja yritä uudelleen."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Meidän puolellamme tapahtui virhe. Yritä uudelleen minuutin kuluttua."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Tiedosto on liian suuri. Raja on {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Salasana syötettiin väärin kolme kertaa, joten salaisuus poistettiin."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Väärä salasana. Yrityksiä jäljellä: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Sulje"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Kopioitu"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopioi"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Linkit"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Tietosuoja"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekti"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Usein kysytyt kysymykset"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Oppaat"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Näin se toimii"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Turvallisuus"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Resurssit"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Lähetä tiedosto"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Salasanageneraattori"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Jaa salaisuus"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Palvelu"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Kertakäyttöiset linkit salasanojen ja tiedostojen jakamiseen. Salataan selaimessasi."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Lähdekoodi GitHubissa"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Suomi"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "FI"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Sivuston kieli: suomi"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.Onen etusivu"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: jaa salasana kertakäyttöisellä linkillä"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Usein kysytyt kysymykset"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Salasanageneraattori"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Näin se toimii"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Päänavigaatio"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Siirry sisältöön"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Kellonaika, kalenterit ja juhlapäivät kaikille kaupungeille"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Ilmaisia pelejä suoraan selaimessa"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tuhansia radioasemia eri puolilta maailmaa"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One on ilmainen sponsoreidemme ansiosta"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tumma"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Teema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Vaalea"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Järjestelmä"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Lähetä se vastaanottajalle. Salaisuuden voi avata vain kerran."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Linkkisi on valmis"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Luo toinen linkki"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Samalle salaisuudelle oma linkki jokaiselle vastaanottajalle. Nykyinen linkki toimii edelleen, mutta et voi enää tuhota sitä täältä."
+  },
+  {
+    "id": "created.back",
+    "translation": "Uusi salaisuus"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Tuhoa nyt"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Tuhotaanko salaisuus? Linkki lakkaa toimimasta heti."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Salaisuutta ei voitu tuhota. Yritä uudelleen."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Lähetitkö väärälle henkilölle? Tuhoa salaisuus, niin linkki lakkaa toimimasta heti."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Tuhosit salaisuuden. Tiedot on poistettu palvelimelta eikä linkki enää toimi."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Salaisuus tuhottu"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Kukaan ei avannut linkkiä ajoissa. Tiedot on poistettu palvelimelta eikä linkki enää toimi."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Linkki on vanhentunut"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopioi linkki"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Kertakäyttöinen linkki"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Tämä linkki ei enää toimi"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Linkki näkyy vain välilehdellä, jolla se luotiin. Voit silti tuhota salaisuuden täältä."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.Onen kertakäyttöisen linkin lähettäjän sivu: jaa linkki tai tuhoa salaisuus."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Linkkisi on valmis — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Luo uusi linkki"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Kertakäyttöisen linkin QR-koodi"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Suuntaa puhelimen kamera koodiin avataksesi linkin. Älä näytä koodia muille: se avaa salaisuuden samalla tavalla kuin linkki."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Linkin QR-koodi"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Lähetä palvelulla"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Sähköposti"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR-koodi"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Salaisuus sinulle"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Kertakäyttöinen linkki salaisuuteen:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Voimassa asti"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Vinkki:</strong> lisää erityisen arkaluonteisille tiedoille salasana ja kerro se toisella tavalla, esimerkiksi puhumalla. Silloin yhden viestin sieppaaminen ei paljasta mitään."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Liitä tiedosto"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Liitä tiedosto vapauttamalla"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Voit vetää tiedoston suoraan kenttään."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Enintään {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Tämä selain ei tue salausta. Päivitä se tai avaa sivusto toisessa selaimessa."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Liitä tekstiä tai liitä tiedosto."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Tiedosto on liian suuri. Raja on {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Palvelimeen ei saatu yhteyttä. Tarkista yhteys ja yritä uudelleen."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Anna avaussalasana tai poista salasanasuojaus käytöstä."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "salataan yhdessä tekstin kanssa"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Poista tiedosto"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Luo salasana"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Lisää salaisuuskenttään"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Ehdota"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Ilman tätä salasanaa salaisuus ei avaudu, vaikka linkki siepattaisiin. Kerro salasana vastaanottajalle erikseen, esimerkiksi puhumalla tai toisessa viestisovelluksessa."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Avaussalasana"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Esimerkiksi maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Suojaa salasanalla"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Mitä haluat jakaa?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Salasana, API-avain, kirjautumistiedot…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Linkin asetukset"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Luo kertakäyttöinen linkki"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Salataan…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 päivä"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 tunti"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 päivää"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 päivää"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Vanhenee"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Säilytysaika"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Ilmainen vahvojen salasanojen, salasanalauseiden ja PIN-koodien generaattori. Ne luodaan selaimessasi eikä niitä lähetetä minnekään. Jaa tulos kertakäyttöisellä linkillä."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Vahva salasanageneraattori — ilmainen ja yksityinen | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Numerot (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Pituus"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Pienet kirjaimet (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Ei samankaltaisia merkkejä (0 ja O, l ja 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Merkit"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Symbolit (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Isot kirjaimet (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Satunnaisista sanoista koostuva lause on helppo sanoa ääneen ja muistaa, mutta yhtä vaikea arvata kuin pitkä salasana. Sanat ovat EFF:n avoimesta sanalistasta."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Sanojen määrä"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Numeroiden määrä"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Luo uudelleen"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Lähetä kertakäyttöisenä linkkinä"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Tulos siirtyy suoraan lomakkeeseen, ja saat linkin, joka avautuu vain kerran."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Haluatko jakaa tämän salasanan?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropia ≈ {bits} bittiä"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Kohtalainen"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Sopii vain PIN-koodiksi"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Vahva"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Erittäin vahva"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Heikko"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Salasanan tyyppi"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Salasana"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Salasanalause"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Vähintään 14–16 merkkiä. Pituus suojaa paremmin kuin kirjainten korvaaminen symboleilla."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Pitkä"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Monimutkaisia salasanoja ei tarvitse muistaa: käytä salasananhallintaa."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Tallennettu salasananhallintaan"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Millainen on vahva salasana"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Eri salasana jokaiselle palvelulle. Yhden salasanan vuoto ei silloin avaa muita tilejäsi."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Yksilöllinen"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Salasanageneraattori"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Ei. Salaisuus salataan selaimessasi ennen lähettämistä. Avain on linkissä #-merkin jälkeen, eikä tämä osoitteen osa koskaan päädy palvelimelle."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Mitään ei tapahdu. Salaisuus näkyy vasta, kun painetaan ”Näytä salaisuus”, eivätkä esikatselubotit paina painikkeita."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Salaisuus poistetaan automaattisesti valitun säilytysajan päättyessä."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Kyllä. Linkin sivulla on ”Tuhoa nyt” -painike. Sen jälkeen linkki lakkaa toimimasta."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Ei. Lähettäjä eikä vastaanottaja tarvitse tiliä."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Etkö löytänyt vastausta? Luo ilmoitus GitHubissa."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Voitteko lukea salaisuuteni?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Mitä jos viestisovelluksen esikatselubotti avaa linkin?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Mitä jos vastaanottaja ei koskaan avaa linkkiä?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Voinko perua linkin lähettämisen jälkeen?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Pitääkö minun rekisteröityä?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Usein kysytyt kysymykset"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Salaisuutesi salataan suoraan selaimessasi. Vastaanottaja avaa linkin kerran, minkä jälkeen tiedot poistetaan palvelimelta."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Ei rekisteröitymistä"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256-salaus laitteessasi"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Avoin lähdekoodi"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Jaa salasanat turvallisesti kertakäyttöisillä linkeillä"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Salasana, API-avain, kirjautumistiedot tai tiedosto. Kaikki salataan selaimessa ennen lähettämistä."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Liitä salaisuutesi"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegramin, WhatsAppin, Signalin, Slackin, sähköpostin tai muun viestisovelluksen kautta. Keskusteluun jää vain linkki, ei itse salasanaa."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Lähetä linkki"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Katsomisen jälkeen tiedot poistetaan palvelimelta. Linkkiä ei voi avata toista kertaa."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Linkki kuluu loppuun"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Näin se toimii"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Lähetä salasanoja, yksityisviestejä, API-avaimia ja tiedostoja salatuilla kertakäyttöisillä linkeillä. Salaisuudet poistetaan katsomisen jälkeen. Ilmainen, avoin lähdekoodi, ei rekisteröitymistä."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Kertakäyttöiset salaisuuslinkit — jaa salasanat turvallisesti | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Jaa salasanat ja tilitiedot jättämättä niitä keskusteluhistoriaan."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Salasanat ja kirjautumistiedot"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Lähetä arkaluonteisia viestejä, jotka voi avata vain kerran."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Yksityisviestit"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Jaa API-avaimet, pääsytunnisteet ja asetustiedostot turvallisesti tiimisi kanssa."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API-avaimet ja tunnistetiedot"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Jaa yksityisiä asiakirjoja ja enintään {{.MaxFileSize}} kokoisia tiedostoja salatuilla kertakäyttöisillä linkeillä."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Luottamukselliset tiedostot"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Lähetä itsestään tuhoutuvia viestejä, salasanoja, API-avaimia ja yksityisiä tiedostoja turvallisesti. Jokainen salaisuus salataan selaimessasi ja poistetaan palvelimelta katsomisen jälkeen."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Mitä voit jakaa kertakäyttöisellä linkillä?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Jää sinulle.</strong> Salauksen purkuavain. Selaimet eivät koskaan lähetä #-merkin jälkeistä osaa palvelimelle."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Menee palvelimelle.</strong> Salattujen tietojen osoite: ilman avainta ne ovat vain satunnaisia tavuja."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Selaimen sisäänrakennettu Web Crypto API ja AES-256-GCM. Ei kolmansien osapuolten kirjastoja."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Salataan selaimessa"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Kaikki koodi on julkaistu <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHubissa</a>. Kuka tahansa voi tarkistaa, miten salaus toimii."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Avoin lähdekoodi"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Ei rekisteröitymistä, kolmansien osapuolten skriptejä tai seurantaohjelmia. Siksi ei myöskään evästeilmoitusta."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Ei mitään ylimääräistä"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Salauksen purkuavain on linkissä #-merkin jälkeen. Selaimet eivät koskaan lähetä tätä osoitteen osaa palvelimelle, joten vain sinä ja vastaanottaja näette sen."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Lisätietoja toiminnasta"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Miksi emme voi lukea salaisuuttasi"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Jaa salaisuus"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Koodi GitHubissa"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Avoin lähdekoodi"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Kaikki Encrypt.Onen koodi on GitHubissa. Kuka tahansa voi nähdä, miten salaus toimii, ja varmistaa, ettei avain koskaan mene palvelimelle."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Tarkista itse"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Tietovirta"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Salaisuus salataan ennen lähettämistä ja vain vastaanottaja purkaa salauksen. Välillä tiedot pysyvät aina salattuina."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Lataa salatut tiedot, ottaa avaimen linkistä ja purkaa salauksen paikallisesti. Palvelin poistaa tiedot heti sen jälkeen."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Vastaanottajan selain"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Luo satunnaisen avaimen ja salaa tekstin ja tiedoston AES-256-GCM:llä selaimen sisäänrakennetun Web Crypto API:n avulla."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Lähettäjän selain"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Vastaanottaa ja tallentaa vain salattuja tavuja. Ilman avainta kukaan ei voi lukea niitä — emme me eikä kukaan palvelimelle pääsevä."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One-palvelin"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Palvelin näkee vain salatut tiedot"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One salaa salaisuutesi suoraan selaimessasi. Palvelimelle menee vain salattuja tietoja, kun taas avain pysyy linkissä eikä koskaan poistu lähettäjän ja vastaanottajan laitteilta."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Näin se toimii ja siksi se on turvallista"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Linkin sisällä"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Linkissä on kaksi osaa. Ensimmäinen osoittaa, missä salatut tiedot säilytetään. Toinen, #-merkin jälkeen, on salauksen purkuavain."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Jokainen, jolla on koko linkki, voi avata salaisuuden. Lähetä se vain vastaanottajalle ja lisää salasana arkaluonteisille tiedoille."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Koko linkki antaa pääsyn"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Selaimet eivät sisällytä #-merkin jälkeistä osaa pyyntöihin. Siksi avain ei ole palvelimen lokeissa eikä verkon välietapeissa."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Ei koskaan lähetetä palvelimelle"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Avain luodaan satunnaisesti laitteessasi. Sitä ei voi arvata kokeilemalla kaikkia vaihtoehtoja."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Uusi jokaiseen linkkiin"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Avain on #-merkin jälkeen"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Miten Encrypt.One salaa salaisuudet selaimessasi: AES-256-GCM, linkin avain #-merkin jälkeen, säilytys, tietojen poisto ja salasanasuojaus."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Näin Encrypt.One toimii: päästä päähän salattu salaisuuksien jako"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Avaa salasanageneraattori"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Avaussalasana"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Salasana suojaa salaisuuden, vaikka linkki siepattaisiin. Ilman sitä vastaanottaja näkee vain syöttökentän."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Kolmen väärän yrityksen jälkeen salaisuus poistetaan. Salasanaa ei voi arvata kokeilemalla kaikkia vaihtoehtoja."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Kolme yritystä"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Napsauta lomakkeessa ”Ehdota” tai valitse lause salasanageneraattorista: se on helppo lukea ääneen."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Älä keksi sitä itse"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Kerro salasana toisella tavalla: puhumalla, toisessa viestisovelluksessa tai kasvotusten. Silloin yhden viestin sieppaaminen ei paljasta mitään."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Kerro se erikseen"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Toinen lukko arkaluonteisille tiedoille"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Jos avaussalasana syötetään väärin kolme kertaa, salaisuus poistetaan pysyvästi."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Kolmen väärän salasanan jälkeen"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Linkkisivun ”Tuhoa nyt” -painike poistaa salaisuuden heti."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Käskystäsi"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Jos linkkiä ei avata valitun säilytysajan kuluessa, salaisuus poistuu automaattisesti."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Ajan umpeutuessa"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Heti kun vastaanottaja avaa salaisuuden, tiedot poistetaan. Linkki ei toimi toista kertaa."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Avaamisen jälkeen"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Virheellisten salasanayritysten laskuri"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Salattu teksti ja tiedosto"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Palvelimella säilytetään"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Valitsemasi säilytysaika"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Säilytys"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Palvelin säilyttää salaisuutta juuri niin kauan kuin vastaanottaja tarvitsee sen avaamiseen."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Linkin salauksen purkuavain"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Avaussalasana"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Salaisuuden sisältö selväkielisenä"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Ei koskaan päädy palvelimelle"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Mitä palvelin säilyttää ja milloin se poistaa tiedot"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Salasanageneraattori"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Etusivulle"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Tällaista sivua ei ole Encrypt.Onessa."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Sivua ei löytynyt — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Osoitteessa voi olla kirjoitusvirhe tai sivu on siirretty. Jos olit avaamassa kertakäyttöistä linkkiä, varmista, että se kopioitiin kokonaan."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Sivua ei löytynyt"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Jos tämä käytäntö muuttuu, julkaisemme uuden version tällä sivulla ja päivitämme yllä olevan päivämäärän.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Käytännön muutokset"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Esitä tietosuojakysymykset <a href=\"https://github.com/Draal/secure-share/issues\">GitHubin ilmoituksissa</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Kysymykset"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>heti, kun vastaanottaja avaa salaisuuden;</li><li>kun painat linkkisivulla ”Tuhoa nyt”;</li><li>kolmannen väärän salasanan jälkeen;</li><li>valitun ajan, yhdestä tunnista seitsemään päivään, päättyessä. Vanhentunutta salaisuutta ei heti enää anneta, ja sen tiedot poistetaan päivittäisessä siivouksessa.</li></ul><p>Poistettua salaisuutta ei voi palauttaa. Linkkien esikatseluja luovat viestisovellusten botit eivät kuluta salaisuutta: tiedot annetaan vasta ”Näytä salaisuus” -painikkeen painamisen jälkeen.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Milloin tiedot poistetaan"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Salasanat, salasanalauseet ja PIN-koodit luodaan selaimessasi kryptografisella satunnaislukugeneraattorilla eikä niitä koskaan lähetetä palvelimelle.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Salasanageneraattori"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One on rakennettu niin, että vain vastaanottaja voi lukea salaisuuden — emme edes me. Tässä kerrotaan, mitä tietoja palvelun kautta kulkee ja mitä niille tapahtuu."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Sovelluspalvelin kirjaa vain API-pyynnöt: pyynnön tyypin, tuloksen ja käsittelyajan. IP-osoitteita, salaisuuksien tunnuksia, tokeneita, sivujen osoitteita tai pyyntöjen sisältöä ei kirjata.</p><p>Palvelun suojaamiseksi raakavoimahyökkäyksiltä ja väärinkäytöksiltä palvelin rajoittaa pyyntöjen määrää IP-osoitetta kohti. Osoitetta käytetään vain muistissa eikä sitä tallenneta.</p><p>Sovelluksen edessä oleva verkkopalvelin voi pitää tavallista käyttölokia: IP-osoite, aika ja sivun osoite ilman #-merkin jälkeistä osaa. Lokeja käytetään vain hyökkäyksiltä suojautumiseen ja niitä säilytetään rajoitetun ajan.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Tekniset lokit"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.Onen tietosuojakäytäntö: mitä tietoja palvelu saa, kuinka kauan niitä säilytetään ja miksi palvelu ei voi lukea salaisuuksiasi."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Tietosuojakäytäntö — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Salasana itse ei koskaan poistu selaimesta. Salasanasta ja linkin avaimesta selain johtaa kaksi toisistaan riippumatonta arvoa: salausavaimen ja tarkistustiivisteen (PBKDF2, jossa 600 000 iteraatiota, sitten HKDF). Palvelimelle lähetetään vain tiiviste. Palvelin tarkistaa sillä salasanan, mutta ei voi saada selville salasanaa tai avainta.</p><p>Kolmen väärän yrityksen jälkeen salaisuus poistetaan. Yrityslaskuri säilytetään palvelimen muistissa ja se liittyy salaisuuteen, ei vierailijaan.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Avaussalasana"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Emme tiedä, kuka loi tai avasi salaisuuden: palvelu ei yhdistä tietoja henkilöihin, tileihin tai IP-osoitteisiin. Siksi emme voi löytää, luovuttaa tai poistaa tietyn henkilön tietoja. Poistaaksesi salaisuutesi ennen vanhenemista avaa linkkisivu ja paina ”Tuhoa nyt”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Oikeutesi"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Teksti ja liitetiedosto salataan selaimessa AES-256-GCM:llä sisäänrakennetun Web Crypto API:n kautta ennen lähettämistä. Tiedoston nimi ja tyyppi salataan sisällön kanssa.</p><p>Palvelin säilyttää vain:</p><ul><li>salatut tiedot;</li><li>vanhenemisajan;</li><li>tiedon siitä, onko tiedosto liitetty;</li><li>salasanan tarkistustiivisteen, jos olet asettanut avaussalasanan.</li></ul><p>Salauksen purkuavain on linkin osa #-merkin jälkeen. Selaimet eivät koskaan lähetä sitä palvelimelle, joten emme me eikä kukaan palvelimelle pääsevä voi purkaa tietojen salausta. Samasta syystä emme voi palauttaa salaisuutta, jos linkki katoaa.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Salaisuudet ja tiedostot"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One on ilmainen palvelu salasanojen, avainten ja tiedostojen jakamiseen kertakäyttöisillä linkeillä. Rekisteröitymistä ei tarvita. Palvelua kehittää ja ylläpitää <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Lähetät linkin itse haluamallasi tavalla. Viestisovelluksen viesti, sähköposti tai tekstiviesti voidaan siepata, jolloin linkin ensimmäisenä avaava saa salaisuuden. Aseta tärkeille tiedoille avaussalasana ja kerro se toista kanavaa pitkin.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Näin palvelu toimii"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Salaisuutesi salataan selaimessasi. Palvelin saa vain salattuja tietoja eikä voi lukea niitä.</li><li>Salauksen purkuavain on linkissä #-merkin jälkeen eikä sitä koskaan lähetetä palvelimelle.</li><li>Ei rekisteröitymistä, mainoksia, analytiikkaa tai kolmansien osapuolten skriptejä.</li><li>Salaisuus poistetaan heti avaamisen jälkeen tai valitun ajan päättyessä.</li><li>Sovelluspalvelin ei kirjaa IP-osoitteita tai salaisuuksien tunnuksia.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Lyhyesti"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Lähdekoodi on avoin <a href=\"https://github.com/Draal/secure-share\">GitHubissa</a>: voit tarkistaa salauksen tai käyttää omaa kopiota.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Avoin lähdekoodi"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Emme käytä mainos- tai analytiikkaevästeitä. Sivusto tallentaa selaimeesi vain toimintaan tarvittavat tiedot:</p><ul><li><code>lang</code>-eväste — kielesi, jos valitsit sen valitsimesta;</li><li>localStorageen — väriteeman, merkinnän kieli-ilmoituksen sulkemisesta ja merkinnät tästä selaimesta tuhotuista linkeistä;</li><li>sessionStorageen — generaattorin salasanan, kun sitä siirretään etusivun lomakkeeseen. Se poistetaan heti lisäämisen jälkeen.</li></ul><p>Näistä vain kielieväste päätyy palvelimelle, joka valitsee sen avulla sivuversion. Voit poistaa kaiken selaimen asetuksista.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Evästeet ja selaimen tallennustila"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Sivusto ei lataa kolmansien osapuolten skriptejä, kirjasimia, laskureita tai mainoksia: kaikki, myös kirjasimet, toimitetaan palvelimeltamme. Emme myy tai jaa tietoja kolmansille osapuolille.</p><p>Telegramin, WhatsAppin ja sähköpostin lähetyspainikkeet sekä linkit sponsorien sivustoille ovat tavallisia linkkejä. Ulkoinen palvelu saa tietoja vasta, kun napsautat linkkiä, ja sen jälkeen sovelletaan sen omaa käytäntöä.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Kolmansien osapuolten palvelut"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Tietosuojakäytäntö"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Päivitetty viimeksi: 25. lokakuuta 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Linkki on vioittunut tai sitä ei kopioitu kokonaan. Pyydä lähettäjää lähettämään se uudelleen."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Tiedot saapuivat, mutta salausta ei voitu purkaa: linkki on vioittunut. Salaisuus on jo poistettu palvelimelta, joten pyydä lähettäjää luomaan uusi."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Palvelimeen ei saatu yhteyttä. Tarkista yhteys ja yritä uudelleen."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Liian monta yritystä. Odota minuutti ja yritä uudelleen."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Salaisuutta ei voitu avata"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Luo oma linkki"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Näin kertakäyttöiset linkit toimivat"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Se on jo avattu tai vanhentunut. Linkkiä ei voi avata uudelleen."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Pyydä lähettäjää luomaan uusi linkki. Jos et avannut tätä, kerro siitä: joku muu on saattanut nähdä sen."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Tämä salaisuus ei ole enää saatavilla"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Sen voi katsoa vain kerran. Heti sen jälkeen se poistetaan palvelimelta."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Salaisuus on suojattu salasanalla. Sen voi katsoa vain kerran, minkä jälkeen se poistetaan palvelimelta."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Joku lähetti sinulle salaisuuden"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.Onen kertakäyttöinen linkki. Salaisuuden voi avata kerran, minkä jälkeen se poistetaan palvelimelta."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Joku lähetti sinulle salaisuuden — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Anna salasana."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Lähettäjän olisi pitänyt kertoa salasana erikseen. Kolmen väärän yrityksen jälkeen salaisuus poistetaan."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Avaussalasana"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Avaa"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Jaa oma salaisuutesi"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Luo oma kertakäyttöinen linkki. Ei rekisteröitymistä."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Pitääkö sinun jakaa salasana?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Näytä salaisuus"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Poistettu palvelimelta"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Lataa"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Tallenna se, jos tarvitset sitä myöhemmin: sivun sulkemisen jälkeen salaisuutta ei voi avata uudelleen."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Salaisuuden teksti"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Salaisuutesi"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Avataan…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Mikä Encrypt.One on?"
+  }
+]

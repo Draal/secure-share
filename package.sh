@@ -1,44 +1,24 @@
 #!/bin/sh
+# Builds the server binary and packs it with translations and static files.
+# In production nginx serves public/, so CSS and JS are minified here and
+# text assets get .gz copies for gzip_static. Run the server with
+# USE_MINIFIED=1 USE_HASHING=1.
+# Usage: ./package.sh encryptone
 
 set -e
 
-go get github.com/benbjohnson/ego/cmd/ego
-go get github.com/FinalLevel/go-i18n/goi18n
+go test ./...
+GOOS=linux GOARCH=amd64 go build -o $1
 
-(cd translation
-$GOPATH/bin/goi18n *.all.json
-$GOPATH/bin/goi18n *.all.json
-)
-
-go generate
-go build -o $1
-
-(cd public && bower install)
-
-node_modules/.bin/uglifyjs ./public/bower_components/crypto-js/crypto-js.js -c -o ./public/bower_components/crypto-js/crypto-js.min.js
-for i in `find public/bower_components/ -name "*.min.js"`
-do
-	gzip -c $i > $i.gz
-done
-
-rm -f public/css/*.min.css
-for i in `ls public/css/*.css`
-do
-        minVer=`echo $i | sed 's/\.css/.min.css/'`
-        node_modules/.bin/minify $i --output $minVer
-        gzip -c $i  > $i.gz
-        gzip -c $minVer  > $minVer.gz
-done
-
-for i in `ls public/js/*.js | grep -v '.min.'`
-do
-	minVer=`echo $i | sed 's/\.js/.min.js/'`
-	rm -f $minVer
-	node_modules/.bin/uglifyjs $i -c -o $minVer
-	gzip -c $i  > $i.gz
-	gzip -c $minVer  > $minVer.gz
-done
-
+npm ci
+bin=node_modules/.bin
+assets=public/assets
+find public \( -name '*.min.*' -o -name '*.gz' \) -delete
+$bin/terser $assets/js/app.js --module -c -m -o $assets/js/app.min.js
+$bin/terser $assets/js/eff-wordlist.js -c -m -o $assets/js/eff-wordlist.min.js
+$bin/terser $assets/vendor/crypto-js.js -c -m -o $assets/vendor/crypto-js.min.js
+$bin/cleancss -O1 -o $assets/css/site.min.css $assets/css/site.css
+find $assets \( -name '*.js' -o -name '*.css' -o -name '*.svg' \) -exec gzip -9 -k -f {} \;
 
 release=1
 githash=`git rev-parse --short HEAD`

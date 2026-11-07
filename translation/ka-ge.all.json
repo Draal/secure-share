@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "მოთხოვნის დამუშავება ვერ მოხერხდა. გადატვირთეთ გვერდი და ხელახლა სცადეთ."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "ეს ბმული საიდუმლოს წაშლის უფლებას არ იძლევა."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "საიდუმლო ვერ მოიძებნა: ის უკვე გაიხსნა, წაიშალა ან ვადა გაუვიდა."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "ამ საიდუმლოს გასახსნელად პაროლია საჭირო."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "მოთხოვნები ძალიან ბევრია. დაელოდეთ ერთ წუთს და ხელახლა სცადეთ."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "ჩვენს მხარეს შეცდომა მოხდა. ერთ წუთში ხელახლა სცადეთ."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "ფაილი ძალიან დიდია. ლიმიტია {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "პაროლის სამჯერ არასწორად შეყვანის გამო საიდუმლო წაიშალა."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "არასწორი პაროლი. დარჩენილი მცდელობები: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "დახურვა"
+  },
+  {
+    "id": "common.copied",
+    "translation": "დაკოპირდა"
+  },
+  {
+    "id": "common.copy",
+    "translation": "კოპირება"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "ბმულები"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "კონფიდენციალურობა"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "პროექტი"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "ხშირი კითხვები"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "გზამკვლევები"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "როგორ მუშაობს"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "უსაფრთხოება"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "რესურსები"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "ფაილის გაგზავნა"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "პაროლის გენერატორი"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "საიდუმლოს გაზიარება"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "სერვისი"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "ერთჯერადი ბმულები პაროლებისა და ფაილების გასაზიარებლად. დაშიფვრა თქვენს ბრაუზერში ხდება."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "საწყისი კოდი GitHub-ზე"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "ქართული"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "KA"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "საიტის ენა: ქართული"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One-ის მთავარი გვერდი"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: გააზიარეთ პაროლი ერთჯერადი ბმულით"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "ხშირი კითხვები"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "პაროლის გენერატორი"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "როგორ მუშაობს"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "მთავარი ნავიგაცია"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "შინაარსზე გადასვლა"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "დრო, კალენდარი და დღესასწაულები ნებისმიერი ქალაქისთვის"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "უფასო თამაშები პირდაპირ ბრაუზერში"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "ათასობით რადიოსადგური მთელი მსოფლიოდან"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One ჩვენი სპონსორების წყალობით უფასოა"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "მუქი"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "თემა"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "ღია"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "სისტემის მიხედვით"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "გაუგზავნეთ მიმღებს. საიდუმლოს გახსნა მხოლოდ ერთხელ შეიძლება."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "თქვენი ბმული მზადაა"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "სხვა ბმულის მიღება"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "ერთი და იმავე საიდუმლოსთვის თითოეულ მიმღებს ცალკე ბმული შეუქმენით. მიმდინარე ბმული იმუშავებს, მაგრამ მის წაშლას აქედან ვეღარ შეძლებთ."
+  },
+  {
+    "id": "created.back",
+    "translation": "ახალი საიდუმლო"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "ახლავე წაშლა"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "წაიშალოს საიდუმლო? ბმული დაუყოვნებლივ შეწყვეტს მუშაობას."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "საიდუმლოს წაშლა ვერ მოხერხდა. ხელახლა სცადეთ."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "არასწორ ადამიანს გაუგზავნეთ? წაშალეთ საიდუმლო და ბმული მაშინვე შეწყვეტს მუშაობას."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "თქვენ წაშალეთ საიდუმლო. მონაცემები სერვერიდან წაიშალა და ბმული აღარ მუშაობს."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "საიდუმლო წაიშალა"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "ბმული დროულად არავის გაუხსნია. მონაცემები სერვერიდან წაიშალა და ბმული აღარ მუშაობს."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "ბმულს ვადა გაუვიდა"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "ბმულის კოპირება"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "ერთჯერადი ბმული"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "ეს ბმული აღარ მუშაობს"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "ბმული მხოლოდ იმ ჩანართში ჩანს, სადაც შეიქმნა. საიდუმლოს აქედან წაშლა კვლავ შეგიძლიათ."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One-ის ერთჯერადი ბმულის გამგზავნის გვერდი: გააზიარეთ ბმული ან წაშალეთ საიდუმლო."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "თქვენი ბმული მზადაა — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "ახალი ბმულის შექმნა"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "ერთჯერადი ბმულის QR კოდი"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "ბმულის გასახსნელად ტელეფონის კამერა მიუშვირეთ. კოდი სხვებს არ აჩვენოთ: ის ბმულის მსგავსად ხსნის საიდუმლოს."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "ბმულის QR კოდი"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "გაგზავნა"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "ელფოსტა"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR კოდი"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "საიდუმლო თქვენთვის"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "საიდუმლოს ერთჯერადი ბმული:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "მოქმედებს"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>რჩევა:</strong> განსაკუთრებით მგრძნობიარე მონაცემებისთვის ბმულს პაროლი დაამატეთ და ის სხვა გზით, მაგალითად ზეპირად, შეატყობინეთ. ასე ერთი შეტყობინების ხელში ჩაგდება ინფორმაციას ვერ გაამჟღავნებს."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "ფაილის მიმაგრება"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "ფაილის მისამაგრებლად აქ ჩამოაგდეთ"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "შეგიძლიათ ფაილი პირდაპირ ველში გადმოიტანოთ."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "{{.MaxFileSize}}-მდე"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "ეს ბრაუზერი დაშიფვრას არ უჭერს მხარს. განაახლეთ ან საიტი სხვა ბრაუზერში გახსენით."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "შეიყვანეთ ტექსტი ან მიამაგრეთ ფაილი."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "ფაილი ძალიან დიდია. ლიმიტია {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "სერვერთან დაკავშირება ვერ მოხერხდა. შეამოწმეთ კავშირი და ხელახლა სცადეთ."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "შეიყვანეთ გახსნის პაროლი ან გამორთეთ პაროლით დაცვა."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "ტექსტთან ერთად იშიფრება"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "ფაილის წაშლა"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "პაროლის შექმნა"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "საიდუმლოს ველში ჩასმა"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "შემოთავაზება"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "ამ პაროლის გარეშე საიდუმლო არ გაიხსნება, მაშინაც კი, თუ ბმული სხვას ჩაუვარდება ხელში. პაროლი მიმღებს ცალკე შეატყობინეთ, მაგალითად ზეპირად ან სხვა მესენჯერით."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "გახსნის პაროლი"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "მაგალითად: maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "პაროლით დაცვა"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "რისი გაზიარება გსურთ?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "პაროლი, API გასაღები, შესვლის მონაცემები…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "ბმულის პარამეტრები"
+  },
+  {
+    "id": "form.submit",
+    "translation": "ერთჯერადი ბმულის შექმნა"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "იშიფრება…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 დღე"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 საათი"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 დღე"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 დღე"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "ვადა იწურება"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "შენახვის ვადა"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "ძლიერი პაროლების უფასო გენერატორი: შემთხვევითი პაროლები, პაროლური ფრაზები და PIN-ები პირდაპირ თქვენს ბრაუზერში იქმნება და არსად იგზავნება. შედეგი ერთჯერადი ბმულით გააზიარეთ."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "ძლიერი პაროლების გენერატორი — უფასო და პირადი | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "ციფრები (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "სიგრძე"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "პატარა ასოები (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "მსგავსი სიმბოლოების გარეშე (0 და O, l და 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "სიმბოლოები"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "ნიშნები (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "დიდი ასოები (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "შემთხვევითი სიტყვებისგან შემდგარი ფრაზის წარმოთქმა და დამახსოვრება ადვილია, თუმცა მისი გამოცნობა გრძელი პაროლივით რთულია. სიტყვები EFF-ის ღია სიიდან მიიღება."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "სიტყვების რაოდენობა"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "ციფრების რაოდენობა"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "თავიდან შექმნა"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "ერთჯერადი ბმულით გაგზავნა"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "ის პირდაპირ ფორმაში ჩაიწერება და მიიღებთ ბმულს, რომელიც მხოლოდ ერთხელ იხსნება."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "ამ პაროლის გაზიარება გჭირდებათ?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "ენტროპია ≈ {bits} ბიტი"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "საშუალო"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "მხოლოდ PIN-ისთვის გამოდგება"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "ძლიერი"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "ძალიან ძლიერი"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "სუსტი"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "პაროლის ტიპი"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "პაროლი"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "პაროლური ფრაზა"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "მინიმუმ 14–16 სიმბოლო. სიგრძე ასოების ნიშნებით ჩანაცვლებაზე უკეთ იცავს."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "გრძელი"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "რთული პაროლების დამახსოვრება საჭირო არ არის: ამისთვის პაროლების მენეჯერი არსებობს."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "ინახება პაროლების მენეჯერში"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "რა ხდის პაროლს ძლიერს"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "თითოეული სერვისისთვის ცალკე პაროლი. ასე ერთი პაროლის გაჟონვა სხვა ანგარიშებს ვერ გახსნის."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "უნიკალური"
+  },
+  {
+    "id": "generator.title",
+    "translation": "პაროლის გენერატორი"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "არა. საიდუმლო გაგზავნამდე თქვენს ბრაუზერში იშიფრება. გასაღები ბმულში # ნიშნის შემდეგაა და მისამართის ეს ნაწილი სერვერამდე არასოდეს აღწევს."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "არაფერი ხდება. საიდუმლო მხოლოდ მაშინ გამოჩნდება, როცა ვინმე „საიდუმლოს ჩვენებას“ დააჭერს, ხოლო წინასწარი დათვალიერების ბოტები ღილაკებს არ აჭერენ."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "თქვენ მიერ არჩეული შენახვის ვადის ამოწურვისას საიდუმლო თავისით იშლება."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "დიახ. თქვენი ბმულის გვერდზე არის ღილაკი „ახლავე წაშლა“. ამის შემდეგ ბმული მუშაობას წყვეტს."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "არა. არც გამგზავნს და არც მიმღებს ანგარიში არ სჭირდება."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "პასუხი ვერ იპოვეთ? გახსენით საკითხი GitHub-ზე."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "შეგიძლიათ ჩემი საიდუმლოს წაკითხვა?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "რა მოხდება, თუ მესენჯერის წინასწარი დათვალიერების ბოტი ბმულს გახსნის?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "რა მოხდება, თუ მიმღები ბმულს არასოდეს გახსნის?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "შემიძლია გაგზავნის შემდეგ ბმულის გაუქმება?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "რეგისტრაცია მჭირდება?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "ხშირი კითხვები"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "თქვენი საიდუმლო პირდაპირ ბრაუზერში იშიფრება. მიმღები ბმულს ერთხელ ხსნის, შემდეგ მონაცემები სერვერიდან იშლება."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "რეგისტრაციის გარეშე"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 დაშიფვრა თქვენს მოწყობილობაზე"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "ღია კოდი"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "გააზიარეთ პაროლები უსაფრთხოდ ერთჯერადი ბმულებით"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "პაროლი, API გასაღები, შესვლის მონაცემები ან ფაილი. ყველაფერი გაგზავნამდე თქვენს ბრაუზერში იშიფრება."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "შეიყვანეთ საიდუმლო"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram-ით, WhatsApp-ით, Signal-ით, Slack-ით, ელფოსტით ან სხვა მესენჯერით. საუბარში მხოლოდ ბმული რჩება და არა თავად პაროლი."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "გაგზავნეთ ბმული"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "ნახვის შემდეგ მონაცემები სერვერიდან იშლება. ბმული მეორედ აღარ გაიხსნება."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "ბმული უქმდება"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "როგორ მუშაობს"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "გაგზავნეთ პაროლები, პირადი შეტყობინებები, API გასაღებები და ფაილები დაშიფრული ერთჯერადი ბმულებით. საიდუმლოებები ნახვის შემდეგ იშლება. უფასო, ღია კოდით და რეგისტრაციის გარეშე."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "ერთჯერადი საიდუმლო ბმულები — პაროლების უსაფრთხო გაზიარება | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "გააზიარეთ პაროლები და ანგარიშის მონაცემები ისე, რომ ისინი საუბრის ისტორიაში არ დარჩეს."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "პაროლები და შესვლის მონაცემები"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "გაგზავნეთ მგრძნობიარე შეტყობინებები, რომლებიც მხოლოდ ერთხელ იხსნება."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "პირადი შეტყობინებები"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "უსაფრთხოდ გაუზიარეთ თანაგუნდელებს API გასაღებები, წვდომის ტოკენები და კონფიგურაციის ფაილები."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API გასაღებები და წვდომის მონაცემები"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "გააზიარეთ პირადი დოკუმენტები და {{.MaxFileSize}}-მდე ფაილები დაშიფრული ერთჯერადი ბმულებით."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "კონფიდენციალური ფაილები"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "უსაფრთხოდ გაგზავნეთ თვითწაშლადი შეტყობინებები, პაროლები, API გასაღებები და პირადი ფაილები. ყოველი საიდუმლო თქვენს ბრაუზერში იშიფრება და ნახვის შემდეგ სერვერიდან იშლება."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "რისი გაზიარება შეიძლება ერთჯერადი ბმულით?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>თქვენთან რჩება.</strong> გაშიფვრის გასაღები. ბრაუზერები # ნიშნის შემდეგ ნაწილს სერვერს არასოდეს უგზავნიან."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>სერვერზე იგზავნება.</strong> დაშიფრული მონაცემების მისამართი: გასაღების გარეშე ეს მხოლოდ შემთხვევითი ბაიტებია."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "ბრაუზერში ჩაშენებული Web Crypto API და AES-256-GCM. მესამე მხარის ბიბლიოთეკების გარეშე."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "ბრაუზერში დაშიფრული"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "მთელი კოდი გამოქვეყნებულია <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>-ზე. ყველას შეუძლია დაშიფვრის მუშაობის შემოწმება."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "ღია კოდი"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "რეგისტრაციის, მესამე მხარის სკრიპტებისა და ტრეკერების გარეშე. ამიტომ არც cookie ბანერია."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "არაფერი ზედმეტი"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "გაშიფვრის გასაღები ბმულში # ნიშნის შემდეგაა. ბრაუზერები მისამართის ამ ნაწილს სერვერს არასოდეს უგზავნიან, ამიტომ მას მხოლოდ თქვენ და მიმღები ხედავთ."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "მეტი მუშაობის შესახებ"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "რატომ ვერ ვკითხულობთ თქვენს საიდუმლოს"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "საიდუმლოს გაზიარება"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "კოდი GitHub-ზე"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "ღია კოდი"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.One-ის მთელი კოდი GitHub-ზეა. ყველას შეუძლია ნახოს, როგორ მუშაობს დაშიფვრა და დარწმუნდეს, რომ გასაღები სერვერზე არასოდეს იგზავნება."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "თავად შეამოწმეთ"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "მონაცემთა ნაკადი"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "საიდუმლო გაგზავნამდე იშიფრება და მას მხოლოდ მიმღები გაშიფრავს. ამ შუალედში მონაცემები ყოველთვის დაშიფრულია."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "ჩამოტვირთავს დაშიფრულ მონაცემებს, იღებს გასაღებს ბმულიდან და საიდუმლოს საკუთარ მოწყობილობაზე გაშიფრავს. ამის შემდეგ სერვერი მონაცემებს მაშინვე შლის."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "მიმღების ბრაუზერი"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "ქმნის შემთხვევით გასაღებს და ბრაუზერის ჩაშენებული Web Crypto API-ით ტექსტსა და ფაილს AES-256-GCM-ით შიფრავს."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "გამგზავნის ბრაუზერი"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "იღებს და ინახავს მხოლოდ დაშიფრულ ბაიტებს. გასაღების გარეშე მათ ვერც ჩვენ და ვერც სერვერზე წვდომის მქონე სხვა პირი წაიკითხავს."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One-ის სერვერი"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "სერვერი მხოლოდ დაშიფრულ მონაცემებს ხედავს"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One თქვენს საიდუმლოს პირდაპირ ბრაუზერში შიფრავს. სერვერზე მხოლოდ დაშიფრული მონაცემები იგზავნება, ხოლო გასაღები ბმულში რჩება და გამგზავნისა და მიმღების მოწყობილობებს არ ტოვებს."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "როგორ მუშაობს და რატომ არის უსაფრთხო"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "ბმულის შიგნით"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "ბმულს ორი ნაწილი აქვს. პირველი მიუთითებს დაშიფრული მონაცემების შენახვის ადგილს. მეორე, # ნიშნის შემდეგ, გაშიფვრის გასაღებია."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "სრული ბმულის მქონე ნებისმიერ ადამიანს საიდუმლოს გახსნა შეუძლია. გაუგზავნეთ მხოლოდ მიმღებს და მგრძნობიარე მონაცემებისთვის პაროლი დაამატეთ."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "სრული ბმული წვდომას იძლევა"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "ბრაუზერები მოთხოვნებში # ნიშნის შემდეგ ნაწილს არ ურთავენ. ამიტომ გასაღები არც სერვერის ჟურნალებშია და არც გზაში არსებულ ქსელის კვანძებზე."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "არასოდეს იგზავნება სერვერზე"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "გასაღები თქვენს მოწყობილობაზე შემთხვევით იქმნება. მისი ყველა ვარიანტის მოსინჯვით პოვნა შეუძლებელია."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "ახალი ყოველი ბმულისთვის"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "გასაღები # ნიშნის შემდეგაა"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "როგორ შიფრავს Encrypt.One საიდუმლოებებს ბრაუზერში: AES-256-GCM, გასაღები ბმულში # ნიშნის შემდეგ, რას ინახავს სერვერი, როდის იშლება მონაცემები და რატომ დავამატოთ პაროლი."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "როგორ მუშაობს Encrypt.One: საიდუმლოებების ბოლომდე დაშიფრული გაზიარება"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "პაროლის გენერატორის გახსნა"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "გახსნის პაროლი"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "პაროლი საიდუმლოს ბმულის ხელში ჩაგდების შემთხვევაშიც იცავს. მის გარეშე მიმღები მხოლოდ შეყვანის ველს ხედავს."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "სამი არასწორი მცდელობის შემდეგ საიდუმლო იშლება. პაროლის მრავალჯერადი გამოცნობით დადგენა ვერ მოხერხდება."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "სამი მცდელობა"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "ფორმაში დააჭირეთ „შემოთავაზებას“ ან აიღეთ ფრაზა პაროლის გენერატორიდან: მისი ხმამაღლა თქმა მარტივია."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "თავად ნუ მოიფიქრებთ"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "პაროლი სხვა გზით შეატყობინეთ: ზეპირად, სხვა მესენჯერით ან პირადად. ასე ერთი შეტყობინების ხელში ჩაგდება ინფორმაციას ვერ გაამჟღავნებს."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "ცალკე შეატყობინეთ"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "მეორე საკეტი მგრძნობიარე მონაცემებისთვის"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "გახსნის პაროლის სამჯერ არასწორად შეყვანისას საიდუმლო სამუდამოდ იშლება."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "სამი არასწორი პაროლის შემდეგ"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "ბმულის გვერდზე ღილაკი „ახლავე წაშლა“ საიდუმლოს დაუყოვნებლივ შლის."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "როდესაც თქვენ მოისურვებთ"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "თუ ბმული თქვენს მიერ არჩეულ შენახვის ვადაში არ გაიხსნება, საიდუმლო თავისით წაიშლება."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "ვადის გასვლისას"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "როგორც კი მიმღები საიდუმლოს გახსნის, მონაცემები იშლება. ბმული მეორედ აღარ იმუშავებს."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "გახსნის შემდეგ"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "პაროლის არასწორი მცდელობების მრიცხველი"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "დაშიფრული ტექსტი და ფაილი"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "ინახება სერვერზე"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "თქვენ მიერ არჩეული შენახვის ვადა"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "შენახვა"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "სერვერი საიდუმლოს ინახავს იმ დროით, რომელიც მიმღებს მის გასახსნელად სჭირდება."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "ბმულში არსებული გაშიფვრის გასაღები"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "გახსნის პაროლი"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "საიდუმლო ღია ტექსტის სახით"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "სერვერამდე არასოდეს აღწევს"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "რას ინახავს სერვერი და როდის შლის"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "პაროლის გენერატორი"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "მთავარ გვერდზე გადასვლა"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.One-ზე ასეთი გვერდი არ არის."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "გვერდი ვერ მოიძებნა — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "მისამართი შესაძლოა არასწორად იყოს შეყვანილი ან გვერდი გადატანილი იყოს. თუ ერთჯერად ბმულს ხსნიდით, დარწმუნდით, რომ ის სრულად დააკოპირეთ."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "გვერდი ვერ მოიძებნა"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>თუ ეს პოლიტიკა შეიცვლება, ახალ ვერსიას ამ გვერდზე გამოვაქვეყნებთ და ზემოთ მითითებულ თარიღს განვაახლებთ.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "ცვლილებები ამ პოლიტიკაში"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>კონფიდენციალურობის შესახებ შეკითხვები დასვით <a href=\"https://github.com/Draal/secure-share/issues\">GitHub issues</a>-ში.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "კითხვები"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>მიმღების მიერ საიდუმლოს გახსნისთანავე;</li><li>ბმულის გვერდზე „ახლავე წაშლის“ დაჭერისას;</li><li>მესამე არასწორი პაროლის შემდეგ;</li><li>არჩეული ვადის ამოწურვისას, რომელიც 1 საათიდან 7 დღემდეა. ვადაგასული საიდუმლო მაშინვე აღარ გაიცემა, მისი მონაცემები კი ყოველდღიური გასუფთავებისას იშლება.</li></ul><p>წაშლილი საიდუმლოს აღდგენა შეუძლებელია. ბმულების წინასწარი დათვალიერების მესენჯერის ბოტები საიდუმლოს გახსნის შესაძლებლობას არ ხარჯავენ: მონაცემები მხოლოდ „საიდუმლოს ჩვენების“ დაჭერის შემდეგ გაიცემა.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "როდის იშლება მონაცემები"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>პაროლები, პაროლური ფრაზები და PIN-ები თქვენს ბრაუზერში კრიპტოგრაფიული შემთხვევითი რიცხვების გენერატორით იქმნება და სერვერზე არასოდეს იგზავნება.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "პაროლის გენერატორი"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One ისეა შექმნილი, რომ საიდუმლო მხოლოდ მიმღებმა წაიკითხოს — ჩვენც კი ვერ ვკითხულობთ. აქ აღწერილია, რა მონაცემები გადის სერვისში და რა ემართება მათ."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>აპლიკაციის სერვერი მხოლოდ API მოთხოვნებს აღრიცხავს: მოთხოვნის ტიპს, შედეგსა და დამუშავების დროს. IP მისამართები, საიდუმლოს ID-ები, ტოკენები, გვერდების მისამართები და მოთხოვნის შიგთავსი არასოდეს იწერება ჟურნალში.</p><p>მრავალჯერადი გამოცნობისა და ბოროტად გამოყენებისგან დასაცავად სერვერი თითოეული IP მისამართის მოთხოვნების სიხშირეს ზღუდავს. მისამართი მხოლოდ მეხსიერებაში გამოიყენება და არ ინახება.</p><p>აპლიკაციის წინ განთავსებულ ვებ-სერვერს შეუძლია შეინახოს სტანდარტული წვდომის ჟურნალი: IP მისამართი, დრო და გვერდის მისამართი # ნიშნის შემდეგი ნაწილის გარეშე. ეს ჟურნალები მხოლოდ თავდასხმებისგან დასაცავად გამოიყენება და შეზღუდული დროით ინახება.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "ტექნიკური ჟურნალები"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One-ის კონფიდენციალურობის პოლიტიკა: რა მონაცემებს იღებს სერვისი, რამდენ ხანს ინახავს და რატომ ვერ კითხულობს თქვენს საიდუმლოებებს."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "კონფიდენციალურობის პოლიტიკა — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>პაროლი თავად თქვენს ბრაუზერს არასოდეს ტოვებს. პაროლიდან და ბმულის გასაღებიდან ბრაუზერი ორ დამოუკიდებელ მნიშვნელობას იღებს: დაშიფვრის გასაღებს და შემოწმების ჰეშს (PBKDF2 600 000 გამეორებით, შემდეგ HKDF). სერვერზე მხოლოდ ჰეში იგზავნება. სერვერი მისით ამოწმებს პაროლს, მაგრამ ვერც პაროლს და ვერც გასაღებს ვერ იგებს.</p><p>სამი არასწორი მცდელობის შემდეგ საიდუმლო იშლება. მცდელობების მრიცხველი სერვერის მეხსიერებაში ინახება და საიდუმლოს ეკუთვნის, არა ვიზიტორს.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "გახსნის პაროლი"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>ჩვენ არ ვიცით, ვინ შექმნა ან გახსნა საიდუმლო: სერვისი მონაცემებს არც ადამიანებს, არც ანგარიშებს და არც IP მისამართებს არ უკავშირებს. ამიტომ კონკრეტული პირის მონაცემებს ვერ ვპოულობთ, ვერ გადავცემთ და ვერ ვშლით. თქვენი საიდუმლოს ვადამდე წასაშლელად გახსენით ბმულის გვერდი და დააჭირეთ „ახლავე წაშლას“.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "თქვენი უფლებები"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>ტექსტი და მიმაგრებული ფაილი გაგზავნამდე თქვენს ბრაუზერში ჩაშენებული Web Crypto API-ით AES-256-GCM-ის გამოყენებით იშიფრება. ფაილის სახელი და ტიპი შიგთავსთან ერთად იშიფრება.</p><p>სერვერი მხოლოდ შემდეგს ინახავს:</p><ul><li>დაშიფრულ მონაცემებს;</li><li>ვადის გასვლის დროს;</li><li>მიმაგრებულია თუ არა ფაილი;</li><li>პაროლის შემოწმების ჰეშს, თუ გახსნის პაროლი დააყენეთ.</li></ul><p>გაშიფვრის გასაღები ბმულის # ნიშნის შემდეგი ნაწილია. ბრაუზერები ამ ნაწილს სერვერზე არასოდეს აგზავნიან, ამიტომ ვერც ჩვენ და ვერც სერვერზე წვდომის მქონე სხვა პირი მონაცემებს ვერ გაშიფრავს. იმავე მიზეზით ბმულის დაკარგვის შემთხვევაში საიდუმლოს აღდგენა არ შეგვიძლია.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "საიდუმლოებები და ფაილები"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One უფასო სერვისია პაროლების, გასაღებებისა და ფაილების ერთჯერადი ბმულებით გასაზიარებლად. რეგისტრაცია საჭირო არ არის. სერვისს <a href=\"https://final-level.com/\">FINAL LEVEL</a> ავითარებს და მართავს.</p><p>ბმულს თავად აგზავნით სასურველი გზით. მესენჯერის, ელფოსტის ან SMS-ის ხელში ჩაგდება შესაძლებელია და საიდუმლოს მიიღებს ის, ვინც ბმულს პირველი გახსნის. მნიშვნელოვანი მონაცემებისთვის დააყენეთ გახსნის პაროლი და სხვა არხით შეატყობინეთ.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "როგორ მუშაობს სერვისი"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>თქვენი საიდუმლო ბრაუზერში იშიფრება. სერვერი მხოლოდ დაშიფრულ მონაცემებს იღებს და მათ ვერ კითხულობს.</li><li>გაშიფვრის გასაღები ბმულში # ნიშნის შემდეგაა და სერვერზე არასოდეს იგზავნება.</li><li>რეგისტრაციის, რეკლამის, ანალიტიკისა და მესამე მხარის სკრიპტების გარეშე.</li><li>საიდუმლო გახსნისთანავე ან არჩეული ვადის გასვლისას იშლება.</li><li>აპლიკაციის სერვერი IP მისამართებს ან საიდუმლოს ID-ებს არ აღრიცხავს.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "მოკლედ"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>საწყისი კოდი ღიაა <a href=\"https://github.com/Draal/secure-share\">GitHub</a>-ზე: შეგიძლიათ შეამოწმოთ დაშიფვრის მუშაობა ან საკუთარი ასლი გაუშვათ.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "ღია კოდი"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>ჩვენ არ ვიყენებთ სარეკლამო ან ანალიტიკურ cookie ფაილებს. საიტი თქვენს ბრაუზერში მხოლოდ მუშაობისთვის საჭიროს ინახავს:</p><ul><li><code>lang</code> cookie — თქვენი ენა, თუ ის ამომრჩეველში აირჩიეთ;</li><li>localStorage-ში — ფერთა თემა, ენის ბანერის დახურვის აღნიშვნა და ამ ბრაუზერიდან წაშლილი ბმულების ჩანაწერები;</li><li>sessionStorage-ში — გენერატორის პაროლი, სანამ ის მთავარ გვერდზე ფორმაში გადადის. ჩასმისთანავე იშლება.</li></ul><p>მათგან სერვერამდე მხოლოდ ენის cookie აღწევს, რომელიც გვერდის ვერსიის ასარჩევად გამოიყენება. ყველაფრის წაშლა ბრაუზერის პარამეტრებში შეგიძლიათ.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookie ფაილები და ბრაუზერის საცავი"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>საიტი მესამე მხარის სკრიპტებს, შრიფტებს, მრიცხველებს ან რეკლამებს არ ტვირთავს: ყველაფერი, შრიფტების ჩათვლით, ჩვენი სერვერიდან მოდის. მონაცემებს მესამე მხარეებს არ ვყიდით და არ ვუზიარებთ.</p><p>Telegram-ით, WhatsApp-ით და ელფოსტით გაგზავნის ღილაკები, ასევე სპონსორების საიტების ბმულები ჩვეულებრივი ბმულებია. გარე სერვისი მონაცემებს მხოლოდ რომელიმე მათგანზე დაწკაპუნებისას იღებს და ამის შემდეგ მისი საკუთარი პოლიტიკა მოქმედებს.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "მესამე მხარის სერვისები"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "კონფიდენციალურობის პოლიტიკა"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "ბოლო განახლება: 2026 წლის 25 ოქტომბერი"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "ბმული დაზიანებულია ან სრულად არ დაკოპირებულა. სთხოვეთ გამგზავნს ხელახლა გამოგიგზავნოთ."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "მონაცემები მივიდა, მაგრამ მათი გაშიფვრა ვერ მოხერხდა: ბმული დაზიანებულია. საიდუმლო სერვერიდან უკვე წაშლილია, ამიტომ სთხოვეთ გამგზავნს ახალი ბმულის შექმნა."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "სერვერთან დაკავშირება ვერ მოხერხდა. შეამოწმეთ კავშირი და ხელახლა სცადეთ."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "ძალიან ბევრი მცდელობაა. დაელოდეთ ერთ წუთს და ხელახლა სცადეთ."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "საიდუმლოს გახსნა ვერ მოხერხდა"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "შექმენით საკუთარი ბმული"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "როგორ მუშაობს ერთჯერადი ბმულები"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "ის უკვე გახსნილია ან ვადა გაუვიდა. ბმულის ხელახლა გახსნა შეუძლებელია."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "სთხოვეთ გამგზავნს ახალი ბმულის შექმნა. თუ ეს ბმული თქვენ არ გაგიხსნიათ, შეატყობინეთ: შესაძლოა სხვამ ნახა."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "ეს საიდუმლო აღარ არის ხელმისაწვდომი"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "მისი ნახვა მხოლოდ ერთხელ შეიძლება. ამის შემდეგ ის სერვერიდან მაშინვე წაიშლება."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "ეს საიდუმლო პაროლითაა დაცული. მისი ნახვა მხოლოდ ერთხელ შეიძლება, შემდეგ კი სერვერიდან წაიშლება."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "ვიღაცამ საიდუმლო გამოგიგზავნათ"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One-ის ერთჯერადი ბმული. საიდუმლოს ერთხელ გახსნა შეიძლება, შემდეგ ის სერვერიდან იშლება."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "ვიღაცამ საიდუმლო გამოგიგზავნათ — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "შეიყვანეთ პაროლი."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "გამგზავნს პაროლი ცალკე უნდა მოეწოდებინა. სამი არასწორი მცდელობის შემდეგ საიდუმლო იშლება."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "გახსნის პაროლი"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "გახსნა"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "გააზიარეთ საკუთარი საიდუმლო"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "შექმენით საკუთარი ერთჯერადი ბმული. რეგისტრაციის გარეშე."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "თავადაც გჭირდებათ პაროლის გაზიარება?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "საიდუმლოს ჩვენება"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "წაიშალა სერვერიდან"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "ჩამოტვირთვა"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "თუ მოგვიანებით დაგჭირდებათ, შეინახეთ: ამ გვერდის დახურვის შემდეგ საიდუმლოს ხელახლა ვერ გახსნით."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "საიდუმლოს ტექსტი"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "თქვენი საიდუმლო"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "იხსნება…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "რა არის Encrypt.One?"
+  }
+]

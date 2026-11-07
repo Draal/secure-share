@@ -1,0 +1,58 @@
+{{define "generator"}}<div class="generator{{if .Compact}} generator--compact{{else}} card{{end}}" data-generator>
+  <div class="segmented" role="tablist" aria-label="{{t "generator.tabs.label"}}">
+    <button type="button" class="segmented__tab" role="tab" id="tab-password" aria-selected="true" aria-controls="panel-password" data-mode="password">{{t "generator.tabs.password"}}</button>
+    <button type="button" class="segmented__tab" role="tab" id="tab-phrase" aria-selected="false" aria-controls="panel-phrase" data-mode="phrase" tabindex="-1">{{t "generator.tabs.phrase"}}</button>
+    <button type="button" class="segmented__tab" role="tab" id="tab-pin" aria-selected="false" aria-controls="panel-pin" data-mode="pin" tabindex="-1">{{t "generator.tabs.pin"}}</button>
+  </div>
+
+  <div class="gen-result">
+    <div class="gen-output">
+      <output class="gen-output__value" id="gen-value" aria-live="polite" data-gen-output></output>
+      <div class="gen-output__actions">
+        <button type="button" class="btn btn--secondary btn--icon btn--lg" data-gen-regenerate aria-label="{{t "generator.regenerate"}}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 0 1 14.6-5.9L20.5 8.5"/><path d="M20.5 3.5v5h-5"/><path d="M20.5 12a8.5 8.5 0 0 1-14.6 5.9L3.5 15.5"/><path d="M3.5 20.5v-5h5"/></svg></button>
+        {{- if not .Compact}}
+        <button type="button" class="btn btn--dark btn--lg copy-btn" data-copy="#gen-value">
+          <span class="copy-btn__idle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8.5" y="8.5" width="12" height="12" rx="2.5"/><path d="M15.5 8.5V6a2.5 2.5 0 0 0-2.5-2.5H6A2.5 2.5 0 0 0 3.5 6v7A2.5 2.5 0 0 0 6 15.5h2.5"/></svg><span>{{t "common.copy"}}</span></span>
+          <span class="copy-btn__done"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>{{t "common.copied"}}</span></span>
+        </button>
+        {{- end}}
+      </div>
+    </div>
+    <div class="meter" data-gen-meter data-level="4" data-label-1="{{t "generator.strength.weak"}}" data-label-2="{{t "generator.strength.fair"}}" data-label-3="{{t "generator.strength.strong"}}" data-label-4="{{t "generator.strength.veryStrong"}}" data-label-pin="{{t "generator.strength.pinOnly"}}" data-bits="{{t "generator.strength.bits"}}">
+      <span class="meter__bars" aria-hidden="true"><span class="meter__bar"></span><span class="meter__bar"></span><span class="meter__bar"></span><span class="meter__bar"></span></span>
+      <span class="meter__label" data-gen-meter-label>{{t "generator.strength.veryStrong"}}</span>
+      <span class="meter__bits" data-gen-meter-bits></span>
+    </div>
+  </div>
+
+  <div class="gen-options" id="panel-password" role="tabpanel" aria-labelledby="tab-password">
+      <div class="range-field">
+        <div class="range-field__head"><label class="range-field__label" for="gen-length">{{t "generator.password.length"}}</label><output class="range-field__value" for="gen-length" data-range-value="gen-length">20</output></div>
+        <input class="range" id="gen-length" type="range" min="8" max="64" value="20" data-gen="length">
+      </div>
+      <fieldset class="checks">
+        <legend class="checks__legend">{{t "generator.password.sets"}}</legend>
+        <label class="check"><input type="checkbox" data-gen="upper" checked><span>{{t "generator.password.upper"}}</span></label>
+        <label class="check"><input type="checkbox" data-gen="lower" checked><span>{{t "generator.password.lower"}}</span></label>
+        <label class="check"><input type="checkbox" data-gen="digits" checked><span>{{t "generator.password.digits"}}</span></label>
+        <label class="check"><input type="checkbox" data-gen="symbols" checked><span>{{t "generator.password.symbols"}}</span></label>
+        <label class="check"><input type="checkbox" data-gen="noSimilar"><span>{{t "generator.password.noSimilar"}}</span></label>
+      </fieldset>
+  </div>
+
+  <div class="gen-options" id="panel-phrase" role="tabpanel" aria-labelledby="tab-phrase" hidden>
+      <div class="range-field">
+        <div class="range-field__head"><label class="range-field__label" for="gen-words">{{t "generator.phrase.words"}}</label><output class="range-field__value" for="gen-words" data-range-value="gen-words">5</output></div>
+        <input class="range" id="gen-words" type="range" min="3" max="10" value="5" data-gen="words">
+      </div>
+      <p class="hint">{{t "generator.phrase.hint"}}</p>
+  </div>
+
+  <div class="gen-options" id="panel-pin" role="tabpanel" aria-labelledby="tab-pin" hidden>
+      <div class="range-field">
+        <div class="range-field__head"><label class="range-field__label" for="gen-digits">{{t "generator.pin.digits"}}</label><output class="range-field__value" for="gen-digits" data-range-value="gen-digits">6</output></div>
+        <input class="range" id="gen-digits" type="range" min="4" max="12" value="6" data-gen="pinDigits">
+      </div>
+  </div>
+</div>
+{{end}}

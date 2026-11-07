@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Permintaan tidak dapat diproses. Muat semula halaman dan cuba lagi."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Pautan ini tidak membenarkan pemusnahan rahsia."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Rahsia tidak ditemui: sudah dibuka, dimusnahkan atau tamat tempoh."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Kata laluan diperlukan untuk membuka rahsia ini."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Terlalu banyak permintaan. Tunggu seminit dan cuba lagi."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Sesuatu telah berlaku di pihak kami. Cuba lagi dalam seminit."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Fail terlalu besar. Hadnya ialah {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Kata laluan dimasukkan salah tiga kali, jadi rahsia telah dipadamkan."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Kata laluan salah. Percubaan berbaki: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Tutup"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Disalin"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Salin"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Pautan"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privasi"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projek"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Soalan lazim"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Panduan"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Cara berfungsi"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Keselamatan"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Sumber"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Hantar fail"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Penjana kata laluan"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Kongsi rahsia"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Perkhidmatan"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Pautan sekali guna untuk berkongsi kata laluan dan fail. Disulitkan dalam pelayar anda."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Kod sumber di GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Bahasa Melayu"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "MS"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Bahasa laman: Melayu"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Laman utama Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: kongsi kata laluan dengan pautan sekali guna"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Soalan lazim"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Penjana kata laluan"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Cara berfungsi"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Navigasi utama"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Pergi ke kandungan"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Masa, kalendar dan cuti untuk mana-mana bandar"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Permainan percuma terus dalam pelayar"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Beribu-ribu stesen radio dari seluruh dunia"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One percuma berkat penaja kami"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Gelap"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Cerah"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistem"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Hantarkannya kepada penerima. Rahsia hanya boleh dibuka sekali."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Pautan anda sedia"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Dapatkan pautan lain"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Untuk rahsia yang sama, satu pautan bagi setiap penerima. Pautan semasa akan terus berfungsi, tetapi anda tidak lagi boleh memusnahkannya dari sini."
+  },
+  {
+    "id": "created.back",
+    "translation": "Rahsia baharu"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Musnahkan sekarang"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Musnahkan rahsia? Pautan akan berhenti berfungsi serta-merta."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Rahsia tidak dapat dimusnahkan. Cuba lagi."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Dihantar kepada orang yang salah? Musnahkan rahsia supaya pautan berhenti berfungsi serta-merta."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Anda telah memusnahkan rahsia. Data dipadam daripada pelayan dan pautan tidak lagi berfungsi."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Rahsia dimusnahkan"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Tiada sesiapa membuka pautan tepat pada masanya. Data dipadam daripada pelayan dan pautan tidak lagi berfungsi."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Pautan telah tamat tempoh"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Salin pautan"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Pautan sekali guna"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Pautan ini tidak lagi berfungsi"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Pautan hanya dipaparkan dalam tab tempat ia dicipta. Anda masih boleh memusnahkan rahsia dari sini."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Halaman pengirim pautan sekali guna Encrypt.One: kongsi pautan atau musnahkan rahsia."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Pautan anda sedia — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Cipta pautan baharu"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Kod QR pautan sekali guna"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Halakan kamera telefon pada kod untuk membuka pautan. Jangan tunjukkan kod kepada orang lain: kod membuka rahsia seperti pautan."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Kod QR pautan"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Hantar melalui"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-mel"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "Kod QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Rahsia untuk anda"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Pautan sekali guna ke rahsia:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Sah sehingga"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Petua:</strong> untuk data yang sangat sensitif, tambahkan kata laluan pada pautan dan sampaikannya melalui cara lain, contohnya secara lisan. Dengan itu, pemintasan satu mesej tidak mendedahkan apa-apa."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Lampirkan fail"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Lepaskan untuk melampirkan fail"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Anda boleh menyeret fail terus ke dalam medan."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Sehingga {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Pelayar ini tidak menyokong penyulitan. Kemas kininya atau buka laman dalam pelayar lain."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Tampal teks atau lampirkan fail."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Fail terlalu besar. Hadnya ialah {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Tidak dapat menghubungi pelayan. Semak sambungan dan cuba lagi."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Masukkan kata laluan pembukaan atau matikan perlindungan kata laluan."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "akan disulitkan bersama teks"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Buang fail"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Jana kata laluan"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Masukkan ke medan rahsia"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Cadangkan"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Tanpa kata laluan ini, rahsia tidak akan dibuka walaupun pautan dipintas. Sampaikan kepada penerima secara berasingan, contohnya secara lisan atau melalui aplikasi mesej lain."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Kata laluan pembukaan"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Contohnya maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Lindungi dengan kata laluan"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Apa yang ingin anda kongsi?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Kata laluan, kunci API, maklumat log masuk…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Tetapan pautan"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Cipta pautan sekali guna"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Menyulitkan…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 hari"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 jam"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 hari"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 hari"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Tamat tempoh dalam"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Tempoh penyimpanan"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Penjana percuma untuk kata laluan kukuh, frasa laluan dan PIN rawak yang dicipta dalam pelayar dan tidak pernah dihantar ke mana-mana. Kongsi hasilnya dengan pautan sekali guna."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Penjana Kata Laluan Kukuh — Percuma dan Peribadi | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Digit (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Panjang"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Huruf kecil (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Tanpa aksara yang serupa (0 dan O, l dan 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Aksara"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Simbol (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Huruf besar (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Frasa daripada perkataan rawak mudah disebut dan diingati, tetapi sama sukarnya diteka seperti kata laluan panjang. Perkataan berasal daripada senarai terbuka EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Bilangan perkataan"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Bilangan digit"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Jana semula"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Hantar sebagai pautan sekali guna"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Hasilnya terus dimasukkan ke dalam borang dan anda akan menerima pautan yang hanya boleh dibuka sekali."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Perlu berkongsi kata laluan ini?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropi ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Sederhana"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Sesuai untuk PIN sahaja"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Kukuh"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Sangat kukuh"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Lemah"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Jenis kata laluan"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Kata laluan"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Frasa laluan"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Sekurang-kurangnya 14–16 aksara. Panjang melindungi lebih baik daripada menggantikan huruf dengan simbol."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Panjang"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Anda tidak perlu mengingati kata laluan yang rumit: gunakan pengurus kata laluan."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Disimpan dalam pengurus kata laluan"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Apa yang menjadikan kata laluan kukuh"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Satu untuk setiap perkhidmatan. Dengan itu, kebocoran satu kata laluan tidak membuka akaun lain."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unik"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Penjana kata laluan"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Tidak. Rahsia disulitkan dalam pelayar sebelum dihantar. Kunci berada dalam pautan selepas tanda #, dan bahagian alamat itu tidak pernah sampai ke pelayan."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Tiada apa-apa berlaku. Rahsia hanya muncul selepas butang «Tunjukkan rahsia» ditekan, dan bot pratonton tidak menekan butang."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Rahsia dipadam secara automatik apabila tempoh penyimpanan yang dipilih berakhir."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Ya. Halaman pautan mempunyai butang «Musnahkan sekarang». Selepas itu pautan berhenti berfungsi."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Tidak. Pengirim mahupun penerima tidak memerlukan akaun."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Tidak menemui jawapan? Buka laporan di GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Bolehkah anda membaca rahsia saya?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Bagaimana jika bot pratonton aplikasi mesej membuka pautan?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Bagaimana jika penerima tidak pernah membuka pautan?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Bolehkah saya membatalkan pautan selepas menghantarnya?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Perlukah saya mendaftar?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Soalan lazim"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Rahsia anda disulitkan terus dalam pelayar. Penerima membuka pautan sekali, kemudian data dipadam daripada pelayan."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Tanpa pendaftaran"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Penyulitan AES-256 pada peranti anda"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Kongsi kata laluan dengan selamat melalui pautan sekali guna"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Kata laluan, kunci API, maklumat log masuk atau fail. Semuanya disulitkan dalam pelayar sebelum dihantar."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Tampal rahsia anda"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Melalui Telegram, WhatsApp, Signal, Slack, e-mel atau aplikasi mesej lain. Hanya pautan kekal dalam perbualan, bukan kata laluannya."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Hantar pautan"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Selepas dilihat, data dipadam daripada pelayan. Pautan tidak boleh dibuka untuk kali kedua."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Pautan habis digunakan"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Cara berfungsi"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Hantar kata laluan, mesej peribadi, kunci API dan fail dengan pautan sekali guna yang disulitkan. Rahsia dipadam selepas dilihat. Percuma, sumber terbuka, tanpa pendaftaran."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Pautan Rahsia Sekali Guna — Kongsi Kata Laluan dengan Selamat | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Kongsi kata laluan dan kelayakan tanpa meninggalkannya dalam sejarah perbualan."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Kata laluan dan maklumat log masuk"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Hantar mesej sensitif yang hanya boleh dibuka sekali."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Mesej peribadi"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Kongsi kunci API, token akses dan fail konfigurasi dengan selamat bersama pasukan anda."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "Kunci API dan kelayakan"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Kongsi dokumen dan fail peribadi sehingga {{.MaxFileSize}} melalui pautan sekali guna yang disulitkan."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Fail sulit"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Hantar mesej yang musnah sendiri, kata laluan, kunci API dan fail peribadi dengan selamat. Setiap rahsia disulitkan dalam pelayar dan dipadam daripada pelayan selepas dilihat."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Apa yang boleh dikongsi dengan pautan sekali guna?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Kekal bersama anda.</strong> Kunci penyahsulitan. Pelayar tidak pernah menghantar apa-apa selepas # ke pelayan."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Dihantar ke pelayan.</strong> Alamat data yang disulitkan: tanpa kunci, data itu hanyalah bait rawak."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Web Crypto API terbina dalam pelayar dan AES-256-GCM. Tanpa pustaka pihak ketiga."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Disulitkan dalam pelayar"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Semua kod diterbitkan di <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Sesiapa sahaja boleh memeriksa cara penyulitan berfungsi."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Tanpa pendaftaran, skrip pihak ketiga atau penjejak. Oleh itu, tiada sepanduk kuki juga."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Tiada yang berlebihan"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Kunci penyahsulitan berada dalam pautan selepas tanda #. Pelayar tidak pernah menghantar bahagian alamat itu ke pelayan, jadi hanya anda dan penerima dapat melihatnya."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Maklumat lanjut tentang cara berfungsi"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Mengapa kami tidak dapat membaca rahsia anda"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Kongsi rahsia"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kod di GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Semua kod Encrypt.One ada di GitHub. Sesiapa sahaja boleh melihat cara penyulitan berfungsi dan memastikan kunci tidak pernah dihantar ke pelayan."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Semak sendiri"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Aliran data"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Rahsia disulitkan sebelum dihantar dan hanya dinyahsulit oleh penerima. Sepanjang perjalanan, data kekal disulitkan."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Memuat turun data tersulit, mengambil kunci daripada pautan dan menyahsulit rahsia secara setempat. Pelayan memadam data sejurus selepas itu."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Pelayar penerima"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Mencipta kunci rawak dan menyulitkan teks serta fail dengan AES-256-GCM menggunakan Web Crypto API terbina dalam pelayar."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Pelayar pengirim"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Hanya menerima dan menyimpan bait tersulit. Tanpa kunci, tiada sesiapa dapat membacanya — sama ada kami atau sesiapa yang mendapat akses ke pelayan."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Pelayan Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Pelayan hanya melihat data tersulit"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One menyulitkan rahsia terus dalam pelayar anda. Hanya data tersulit dihantar ke pelayan, manakala kunci kekal dalam pautan dan tidak pernah meninggalkan peranti pengirim dan penerima."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Cara ia berfungsi dan sebab ia selamat"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Di dalam pautan"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Pautan mempunyai dua bahagian. Bahagian pertama menunjukkan tempat data tersulit disimpan. Bahagian kedua, selepas #, ialah kunci penyahsulitan."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Sesiapa yang mempunyai pautan lengkap boleh membuka rahsia. Hantar hanya kepada penerima dan tambah kata laluan untuk data sensitif."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Pautan lengkap memberikan akses"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Pelayar tidak menyertakan bahagian selepas # dalam permintaan. Jadi, kunci tiada dalam log pelayan atau titik rangkaian di antaranya."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Tidak pernah dihantar ke pelayan"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Kunci dijana secara rawak pada peranti anda. Kunci tidak boleh diteka dengan serangan kekerasan."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Baharu untuk setiap pautan"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Kunci berada selepas #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Cara Encrypt.One menyulitkan rahsia dalam pelayar: AES-256-GCM, kunci selepas #, penyimpanan, pemadaman data dan perlindungan kata laluan."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Cara Encrypt.One Berfungsi: Perkongsian Rahsia dengan Penyulitan Hujung ke Hujung"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Buka penjana kata laluan"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Kata laluan pembukaan"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Kata laluan melindungi rahsia walaupun pautan dipintas. Tanpanya, penerima hanya melihat medan input."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Selepas tiga percubaan salah, rahsia dipadam. Kata laluan tidak boleh diteka dengan serangan kekerasan."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tiga percubaan"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Klik «Cadangkan» dalam borang atau pilih frasa daripada penjana kata laluan: mudah dibacakan."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Jangan reka sendiri"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Sampaikan kata laluan dengan cara lain: secara lisan, melalui aplikasi mesej lain atau secara bersemuka. Pemintasan satu mesej tidak akan mendedahkan apa-apa."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Sampaikan secara berasingan"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Kunci kedua untuk data sensitif"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Jika kata laluan pembukaan dimasukkan salah tiga kali, rahsia dipadam secara kekal."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Selepas tiga kata laluan salah"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Butang «Musnahkan sekarang» pada halaman pautan memadam rahsia serta-merta."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Atas arahan anda"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Jika pautan tidak dibuka dalam tempoh penyimpanan yang dipilih, rahsia dipadam secara automatik."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Apabila tamat tempoh"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Sebaik sahaja penerima membuka rahsia, data dipadam. Pautan tidak akan berfungsi untuk kali kedua."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Selepas dibuka"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Pengira percubaan kata laluan yang salah"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Teks dan fail tersulit"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Disimpan pada pelayan"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Tempoh penyimpanan yang anda pilih"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Penyimpanan"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Pelayan menyimpan rahsia selama masa yang diperlukan penerima untuk membukanya."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Kunci penyahsulitan daripada pautan"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Kata laluan pembukaan"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Kandungan rahsia dalam bentuk yang boleh dibaca"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Tidak pernah sampai ke pelayan"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Apa yang disimpan pelayan dan bila ia dipadam"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Penjana kata laluan"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Ke laman utama"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Halaman itu tiada di Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Halaman tidak ditemui — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Alamat mungkin tersalah taip atau halaman telah dipindahkan. Jika anda membuka pautan sekali guna, pastikan pautan disalin sepenuhnya."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Halaman tidak ditemui"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Jika dasar ini berubah, kami akan menerbitkan versi baharu pada halaman ini dan mengemas kini tarikh di atas.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Perubahan dasar"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Ajukan soalan privasi melalui <a href=\"https://github.com/Draal/secure-share/issues\">laporan di GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Soalan"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>sejurus selepas penerima membuka rahsia;</li><li>apabila anda menekan «Musnahkan sekarang» pada halaman pautan;</li><li>selepas kata laluan salah untuk kali ketiga;</li><li>apabila tempoh yang dipilih berakhir, dari satu jam hingga tujuh hari. Rahsia yang tamat tempoh serta-merta tidak lagi tersedia dan datanya dipadam semasa pembersihan harian.</li></ul><p>Rahsia yang dipadam tidak boleh dipulihkan. Bot aplikasi mesej yang membuat pratonton pautan tidak menghabiskan rahsia: data hanya diberikan selepas «Tunjukkan rahsia» ditekan.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Bila data dipadam"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Kata laluan, frasa laluan dan PIN dicipta dalam pelayar anda dengan penjana nombor rawak kriptografi dan tidak pernah dihantar ke pelayan.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Penjana kata laluan"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One dicipta supaya hanya penerima boleh membaca rahsia — malah kami juga tidak boleh. Berikut ialah data yang melalui perkhidmatan dan apa yang berlaku kepadanya."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Pelayan aplikasi hanya merekod permintaan API: jenis permintaan, hasil dan masa pemprosesan. Alamat IP, ID rahsia, token, alamat halaman dan kandungan permintaan tidak direkodkan.</p><p>Untuk melindungi perkhidmatan daripada serangan kekerasan dan penyalahgunaan, pelayan mengehadkan kekerapan permintaan bagi setiap alamat IP. Alamat hanya digunakan dalam memori dan tidak disimpan.</p><p>Pelayan web di hadapan aplikasi boleh menyimpan log akses standard: alamat IP, masa dan alamat halaman tanpa bahagian selepas #. Log ini hanya digunakan untuk melindungi daripada serangan dan disimpan untuk masa terhad.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Log teknikal"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Dasar privasi Encrypt.One: data yang diterima perkhidmatan, tempoh penyimpanannya dan sebab perkhidmatan tidak dapat membaca rahsia anda."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Dasar Privasi — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Kata laluan itu sendiri tidak pernah meninggalkan pelayar. Daripada kata laluan dan kunci pautan, pelayar menghasilkan dua nilai bebas: kunci penyulitan dan cincangan semakan (PBKDF2 dengan 600,000 lelaran, kemudian HKDF). Hanya cincangan dihantar ke pelayan. Pelayan menggunakannya untuk menyemak kata laluan, tetapi tidak dapat mengetahui kata laluan atau kuncinya.</p><p>Selepas tiga percubaan salah, rahsia dipadam. Pengira percubaan disimpan dalam memori pelayan dan terikat pada rahsia, bukan pelawat.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Kata laluan pembukaan"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Kami tidak mengetahui siapa yang mencipta atau membuka rahsia: perkhidmatan tidak menghubungkan data dengan orang, akaun atau alamat IP. Oleh itu kami tidak dapat mencari, menyerahkan atau memadam data individu tertentu. Untuk memadam rahsia sebelum tamat tempoh, buka halaman pautan dan tekan «Musnahkan sekarang».</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Hak anda"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Teks dan fail terlampir disulitkan dalam pelayar dengan AES-256-GCM melalui Web Crypto API terbina dalam sebelum dihantar. Nama dan jenis fail disulitkan bersama kandungannya.</p><p>Pelayan hanya menyimpan:</p><ul><li>data tersulit;</li><li>masa tamat tempoh;</li><li>penanda sama ada fail dilampirkan;</li><li>cincangan semakan kata laluan, jika anda menetapkan kata laluan pembukaan.</li></ul><p>Kunci penyahsulitan ialah bahagian pautan selepas tanda #. Pelayar tidak pernah menghantar bahagian itu ke pelayan, jadi kami atau sesiapa yang mengakses pelayan tidak dapat menyahsulit data. Atas sebab yang sama, kami tidak dapat memulihkan rahsia jika pautan hilang.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Rahsia dan fail"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One ialah perkhidmatan percuma untuk berkongsi kata laluan, kunci dan fail melalui pautan sekali guna. Pendaftaran tidak diperlukan. Perkhidmatan dibangunkan dan dikendalikan oleh <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Anda menghantar pautan sendiri dengan cara pilihan anda. Mesej melalui aplikasi, e-mel atau SMS boleh dipintas, dan orang yang pertama membuka pautan akan mendapat rahsia itu. Untuk data penting, tetapkan kata laluan pembukaan dan sampaikan melalui saluran lain.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Cara perkhidmatan berfungsi"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Rahsia disulitkan dalam pelayar anda. Pelayan hanya menerima data tersulit dan tidak boleh membacanya.</li><li>Kunci penyahsulitan berada dalam pautan selepas tanda # dan tidak pernah dihantar ke pelayan.</li><li>Tanpa pendaftaran, iklan, analitik atau skrip pihak ketiga.</li><li>Rahsia dipadam sebaik sahaja dibuka atau apabila tempoh yang dipilih berakhir.</li><li>Pelayan aplikasi tidak merekod alamat IP atau ID rahsia.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Ringkasnya"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Kod sumber terbuka di <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: anda boleh memeriksa cara penyulitan berfungsi atau menjalankan salinan sendiri.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Kami tidak menggunakan kuki iklan atau analitik. Laman hanya menyimpan perkara yang diperlukan untuk berfungsi dalam pelayar anda:</p><ul><li>kuki <code>lang</code> — bahasa anda, jika dipilih melalui pemilih bahasa;</li><li>dalam localStorage — tema warna, penanda bahawa anda menutup sepanduk bahasa dan penanda pautan yang dimusnahkan daripada pelayar ini;</li><li>dalam sessionStorage — kata laluan daripada penjana semasa dipindahkan ke borang di laman utama. Kata laluan dipadam sejurus selepas dimasukkan.</li></ul><p>Daripada semua ini, hanya kuki bahasa sampai ke pelayan, yang menggunakannya untuk memilih versi halaman. Anda boleh memadam semuanya dalam tetapan pelayar.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Kuki dan storan pelayar"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Laman tidak memuatkan skrip, fon, kaunter atau iklan pihak ketiga: semuanya, termasuk fon, disediakan daripada pelayan kami. Kami tidak menjual atau berkongsi data dengan pihak ketiga.</p><p>Butang hantar melalui Telegram, WhatsApp dan e-mel serta pautan ke laman penaja ialah pautan biasa. Perkhidmatan luar hanya menerima data apabila anda mengklik, dan selepas itu dasarnya sendiri terpakai.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Perkhidmatan pihak ketiga"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Dasar privasi"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Kemas kini terakhir: 25 Oktober 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Pautan rosak atau tidak disalin sepenuhnya. Minta pengirim menghantarnya semula."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Data telah diterima tetapi tidak dapat dinyahsulit: pautan rosak. Rahsia sudah dipadam daripada pelayan, jadi minta pengirim mencipta yang baharu."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Tidak dapat menghubungi pelayan. Semak sambungan dan cuba lagi."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Terlalu banyak percubaan. Tunggu seminit dan cuba lagi."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Rahsia tidak dapat dibuka"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Cipta pautan anda sendiri"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Cara pautan sekali guna berfungsi"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Rahsia sudah dibuka atau tamat tempoh. Pautan tidak boleh dibuka lagi."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Minta pengirim mencipta pautan baharu. Jika anda tidak membuka pautan ini, beritahu mereka: mungkin orang lain telah melihatnya."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Rahsia ini tidak lagi tersedia"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Rahsia hanya boleh dilihat sekali. Sejurus selepas itu rahsia akan dipadam daripada pelayan."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Rahsia ini dilindungi kata laluan. Ia hanya boleh dilihat sekali, kemudian akan dipadam daripada pelayan."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Seseorang menghantar rahsia kepada anda"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Pautan sekali guna Encrypt.One. Rahsia boleh dibuka sekali, kemudian dipadam daripada pelayan."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Seseorang menghantar rahsia kepada anda — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Masukkan kata laluan."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Pengirim sepatutnya menyampaikan kata laluan secara berasingan. Selepas tiga percubaan salah, rahsia dipadam."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Kata laluan pembukaan"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Buka"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Kongsi rahsia anda"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Cipta pautan sekali guna anda sendiri. Tanpa pendaftaran."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Perlu berkongsi kata laluan juga?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Tunjukkan rahsia"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Dipadam daripada pelayan"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Muat turun"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Simpan jika anda memerlukannya kemudian: selepas halaman ditutup, rahsia tidak boleh dibuka lagi."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Teks rahsia"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Rahsia anda"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Membuka…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Apakah Encrypt.One?"
+  }
+]

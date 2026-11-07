@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "İstek işlenemedi. Sayfayı yenileyip tekrar deneyin."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Bu bağlantı sırrı yok etme yetkisi vermiyor."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Sır bulunamadı: Daha önce açılmış, yok edilmiş veya süresi dolmuş."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Bu sırrı açmak için parola gerekiyor."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Çok fazla istek. Bir dakika bekleyip tekrar deneyin."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Bizim tarafımızda bir sorun oluştu. Bir dakika sonra tekrar deneyin."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Dosya çok büyük. Sınır {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Parola üç kez yanlış girildiği için sır silindi."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Yanlış parola. Kalan deneme: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Kapat"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Kopyalandı"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopyala"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Bağlantılar"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Gizlilik"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Proje"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Sık sorulan sorular"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Kılavuzlar"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Nasıl çalışır"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Güvenlik"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Kaynaklar"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Dosya gönder"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Parola oluşturucu"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Sır paylaş"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Hizmet"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Parola ve dosya paylaşımı için tek kullanımlık bağlantılar. Tarayıcınızda şifrelenir."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "GitHub’daki kaynak kodu"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Türkçe"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "TR"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Site dili: Türkçe"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One ana sayfa"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: tek kullanımlık bağlantıyla parola paylaşın"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Sık sorulan sorular"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Parola oluşturucu"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Nasıl çalışır"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Ana gezinme"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "İçeriğe geç"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Her şehir için saat, takvim ve tatiller"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Doğrudan tarayıcınızda ücretsiz oyunlar"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Dünyanın dört bir yanından binlerce radyo istasyonu"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One sponsorlarımız sayesinde ücretsizdir"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Koyu"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Açık"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistem"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Bağlantıyı alıcıya gönderin. Sır yalnızca bir kez açılabilir."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Bağlantınız hazır"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Başka bir bağlantı al"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Aynı sır için her alıcıya ayrı bir bağlantı. Mevcut bağlantı çalışmaya devam eder, ancak onu buradan yok edemezsiniz."
+  },
+  {
+    "id": "created.back",
+    "translation": "Yeni sır"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Şimdi yok et"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Sır yok edilsin mi? Bağlantı hemen çalışmayı bırakacak."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Sır yok edilemedi. Tekrar deneyin."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Yanlış kişiye mi gönderdiniz? Sırrı yok edin; bağlantı hemen çalışmayı bırakır."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Sırrı yok ettiniz. Veriler sunucudan silindi ve bağlantı artık çalışmıyor."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Sır yok edildi"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Bağlantı zamanında açılmadı. Veriler sunucudan silindi ve bağlantı artık çalışmıyor."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Bağlantının süresi doldu"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Bağlantıyı kopyala"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Tek kullanımlık bağlantı"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Bu bağlantı artık çalışmıyor"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Bağlantı yalnızca oluşturulduğu sekmede gösterilir. Sırrı buradan yine de yok edebilirsiniz."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One tek kullanımlık bağlantısının gönderici sayfası: bağlantıyı paylaşın veya sırrı yok edin."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Bağlantınız hazır — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Yeni bağlantı oluştur"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Tek kullanımlık bağlantının QR kodu"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Bağlantıyı açmak için telefon kamerasını koda tutun. Kodu başkalarına göstermeyin: bağlantı gibi sırrı açar."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Bağlantının QR kodu"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Şununla gönder"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-posta"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR kodu"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Sizin için bir sır"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Bir sırra tek kullanımlık bağlantı:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Son geçerlilik tarihi"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>İpucu:</strong> Çok hassas veriler için bağlantıya parola ekleyin ve parolayı örneğin sesli olarak başka bir yolla iletin. Böylece tek bir mesajın ele geçirilmesi hiçbir şey açığa çıkarmaz."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Dosya ekle"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Dosyayı eklemek için bırakın"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Bir dosyayı doğrudan alana sürükleyebilirsiniz."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "En fazla {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Bu tarayıcı şifrelemeyi desteklemiyor. Güncelleyin veya siteyi başka bir tarayıcıda açın."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Metin yapıştırın veya dosya ekleyin."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Dosya çok büyük. Sınır {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Sunucuya ulaşılamadı. Bağlantınızı kontrol edip tekrar deneyin."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Açma parolası girin veya parola korumasını kapatın."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "metinle birlikte şifrelenecek"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Dosyayı kaldır"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Parola oluştur"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Sır alanına ekle"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Öner"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Bağlantı ele geçirilse bile bu parola olmadan sır açılamaz. Parolayı alıcıya örneğin sesli olarak veya başka bir mesajlaşma uygulamasından ayrı iletin."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Açma parolası"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Örneğin maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Parolayla koru"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Ne paylaşmak istiyorsunuz?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Parola, API anahtarı, giriş bilgileri…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Bağlantı ayarları"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Tek kullanımlık bağlantı oluştur"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Şifreleniyor…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 gün"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 saat"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 gün"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 gün"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Süre sonu"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Saklama süresi"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Güçlü parolalar, parola ifadeleri ve PIN’ler için ücretsiz oluşturucu. Rastgele sonuçlar tarayıcınızda oluşturulur ve hiçbir yere gönderilmez. Sonucu tek kullanımlık bağlantıyla paylaşın."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Güçlü Parola Oluşturucu — Ücretsiz ve Gizli | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Rakamlar (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Uzunluk"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Küçük harfler (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Benzer karakterler olmasın (0 ve O, l ve 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Karakterler"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Semboller (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Büyük harfler (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Rastgele sözcüklerden oluşan bir ifadeyi söylemek ve hatırlamak kolay, tahmin etmek ise uzun bir parola kadar zordur. Sözcükler EFF’nin açık sözcük listesinden gelir."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Sözcük sayısı"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Rakam sayısı"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Yeniden oluştur"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Tek kullanımlık bağlantıyla gönder"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Sonuç doğrudan forma aktarılır ve yalnızca bir kez açılan bir bağlantı alırsınız."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Bu parolayı paylaşmanız mı gerekiyor?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropi ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Orta"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Yalnızca PIN için uygun"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Güçlü"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Çok güçlü"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Zayıf"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Parola türü"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Parola"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Parola ifadesi"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "En az 14–16 karakter. Uzunluk, harfleri sembollerle değiştirmekten daha iyi korur."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Uzun"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Karmaşık parolaları hatırlamanıza gerek yok: Bunun için parola yöneticisi kullanabilirsiniz."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Parola yöneticisinde saklanan"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Bir parolayı güçlü yapan nedir?"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Her hizmet için ayrı bir parola kullanın. Böylece bir parolanın sızması diğer hesaplarınızı açmaz."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Benzersiz"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Parola oluşturucu"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Hayır. Sır gönderilmeden önce tarayıcınızda şifrelenir. Anahtar bağlantıda # işaretinden sonra yer alır ve adresin bu kısmı sunucuya hiç ulaşmaz."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Hiçbir şey olmaz. Sır yalnızca «Sırrı göster» düğmesine basıldıktan sonra görünür; önizleme botları düğmelere basmaz."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Sır, seçtiğiniz saklama süresi dolduğunda kendiliğinden silinir."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Evet. Bağlantınızın bulunduğu sayfada «Şimdi yok et» düğmesi vardır. Sonrasında bağlantı çalışmayı bırakır."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Hayır. Ne göndericinin ne de alıcının hesaba ihtiyacı vardır."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Yanıt bulamadınız mı? GitHub’da bir sorun bildirimi açın."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Sırrımı okuyabilir misiniz?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Bir mesajlaşma uygulamasının önizleme botu bağlantıyı açarsa ne olur?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Alıcı bağlantıyı hiç açmazsa ne olur?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Gönderdikten sonra bağlantıyı iptal edebilir miyim?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Kaydolmam gerekiyor mu?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Sık sorulan sorular"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Sırrınız doğrudan tarayıcınızda şifrelenir. Alıcı bağlantıyı bir kez açar, ardından veriler sunucudan silinir."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Kayıt gerekmez"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Cihazınızda AES-256 şifreleme"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Açık kaynak"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Parolaları tek kullanımlık bağlantılarla güvenle paylaşın"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Bir parola, API anahtarı, giriş bilgileri veya dosya. Her şey gönderilmeden önce tarayıcınızda şifrelenir."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Sırrınızı yapıştırın"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram, WhatsApp, Signal, Slack, e-posta veya başka bir mesajlaşma uygulamasıyla gönderin. Sohbette parolanın kendisi değil, yalnızca bağlantı kalır."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Bağlantıyı gönderin"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Görüntülendikten sonra veriler sunucudan silinir. Bağlantı ikinci kez açılamaz."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Bağlantı tükenir"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Nasıl çalışır"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Parolaları, özel mesajları, API anahtarlarını ve dosyaları şifreli tek kullanımlık bağlantılarla gönderin. Sırlar görüntülendikten sonra silinir. Ücretsiz, açık kaynaklı ve kayıtsız."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Tek Kullanımlık Gizli Bağlantılar — Parolaları Güvenle Paylaşın | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Parolaları ve hesap bilgilerini sohbet geçmişinde bırakmadan paylaşın."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Parolalar ve giriş bilgileri"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Yalnızca bir kez açılabilen hassas mesajlar gönderin."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Özel mesajlar"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "API anahtarlarını, erişim belirteçlerini ve yapılandırma dosyalarını ekibinizle güvenle paylaşın."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API anahtarları ve kimlik bilgileri"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Özel belgeleri ve {{.MaxFileSize}} boyutuna kadar dosyaları şifreli tek kullanımlık bağlantılarla paylaşın."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Gizli dosyalar"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Kendini silen mesajları, parolaları, API anahtarlarını ve özel dosyaları güvenle gönderin. Her sır tarayıcınızda şifrelenir ve görüntülendikten sonra sunucudan silinir."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Tek kullanımlık bağlantıyla neler paylaşabilirsiniz?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Sizde kalır.</strong> Şifre çözme anahtarı. Tarayıcılar # işaretinden sonrasını sunucuya asla göndermez."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Sunucuya gider.</strong> Şifreli verilerin adresi: Anahtar olmadan bunlar rastgele baytlardan ibarettir."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Tarayıcının yerleşik Web Crypto API’si ve AES-256-GCM. Üçüncü taraf kitaplık yok."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Tarayıcıda şifrelenir"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Tüm kod <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub’da</a> yayımlanmıştır. Herkes şifrelemenin nasıl çalıştığını inceleyebilir."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Açık kaynak"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Kayıt, üçüncü taraf betik veya izleyici yok. Bu yüzden çerez bildirimi de yok."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Gereksiz hiçbir şey yok"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Şifre çözme anahtarı bağlantının içinde, # işaretinden sonradır. Tarayıcılar adresin bu kısmını sunucuya asla göndermez; dolayısıyla onu yalnızca siz ve alıcı görebilirsiniz."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Nasıl çalıştığı hakkında daha fazla bilgi"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Sırrınızı neden okuyamıyoruz?"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Sır paylaş"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "GitHub’daki kod"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Açık kaynak"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.One’ın tüm kodu GitHub’da. Herkes şifrelemenin nasıl çalıştığını görebilir ve anahtarın sunucuya hiç gitmediğini doğrulayabilir."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Kendiniz kontrol edin"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Veri akışı"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Sır gönderilmeden önce şifrelenir ve yalnızca alıcı tarafından çözülür. Arada veriler her zaman şifreli kalır."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Şifreli verileri indirir, anahtarı bağlantıdan alır ve sırrı yerel olarak çözer. Sunucu hemen ardından verileri siler."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Alıcının tarayıcısı"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Rastgele bir anahtar oluşturur ve tarayıcının yerleşik Web Crypto API’siyle metni ve dosyayı AES-256-GCM kullanarak şifreler."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Göndericinin tarayıcısı"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Yalnızca şifreli baytları alır ve saklar. Anahtar olmadan ne biz ne de sunucuya erişen başka biri bunları okuyabilir."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One sunucusu"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Sunucu yalnızca şifreli verileri görür"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One sırrınızı doğrudan tarayıcınızda şifreler. Sunucuya yalnızca şifreli veriler gider; anahtar bağlantıda kalır ve göndericinin ve alıcının cihazlarından hiç ayrılmaz."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Nasıl çalışır ve neden güvenlidir?"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Bağlantının içinde"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Bir bağlantının iki bölümü vardır. İlki şifreli verilerin saklandığı yeri gösterir. # işaretinden sonraki ikincisi ise şifre çözme anahtarıdır."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Tam bağlantıya sahip olan herkes sırrı açabilir. Bağlantıyı yalnızca alıcıya gönderin ve hassas veriler için parola ekleyin."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Tam bağlantı erişim sağlar"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Tarayıcılar # işaretinden sonraki kısmı isteklere eklemez. Bu nedenle anahtar ne sunucu günlüklerinde ne de ağdaki ara noktalarda bulunur."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Sunucuya asla gönderilmez"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Anahtar cihazınızda rastgele oluşturulur. Kaba kuvvetle tahmin edilemez."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Her bağlantı için yeni"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Anahtar # işaretinden sonradır"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.One sırları tarayıcınızda nasıl şifreler: AES-256-GCM, bağlantıda # sonrası anahtar, sunucunun sakladıkları, verilerin silinmesi ve parola koruması."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Encrypt.One Nasıl Çalışır: Uçtan Uca Şifreli Sır Paylaşımı"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Parola oluşturucuyu aç"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Açma parolası"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Parola, bağlantı ele geçirilse bile sırrı korur. Parola olmadan alıcı yalnızca giriş alanını görür."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Üç yanlış denemeden sonra sır silinir. Parola kaba kuvvetle tahmin edilemez."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Üç deneme"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Formda «Öner» düğmesine basın veya parola oluşturucudan bir ifade alın: sesli okumak kolaydır."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Kendiniz uydurmayın"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Parolayı sesli olarak, başka bir mesajlaşma uygulamasından veya yüz yüze iletin. Böylece tek bir mesajın ele geçirilmesi hiçbir şey açığa çıkarmaz."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Ayrı paylaşın"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Hassas veriler için ikinci kilit"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Açma parolası üç kez yanlış girilirse sır kalıcı olarak silinir."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Üç yanlış paroladan sonra"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Bağlantı sayfasındaki «Şimdi yok et» düğmesi sırrı hemen siler."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Siz istediğinizde"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Bağlantı seçtiğiniz saklama süresi içinde açılmazsa sır kendiliğinden silinir."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Süre dolduğunda"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Alıcı sırrı açar açmaz veriler silinir. Bağlantı ikinci kez çalışmaz."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Açıldıktan sonra"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Yanlış parola denemelerinin sayacı"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Şifreli metin ve dosya"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Sunucuda saklanır"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Seçtiğiniz saklama süresi"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Saklama"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Sunucu sırrı, alıcının açması için gereken süre boyunca saklar."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Bağlantıdaki şifre çözme anahtarı"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Açma parolası"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Sırrın açık metin hâli"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Sunucuya asla ulaşmaz"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Sunucu neyi saklar ve ne zaman siler?"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Parola oluşturucu"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Ana sayfaya git"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.One üzerinde böyle bir sayfa yok."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Sayfa bulunamadı — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adres yanlış yazılmış veya sayfa taşınmış olabilir. Tek kullanımlık bir bağlantı açıyorsanız tamamının kopyalandığından emin olun."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Sayfa bulunamadı"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Bu politika değişirse yeni sürümü bu sayfada yayımlar ve üstteki tarihi güncelleriz.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Politika değişiklikleri"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Gizlilikle ilgili sorularınızı <a href=\"https://github.com/Draal/secure-share/issues\">GitHub sorun bildirimlerinde</a> sorun.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Sorular"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>alıcı sırrı açtıktan hemen sonra;</li><li>bağlantı sayfasında «Şimdi yok et» düğmesine bastığınızda;</li><li>üçüncü yanlış paroladan sonra;</li><li>bir saat ile yedi gün arasındaki seçilen süre dolduğunda. Süresi dolan sır hemen erişilemez olur ve verileri günlük temizlik sırasında silinir.</li></ul><p>Silinen bir sır kurtarılamaz. Bağlantı önizlemesi oluşturan mesajlaşma botları sırrı tüketmez: Veriler yalnızca «Sırrı göster» düğmesine basıldıktan sonra sunulur.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Veriler ne zaman silinir?"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Parolalar, parola ifadeleri ve PIN’ler tarayıcınızda kriptografik bir rastgele sayı üreteciyle oluşturulur ve sunucuya hiç gönderilmez.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Parola oluşturucu"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One, bir sırrı yalnızca alıcının okuyabilmesi için tasarlanmıştır; biz bile okuyamayız. Hizmetten hangi verilerin geçtiği ve bunlara ne olduğu aşağıda açıklanır."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Uygulama sunucusu yalnızca API isteklerini günlüğe kaydeder: istek türü, sonuç ve işlem süresi. IP adresleri, sır kimlikleri, belirteçler, sayfa adresleri ve istek içerikleri kaydedilmez.</p><p>Hizmeti kaba kuvvet saldırılarından ve kötüye kullanımdan korumak için sunucu, IP adresi başına istek hızını sınırlar. Adres yalnızca bellekte kullanılır ve saklanmaz.</p><p>Uygulamanın önündeki web sunucusu standart bir erişim günlüğü tutabilir: IP adresi, zaman ve sayfa adresinin # sonrasını içermeyen kısmı. Bu günlükler yalnızca saldırılardan korunmak için kullanılır ve sınırlı süre saklanır.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Teknik günlükler"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One gizlilik politikası: hizmetin hangi verileri aldığı, ne kadar süre sakladığı ve sırlarınızı neden okuyamadığı."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Gizlilik Politikası — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Parolanın kendisi tarayıcınızdan asla ayrılmaz. Tarayıcı, parola ve bağlantı anahtarından iki bağımsız değer türetir: şifreleme anahtarı ve doğrulama özeti (600.000 yinelemeli PBKDF2, ardından HKDF). Sunucuya yalnızca özet gönderilir. Sunucu bunu parolayı doğrulamak için kullanır ancak ne parolayı ne de anahtarı öğrenebilir.</p><p>Üç yanlış denemeden sonra sır silinir. Deneme sayacı sunucu belleğinde tutulur ve ziyaretçiye değil, sırra bağlıdır.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Açma parolası"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Bir sırrı kimin oluşturduğunu veya açtığını bilmeyiz: Hizmet verileri kişilerle, hesaplarla veya IP adresleriyle ilişkilendirmez. Bu nedenle belirli bir kişinin verilerini bulamaz, teslim edemez veya silemeyiz. Sırrınızı süresi dolmadan silmek için bağlantı sayfasını açıp «Şimdi yok et» düğmesine basın.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Haklarınız"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Metin ve ekli dosya gönderilmeden önce tarayıcınızda yerleşik Web Crypto API üzerinden AES-256-GCM ile şifrelenir. Dosya adı ve türü de içerikle birlikte şifrelenir.</p><p>Sunucuda yalnızca şunlar saklanır:</p><ul><li>şifreli veriler;</li><li>son kullanma zamanı;</li><li>dosya eklenip eklenmediği;</li><li>açma parolası belirlediyseniz parola doğrulama özeti.</li></ul><p>Şifre çözme anahtarı, bağlantının # işaretinden sonraki kısmıdır. Tarayıcılar bu kısmı sunucuya asla göndermez; dolayısıyla ne biz ne de sunucuya erişen biri verileri çözebilir. Aynı nedenle bağlantı kaybolursa sırrı kurtaramayız.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Sırlar ve dosyalar"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One, parolaları, anahtarları ve dosyaları tek kullanımlık bağlantılarla paylaşmak için ücretsiz bir hizmettir. Kayıt gerekmez. Hizmet <a href=\"https://final-level.com/\">FINAL LEVEL</a> tarafından geliştirilir ve işletilir.</p><p>Bağlantıyı istediğiniz şekilde kendiniz gönderirsiniz. Mesajlaşma, e-posta veya SMS ele geçirilebilir ve bağlantıyı ilk açan kişi sırrı alır. Önemli veriler için bir açma parolası belirleyin ve başka bir kanaldan paylaşın.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Hizmet nasıl çalışır?"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Sırrınız tarayıcınızda şifrelenir. Sunucu yalnızca şifreli verileri alır ve okuyamaz.</li><li>Şifre çözme anahtarı bağlantıda # işaretinden sonra bulunur ve sunucuya asla gönderilmez.</li><li>Kayıt, reklam, analiz veya üçüncü taraf betik yoktur.</li><li>Sır açılır açılmaz veya seçilen süre dolduğunda silinir.</li><li>Uygulama sunucusu IP adreslerini veya sır kimliklerini günlüğe kaydetmez.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Kısaca"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Kaynak kodu <a href=\"https://github.com/Draal/secure-share\">GitHub’da</a> açıktır: şifrelemenin nasıl çalıştığını inceleyebilir veya kendi kopyanızı çalıştırabilirsiniz.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Açık kaynak"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Reklam veya analiz çerezleri kullanmıyoruz. Site tarayıcınızda yalnızca çalışması için gerekenleri saklar:</p><ul><li><code>lang</code> çerezi — seçiciden belirlediyseniz diliniz;</li><li>localStorage içinde renk teması, dil bildirimini kapattığınıza dair işaret ve bu tarayıcıdan yok edilen bağlantıların işaretleri;</li><li>sessionStorage içinde oluşturucudaki parola, ana sayfadaki forma aktarılırken saklanır. Yerleştirildikten hemen sonra silinir.</li></ul><p>Bunlardan yalnızca dil çerezi sunucuya ulaşır; sunucu bunu sayfa sürümünü seçmek için kullanır. Tümünü tarayıcı ayarlarınızdan silebilirsiniz.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Çerezler ve tarayıcı depolaması"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Site üçüncü taraf betik, yazı tipi, sayaç veya reklam yüklemez: Yazı tipleri dâhil her şey kendi sunucumuzdan sunulur. Verileri üçüncü taraflara satmayız veya aktarmayız.</p><p>Telegram, WhatsApp ve e-posta ile gönderme düğmeleri ile sponsor sitelerine bağlantılar normal bağlantılardır. Harici hizmet yalnızca tıkladığınızda veri alır ve sonrasında kendi politikası geçerli olur.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Üçüncü taraf hizmetleri"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Gizlilik politikası"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Son güncelleme: 25 Ekim 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Bağlantı bozuk veya eksik kopyalanmış. Göndericiden yeniden göndermesini isteyin."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Veriler ulaştı ancak şifreleri çözülemedi: bağlantı bozuk. Sır sunucudan zaten silindi; göndericiden yenisini oluşturmasını isteyin."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Sunucuya ulaşılamadı. Bağlantınızı kontrol edip tekrar deneyin."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Çok fazla deneme. Bir dakika bekleyip tekrar deneyin."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Sır açılamadı"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Kendi bağlantınızı oluşturun"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Tek kullanımlık bağlantılar nasıl çalışır?"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Sır zaten açılmış veya süresi dolmuş. Bağlantı yeniden açılamaz."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Göndericiden yeni bir bağlantı oluşturmasını isteyin. Bu bağlantıyı açmadıysanız kendisine bildirin: başka biri görmüş olabilir."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Bu sır artık kullanılamıyor"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Yalnızca bir kez görüntülenebilir. Hemen ardından sunucudan silinecektir."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Bu sır parolayla korunuyor. Yalnızca bir kez görüntülenebilir, ardından sunucudan silinir."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Birisi size bir sır gönderdi"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Tek kullanımlık bir Encrypt.One bağlantısı. Sır bir kez açılabilir, ardından sunucudan silinir."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Birisi size bir sır gönderdi — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Parolayı girin."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Gönderici parolayı ayrı olarak iletmiş olmalı. Üç yanlış denemeden sonra sır silinir."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Açma parolası"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Aç"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Kendi sırrınızı paylaşın"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Kendi tek kullanımlık bağlantınızı oluşturun. Kayıt gerekmez."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Sizin de parola paylaşmanız mı gerekiyor?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Sırrı göster"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Sunucudan silindi"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "İndir"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Daha sonra gerekecekse kaydedin: Bu sayfayı kapattıktan sonra sırrı yeniden açamazsınız."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Sır metni"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Sırrınız"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Açılıyor…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One nedir?"
+  }
+]

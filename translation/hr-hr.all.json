@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Zahtjev nije moguće obraditi. Osvježite stranicu i pokušajte ponovno."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Ova poveznica ne dopušta uništavanje tajne."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Tajna nije pronađena: već je otvorena, uništena ili je istekla."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Za otvaranje ove tajne potrebna je lozinka."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Previše zahtjeva. Pričekajte minutu i pokušajte ponovno."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Nešto je pošlo po zlu s naše strane. Pokušajte ponovno za minutu."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Datoteka je prevelika. Ograničenje je {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Lozinka je triput pogrešno unesena pa je tajna izbrisana."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Pogrešna lozinka. Preostali pokušaji: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Zatvori"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Kopirano"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopiraj"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Poveznice"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privatnost"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekt"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Česta pitanja"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Vodiči"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Kako funkcionira"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Sigurnost"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Resursi"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Pošalji datoteku"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Generator lozinki"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Podijeli tajnu"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Usluga"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Jednokratne poveznice za dijeljenje lozinki i datoteka. Šifrirano u vašem pregledniku."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Izvorni kod na GitHubu"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Hrvatski"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "HR"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Jezik stranice: hrvatski"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Početna stranica Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: podijelite lozinku jednokratnom poveznicom"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Česta pitanja"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Generator lozinki"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Kako funkcionira"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Glavna navigacija"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Prijeđi na sadržaj"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Vrijeme, kalendari i blagdani za svaki grad"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Besplatne igre izravno u pregledniku"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tisuće radijskih postaja iz cijelog svijeta"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One je besplatan zahvaljujući našim sponzorima"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tamna"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Svijetla"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sustav"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Pošaljite je primatelju. Tajna se može otvoriti samo jednom."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Vaša poveznica je spremna"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Nabavi još jednu poveznicu"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Za istu tajnu, zasebna poveznica za svakog primatelja. Trenutačna poveznica nastavit će raditi, ali je odavde više nećete moći uništiti."
+  },
+  {
+    "id": "created.back",
+    "translation": "Nova tajna"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Uništi sada"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Uništiti tajnu? Poveznica će odmah prestati raditi."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Tajnu nije moguće uništiti. Pokušajte ponovno."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Poslali ste je pogrešnoj osobi? Uništite tajnu i poveznica će odmah prestati raditi."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Uništili ste tajnu. Podaci su izbrisani s poslužitelja i poveznica više ne radi."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Tajna je uništena"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Nitko nije otvorio poveznicu na vrijeme. Podaci su izbrisani s poslužitelja i poveznica više ne radi."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Poveznica je istekla"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopiraj poveznicu"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Jednokratna poveznica"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Ova poveznica više ne radi"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Poveznica se prikazuje samo u kartici u kojoj je stvorena. Tajnu i dalje možete uništiti odavde."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Stranica pošiljatelja jednokratne poveznice Encrypt.One: podijelite poveznicu ili uništite tajnu."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Vaša poveznica je spremna — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Stvori novu poveznicu"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR kod jednokratne poveznice"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Usmjerite kameru telefona prema kodu da otvorite poveznicu. Ne pokazujte kod drugima: otvara tajnu jednako kao i poveznica."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "QR kod poveznice"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Pošalji putem"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-pošta"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR kod"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Tajna za vas"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Jednokratna poveznica na tajnu:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Vrijedi do"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Savjet:</strong> za osobito osjetljive podatke dodajte lozinku poveznici i prenesite je drugim putem, primjerice glasom. Tako presretanje jedne poruke neće ništa otkriti."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Priloži datoteku"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Otpustite za prilaganje datoteke"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Datoteku možete povući izravno u polje."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Do {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Ovaj preglednik ne podržava šifriranje. Ažurirajte ga ili otvorite stranicu u drugom pregledniku."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Zalijepite tekst ili priložite datoteku."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Datoteka je prevelika. Ograničenje je {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Nije se moguće povezati s poslužiteljem. Provjerite vezu i pokušajte ponovno."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Unesite lozinku za otvaranje ili isključite zaštitu lozinkom."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "šifrirat će se zajedno s tekstom"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Ukloni datoteku"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Generiraj lozinku"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Umetni u polje tajne"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Predloži"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Bez ove lozinke tajna se neće otvoriti čak ni ako se poveznica presretne. Prenesite je primatelju zasebno, primjerice glasom ili drugom aplikacijom za poruke."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Lozinka za otvaranje"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Na primjer maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Zaštiti lozinkom"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Što želite podijeliti?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Lozinka, API ključ, podaci za prijavu…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Postavke poveznice"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Stvori jednokratnu poveznicu"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Šifriranje…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 dan"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 sat"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 dana"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 dana"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Istječe za"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Vrijeme pohrane"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Besplatan generator snažnih lozinki, pristupnih fraza i PIN-ova koji se stvaraju u pregledniku i nikamo ne šalju. Podijelite rezultat jednokratnom poveznicom."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Generator snažnih lozinki — besplatan i privatan | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Znamenke (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Duljina"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Mala slova (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Bez sličnih znakova (0 i O, l i 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Znakovi"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Simboli (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Velika slova (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Frazu od nasumičnih riječi lako je izgovoriti i zapamtiti, ali ju je teško pogoditi kao dugu lozinku. Riječi dolaze s otvorenog popisa EFF-a."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Broj riječi"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Broj znamenki"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Generiraj ponovno"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Pošalji jednokratnom poveznicom"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Rezultat ide izravno u obrazac, a dobit ćete poveznicu koja se otvara samo jednom."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Trebate podijeliti ovu lozinku?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropija ≈ {bits} bitova"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Srednja"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Prikladna samo kao PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Snažna"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Vrlo snažna"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Slaba"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Vrsta lozinke"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Lozinka"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Pristupna fraza"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Najmanje 14–16 znakova. Duljina štiti bolje od zamjene slova simbolima."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Duga"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Ne morate pamtiti složene lozinke: za to postoji upravitelj lozinki."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Spremljena u upravitelju lozinki"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Što lozinku čini snažnom"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Jedna za svaku uslugu. Tako curenje jedne lozinke neće otvoriti vaše druge račune."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Jedinstvena"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Generator lozinki"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Ne. Tajna se šifrira u vašem pregledniku prije slanja. Ključ je u poveznici nakon znaka #, a taj dio adrese nikada ne dolazi do poslužitelja."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Ništa se ne događa. Tajna se prikazuje tek nakon klika na „Prikaži tajnu”, a botovi za pregled ne klikaju gumbe."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Tajna se automatski briše nakon isteka odabranog vremena pohrane."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Da. Na stranici poveznice nalazi se gumb „Uništi sada”. Nakon toga poveznica prestaje raditi."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Ne. Ni pošiljatelj ni primatelj ne trebaju račun."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Niste pronašli odgovor? Otvorite prijavu na GitHubu."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Možete li pročitati moju tajnu?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Što ako bot za pregled aplikacije za poruke otvori poveznicu?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Što ako primatelj nikada ne otvori poveznicu?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Mogu li opozvati poveznicu nakon slanja?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Moram li se registrirati?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Česta pitanja"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Vaša tajna šifrira se izravno u pregledniku. Primatelj otvara poveznicu jednom, a zatim se podaci brišu s poslužitelja."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Bez registracije"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 šifriranje na vašem uređaju"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Otvoreni kod"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Sigurno dijelite lozinke jednokratnim poveznicama"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Lozinka, API ključ, podaci za prijavu ili datoteka. Sve se šifrira u pregledniku prije slanja."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Zalijepite svoju tajnu"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Putem Telegrama, WhatsAppa, Signala, Slacka, e-pošte ili druge aplikacije za poruke. U razgovoru ostaje samo poveznica, a ne sama lozinka."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Pošaljite poveznicu"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Nakon pregleda podaci se brišu s poslužitelja. Poveznica se ne može otvoriti drugi put."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Poveznica se potroši"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Kako funkcionira"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Šaljite lozinke, privatne poruke, API ključeve i datoteke šifriranim jednokratnim poveznicama. Tajne se brišu nakon pregleda. Besplatno, otvoreni kod, bez registracije."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Jednokratne poveznice za tajne — sigurno dijelite lozinke | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Dijelite lozinke i podatke za prijavu bez ostavljanja u povijesti razgovora."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Lozinke i podaci za prijavu"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Šaljite osjetljive poruke koje se mogu otvoriti samo jednom."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Privatne poruke"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Sigurno dijelite API ključeve, pristupne tokene i konfiguracijske datoteke s timom."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API ključevi i pristupni podaci"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Dijelite privatne dokumente i datoteke do {{.MaxFileSize}} šifriranim jednokratnim poveznicama."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Povjerljive datoteke"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Sigurno šaljite samouništavajuće poruke, lozinke, API ključeve i privatne datoteke. Svaka tajna šifrira se u pregledniku i briše s poslužitelja nakon pregleda."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Što možete podijeliti jednokratnom poveznicom?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Ostaje kod vas.</strong> Ključ za dešifriranje. Preglednici nikada ne šalju poslužitelju dio nakon #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Odlazi na poslužitelj.</strong> Adresa šifriranih podataka: bez ključa to su samo nasumični bajtovi."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Ugrađeni Web Crypto API preglednika i AES-256-GCM. Bez biblioteka trećih strana."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Šifrirano u pregledniku"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Sav kod objavljen je na <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHubu</a>. Svatko može provjeriti kako šifriranje funkcionira."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Otvoreni kod"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Bez registracije, skripti trećih strana i alata za praćenje. Zato nema ni bannera za kolačiće."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Ništa suvišno"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Ključ za dešifriranje nalazi se u poveznici nakon znaka #. Preglednici nikada ne šalju taj dio adrese poslužitelju, pa ga možete vidjeti samo vi i primatelj."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Više o načinu rada"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Zašto ne možemo pročitati vašu tajnu"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Podijeli tajnu"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kod na GitHubu"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Otvoreni kod"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Sav kod Encrypt.Onea nalazi se na GitHubu. Svatko može vidjeti kako šifriranje funkcionira i provjeriti da ključ nikada ne odlazi na poslužitelj."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Provjerite sami"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Tok podataka"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Tajna se šifrira prije slanja, a dešifrira je samo primatelj. U međuvremenu podaci ostaju šifrirani."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Preuzima šifrirane podatke, uzima ključ iz poveznice i dešifrira tajnu lokalno. Poslužitelj odmah zatim briše podatke."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Preglednik primatelja"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Stvara nasumični ključ i šifrira tekst i datoteku pomoću AES-256-GCM i Web Crypto API-ja ugrađenog u preglednik."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Preglednik pošiljatelja"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Prima i pohranjuje samo šifrirane bajtove. Bez ključa ih nitko ne može pročitati — ni mi ni bilo tko s pristupom poslužitelju."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Poslužitelj Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Poslužitelj vidi samo šifrirane podatke"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One šifrira vašu tajnu izravno u pregledniku. Na poslužitelj odlaze samo šifrirani podaci, dok ključ ostaje u poveznici i nikada ne napušta uređaje pošiljatelja i primatelja."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Kako funkcionira i zašto je sigurno"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Unutar poveznice"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Poveznica ima dva dijela. Prvi pokazuje gdje su pohranjeni šifrirani podaci. Drugi, nakon #, ključ je za dešifriranje."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Svatko tko ima cijelu poveznicu može otvoriti tajnu. Pošaljite je samo primatelju i dodajte lozinku za osjetljive podatke."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Cijela poveznica daje pristup"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Preglednici ne uključuju dio nakon # u zahtjeve. Ključ zato nije u zapisima poslužitelja ni na međutočkama mreže."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Nikada se ne šalje poslužitelju"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Ključ se nasumično generira na vašem uređaju. Ne može se pogoditi grubom silom."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Novi za svaku poveznicu"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Ključ je nakon #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Kako Encrypt.One šifrira tajne u pregledniku: AES-256-GCM, ključ nakon #, pohrana, brisanje podataka i zaštita lozinkom."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Kako radi Encrypt.One: dijeljenje tajni uz šifriranje od kraja do kraja"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Otvori generator lozinki"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Lozinka za otvaranje"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Lozinka štiti tajnu čak i ako se poveznica presretne. Bez nje primatelj vidi samo polje za unos."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Nakon tri pogrešna pokušaja tajna se briše. Lozinka se ne može pogoditi grubom silom."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tri pokušaja"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Kliknite „Predloži” u obrascu ili odaberite frazu iz generatora lozinki: lako ju je pročitati naglas."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Nemojte je sami smišljati"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Prenesite lozinku drugim putem: glasom, drugom aplikacijom za poruke ili osobno. Tako presretanje jedne poruke neće ništa otkriti."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Prenesite je zasebno"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Druga brava za osjetljive podatke"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Ako se lozinka za otvaranje triput pogrešno unese, tajna se trajno briše."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Nakon tri pogrešne lozinke"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Gumb „Uništi sada” na stranici poveznice odmah briše tajnu."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Na vaš zahtjev"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Ako se poveznica ne otvori unutar odabranog vremena pohrane, tajna se automatski briše."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Po isteku"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Čim primatelj otvori tajnu, podaci se brišu. Poveznica neće raditi drugi put."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Nakon otvaranja"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Brojač pogrešnih pokušaja unosa lozinke"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Šifrirani tekst i datoteka"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Pohranjeno na poslužitelju"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Odabrano vrijeme pohrane"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Pohrana"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Poslužitelj čuva tajnu točno onoliko koliko je primatelju potrebno da je otvori."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Ključ za dešifriranje iz poveznice"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Lozinka za otvaranje"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Sadržaj tajne u otvorenom obliku"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Nikada ne dolazi do poslužitelja"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Što poslužitelj pohranjuje i kada briše"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Generator lozinki"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Na početnu stranicu"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Takva stranica ne postoji na Encrypt.Oneu."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Stranica nije pronađena — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adresa je možda pogrešno upisana ili je stranica premještena. Ako ste otvarali jednokratnu poveznicu, provjerite je li kopirana u cijelosti."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Stranica nije pronađena"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Ako se ova pravila promijene, objavit ćemo novu verziju na ovoj stranici i ažurirati datum na vrhu.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Promjene pravila"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Pitanja o privatnosti postavite u <a href=\"https://github.com/Draal/secure-share/issues\">prijavama na GitHubu</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Pitanja"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>odmah nakon što primatelj otvori tajnu;</li><li>kada pritisnete „Uništi sada” na stranici poveznice;</li><li>nakon treće pogrešne lozinke;</li><li>nakon isteka odabranog razdoblja od jednog sata do sedam dana. Istekla tajna odmah prestaje biti dostupna, a njezini se podaci brišu tijekom svakodnevnog čišćenja.</li></ul><p>Izbrisanu tajnu nije moguće vratiti. Botovi aplikacija za poruke koji izrađuju preglede poveznica ne troše tajnu: podaci se daju tek nakon pritiska na „Prikaži tajnu”.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Kada se podaci brišu"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Lozinke, pristupne fraze i PIN-ovi stvaraju se u pregledniku kriptografskim generatorom slučajnih brojeva i nikada se ne šalju poslužitelju.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Generator lozinki"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One stvoren je tako da samo primatelj može pročitati tajnu — čak ni mi ne možemo. U nastavku su podaci koji prolaze kroz uslugu i što se s njima događa."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Poslužitelj aplikacije bilježi samo API zahtjeve: vrstu zahtjeva, rezultat i vrijeme obrade. IP adrese, identifikatori tajni, tokeni, adrese stranica i sadržaj zahtjeva ne bilježe se.</p><p>Radi zaštite usluge od napada grubom silom i zlouporabe, poslužitelj ograničava učestalost zahtjeva po IP adresi. Adresa se koristi samo u memoriji i ne pohranjuje se.</p><p>Web-poslužitelj ispred aplikacije može voditi standardni zapis pristupa: IP adresu, vrijeme i adresu stranice bez dijela nakon #. Takvi zapisi služe samo za zaštitu od napada i čuvaju se ograničeno vrijeme.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Tehnički zapisi"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Pravila privatnosti Encrypt.Onea: koje podatke usluga prima, koliko ih čuva i zašto ne može pročitati vaše tajne."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Pravila privatnosti — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Sama lozinka nikada ne napušta preglednik. Iz lozinke i ključa poveznice preglednik izvodi dvije neovisne vrijednosti: ključ za šifriranje i kontrolni sažetak (PBKDF2 sa 600.000 iteracija, zatim HKDF). Poslužitelju se šalje samo sažetak. Poslužitelj ga koristi za provjeru lozinke, ali ne može saznati lozinku ni ključ.</p><p>Nakon tri pogrešna pokušaja tajna se briše. Brojač pokušaja čuva se u memoriji poslužitelja i vezan je uz tajnu, a ne uz posjetitelja.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Lozinka za otvaranje"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Ne znamo tko je stvorio ili otvorio tajnu: usluga ne povezuje podatke s ljudima, računima ili IP adresama. Zato ne možemo pronaći, predati ili izbrisati podatke određene osobe. Za brisanje tajne prije isteka otvorite stranicu poveznice i pritisnite „Uništi sada”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Vaša prava"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Tekst i priložena datoteka šifriraju se u pregledniku algoritmom AES-256-GCM putem ugrađenog Web Crypto API-ja prije slanja. Naziv i vrsta datoteke šifriraju se zajedno sa sadržajem.</p><p>Na poslužitelju se čuvaju samo:</p><ul><li>šifrirani podaci;</li><li>vrijeme isteka;</li><li>podatak je li datoteka priložena;</li><li>kontrolni sažetak lozinke, ako ste postavili lozinku za otvaranje.</li></ul><p>Ključ za dešifriranje dio je poveznice nakon znaka #. Preglednici taj dio nikada ne šalju poslužitelju, pa ni mi ni osoba s pristupom poslužitelju ne možemo dešifrirati podatke. Iz istog razloga ne možemo vratiti tajnu ako se poveznica izgubi.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Tajne i datoteke"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One besplatna je usluga za dijeljenje lozinki, ključeva i datoteka jednokratnim poveznicama. Registracija nije potrebna. Uslugu razvija i održava <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Poveznicu sami šaljete na željeni način. Poruka putem aplikacije, e-pošte ili SMS-a može se presresti i tada tajnu dobiva onaj tko prvi otvori poveznicu. Za važne podatke postavite lozinku za otvaranje i prenesite je drugim kanalom.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Kako usluga radi"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Tajna se šifrira u vašem pregledniku. Poslužitelj prima samo šifrirane podatke i ne može ih pročitati.</li><li>Ključ za dešifriranje nalazi se u poveznici nakon znaka # i nikada se ne šalje poslužitelju.</li><li>Bez registracije, oglasa, analitike i skripti trećih strana.</li><li>Tajna se briše odmah nakon otvaranja ili po isteku odabranog razdoblja.</li><li>Poslužitelj aplikacije ne bilježi IP adrese ni identifikatore tajni.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Ukratko"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Izvorni kod otvoren je na <a href=\"https://github.com/Draal/secure-share\">GitHubu</a>: možete provjeriti šifriranje ili pokrenuti vlastitu kopiju.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Otvoreni kod"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Ne koristimo oglašivačke ni analitičke kolačiće. Stranica u pregledniku čuva samo ono što je potrebno za rad:</p><ul><li>kolačić <code>lang</code> — vaš jezik, ako ste ga odabrali u izborniku;</li><li>u localStorageu — temu boja, oznaku da ste zatvorili obavijest o jeziku i oznake poveznica uništenih iz ovog preglednika;</li><li>u sessionStorageu — lozinku iz generatora tijekom prijenosa u obrazac na početnoj stranici. Uklanja se odmah nakon umetanja.</li></ul><p>Od toga samo jezični kolačić dolazi do poslužitelja, koji ga koristi za odabir verzije stranice. Sve možete izbrisati u postavkama preglednika.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Kolačići i pohrana preglednika"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Stranica ne učitava skripte, fontove, brojače ni oglase trećih strana: sve, uključujući fontove, isporučuje se s našeg poslužitelja. Ne prodajemo niti dijelimo podatke s trećim stranama.</p><p>Gumbi za slanje putem Telegrama, WhatsAppa i e-pošte te poveznice na stranice sponzora obične su poveznice. Vanjska usluga dobiva podatke tek kada kliknete, a zatim vrijede njezina pravila.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Usluge trećih strana"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Pravila privatnosti"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Zadnje ažuriranje: 25. listopada 2026."
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Poveznica je oštećena ili nije kopirana u cijelosti. Zamolite pošiljatelja da je ponovno pošalje."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Podaci su stigli, ali ih nije bilo moguće dešifrirati: poveznica je oštećena. Tajna je već izbrisana s poslužitelja, pa zamolite pošiljatelja da stvori novu."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Nije se moguće povezati s poslužiteljem. Provjerite vezu i pokušajte ponovno."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Previše pokušaja. Pričekajte minutu i pokušajte ponovno."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Tajnu nije moguće otvoriti"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Stvorite vlastitu poveznicu"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Kako rade jednokratne poveznice"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Već je otvorena ili je istekla. Poveznica se ne može ponovno otvoriti."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Zamolite pošiljatelja da stvori novu poveznicu. Ako ovu niste otvorili, recite mu: možda ju je vidio netko drugi."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Ova tajna više nije dostupna"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Može se pregledati samo jednom. Odmah zatim bit će izbrisana s poslužitelja."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Tajna je zaštićena lozinkom. Može se pregledati samo jednom, a zatim će biti izbrisana s poslužitelja."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Netko vam je poslao tajnu"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Jednokratna poveznica Encrypt.One. Tajna se može otvoriti jednom, a zatim se briše s poslužitelja."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Netko vam je poslao tajnu — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Unesite lozinku."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Pošiljatelj vam je trebao zasebno prenijeti lozinku. Nakon tri pogrešna pokušaja tajna se briše."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Lozinka za otvaranje"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Otvori"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Podijelite vlastitu tajnu"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Stvorite vlastitu jednokratnu poveznicu. Bez registracije."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Trebate i sami podijeliti lozinku?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Prikaži tajnu"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Izbrisano s poslužitelja"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Preuzmi"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Spremite je ako će vam trebati kasnije: nakon zatvaranja stranice tajnu nećete moći ponovno otvoriti."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Tekst tajne"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Vaša tajna"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Otvaranje…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Što je Encrypt.One?"
+  }
+]

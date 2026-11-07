@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "לא ניתן לעבד את הבקשה. יש לרענן את הדף ולנסות שוב."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "הקישור הזה אינו מאפשר להשמיד את הסוד."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "הסוד לא נמצא: הוא כבר נפתח, הושמד או שפג תוקפו."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "נדרשת סיסמה כדי לפתוח את הסוד הזה."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "יותר מדי בקשות. יש להמתין דקה ולנסות שוב."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "משהו השתבש אצלנו. יש לנסות שוב בעוד דקה."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "הקובץ גדול מדי. הגודל המרבי הוא {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "הסיסמה הוזנה באופן שגוי שלוש פעמים, ולכן הסוד נמחק."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "סיסמה שגויה. מספר הניסיונות שנותרו: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "סגירה"
+  },
+  {
+    "id": "common.copied",
+    "translation": "הועתק"
+  },
+  {
+    "id": "common.copy",
+    "translation": "העתקה"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "קישורים"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "פרטיות"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "הפרויקט"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "שאלות נפוצות"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "מדריכים"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "איך זה עובד"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "אבטחה"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "משאבים"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "שליחת קובץ"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "מחולל סיסמאות"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "שיתוף סוד"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "השירות"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "קישורים חד־פעמיים לשיתוף סיסמאות וקבצים. ההצפנה מתבצעת בדפדפן שלך."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "קוד המקור ב־GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "עברית"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "HE"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "שפת האתר: עברית"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "דף הבית של Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: שיתוף סיסמה באמצעות קישור חד־פעמי"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "שאלות נפוצות"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "מחולל סיסמאות"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "איך זה עובד"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "ניווט ראשי"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "דילוג לתוכן"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "שעה, לוחות שנה וחגים בכל עיר"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "משחקים בחינם ישירות בדפדפן"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "אלפי תחנות רדיו מכל העולם"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One זמין בחינם בזכות נותני החסות שלנו"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "כהה"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "ערכת נושא"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "בהירה"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "לפי המערכת"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "יש לשלוח אותו לנמען. אפשר לפתוח את הסוד פעם אחת בלבד."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "הקישור שלך מוכן"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "קבלת קישור נוסף"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "לאותו סוד, קישור נפרד לכל נמען. הקישור הנוכחי ימשיך לעבוד, אך לא ניתן יהיה להשמיד אותו מכאן."
+  },
+  {
+    "id": "created.back",
+    "translation": "סוד חדש"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "השמדה עכשיו"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "להשמיד את הסוד? הקישור יפסיק לעבוד מיד."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "לא ניתן להשמיד את הסוד. יש לנסות שוב."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "שלחת לאדם הלא נכון? אפשר להשמיד את הסוד והקישור יפסיק לעבוד מיד."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "הסוד הושמד. הנתונים נמחקו מהשרת והקישור כבר לא עובד."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "הסוד הושמד"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "איש לא פתח את הקישור בזמן. הנתונים נמחקו מהשרת והקישור כבר לא עובד."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "תוקף הקישור פג"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "העתקת הקישור"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "קישור חד־פעמי"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "הקישור הזה כבר לא עובד"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "הקישור מוצג רק בכרטיסייה שבה נוצר. עדיין אפשר להשמיד את הסוד מכאן."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "דף השולח של קישור חד־פעמי ב־Encrypt.One: שיתוף הקישור או השמדת הסוד."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "הקישור שלך מוכן — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "יצירת קישור חדש"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "קוד QR של הקישור החד־פעמי"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "יש לכוון את מצלמת הטלפון אל הקוד כדי לפתוח את הקישור. אין להציג את הקוד לאחרים: הוא פותח את הסוד בדיוק כמו הקישור."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "קוד QR של הקישור"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "שליחה באמצעות"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "דוא״ל"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "קוד QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "סוד בשבילך"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "קישור חד־פעמי לסוד:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "בתוקף עד"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>טיפ:</strong> למידע רגיש במיוחד, הוסיפו סיסמה לקישור ומסרו אותה בדרך אחרת, למשל בשיחה קולית. כך יירוט הודעה אחת לא יחשוף דבר."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "צירוף קובץ"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "יש לשחרר כדי לצרף את הקובץ"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "אפשר לגרור קובץ ישירות לשדה."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "עד {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "הדפדפן הזה אינו תומך בהצפנה. יש לעדכן אותו או לפתוח את האתר בדפדפן אחר."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "יש להדביק טקסט או לצרף קובץ."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "הקובץ גדול מדי. הגודל המרבי הוא {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "לא ניתן להתחבר לשרת. יש לבדוק את החיבור ולנסות שוב."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "יש להזין סיסמה לפתיחה או לבטל את ההגנה בסיסמה."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "יוצפן יחד עם הטקסט"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "הסרת הקובץ"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "יצירת סיסמה"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "הוספה לשדה הסוד"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "הצעה"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "ללא הסיסמה הסוד לא ייפתח, גם אם הקישור יורט. יש למסור אותה לנמען בנפרד, למשל בשיחה קולית או באפליקציית מסרים אחרת."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "סיסמה לפתיחה"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "למשל, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "הגנה באמצעות סיסמה"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "מה ברצונך לשתף?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "סיסמה, מפתח API, פרטי התחברות…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "הגדרות הקישור"
+  },
+  {
+    "id": "form.submit",
+    "translation": "יצירת קישור חד־פעמי"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "מתבצעת הצפנה…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "יום אחד"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "שעה אחת"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 ימים"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 ימים"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "תוקף הקישור"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "משך אחסון"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "מחולל חינמי לסיסמאות חזקות, ביטויי סיסמה וקודי PIN אקראיים שנוצרים בדפדפן ואינם נשלחים לשום מקום. אפשר לשתף את התוצאה בקישור חד־פעמי."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "מחולל סיסמאות חזקות — חינמי ופרטי | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "ספרות (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "אורך"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "אותיות קטנות (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "ללא תווים דומים (0 ו־O, l ו־1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "תווים"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "סימנים (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "אותיות גדולות (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "ביטוי המורכב ממילים אקראיות קל להקראה ולזכירה, אך קשה לנחש אותו כמו סיסמה ארוכה. המילים נלקחות מרשימת המילים הפתוחה של EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "מספר מילים"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "מספר ספרות"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "יצירה מחדש"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "שליחה כקישור חד־פעמי"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "הסיסמה תועבר ישירות לטופס ויתקבל קישור שאפשר לפתוח פעם אחת בלבד."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "רוצה לשתף את הסיסמה?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "אנטרופיה ≈ {bits} ביטים"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "סבירה"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "מתאימה לקוד PIN בלבד"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "חזקה"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "חזקה מאוד"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "חלשה"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "סוג הסיסמה"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "סיסמה"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "ביטוי סיסמה"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "לפחות 14–16 תווים. אורך מגן טוב יותר מהחלפת אותיות בסימנים."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "ארוכה"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "אין צורך לזכור סיסמאות מורכבות: אפשר להשתמש במנהל סיסמאות."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "שמורה במנהל סיסמאות"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "מה הופך סיסמה לחזקה"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "סיסמה נפרדת לכל שירות. כך דליפה של סיסמה אחת לא תאפשר גישה לחשבונות האחרים."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "ייחודית"
+  },
+  {
+    "id": "generator.title",
+    "translation": "מחולל סיסמאות"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "לא. הסוד מוצפן בדפדפן שלך לפני השליחה. המפתח נמצא בקישור אחרי הסימן #, והחלק הזה של הכתובת אינו מגיע לשרת."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "לא קורה דבר. הסוד מופיע רק לאחר לחיצה על ״הצגת הסוד״, ובוטים של תצוגה מקדימה אינם לוחצים על כפתורים."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "הסוד נמחק מעצמו כאשר תקופת האחסון שבחרת מסתיימת."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "כן. בדף הקישור יש כפתור ״השמדה עכשיו״. לאחר מכן הקישור מפסיק לעבוד."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "לא. לא השולח ולא הנמען זקוקים לחשבון."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "לא מצאת תשובה? אפשר לפתוח דיווח ב־GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "האם אתם יכולים לקרוא את הסוד שלי?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "מה קורה אם בוט תצוגה מקדימה של אפליקציית מסרים פותח את הקישור?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "מה קורה אם הנמען לא פותח את הקישור?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "אפשר לבטל קישור אחרי השליחה?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "צריך להירשם?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "שאלות נפוצות"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "הסוד שלך מוצפן ישירות בדפדפן. הנמען פותח את הקישור פעם אחת, ואז הנתונים נמחקים מהשרת."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "ללא הרשמה"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "הצפנת AES-256 במכשיר שלך"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "קוד פתוח"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "שיתוף סיסמאות מאובטח בקישורים חד־פעמיים"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "סיסמה, מפתח API, פרטי התחברות או קובץ. הכול מוצפן בדפדפן לפני השליחה."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "הדבקת הסוד"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "באמצעות Telegram, WhatsApp, Signal, Slack, דוא״ל או כל אפליקציית מסרים אחרת. בשיחה נשמר רק הקישור, לא הסיסמה עצמה."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "שליחת הקישור"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "לאחר הצפייה הנתונים נמחקים מהשרת. אי אפשר לפתוח את הקישור פעם שנייה."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "הקישור נשרף"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "איך זה עובד"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "שלחו סיסמאות, הודעות פרטיות, מפתחות API וקבצים באמצעות קישורים חד־פעמיים מוצפנים. הסודות נמחקים לאחר הצפייה. חינמי, קוד פתוח וללא הרשמה."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "קישורים חד־פעמיים לסודות — שיתוף סיסמאות מאובטח | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "שתפו סיסמאות ופרטי חשבון בלי להשאיר אותם בהיסטוריית השיחה."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "סיסמאות ופרטי התחברות"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "שלחו הודעות רגישות שאפשר לפתוח פעם אחת בלבד."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "הודעות פרטיות"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "שתפו מפתחות API, אסימוני גישה וקובצי תצורה עם חברי הצוות באופן מאובטח."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "מפתחות API ופרטי גישה"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "שתפו מסמכים וקבצים פרטיים עד {{.MaxFileSize}} באמצעות קישורים חד־פעמיים מוצפנים."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "קבצים חסויים"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "שלחו הודעות המשמידות את עצמן, סיסמאות, מפתחות API וקבצים פרטיים באופן מאובטח. כל סוד מוצפן בדפדפן ונמחק מהשרת לאחר הצפייה."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "מה אפשר לשתף בקישור חד־פעמי?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>נשאר אצלך.</strong> מפתח הפענוח. דפדפנים אינם שולחים לשרת דבר שמופיע אחרי #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>נשלח לשרת.</strong> כתובת הנתונים המוצפנים: ללא המפתח אלו רק בתים אקראיים."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "ממשק Web Crypto API המובנה בדפדפן ו־AES-256-GCM. ללא ספריות צד שלישי."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "הצפנה בדפדפן"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "כל הקוד מפורסם ב־<a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. כל אחד יכול לבדוק כיצד ההצפנה פועלת."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "קוד פתוח"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "ללא הרשמה, סקריפטים של צד שלישי או עוקבים. לכן גם אין כרזת עוגיות."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "בלי תוספות מיותרות"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "מפתח הפענוח נמצא בתוך הקישור, אחרי הסימן #. דפדפנים אינם שולחים חלק זה של הכתובת לשרת, ולכן רק לך ולנמען יש גישה אליו."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "מידע נוסף על אופן הפעולה"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "למה איננו יכולים לקרוא את הסוד שלך"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "שיתוף סוד"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "הקוד ב־GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "קוד פתוח"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "כל הקוד של Encrypt.One נמצא ב־GitHub. כל אחד יכול לראות כיצד ההצפנה פועלת ולוודא שהמפתח לעולם אינו נשלח לשרת."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "אפשר לבדוק בעצמך"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "זרימת הנתונים"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "הסוד מוצפן לפני השליחה ומפוענח רק אצל הנמען. בדרך הנתונים נשארים מוצפנים כל הזמן."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "מוריד את הטקסט המוצפן, לוקח את המפתח מהקישור ומפענח את הסוד מקומית. השרת מוחק את הנתונים מיד לאחר מכן."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "הדפדפן של הנמען"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "יוצר מפתח אקראי ומצפין את הטקסט והקובץ באמצעות AES-256-GCM ו־Web Crypto API המובנה בדפדפן."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "הדפדפן של השולח"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "מקבל ושומר בתים מוצפנים בלבד. ללא המפתח איש אינו יכול לקרוא אותם — לא אנחנו ולא מי שיקבל גישה לשרת."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "השרת של Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "השרת רואה רק טקסט מוצפן"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One מצפין את הסוד ישירות בדפדפן שלך. רק נתונים מוצפנים נשלחים לשרת, והמפתח נשאר בקישור ואינו עוזב את המכשירים של השולח והנמען."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "איך זה עובד ולמה זה בטוח"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "בתוך הקישור"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "לקישור שני חלקים. הראשון מצביע על מיקום הנתונים המוצפנים. השני, אחרי #, הוא מפתח הפענוח."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "כל מי שמחזיק בקישור המלא יכול לפתוח את הסוד. שלחו אותו רק לנמען והוסיפו סיסמה למידע רגיש."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "הקישור המלא מעניק גישה"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "דפדפנים אינם כוללים את החלק שאחרי # בבקשות. לכן המפתח אינו מופיע ביומני השרת או באף נקודה ברשת בדרך."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "לעולם אינו נשלח לשרת"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "המפתח נוצר באופן אקראי במכשיר שלך. לא ניתן לנחש אותו בכוח גס."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "מפתח חדש לכל קישור"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "המפתח נמצא אחרי #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "כיצד Encrypt.One מצפין סודות בדפדפן: AES-256-GCM, המפתח בקישור אחרי #, מה השרת שומר, מתי הנתונים נמחקים ולמה להוסיף סיסמה."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "איך Encrypt.One עובד: שיתוף סודות בהצפנה מקצה לקצה"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "פתיחת מחולל הסיסמאות"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "סיסמה לפתיחה"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "סיסמה מגינה על הסוד גם אם הקישור יורט. בלעדיה הנמען רואה רק את שדה ההזנה."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "אחרי שלושה ניסיונות שגויים הסוד נמחק. אי אפשר לנחש את הסיסמה בכוח גס."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "שלושה ניסיונות"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "לחצו על ״הצעה״ בטופס או בחרו ביטוי ממחולל הסיסמאות: קל להקריא אותו."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "לא צריך להמציא לבד"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "מסרו את הסיסמה בדרך אחרת: בשיחה קולית, באפליקציית מסרים אחרת או פנים אל פנים. כך יירוט הודעה אחת לא יחשוף דבר."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "מסירה בנפרד"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "מנעול נוסף למידע רגיש"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "אם סיסמת הפתיחה הוזנה באופן שגוי שלוש פעמים, הסוד נמחק לצמיתות."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "אחרי שלוש סיסמאות שגויות"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "הכפתור ״השמדה עכשיו״ בדף הקישור מוחק את הסוד מיד."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "לפי בקשתך"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "אם הקישור לא נפתח בתוך תקופת האחסון שבחרת, הסוד נמחק מעצמו."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "כשתוקפו פג"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "ברגע שהנמען פותח את הסוד הנתונים נמחקים. הקישור לא יעבוד פעם שנייה."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "לאחר הפתיחה"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "מונה ניסיונות סיסמה שגויים"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "הטקסט והקובץ המוצפנים"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "נשמר בשרת"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "תקופת האחסון שבחרת"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "אחסון"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "השרת שומר את הסוד למשך הזמן הדרוש לנמען כדי לפתוח אותו."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "מפתח הפענוח מהקישור"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "סיסמת הפתיחה"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "תוכן הסוד בצורתו הגלויה"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "לעולם אינו מגיע לשרת"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "מה השרת שומר ומתי הוא מוחק"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "מחולל סיסמאות"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "לדף הבית"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "דף זה אינו קיים ב־Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "הדף לא נמצא — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "ייתכן שיש שגיאה בכתובת או שהדף הועבר. אם ניסית לפתוח קישור חד־פעמי, יש לוודא שהועתק במלואו."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "הדף לא נמצא"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>אם המדיניות תשתנה, נפרסם את הגרסה החדשה בדף זה ונעדכן את התאריך בראשו.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "שינויים במדיניות"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>אפשר לשאול שאלות בנושא פרטיות ב<a href=\"https://github.com/Draal/secure-share/issues\">דיווחים ב־GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "שאלות"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>מיד לאחר שהנמען פותח את הסוד;</li><li>בלחיצה על ״השמדה עכשיו״ בדף הקישור;</li><li>לאחר הסיסמה השגויה השלישית;</li><li>בתום התקופה שנבחרה, משעה ועד שבעה ימים. סוד שפג תוקפו מפסיק להיות זמין מיד ונתוניו נמחקים בניקוי היומי.</li></ul><p>אי אפשר לשחזר סוד שנמחק. בוטים של אפליקציות מסרים שיוצרים תצוגה מקדימה אינם צורכים את הסוד: הנתונים נמסרים רק לאחר לחיצה על ״הצגת הסוד״.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "מתי הנתונים נמחקים"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>סיסמאות, ביטויי סיסמה וקודי PIN נוצרים בדפדפן באמצעות מחולל מספרים אקראיים קריפטוגרפי ולעולם אינם נשלחים לשרת.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "מחולל סיסמאות"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One נבנה כך שרק הנמען יוכל לקרוא סוד — אפילו אנחנו לא. כאן מוסבר אילו נתונים עוברים בשירות ומה קורה להם."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>שרת היישום רושם רק בקשות API: סוג הבקשה, התוצאה וזמן העיבוד. כתובות IP, מזהי סודות, אסימונים, כתובות דפים ותוכן בקשות אינם נרשמים.</p><p>כדי להגן על השירות מפני ניחוש בכוח גס ושימוש לרעה, השרת מגביל את קצב הבקשות לכל כתובת IP. הכתובת משמשת בזיכרון בלבד ואינה נשמרת.</p><p>שרת אינטרנט לפני היישום עשוי לשמור יומן גישה רגיל: כתובת IP, זמן וכתובת הדף ללא החלק שאחרי #. יומנים אלה משמשים רק להגנה מפני התקפות ונשמרים לזמן מוגבל.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "יומנים טכניים"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "מדיניות הפרטיות של Encrypt.One: אילו נתונים השירות מקבל, כמה זמן הוא שומר אותם ולמה אינו יכול לקרוא את הסודות שלך."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "מדיניות פרטיות — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>הסיסמה עצמה לעולם אינה עוזבת את הדפדפן. מהסיסמה וממפתח הקישור הדפדפן גוזר שני ערכים עצמאיים: מפתח ההצפנה וגיבוב לאימות (PBKDF2 עם 600,000 איטרציות, ואז HKDF). רק הגיבוב נשלח לשרת. השרת משתמש בו לאימות הסיסמה, אך אינו יכול לגלות את הסיסמה או את המפתח.</p><p>לאחר שלושה ניסיונות שגויים הסוד נמחק. מונה הניסיונות נשמר בזיכרון השרת ומשויך לסוד, לא למבקר.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "סיסמת פתיחה"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>איננו יודעים מי יצר או פתח סוד: השירות אינו משייך נתונים לאנשים, לחשבונות או לכתובות IP. לכן איננו יכולים למצוא, למסור או למחוק נתונים של אדם מסוים. כדי למחוק את הסוד לפני שתוקפו פג, פתחו את דף הקישור ולחצו על ״השמדה עכשיו״.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "הזכויות שלך"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>הטקסט והקובץ המצורף מוצפנים בדפדפן באמצעות AES-256-GCM וממשק Web Crypto API המובנה לפני השליחה. שם הקובץ וסוגו מוצפנים יחד עם התוכן.</p><p>בשרת נשמרים רק:</p><ul><li>הנתונים המוצפנים;</li><li>מועד פקיעת התוקף;</li><li>ציון אם צורף קובץ;</li><li>גיבוב לאימות סיסמה, אם הוגדרה סיסמת פתיחה.</li></ul><p>מפתח הפענוח הוא חלק הקישור שאחרי הסימן #. דפדפנים אינם שולחים חלק זה לשרת, ולכן לא אנחנו ולא מי שיקבל גישה לשרת יכולים לפענח את הנתונים. מאותה סיבה איננו יכולים לשחזר סוד אם הקישור אבד.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "סודות וקבצים"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One הוא שירות חינמי לשיתוף סיסמאות, מפתחות וקבצים באמצעות קישורים חד־פעמיים. אין צורך בהרשמה. השירות מפותח ומופעל על ידי <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>את הקישור שולחים בעצמכם בכל דרך נוחה. אפשר ליירט הודעה באפליקציית מסרים, בדוא״ל או ב־SMS, ואז מי שיפתח ראשון את הקישור יקבל את הסוד. למידע חשוב הגדירו סיסמת פתיחה ומסרו אותה בערוץ אחר.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "איך השירות עובד"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>הסוד מוצפן בדפדפן שלך. השרת מקבל נתונים מוצפנים בלבד ואינו יכול לקרוא אותם.</li><li>מפתח הפענוח נמצא בקישור אחרי הסימן # ולעולם אינו נשלח לשרת.</li><li>ללא הרשמה, פרסומות, ניתוח נתונים או סקריפטים של צד שלישי.</li><li>הסוד נמחק מיד עם פתיחתו או בסוף התקופה שנבחרה.</li><li>שרת היישום אינו רושם כתובות IP או מזהי סודות.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "בקצרה"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>קוד המקור פתוח ב־<a href=\"https://github.com/Draal/secure-share\">GitHub</a>: אפשר לבדוק כיצד ההצפנה עובדת או להפעיל עותק משלכם.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "קוד פתוח"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>איננו משתמשים בעוגיות פרסום או ניתוח נתונים. האתר שומר בדפדפן רק את הדרוש לפעולתו:</p><ul><li>עוגיית <code>lang</code> — השפה שלך, אם בחרת אותה בתפריט;</li><li>ב־localStorage — ערכת הצבעים, סימון שסגרת את כרזת השפה וסימונים של קישורים שהושמדו מדפדפן זה;</li><li>ב־sessionStorage — סיסמה מהמחולל בזמן העברתה לטופס בדף הבית. היא נמחקת מיד לאחר הכנסתה.</li></ul><p>מתוכם רק עוגיית השפה מגיעה לשרת, המשתמש בה לבחירת גרסת הדף. אפשר למחוק את כולם בהגדרות הדפדפן.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "עוגיות ואחסון בדפדפן"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>האתר אינו טוען סקריפטים, גופנים, מונים או פרסומות מצד שלישי: הכול, כולל הגופנים, מוגש מהשרת שלנו. איננו מוכרים או משתפים נתונים עם צדדים שלישיים.</p><p>כפתורי השליחה ב־Telegram, ב־WhatsApp ובדוא״ל, וכן הקישורים לאתרי נותני החסות, הם קישורים רגילים. שירות חיצוני מקבל נתונים רק לאחר לחיצה, ומאותו רגע חלה המדיניות שלו.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "שירותי צד שלישי"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "מדיניות פרטיות"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "עודכן לאחרונה: 25 באוקטובר 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "הקישור פגום או שלא הועתק במלואו. יש לבקש מהשולח לשלוח אותו שוב."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "הנתונים התקבלו אך לא ניתן לפענח אותם: הקישור פגום. הסוד כבר נמחק מהשרת, לכן יש לבקש מהשולח ליצור סוד חדש."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "לא ניתן להתחבר לשרת. יש לבדוק את החיבור ולנסות שוב."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "יותר מדי ניסיונות. יש להמתין דקה ולנסות שוב."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "לא ניתן לפתוח את הסוד"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "יצירת קישור משלך"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "איך עובדים קישורים חד־פעמיים"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "הסוד כבר נפתח או שתוקפו פג. אי אפשר לפתוח את הקישור שוב."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "יש לבקש מהשולח ליצור קישור חדש. אם לא פתחת את הקישור הזה, כדאי להודיע לשולח: ייתכן שמישהו אחר ראה אותו."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "הסוד הזה כבר אינו זמין"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "אפשר לצפות בו פעם אחת בלבד. מיד לאחר מכן הוא יימחק מהשרת."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "הסוד מוגן בסיסמה. אפשר לצפות בו פעם אחת בלבד, ואז הוא יימחק מהשרת."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "נשלח אליך סוד"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "קישור חד־פעמי של Encrypt.One. אפשר לפתוח את הסוד פעם אחת, ואז הוא נמחק מהשרת."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "נשלח אליך סוד — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "יש להזין את הסיסמה."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "השולח אמור היה למסור את הסיסמה בנפרד. אחרי שלושה ניסיונות שגויים הסוד נמחק."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "סיסמה לפתיחה"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "פתיחה"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "שיתוף סוד משלך"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "אפשר ליצור קישור חד־פעמי משלך. ללא הרשמה."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "גם לך יש סיסמה לשתף?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "הצגת הסוד"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "נמחק מהשרת"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "הורדה"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "כדאי לשמור אותו אם יידרש בהמשך: לאחר סגירת הדף לא ניתן יהיה לפתוח את הסוד שוב."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "טקסט הסוד"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "הסוד שלך"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "פותחים…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "מה זה Encrypt.One?"
+  }
+]

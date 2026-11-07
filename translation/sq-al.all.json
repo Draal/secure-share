@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Kërkesa nuk mund të përpunohej. Ringarkoni faqen dhe provoni përsëri."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Kjo lidhje nuk lejon shkatërrimin e sekretit."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Sekreti nuk u gjet: është hapur, shkatërruar ose ka skaduar."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Për të hapur këtë sekret nevojitet një fjalëkalim."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Shumë kërkesa. Prisni një minutë dhe provoni përsëri."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Diçka shkoi keq nga ana jonë. Provoni përsëri pas një minute."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Skedari është shumë i madh. Kufiri është {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Fjalëkalimi u shkrua gabim tri herë, prandaj sekreti u fshi."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Fjalëkalim i gabuar. Përpjekje të mbetura: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Mbyll"
+  },
+  {
+    "id": "common.copied",
+    "translation": "U kopjua"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopjo"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Lidhje"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privatësia"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekti"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Pyetje të shpeshta"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Udhëzues"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Si funksionon"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Siguria"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Burime"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Dërgo një skedar"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Gjeneruesi i fjalëkalimeve"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Ndaj një sekret"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Shërbimi"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Lidhje njëpërdorimëshe për të ndarë fjalëkalime dhe skedarë. Të enkriptuara në shfletuesin tuaj."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Kodi burimor në GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Shqip"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "SQ"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Gjuha e faqes: shqip"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Faqja kryesore e Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: ndani një fjalëkalim me lidhje njëpërdorimëshe"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Pyetje të shpeshta"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Gjeneruesi i fjalëkalimeve"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Si funksionon"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Navigimi kryesor"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Kalo te përmbajtja"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Ora, kalendarë dhe festa për çdo qytet"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Lojëra falas drejtpërdrejt në shfletues"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Mijëra stacione radioje nga e gjithë bota"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One është falas falë sponsorëve tanë"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "E errët"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "E çelët"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistemi"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Dërgojeni te marrësi. Sekreti mund të hapet vetëm një herë."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Lidhja juaj është gati"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Merr një lidhje tjetër"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Për të njëjtin sekret, nga një lidhje për çdo marrës. Lidhja aktuale do të vazhdojë të funksionojë, por nuk do të mund ta shkatërroni më nga këtu."
+  },
+  {
+    "id": "created.back",
+    "translation": "Sekret i ri"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Shkatërro tani"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Të shkatërrohet sekreti? Lidhja do të ndalojë menjëherë së funksionuari."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Sekreti nuk mund të shkatërrohej. Provoni përsëri."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "E dërguat te personi i gabuar? Shkatërroni sekretin dhe lidhja do të ndalojë menjëherë së funksionuari."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "E shkatërruat sekretin. Të dhënat u fshinë nga serveri dhe lidhja nuk funksionon më."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Sekreti u shkatërrua"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Askush nuk e hapi lidhjen në kohë. Të dhënat u fshinë nga serveri dhe lidhja nuk funksionon më."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Lidhja ka skaduar"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopjo lidhjen"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Lidhje njëpërdorimëshe"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Kjo lidhje nuk funksionon më"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Lidhja shfaqet vetëm në skedën ku u krijua. Mund ta shkatërroni ende sekretin nga këtu."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Faqja e dërguesit të një lidhjeje njëpërdorimëshe Encrypt.One: ndani lidhjen ose shkatërroni sekretin."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Lidhja juaj është gati — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Krijo një lidhje të re"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Kodi QR i lidhjes njëpërdorimëshe"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Drejtoni kamerën e telefonit te kodi për të hapur lidhjen. Mos ua tregoni të tjerëve: kodi e hap sekretin njësoj si lidhja."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Kodi QR i lidhjes"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Dërgo përmes"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-mail"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "Kod QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Një sekret për ju"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Lidhje njëpërdorimëshe për një sekret:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "E vlefshme deri më"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Këshillë:</strong> për të dhëna veçanërisht të ndjeshme, shtoni një fjalëkalim dhe komunikojeni ndryshe, për shembull me zë. Kështu përgjimi i një mesazhi të vetëm nuk zbulon asgjë."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Bashkëngjit skedar"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Lëshojeni për të bashkëngjitur skedarin"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Mund ta tërhiqni një skedar drejtpërdrejt në fushë."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Deri në {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Ky shfletues nuk mbështet enkriptimin. Përditësojeni ose hapeni faqen në një shfletues tjetër."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Ngjitni tekst ose bashkëngjitni një skedar."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Skedari është shumë i madh. Kufiri është {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Nuk u lidhëm me serverin. Kontrolloni lidhjen dhe provoni përsëri."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Vendosni një fjalëkalim hapjeje ose çaktivizoni mbrojtjen me fjalëkalim."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "do të enkriptohet së bashku me tekstin"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Hiq skedarin"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Gjenero fjalëkalim"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Fut në fushën e sekretit"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Sugjero"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Pa këtë fjalëkalim sekreti nuk hapet, edhe nëse lidhja përgjohet. Komunikojani marrësit veçmas, për shembull me zë ose në një aplikacion tjetër mesazhesh."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Fjalëkalimi i hapjes"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Për shembull maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Mbro me fjalëkalim"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Çfarë doni të ndani?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Fjalëkalim, çelës API, të dhëna hyrjeje…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Cilësimet e lidhjes"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Krijo lidhje njëpërdorimëshe"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Duke enkriptuar…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 ditë"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 orë"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 ditë"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 ditë"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Skadon pas"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Koha e ruajtjes"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Gjenerues falas për fjalëkalime të forta, fraza dhe kode PIN të krijuara në shfletues dhe të padërguara askund. Ndajeni rezultatin me lidhje njëpërdorimëshe."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Gjenerues i fjalëkalimeve të forta — falas dhe privat | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Shifra (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Gjatësia"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Shkronja të vogla (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Pa karaktere të ngjashme (0 dhe O, l dhe 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Karaktere"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Simbole (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Shkronja të mëdha (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Një frazë me fjalë të rastësishme është e lehtë për t’u thënë dhe mbajtur mend, por po aq e vështirë për t’u gjetur sa një fjalëkalim i gjatë. Fjalët vijnë nga lista e hapur e EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Numri i fjalëve"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Numri i shifrave"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Gjenero përsëri"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Dërgo si lidhje njëpërdorimëshe"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Rezultati kalon drejtpërdrejt në formular dhe merrni një lidhje që hapet vetëm një herë."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Ju duhet ta ndani këtë fjalëkalim?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropia ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Mesatar"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "I përshtatshëm vetëm si PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "I fortë"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Shumë i fortë"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "I dobët"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Lloji i fjalëkalimit"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Fjalëkalim"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Frazëkalim"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Të paktën 14–16 karaktere. Gjatësia mbron më mirë sesa zëvendësimi i shkronjave me simbole."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "I gjatë"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Nuk keni nevojë të mbani mend fjalëkalime të ndërlikuara: përdorni një menaxher fjalëkalimesh."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "I ruajtur në një menaxher fjalëkalimesh"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Çfarë e bën një fjalëkalim të fortë"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Një për çdo shërbim. Kështu rrjedhja e një fjalëkalimi nuk hap llogaritë tuaja të tjera."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unik"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Gjeneruesi i fjalëkalimeve"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Jo. Sekreti enkriptohet në shfletuesin tuaj para dërgimit. Çelësi ndodhet në lidhje pas shenjës # dhe ajo pjesë e adresës nuk arrin kurrë në server."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Nuk ndodh asgjë. Sekreti shfaqet vetëm pasi shtypet «Shfaq sekretin» dhe robotët e pamjes paraprake nuk shtypin butona."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Sekreti fshihet automatikisht kur përfundon koha e zgjedhur e ruajtjes."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Po. Faqja e lidhjes ka një buton «Shkatërro tani». Më pas lidhja ndalon së funksionuari."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Jo. As dërguesi, as marrësi nuk kanë nevojë për llogari."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Nuk gjetët përgjigje? Hapni një çështje në GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "A mund ta lexoni sekretin tim?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Çfarë ndodh nëse një robot i pamjes paraprake në aplikacionin e mesazheve hap lidhjen?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Çfarë ndodh nëse marrësi nuk e hap kurrë lidhjen?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "A mund ta anuloj lidhjen pas dërgimit?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "A duhet të regjistrohem?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Pyetje të shpeshta"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Sekreti juaj enkriptohet drejtpërdrejt në shfletues. Marrësi e hap lidhjen një herë dhe më pas të dhënat fshihen nga serveri."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Pa regjistrim"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Enkriptim AES-256 në pajisjen tuaj"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Kod i hapur"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Ndani fjalëkalime në mënyrë të sigurt me lidhje njëpërdorimëshe"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Një fjalëkalim, çelës API, të dhëna hyrjeje ose skedar. Gjithçka enkriptohet në shfletues para dërgimit."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Ngjitni sekretin"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Përmes Telegram, WhatsApp, Signal, Slack, e-mailit ose një aplikacioni tjetër mesazhesh. Në bisedë mbetet vetëm lidhja, jo vetë fjalëkalimi."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Dërgoni lidhjen"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Pas shikimit, të dhënat fshihen nga serveri. Lidhja nuk mund të hapet për herë të dytë."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Lidhja konsumohet"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Si funksionon"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Dërgoni fjalëkalime, mesazhe private, çelësa API dhe skedarë me lidhje njëpërdorimëshe të enkriptuara. Sekretet fshihen pas shikimit. Falas, kod i hapur, pa regjistrim."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Lidhje sekrete njëpërdorimëshe — ndani fjalëkalime në mënyrë të sigurt | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Ndani fjalëkalime dhe të dhëna hyrjeje pa i lënë në historikun e bisedës."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Fjalëkalime dhe të dhëna hyrjeje"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Dërgoni mesazhe të ndjeshme që mund të hapen vetëm një herë."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Mesazhe private"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Ndani në mënyrë të sigurt çelësa API, tokena aksesi dhe skedarë konfigurimi me ekipin."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "Çelësa API dhe kredenciale"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Ndani dokumente dhe skedarë privatë deri në {{.MaxFileSize}} me lidhje njëpërdorimëshe të enkriptuara."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Skedarë konfidencialë"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Dërgoni në mënyrë të sigurt mesazhe vetëshkatërruese, fjalëkalime, çelësa API dhe skedarë privatë. Çdo sekret enkriptohet në shfletues dhe fshihet nga serveri pas shikimit."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Çfarë mund të ndani me një lidhje njëpërdorimëshe?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Mbetet me ju.</strong> Çelësi i dekriptimit. Shfletuesit nuk i dërgojnë kurrë serverit pjesën pas #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Shkon në server.</strong> Adresa e të dhënave të enkriptuara: pa çelësin ato janë vetëm bajte të rastësishme."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Web Crypto API i integruar në shfletues dhe AES-256-GCM. Pa biblioteka të palëve të treta."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Enkriptohet në shfletues"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "I gjithë kodi publikohet në <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Kushdo mund të kontrollojë si funksionon enkriptimi."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Kod i hapur"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Pa regjistrim, skripte të palëve të treta apo gjurmues. Prandaj nuk ka as baner kukish."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Asgjë e tepërt"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Çelësi i dekriptimit ndodhet në lidhje pas shenjës #. Shfletuesit nuk ia dërgojnë kurrë atë pjesë të adresës serverit, kështu që vetëm ju dhe marrësi mund ta shihni."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Më shumë rreth funksionimit"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Pse nuk mund ta lexojmë sekretin tuaj"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Ndaj një sekret"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kodi në GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Kod i hapur"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "I gjithë kodi i Encrypt.One është në GitHub. Kushdo mund të shohë si funksionon enkriptimi dhe të sigurohet që çelësi nuk shkon kurrë në server."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Kontrollojeni vetë"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Rrjedha e të dhënave"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Sekreti enkriptohet para dërgimit dhe dekriptohet vetëm nga marrësi. Gjatë rrugës të dhënat mbeten gjithmonë të enkriptuara."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Shkarkon të dhënat e enkriptuara, merr çelësin nga lidhja dhe dekripton sekretin lokalisht. Serveri i fshin të dhënat menjëherë pas kësaj."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Shfletuesi i marrësit"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Krijon një çelës të rastësishëm dhe enkripton tekstin dhe skedarin me AES-256-GCM duke përdorur Web Crypto API të integruar në shfletues."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Shfletuesi i dërguesit"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Merr dhe ruan vetëm bajte të enkriptuara. Pa çelësin askush nuk mund t’i lexojë — as ne, as dikush që hyn në server."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Serveri i Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Serveri sheh vetëm të dhëna të enkriptuara"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One e enkripton sekretin tuaj drejtpërdrejt në shfletues. Vetëm të dhënat e enkriptuara shkojnë në server, ndërsa çelësi mbetet në lidhje dhe nuk largohet kurrë nga pajisjet e dërguesit dhe marrësit."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Si funksionon dhe pse është i sigurt"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Brenda lidhjes"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Një lidhje ka dy pjesë. E para tregon ku ruhen të dhënat e enkriptuara. E dyta, pas #, është çelësi i dekriptimit."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Kushdo që ka lidhjen e plotë mund ta hapë sekretin. Dërgojani vetëm marrësit dhe shtoni fjalëkalim për të dhëna të ndjeshme."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Lidhja e plotë jep akses"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Shfletuesit nuk përfshijnë pjesën pas # në kërkesa. Kështu çelësi nuk gjendet as në regjistrat e serverit, as në pikat ndërmjetëse të rrjetit."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Nuk dërgohet kurrë në server"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Çelësi gjenerohet rastësisht në pajisjen tuaj. Nuk mund të gjendet me forcë brutale."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "I ri për çdo lidhje"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Çelësi është pas #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Si i enkripton Encrypt.One sekretet në shfletues: AES-256-GCM, çelësi pas #, ruajtja, fshirja e të dhënave dhe mbrojtja me fjalëkalim."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Si funksionon Encrypt.One: ndarja e sekreteve me enkriptim nga skaji në skaj"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Hap gjeneruesin e fjalëkalimeve"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Fjalëkalimi i hapjes"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Një fjalëkalim e mbron sekretin edhe nëse lidhja përgjohet. Pa të, marrësi sheh vetëm fushën e hyrjes."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Pas tri përpjekjeve të gabuara sekreti fshihet. Fjalëkalimi nuk mund të gjendet me forcë brutale."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tri përpjekje"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Klikoni «Sugjero» në formular ose zgjidhni një frazë nga gjeneruesi i fjalëkalimeve: lexohet lehtë me zë."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Mos e shpikni vetë"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Komunikojeni fjalëkalimin ndryshe: me zë, në një aplikacion tjetër mesazhesh ose personalisht. Kështu përgjimi i një mesazhi nuk zbulon asgjë."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Komunikojeni veçmas"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Një kyç i dytë për të dhëna të ndjeshme"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Nëse fjalëkalimi i hapjes shkruhet gabim tri herë, sekreti fshihet përgjithmonë."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Pas tri fjalëkalimeve të gabuara"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Butoni «Shkatërro tani» në faqen e lidhjes e fshin sekretin menjëherë."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Me kërkesën tuaj"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Nëse lidhja nuk hapet gjatë kohës së zgjedhur të ruajtjes, sekreti fshihet automatikisht."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Kur skadon"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Sapo marrësi e hap sekretin, të dhënat fshihen. Lidhja nuk do të funksionojë për herë të dytë."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Pas hapjes"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Një numërues i përpjekjeve të gabuara për fjalëkalim"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Teksti dhe skedari i enkriptuar"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Ruhet në server"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Koha e zgjedhur e ruajtjes"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Ruajtja"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Serveri e ruan sekretin pikërisht aq kohë sa i duhet marrësit për ta hapur."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Çelësi i dekriptimit nga lidhja"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Fjalëkalimi i hapjes"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Përmbajtja e sekretit në formë të lexueshme"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Nuk arrin kurrë në server"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Çfarë ruan serveri dhe kur e fshin"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Gjeneruesi i fjalëkalimeve"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Te faqja kryesore"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Kjo faqe nuk ekziston në Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Faqja nuk u gjet — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adresa mund të jetë shkruar gabim ose faqja mund të jetë zhvendosur. Nëse po hapnit një lidhje njëpërdorimëshe, sigurohuni që është kopjuar e plotë."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Faqja nuk u gjet"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Nëse kjo politikë ndryshon, do të publikojmë versionin e ri në këtë faqe dhe do të përditësojmë datën sipër.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Ndryshimet e politikës"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Bëni pyetje për privatësinë te <a href=\"https://github.com/Draal/secure-share/issues\">çështjet në GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Pyetje"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>menjëherë pasi marrësi hap sekretin;</li><li>kur shtypni «Shkatërro tani» në faqen e lidhjes;</li><li>pas fjalëkalimit të tretë të gabuar;</li><li>kur përfundon periudha e zgjedhur, nga një orë deri në shtatë ditë. Një sekret i skaduar nuk jepet më menjëherë dhe të dhënat e tij fshihen gjatë pastrimit të përditshëm.</li></ul><p>Një sekret i fshirë nuk mund të rikthehet. Robotët e aplikacioneve të mesazheve që krijojnë pamje paraprake nuk e konsumojnë sekretin: të dhënat jepen vetëm pasi shtypet «Shfaq sekretin».</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Kur fshihen të dhënat"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Fjalëkalimet, frazat dhe kodet PIN krijohen në shfletues me një gjenerues kriptografik numrash të rastësishëm dhe nuk dërgohen kurrë në server.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Gjeneruesi i fjalëkalimeve"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One është ndërtuar që vetëm marrësi të mund të lexojë një sekret — as ne nuk mundemi. Më poshtë përshkruhen të dhënat që kalojnë nëpër shërbim dhe çfarë ndodh me to."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Serveri i aplikacionit regjistron vetëm kërkesat API: llojin, rezultatin dhe kohën e përpunimit. Adresat IP, identifikuesit e sekreteve, tokenat, adresat e faqeve dhe përmbajtja e kërkesave nuk regjistrohen.</p><p>Për të mbrojtur shërbimin nga sulmet me forcë brutale dhe abuzimi, serveri kufizon shpeshtësinë e kërkesave për çdo adresë IP. Adresa përdoret vetëm në memorie dhe nuk ruhet.</p><p>Një server ueb përpara aplikacionit mund të ruajë një regjistër standard aksesi: adresën IP, kohën dhe adresën e faqes pa pjesën pas #. Këta regjistra përdoren vetëm për mbrojtje nga sulmet dhe ruhen për kohë të kufizuar.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Regjistrat teknikë"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Politika e privatësisë së Encrypt.One: çfarë të dhënash merr shërbimi, sa kohë i ruan dhe pse nuk mund t’i lexojë sekretet tuaja."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Politika e privatësisë — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Vetë fjalëkalimi nuk largohet kurrë nga shfletuesi. Nga fjalëkalimi dhe çelësi i lidhjes, shfletuesi nxjerr dy vlera të pavarura: çelësin e enkriptimit dhe një hash kontrolli (PBKDF2 me 600 000 përsëritje, pastaj HKDF). Vetëm hashi dërgohet në server. Serveri e përdor për të kontrolluar fjalëkalimin, por nuk mund të zbulojë as fjalëkalimin, as çelësin.</p><p>Pas tri përpjekjeve të gabuara sekreti fshihet. Numëruesi ruhet në memorien e serverit dhe lidhet me sekretin, jo me vizitorin.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Fjalëkalimi i hapjes"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Nuk e dimë kush krijoi ose hapi një sekret: shërbimi nuk i lidh të dhënat me njerëz, llogari apo adresa IP. Prandaj nuk mund të gjejmë, dorëzojmë ose fshijmë të dhënat e një personi të caktuar. Për ta fshirë sekretin para skadimit, hapni faqen e lidhjes dhe shtypni «Shkatërro tani».</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Të drejtat tuaja"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Teksti dhe skedari i bashkëngjitur enkriptohen në shfletues me AES-256-GCM përmes Web Crypto API të integruar para dërgimit. Emri dhe lloji i skedarit enkriptohen bashkë me përmbajtjen.</p><p>Serveri ruan vetëm:</p><ul><li>të dhënat e enkriptuara;</li><li>kohën e skadimit;</li><li>nëse është bashkëngjitur skedar;</li><li>një hash kontrolli të fjalëkalimit, nëse keni vendosur fjalëkalim hapjeje.</li></ul><p>Çelësi i dekriptimit është pjesa e lidhjes pas shenjës #. Shfletuesit nuk ia dërgojnë kurrë atë pjesë serverit, ndaj as ne dhe as dikush me akses në server nuk mund t’i dekriptojmë të dhënat. Për të njëjtën arsye nuk mund ta rikthejmë sekretin nëse lidhja humbet.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Sekrete dhe skedarë"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One është një shërbim falas për ndarjen e fjalëkalimeve, çelësave dhe skedarëve përmes lidhjeve njëpërdorimëshe. Nuk nevojitet regjistrim. Shërbimi zhvillohet dhe drejtohet nga <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Ju e dërgoni vetë lidhjen në mënyrën që dëshironi. Një mesazh përmes aplikacionit, e-mailit ose SMS-së mund të përgjohet dhe atëherë sekreti i jepet personit që hap i pari lidhjen. Për të dhëna të rëndësishme, vendosni një fjalëkalim hapjeje dhe komunikojeni përmes një kanali tjetër.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Si funksionon shërbimi"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Sekreti juaj enkriptohet në shfletues. Serveri merr vetëm të dhëna të enkriptuara dhe nuk mund t’i lexojë.</li><li>Çelësi i dekriptimit është në lidhje pas shenjës # dhe nuk dërgohet kurrë në server.</li><li>Pa regjistrim, reklama, analiza apo skripte të palëve të treta.</li><li>Sekreti fshihet sapo hapet ose kur përfundon periudha e zgjedhur.</li><li>Serveri i aplikacionit nuk regjistron adresa IP apo identifikues sekretesh.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Shkurtimisht"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Kodi burimor është i hapur në <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: mund të kontrolloni enkriptimin ose të ekzekutoni kopjen tuaj.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Kod i hapur"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Nuk përdorim kuki reklamimi apo analizash. Faqja ruan në shfletues vetëm atë që nevojitet për funksionim:</p><ul><li>kukin <code>lang</code> — gjuhën tuaj, nëse e keni zgjedhur në përzgjedhës;</li><li>në localStorage — temën e ngjyrave, një shenjë që mbyllët njoftimin e gjuhës dhe shenja për lidhjet e shkatërruara nga ky shfletues;</li><li>në sessionStorage — një fjalëkalim nga gjeneruesi gjatë transferimit në formularin e faqes kryesore. Ai hiqet menjëherë pas futjes.</li></ul><p>Nga këto, vetëm kuki i gjuhës arrin në server, i cili e përdor për të zgjedhur versionin e faqes. Mund t’i fshini të gjitha në cilësimet e shfletuesit.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Kukit dhe ruajtja e shfletuesit"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Faqja nuk ngarkon skripte, fonte, numërues apo reklama të palëve të treta: gjithçka, përfshirë fontet, ofrohet nga serveri ynë. Ne nuk shesim dhe nuk ndajmë të dhëna me palë të treta.</p><p>Butonat për dërgim përmes Telegram, WhatsApp dhe e-mailit, si dhe lidhjet drejt faqeve të sponsorëve, janë lidhje të zakonshme. Një shërbim i jashtëm merr të dhëna vetëm kur klikoni dhe më pas zbatohet politika e tij.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Shërbime të palëve të treta"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Politika e privatësisë"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Përditësuar më: 25 tetor 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Lidhja është dëmtuar ose nuk është kopjuar e plotë. Kërkojini dërguesit ta dërgojë përsëri."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Të dhënat mbërritën por nuk mund të dekriptoheshin: lidhja është dëmtuar. Sekreti është fshirë tashmë nga serveri, prandaj kërkojini dërguesit të krijojë një të ri."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Nuk u lidhëm me serverin. Kontrolloni lidhjen dhe provoni përsëri."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Shumë përpjekje. Prisni një minutë dhe provoni përsëri."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Sekreti nuk mund të hapej"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Krijoni lidhjen tuaj"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Si funksionojnë lidhjet njëpërdorimëshe"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Është hapur tashmë ose ka skaduar. Lidhja nuk mund të hapet përsëri."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Kërkojini dërguesit të krijojë një lidhje të re. Nëse nuk e hapët këtë, njoftojeni: mund ta ketë parë dikush tjetër."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Ky sekret nuk është më i disponueshëm"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Mund të shihet vetëm një herë. Menjëherë më pas do të fshihet nga serveri."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Sekreti mbrohet me fjalëkalim. Mund të shihet vetëm një herë dhe më pas do të fshihet nga serveri."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Dikush ju dërgoi një sekret"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Një lidhje njëpërdorimëshe Encrypt.One. Sekreti mund të hapet një herë dhe më pas fshihet nga serveri."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Dikush ju dërgoi një sekret — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Vendosni fjalëkalimin."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Dërguesi duhet t’jua ketë komunikuar fjalëkalimin veçmas. Pas tri përpjekjeve të gabuara sekreti fshihet."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Fjalëkalimi i hapjes"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Hap"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Ndani sekretin tuaj"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Krijoni lidhjen tuaj njëpërdorimëshe. Pa regjistrim."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Duhet të ndani edhe ju një fjalëkalim?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Shfaq sekretin"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "U fshi nga serveri"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Shkarko"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Ruajeni nëse ju duhet më vonë: pasi ta mbyllni faqen, sekreti nuk mund të hapet përsëri."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Teksti i sekretit"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Sekreti juaj"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Duke hapur…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Çfarë është Encrypt.One?"
+  }
+]

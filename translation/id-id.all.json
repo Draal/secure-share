@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Permintaan tidak dapat diproses. Muat ulang halaman dan coba lagi."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Tautan ini tidak mengizinkan penghancuran rahasia."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Rahasia tidak ditemukan: sudah dibuka, dihancurkan, atau kedaluwarsa."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Rahasia ini memerlukan kata sandi untuk dibuka."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Terlalu banyak permintaan. Tunggu satu menit dan coba lagi."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Terjadi kesalahan di pihak kami. Coba lagi dalam satu menit."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Berkas terlalu besar. Batasnya {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Kata sandi dimasukkan salah tiga kali, sehingga rahasia telah dihapus."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Kata sandi salah. Sisa percobaan: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Tutup"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Tersalin"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Salin"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Tautan"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privasi"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Proyek"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Tanya jawab"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Panduan"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Cara kerja"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Keamanan"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Sumber daya"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Kirim berkas"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Pembuat kata sandi"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Bagikan rahasia"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Layanan"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Tautan sekali pakai untuk berbagi kata sandi dan berkas. Dienkripsi di peramban Anda."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Kode sumber di GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Bahasa Indonesia"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "ID"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Bahasa situs: Indonesia"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Beranda Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: bagikan kata sandi dengan tautan sekali pakai"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Tanya jawab"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Pembuat kata sandi"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Cara kerja"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Navigasi utama"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Langsung ke konten"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Waktu, kalender, dan hari libur untuk setiap kota"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Permainan gratis langsung di peramban"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Ribuan stasiun radio dari seluruh dunia"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One gratis berkat sponsor kami"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Gelap"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Terang"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistem"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Kirimkan kepada penerima. Rahasia hanya dapat dibuka sekali."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Tautan Anda siap"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Dapatkan tautan lain"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Untuk rahasia yang sama, satu tautan per penerima. Tautan saat ini tetap berfungsi, tetapi Anda tidak dapat lagi menghancurkannya dari sini."
+  },
+  {
+    "id": "created.back",
+    "translation": "Rahasia baru"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Hancurkan sekarang"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Hancurkan rahasia? Tautan akan segera berhenti berfungsi."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Rahasia tidak dapat dihancurkan. Coba lagi."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Dikirim ke orang yang salah? Hancurkan rahasia agar tautan segera berhenti berfungsi."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Anda telah menghancurkan rahasia. Data dihapus dari server dan tautan tidak lagi berfungsi."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Rahasia dihancurkan"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Tidak ada yang membuka tautan tepat waktu. Data dihapus dari server dan tautan tidak lagi berfungsi."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Tautan telah kedaluwarsa"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Salin tautan"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Tautan sekali pakai"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Tautan ini tidak lagi berfungsi"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Tautan hanya ditampilkan di tab tempat tautan dibuat. Anda masih dapat menghancurkan rahasia dari sini."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Halaman pengirim tautan sekali pakai Encrypt.One: bagikan tautan atau hancurkan rahasia."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Tautan Anda siap — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Buat tautan baru"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Kode QR tautan sekali pakai"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Arahkan kamera ponsel ke kode untuk membuka tautan. Jangan tunjukkan kode kepada orang lain: kode membuka rahasia seperti tautan."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Kode QR tautan"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Kirim melalui"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Email"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "Kode QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Rahasia untuk Anda"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Tautan sekali pakai ke rahasia:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Berlaku hingga"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tip:</strong> untuk data yang sangat sensitif, tambahkan kata sandi ke tautan dan sampaikan melalui cara lain, misalnya lewat suara. Dengan begitu, penyadapan satu pesan tidak mengungkap apa pun."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Lampirkan berkas"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Lepaskan untuk melampirkan berkas"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Anda dapat menyeret berkas langsung ke kolom."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Hingga {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Peramban ini tidak mendukung enkripsi. Perbarui atau buka situs di peramban lain."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Tempel teks atau lampirkan berkas."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Berkas terlalu besar. Batasnya {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Tidak dapat menghubungi server. Periksa koneksi dan coba lagi."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Masukkan kata sandi pembuka atau nonaktifkan perlindungan kata sandi."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "akan dienkripsi bersama teks"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Hapus berkas"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Buat kata sandi"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Masukkan ke kolom rahasia"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Sarankan"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Tanpa kata sandi ini, rahasia tidak akan terbuka meskipun tautan disadap. Sampaikan kepada penerima secara terpisah, misalnya lewat suara atau aplikasi pesan lain."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Kata sandi pembuka"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Contohnya maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Lindungi dengan kata sandi"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Apa yang ingin Anda bagikan?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Kata sandi, kunci API, data masuk…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Pengaturan tautan"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Buat tautan sekali pakai"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Mengenkripsi…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 hari"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 jam"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 hari"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 hari"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Kedaluwarsa dalam"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Lama penyimpanan"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Pembuat kata sandi kuat, frasa sandi, dan PIN acak gratis yang dibuat di peramban dan tidak pernah dikirim ke mana pun. Bagikan hasilnya dengan tautan sekali pakai."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Pembuat Kata Sandi Kuat — Gratis dan Pribadi | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Angka (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Panjang"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Huruf kecil (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Tanpa karakter yang mirip (0 dan O, l dan 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Karakter"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Simbol (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Huruf besar (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Frasa dari kata acak mudah diucapkan dan diingat, tetapi sama sulit ditebaknya dengan kata sandi panjang. Kata-katanya berasal dari daftar terbuka EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Jumlah kata"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Jumlah digit"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Buat lagi"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Kirim sebagai tautan sekali pakai"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Hasilnya langsung masuk ke formulir, dan Anda akan mendapatkan tautan yang hanya terbuka sekali."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Perlu membagikan kata sandi ini?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropi ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Cukup"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Hanya cocok sebagai PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Kuat"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Sangat kuat"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Lemah"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Jenis kata sandi"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Kata sandi"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Frasa sandi"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Setidaknya 14–16 karakter. Panjang lebih melindungi daripada mengganti huruf dengan simbol."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Panjang"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Anda tidak perlu mengingat kata sandi yang rumit: gunakan pengelola kata sandi."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Disimpan di pengelola kata sandi"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Apa yang membuat kata sandi kuat"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Satu untuk setiap layanan. Dengan begitu, kebocoran satu kata sandi tidak membuka akun lain."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unik"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Pembuat kata sandi"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Tidak. Rahasia dienkripsi di peramban sebelum dikirim. Kunci berada di tautan setelah tanda #, dan bagian alamat itu tidak pernah mencapai server."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Tidak terjadi apa-apa. Rahasia hanya muncul setelah tombol «Tampilkan rahasia» ditekan, dan bot pratinjau tidak menekan tombol."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Rahasia terhapus otomatis saat masa penyimpanan yang dipilih berakhir."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Ya. Halaman tautan memiliki tombol «Hancurkan sekarang». Setelah itu tautan berhenti berfungsi."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Tidak. Pengirim maupun penerima tidak memerlukan akun."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Tidak menemukan jawaban? Buat laporan di GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Bisakah kalian membaca rahasia saya?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Bagaimana jika bot pratinjau aplikasi pesan membuka tautan?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Bagaimana jika penerima tidak pernah membuka tautan?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Bisakah saya mencabut tautan setelah mengirimnya?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Apakah saya perlu mendaftar?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Tanya jawab"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Rahasia Anda dienkripsi langsung di peramban. Penerima membuka tautan sekali, lalu data dihapus dari server."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Tanpa pendaftaran"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Enkripsi AES-256 di perangkat Anda"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Bagikan kata sandi dengan aman melalui tautan sekali pakai"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Kata sandi, kunci API, data masuk, atau berkas. Semuanya dienkripsi di peramban sebelum dikirim."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Tempel rahasia Anda"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Melalui Telegram, WhatsApp, Signal, Slack, email, atau aplikasi pesan lain. Hanya tautan yang tersimpan di percakapan, bukan kata sandinya."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Kirim tautan"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Setelah dilihat, data dihapus dari server. Tautan tidak dapat dibuka untuk kedua kalinya."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Tautan habis digunakan"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Cara kerja"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Kirim kata sandi, pesan pribadi, kunci API, dan berkas dengan tautan sekali pakai yang dienkripsi. Rahasia dihapus setelah dilihat. Gratis, sumber terbuka, tanpa pendaftaran."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Tautan Rahasia Sekali Pakai — Bagikan Kata Sandi dengan Aman | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Bagikan kata sandi dan kredensial tanpa meninggalkannya di riwayat percakapan."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Kata sandi dan data masuk"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Kirim pesan sensitif yang hanya dapat dibuka sekali."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Pesan pribadi"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Bagikan kunci API, token akses, dan berkas konfigurasi dengan aman kepada tim Anda."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "Kunci API dan kredensial"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Bagikan dokumen dan berkas pribadi hingga {{.MaxFileSize}} melalui tautan sekali pakai yang dienkripsi."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Berkas rahasia"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Kirim pesan yang terhapus sendiri, kata sandi, kunci API, dan berkas pribadi dengan aman. Setiap rahasia dienkripsi di peramban dan dihapus dari server setelah dilihat."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Apa yang dapat dibagikan dengan tautan sekali pakai?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Tetap bersama Anda.</strong> Kunci dekripsi. Peramban tidak pernah mengirim apa pun setelah # ke server."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Dikirim ke server.</strong> Alamat data terenkripsi: tanpa kunci, data itu hanya byte acak."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Web Crypto API bawaan peramban dan AES-256-GCM. Tanpa pustaka pihak ketiga."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Dienkripsi di peramban"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Semua kode dipublikasikan di <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Siapa pun dapat memeriksa cara kerja enkripsi."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Tanpa pendaftaran, skrip pihak ketiga, atau pelacak. Karena itu, tidak ada pula banner kuki."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Tidak ada yang berlebihan"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Kunci dekripsi berada di dalam tautan setelah tanda #. Peramban tidak pernah mengirim bagian alamat itu ke server, sehingga hanya Anda dan penerima yang dapat melihatnya."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Selengkapnya tentang cara kerja"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Mengapa kami tidak dapat membaca rahasia Anda"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Bagikan rahasia"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kode di GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Semua kode Encrypt.One ada di GitHub. Siapa pun dapat melihat cara kerja enkripsi dan memastikan kunci tidak pernah dikirim ke server."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Periksa sendiri"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Alur data"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Rahasia dienkripsi sebelum dikirim dan hanya didekripsi oleh penerima. Selama perjalanan, data selalu terenkripsi."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Mengunduh data terenkripsi, mengambil kunci dari tautan, dan mendekripsi rahasia secara lokal. Server menghapus data segera setelah itu."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Peramban penerima"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Membuat kunci acak dan mengenkripsi teks serta berkas dengan AES-256-GCM menggunakan Web Crypto API bawaan peramban."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Peramban pengirim"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Hanya menerima dan menyimpan byte terenkripsi. Tanpa kunci tidak ada yang dapat membacanya — baik kami maupun siapa pun yang mengakses server."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Server Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Server hanya melihat data terenkripsi"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One mengenkripsi rahasia langsung di peramban Anda. Hanya data terenkripsi yang dikirim ke server, sedangkan kunci tetap di tautan dan tidak pernah meninggalkan perangkat pengirim dan penerima."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Cara kerja dan alasan keamanannya"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Di dalam tautan"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Tautan memiliki dua bagian. Bagian pertama menunjukkan lokasi data terenkripsi. Bagian kedua, setelah #, adalah kunci dekripsi."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Siapa pun yang memiliki tautan lengkap dapat membuka rahasia. Kirim hanya kepada penerima dan tambahkan kata sandi untuk data sensitif."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Tautan lengkap memberikan akses"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Peramban tidak menyertakan bagian setelah # dalam permintaan. Jadi, kunci tidak ada di log server maupun titik jaringan di antaranya."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Tidak pernah dikirim ke server"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Kunci dibuat secara acak di perangkat Anda. Kunci tidak dapat ditebak dengan serangan brute force."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Baru untuk setiap tautan"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Kunci berada setelah #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Cara Encrypt.One mengenkripsi rahasia di peramban: AES-256-GCM, kunci setelah #, penyimpanan, penghapusan data, dan perlindungan kata sandi."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Cara Kerja Encrypt.One: Berbagi Rahasia dengan Enkripsi Ujung ke Ujung"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Buka pembuat kata sandi"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Kata sandi pembuka"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Kata sandi melindungi rahasia meskipun tautan disadap. Tanpanya, penerima hanya melihat kolom masukan."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Setelah tiga percobaan salah, rahasia dihapus. Kata sandi tidak dapat ditebak dengan brute force."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tiga percobaan"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Klik «Sarankan» di formulir atau pilih frasa dari pembuat kata sandi: mudah dibacakan."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Jangan buat sendiri"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Sampaikan kata sandi dengan cara lain: lewat suara, aplikasi pesan lain, atau secara langsung. Dengan begitu, penyadapan satu pesan tidak mengungkap apa pun."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Sampaikan secara terpisah"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Kunci kedua untuk data sensitif"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Jika kata sandi pembuka salah dimasukkan tiga kali, rahasia dihapus secara permanen."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Setelah tiga kata sandi salah"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Tombol «Hancurkan sekarang» di halaman tautan langsung menghapus rahasia."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Atas perintah Anda"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Jika tautan tidak dibuka dalam masa penyimpanan yang dipilih, rahasia terhapus otomatis."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Saat kedaluwarsa"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Begitu penerima membuka rahasia, data dihapus. Tautan tidak akan berfungsi untuk kedua kalinya."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Setelah dibuka"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Penghitung percobaan kata sandi yang salah"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Teks dan berkas terenkripsi"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Disimpan di server"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Masa penyimpanan yang Anda pilih"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Penyimpanan"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Server menyimpan rahasia selama waktu yang diperlukan penerima untuk membukanya."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Kunci dekripsi dari tautan"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Kata sandi pembuka"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Isi rahasia dalam bentuk terbaca"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Tidak pernah mencapai server"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Apa yang disimpan server dan kapan dihapus"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Pembuat kata sandi"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Ke beranda"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Halaman itu tidak ada di Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Halaman tidak ditemukan — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Alamat mungkin salah ketik atau halaman telah dipindahkan. Jika Anda membuka tautan sekali pakai, pastikan tautan disalin lengkap."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Halaman tidak ditemukan"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Jika kebijakan ini berubah, kami akan menerbitkan versi baru di halaman ini dan memperbarui tanggal di atas.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Perubahan kebijakan"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Ajukan pertanyaan privasi melalui <a href=\"https://github.com/Draal/secure-share/issues\">laporan di GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Pertanyaan"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>segera setelah penerima membuka rahasia;</li><li>saat Anda menekan «Hancurkan sekarang» di halaman tautan;</li><li>setelah kata sandi salah untuk ketiga kalinya;</li><li>saat masa yang dipilih berakhir, dari satu jam hingga tujuh hari. Rahasia yang kedaluwarsa langsung tidak lagi tersedia dan datanya dihapus saat pembersihan harian.</li></ul><p>Rahasia yang dihapus tidak dapat dipulihkan. Bot aplikasi pesan yang membuat pratinjau tautan tidak menghabiskan rahasia: data hanya diberikan setelah «Tampilkan rahasia» ditekan.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Kapan data dihapus"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Kata sandi, frasa sandi, dan PIN dibuat di peramban Anda dengan generator angka acak kriptografis dan tidak pernah dikirim ke server.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Pembuat kata sandi"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One dibuat agar hanya penerima yang dapat membaca rahasia — bahkan kami pun tidak. Berikut data yang melewati layanan dan apa yang terjadi padanya."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Server aplikasi hanya mencatat permintaan API: jenis permintaan, hasil, dan waktu pemrosesan. Alamat IP, ID rahasia, token, alamat halaman, dan isi permintaan tidak dicatat.</p><p>Untuk melindungi layanan dari serangan brute force dan penyalahgunaan, server membatasi frekuensi permintaan per alamat IP. Alamat hanya digunakan di memori dan tidak disimpan.</p><p>Server web di depan aplikasi dapat menyimpan log akses standar: alamat IP, waktu, dan alamat halaman tanpa bagian setelah #. Log tersebut hanya digunakan untuk melindungi dari serangan dan disimpan untuk waktu terbatas.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Log teknis"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Kebijakan privasi Encrypt.One: data yang diterima layanan, lama penyimpanannya, dan alasan layanan tidak dapat membaca rahasia Anda."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Kebijakan Privasi — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Kata sandi itu sendiri tidak pernah meninggalkan peramban. Dari kata sandi dan kunci tautan, peramban menghasilkan dua nilai independen: kunci enkripsi dan hash pemeriksaan (PBKDF2 dengan 600.000 iterasi, lalu HKDF). Hanya hash yang dikirim ke server. Server menggunakannya untuk memeriksa kata sandi, tetapi tidak dapat mengetahui kata sandi maupun kuncinya.</p><p>Setelah tiga percobaan salah, rahasia dihapus. Penghitung percobaan disimpan dalam memori server dan terikat pada rahasia, bukan pengunjung.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Kata sandi pembuka"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Kami tidak mengetahui siapa yang membuat atau membuka rahasia: layanan tidak menghubungkan data dengan orang, akun, atau alamat IP. Karena itu kami tidak dapat menemukan, menyerahkan, atau menghapus data orang tertentu. Untuk menghapus rahasia sebelum kedaluwarsa, buka halaman tautan dan tekan «Hancurkan sekarang».</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Hak Anda"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Teks dan berkas terlampir dienkripsi di peramban dengan AES-256-GCM melalui Web Crypto API bawaan sebelum dikirim. Nama dan jenis berkas dienkripsi bersama isinya.</p><p>Server hanya menyimpan:</p><ul><li>data terenkripsi;</li><li>waktu kedaluwarsa;</li><li>penanda apakah ada berkas terlampir;</li><li>hash pemeriksaan kata sandi, jika Anda menetapkan kata sandi pembuka.</li></ul><p>Kunci dekripsi adalah bagian tautan setelah tanda #. Peramban tidak pernah mengirim bagian itu ke server, sehingga baik kami maupun siapa pun yang mengakses server tidak dapat mendekripsi data. Karena alasan yang sama, kami tidak dapat memulihkan rahasia jika tautan hilang.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Rahasia dan berkas"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One adalah layanan gratis untuk berbagi kata sandi, kunci, dan berkas melalui tautan sekali pakai. Tidak perlu mendaftar. Layanan dikembangkan dan dijalankan oleh <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Anda mengirim tautan sendiri dengan cara apa pun. Pesan melalui aplikasi, email, atau SMS dapat disadap, dan orang yang pertama membuka tautan akan mendapatkan rahasianya. Untuk data penting, tetapkan kata sandi pembuka dan sampaikan melalui saluran lain.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Cara kerja layanan"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Rahasia dienkripsi di peramban Anda. Server hanya menerima data terenkripsi dan tidak dapat membacanya.</li><li>Kunci dekripsi berada di tautan setelah tanda # dan tidak pernah dikirim ke server.</li><li>Tanpa pendaftaran, iklan, analitik, atau skrip pihak ketiga.</li><li>Rahasia dihapus segera setelah dibuka atau saat masa yang dipilih berakhir.</li><li>Server aplikasi tidak mencatat alamat IP atau ID rahasia.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Ringkasnya"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Kode sumber terbuka di <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: Anda dapat memeriksa cara kerja enkripsi atau menjalankan salinan sendiri.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Sumber terbuka"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Kami tidak menggunakan kuki iklan atau analitik. Situs hanya menyimpan hal yang diperlukan untuk bekerja di peramban Anda:</p><ul><li>kuki <code>lang</code> — bahasa Anda, jika dipilih melalui pemilih bahasa;</li><li>di localStorage — tema warna, penanda bahwa Anda menutup banner bahasa, dan penanda tautan yang dihancurkan dari peramban ini;</li><li>di sessionStorage — kata sandi dari pembuat saat dipindahkan ke formulir di beranda. Kata sandi dihapus segera setelah dimasukkan.</li></ul><p>Dari semua ini, hanya kuki bahasa yang mencapai server, yang menggunakannya untuk memilih versi halaman. Anda dapat menghapus semuanya di pengaturan peramban.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Kuki dan penyimpanan peramban"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Situs tidak memuat skrip, font, penghitung, atau iklan pihak ketiga: semuanya, termasuk font, disediakan dari server kami. Kami tidak menjual atau membagikan data kepada pihak ketiga.</p><p>Tombol kirim melalui Telegram, WhatsApp, dan email serta tautan ke situs sponsor adalah tautan biasa. Layanan eksternal hanya menerima data ketika Anda mengeklik, dan setelah itu kebijakannya sendiri berlaku.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Layanan pihak ketiga"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Kebijakan privasi"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Terakhir diperbarui: 25 Oktober 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Tautan rusak atau tidak disalin lengkap. Minta pengirim mengirimkannya lagi."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Data telah diterima tetapi tidak dapat didekripsi: tautan rusak. Rahasia sudah dihapus dari server, jadi minta pengirim membuat yang baru."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Tidak dapat menghubungi server. Periksa koneksi dan coba lagi."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Terlalu banyak percobaan. Tunggu satu menit dan coba lagi."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Rahasia tidak dapat dibuka"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Buat tautan Anda sendiri"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Cara kerja tautan sekali pakai"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Rahasia sudah dibuka atau kedaluwarsa. Tautan tidak dapat dibuka lagi."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Minta pengirim membuat tautan baru. Jika Anda tidak membuka tautan ini, beri tahu mereka: mungkin orang lain telah melihatnya."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Rahasia ini tidak lagi tersedia"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Rahasia hanya dapat dilihat sekali. Segera setelah itu rahasia akan dihapus dari server."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Rahasia ini dilindungi kata sandi. Hanya dapat dilihat sekali, lalu akan dihapus dari server."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Seseorang mengirimkan rahasia untuk Anda"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Tautan sekali pakai Encrypt.One. Rahasia dapat dibuka sekali, lalu dihapus dari server."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Seseorang mengirimkan rahasia untuk Anda — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Masukkan kata sandi."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Pengirim seharusnya menyampaikan kata sandi secara terpisah. Setelah tiga percobaan salah, rahasia dihapus."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Kata sandi pembuka"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Buka"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Bagikan rahasia Anda"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Buat tautan sekali pakai Anda sendiri. Tanpa pendaftaran."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Perlu membagikan kata sandi juga?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Tampilkan rahasia"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Dihapus dari server"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Unduh"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Simpan jika Anda membutuhkannya nanti: setelah halaman ditutup, rahasia tidak dapat dibuka lagi."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Teks rahasia"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Rahasia Anda"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Membuka…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Apa itu Encrypt.One?"
+  }
+]

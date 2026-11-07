@@ -1,253 +1,97 @@
 package main
 
 import (
-	"bytes"
-	"encoding/base64"
-	"encoding/json"
-	"errors"
 	"fmt"
 	"net/http"
 	"os"
-	"path"
-	"regexp"
 	"strings"
-	"time"
 
 	"github.com/Draal/secure-share/config"
-	"github.com/Draal/secure-share/context"
 	"github.com/Draal/secure-share/storage"
-	template "github.com/Draal/secure-share/templates"
 )
 
 type Handler struct {
-	config                *config.Config
-	storage               storage.Storage
-	defaultExpire         int64
-	badPasswords          map[string]int
-	maxWrongPasswordTries int
+	config    *config.Config
+	storage   storage.Storage
+	templates *templateSet
+	siteURL   string // absolute site URL without a trailing slash, for canonical links
+
+	manageSecret []byte // key of the sender page tokens, from MANAGE_TOKEN_SECRET
+	limits       *rateLimiter
+	attempts     *passwordAttempts
+	idLocks      idLocks
 }
 
-type Data struct {
-	Data   string
-	Hash   string `json:",omitempty"`
-	Attach bool   `json:",omitempty"`
+type handlerOptions struct {
+	SiteURL      string
+	ManageSecret []byte
 }
 
-func recordEvent(r *http.Request, evt map[string]interface{}) {
-	evt["time"] = time.Now().Format(time.RFC3339Nano)
-	if r != nil {
-		evt["url"] = r.URL.String()
-		evt["host"] = r.URL.Host
-		evt["path"] = r.URL.Path
-	}
-	json.NewEncoder(os.Stdout).Encode(evt)
-}
+// ServeHTTP is the single entry point: static files, pages and the API.
+func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	setSecurityHeaders(w.Header())
 
-type NotFound struct{ error }
-
-func (e NotFound) FriendlyMessage() string {
-	return e.Error()
-}
-
-func (h *Handler) errorHandler(w http.ResponseWriter, r *http.Request, err error) {
-	recordEvent(r, map[string]interface{}{
-		"error": err.Error(),
-	})
-	status := http.StatusInternalServerError
-	switch err.(type) {
-	case BadRequest:
-		status = http.StatusBadRequest
-	case storage.NotFound, NotFound:
-		status = http.StatusNotFound
-	}
-	splitCode := strings.Split(fmt.Sprintf("%T", err), ".")
-	splitCode[0] = "Secure.Share"
-	var message string
-	if e, ok := err.(interface {
-		FriendlyMessage() string
-	}); ok {
-		message = e.FriendlyMessage()
-	}
-	w.WriteHeader(status)
-	type Error struct {
-		Code    string `json:"code"`
-		Message string `json:"message,ommitempty"`
-	}
-	json.NewEncoder(w).Encode(struct {
-		Error Error `json:"error"`
-	}{
-		Error: Error{
-			Code:    strings.Join(splitCode, "."),
-			Message: message,
-		},
-	})
-}
-
-type BadRequest struct{ error }
-
-func (e BadRequest) FriendlyMessage() string {
-	return e.Error()
-}
-
-func (h *Handler) postHandler(w http.ResponseWriter, r *http.Request, ctx *context.Context) {
-	data := storage.Data{
-		Attach: r.FormValue("att") == "true",
-	}
-	var err error
-	data.Data, err = base64.StdEncoding.DecodeString(r.FormValue("data"))
-	if err != nil {
-		h.errorHandler(w, r, BadRequest{fmt.Errorf("Data parse error: %s", err.Error())})
-		return
-	}
-	if hash := r.FormValue("passHash"); hash != "" {
-		data.PassHash, err = base64.StdEncoding.DecodeString(hash)
-		if err != nil {
-			h.errorHandler(w, r, BadRequest{fmt.Errorf("Passphrase hash parse error: %s", err.Error())})
-			return
-		}
-	}
-	if len(data.Data) > int(ctx.MaxFileSize)*2 { // allow twice size for encoding overheads
-		h.errorHandler(w, r, BadRequest{fmt.Errorf("Maximum data size has been exceeded %d out of %d", len(data.Data), ctx.MaxFileSize)})
-		return
-	}
-	expires := time.Now().Unix() + h.defaultExpire
-	id, err := h.storage.Post(data, expires)
-	if err != nil {
-		h.errorHandler(w, r, err)
-		return
-	}
-
-	answer := struct {
-		Id      string `json:"id"`
-		Expires int64  `json:"expires"`
-	}{
-		Id:      id,
-		Expires: expires,
-	}
-	w.Header().Set("Content-Type", "application/json; charset=utf-8")
-	json.NewEncoder(w).Encode(answer)
-}
-
-func (h *Handler) getHandler(w http.ResponseWriter, r *http.Request, ctx *context.Context) {
-	id := r.FormValue("id")
-	if id == "" {
-		h.errorHandler(w, r, BadRequest{fmt.Errorf("Provide an id")})
-		return
-	}
-	if r.Method == http.MethodDelete {
-		h.storage.Delete(id)
-		w.WriteHeader(http.StatusOK)
-		w.Write([]byte("{}"))
-		return
-	}
-	passHash := r.FormValue("passHash")
-	data, err := h.storage.Get(id, passHash)
-	if err != nil {
-		if _, ok := err.(storage.NotFound); ok {
-			err = NotFound{errors.New(ctx.T("secret_not_found"))}
-		}
-		h.errorHandler(w, r, err)
-		return
-	}
-	if len(data.PassHash) > 0 {
-		if passHash, err := base64.StdEncoding.DecodeString(passHash); err != nil {
-			h.errorHandler(w, r, BadRequest{fmt.Errorf("Passphrase hash parse error: %s", err.Error())})
-			return
-		} else if !bytes.Equal(data.PassHash, passHash) {
-			tryCount := h.badPasswords[id]
-			tryCount++
-			h.badPasswords[id] = tryCount
-			if tryCount >= h.maxWrongPasswordTries {
-				h.storage.Delete(id)
-				h.errorHandler(w, r, NotFound{errors.New(ctx.T("secret_not_found"))})
-			} else {
-				h.errorHandler(w, r, BadRequest{errors.New(ctx.T("invalid_passphrase", h.maxWrongPasswordTries-tryCount))})
-			}
-			return
-		}
-	}
-	h.storage.Delete(id)
-
-	answer := struct {
-		Id     string `json:"id"`
-		Data   string `json:"data"`
-		Attach bool   `json:"attach,omitempty"`
-	}{
-		Id:     id,
-		Data:   base64.StdEncoding.EncodeToString(data.Data),
-		Attach: data.Attach,
-	}
-	w.Header().Set("Content-Type", "application/json; charset=utf-8")
-	json.NewEncoder(w).Encode(answer)
-}
-
-func (h *Handler) indexHandler(w http.ResponseWriter, r *http.Request, ctx *context.Context) {
-	template.Index(w, ctx)
-}
-
-func (h *Handler) showHandler(w http.ResponseWriter, r *http.Request, ctx *context.Context) {
-	template.Show(w, ctx)
-}
-
-func (h *Handler) SaveLanguageToCookie(lang string, w http.ResponseWriter) {
-	expire := time.Now().AddDate(5, 0, 0)
-	cookie := http.Cookie{
-		Name:    "lang",
-		Value:   lang,
-		Path:    "/",
-		Expires: expire,
-	}
-	http.SetCookie(w, &cookie)
-}
-
-func (h *Handler) GetLanguageFromCookie(r *http.Request) string {
-	lang, _ := r.Cookie("lang")
-	if lang != nil {
-		return lang.Value
-	}
-	return ""
-}
-
-var hashRe = regexp.MustCompile(`\.[0-9a-f]+(\.[a-z]+)$`)
-
-func (h *Handler) Handler(w http.ResponseWriter, r *http.Request) {
-	ctx := &context.Context{
-		Config:      h.config,
-		MaxFileSize: h.config.MaxFileSize,
-	}
-	setLanguage := ""
-	if lang := r.URL.Query().Get("lang"); lang != "" {
-		for _, l := range ctx.Config.Languages {
-			if l.Code[:2] == lang {
-				setLanguage = l.Code
-				h.SaveLanguageToCookie(setLanguage, w)
-				break
-			}
-		}
-	} else {
-		setLanguage = h.GetLanguageFromCookie(r)
-	}
-	ctx.T, ctx.CurrentLang = h.config.GetLanguage(r, setLanguage)
-	if r.URL.Path == "/" {
-		h.indexHandler(w, r, ctx)
-		return
-	} else if strings.HasPrefix(r.URL.Path, "/s/") {
-		h.showHandler(w, r, ctx)
-		return
-	}
-	switch path.Base(r.URL.Path) {
-	case "p":
-		h.postHandler(w, r, ctx)
-	case "g":
-		h.getHandler(w, r, ctx)
+	p := r.URL.Path
+	switch {
+	case strings.HasPrefix(p, "/assets/"):
+		h.serveStatic(w, r, p)
+	case p == "/favicon.ico":
+		h.serveStatic(w, r, "/assets/img/favicon.ico")
+	case p == "/robots.txt":
+		h.serveRobots(w, r)
+	case p == "/sitemap.xml":
+		h.serveSitemap(w, r)
+	case p == "/googleed203f16e9c1b9a9.html":
+		h.serveGoogleVerification(w, r)
+	case strings.HasPrefix(p, "/api/"):
+		h.serveAPI(w, r)
+	case h.redirectOldLangParam(w, r):
+	case isUnprefixedPage(p):
+		h.serveSecretPages(w, r)
 	default:
-		if r.URL.Path == "/googleed203f16e9c1b9a9.html" {
-			w.Write([]byte("google-site-verification: googleed203f16e9c1b9a9.html\n"))
-			return
-		}
-		p := hashRe.ReplaceAllString(r.URL.Path, "$1")
-		http.ServeFile(w, r, path.Join("public", p))
+		h.servePage(w, r)
 	}
+}
+
+// setSecurityHeaders adds the headers shared by every response.
+func setSecurityHeaders(hdr http.Header) {
+	const csp = "default-src 'none'; " +
+		"script-src 'self'; " +
+		"style-src 'self'; " +
+		"img-src 'self' data:; " +
+		"font-src 'self'; " +
+		"connect-src 'self'; " +
+		"manifest-src 'self'; " +
+		"form-action 'self'; " +
+		"base-uri 'none'; " +
+		"frame-ancestors 'none'"
+	hdr.Set("Content-Security-Policy", csp)
+	hdr.Set("Strict-Transport-Security", "max-age=63072000; includeSubDomains")
+	hdr.Set("Referrer-Policy", "no-referrer")
+	hdr.Set("X-Content-Type-Options", "nosniff")
+	hdr.Set("X-Frame-Options", "DENY")
+	hdr.Set("Cross-Origin-Opener-Policy", "same-origin")
+	hdr.Set("Cross-Origin-Resource-Policy", "same-origin")
+	hdr.Set("Permissions-Policy", "camera=(), microphone=(), geolocation=()")
+}
+
+func newHandler(c *config.Config, st storage.Storage, opts handlerOptions) (*Handler, error) {
+	templates, err := loadTemplates(c)
+	if err != nil {
+		return nil, fmt.Errorf("Couldn't load templates: %s", err.Error())
+	}
+	if len(opts.ManageSecret) < 32 {
+		return nil, fmt.Errorf("manage token secret must be at least 32 bytes")
+	}
+	return &Handler{
+		config:       c,
+		storage:      st,
+		templates:    templates,
+		siteURL:      strings.TrimSuffix(opts.SiteURL, "/"),
+		manageSecret: opts.ManageSecret,
+		limits:       newRateLimiter(defaultRateRules),
+		attempts:     newPasswordAttempts(),
+	}, nil
 }
 
 func OpenHandlerFromEnv() (*Handler, error) {
@@ -258,6 +102,9 @@ func OpenHandlerFromEnv() (*Handler, error) {
 	var st storage.Storage
 	switch os.Getenv("STORAGE_TYPE") {
 	case "disk":
+		if err := checkDiskPaths(os.Getenv("DISK_STORAGE_PATHS")); err != nil {
+			return nil, err
+		}
 		st, err = storage.OpenDiskStorageFromEnv()
 		if err != nil {
 			return nil, fmt.Errorf("Coudn't open disk storage: %s", err.Error())
@@ -265,12 +112,30 @@ func OpenHandlerFromEnv() (*Handler, error) {
 	default:
 		st = storage.OpenMemoryStorage()
 	}
-	handler := Handler{
-		config:                config,
-		storage:               st,
-		badPasswords:          make(map[string]int),
-		defaultExpire:         3600 * 24 * 7, // expire in a week by default
-		maxWrongPasswordTries: 3,             // allow only 3 password tries
+	opts := handlerOptions{
+		SiteURL:      os.Getenv("SITE_URL"),
+		ManageSecret: []byte(os.Getenv("MANAGE_TOKEN_SECRET")),
 	}
-	return &handler, nil
+	if opts.SiteURL == "" {
+		opts.SiteURL = "https://encrypt.one"
+	}
+	if len(opts.ManageSecret) == 0 {
+		panic("MANAGE_TOKEN_SECRET is not set: using a random key, sender page links stop working after a restart")
+	}
+	return newHandler(config, st, opts)
+}
+
+// checkDiskPaths rejects an empty DISK_STORAGE_PATHS or entries that are not
+// existing directories. The storage package itself accepts "" and would
+// write from the filesystem root.
+func checkDiskPaths(paths string) error {
+	for _, p := range strings.Split(paths, ":") {
+		if p == "" {
+			return fmt.Errorf("DISK_STORAGE_PATHS must list storage directories separated by \":\"")
+		}
+		if info, err := os.Stat(p); err != nil || !info.IsDir() {
+			return fmt.Errorf("DISK_STORAGE_PATHS: %s is not a directory", p)
+		}
+	}
+	return nil
 }

@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Не ўдалося апрацаваць запыт. Абнавіце старонку і паспрабуйце яшчэ раз."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Гэта спасылка не дазваляе знішчыць сакрэт."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Сакрэт не знойдзены: яго ўжо адкрылі, знішчылі або тэрмін яго дзеяння скончыўся."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Для адкрыцця гэтага сакрэту патрэбны пароль."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Занадта шмат запытаў. Пачакайце хвіліну і паспрабуйце яшчэ раз."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "На нашым баку нешта пайшло не так. Паспрабуйце яшчэ раз праз хвіліну."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Файл занадта вялікі. Абмежаванне — {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Пароль тройчы ўведзены няправільна, таму сакрэт выдалены."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Няправільны пароль. Засталося спроб: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Закрыць"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Скапіявана"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Скапіяваць"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Спасылкі"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Прыватнасць"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Праект"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Пытанні і адказы"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Інструкцыі"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Як гэта працуе"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Бяспека"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Рэсурсы"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Адправіць файл"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Генератар пароляў"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Падзяліцца сакрэтам"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Сэрвіс"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Аднаразовыя спасылкі для перадачы пароляў і файлаў. Шыфраванне ў вашым браўзеры."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Зыходны код на GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Беларуская"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "BE"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Мова сайта: беларуская"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Галоўная старонка Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: перадайце пароль аднаразовай спасылкай"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Пытанні і адказы"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Генератар пароляў"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Як гэта працуе"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Галоўная навігацыя"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Перайсці да змесціва"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Час, календары і святы для любога горада"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Бясплатныя гульні проста ў браўзеры"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Тысячы радыёстанцый з усяго свету"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One бясплатны дзякуючы нашым спонсарам"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Цёмная"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Тэма"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Светлая"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Сістэмная"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Адпраўце яе атрымальніку. Сакрэт можна адкрыць толькі адзін раз."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Ваша спасылка гатовая"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Атрымаць яшчэ адну спасылку"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Для таго ж сакрэту — асобная спасылка кожнаму атрымальніку. Бягучая спасылка працягне працаваць, але знішчыць яе адсюль ужо не атрымаецца."
+  },
+  {
+    "id": "created.back",
+    "translation": "Новы сакрэт"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Знішчыць зараз"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Знішчыць сакрэт? Спасылка адразу перастане працаваць."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Не ўдалося знішчыць сакрэт. Паспрабуйце яшчэ раз."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Адправілі не таму чалавеку? Знішчыце сакрэт, і спасылка адразу перастане працаваць."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Вы знішчылі сакрэт. Даныя выдалены з сервера, і спасылка больш не працуе."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Сакрэт знішчаны"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Ніхто не адкрыў спасылку своечасова. Даныя выдалены з сервера, і спасылка больш не працуе."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Тэрмін дзеяння спасылкі скончыўся"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Скапіяваць спасылку"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Аднаразовая спасылка"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Гэта спасылка больш не працуе"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Спасылка паказваецца толькі ва ўкладцы, дзе яе стварылі. Знішчыць сакрэт можна і адсюль."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Старонка адпраўніка аднаразовай спасылкі Encrypt.One: падзяліцеся спасылкай або знішчыце сакрэт."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Ваша спасылка гатовая — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Стварыць новую спасылку"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR-код аднаразовай спасылкі"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Навядзіце камеру тэлефона на код, каб адкрыць спасылку. Не паказвайце код іншым: ён адкрывае сакрэт гэтак жа, як спасылка."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "QR-код спасылкі"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Адправіць праз"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Электронная пошта"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR-код"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Сакрэт для вас"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Аднаразовая спасылка на сакрэт:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Дзейнічае да"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Парада:</strong> для асабліва важных даных дадавайце пароль да спасылкі і паведамляйце яго іншым спосабам, напрыклад голасам. Тады перахоп аднаго паведамлення нічога не дасць."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Далучыць файл"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Адпусціце, каб далучыць файл"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Файл можна перацягнуць проста ў поле."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Да {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Гэты браўзер не падтрымлівае шыфраванне. Абнавіце яго або адкрыйце сайт у іншым браўзеры."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Устаўце тэкст або далучыце файл."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Файл занадта вялікі. Абмежаванне — {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Не ўдалося звязацца з серверам. Праверце злучэнне і паспрабуйце яшчэ раз."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Увядзіце пароль для адкрыцця або адключыце абарону паролем."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "будзе зашыфраваны разам з тэкстам"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Прыбраць файл"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Згенераваць пароль"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Уставіць у поле сакрэту"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Прапанаваць"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Без гэтага пароля сакрэт не адкрыецца, нават калі спасылку перахопяць. Паведаміце яго атрымальніку асобна, напрыклад голасам або праз іншы месенджар."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Пароль для адкрыцця"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Напрыклад, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Абараніць паролем"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Што хочаце перадаць?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Пароль, API-ключ, даныя для ўваходу…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Налады спасылкі"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Стварыць аднаразовую спасылку"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Шыфраванне…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 дзень"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 гадзіна"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 дні"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 дзён"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Скончыцца праз"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Тэрмін захоўвання"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Бясплатны генератар надзейных пароляў, фраз і PIN-кодаў, якія ствараюцца ў браўзеры і нікуды не адпраўляюцца. Перадайце вынік аднаразовай спасылкай."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Генератар надзейных пароляў — бясплатна і прыватна | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Лічбы (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Даўжыня"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Малыя літары (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Без падобных знакаў (0 і O, l і 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Знакі"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Сімвалы (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Вялікія літары (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Фразу з выпадковых слоў лёгка вымавіць і запомніць, але адгадаць яе гэтак жа складана, як доўгі пароль. Словы паходзяць з адкрытага спіса EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Колькасць слоў"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Колькасць лічбаў"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Згенераваць яшчэ раз"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Адправіць аднаразовай спасылкай"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Вынік адразу трапіць у форму, і вы атрымаеце спасылку, якая адкрываецца толькі адзін раз."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Трэба перадаць гэты пароль?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Энтрапія ≈ {bits} біт"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Сярэдні"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Падыходзіць толькі як PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Надзейны"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Вельмі надзейны"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Слабы"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Тып пароля"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Пароль"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Парольная фраза"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Не менш за 14–16 знакаў. Даўжыня абараняе лепш за замену літар сімваламі."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Доўгі"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Складаныя паролі не трэба памятаць: для гэтага ёсць менеджар пароляў."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Захаваны ў менеджары пароляў"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Што робіць пароль надзейным"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Асобны для кожнага сэрвісу. Тады ўцечка аднаго пароля не адкрые іншыя акаўнты."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Унікальны"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Генератар пароляў"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Не. Сакрэт шыфруецца ў вашым браўзеры да адпраўкі. Ключ знаходзіцца ў спасылцы пасля знака #, а гэта частка адраса ніколі не трапляе на сервер."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Нічога не здарыцца. Сакрэт з’яўляецца толькі пасля націскання «Паказаць сакрэт», а боты папярэдняга прагляду не націскаюць кнопкі."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Сакрэт выдаліцца аўтаматычна, калі скончыцца абраны тэрмін захоўвання."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Так. На старонцы спасылкі ёсць кнопка «Знішчыць зараз». Пасля гэтага спасылка перастане працаваць."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Не. Ні адпраўніку, ні атрымальніку не патрэбны акаўнт."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Не знайшлі адказу? Стварыце запыт на GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Ці можаце вы прачытаць мой сакрэт?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Што будзе, калі бот папярэдняга прагляду месенджара адкрые спасылку?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Што будзе, калі атрымальнік ніколі не адкрые спасылку?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Ці магу я адклікаць спасылку пасля адпраўкі?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Ці трэба рэгістравацца?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Частыя пытанні"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Ваш сакрэт шыфруецца проста ў браўзеры. Атрымальнік адкрывае спасылку адзін раз, пасля чаго даныя выдаляюцца з сервера."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Без рэгістрацыі"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Шыфраванне AES-256 на вашай прыладзе"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Адкрыты зыходны код"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Бяспечна перадавайце паролі аднаразовымі спасылкамі"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Пароль, API-ключ, даныя для ўваходу або файл. Усё шыфруецца ў браўзеры перад адпраўкай."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Устаўце сакрэт"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Праз Telegram, WhatsApp, Signal, Slack, электронную пошту або іншы месенджар. У чаце застаецца толькі спасылка, а не сам пароль."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Адпраўце спасылку"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Пасля прагляду даныя выдаляюцца з сервера. Спасылку нельга адкрыць другі раз."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Спасылка перастае дзейнічаць"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Як гэта працуе"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Перадавайце паролі, прыватныя паведамленні, API-ключы і файлы праз зашыфраваныя аднаразовыя спасылкі. Сакрэты выдаляюцца пасля прагляду. Бясплатна, адкрыты код, без рэгістрацыі."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Аднаразовыя спасылкі на сакрэты — бяспечная перадача пароляў | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Перадавайце паролі і даныя для ўваходу, не пакідаючы іх у гісторыі чата."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Паролі і даныя для ўваходу"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Адпраўляйце прыватныя паведамленні, якія можна адкрыць толькі адзін раз."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Прыватныя паведамленні"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Бяспечна перадавайце камандзе API-ключы, токены доступу і файлы канфігурацыі."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API-ключы і даныя доступу"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Перадавайце прыватныя дакументы і файлы да {{.MaxFileSize}} праз зашыфраваныя аднаразовыя спасылкі."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Канфідэнцыйныя файлы"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Бяспечна адпраўляйце паведамленні, якія самазнішчаюцца, паролі, API-ключы і прыватныя файлы. Кожны сакрэт шыфруецца ў браўзеры і выдаляецца з сервера пасля прагляду."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Што можна перадаць аднаразовай спасылкай?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Застаецца ў вас.</strong> Ключ расшыфравання. Браўзеры ніколі не адпраўляюць на сервер частку пасля #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Адпраўляецца на сервер.</strong> Адрас зашыфраваных даных: без ключа гэта проста выпадковыя байты."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Убудаваны ў браўзер Web Crypto API і AES-256-GCM. Без старонніх бібліятэк."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Шыфраванне ў браўзеры"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Увесь код апублікаваны на <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Кожны можа праверыць, як працуе шыфраванне."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Адкрыты зыходны код"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Без рэгістрацыі, старонніх скрыптоў і трэкераў. Таму няма і банера cookies."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Нічога лішняга"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Ключ расшыфравання знаходзіцца ў спасылцы пасля знака #. Браўзеры ніколі не адпраўляюць гэтую частку адраса на сервер, таму яе бачыце толькі вы і атрымальнік."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Больш пра тое, як гэта працуе"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Чаму мы не можам прачытаць ваш сакрэт"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Падзяліцца сакрэтам"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Код на GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Адкрыты зыходны код"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Увесь код Encrypt.One знаходзіцца на GitHub. Кожны можа паглядзець, як працуе шыфраванне, і праверыць, што ключ ніколі не трапляе на сервер."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Праверце самі"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Паток даных"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Сакрэт шыфруецца перад адпраўкай і расшыфроўваецца толькі атрымальнікам. Паміж гэтымі момантамі даныя застаюцца зашыфраванымі."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Спампоўвае зашыфраваныя даныя, бярэ ключ са спасылкі і расшыфроўвае сакрэт лакальна. Сервер адразу пасля гэтага выдаляе даныя."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Браўзер атрымальніка"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Стварае выпадковы ключ і шыфруе тэкст і файл з дапамогай AES-256-GCM і ўбудаванага ў браўзер Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Браўзер адпраўніка"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Атрымлівае і захоўвае толькі зашыфраваныя байты. Без ключа іх ніхто не прачытае — ні мы, ні той, хто атрымае доступ да сервера."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Сервер Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Сервер бачыць толькі зашыфраваныя даныя"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One шыфруе ваш сакрэт проста ў браўзеры. На сервер ідуць толькі зашыфраваныя даныя, а ключ застаецца ў спасылцы і ніколі не пакідае прылады адпраўніка і атрымальніка."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Як гэта працуе і чаму гэта бяспечна"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Унутры спасылкі"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Спасылка мае дзве часткі. Першая паказвае, дзе захоўваюцца зашыфраваныя даныя. Другая, пасля #, — ключ расшыфравання."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Кожны, хто мае поўную спасылку, можа адкрыць сакрэт. Адпраўляйце яе толькі атрымальніку і дадавайце пароль для важных даных."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Поўная спасылка дае доступ"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Браўзеры не ўключаюць частку пасля # у запыты. Таму ключа няма ні ў журналах сервера, ні ў прамежкавых пунктах сеткі."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Ніколі не адпраўляецца на сервер"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Ключ генеруецца выпадкова на вашай прыладзе. Яго нельга адгадаць поўным пераборам."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Новы для кожнай спасылкі"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Ключ знаходзіцца пасля #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Як Encrypt.One шыфруе сакрэты ў браўзеры: AES-256-GCM, ключ у спасылцы пасля #, захоўванне, выдаленне даных і абарона паролем."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Як працуе Encrypt.One: перадача сакрэтаў са скразным шыфраваннем"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Адкрыць генератар пароляў"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Пароль для адкрыцця"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Пароль абараняе сакрэт нават пры перахопе спасылкі. Без яго атрымальнік бачыць толькі поле ўводу."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Пасля трох няправільных спроб сакрэт выдаляецца. Адгадаць пароль пераборам не атрымаецца."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Тры спробы"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Націсніце «Прапанаваць» у форме або выберыце фразу з генератара пароляў: яе лёгка прадыктаваць."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Не прыдумляйце самі"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Перадайце пароль іншым спосабам: голасам, праз іншы месенджар або асабіста. Тады перахоп аднаго паведамлення нічога не дасць."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Перадавайце асобна"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Другі замок для важных даных"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Калі пароль для адкрыцця тройчы ўвялі няправільна, сакрэт выдаляецца назаўсёды."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Пасля трох няправільных пароляў"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Кнопка «Знішчыць зараз» на старонцы спасылкі выдаляе сакрэт адразу."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Па вашай камандзе"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Калі спасылку не адкрылі за абраны тэрмін захоўвання, сакрэт выдаляецца аўтаматычна."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Калі тэрмін скончыўся"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Як толькі атрымальнік адкрые сакрэт, даныя выдаляюцца. Другі раз спасылка не спрацуе."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Пасля адкрыцця"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Лічыльнік няправільных спроб уводу пароля"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Зашыфраваныя тэкст і файл"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Захоўваецца на серверы"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Абраны тэрмін захоўвання"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Захоўванне"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Сервер захоўвае сакрэт роўна столькі, колькі патрэбна атрымальніку, каб яго адкрыць."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Ключ расшыфравання са спасылкі"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Пароль для адкрыцця"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Змесціва сакрэту ў адкрытым выглядзе"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Ніколі не трапляе на сервер"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Што захоўвае сервер і калі выдаляе"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Генератар пароляў"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "На галоўную"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Такой старонкі на Encrypt.One няма."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Старонка не знойдзена — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Магчыма, у адрасе памылка або старонка пераехала. Калі вы адкрывалі аднаразовую спасылку, праверце, ці скапіявана яна цалкам."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Старонка не знойдзена"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Калі гэта палітыка зменіцца, мы апублікуем новую версію на гэтай старонцы і абновім дату ўверсе.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Змены палітыкі"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Пытанні пра прыватнасць задавайце ў <a href=\"https://github.com/Draal/secure-share/issues\">запытах на GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Пытанні"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>адразу пасля таго, як атрымальнік адкрые сакрэт;</li><li>калі вы націснеце «Знішчыць зараз» на старонцы спасылкі;</li><li>пасля трэцяга няправільнага пароля;</li><li>пасля заканчэння абранага тэрміну ад адной гадзіны да сямі дзён. Пратэрмінаваны сакрэт адразу перастае выдавацца, а яго даныя сціраюцца падчас штодзённай ачысткі.</li></ul><p>Выдалены сакрэт аднавіць нельга. Боты месенджараў, якія ствараюць папярэдні прагляд спасылак, не расходуюць сакрэт: даныя выдаюцца толькі пасля націскання «Паказаць сакрэт».</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Калі даныя выдаляюцца"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Паролі, парольныя фразы і PIN-коды ствараюцца ў вашым браўзеры крыптаграфічным генератарам выпадковых лікаў і ніколі не адпраўляюцца на сервер.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Генератар пароляў"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One створаны так, каб сакрэт мог прачытаць толькі атрымальнік — нават мы не можам. Ніжэй апісана, якія даныя праходзяць праз сэрвіс і што з імі адбываецца."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Сервер прыкладання запісвае толькі запыты API: тып запыту, вынік і час апрацоўкі. IP-адрасы, ідэнтыфікатары сакрэтаў, токены, адрасы старонак і змесціва запытаў не запісваюцца.</p><p>Для абароны сэрвісу ад перабору і злоўжыванняў сервер абмяжоўвае частату запытаў з аднаго IP-адраса. Адрас выкарыстоўваецца толькі ў памяці і не захоўваецца.</p><p>Вэб-сервер перад прыкладаннем можа весці стандартны журнал доступу: IP-адрас, час і адрас старонкі без часткі пасля #. Такія журналы выкарыстоўваюцца толькі для абароны ад атак і захоўваюцца абмежаваны час.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Тэхнічныя журналы"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Палітыка прыватнасці Encrypt.One: якія даныя атрымлівае сэрвіс, як доўга іх захоўвае і чаму не можа прачытаць вашы сакрэты."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Палітыка прыватнасці — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Сам пароль ніколі не пакідае браўзер. З пароля і ключа спасылкі браўзер выводзіць дзве незалежныя велічыні: ключ шыфравання і праверачны хэш (PBKDF2 з 600 000 ітэрацый, затым HKDF). На сервер адпраўляецца толькі хэш. Сервер выкарыстоўвае яго для праверкі пароля, але не можа даведацца ні пароль, ні ключ.</p><p>Пасля трох няправільных спроб сакрэт выдаляецца. Лічыльнік спроб захоўваецца ў памяці сервера і прывязаны да сакрэту, а не да наведвальніка.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Пароль для адкрыцця"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Мы не ведаем, хто стварыў або адкрыў сакрэт: сэрвіс не звязвае даныя з людзьмі, акаўнтамі або IP-адрасамі. Таму мы не можам знайсці, выдаць або выдаліць даныя канкрэтнага чалавека. Каб выдаліць сакрэт датэрмінова, адкрыйце старонку спасылкі і націсніце «Знішчыць зараз».</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Вашы правы"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Тэкст і далучаны файл шыфруюцца ў браўзеры алгарытмам AES-256-GCM праз убудаваны Web Crypto API да адпраўкі. Імя і тып файла шыфруюцца разам са змесцівам.</p><p>На серверы захоўваюцца толькі:</p><ul><li>зашыфраваныя даныя;</li><li>час заканчэння тэрміну;</li><li>адзнака, ці далучаны файл;</li><li>праверачны хэш пароля, калі вы задалі пароль для адкрыцця.</li></ul><p>Ключ расшыфравання — частка спасылкі пасля знака #. Браўзеры ніколі не адпраўляюць гэтую частку на сервер, таму ні мы, ні той, хто атрымае доступ да сервера, не можам расшыфраваць даныя. Па той жа прычыне мы не можам аднавіць сакрэт, калі спасылка згублена.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Сакрэты і файлы"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One — бясплатны сэрвіс для перадачы пароляў, ключоў і файлаў аднаразовымі спасылкамі. Рэгістрацыя не патрэбна. Сэрвіс распрацоўвае і падтрымлівае <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Спасылку вы адпраўляеце самі любым зручным спосабам. Паведамленне ў месенджары, электронны ліст або SMS могуць перахапіць, і тады сакрэт атрымае той, хто першым адкрые спасылку. Для важных даных задавайце пароль для адкрыцця і паведамляйце яго іншым каналам.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Як працуе сэрвіс"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Сакрэт шыфруецца ў вашым браўзеры. Сервер атрымлівае толькі зашыфраваныя даныя і не можа іх прачытаць.</li><li>Ключ расшыфравання знаходзіцца ў спасылцы пасля знака # і ніколі не адпраўляецца на сервер.</li><li>Без рэгістрацыі, рэкламы, аналітыкі і старонніх скрыптоў.</li><li>Сакрэт выдаляецца адразу пасля адкрыцця або пасля заканчэння абранага тэрміну.</li><li>Сервер прыкладання не запісвае IP-адрасы і ідэнтыфікатары сакрэтаў.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Коратка"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Зыходны код адкрыты на <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: можна праверыць шыфраванне або запусціць уласную копію.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Адкрыты зыходны код"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Мы не выкарыстоўваем рэкламныя і аналітычныя cookies. Сайт захоўвае ў браўзеры толькі тое, што патрэбна для працы:</p><ul><li>cookie <code>lang</code> — вашу мову, калі вы выбралі яе ў пераключальніку;</li><li>у localStorage — каляровую тэму, адзнаку закрыцця моўнага банера і адзнакі спасылак, знішчаных з гэтага браўзера;</li><li>у sessionStorage — пароль з генератара падчас пераносу ў форму на галоўнай. Ён выдаляецца адразу пасля ўстаўкі.</li></ul><p>З гэтага толькі моўная cookie трапляе на сервер, які выбірае па ёй версію старонкі. Усё можна выдаліць у наладах браўзера.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookies і сховішча браўзера"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Сайт не загружае староннія скрыпты, шрыфты, лічыльнікі або рэкламу: усё, уключаючы шрыфты, падаецца з нашага сервера. Мы не прадаём і не перадаём даныя трэцім асобам.</p><p>Кнопкі адпраўкі праз Telegram, WhatsApp і электронную пошту, а таксама спасылкі на сайты спонсараў — звычайныя спасылкі. Знешні сэрвіс атрымлівае даныя толькі пасля націскання, і далей дзейнічае яго ўласная палітыка.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Староннія сэрвісы"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Палітыка прыватнасці"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Абноўлена: 25 кастрычніка 2026 г."
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Спасылка пашкоджана або скапіявана не цалкам. Папрасіце адпраўніка даслаць яе яшчэ раз."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Даныя атрыманы, але расшыфраваць іх не ўдалося: спасылка пашкоджана. Сакрэт ужо выдалены з сервера, таму папрасіце адпраўніка стварыць новы."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Не ўдалося звязацца з серверам. Праверце злучэнне і паспрабуйце яшчэ раз."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Занадта шмат спроб. Пачакайце хвіліну і паспрабуйце яшчэ раз."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Не ўдалося адкрыць сакрэт"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Стварыць сваю спасылку"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Як працуюць аднаразовыя спасылкі"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Яго ўжо адкрылі або тэрмін захоўвання скончыўся. Паўторна адкрыць спасылку нельга."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Папрасіце адпраўніка стварыць новую спасылку. Калі вы не адкрывалі гэтую, паведаміце яму: магчыма, яе ўбачыў нехта іншы."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Гэты сакрэт больш недаступны"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Яго можна паглядзець толькі адзін раз. Адразу пасля гэтага ён будзе выдалены з сервера."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Сакрэт абаронены паролем. Яго можна паглядзець толькі адзін раз, пасля чаго ён будзе выдалены з сервера."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Вам даслалі сакрэт"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Аднаразовая спасылка Encrypt.One. Сакрэт можна адкрыць адзін раз, пасля чаго ён выдаляецца з сервера."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Вам даслалі сакрэт — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Увядзіце пароль."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Адпраўнік павінен быў паведаміць пароль асобна. Пасля трох няправільных спроб сакрэт выдаляецца."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Пароль для адкрыцця"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Адкрыць"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Адправіць свой сакрэт"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Стварыце сваю аднаразовую спасылку. Без рэгістрацыі."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Трэба перадаць пароль?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Паказаць сакрэт"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Выдалены з сервера"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Спампаваць"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Захавайце яго, калі ён яшчэ спатрэбіцца: пасля закрыцця старонкі адкрыць сакрэт зноў не атрымаецца."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Тэкст сакрэту"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Ваш сакрэт"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Адкрыццё…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Што такое Encrypt.One?"
+  }
+]

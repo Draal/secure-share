@@ -1,0 +1,23 @@
+{{define "lang-switcher"}}{{$d := .Data}}<div class="lang{{if .Up}} lang--up{{end}}" data-lang>
+  <button type="button" class="lang__button" aria-expanded="false" aria-controls="{{.ID}}" aria-label="{{t "common.lang.label"}}">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"/></svg>
+    <span class="lang__full">{{t "common.lang.current"}}</span>
+    <span class="lang__short">{{t "common.lang.currentShort"}}</span>
+    <svg class="lang__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+  </button>
+  <div class="lang__menu" id="{{.ID}}" hidden>
+  <ul class="lang__group">
+  {{- range $d.Languages}}{{if and (ne .Code $d.Lang.Code) (or (eq .Short "en") (eq .Short "de") (eq .Short "fr") (eq .Short "es") (eq .Short "pt"))}}
+  <li><a class="lang__item" href="{{index $d.LangURLs .Short}}" lang="{{.Short}}" hreflang="{{.Short}}" data-lang-choice="{{.Code}}"{{if eq .Code $d.Lang.Code}} aria-current="page"{{end}}>{{.Name}}<svg class="lang__check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></a></li>
+  {{- end}}{{end}}
+  </ul>
+  <div class="lang__separator" aria-hidden="true"></div>
+  <ul class="lang__group">
+  {{- range $d.Languages}}{{if and (ne .Code $d.Lang.Code) (not (or (eq .Short "en") (eq .Short "de") (eq .Short "fr") (eq .Short "es") (eq .Short "pt")))}}
+  <li><a class="lang__item" href="{{index $d.LangURLs .Short}}" lang="{{.Short}}" hreflang="{{.Short}}" data-lang-choice="{{.Code}}"{{if eq .Code $d.Lang.Code}} aria-current="page"{{end}}>{{.Name}}<svg class="lang__check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></a></li>
+  {{- end}}{{end}}
+  </ul>
+  <div class="lang__current"><button type="button" class="lang__item lang__current-button" aria-current="page" data-lang-close>{{ $d.Lang.Name }} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg></button></div>
+</div>
+</div>
+{{end}}

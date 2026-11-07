@@ -1,0 +1,146 @@
+{{define "content"}}<main id="main">
+<section class="container page-hero" aria-labelledby="how-hero-title">
+  <h1 class="h1 page-hero__title" id="how-hero-title">{{t "how.hero.title"}}</h1>
+  <p class="lead lead--lg page-hero__lead">{{t "how.hero.lead"}}</p>
+</section>
+
+<section class="container content-section" id="encryption" aria-labelledby="encryption-title">
+    <div class="content-section__head">
+      <span class="content-section__kicker">{{t "how.flow.kicker"}}</span>
+      <h2 class="h2" id="encryption-title">{{t "how.flow.title"}}</h2>
+      <p class="lead">{{t "how.flow.lead"}}</p>
+    </div>
+
+<ol class="flow">
+  <li class="flow__node">
+    <span class="flow__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2.5"/><path d="M8 21h8"/><path d="M12 17v4"/></svg></span>
+    <h3 class="flow__title">{{t "how.flow.sender.title"}}</h3>
+    <p class="flow__text">{{t "how.flow.sender.text"}}</p>
+    <span class="flow__sample flow__sample--plain">Wi-Fi: Kyiv_Office_5G<br>Пароль: N7#qkV2m!Lp9xW4z</span>
+  </li>
+  <li class="flow__arrow" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></li>
+  <li class="flow__node flow__node--server">
+    <span class="flow__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4" width="17" height="7" rx="2"/><rect x="3.5" y="13" width="17" height="7" rx="2"/><path d="M7.5 7.5h.01M7.5 16.5h.01"/></svg></span>
+    <h3 class="flow__title">{{t "how.flow.server.title"}}</h3>
+    <p class="flow__text">{{t "how.flow.server.text"}}</p>
+    <span class="flow__sample">q8Zt0V3nR1xKpL6m2EwYc9HbT4sJfA7u…</span>
+  </li>
+  <li class="flow__arrow" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></li>
+  <li class="flow__node">
+    <span class="flow__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span>
+    <h3 class="flow__title">{{t "how.flow.recipient.title"}}</h3>
+    <p class="flow__text">{{t "how.flow.recipient.text"}}</p>
+    <span class="flow__sample flow__sample--plain">Wi-Fi: Kyiv_Office_5G<br>Пароль: N7#qkV2m!Lp9xW4z</span>
+  </li>
+</ol>
+</section>
+
+<section class="container content-section" id="link" aria-labelledby="link-title">
+    <div class="content-section__head">
+      <span class="content-section__kicker">{{t "how.link.kicker"}}</span>
+      <h2 class="h2" id="link-title">{{t "how.link.title"}}</h2>
+      <p class="lead">{{t "how.link.lead"}}</p>
+    </div>
+
+  {{template "link-diagram" .}}
+    <div class="dot-list">
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.link.points.fragment.title"}}</h3>
+        <p class="dot-list__text">{{t "how.link.points.fragment.text"}}</p>
+      </div>
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.link.points.random.title"}}</h3>
+        <p class="dot-list__text">{{t "how.link.points.random.text"}}</p>
+      </div>
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.link.points.access.title"}}</h3>
+        <p class="dot-list__text">{{t "how.link.points.access.text"}}</p>
+      </div>
+    </div>
+</section>
+
+<section class="container content-section" id="storage" aria-labelledby="storage-title">
+    <div class="content-section__head">
+      <span class="content-section__kicker">{{t "how.storage.kicker"}}</span>
+      <h2 class="h2" id="storage-title">{{t "how.storage.title"}}</h2>
+      <p class="lead">{{t "how.storage.lead"}}</p>
+    </div>
+
+    <div class="facts">
+      <div class="facts__card">
+        <h3 class="facts__title">{{t "how.storage.keeps.title"}}</h3>
+        <ul class="facts__list">
+          <li class="facts__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>{{t "how.storage.keeps.data"}}</span></li>
+          <li class="facts__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>{{t "how.storage.keeps.ttl"}}</span></li>
+          <li class="facts__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>{{t "how.storage.keeps.attempts"}}</span></li>
+        </ul>
+      </div>
+      <div class="facts__card facts__card--no">
+        <h3 class="facts__title">{{t "how.storage.never.title"}}</h3>
+        <ul class="facts__list">
+          <li class="facts__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>{{t "how.storage.never.key"}}</span></li>
+          <li class="facts__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>{{t "how.storage.never.password"}}</span></li>
+          <li class="facts__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>{{t "how.storage.never.plain"}}</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dot-list">
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.storage.delete.opened.title"}}</h3>
+        <p class="dot-list__text">{{t "how.storage.delete.opened.text"}}</p>
+      </div>
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.storage.delete.expired.title"}}</h3>
+        <p class="dot-list__text">{{t "how.storage.delete.expired.text"}}</p>
+      </div>
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.storage.delete.destroyed.title"}}</h3>
+        <p class="dot-list__text">{{t "how.storage.delete.destroyed.text"}}</p>
+      </div>
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.storage.delete.attempts.title"}}</h3>
+        <p class="dot-list__text">{{t "how.storage.delete.attempts.text"}}</p>
+      </div>
+    </div>
+</section>
+
+<section class="container content-section" id="password" aria-labelledby="password-title">
+    <div class="content-section__head">
+      <span class="content-section__kicker">{{t "how.password.kicker"}}</span>
+      <h2 class="h2" id="password-title">{{t "how.password.title"}}</h2>
+      <p class="lead">{{t "how.password.lead"}}</p>
+    </div>
+
+    <div class="dot-list">
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.password.points.separate.title"}}</h3>
+        <p class="dot-list__text">{{t "how.password.points.separate.text"}}</p>
+      </div>
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.password.points.attempts.title"}}</h3>
+        <p class="dot-list__text">{{t "how.password.points.attempts.text"}}</p>
+      </div>
+      <div class="dot-list__item">
+        <h3 class="dot-list__title">{{t "how.password.points.generate.title"}}</h3>
+        <p class="dot-list__text">{{t "how.password.points.generate.text"}}</p>
+      </div>
+    </div>
+    <div class="actions-row">
+      <a class="btn btn--secondary btn--md" href="{{url "password-generator/"}}"><span>{{t "how.password.generatorLink"}}</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+    </div>
+</section>
+
+<section class="container content-section" id="open-source" aria-labelledby="open-source-title">
+    <div class="content-section__head">
+      <span class="content-section__kicker">{{t "how.code.kicker"}}</span>
+      <h2 class="h2" id="open-source-title">{{t "how.code.title"}}</h2>
+      <p class="lead">{{t "how.code.lead"}}</p>
+    </div>
+
+    <div class="actions-row">
+      <a class="btn btn--dark btn--lg" href="https://github.com/Draal/secure-share"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg><span>{{t "how.code.github"}}</span></a>
+      <a class="btn btn--primary btn--lg" href="{{url ""}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg><span>{{t "how.code.cta"}}</span></a>
+    </div>
+</section>
+</main>
+{{end}}

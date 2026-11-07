@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Encrypt.One — генератор паролей</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400..700&amp;family=JetBrains+Mono:wght@400..600&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#161A23}a:hover{color:#586070}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #0B7A5E;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #F4F6F8; color: #161A23; font-family: 'Onest', system-ui, -apple-system, 'Segoe UI', sans-serif; -webkit-font-smoothing: antialiased">
+
+<header style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="Main.dc.html" aria-label="Encrypt.One — на главную" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #161A23">
+<svg width="25" height="36" viewBox="0 0 41 59" aria-hidden="true"><path fill="{{accent}}" d="M0,0c0,0,0,28.9,0,37.7c0,11.7,15.2,18.4,20.5,21c6.1-3.1,20.5-9.4,20.5-21C41,28.6,41,0,41,0H0z M39,37.3 l-18,18v-4.6l18-18V37.3z M21,38.7l18-18v4.6l-18,18V38.7z M39,19.3l-18,18v-4.6l18-18V19.3z M39,13.3l-18,18v-4.6l18-18V13.3z M39,7.3l-18,18v-4.6l18-18V7.3z M21,19.3v-4.6L33.7,2h4.6L21,19.3z M21,13.3V8.7L27.7,2h4.6L21,13.3z M21,7.3V2h5.3L21,7.3z M39,31.3l-18,18v-4.6l18-18V31.3z M2,37.7V2h18v54.3C14.3,53.5,2,47.3,2,37.7z M21.9,55.8l17-17C38.2,47.3,28,52.7,21.9,55.8z"></path></svg>
+<span style="font-size: 21px; font-weight: 650; letter-spacing: -0.025em">encrypt<span style="color: {{accent}}">.one</span></span>
+</a>
+<nav aria-label="Основная навигация" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px">
+<a href="Generator.dc.html" aria-current="page" style="padding: 12px 14px; border-radius: 10px; background: #E7EBEF; text-decoration: none; font-size: 15px; font-weight: 600; color: #161A23">Генератор паролей</a>
+<a href="Main.dc.html#how" style="padding: 12px 14px; border-radius: 10px; text-decoration: none; font-size: 15px; font-weight: 500; color: #161A23">Как это работает</a>
+<a href="Main.dc.html#faq" style="padding: 12px 14px; border-radius: 10px; text-decoration: none; font-size: 15px; font-weight: 500; color: #161A23">Вопросы</a>
+</nav>
+<button type="button" aria-label="Язык сайта: русский" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 12px; border: 1px solid #D5DAE1; border-radius: 10px; background: #FFFFFF; font: inherit; font-size: 15px; font-weight: 500; color: #161A23; cursor: pointer">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"></path></svg>
+Русский
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+</button>
+</header>
+
+<main style="max-width: 880px; margin: 0 auto; padding: 40px 24px 96px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h1 style="margin: 0; font-size: clamp(36px, 4vw, 54px); line-height: 1.05; letter-spacing: -0.035em; font-weight: 650">Генератор паролей</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.55; color: #586070; max-width: 34em">Пароли создаются прямо в браузере и никуда не отправляются. Готовый пароль можно сразу передать одноразовой ссылкой.</p>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #E2E6EC; border-radius: 24px; padding: 28px; box-shadow: 0 1px 2px rgba(22, 26, 35, 0.05), 0 28px 56px -28px rgba(22, 26, 35, 0.22); display: flex; flex-direction: column; gap: 26px">
+<div role="tablist" aria-label="Тип пароля" style="display: inline-flex; flex-wrap: wrap; align-self: flex-start; padding: 4px; gap: 4px; border-radius: 12px; background: #EEF1F4">
+<button type="button" role="tab" aria-selected="{{isPwd}}" onClick="{{pickPwd}}" style="{{tabPwd}}">Пароль</button>
+<button type="button" role="tab" aria-selected="{{isPhrase}}" onClick="{{pickPhrase}}" style="{{tabPhrase}}">Фраза из слов</button>
+<button type="button" role="tab" aria-selected="{{isPin}}" onClick="{{pickPin}}" style="{{tabPin}}">PIN-код</button>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 22px 22px 22px 26px; border: 1.5px solid #D5DAE1; border-radius: 18px; background: #FBFCFD">
+<output aria-live="polite" style="flex: 1 1 300px; min-width: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: clamp(22px, 2.6vw, 32px); font-weight: 500; letter-spacing: 0.01em; line-height: 1.3; color: #161A23; overflow-wrap: anywhere">{{value}}</output>
+<div style="display: flex; gap: 8px">
+<button type="button" aria-label="Сгенерировать заново" style="display: inline-flex; align-items: center; justify-content: center; width: 52px; height: 52px; border: 1px solid #D5DAE1; border-radius: 14px; background: #FFFFFF; color: #161A23; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 0 1 14.6-5.9L20.5 8.5"></path><path d="M20.5 3.5v5h-5"></path><path d="M20.5 12a8.5 8.5 0 0 1-14.6 5.9L3.5 15.5"></path><path d="M3.5 20.5v-5h5"></path></svg></button>
+<button type="button" style="display: inline-flex; align-items: center; gap: 8px; height: 52px; padding: 0 20px; border: 0; border-radius: 14px; background: #161A23; color: #FFFFFF; font: inherit; font-size: 16px; font-weight: 600; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8.5" y="8.5" width="12" height="12" rx="2.5"></rect><path d="M15.5 8.5V6a2.5 2.5 0 0 0-2.5-2.5H6A2.5 2.5 0 0 0 3.5 6v7A2.5 2.5 0 0 0 6 15.5h2.5"></path></svg>Скопировать</button>
+</div>
+</div>
+<div style="display: flex; align-items: center; gap: 14px">
+<div aria-hidden="true" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; width: 160px">
+<span style="height: 6px; border-radius: 3px; background: {{accent}}"></span>
+<span style="height: 6px; border-radius: 3px; background: {{accent}}"></span>
+<span style="height: 6px; border-radius: 3px; background: {{accent}}"></span>
+<span style="height: 6px; border-radius: 3px; background: {{bar4}}"></span>
+</div>
+<span style="font-size: 15px; font-weight: 600">{{strength}}</span>
+</div>
+</div>
+
+<sc-if value="{{isPwd}}" hint-placeholder-val="{{true}}">
+<div style="display: flex; flex-direction: column; gap: 22px; padding-top: 24px; border-top: 1px solid #E2E6EC">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; align-items: baseline; justify-content: space-between"><label for="len" style="font-size: 15px; font-weight: 600">Длина</label><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 16px; font-weight: 600">20</span></div>
+<input id="len" type="range" min="8" max="64" value="20" style="width: 100%; height: 28px; margin: 0; accent-color: {{accent}}">
+</div>
+<fieldset style="margin: 0; padding: 0; border: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 4px 24px">
+<legend style="padding: 0; margin-bottom: 8px; font-size: 15px; font-weight: 600">Символы</legend>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 15.5px; cursor: pointer"><input type="checkbox" checked style="width: 20px; height: 20px; margin: 0; accent-color: {{accent}}">Заглавные буквы (A–Z)</label>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 15.5px; cursor: pointer"><input type="checkbox" checked style="width: 20px; height: 20px; margin: 0; accent-color: {{accent}}">Строчные буквы (a–z)</label>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 15.5px; cursor: pointer"><input type="checkbox" checked style="width: 20px; height: 20px; margin: 0; accent-color: {{accent}}">Цифры (0–9)</label>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 15.5px; cursor: pointer"><input type="checkbox" checked style="width: 20px; height: 20px; margin: 0; accent-color: {{accent}}">Символы (!#$%&amp;*)</label>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 15.5px; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin: 0; accent-color: {{accent}}">Без похожих символов (0 и O, l и 1)</label>
+</fieldset>
+</div>
+</sc-if>
+
+<sc-if value="{{isPhrase}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-direction: column; gap: 22px; padding-top: 24px; border-top: 1px solid #E2E6EC">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; align-items: baseline; justify-content: space-between"><label for="words" style="font-size: 15px; font-weight: 600">Количество слов</label><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 16px; font-weight: 600">5</span></div>
+<input id="words" type="range" min="3" max="10" value="5" style="width: 100%; height: 28px; margin: 0; accent-color: {{accent}}">
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #586070">Фразу из случайных слов легко продиктовать и запомнить, а подобрать её так же сложно, как длинный пароль.</p>
+</div>
+</sc-if>
+
+<sc-if value="{{isPin}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-direction: column; gap: 10px; padding-top: 24px; border-top: 1px solid #E2E6EC">
+<div style="display: flex; align-items: baseline; justify-content: space-between"><label for="digits" style="font-size: 15px; font-weight: 600">Количество цифр</label><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 16px; font-weight: 600">6</span></div>
+<input id="digits" type="range" min="4" max="12" value="6" style="width: 100%; height: 28px; margin: 0; accent-color: {{accent}}">
+</div>
+</sc-if>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; padding: 22px 24px; border-radius: 20px; background: {{accentTint}}">
+<div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 17px; font-weight: 600">Нужно передать этот пароль?</span>
+<span style="font-size: 15px; line-height: 1.5; color: #3E4654">Он подставится в форму, и вы получите ссылку, которая откроется один раз.</span>
+</div>
+<a href="Main.dc.html" style="display: inline-flex; align-items: center; gap: 10px; height: 52px; padding: 0 22px; border-radius: 14px; background: {{accent}}; color: #FFFFFF; text-decoration: none; font-size: 16px; font-weight: 600"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"></rect><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"></path></svg>Отправить одноразовой ссылкой</a>
+</div>
+
+<section style="display: flex; flex-direction: column; gap: 28px; padding-top: 48px">
+<h2 style="margin: 0; font-size: clamp(26px, 2.6vw, 34px); line-height: 1.15; letter-spacing: -0.03em; font-weight: 650">Каким должен быть надёжный пароль</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 8px; padding-top: 18px; border-top: 2px solid #161A23">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600">Длинным</h3>
+<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: #586070">Не короче 14–16 символов. Длина защищает сильнее, чем хитрые замены букв на символы.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px; padding-top: 18px; border-top: 2px solid #161A23">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600">Уникальным</h3>
+<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: #586070">Свой для каждого сервиса. Тогда утечка одного пароля не откроет остальные аккаунты.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px; padding-top: 18px; border-top: 2px solid #161A23">
+<h3 style="margin: 0; font-size: 18px; font-weight: 600">Сохранённым в менеджере</h3>
+<p style="margin: 0; font-size: 15.5px; line-height: 1.6; color: #586070">Запоминать сложные пароли не нужно: это работа менеджера паролей вроде Bitwarden или KeePass.</p>
+</div>
+</div>
+</section>
+</main>
+
+<footer style="border-top: 1px solid #E2E6EC; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 14px; color: #586070">
+<span>© 2016–2026 Encrypt.One</span>
+<span style="display: flex; gap: 20px"><a href="#" style="color: #586070; text-decoration: none">Конфиденциальность</a><a href="https://github.com/Draal/secure-share" style="color: #586070; text-decoration: none">GitHub</a></span>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#0B7A5E","options":["#0B7A5E","#3446D6","#0B6BCB","#6B3FD1"]},"$preview":{"width":1440,"height":1560}}'>
+class Component extends DCLogic {
+  rgba(hex, a) {
+    var h = String(hex || '').replace('#', '');
+    if (h.length !== 6) return 'rgba(11, 122, 94, ' + a + ')';
+    var n = parseInt(h, 16);
+    return 'rgba(' + ((n >> 16) & 255) + ', ' + ((n >> 8) & 255) + ', ' + (n & 255) + ', ' + a + ')';
+  }
+  renderVals() {
+    var self = this;
+    var s = this.state || {};
+    var accent = this.props.accent ?? '#0B7A5E';
+    var mode = s.mode || 'pwd';
+    var base = 'display: inline-flex; align-items: center; height: 44px; padding: 0 18px; border: 0; border-radius: 9px; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;';
+    var on = base + ' background: #FFFFFF; color: #161A23; box-shadow: 0 1px 2px rgba(22, 26, 35, 0.14);';
+    var off = base + ' background: transparent; color: #586070; box-shadow: none;';
+    var values = { pwd: 'N7#qkV2m!Lp9xW4zRt8e', phrase: 'orbit-maple-velvet-quartz-lantern', pin: '804517' };
+    var strength = { pwd: 'Очень надёжный', phrase: 'Очень надёжный', pin: 'Подходит только для PIN' };
+    return {
+      accent: accent,
+      accentTint: this.rgba(accent, 0.1),
+      isPwd: mode === 'pwd',
+      isPhrase: mode === 'phrase',
+      isPin: mode === 'pin',
+      tabPwd: mode === 'pwd' ? on : off,
+      tabPhrase: mode === 'phrase' ? on : off,
+      tabPin: mode === 'pin' ? on : off,
+      pickPwd: function () { self.setState({ mode: 'pwd' }); },
+      pickPhrase: function () { self.setState({ mode: 'phrase' }); },
+      pickPin: function () { self.setState({ mode: 'pin' }); },
+      value: values[mode],
+      strength: strength[mode],
+      bar4: mode === 'pin' ? '#DCE1E7' : accent
+    };
+  }
+}
+</script>
+</body>
+</html>

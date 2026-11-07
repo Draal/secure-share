@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Δεν ήταν δυνατή η επεξεργασία του αιτήματος. Ανανεώστε τη σελίδα και δοκιμάστε ξανά."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Αυτός ο σύνδεσμος δεν επιτρέπει την καταστροφή του μυστικού."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Το μυστικό δεν βρέθηκε: έχει ήδη ανοιχτεί, καταστραφεί ή έχει λήξει."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Απαιτείται κωδικός για το άνοιγμα αυτού του μυστικού."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Πάρα πολλά αιτήματα. Περιμένετε ένα λεπτό και δοκιμάστε ξανά."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Κάτι πήγε στραβά από την πλευρά μας. Δοκιμάστε ξανά σε ένα λεπτό."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Το αρχείο είναι πολύ μεγάλο. Το όριο είναι {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Ο κωδικός εισήχθη λανθασμένα τρεις φορές, οπότε το μυστικό διαγράφηκε."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Λάθος κωδικός. Απομένουν προσπάθειες: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Κλείσιμο"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Αντιγράφηκε"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Αντιγραφή"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Σύνδεσμοι"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Απόρρητο"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Έργο"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Συχνές ερωτήσεις"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Οδηγοί"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Πώς λειτουργεί"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Ασφάλεια"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Πόροι"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Αποστολή αρχείου"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Δημιουργός κωδικών"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Κοινοποίηση μυστικού"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Υπηρεσία"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Σύνδεσμοι μίας χρήσης για κοινή χρήση κωδικών και αρχείων. Κρυπτογραφούνται στο πρόγραμμα περιήγησής σας."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Πηγαίος κώδικας στο GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Ελληνικά"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "EL"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Γλώσσα ιστοτόπου: Ελληνικά"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Αρχική σελίδα Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: μοιραστείτε έναν κωδικό με σύνδεσμο μίας χρήσης"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Συχνές ερωτήσεις"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Δημιουργός κωδικών"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Πώς λειτουργεί"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Κύρια πλοήγηση"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Μετάβαση στο περιεχόμενο"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Ώρα, ημερολόγια και αργίες για κάθε πόλη"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Δωρεάν παιχνίδια απευθείας στο πρόγραμμα περιήγησης"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Χιλιάδες ραδιοφωνικοί σταθμοί από όλο τον κόσμο"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Το Encrypt.One είναι δωρεάν χάρη στους χορηγούς μας"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Σκούρο"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Θέμα"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Ανοιχτό"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Συστήματος"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Στείλτε τον στον παραλήπτη. Το μυστικό μπορεί να ανοιχτεί μόνο μία φορά."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Ο σύνδεσμός σας είναι έτοιμος"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Λήψη άλλου συνδέσμου"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Για το ίδιο μυστικό, ένας σύνδεσμος ανά παραλήπτη. Ο τρέχων σύνδεσμος θα συνεχίσει να λειτουργεί, αλλά δεν θα μπορείτε πλέον να τον καταστρέψετε από εδώ."
+  },
+  {
+    "id": "created.back",
+    "translation": "Νέο μυστικό"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Καταστροφή τώρα"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Να καταστραφεί το μυστικό; Ο σύνδεσμος θα σταματήσει αμέσως να λειτουργεί."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Δεν ήταν δυνατή η καταστροφή του μυστικού. Δοκιμάστε ξανά."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Το στείλατε σε λάθος άτομο; Καταστρέψτε το μυστικό και ο σύνδεσμος θα σταματήσει αμέσως να λειτουργεί."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Καταστρέψατε το μυστικό. Τα δεδομένα διαγράφηκαν από τον διακομιστή και ο σύνδεσμος δεν λειτουργεί πλέον."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Το μυστικό καταστράφηκε"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Κανείς δεν άνοιξε τον σύνδεσμο εγκαίρως. Τα δεδομένα διαγράφηκαν από τον διακομιστή και ο σύνδεσμος δεν λειτουργεί πλέον."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Ο σύνδεσμος έληξε"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Αντιγραφή συνδέσμου"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Σύνδεσμος μίας χρήσης"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Αυτός ο σύνδεσμος δεν λειτουργεί πλέον"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Ο σύνδεσμος εμφανίζεται μόνο στην καρτέλα όπου δημιουργήθηκε. Μπορείτε ακόμα να καταστρέψετε το μυστικό από εδώ."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Σελίδα αποστολέα συνδέσμου μίας χρήσης Encrypt.One: μοιραστείτε τον σύνδεσμο ή καταστρέψτε το μυστικό."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Ο σύνδεσμός σας είναι έτοιμος — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Δημιουργία νέου συνδέσμου"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Κωδικός QR του συνδέσμου μίας χρήσης"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Στρέψτε την κάμερα του τηλεφώνου στον κωδικό για να ανοίξετε τον σύνδεσμο. Μην τον δείχνετε σε άλλους: ανοίγει το μυστικό όπως και ο σύνδεσμος."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Κωδικός QR συνδέσμου"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Αποστολή μέσω"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Email"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "Κωδικός QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Ένα μυστικό για εσάς"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Σύνδεσμος μίας χρήσης προς ένα μυστικό:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Ισχύει έως"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Συμβουλή:</strong> για ιδιαίτερα ευαίσθητα δεδομένα, προσθέστε κωδικό στον σύνδεσμο και κοινοποιήστε τον με άλλον τρόπο, για παράδειγμα προφορικά. Έτσι η υποκλοπή ενός μηνύματος δεν θα αποκαλύψει τίποτα."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Επισύναψη αρχείου"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Αφήστε για επισύναψη του αρχείου"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Μπορείτε να σύρετε ένα αρχείο απευθείας στο πεδίο."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Έως {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Αυτό το πρόγραμμα περιήγησης δεν υποστηρίζει κρυπτογράφηση. Ενημερώστε το ή ανοίξτε τον ιστότοπο σε άλλο."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Επικολλήστε κείμενο ή επισυνάψτε αρχείο."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Το αρχείο είναι πολύ μεγάλο. Το όριο είναι {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Δεν ήταν δυνατή η σύνδεση με τον διακομιστή. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Εισαγάγετε κωδικό ανοίγματος ή απενεργοποιήστε την προστασία με κωδικό."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "θα κρυπτογραφηθεί μαζί με το κείμενο"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Αφαίρεση αρχείου"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Δημιουργία κωδικού"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Εισαγωγή στο πεδίο μυστικού"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Πρόταση"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Χωρίς αυτόν τον κωδικό το μυστικό δεν ανοίγει, ακόμη κι αν υποκλαπεί ο σύνδεσμος. Κοινοποιήστε τον στον παραλήπτη χωριστά, για παράδειγμα προφορικά ή σε άλλη εφαρμογή μηνυμάτων."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Κωδικός ανοίγματος"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Για παράδειγμα, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Προστασία με κωδικό"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Τι θέλετε να μοιραστείτε;"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Κωδικός, κλειδί API, στοιχεία σύνδεσης…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Ρυθμίσεις συνδέσμου"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Δημιουργία συνδέσμου μίας χρήσης"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Κρυπτογράφηση…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 ημέρα"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 ώρα"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 ημέρες"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 ημέρες"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Λήγει σε"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Χρόνος αποθήκευσης"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Δωρεάν δημιουργός ισχυρών κωδικών, φράσεων πρόσβασης και PIN που δημιουργούνται στο πρόγραμμα περιήγησης και δεν αποστέλλονται πουθενά. Μοιραστείτε το αποτέλεσμα με σύνδεσμο μίας χρήσης."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Δημιουργός ισχυρών κωδικών — δωρεάν και ιδιωτικός | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Ψηφία (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Μήκος"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Πεζά γράμματα (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Χωρίς παρόμοιους χαρακτήρες (0 και O, l και 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Χαρακτήρες"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Σύμβολα (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Κεφαλαία γράμματα (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Μια φράση από τυχαίες λέξεις είναι εύκολη στην εκφώνηση και απομνημόνευση, αλλά εξίσου δύσκολο να μαντευτεί με έναν μεγάλο κωδικό. Οι λέξεις προέρχονται από την ανοιχτή λίστα του EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Αριθμός λέξεων"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Αριθμός ψηφίων"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Δημιουργία ξανά"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Αποστολή ως σύνδεσμος μίας χρήσης"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Το αποτέλεσμα εισάγεται απευθείας στη φόρμα και θα λάβετε έναν σύνδεσμο που ανοίγει μόνο μία φορά."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Χρειάζεται να μοιραστείτε αυτόν τον κωδικό;"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Εντροπία ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Μέτριος"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Κατάλληλος μόνο ως PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Ισχυρός"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Πολύ ισχυρός"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Αδύναμος"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Τύπος κωδικού"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Κωδικός"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Φράση πρόσβασης"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Τουλάχιστον 14–16 χαρακτήρες. Το μήκος προστατεύει καλύτερα από την αντικατάσταση γραμμάτων με σύμβολα."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Μεγάλος"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Δεν χρειάζεται να θυμάστε σύνθετους κωδικούς: χρησιμοποιήστε έναν διαχειριστή κωδικών."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Αποθηκευμένος σε διαχειριστή κωδικών"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Τι κάνει έναν κωδικό ισχυρό"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Ένας για κάθε υπηρεσία. Έτσι η διαρροή ενός κωδικού δεν θα ανοίξει τους άλλους λογαριασμούς σας."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Μοναδικός"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Δημιουργός κωδικών"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Όχι. Το μυστικό κρυπτογραφείται στο πρόγραμμα περιήγησής σας πριν σταλεί. Το κλειδί βρίσκεται στον σύνδεσμο μετά το σύμβολο # και αυτό το μέρος της διεύθυνσης δεν φτάνει ποτέ στον διακομιστή."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Δεν συμβαίνει τίποτα. Το μυστικό εμφανίζεται μόνο αφού πατηθεί το «Εμφάνιση μυστικού» και τα bot προεπισκόπησης δεν πατούν κουμπιά."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Το μυστικό διαγράφεται αυτόματα όταν λήξει ο χρόνος αποθήκευσης που επιλέξατε."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Ναι. Η σελίδα του συνδέσμου έχει το κουμπί «Καταστροφή τώρα». Έπειτα ο σύνδεσμος σταματά να λειτουργεί."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Όχι. Ούτε ο αποστολέας ούτε ο παραλήπτης χρειάζονται λογαριασμό."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Δεν βρήκατε απάντηση; Ανοίξτε ένα ζήτημα στο GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Μπορείτε να διαβάσετε το μυστικό μου;"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Τι γίνεται αν ένα bot προεπισκόπησης εφαρμογής μηνυμάτων ανοίξει τον σύνδεσμο;"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Τι γίνεται αν ο παραλήπτης δεν ανοίξει ποτέ τον σύνδεσμο;"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Μπορώ να ανακαλέσω έναν σύνδεσμο μετά την αποστολή;"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Χρειάζεται να εγγραφώ;"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Συχνές ερωτήσεις"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Το μυστικό σας κρυπτογραφείται απευθείας στο πρόγραμμα περιήγησης. Ο παραλήπτης ανοίγει τον σύνδεσμο μία φορά και έπειτα τα δεδομένα διαγράφονται από τον διακομιστή."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Χωρίς εγγραφή"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Κρυπτογράφηση AES-256 στη συσκευή σας"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Ανοιχτός κώδικας"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Μοιραστείτε κωδικούς με ασφάλεια μέσω συνδέσμων μίας χρήσης"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Ένας κωδικός, κλειδί API, στοιχεία σύνδεσης ή αρχείο. Όλα κρυπτογραφούνται στο πρόγραμμα περιήγησης πριν σταλούν."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Επικολλήστε το μυστικό σας"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Μέσω Telegram, WhatsApp, Signal, Slack, email ή άλλης εφαρμογής μηνυμάτων. Στη συνομιλία μένει μόνο ο σύνδεσμος, όχι ο ίδιος ο κωδικός."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Στείλτε τον σύνδεσμο"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Μετά την προβολή, τα δεδομένα διαγράφονται από τον διακομιστή. Ο σύνδεσμος δεν ανοίγει δεύτερη φορά."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Ο σύνδεσμος εξαντλείται"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Πώς λειτουργεί"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Στείλτε κωδικούς, ιδιωτικά μηνύματα, κλειδιά API και αρχεία με κρυπτογραφημένους συνδέσμους μίας χρήσης. Τα μυστικά διαγράφονται μετά την προβολή. Δωρεάν, ανοιχτός κώδικας, χωρίς εγγραφή."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Σύνδεσμοι μυστικών μίας χρήσης — μοιραστείτε κωδικούς με ασφάλεια | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Μοιραστείτε κωδικούς και στοιχεία λογαριασμού χωρίς να τα αφήνετε στο ιστορικό συνομιλίας."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Κωδικοί και στοιχεία σύνδεσης"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Στείλτε ευαίσθητα μηνύματα που ανοίγουν μόνο μία φορά."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Ιδιωτικά μηνύματα"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Μοιραστείτε με ασφάλεια κλειδιά API, token πρόσβασης και αρχεία ρυθμίσεων με την ομάδα σας."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "Κλειδιά API και διαπιστευτήρια"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Μοιραστείτε ιδιωτικά έγγραφα και αρχεία έως {{.MaxFileSize}} μέσω κρυπτογραφημένων συνδέσμων μίας χρήσης."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Εμπιστευτικά αρχεία"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Στείλτε με ασφάλεια αυτοκαταστρεφόμενα μηνύματα, κωδικούς, κλειδιά API και ιδιωτικά αρχεία. Κάθε μυστικό κρυπτογραφείται στο πρόγραμμα περιήγησης και διαγράφεται από τον διακομιστή μετά την προβολή."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Τι μπορείτε να μοιραστείτε με σύνδεσμο μίας χρήσης;"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Μένει σε εσάς.</strong> Το κλειδί αποκρυπτογράφησης. Τα προγράμματα περιήγησης δεν στέλνουν ποτέ στον διακομιστή ό,τι ακολουθεί το #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Πηγαίνει στον διακομιστή.</strong> Η διεύθυνση των κρυπτογραφημένων δεδομένων: χωρίς το κλειδί είναι απλώς τυχαία byte."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Το ενσωματωμένο Web Crypto API του προγράμματος περιήγησης και AES-256-GCM. Χωρίς βιβλιοθήκες τρίτων."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Κρυπτογραφημένο στο πρόγραμμα περιήγησης"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Όλος ο κώδικας δημοσιεύεται στο <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Ο καθένας μπορεί να ελέγξει πώς λειτουργεί η κρυπτογράφηση."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Ανοιχτός κώδικας"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Χωρίς εγγραφή, σενάρια τρίτων ή ιχνηλάτες. Γι’ αυτό δεν υπάρχει ούτε ειδοποίηση cookies."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Τίποτα περιττό"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Το κλειδί αποκρυπτογράφησης βρίσκεται στον σύνδεσμο μετά το σύμβολο #. Τα προγράμματα περιήγησης δεν στέλνουν ποτέ αυτό το μέρος της διεύθυνσης στον διακομιστή, οπότε μόνο εσείς και ο παραλήπτης μπορείτε να το δείτε."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Περισσότερα για τη λειτουργία"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Γιατί δεν μπορούμε να διαβάσουμε το μυστικό σας"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Κοινοποίηση μυστικού"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Κώδικας στο GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Ανοιχτός κώδικας"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Όλος ο κώδικας του Encrypt.One βρίσκεται στο GitHub. Ο καθένας μπορεί να δει πώς λειτουργεί η κρυπτογράφηση και να βεβαιωθεί ότι το κλειδί δεν φτάνει ποτέ στον διακομιστή."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Ελέγξτε μόνοι σας"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Ροή δεδομένων"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Το μυστικό κρυπτογραφείται πριν σταλεί και αποκρυπτογραφείται μόνο από τον παραλήπτη. Στο μεταξύ τα δεδομένα παραμένουν κρυπτογραφημένα."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Κατεβάζει τα κρυπτογραφημένα δεδομένα, παίρνει το κλειδί από τον σύνδεσμο και αποκρυπτογραφεί το μυστικό τοπικά. Ο διακομιστής διαγράφει αμέσως μετά τα δεδομένα."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Πρόγραμμα περιήγησης παραλήπτη"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Δημιουργεί ένα τυχαίο κλειδί και κρυπτογραφεί το κείμενο και το αρχείο με AES-256-GCM μέσω του ενσωματωμένου Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Πρόγραμμα περιήγησης αποστολέα"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Λαμβάνει και αποθηκεύει μόνο κρυπτογραφημένα byte. Χωρίς το κλειδί κανείς δεν μπορεί να τα διαβάσει — ούτε εμείς ούτε όποιος αποκτήσει πρόσβαση στον διακομιστή."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Διακομιστής Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Ο διακομιστής βλέπει μόνο κρυπτογραφημένα δεδομένα"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Το Encrypt.One κρυπτογραφεί το μυστικό σας απευθείας στο πρόγραμμα περιήγησης. Μόνο κρυπτογραφημένα δεδομένα πηγαίνουν στον διακομιστή, ενώ το κλειδί μένει στον σύνδεσμο και δεν εγκαταλείπει ποτέ τις συσκευές αποστολέα και παραλήπτη."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Πώς λειτουργεί και γιατί είναι ασφαλές"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Μέσα στον σύνδεσμο"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Ένας σύνδεσμος έχει δύο μέρη. Το πρώτο δείχνει πού αποθηκεύονται τα κρυπτογραφημένα δεδομένα. Το δεύτερο, μετά το #, είναι το κλειδί αποκρυπτογράφησης."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Όποιος έχει ολόκληρο τον σύνδεσμο μπορεί να ανοίξει το μυστικό. Στείλτε τον μόνο στον παραλήπτη και προσθέστε κωδικό για ευαίσθητα δεδομένα."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Ο πλήρης σύνδεσμος δίνει πρόσβαση"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Τα προγράμματα περιήγησης δεν περιλαμβάνουν το μέρος μετά το # στα αιτήματα. Έτσι το κλειδί δεν βρίσκεται στα αρχεία καταγραφής του διακομιστή ούτε σε ενδιάμεσα σημεία του δικτύου."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Δεν αποστέλλεται ποτέ στον διακομιστή"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Το κλειδί δημιουργείται τυχαία στη συσκευή σας. Δεν μπορεί να μαντευτεί με εξαντλητική δοκιμή."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Νέο για κάθε σύνδεσμο"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Το κλειδί βρίσκεται μετά το #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Πώς το Encrypt.One κρυπτογραφεί μυστικά στο πρόγραμμα περιήγησης: AES-256-GCM, κλειδί μετά το #, αποθήκευση, διαγραφή και προστασία με κωδικό."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Πώς λειτουργεί το Encrypt.One: κοινή χρήση μυστικών με κρυπτογράφηση από άκρο σε άκρο"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Άνοιγμα δημιουργού κωδικών"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Κωδικός ανοίγματος"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Ο κωδικός προστατεύει το μυστικό ακόμη κι αν υποκλαπεί ο σύνδεσμος. Χωρίς αυτόν ο παραλήπτης βλέπει μόνο το πεδίο εισαγωγής."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Μετά από τρεις λανθασμένες προσπάθειες το μυστικό διαγράφεται. Ο κωδικός δεν μπορεί να μαντευτεί με εξαντλητική δοκιμή."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Τρεις προσπάθειες"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Πατήστε «Πρόταση» στη φόρμα ή επιλέξτε μια φράση από τον δημιουργό κωδικών: διαβάζεται εύκολα δυνατά."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Μην τον επινοείτε μόνοι σας"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Κοινοποιήστε τον κωδικό διαφορετικά: προφορικά, σε άλλη εφαρμογή μηνυμάτων ή αυτοπροσώπως. Έτσι η υποκλοπή ενός μηνύματος δεν αποκαλύπτει τίποτα."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Κοινοποιήστε τον χωριστά"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Μια δεύτερη κλειδαριά για ευαίσθητα δεδομένα"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Αν ο κωδικός ανοίγματος εισαχθεί λάθος τρεις φορές, το μυστικό διαγράφεται οριστικά."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Μετά από τρεις λάθος κωδικούς"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Το κουμπί «Καταστροφή τώρα» στη σελίδα του συνδέσμου διαγράφει αμέσως το μυστικό."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Με δική σας εντολή"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Αν ο σύνδεσμος δεν ανοιχτεί μέσα στον επιλεγμένο χρόνο αποθήκευσης, το μυστικό διαγράφεται αυτόματα."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Όταν λήξει"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Μόλις ο παραλήπτης ανοίξει το μυστικό, τα δεδομένα διαγράφονται. Ο σύνδεσμος δεν θα λειτουργήσει δεύτερη φορά."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Μετά το άνοιγμα"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Μετρητής λανθασμένων προσπαθειών κωδικού"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Το κρυπτογραφημένο κείμενο και αρχείο"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Αποθηκεύονται στον διακομιστή"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Ο χρόνος αποθήκευσης που επιλέξατε"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Αποθήκευση"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Ο διακομιστής διατηρεί το μυστικό ακριβώς όσο χρειάζεται ο παραλήπτης για να το ανοίξει."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Το κλειδί αποκρυπτογράφησης από τον σύνδεσμο"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Ο κωδικός ανοίγματος"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Το περιεχόμενο του μυστικού σε αναγνώσιμη μορφή"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Δεν φτάνει ποτέ στον διακομιστή"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Τι αποθηκεύει ο διακομιστής και πότε το διαγράφει"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Δημιουργός κωδικών"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Μετάβαση στην αρχική"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Αυτή η σελίδα δεν υπάρχει στο Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Η σελίδα δεν βρέθηκε — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Η διεύθυνση μπορεί να έχει πληκτρολογηθεί λάθος ή η σελίδα να μετακινήθηκε. Αν ανοίγατε σύνδεσμο μίας χρήσης, βεβαιωθείτε ότι αντιγράφηκε ολόκληρος."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Η σελίδα δεν βρέθηκε"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Αν αλλάξει αυτή η πολιτική, θα δημοσιεύσουμε τη νέα έκδοση σε αυτή τη σελίδα και θα ενημερώσουμε την ημερομηνία επάνω.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Αλλαγές στην πολιτική"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Υποβάλετε ερωτήσεις απορρήτου στα <a href=\"https://github.com/Draal/secure-share/issues\">ζητήματα του GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Ερωτήσεις"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>αμέσως μετά το άνοιγμα του μυστικού από τον παραλήπτη·</li><li>όταν πατήσετε «Καταστροφή τώρα» στη σελίδα του συνδέσμου·</li><li>μετά τον τρίτο λανθασμένο κωδικό·</li><li>στο τέλος της επιλεγμένης περιόδου, από μία ώρα έως επτά ημέρες. Ένα μυστικό που έληξε παύει αμέσως να παρέχεται και τα δεδομένα του διαγράφονται στον καθημερινό καθαρισμό.</li></ul><p>Ένα διαγραμμένο μυστικό δεν μπορεί να ανακτηθεί. Τα bot εφαρμογών μηνυμάτων που δημιουργούν προεπισκοπήσεις συνδέσμων δεν καταναλώνουν το μυστικό: τα δεδομένα παρέχονται μόνο μετά το πάτημα του «Εμφάνιση μυστικού».</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Πότε διαγράφονται τα δεδομένα"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Οι κωδικοί, οι φράσεις πρόσβασης και τα PIN δημιουργούνται στο πρόγραμμα περιήγησής σας με κρυπτογραφική γεννήτρια τυχαίων αριθμών και δεν αποστέλλονται ποτέ στον διακομιστή.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Δημιουργός κωδικών"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Το Encrypt.One έχει σχεδιαστεί ώστε μόνο ο παραλήπτης να μπορεί να διαβάσει ένα μυστικό — ούτε εμείς μπορούμε. Παρακάτω περιγράφονται τα δεδομένα που περνούν από την υπηρεσία και τι συμβαίνει σε αυτά."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Ο διακομιστής εφαρμογής καταγράφει μόνο αιτήματα API: τον τύπο, το αποτέλεσμα και τον χρόνο επεξεργασίας. Διευθύνσεις IP, αναγνωριστικά μυστικών, token, διευθύνσεις σελίδων και περιεχόμενο αιτημάτων δεν καταγράφονται.</p><p>Για την προστασία από εξαντλητικές δοκιμές και κατάχρηση, ο διακομιστής περιορίζει τη συχνότητα αιτημάτων ανά διεύθυνση IP. Η διεύθυνση χρησιμοποιείται μόνο στη μνήμη και δεν αποθηκεύεται.</p><p>Ένας διακομιστής ιστού μπροστά από την εφαρμογή μπορεί να διατηρεί τυπικό αρχείο πρόσβασης: διεύθυνση IP, ώρα και διεύθυνση σελίδας χωρίς το μέρος μετά το #. Αυτά τα αρχεία χρησιμοποιούνται μόνο για προστασία από επιθέσεις και διατηρούνται για περιορισμένο χρόνο.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Τεχνικά αρχεία καταγραφής"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Πολιτική απορρήτου Encrypt.One: ποια δεδομένα λαμβάνει η υπηρεσία, πόσο τα διατηρεί και γιατί δεν μπορεί να διαβάσει τα μυστικά σας."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Πολιτική απορρήτου — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Ο ίδιος ο κωδικός δεν εγκαταλείπει ποτέ το πρόγραμμα περιήγησης. Από τον κωδικό και το κλειδί του συνδέσμου, το πρόγραμμα περιήγησης παράγει δύο ανεξάρτητες τιμές: το κλειδί κρυπτογράφησης και ένα hash ελέγχου (PBKDF2 με 600.000 επαναλήψεις, έπειτα HKDF). Μόνο το hash αποστέλλεται στον διακομιστή. Ο διακομιστής το χρησιμοποιεί για έλεγχο, αλλά δεν μπορεί να μάθει ούτε τον κωδικό ούτε το κλειδί.</p><p>Μετά από τρεις λανθασμένες προσπάθειες το μυστικό διαγράφεται. Ο μετρητής προσπαθειών διατηρείται στη μνήμη του διακομιστή και συνδέεται με το μυστικό, όχι με τον επισκέπτη.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Κωδικός ανοίγματος"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Δεν γνωρίζουμε ποιος δημιούργησε ή άνοιξε ένα μυστικό: η υπηρεσία δεν συνδέει δεδομένα με πρόσωπα, λογαριασμούς ή διευθύνσεις IP. Γι’ αυτό δεν μπορούμε να βρούμε, να παραδώσουμε ή να διαγράψουμε δεδομένα συγκεκριμένου προσώπου. Για να διαγράψετε το μυστικό πριν λήξει, ανοίξτε τη σελίδα του συνδέσμου και πατήστε «Καταστροφή τώρα».</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Τα δικαιώματά σας"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Το κείμενο και το συνημμένο αρχείο κρυπτογραφούνται στο πρόγραμμα περιήγησής σας με AES-256-GCM μέσω του ενσωματωμένου Web Crypto API πριν σταλούν. Το όνομα και ο τύπος αρχείου κρυπτογραφούνται μαζί με το περιεχόμενο.</p><p>Ο διακομιστής αποθηκεύει μόνο:</p><ul><li>τα κρυπτογραφημένα δεδομένα·</li><li>τον χρόνο λήξης·</li><li>αν υπάρχει συνημμένο αρχείο·</li><li>ένα hash ελέγχου κωδικού, αν έχετε ορίσει κωδικό ανοίγματος.</li></ul><p>Το κλειδί αποκρυπτογράφησης είναι το μέρος του συνδέσμου μετά το σύμβολο #. Τα προγράμματα περιήγησης δεν το στέλνουν ποτέ στον διακομιστή, οπότε ούτε εμείς ούτε όποιος αποκτήσει πρόσβαση στον διακομιστή μπορούμε να αποκρυπτογραφήσουμε τα δεδομένα. Για τον ίδιο λόγο δεν μπορούμε να ανακτήσουμε ένα μυστικό αν χαθεί ο σύνδεσμος.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Μυστικά και αρχεία"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Το Encrypt.One είναι δωρεάν υπηρεσία κοινής χρήσης κωδικών, κλειδιών και αρχείων με συνδέσμους μίας χρήσης. Δεν απαιτείται εγγραφή. Η υπηρεσία αναπτύσσεται και λειτουργεί από τη <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Στέλνετε τον σύνδεσμο μόνοι σας με όποιον τρόπο θέλετε. Ένα μήνυμα μέσω εφαρμογής, email ή SMS μπορεί να υποκλαπεί και τότε όποιος ανοίξει πρώτος τον σύνδεσμο λαμβάνει το μυστικό. Για σημαντικά δεδομένα, ορίστε κωδικό ανοίγματος και κοινοποιήστε τον μέσω άλλου καναλιού.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Πώς λειτουργεί η υπηρεσία"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Το μυστικό κρυπτογραφείται στο πρόγραμμα περιήγησής σας. Ο διακομιστής λαμβάνει μόνο κρυπτογραφημένα δεδομένα και δεν μπορεί να τα διαβάσει.</li><li>Το κλειδί αποκρυπτογράφησης βρίσκεται στον σύνδεσμο μετά το # και δεν αποστέλλεται ποτέ στον διακομιστή.</li><li>Χωρίς εγγραφή, διαφημίσεις, αναλυτικά στοιχεία ή σενάρια τρίτων.</li><li>Το μυστικό διαγράφεται μόλις ανοιχτεί ή όταν λήξει η επιλεγμένη περίοδος.</li><li>Ο διακομιστής εφαρμογής δεν καταγράφει διευθύνσεις IP ή αναγνωριστικά μυστικών.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Συνοπτικά"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Ο πηγαίος κώδικας είναι ανοιχτός στο <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: μπορείτε να ελέγξετε την κρυπτογράφηση ή να εκτελέσετε το δικό σας αντίγραφο.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Ανοιχτός κώδικας"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Δεν χρησιμοποιούμε διαφημιστικά ή αναλυτικά cookies. Ο ιστότοπος αποθηκεύει στο πρόγραμμα περιήγησής σας μόνο όσα χρειάζονται για τη λειτουργία του:</p><ul><li>το cookie <code>lang</code> — τη γλώσσα σας, αν την επιλέξατε από τον επιλογέα·</li><li>στο localStorage — το χρωματικό θέμα, μια ένδειξη ότι κλείσατε την ειδοποίηση γλώσσας και ενδείξεις συνδέσμων που καταστράφηκαν από αυτό το πρόγραμμα περιήγησης·</li><li>στο sessionStorage — έναν κωδικό από τον δημιουργό κατά τη μεταφορά του στη φόρμα της αρχικής σελίδας. Αφαιρείται αμέσως μετά την εισαγωγή.</li></ul><p>Από αυτά, μόνο το cookie γλώσσας φτάνει στον διακομιστή, ο οποίος το χρησιμοποιεί για την επιλογή έκδοσης της σελίδας. Μπορείτε να τα διαγράψετε όλα από τις ρυθμίσεις του προγράμματος περιήγησης.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookies και αποθήκευση προγράμματος περιήγησης"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Ο ιστότοπος δεν φορτώνει σενάρια, γραμματοσειρές, μετρητές ή διαφημίσεις τρίτων: όλα, συμπεριλαμβανομένων των γραμματοσειρών, παρέχονται από τον διακομιστή μας. Δεν πουλάμε ούτε κοινοποιούμε δεδομένα σε τρίτους.</p><p>Τα κουμπιά αποστολής μέσω Telegram, WhatsApp και email καθώς και οι σύνδεσμοι προς ιστότοπους χορηγών είναι απλοί σύνδεσμοι. Μια εξωτερική υπηρεσία λαμβάνει δεδομένα μόνο όταν κάνετε κλικ και έπειτα ισχύει η δική της πολιτική.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Υπηρεσίες τρίτων"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Πολιτική απορρήτου"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Τελευταία ενημέρωση: 25 Οκτωβρίου 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Ο σύνδεσμος είναι κατεστραμμένος ή δεν αντιγράφηκε ολόκληρος. Ζητήστε από τον αποστολέα να τον στείλει ξανά."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Τα δεδομένα έφτασαν αλλά δεν ήταν δυνατή η αποκρυπτογράφησή τους: ο σύνδεσμος είναι κατεστραμμένος. Το μυστικό έχει ήδη διαγραφεί από τον διακομιστή, οπότε ζητήστε από τον αποστολέα να δημιουργήσει νέο."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Δεν ήταν δυνατή η σύνδεση με τον διακομιστή. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Πάρα πολλές προσπάθειες. Περιμένετε ένα λεπτό και δοκιμάστε ξανά."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Δεν ήταν δυνατό το άνοιγμα του μυστικού"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Δημιουργήστε δικό σας σύνδεσμο"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Πώς λειτουργούν οι σύνδεσμοι μίας χρήσης"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Έχει ήδη ανοιχτεί ή έχει λήξει. Ο σύνδεσμος δεν μπορεί να ανοιχτεί ξανά."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Ζητήστε από τον αποστολέα να δημιουργήσει νέο σύνδεσμο. Αν δεν ανοίξατε αυτόν, ενημερώστε τον: μπορεί να τον είδε κάποιος άλλος."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Αυτό το μυστικό δεν είναι πλέον διαθέσιμο"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Μπορεί να προβληθεί μόνο μία φορά. Αμέσως μετά θα διαγραφεί από τον διακομιστή."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Το μυστικό προστατεύεται με κωδικό. Μπορεί να προβληθεί μόνο μία φορά και μετά θα διαγραφεί από τον διακομιστή."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Κάποιος σας έστειλε ένα μυστικό"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Σύνδεσμος μίας χρήσης Encrypt.One. Το μυστικό μπορεί να ανοιχτεί μία φορά και μετά διαγράφεται από τον διακομιστή."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Κάποιος σας έστειλε ένα μυστικό — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Εισαγάγετε τον κωδικό."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Ο αποστολέας θα έπρεπε να σας έχει κοινοποιήσει τον κωδικό χωριστά. Μετά από τρεις λανθασμένες προσπάθειες το μυστικό διαγράφεται."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Κωδικός ανοίγματος"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Άνοιγμα"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Μοιραστείτε το δικό σας μυστικό"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Δημιουργήστε τον δικό σας σύνδεσμο μίας χρήσης. Χωρίς εγγραφή."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Χρειάζεται να μοιραστείτε κι εσείς έναν κωδικό;"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Εμφάνιση μυστικού"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Διαγράφηκε από τον διακομιστή"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Λήψη"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Αποθηκεύστε το αν το χρειαστείτε αργότερα: αφού κλείσετε τη σελίδα, το μυστικό δεν μπορεί να ανοιχτεί ξανά."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Κείμενο μυστικού"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Το μυστικό σας"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Άνοιγμα…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Τι είναι το Encrypt.One;"
+  }
+]

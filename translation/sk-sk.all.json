@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Požiadavku sa nepodarilo spracovať. Obnovte stránku a skúste to znova."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Tento odkaz neoprávňuje na zničenie tajomstva."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Tajomstvo sa nenašlo: už bolo otvorené, zničené alebo uplynula jeho platnosť."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Na otvorenie tohto tajomstva je potrebné heslo."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Príliš veľa požiadaviek. Počkajte minútu a skúste to znova."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Na našej strane sa niečo pokazilo. Skúste to znova o minútu."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Súbor je príliš veľký. Limit je {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Heslo bolo trikrát zadané nesprávne, preto bolo tajomstvo vymazané."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Nesprávne heslo. Zostávajúce pokusy: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Zavrieť"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Skopírované"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopírovať"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Odkazy"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Súkromie"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekt"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Časté otázky"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Návody"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Ako to funguje"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Bezpečnosť"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Zdroje"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Odoslať súbor"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Generátor hesiel"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Zdieľať tajomstvo"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Služba"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Jednorazové odkazy na zdieľanie hesiel a súborov. Šifrovanie vo vašom prehliadači."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Zdrojový kód na GitHube"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Slovenčina"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "SK"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Jazyk stránky: slovenčina"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Úvodná stránka Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: zdieľajte heslo pomocou jednorazového odkazu"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Časté otázky"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Generátor hesiel"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Ako to funguje"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Hlavná navigácia"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Prejsť na obsah"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Čas, kalendáre a sviatky pre každé mesto"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Hry zadarmo priamo v prehliadači"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tisíce rozhlasových staníc z celého sveta"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One je zadarmo vďaka našim sponzorom"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tmavý"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Motív"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Svetlý"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Systémový"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Pošlite ho príjemcovi. Tajomstvo možno otvoriť iba raz."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Váš odkaz je pripravený"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Získať ďalší odkaz"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Pre rovnaké tajomstvo jeden odkaz pre každého príjemcu. Súčasný odkaz bude fungovať ďalej, ale odtiaľto ho už nebudete môcť zničiť."
+  },
+  {
+    "id": "created.back",
+    "translation": "Nové tajomstvo"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Zničiť teraz"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Zničiť tajomstvo? Odkaz okamžite prestane fungovať."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Tajomstvo sa nepodarilo zničiť. Skúste to znova."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Odoslali ste ho nesprávnej osobe? Zničte tajomstvo a odkaz okamžite prestane fungovať."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Tajomstvo ste zničili. Údaje boli vymazané zo servera a odkaz už nefunguje."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Tajomstvo zničené"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Nikto neotvoril odkaz včas. Údaje boli vymazané zo servera a odkaz už nefunguje."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Platnosť odkazu vypršala"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopírovať odkaz"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Jednorazový odkaz"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Tento odkaz už nefunguje"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Odkaz sa zobrazuje iba na karte, kde bol vytvorený. Tajomstvo odtiaľto stále môžete zničiť."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Stránka odosielateľa jednorazového odkazu Encrypt.One: zdieľajte odkaz alebo zničte tajomstvo."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Váš odkaz je pripravený — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Vytvoriť nový odkaz"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR kód jednorazového odkazu"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Namierte naň fotoaparát telefónu a otvorte odkaz. Neukazujte kód ostatným: otvára tajomstvo rovnako ako odkaz."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "QR kód odkazu"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Odoslať cez"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-mail"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR kód"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Tajomstvo pre vás"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Jednorazový odkaz na tajomstvo:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Platný do"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tip:</strong> pri obzvlášť citlivých údajoch pridajte k odkazu heslo a oznámte ho iným spôsobom, napríklad hlasom. Zachytenie jednej správy potom nič neprezradí."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Priložiť súbor"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Uvoľnením priložíte súbor"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Súbor môžete presunúť priamo do poľa."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Do {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Tento prehliadač nepodporuje šifrovanie. Aktualizujte ho alebo otvorte stránku v inom prehliadači."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Vložte text alebo priložte súbor."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Súbor je príliš veľký. Limit je {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Nepodarilo sa spojiť so serverom. Skontrolujte pripojenie a skúste to znova."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Zadajte heslo na otvorenie alebo vypnite ochranu heslom."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "zašifruje sa spolu s textom"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Odstrániť súbor"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Vygenerovať heslo"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Vložiť do poľa tajomstva"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Navrhnúť"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Bez tohto hesla sa tajomstvo neotvorí ani pri zachytení odkazu. Oznámte ho príjemcovi zvlášť, napríklad hlasom alebo v inom komunikátore."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Heslo na otvorenie"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Napríklad maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Chrániť heslom"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Čo chcete zdieľať?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Heslo, API kľúč, prihlasovacie údaje…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Nastavenia odkazu"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Vytvoriť jednorazový odkaz"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Šifrovanie…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 deň"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 hodina"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 dni"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 dní"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Vyprší o"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Čas uloženia"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Bezplatný generátor silných hesiel, heslových fráz a PIN kódov vytvorených v prehliadači a nikam neposielaných. Výsledok zdieľajte jednorazovým odkazom."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Generátor silných hesiel — zadarmo a súkromne | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Číslice (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Dĺžka"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Malé písmená (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Bez podobných znakov (0 a O, l a 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Znaky"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Symboly (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Veľké písmená (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Fráza z náhodných slov sa ľahko vyslovuje a pamätá, no je rovnako ťažké ju uhádnuť ako dlhé heslo. Slová pochádzajú z otvoreného zoznamu EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Počet slov"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Počet číslic"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Vygenerovať znova"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Odoslať jednorazovým odkazom"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Výsledok sa vloží priamo do formulára a získate odkaz, ktorý možno otvoriť iba raz."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Potrebujete toto heslo zdieľať?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropia ≈ {bits} bitov"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Stredné"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Vhodné iba ako PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Silné"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Veľmi silné"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Slabé"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Typ hesla"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Heslo"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Heslová fráza"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Aspoň 14–16 znakov. Dĺžka chráni lepšie než nahrádzanie písmen symbolmi."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Dlhé"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Zložité heslá si nemusíte pamätať: na to slúži správca hesiel."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Uložené v správcovi hesiel"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Čo robí heslo silným"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Pre každú službu iné. Únik jedného hesla potom neohrozí ostatné účty."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Jedinečné"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Generátor hesiel"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Nie. Tajomstvo sa pred odoslaním zašifruje vo vašom prehliadači. Kľúč je v odkaze za znakom # a táto časť adresy sa nikdy nedostane na server."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Nič sa nestane. Tajomstvo sa zobrazí až po kliknutí na „Zobraziť tajomstvo“ a roboty náhľadov na tlačidlá neklikajú."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Tajomstvo sa po uplynutí zvoleného času uloženia samo vymaže."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Áno. Na stránke s odkazom je tlačidlo „Zničiť teraz“. Potom odkaz prestane fungovať."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Nie. Účet nepotrebuje odosielateľ ani príjemca."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Nenašli ste odpoveď? Vytvorte hlásenie na GitHube."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Môžete prečítať moje tajomstvo?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Čo ak odkaz otvorí robot náhľadu v komunikátore?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Čo ak príjemca odkaz nikdy neotvorí?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Môžem odkaz po odoslaní zrušiť?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Musím sa registrovať?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Časté otázky"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Vaše tajomstvo sa šifruje priamo v prehliadači. Príjemca otvorí odkaz raz a údaje sa potom vymažú zo servera."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Bez registrácie"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Šifrovanie AES-256 na vašom zariadení"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Otvorený zdrojový kód"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Zdieľajte heslá bezpečne pomocou jednorazových odkazov"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Heslo, API kľúč, prihlasovacie údaje alebo súbor. Všetko sa pred odoslaním zašifruje v prehliadači."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Vložte tajomstvo"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Cez Telegram, WhatsApp, Signal, Slack, e-mail alebo iný komunikátor. V chate zostane iba odkaz, nie samotné heslo."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Odošlite odkaz"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Po zobrazení sa údaje vymažú zo servera. Odkaz nemožno otvoriť druhýkrát."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Odkaz sa spotrebuje"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Ako to funguje"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Posielajte heslá, súkromné správy, API kľúče a súbory pomocou šifrovaných jednorazových odkazov. Tajomstvá sa po zobrazení vymažú. Zadarmo, otvorený kód, bez registrácie."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Jednorazové odkazy na tajomstvá — zdieľajte heslá bezpečne | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Zdieľajte heslá a prihlasovacie údaje bez toho, aby zostali v histórii chatu."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Heslá a prihlasovacie údaje"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Posielajte citlivé správy, ktoré možno otvoriť iba raz."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Súkromné správy"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Bezpečne zdieľajte API kľúče, prístupové tokeny a konfiguračné súbory s tímom."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API kľúče a prístupové údaje"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Zdieľajte súkromné dokumenty a súbory do {{.MaxFileSize}} pomocou šifrovaných jednorazových odkazov."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Dôverné súbory"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Bezpečne posielajte samomazacie správy, heslá, API kľúče a súkromné súbory. Každé tajomstvo sa zašifruje v prehliadači a po zobrazení vymaže zo servera."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Čo môžete zdieľať jednorazovým odkazom?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Zostáva u vás.</strong> Dešifrovací kľúč. Prehliadače nikdy neposielajú na server nič za znakom #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Posiela sa na server.</strong> Adresa šifrovaných údajov: bez kľúča sú to len náhodné bajty."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Vstavané Web Crypto API prehliadača a AES-256-GCM. Žiadne knižnice tretích strán."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Šifrovanie v prehliadači"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Všetok kód je zverejnený na <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHube</a>. Každý môže overiť fungovanie šifrovania."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Otvorený zdrojový kód"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Bez registrácie, skriptov tretích strán a sledovacích nástrojov. Preto tu nie je ani banner cookies."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Nič navyše"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Dešifrovací kľúč je v odkaze za znakom #. Prehliadače túto časť adresy nikdy neposielajú na server, takže ju vidíte iba vy a príjemca."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Viac o fungovaní"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Prečo nemôžeme prečítať vaše tajomstvo"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Zdieľať tajomstvo"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kód na GitHube"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Otvorený zdrojový kód"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Všetok kód Encrypt.One je na GitHube. Každý môže zistiť, ako šifrovanie funguje, a overiť, že kľúč nikdy nejde na server."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Overte si to sami"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Tok údajov"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Tajomstvo sa pred odoslaním zašifruje a dešifruje ho iba príjemca. Medzitým zostávajú údaje vždy zašifrované."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Stiahne šifrované údaje, vezme kľúč z odkazu a dešifruje tajomstvo lokálne. Server údaje ihneď potom vymaže."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Prehliadač príjemcu"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Vytvorí náhodný kľúč a zašifruje text a súbor pomocou AES-256-GCM a Web Crypto API zabudovaného v prehliadači."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Prehliadač odosielateľa"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Prijíma a ukladá iba šifrované bajty. Bez kľúča ich nikto neprečíta — ani my, ani ktokoľvek s prístupom k serveru."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Server Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Server vidí iba šifrované údaje"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One šifruje vaše tajomstvo priamo v prehliadači. Na server idú len šifrované údaje, zatiaľ čo kľúč zostáva v odkaze a nikdy neopustí zariadenia odosielateľa a príjemcu."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Ako to funguje a prečo je to bezpečné"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Vnútri odkazu"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Odkaz má dve časti. Prvá ukazuje, kde sú uložené šifrované údaje. Druhá, za znakom #, je dešifrovací kľúč."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Ktokoľvek má úplný odkaz, môže tajomstvo otvoriť. Posielajte ho len príjemcovi a pri citlivých údajoch pridajte heslo."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Úplný odkaz dáva prístup"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Prehliadače do požiadaviek nezahŕňajú časť za #. Kľúč teda nie je v protokoloch servera ani na žiadnom medziľahlom mieste siete."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Nikdy sa neposiela na server"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Kľúč sa generuje náhodne vo vašom zariadení. Nemožno ho uhádnuť hrubou silou."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Pre každý odkaz nový"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Kľúč je za znakom #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Ako Encrypt.One šifruje tajomstvá v prehliadači: AES-256-GCM, kľúč v odkaze za #, uloženie, mazanie údajov a ochrana heslom."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Ako funguje Encrypt.One: zdieľanie tajomstiev s koncovým šifrovaním"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Otvoriť generátor hesiel"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Heslo na otvorenie"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Heslo chráni tajomstvo aj pri zachytení odkazu. Bez neho príjemca uvidí iba vstupné pole."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Po troch chybných pokusoch sa tajomstvo vymaže. Heslo tak nemožno uhádnuť hrubou silou."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tri pokusy"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Kliknite vo formulári na „Navrhnúť“ alebo použite frázu z generátora hesiel: ľahko sa diktuje."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Nevymýšľajte ho sami"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Heslo oznámte inak: hlasom, v inom komunikátore alebo osobne. Zachytenie jednej správy potom nič neprezradí."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Odovzdajte ho zvlášť"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Druhý zámok pre citlivé údaje"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Ak je heslo na otvorenie trikrát zadané nesprávne, tajomstvo sa natrvalo vymaže."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Po troch chybných heslách"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Tlačidlo „Zničiť teraz“ na stránke odkazu tajomstvo okamžite vymaže."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Na váš pokyn"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Ak odkaz nie je otvorený počas zvoleného času uloženia, tajomstvo sa samo vymaže."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Po vypršaní platnosti"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Len čo príjemca tajomstvo otvorí, údaje sa vymažú. Odkaz druhýkrát nezafunguje."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Po otvorení"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Počítadlo chybných pokusov o zadanie hesla"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Šifrovaný text a súbor"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Uložené na serveri"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Zvolený čas uloženia"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Uloženie"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Server uchováva tajomstvo presne tak dlho, ako príjemca potrebuje na jeho otvorenie."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Dešifrovací kľúč z odkazu"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Heslo na otvorenie"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Obsah tajomstva v otvorenej podobe"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Nikdy nedorazí na server"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Čo server ukladá a kedy to maže"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Generátor hesiel"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Na úvodnú stránku"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Takáto stránka na Encrypt.One neexistuje."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Stránka sa nenašla — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adresa môže byť chybná alebo bola stránka presunutá. Ak ste otvárali jednorazový odkaz, overte, či bol skopírovaný celý."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Stránka sa nenašla"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Ak sa tieto zásady zmenia, zverejníme novú verziu na tejto stránke a aktualizujeme dátum hore.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Zmeny zásad"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Otázky o súkromí pokladajte v <a href=\"https://github.com/Draal/secure-share/issues\">hláseniach na GitHube</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Otázky"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>ihneď po otvorení tajomstva príjemcom;</li><li>keď na stránke odkazu stlačíte „Zničiť teraz“;</li><li>po treťom nesprávnom hesle;</li><li>po uplynutí zvolenej doby od jednej hodiny do siedmich dní. Tajomstvo po vypršaní okamžite prestane byť dostupné a jeho údaje sa vymažú pri každodennom čistení.</li></ul><p>Vymazané tajomstvo nemožno obnoviť. Roboty komunikátorov vytvárajúce náhľady odkazov tajomstvo nespotrebujú: údaje sa vydajú až po stlačení „Zobraziť tajomstvo“.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Kedy sa údaje mažú"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Heslá, heslové frázy a PIN kódy sa vytvárajú vo vašom prehliadači kryptografickým generátorom náhodných čísel a nikdy sa neposielajú na server.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Generátor hesiel"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One je vytvorený tak, aby tajomstvo mohol prečítať iba príjemca — ani my nie. Nižšie uvádzame, aké údaje prechádzajú službou a čo sa s nimi deje."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Server aplikácie zaznamenáva iba požiadavky API: typ požiadavky, výsledok a čas spracovania. IP adresy, identifikátory tajomstiev, tokeny, adresy stránok ani obsah požiadaviek sa nezaznamenávajú.</p><p>Na ochranu služby pred útokmi hrubou silou a zneužitím server obmedzuje počet požiadaviek z jednej IP adresy. Adresa sa používa iba v pamäti a neukladá sa.</p><p>Webový server pred aplikáciou môže viesť štandardný prístupový protokol: IP adresu, čas a adresu stránky bez časti za #. Tieto protokoly sa používajú iba na ochranu pred útokmi a uchovávajú sa obmedzený čas.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Technické protokoly"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Zásady ochrany súkromia Encrypt.One: aké údaje služba prijíma, ako dlho ich uchováva a prečo nemôže čítať vaše tajomstvá."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Zásady ochrany súkromia — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Samotné heslo nikdy neopustí prehliadač. Z hesla a kľúča odkazu prehliadač odvodí dve nezávislé hodnoty: šifrovací kľúč a overovací hash (PBKDF2 so 600 000 iteráciami, potom HKDF). Na server sa posiela iba hash. Server ho použije na overenie hesla, ale nemôže zistiť heslo ani kľúč.</p><p>Po troch chybných pokusoch sa tajomstvo vymaže. Počítadlo pokusov sa uchováva v pamäti servera a patrí k tajomstvu, nie k návštevníkovi.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Heslo na otvorenie"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Nevieme, kto tajomstvo vytvoril alebo otvoril: služba nespája údaje s ľuďmi, účtami ani IP adresami. Preto nemôžeme nájsť, vydať ani vymazať údaje konkrétnej osoby. Ak chcete tajomstvo vymazať pred vypršaním, otvorte stránku odkazu a stlačte „Zničiť teraz“.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Vaše práva"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Text a priložený súbor sa pred odoslaním zašifrujú vo vašom prehliadači pomocou AES-256-GCM a vstavaného Web Crypto API. Názov a typ súboru sa šifrujú spolu s obsahom.</p><p>Na serveri sa ukladajú iba:</p><ul><li>šifrované údaje;</li><li>čas vypršania;</li><li>informácia, či je priložený súbor;</li><li>overovací hash hesla, ak ste nastavili heslo na otvorenie.</li></ul><p>Dešifrovací kľúč je časť odkazu za znakom #. Prehliadače túto časť nikdy neposielajú na server, takže údaje nemôžeme dešifrovať ani my, ani nikto s prístupom k serveru. Z rovnakého dôvodu nemôžeme tajomstvo obnoviť, ak sa odkaz stratí.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Tajomstvá a súbory"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One je bezplatná služba na zdieľanie hesiel, kľúčov a súborov pomocou jednorazových odkazov. Registrácia nie je potrebná. Službu vyvíja a prevádzkuje <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Odkaz posielate sami ľubovoľným spôsobom. Správu v komunikátore, e-mail alebo SMS možno zachytiť a tajomstvo potom získa ten, kto odkaz otvorí prvý. Pri dôležitých údajoch nastavte heslo na otvorenie a oznámte ho iným kanálom.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Ako služba funguje"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Tajomstvo sa šifruje vo vašom prehliadači. Server prijíma len šifrované údaje a nemôže ich čítať.</li><li>Dešifrovací kľúč je v odkaze za znakom # a nikdy sa neposiela na server.</li><li>Bez registrácie, reklamy, analytiky a skriptov tretích strán.</li><li>Tajomstvo sa vymaže ihneď po otvorení alebo po uplynutí zvoleného času.</li><li>Server aplikácie nezaznamenáva IP adresy ani identifikátory tajomstiev.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Stručne"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Zdrojový kód je otvorený na <a href=\"https://github.com/Draal/secure-share\">GitHube</a>: môžete overiť šifrovanie alebo prevádzkovať vlastnú kópiu.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Otvorený zdrojový kód"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Nepoužívame reklamné ani analytické cookies. Web ukladá v prehliadači iba to, čo potrebuje na fungovanie:</p><ul><li>cookie <code>lang</code> — jazyk, ak ste ho zvolili v prepínači;</li><li>v localStorage — farebný motív, záznam o zatvorení jazykového bannera a záznamy o odkazoch zničených z tohto prehliadača;</li><li>v sessionStorage — heslo z generátora počas prenosu do formulára na úvodnej stránke. Ihneď po vložení sa vymaže.</li></ul><p>Na server z toho prichádza iba jazyková cookie, podľa ktorej vyberá verziu stránky. Všetko možno odstrániť v nastaveniach prehliadača.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookies a úložisko prehliadača"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Web nenačítava skripty, písma, počítadlá ani reklamy tretích strán: všetko vrátane písiem sa poskytuje z nášho servera. Údaje nepredávame ani neposkytujeme tretím stranám.</p><p>Tlačidlá na odoslanie cez Telegram, WhatsApp a e-mail aj odkazy na weby sponzorov sú bežné odkazy. Externá služba získa údaje až po kliknutí a potom platia jej vlastné zásady.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Služby tretích strán"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Zásady ochrany súkromia"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Posledná aktualizácia: 25. októbra 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Odkaz je poškodený alebo nebol skopírovaný celý. Požiadajte odosielateľa o opätovné zaslanie."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Údaje dorazili, ale nepodarilo sa ich dešifrovať: odkaz je poškodený. Tajomstvo už bolo vymazané zo servera, požiadajte preto odosielateľa o vytvorenie nového."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Nepodarilo sa spojiť so serverom. Skontrolujte pripojenie a skúste to znova."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Príliš veľa pokusov. Počkajte minútu a skúste to znova."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Tajomstvo sa nepodarilo otvoriť"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Vytvoriť vlastný odkaz"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Ako fungujú jednorazové odkazy"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Tajomstvo už bolo otvorené alebo vypršala jeho platnosť. Odkaz nemožno otvoriť znova."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Požiadajte odosielateľa o vytvorenie nového odkazu. Ak ste tento neotvorili, dajte mu vedieť: mohol ho vidieť niekto iný."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Toto tajomstvo už nie je dostupné"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Možno ho zobraziť iba raz. Ihneď potom bude vymazané zo servera."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Tajomstvo je chránené heslom. Možno ho zobraziť iba raz, potom bude vymazané zo servera."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Niekto vám poslal tajomstvo"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Jednorazový odkaz Encrypt.One. Tajomstvo možno otvoriť raz, potom sa vymaže zo servera."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Niekto vám poslal tajomstvo — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Zadajte heslo."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Odosielateľ vám mal heslo oznámiť zvlášť. Po troch chybných pokusoch sa tajomstvo vymaže."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Heslo na otvorenie"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Otvoriť"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Odoslať vlastné tajomstvo"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Vytvorte vlastný jednorazový odkaz. Bez registrácie."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Potrebujete tiež zdieľať heslo?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Zobraziť tajomstvo"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Vymazané zo servera"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Stiahnuť"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Ak ho budete neskôr potrebovať, uložte si ho: po zavretí stránky už tajomstvo znova neotvoríte."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Text tajomstva"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Vaše tajomstvo"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Otváranie…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Čo je Encrypt.One?"
+  }
+]

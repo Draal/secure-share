@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Het verzoek kon niet worden verwerkt. Vernieuw de pagina en probeer het opnieuw."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Met deze link mag het geheim niet worden vernietigd."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Geheim niet gevonden: het is al geopend, vernietigd of verlopen."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Voor dit geheim is een wachtwoord nodig."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Te veel verzoeken. Wacht een minuut en probeer het opnieuw."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Er is bij ons iets misgegaan. Probeer het over een minuut opnieuw."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Het bestand is te groot. De limiet is {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Het wachtwoord is drie keer verkeerd ingevoerd, daarom is het geheim verwijderd."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Verkeerd wachtwoord. Resterende pogingen: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Sluiten"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Gekopieerd"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopiëren"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Links"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privacy"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Project"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Veelgestelde vragen"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Handleidingen"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Hoe het werkt"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Beveiliging"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Bronnen"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Bestand versturen"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Wachtwoordgenerator"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Geheim delen"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Dienst"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Eenmalige links om wachtwoorden en bestanden te delen. Versleuteld in je browser."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Broncode op GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Nederlands"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "NL"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Taal van de site: Nederlands"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Startpagina Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: deel een wachtwoord met een eenmalige link"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Veelgestelde vragen"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Wachtwoordgenerator"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Hoe het werkt"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Hoofdnavigatie"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Naar inhoud"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Tijd, kalenders en feestdagen voor elke stad"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Gratis spellen direct in je browser"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Duizenden radiozenders van over de hele wereld"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One is gratis dankzij onze sponsors"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Donker"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Thema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Licht"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Systeem"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Stuur hem naar de ontvanger. Het geheim kan maar één keer worden geopend."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Je link is klaar"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Nog een link maken"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Voor hetzelfde geheim, één link per ontvanger. De huidige link blijft werken, maar je kunt hem vanaf hier niet meer vernietigen."
+  },
+  {
+    "id": "created.back",
+    "translation": "Nieuw geheim"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Nu vernietigen"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Het geheim vernietigen? De link werkt dan direct niet meer."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Het geheim kon niet worden vernietigd. Probeer het opnieuw."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Naar de verkeerde persoon gestuurd? Vernietig het geheim en de link werkt direct niet meer."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Je hebt het geheim vernietigd. De gegevens zijn van de server verwijderd en de link werkt niet meer."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Geheim vernietigd"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Niemand heeft de link op tijd geopend. De gegevens zijn van de server verwijderd en de link werkt niet meer."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "De link is verlopen"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Link kopiëren"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Eenmalige link"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Deze link werkt niet meer"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "De link wordt alleen getoond in het tabblad waarin hij is gemaakt. Je kunt het geheim hier nog wel vernietigen."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Afzenderpagina van een eenmalige Encrypt.One-link: deel de link of vernietig het geheim."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Je link is klaar — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Nieuwe link maken"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR-code van de eenmalige link"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Richt de camera van je telefoon erop om de link te openen. Laat de code niet aan anderen zien: hij opent het geheim net als de link."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "QR-code van de link"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Versturen via"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-mail"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR-code"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Een geheim voor jou"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Eenmalige link naar een geheim:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Geldig tot"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tip:</strong> voeg voor zeer gevoelige gegevens een wachtwoord toe aan de link en geef het op een andere manier door, bijvoorbeeld mondeling. Zo levert het onderscheppen van één bericht niets op."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Bestand toevoegen"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Laat los om het bestand toe te voegen"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Je kunt een bestand rechtstreeks naar het veld slepen."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Tot {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Deze browser ondersteunt geen versleuteling. Werk hem bij of open de site in een andere browser."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Plak tekst of voeg een bestand toe."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Het bestand is te groot. De limiet is {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "De server kon niet worden bereikt. Controleer je verbinding en probeer het opnieuw."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Voer een wachtwoord in om te openen of schakel wachtwoordbeveiliging uit."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "wordt samen met de tekst versleuteld"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Bestand verwijderen"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Wachtwoord genereren"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "In het geheimveld invoegen"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Voorstellen"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Zonder dit wachtwoord kan het geheim niet worden geopend, ook niet als de link wordt onderschept. Geef het afzonderlijk aan de ontvanger door, bijvoorbeeld mondeling of via een andere berichtenapp."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Wachtwoord voor openen"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Bijvoorbeeld maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Beveiligen met wachtwoord"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Wat wil je delen?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Wachtwoord, API-sleutel, inloggegevens…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Linkinstellingen"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Eenmalige link maken"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Versleutelen…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 dag"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 uur"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 dagen"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 dagen"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Verloopt over"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Bewaartijd"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Gratis generator voor sterke wachtwoorden, wachtwoordzinnen en pincodes, gemaakt in je browser en nergens naartoe gestuurd. Deel het resultaat met een eenmalige link."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Sterke wachtwoordgenerator — gratis en privé | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Cijfers (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Lengte"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Kleine letters (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Geen gelijkende tekens (0 en O, l en 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Tekens"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Symbolen (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Hoofdletters (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Een zin met willekeurige woorden is makkelijk uit te spreken en te onthouden, maar net zo moeilijk te raden als een lang wachtwoord. De woorden komen uit de open EFF-woordenlijst."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Aantal woorden"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Aantal cijfers"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Opnieuw genereren"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Als eenmalige link versturen"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Het resultaat gaat direct naar het formulier en je krijgt een link die maar één keer opent."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Dit wachtwoord delen?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropie ≈ {bits} bits"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Redelijk"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Alleen geschikt als pincode"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Sterk"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Zeer sterk"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Zwak"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Type wachtwoord"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Wachtwoord"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Wachtwoordzin"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "Pincode"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Minstens 14–16 tekens. Lengte beschermt beter dan letters slim vervangen door symbolen."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Lang"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Je hoeft ingewikkelde wachtwoorden niet te onthouden: daarvoor is een wachtwoordmanager."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Bewaard in een wachtwoordmanager"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Wat maakt een wachtwoord sterk"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Eén per dienst. Dan geeft een gelekt wachtwoord geen toegang tot je andere accounts."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Uniek"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Wachtwoordgenerator"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Nee. Het geheim wordt vóór verzending versleuteld in je browser. De sleutel staat in de link na het #-teken en dat deel van het adres bereikt de server nooit."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Er gebeurt niets. Het geheim verschijnt pas na een klik op ‘Geheim tonen’ en voorbeeldbots klikken niet op knoppen."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Het geheim wordt automatisch verwijderd wanneer de gekozen bewaartijd verstrijkt."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Ja. Op de pagina met je link staat een knop ‘Nu vernietigen’. Daarna werkt de link niet meer."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Nee. Zowel de afzender als de ontvanger heeft geen account nodig."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Geen antwoord gevonden? Maak een issue aan op GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Kunnen jullie mijn geheim lezen?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Wat als een voorbeeldbot van een berichtenapp de link opent?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Wat als de ontvanger de link nooit opent?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Kan ik een link na verzending intrekken?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Moet ik me registreren?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Veelgestelde vragen"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Je geheim wordt direct in je browser versleuteld. De ontvanger opent de link één keer en daarna worden de gegevens van de server verwijderd."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Geen registratie"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256-versleuteling op je apparaat"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Open source"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Deel wachtwoorden veilig met eenmalige links"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Een wachtwoord, API-sleutel, inloggegevens of een bestand. Alles wordt vóór verzending in je browser versleuteld."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Plak je geheim"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Via Telegram, WhatsApp, Signal, Slack, e-mail of een andere berichtenapp. In de chat blijft alleen de link staan, niet het wachtwoord zelf."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Stuur de link"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Na het bekijken worden de gegevens van de server verwijderd. De link kan geen tweede keer worden geopend."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "De link vervalt"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Hoe het werkt"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Verstuur wachtwoorden, privéberichten, API-sleutels en bestanden met versleutelde eenmalige links. Geheimen worden na het bekijken verwijderd. Gratis, open source, zonder registratie."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Eenmalige geheime links — deel wachtwoorden veilig | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Deel wachtwoorden en accountgegevens zonder ze in de chatgeschiedenis achter te laten."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Wachtwoorden en inloggegevens"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Verstuur gevoelige berichten die maar één keer kunnen worden geopend."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Privéberichten"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Deel API-sleutels, toegangstokens en configuratiebestanden veilig met je team."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API-sleutels en toegangsgegevens"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Deel privédocumenten en bestanden tot {{.MaxFileSize}} via versleutelde eenmalige links."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Vertrouwelijke bestanden"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Verstuur zelfvernietigende berichten, wachtwoorden, API-sleutels en privébestanden veilig. Elk geheim wordt in je browser versleuteld en na het bekijken van de server verwijderd."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Wat kun je delen met een eenmalige link?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Blijft bij jou.</strong> De ontsleutelingssleutel. Browsers sturen niets na de # naar de server."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Gaat naar de server.</strong> Het adres van de versleutelde gegevens: zonder sleutel zijn het slechts willekeurige bytes."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "De ingebouwde Web Crypto API van de browser en AES-256-GCM. Geen bibliotheken van derden."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Versleuteld in de browser"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Alle code is gepubliceerd op <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Iedereen kan controleren hoe de versleuteling werkt."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Open source"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Geen registratie, scripts van derden of trackers. Daarom is er ook geen cookiebanner."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Niets overbodigs"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "De ontsleutelingssleutel staat in de link na het #-teken. Browsers sturen dat deel van het adres nooit naar de server, dus alleen jij en de ontvanger kunnen het zien."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Meer over de werking"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Waarom wij je geheim niet kunnen lezen"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Geheim delen"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Code op GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Open source"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Alle code van Encrypt.One staat op GitHub. Iedereen kan zien hoe de versleuteling werkt en controleren dat de sleutel nooit naar de server gaat."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Controleer het zelf"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Gegevensstroom"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Het geheim wordt vóór verzending versleuteld en alleen door de ontvanger ontsleuteld. Daartussen blijven de gegevens altijd versleuteld."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Downloadt de versleutelde gegevens, haalt de sleutel uit de link en ontsleutelt het geheim lokaal. De server verwijdert de gegevens direct daarna."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Browser van de ontvanger"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Maakt een willekeurige sleutel en versleutelt de tekst en het bestand met AES-256-GCM via de ingebouwde Web Crypto API van de browser."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Browser van de afzender"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Ontvangt en bewaart alleen versleutelde bytes. Zonder sleutel kan niemand ze lezen, niet wij en ook niemand die toegang tot de server krijgt."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One-server"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "De server ziet alleen versleutelde gegevens"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One versleutelt je geheim direct in je browser. Alleen versleutelde gegevens gaan naar de server; de sleutel blijft in de link en verlaat de apparaten van afzender en ontvanger nooit."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Hoe het werkt en waarom het veilig is"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "In de link"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Een link heeft twee delen. Het eerste verwijst naar de opgeslagen versleutelde gegevens. Het tweede, na de #, is de ontsleutelingssleutel."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Iedereen met de volledige link kan het geheim openen. Stuur hem alleen naar de ontvanger en voeg een wachtwoord toe voor gevoelige gegevens."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "De volledige link geeft toegang"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Browsers nemen het deel na # niet op in verzoeken. De sleutel staat dus niet in serverlogs of op tussenliggende netwerkpunten."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Nooit naar de server gestuurd"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "De sleutel wordt willekeurig op je apparaat gemaakt. Hij kan niet met brute kracht worden geraden."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Nieuw voor elke link"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "De sleutel staat na de #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Hoe Encrypt.One geheimen in je browser versleutelt: AES-256-GCM, de sleutel na #, wat de server bewaart, wanneer gegevens worden verwijderd en waarom je een wachtwoord toevoegt."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Hoe Encrypt.One werkt: geheimen delen met end-to-endversleuteling"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Wachtwoordgenerator openen"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Wachtwoord voor openen"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Een wachtwoord beschermt het geheim ook als de link wordt onderschept. Zonder wachtwoord ziet de ontvanger alleen het invoerveld."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Na drie verkeerde pogingen wordt het geheim verwijderd. Het wachtwoord kan niet met brute kracht worden geraden."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Drie pogingen"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Klik op ‘Voorstellen’ in het formulier of gebruik een zin uit de wachtwoordgenerator: die is gemakkelijk voor te lezen."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Bedenk er zelf geen"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Geef het wachtwoord op een andere manier door: mondeling, via een andere berichtenapp of persoonlijk. Dan levert het onderscheppen van één bericht niets op."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Geef het apart door"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Een tweede slot voor gevoelige gegevens"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Als het wachtwoord drie keer verkeerd wordt ingevoerd, wordt het geheim voorgoed verwijderd."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Na drie verkeerde wachtwoorden"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "De knop ‘Nu vernietigen’ op de linkpagina verwijdert het geheim direct."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Op jouw verzoek"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Als de link niet binnen de gekozen bewaartijd wordt geopend, wordt het geheim automatisch verwijderd."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Bij verloop"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Zodra de ontvanger het geheim opent, worden de gegevens verwijderd. De link werkt geen tweede keer."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Na openen"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Een teller voor verkeerde wachtwoordpogingen"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "De versleutelde tekst en het bestand"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Opgeslagen op de server"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "De gekozen bewaartijd"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Opslag"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "De server bewaart het geheim precies zolang als de ontvanger nodig heeft om het te openen."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "De ontsleutelingssleutel uit de link"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Het wachtwoord voor openen"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "De inhoud van het geheim in leesbare vorm"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Bereikt de server nooit"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Wat de server bewaart en wanneer het wordt verwijderd"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Wachtwoordgenerator"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Naar de startpagina"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Deze pagina bestaat niet op Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Pagina niet gevonden — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Misschien is het adres verkeerd ingevoerd of is de pagina verplaatst. Als je een eenmalige link wilde openen, controleer dan of deze volledig is gekopieerd."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Pagina niet gevonden"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Als dit beleid verandert, publiceren we de nieuwe versie op deze pagina en werken we de datum bovenaan bij.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Wijzigingen in dit beleid"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Stel privacyvragen via de <a href=\"https://github.com/Draal/secure-share/issues\">issues op GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Vragen"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>direct nadat de ontvanger het geheim opent;</li><li>wanneer je op de linkpagina op ‘Nu vernietigen’ drukt;</li><li>na het derde verkeerde wachtwoord;</li><li>aan het einde van de gekozen periode, van één uur tot zeven dagen. Een verlopen geheim wordt direct niet meer verstrekt en de gegevens worden tijdens de dagelijkse opschoning gewist.</li></ul><p>Een verwijderd geheim kan niet worden hersteld. Berichtenbots die linkvoorbeelden maken, verbruiken het geheim niet: de gegevens worden pas verstrekt na een klik op ‘Geheim tonen’.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Wanneer gegevens worden verwijderd"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Wachtwoorden, wachtwoordzinnen en pincodes worden in je browser gemaakt met een cryptografische generator voor willekeurige getallen en nooit naar de server gestuurd.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Wachtwoordgenerator"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One is zo gebouwd dat alleen de ontvanger een geheim kan lezen — zelfs wij niet. Hieronder staat welke gegevens door de dienst gaan en wat ermee gebeurt."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>De applicatieserver registreert alleen API-verzoeken: het type verzoek, het resultaat en de verwerkingstijd. IP-adressen, geheim-ID’s, tokens, pagina-adressen en inhoud van verzoeken worden niet gelogd.</p><p>Om de dienst tegen brute kracht en misbruik te beschermen, beperkt de server het aantal verzoeken per IP-adres. Het adres wordt alleen in het geheugen gebruikt en niet opgeslagen.</p><p>Een webserver vóór de applicatie kan een standaard toegangslog bijhouden: IP-adres, tijd en pagina-adres zonder het deel na #. Zulke logs dienen alleen ter bescherming tegen aanvallen en worden beperkt bewaard.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Technische logs"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Privacybeleid van Encrypt.One: welke gegevens de dienst ontvangt, hoelang deze worden bewaard en waarom hij je geheimen niet kan lezen."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Privacybeleid — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Het wachtwoord zelf verlaat je browser nooit. Uit het wachtwoord en de linksleutel leidt de browser twee onafhankelijke waarden af: de versleutelingssleutel en een controlehash (PBKDF2 met 600.000 iteraties, gevolgd door HKDF). Alleen de hash wordt naar de server gestuurd. De server gebruikt die om het wachtwoord te controleren, maar kan het wachtwoord noch de sleutel achterhalen.</p><p>Na drie verkeerde pogingen wordt het geheim verwijderd. De teller wordt in het servergeheugen bewaard en hoort bij het geheim, niet bij een bezoeker.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Wachtwoord voor openen"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>We weten niet wie een geheim heeft gemaakt of geopend: de dienst koppelt gegevens niet aan personen, accounts of IP-adressen. Daarom kunnen we de gegevens van een bepaalde persoon niet vinden, verstrekken of verwijderen. Om je geheim vóór de vervaldatum te verwijderen, open je de linkpagina en druk je op ‘Nu vernietigen’.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Je rechten"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Tekst en een bijgevoegd bestand worden vóór verzending in je browser versleuteld met AES-256-GCM via de ingebouwde Web Crypto API. De bestandsnaam en het bestandstype worden samen met de inhoud versleuteld.</p><p>De server bewaart alleen:</p><ul><li>de versleutelde gegevens;</li><li>het vervaltijdstip;</li><li>of er een bestand is bijgevoegd;</li><li>een wachtwoordcontrolehash, als je een wachtwoord hebt ingesteld.</li></ul><p>De ontsleutelingssleutel is het deel van de link na het #-teken. Browsers sturen dat deel nooit naar de server, dus noch wij noch iemand met toegang tot de server kunnen de gegevens ontsleutelen. Om dezelfde reden kunnen we een geheim niet herstellen als de link verloren gaat.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Geheimen en bestanden"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One is een gratis dienst om wachtwoorden, sleutels en bestanden via eenmalige links te delen. Registratie is niet nodig. De dienst wordt ontwikkeld en beheerd door <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Je verstuurt de link zelf op een manier naar keuze. Een bericht via een berichtenapp, e-mail of sms kan worden onderschept; wie de link als eerste opent, krijgt dan het geheim. Stel voor belangrijke gegevens een wachtwoord in en geef dit via een ander kanaal door.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Hoe de dienst werkt"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Je geheim wordt versleuteld in je browser. De server ontvangt alleen versleutelde gegevens en kan ze niet lezen.</li><li>De ontsleutelingssleutel staat in de link na het #-teken en wordt nooit naar de server gestuurd.</li><li>Geen registratie, advertenties, analyses of scripts van derden.</li><li>Een geheim wordt direct na openen of na afloop van de gekozen periode verwijderd.</li><li>De applicatieserver logt geen IP-adressen of geheim-ID’s.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "In het kort"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>De broncode is open op <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: je kunt controleren hoe de versleuteling werkt of een eigen kopie draaien.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Open source"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>We gebruiken geen advertentie- of analysecookies. De site bewaart in je browser alleen wat nodig is voor de werking:</p><ul><li>de cookie <code>lang</code> — je taal, als je die in de keuzelijst hebt gekozen;</li><li>in localStorage — het kleurthema, een aanduiding dat je de taalbanner hebt gesloten en aanduidingen van links die vanuit deze browser zijn vernietigd;</li><li>in sessionStorage — een wachtwoord uit de generator tijdens de overdracht naar het formulier op de startpagina. Het wordt direct na het invoegen verwijderd.</li></ul><p>Hiervan bereikt alleen de taalcookie de server, die deze gebruikt om de paginaversie te kiezen. Je kunt alles verwijderen in je browserinstellingen.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookies en browseropslag"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>De site laadt geen scripts, lettertypen, tellers of advertenties van derden: alles, ook lettertypen, wordt vanaf onze server geleverd. We verkopen of delen geen gegevens met derden.</p><p>De knoppen voor verzenden via Telegram, WhatsApp en e-mail en de links naar sponsorsites zijn gewone links. Een externe dienst ontvangt pas gegevens wanneer je erop klikt; vanaf dat moment geldt diens eigen beleid.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Diensten van derden"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Privacybeleid"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Laatst bijgewerkt: 25 oktober 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "De link is beschadigd of niet volledig gekopieerd. Vraag de afzender om hem opnieuw te sturen."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "De gegevens zijn ontvangen maar konden niet worden ontsleuteld: de link is beschadigd. Het geheim is al van de server verwijderd; vraag de afzender om een nieuw geheim te maken."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "De server kon niet worden bereikt. Controleer je verbinding en probeer het opnieuw."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Te veel pogingen. Wacht een minuut en probeer het opnieuw."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Het geheim kon niet worden geopend"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Maak je eigen link"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Hoe eenmalige links werken"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Het is al geopend of verlopen. De link kan niet opnieuw worden geopend."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Vraag de afzender om een nieuwe link te maken. Als je deze niet hebt geopend, laat het weten: misschien heeft iemand anders hem gezien."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Dit geheim is niet meer beschikbaar"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Het kan maar één keer worden bekeken. Direct daarna wordt het van de server verwijderd."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Dit geheim is beveiligd met een wachtwoord. Het kan maar één keer worden bekeken en wordt daarna van de server verwijderd."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Iemand heeft je een geheim gestuurd"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Een eenmalige Encrypt.One-link. Het geheim kan één keer worden geopend en wordt daarna van de server verwijderd."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Iemand heeft je een geheim gestuurd — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Voer het wachtwoord in."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "De afzender had het wachtwoord apart moeten doorgeven. Na drie verkeerde pogingen wordt het geheim verwijderd."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Wachtwoord voor openen"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Openen"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Deel je eigen geheim"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Maak je eigen eenmalige link. Zonder registratie."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Zelf een wachtwoord delen?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Geheim tonen"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Van de server verwijderd"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Downloaden"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Bewaar het als je het later nodig hebt: na het sluiten van deze pagina kun je het geheim niet opnieuw openen."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Tekst van het geheim"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Je geheim"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Openen…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Wat is Encrypt.One?"
+  }
+]

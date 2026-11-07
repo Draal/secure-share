@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Cererea nu a putut fi procesată. Reîncarcă pagina și încearcă din nou."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Acest link nu permite distrugerea secretului."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Secretul nu a fost găsit: a fost deja deschis, distrus sau a expirat."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Este necesară o parolă pentru a deschide acest secret."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Prea multe cereri. Așteaptă un minut și încearcă din nou."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Ceva nu a mers bine la noi. Încearcă din nou peste un minut."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Fișierul este prea mare. Limita este {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Parola a fost introdusă greșit de trei ori, așa că secretul a fost șters."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Parolă greșită. Încercări rămase: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Închide"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Copiat"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Copiază"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Linkuri"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Confidențialitate"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Proiect"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Întrebări frecvente"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Ghiduri"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Cum funcționează"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Securitate"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Resurse"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Trimite un fișier"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Generator de parole"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Partajează un secret"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Serviciu"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Linkuri de unică folosință pentru parole și fișiere. Criptate în browserul tău."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Codul sursă pe GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Română"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "RO"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Limba site-ului: română"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Pagina principală Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: partajează o parolă cu un link de unică folosință"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Întrebări frecvente"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Generator de parole"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Cum funcționează"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Navigare principală"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Treci la conținut"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Ora, calendare și sărbători pentru orice oraș"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Jocuri gratuite direct în browser"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Mii de posturi de radio din întreaga lume"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One este gratuit datorită sponsorilor noștri"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Întunecată"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Temă"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Luminoasă"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistem"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Trimite-l destinatarului. Secretul poate fi deschis o singură dată."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Linkul tău este gata"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Obține un alt link"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Pentru același secret, câte un link pentru fiecare destinatar. Linkul actual va continua să funcționeze, dar nu îl vei mai putea distruge de aici."
+  },
+  {
+    "id": "created.back",
+    "translation": "Secret nou"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Distruge acum"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Distrugi secretul? Linkul nu va mai funcționa imediat."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Secretul nu a putut fi distrus. Încearcă din nou."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "L-ai trimis persoanei greșite? Distruge secretul, iar linkul nu va mai funcționa imediat."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Ai distrus secretul. Datele au fost șterse de pe server, iar linkul nu mai funcționează."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Secret distrus"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Nimeni nu a deschis linkul la timp. Datele au fost șterse de pe server, iar linkul nu mai funcționează."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Linkul a expirat"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Copiază linkul"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Link de unică folosință"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Acest link nu mai funcționează"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Linkul este afișat doar în fila în care a fost creat. Poți distruge secretul și de aici."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Pagina expeditorului unui link Encrypt.One de unică folosință: partajează linkul sau distruge secretul."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Linkul tău este gata — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Creează un link nou"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Cod QR al linkului de unică folosință"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Îndreaptă camera telefonului spre cod pentru a deschide linkul. Nu arăta codul altora: deschide secretul la fel ca linkul."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Cod QR al linkului"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Trimite prin"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-mail"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "Cod QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Un secret pentru tine"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Link de unică folosință către un secret:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Valabil până la"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Sfat:</strong> pentru date deosebit de sensibile, adaugă o parolă linkului și comunic-o pe altă cale, de exemplu verbal. Astfel, interceptarea unui singur mesaj nu va dezvălui nimic."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Atașează un fișier"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Eliberează pentru a atașa fișierul"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Poți trage un fișier direct în câmp."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Până la {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Acest browser nu acceptă criptarea. Actualizează-l sau deschide site-ul în alt browser."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Lipește un text sau atașează un fișier."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Fișierul este prea mare. Limita este {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Nu s-a putut conecta la server. Verifică conexiunea și încearcă din nou."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Introdu o parolă de deschidere sau dezactivează protecția prin parolă."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "va fi criptat împreună cu textul"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Elimină fișierul"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Generează o parolă"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Inserează în câmpul secretului"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Sugerează"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Fără această parolă, secretul nu se deschide nici dacă linkul este interceptat. Comunică parola destinatarului separat, de exemplu verbal sau prin altă aplicație de mesagerie."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Parolă de deschidere"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "De exemplu, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Protejează cu parolă"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Ce vrei să partajezi?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Parolă, cheie API, date de autentificare…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Setările linkului"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Creează link de unică folosință"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Se criptează…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 zi"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 oră"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 zile"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 zile"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Expiră în"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Durata stocării"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Generator gratuit de parole puternice, fraze de acces și coduri PIN aleatorii create în browser și netrimise nicăieri. Partajează rezultatul printr-un link de unică folosință."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Generator de parole puternice — gratuit și privat | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Cifre (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Lungime"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Litere mici (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Fără caractere asemănătoare (0 și O, l și 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Caractere"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Simboluri (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Litere mari (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "O frază din cuvinte aleatorii este ușor de rostit și reținut, dar la fel de greu de ghicit ca o parolă lungă. Cuvintele provin din lista deschisă EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Număr de cuvinte"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Număr de cifre"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Generează din nou"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Trimite ca link de unică folosință"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Rezultatul ajunge direct în formular și vei primi un link care se deschide o singură dată."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Trebuie să partajezi această parolă?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropie ≈ {bits} biți"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Acceptabilă"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Potrivită doar ca PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Puternică"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Foarte puternică"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Slabă"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Tipul parolei"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Parolă"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Frază de acces"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Cel puțin 14–16 caractere. Lungimea protejează mai bine decât înlocuirea literelor cu simboluri."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Lungă"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Nu trebuie să memorezi parole complexe: folosește un manager de parole."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Păstrată într-un manager de parole"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Ce face o parolă puternică"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Câte una pentru fiecare serviciu. Astfel, divulgarea unei parole nu va deschide celelalte conturi."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unică"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Generator de parole"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Nu. Secretul este criptat în browser înainte de trimitere. Cheia se află în link după semnul #, iar acea parte a adresei nu ajunge niciodată la server."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Nu se întâmplă nimic. Secretul apare numai după apăsarea butonului „Arată secretul”, iar roboții de previzualizare nu apasă butoane."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Secretul se șterge automat la expirarea duratei de stocare alese."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Da. Pagina linkului are un buton „Distruge acum”. După aceea, linkul nu mai funcționează."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Nu. Nici expeditorul, nici destinatarul nu au nevoie de cont."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Nu ai găsit un răspuns? Deschide o sesizare pe GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Puteți citi secretul meu?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Ce se întâmplă dacă un robot de previzualizare al unei aplicații de mesagerie deschide linkul?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Ce se întâmplă dacă destinatarul nu deschide niciodată linkul?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Pot revoca un link după trimitere?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Trebuie să mă înregistrez?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Întrebări frecvente"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Secretul tău este criptat direct în browser. Destinatarul deschide linkul o dată, apoi datele sunt șterse de pe server."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Fără înregistrare"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Criptare AES-256 pe dispozitivul tău"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Sursă deschisă"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Partajează parole în siguranță cu linkuri de unică folosință"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "O parolă, o cheie API, date de autentificare sau un fișier. Totul este criptat în browser înainte de trimitere."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Lipește secretul"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Prin Telegram, WhatsApp, Signal, Slack, e-mail sau altă aplicație de mesagerie. În conversație rămâne doar linkul, nu parola în sine."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Trimite linkul"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "După vizualizare, datele sunt șterse de pe server. Linkul nu poate fi deschis a doua oară."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Linkul se consumă"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Cum funcționează"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Trimite parole, mesaje private, chei API și fișiere cu linkuri criptate de unică folosință. Secretele sunt șterse după vizualizare. Gratuit, sursă deschisă, fără înregistrare."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Linkuri secrete de unică folosință — partajează parole în siguranță | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Partajează parole și date de autentificare fără să le lași în istoricul conversației."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Parole și date de autentificare"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Trimite mesaje sensibile care pot fi deschise o singură dată."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Mesaje private"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Partajează în siguranță chei API, tokenuri de acces și fișiere de configurare cu echipa."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "Chei API și date de acces"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Partajează documente și fișiere private de până la {{.MaxFileSize}} prin linkuri criptate de unică folosință."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Fișiere confidențiale"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Trimite în siguranță mesaje care se autodistrug, parole, chei API și fișiere private. Fiecare secret este criptat în browser și șters de pe server după vizualizare."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Ce poți partaja printr-un link de unică folosință?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Rămâne la tine.</strong> Cheia de decriptare. Browserele nu trimit niciodată serverului partea de după #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Ajunge la server.</strong> Adresa datelor criptate: fără cheie sunt doar octeți aleatorii."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "API-ul Web Crypto integrat în browser și AES-256-GCM. Fără biblioteci terțe."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Criptat în browser"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Tot codul este publicat pe <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Oricine poate verifica modul în care funcționează criptarea."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Sursă deschisă"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Fără înregistrare, scripturi terțe sau instrumente de urmărire. De aceea nu există nici banner pentru cookie-uri."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Nimic în plus"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Cheia de decriptare se află în link, după semnul #. Browserele nu trimit niciodată acea parte a adresei la server, așa că numai tu și destinatarul o puteți vedea."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Mai multe despre funcționare"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "De ce nu îți putem citi secretul"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Partajează un secret"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Codul pe GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Sursă deschisă"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Tot codul Encrypt.One este pe GitHub. Oricine poate vedea cum funcționează criptarea și verifica faptul că cheia nu ajunge niciodată la server."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Verifică singur"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Fluxul datelor"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Secretul este criptat înainte de trimitere și decriptat numai de destinatar. Între timp, datele rămân mereu criptate."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Descarcă datele criptate, ia cheia din link și decriptează secretul local. Serverul șterge datele imediat după aceea."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Browserul destinatarului"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Creează o cheie aleatorie și criptează textul și fișierul cu AES-256-GCM folosind API-ul Web Crypto integrat în browser."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Browserul expeditorului"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Primește și stochează doar octeți criptați. Fără cheie nimeni nu îi poate citi — nici noi, nici cineva care obține acces la server."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Serverul Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Serverul vede doar date criptate"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One îți criptează secretul direct în browser. Doar datele criptate ajung la server, iar cheia rămâne în link și nu părăsește niciodată dispozitivele expeditorului și destinatarului."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Cum funcționează și de ce este sigur"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "În interiorul linkului"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Un link are două părți. Prima indică locul unde sunt stocate datele criptate. A doua, după #, este cheia de decriptare."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Oricine are linkul complet poate deschide secretul. Trimite-l numai destinatarului și adaugă o parolă pentru date sensibile."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Linkul complet oferă acces"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Browserele nu includ partea de după # în cereri. Astfel, cheia nu se află nici în jurnalele serverului, nici în punctele intermediare ale rețelei."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Nu este trimisă niciodată la server"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Cheia este generată aleatoriu pe dispozitivul tău. Nu poate fi ghicită prin forță brută."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Nouă pentru fiecare link"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Cheia este după #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Cum criptează Encrypt.One secretele în browser: AES-256-GCM, cheia din link după #, stocarea, ștergerea datelor și protecția cu parolă."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Cum funcționează Encrypt.One: partajarea secretelor criptate de la un capăt la altul"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Deschide generatorul de parole"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Parolă de deschidere"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "O parolă protejează secretul chiar dacă linkul este interceptat. Fără ea, destinatarul vede doar câmpul de introducere."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "După trei încercări greșite, secretul este șters. Parola nu poate fi ghicită prin forță brută."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Trei încercări"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Apasă „Sugerează” în formular sau alege o frază din generatorul de parole: este ușor de dictat."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Nu o inventa singur"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Comunică parola altfel: verbal, prin altă aplicație de mesagerie sau personal. Interceptarea unui singur mesaj nu va dezvălui nimic."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Comunică-o separat"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "O a doua încuietoare pentru date sensibile"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Dacă parola de deschidere este introdusă greșit de trei ori, secretul este șters definitiv."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "După trei parole greșite"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Butonul „Distruge acum” din pagina linkului șterge secretul imediat."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "La cererea ta"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Dacă linkul nu este deschis în timpul de stocare ales, secretul se șterge automat."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "La expirare"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Imediat ce destinatarul deschide secretul, datele sunt șterse. Linkul nu va funcționa a doua oară."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "După deschidere"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Un contor al încercărilor greșite de parolă"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Textul și fișierul criptate"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Stocate pe server"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Durata de stocare aleasă"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Stocare"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Serverul păstrează secretul exact atât timp cât este necesar pentru ca destinatarul să îl deschidă."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Cheia de decriptare din link"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Parola de deschidere"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Conținutul secretului în clar"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Nu ajunge niciodată la server"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Ce stochează serverul și când șterge"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Generator de parole"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Mergi la pagina principală"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Această pagină nu există pe Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Pagina nu a fost găsită — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adresa poate fi scrisă greșit sau pagina poate fi mutată. Dacă deschideai un link de unică folosință, verifică dacă a fost copiat integral."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Pagina nu a fost găsită"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Dacă această politică se schimbă, vom publica noua versiune pe această pagină și vom actualiza data de sus.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Modificări ale politicii"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Adresează întrebările despre confidențialitate în <a href=\"https://github.com/Draal/secure-share/issues\">sesizările de pe GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Întrebări"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>imediat după ce destinatarul deschide secretul;</li><li>când apeși „Distruge acum” pe pagina linkului;</li><li>după a treia parolă greșită;</li><li>la sfârșitul perioadei alese, de la o oră la șapte zile. Un secret expirat nu mai este disponibil imediat, iar datele sale sunt șterse la curățarea zilnică.</li></ul><p>Un secret șters nu poate fi recuperat. Roboții de mesagerie care creează previzualizări nu consumă secretul: datele sunt furnizate doar după apăsarea „Arată secretul”.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Când sunt șterse datele"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Parolele, frazele de acces și codurile PIN sunt create în browser cu un generator criptografic de numere aleatorii și nu sunt trimise niciodată la server.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Generator de parole"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One este creat astfel încât numai destinatarul să poată citi un secret — nici măcar noi nu putem. Mai jos sunt descrise datele care trec prin serviciu și ce se întâmplă cu ele."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Serverul aplicației înregistrează numai cererile API: tipul cererii, rezultatul și timpul de procesare. Adresele IP, identificatorii secretelor, tokenurile, adresele paginilor și conținutul cererilor nu sunt înregistrate.</p><p>Pentru protecția împotriva atacurilor prin forță brută și a abuzurilor, serverul limitează frecvența cererilor pentru fiecare adresă IP. Adresa este folosită numai în memorie și nu este stocată.</p><p>Un server web din fața aplicației poate păstra un jurnal standard de acces: adresa IP, ora și adresa paginii fără partea de după #. Aceste jurnale sunt folosite doar pentru protecția împotriva atacurilor și sunt păstrate pentru o perioadă limitată.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Jurnale tehnice"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Politica de confidențialitate Encrypt.One: ce date primește serviciul, cât timp le păstrează și de ce nu îți poate citi secretele."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Politica de confidențialitate — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Parola nu părăsește niciodată browserul. Din parolă și cheia linkului, browserul derivă două valori independente: cheia de criptare și un hash de verificare (PBKDF2 cu 600.000 de iterații, apoi HKDF). Numai hashul este trimis la server. Serverul îl folosește pentru a verifica parola, dar nu poate afla parola sau cheia.</p><p>După trei încercări greșite, secretul este șters. Contorul încercărilor este păstrat în memoria serverului și asociat secretului, nu vizitatorului.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Parolă de deschidere"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Nu știm cine a creat sau a deschis un secret: serviciul nu leagă datele de persoane, conturi sau adrese IP. De aceea nu putem găsi, furniza sau șterge datele unei anumite persoane. Pentru a șterge secretul înainte de expirare, deschide pagina linkului și apasă „Distruge acum”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Drepturile tale"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Textul și fișierul atașat sunt criptate în browser cu AES-256-GCM prin API-ul Web Crypto integrat înainte de trimitere. Numele și tipul fișierului sunt criptate împreună cu conținutul.</p><p>Serverul stochează doar:</p><ul><li>datele criptate;</li><li>momentul expirării;</li><li>dacă este atașat un fișier;</li><li>un hash de verificare a parolei, dacă ai stabilit o parolă de deschidere.</li></ul><p>Cheia de decriptare este partea linkului de după semnul #. Browserele nu trimit niciodată acea parte la server, așa că nici noi, nici cineva cu acces la server nu putem decripta datele. Din același motiv nu putem recupera un secret dacă linkul este pierdut.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Secrete și fișiere"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One este un serviciu gratuit pentru partajarea parolelor, cheilor și fișierelor prin linkuri de unică folosință. Nu este necesară înregistrarea. Serviciul este dezvoltat și administrat de <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Trimiți linkul personal prin orice metodă dorești. Un mesaj prin aplicație, e-mail sau SMS poate fi interceptat, iar persoana care deschide prima linkul primește secretul. Pentru date importante, setează o parolă de deschidere și comunic-o prin alt canal.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Cum funcționează serviciul"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Secretul este criptat în browser. Serverul primește doar date criptate și nu le poate citi.</li><li>Cheia de decriptare se află în link după semnul # și nu este trimisă niciodată la server.</li><li>Fără înregistrare, reclame, analiză sau scripturi terțe.</li><li>Secretul este șters imediat după deschidere sau la sfârșitul perioadei alese.</li><li>Serverul aplicației nu înregistrează adrese IP sau identificatori ai secretelor.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Pe scurt"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Codul sursă este deschis pe <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: poți verifica modul de criptare sau rula propria copie.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Sursă deschisă"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Nu folosim cookie-uri de publicitate sau analiză. Site-ul stochează în browser doar ce este necesar pentru funcționare:</p><ul><li>cookie-ul <code>lang</code> — limba, dacă ai ales-o din selector;</li><li>în localStorage — tema de culori, o indicație că ai închis bannerul de limbă și indicii despre linkurile distruse din acest browser;</li><li>în sessionStorage — o parolă din generator în timp ce este transferată în formularul de pe pagina principală. Este eliminată imediat după inserare.</li></ul><p>Dintre acestea, doar cookie-ul de limbă ajunge la server, care îl folosește pentru a alege versiunea paginii. Le poți șterge pe toate din setările browserului.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookie-uri și stocarea browserului"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Site-ul nu încarcă scripturi, fonturi, contoare sau reclame terțe: totul, inclusiv fonturile, este furnizat de pe serverul nostru. Nu vindem și nu partajăm date cu terți.</p><p>Butoanele de trimitere prin Telegram, WhatsApp și e-mail, precum și linkurile către site-urile sponsorilor, sunt linkuri obișnuite. Un serviciu extern primește date doar când faci clic, iar apoi se aplică propria sa politică.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Servicii terțe"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Politica de confidențialitate"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Ultima actualizare: 25 octombrie 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Linkul este deteriorat sau nu a fost copiat integral. Cere expeditorului să îl trimită din nou."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Datele au sosit, dar nu au putut fi decriptate: linkul este deteriorat. Secretul a fost deja șters de pe server, așa că cere expeditorului să creeze unul nou."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Nu s-a putut conecta la server. Verifică conexiunea și încearcă din nou."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Prea multe încercări. Așteaptă un minut și încearcă din nou."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Secretul nu a putut fi deschis"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Creează propriul link"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Cum funcționează linkurile de unică folosință"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Secretul a fost deja deschis sau a expirat. Linkul nu poate fi deschis din nou."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Cere expeditorului să creeze un link nou. Dacă nu l-ai deschis pe acesta, anunță-l: poate că l-a văzut altcineva."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Acest secret nu mai este disponibil"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Poate fi vizualizat o singură dată. Imediat după aceea va fi șters de pe server."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Secretul este protejat cu parolă. Poate fi vizualizat o singură dată, apoi va fi șters de pe server."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Cineva ți-a trimis un secret"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Un link Encrypt.One de unică folosință. Secretul poate fi deschis o dată, apoi este șters de pe server."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Cineva ți-a trimis un secret — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Introdu parola."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Expeditorul ar fi trebuit să îți comunice parola separat. După trei încercări greșite, secretul este șters."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Parolă de deschidere"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Deschide"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Partajează propriul secret"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Creează propriul link de unică folosință. Fără înregistrare."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Trebuie să partajezi și tu o parolă?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Arată secretul"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Șters de pe server"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Descarcă"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Salvează-l dacă îți va trebui mai târziu: după închiderea paginii, secretul nu mai poate fi deschis."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Textul secretului"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Secretul tău"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Se deschide…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Ce este Encrypt.One?"
+  }
+]

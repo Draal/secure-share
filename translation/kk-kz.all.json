@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Сұрауды өңдеу мүмкін болмады. Бетті қайта жүктеп, тағы көріңіз."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Бұл сілтеме құпияны жоюға рұқсат бермейді."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Құпия табылмады: ол бұрын ашылған, жойылған немесе мерзімі өткен."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Бұл құпияны ашу үшін құпиясөз қажет."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Сұраулар тым көп. Бір минут күтіп, қайта көріңіз."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Біздің тараптан қате орын алды. Бір минуттан кейін қайталап көріңіз."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Файл тым үлкен. Шектеу — {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Құпиясөз үш рет қате енгізілгендіктен, құпия жойылды."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Құпиясөз қате. Қалған әрекет саны: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Жабу"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Көшірілді"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Көшіру"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Сілтемелер"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Құпиялылық"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Жоба"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Жиі қойылатын сұрақтар"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Нұсқаулықтар"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Қалай жұмыс істейді"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Қауіпсіздік"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Ресурстар"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Файл жіберу"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Құпиясөз генераторы"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Құпиямен бөлісу"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Қызмет"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Құпиясөздер мен файлдарды бөлісуге арналған бір реттік сілтемелер. Браузеріңізде шифрланады."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "GitHub-тағы бастапқы код"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Қазақша"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "KK"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Сайт тілі: қазақша"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One басты беті"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: құпиясөзді бір реттік сілтемемен бөлісіңіз"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Жиі қойылатын сұрақтар"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Құпиясөз генераторы"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Қалай жұмыс істейді"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Негізгі навигация"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Мазмұнға өту"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Кез келген қаланың уақыты, күнтізбесі және мерекелері"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Браузердегі тегін ойындар"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Әлемнің түкпір-түкпірінен мыңдаған радиостанция"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Демеушілеріміздің арқасында Encrypt.One тегін"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Қараңғы"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Тақырып"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Жарық"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Жүйе бойынша"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Оны алушыға жіберіңіз. Құпияны тек бір рет ашуға болады."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Сілтемеңіз дайын"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Тағы бір сілтеме алу"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Бір құпия үшін әр алушыға жеке сілтеме жасаңыз. Ағымдағы сілтеме жұмыс істей береді, бірақ оны осы жерден жоя алмайсыз."
+  },
+  {
+    "id": "created.back",
+    "translation": "Жаңа құпия"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Қазір жою"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Құпия жойылсын ба? Сілтеме бірден жұмысын тоқтатады."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Құпияны жою мүмкін болмады. Қайта көріңіз."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Қате адамға жібердіңіз бе? Құпияны жойыңыз, сонда сілтеме бірден жұмысын тоқтатады."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Сіз құпияны жойдыңыз. Деректер серверден өшірілді және сілтеме енді жұмыс істемейді."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Құпия жойылды"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Сілтемені ешкім уақытында ашпады. Деректер серверден өшірілді және сілтеме енді жұмыс істемейді."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Сілтеме мерзімі аяқталды"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Сілтемені көшіру"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Бір реттік сілтеме"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Бұл сілтеме енді жұмыс істемейді"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Сілтеме тек өзі жасалған қойындыда көрсетіледі. Құпияны осы жерден әлі де жоя аласыз."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One бір реттік сілтемесін жіберуші беті: сілтемені бөлісіңіз немесе құпияны жойыңыз."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Сілтемеңіз дайын — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Жаңа сілтеме жасау"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Бір реттік сілтеменің QR коды"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Сілтемені ашу үшін телефон камерасын бағыттаңыз. Кодты басқаларға көрсетпеңіз: ол сілтеме сияқты құпияны ашады."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Сілтеменің QR коды"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Жіберу тәсілі"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Электрондық пошта"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR код"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Сізге арналған құпия"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Құпияға апаратын бір реттік сілтеме:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Жарамдылық мерзімі"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Кеңес:</strong> өте құпия деректер үшін сілтемеге құпиясөз қосып, оны басқа жолмен, мысалы, ауызша айтыңыз. Сонда бір хабарды ұстап алу еш ақпаратты ашпайды."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Файл тіркеу"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Тіркеу үшін файлды осында тастаңыз"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Файлды тікелей өріске сүйреп апара аласыз."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "{{.MaxFileSize}} дейін"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Бұл браузер шифрлауды қолдамайды. Оны жаңартыңыз немесе сайтты басқа браузерде ашыңыз."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Мәтін енгізіңіз немесе файл тіркеңіз."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Файл тым үлкен. Шектеу — {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Серверге қосылу мүмкін болмады. Байланысты тексеріп, қайта көріңіз."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Ашу құпиясөзін енгізіңіз немесе құпиясөзбен қорғауды өшіріңіз."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "мәтінмен бірге шифрланады"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Файлды алып тастау"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Құпиясөз жасау"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Құпия өрісіне енгізу"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Ұсыну"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Бұл құпиясөзсіз, сілтеме қолға түссе де, құпия ашылмайды. Оны алушыға бөлек, мысалы, ауызша немесе басқа мессенджер арқылы айтыңыз."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Ашу құпиясөзі"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Мысалы: maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Құпиясөзбен қорғау"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Немен бөліскіңіз келеді?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Құпиясөз, API кілті, кіру деректері…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Сілтеме баптаулары"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Бір реттік сілтеме жасау"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Шифрлануда…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 күн"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 сағат"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 күн"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 күн"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Мерзімі аяқталады"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Сақтау мерзімі"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Тегін сенімді құпиясөз генераторы: кездейсоқ құпиясөздер, құпия тіркестер мен PIN кодтар браузеріңізде жасалады және ешқайда жіберілмейді. Нәтижені бір реттік сілтемемен бөлісіңіз."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Сенімді құпиясөз генераторы — тегін әрі жеке | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Сандар (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Ұзындығы"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Кіші әріптер (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Ұқсас таңбаларсыз (0 және O, l және 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Таңбалар"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Белгілер (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Бас әріптер (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Кездейсоқ сөздерден тұратын тіркесті айту және есте сақтау оңай, бірақ оны болжау ұзын құпиясөз сияқты қиын. Сөздер EFF ашық тізімінен алынады."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Сөздер саны"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Сандар саны"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Қайта жасау"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Бір реттік сілтемемен жіберу"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Ол тікелей пішінге енгізіледі және сіз тек бір рет ашылатын сілтеме аласыз."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Бұл құпиясөзбен бөлісу керек пе?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Энтропия ≈ {bits} бит"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Орташа"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Тек PIN үшін жарамды"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Сенімді"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Өте сенімді"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Әлсіз"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Құпиясөз түрі"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Құпиясөз"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Құпия тіркес"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Кемінде 14–16 таңба. Ұзындық әріптерді белгілермен алмастырудан жақсы қорғайды."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Ұзын"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Күрделі құпиясөздерді есте сақтаудың қажеті жоқ: ол үшін құпиясөз менеджері бар."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Құпиясөз менеджерінде сақталады"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Құпиясөзді не сенімді етеді"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Әр қызметке бөлек құпиясөз. Сонда бір құпиясөз таралса, басқа аккаунттарыңыз ашылмайды."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Бірегей"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Құпиясөз генераторы"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Жоқ. Құпия жіберілмес бұрын браузеріңізде шифрланады. Кілт сілтемеде # белгісінен кейін орналасады және мекенжайдың бұл бөлігі серверге ешқашан жетпейді."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Ештеңе болмайды. Құпия біреу «Құпияны көрсету» түймесін басқанда ғана пайда болады, ал алдын ала қарау боттары түймелерді баспайды."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Сіз таңдаған сақтау мерзімі аяқталғанда құпия өздігінен жойылады."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Иә. Сілтеме бетінде «Қазір жою» түймесі бар. Одан кейін сілтеме жұмыс істемейді."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Жоқ. Жіберушіге де, алушыға да аккаунт қажет емес."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Жауап таппадыңыз ба? GitHub-та мәселе ашыңыз."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Сіздер менің құпиямды оқи аласыздар ма?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Мессенджердің алдын ала қарау боты сілтемені ашса не болады?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Алушы сілтемені ешқашан ашпаса не болады?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Жібергеннен кейін сілтемені кері қайтара аламын ба?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Тіркелуім керек пе?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Жиі қойылатын сұрақтар"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Құпияңыз тікелей браузеріңізде шифрланады. Алушы сілтемені бір рет ашады, содан кейін деректер серверден жойылады."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Тіркелусіз"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Құрылғыңызда AES-256 шифрлауы"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Ашық код"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Құпиясөздерді бір реттік сілтемелермен қауіпсіз бөлісіңіз"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Құпиясөз, API кілті, кіру деректері немесе файл. Бәрі жіберілмес бұрын браузеріңізде шифрланады."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Құпияңызды енгізіңіз"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram, WhatsApp, Signal, Slack, электрондық пошта немесе кез келген басқа мессенджер арқылы. Чатта құпиясөздің өзі емес, тек сілтеме қалады."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Сілтемені жіберіңіз"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Қаралғаннан кейін деректер серверден жойылады. Сілтемені екінші рет ашу мүмкін емес."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Сілтеме жарамсыз болады"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Қалай жұмыс істейді"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Құпиясөздерді, жеке хабарларды, API кілттерін және файлдарды шифрланған бір реттік сілтемелермен жіберіңіз. Құпиялар қаралғаннан кейін жойылады. Тегін, ашық кодты, тіркелусіз."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Бір реттік құпия сілтемелер — құпиясөздерді қауіпсіз бөлісу | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Құпиясөздер мен аккаунт деректерін чат тарихында қалдырмай бөлісіңіз."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Құпиясөздер мен кіру деректері"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Тек бір рет ашылатын құпия хабарларды жіберіңіз."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Жеке хабарлар"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "API кілттерін, қол жеткізу токендерін және конфигурация файлдарын әріптестеріңізбен қауіпсіз бөлісіңіз."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API кілттері және кіру деректері"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "{{.MaxFileSize}} дейінгі жеке құжаттар мен файлдарды шифрланған бір реттік сілтемелермен бөлісіңіз."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Құпия файлдар"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Өздігінен жойылатын хабарларды, құпиясөздерді, API кілттерін және жеке файлдарды қауіпсіз жіберіңіз. Әр құпия браузеріңізде шифрланып, қаралғаннан кейін серверден жойылады."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Бір реттік сілтемемен нені бөлісуге болады?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Сізде қалады.</strong> Шифрды ашу кілті. Браузерлер # белгісінен кейінгі бөлікті серверге ешқашан жібермейді."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Серверге жіберіледі.</strong> Шифрланған деректердің мекенжайы: кілтсіз бұл жай ғана кездейсоқ байттар."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Браузердің кірістірілген Web Crypto API және AES-256-GCM. Үшінші тарап кітапханалары жоқ."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Браузерде шифрланған"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Барлық код <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>-та жарияланған. Кез келген адам шифрлаудың жұмысын тексере алады."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Ашық код"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Тіркелу, үшінші тарап скрипттері және трекерлер жоқ. Сондықтан cookie баннері де жоқ."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Артық ештеңе жоқ"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Шифрды ашу кілті сілтемеде # белгісінен кейін орналасқан. Браузерлер мекенжайдың бұл бөлігін серверге ешқашан жібермейді, сондықтан оны тек сіз бен алушы көре аласыздар."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Жұмыс істеуі туралы толығырақ"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Неліктен біз құпияңызды оқи алмаймыз"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Құпиямен бөлісу"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "GitHub-тағы код"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Ашық код"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.One кодының барлығы GitHub-та. Кез келген адам шифрлаудың жұмысын көріп, кілттің серверге ешқашан жіберілмейтінін тексере алады."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Өзіңіз тексеріңіз"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Деректер ағыны"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Құпия жіберілмес бұрын шифрланады және оны тек алушы ашады. Осы аралықта деректер үнемі шифрланған күйде қалады."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Шифрланған деректерді жүктеп алады, сілтемеден кілтті алып, құпияны өз құрылғысында ашады. Бұдан кейін сервер деректерді бірден жояды."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Алушының браузері"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Кездейсоқ кілт жасайды және браузердің кірістірілген Web Crypto API арқылы мәтін мен файлды AES-256-GCM көмегімен шифрлайды."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Жіберушінің браузері"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Тек шифрланған байттарды қабылдап сақтайды. Кілтсіз оларды біз де, серверге кірген басқа адам да оқи алмайды."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One сервері"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Сервер тек шифрланған деректерді көреді"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One құпияңызды тікелей браузеріңізде шифрлайды. Серверге тек шифрланған деректер жіберіледі, ал кілт сілтемеде қалып, жіберуші мен алушының құрылғыларынан шықпайды."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Қалай жұмыс істейді және неліктен қауіпсіз"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Сілтеменің ішінде"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Сілтеме екі бөліктен тұрады. Біріншісі шифрланған деректердің қайда сақталатынын көрсетеді. Екіншісі, # белгісінен кейін, шифрды ашу кілті."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Толық сілтемесі бар кез келген адам құпияны аша алады. Оны тек алушыға жіберіңіз және құпия деректерге құпиясөз қосыңыз."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Толық сілтеме қол жеткізуге мүмкіндік береді"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Браузерлер сұрауларға # белгісінен кейінгі бөлікті қоспайды. Сондықтан кілт сервер журналдарында да, аралық желі түйіндерінде де болмайды."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Серверге ешқашан жіберілмейді"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Кілт құрылғыңызда кездейсоқ жасалады. Оны барлық нұсқаларды сынап табу мүмкін емес."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Әр сілтеме үшін жаңа"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Кілт # белгісінен кейін орналасқан"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.One құпияларды браузерде қалай шифрлайды: AES-256-GCM, сілтемеде # белгісінен кейінгі кілт, сервер не сақтайды, деректер қашан жойылады және құпиясөз не үшін керек."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Encrypt.One қалай жұмыс істейді: ұштан ұшқа шифрланған құпияларды бөлісу"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Құпиясөз генераторын ашу"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Ашу құпиясөзі"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Сілтеме қолға түссе де, құпиясөз құпияны қорғайды. Онсыз алушы тек енгізу өрісін көреді."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Үш қате әрекеттен кейін құпия жойылады. Құпиясөзді қайта-қайта болжап табу мүмкін болмайды."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Үш әрекет"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Пішіндегі «Ұсыну» түймесін басыңыз немесе генератордан құпия тіркес алыңыз: оны дауыстап айту оңай."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Өзіңіз ойлап таппаңыз"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Құпиясөзді басқа жолмен айтыңыз: ауызша, басқа мессенджерде немесе жеке кездескенде. Сонда бір хабарды ұстап алу еш ақпаратты ашпайды."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Бөлек хабарлаңыз"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Құпия деректерге арналған екінші құлып"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Ашу құпиясөзі үш рет қате енгізілсе, құпия біржола жойылады."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Үш қате құпиясөзден кейін"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Сілтеме бетіндегі «Қазір жою» түймесі құпияны бірден жояды."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Сіз қалаған кезде"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Сіз таңдаған сақтау мерзімінде сілтеме ашылмаса, құпия өздігінен жойылады."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Мерзімі аяқталғанда"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Алушы құпияны ашқан сәтте деректер жойылады. Сілтеме екінші рет жұмыс істемейді."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Ашылғаннан кейін"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Қате құпиясөз әрекеттерінің санағышы"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Шифрланған мәтін мен файл"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Серверде сақталады"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Сіз таңдаған сақтау мерзімі"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Сақтау"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Сервер құпияны алушы оны ашуға қажет уақыт бойы сақтайды."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Сілтемедегі шифрды ашу кілті"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Ашу құпиясөзі"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Ашық мәтін түріндегі құпия"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Серверге ешқашан жетпейді"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Сервер нені сақтайды және қашан жояды"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Құпиясөз генераторы"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Басты бетке өту"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.One сайтында мұндай бет жоқ."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Бет табылмады — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Мекенжай қате терілген немесе бет жылжытылған болуы мүмкін. Бір реттік сілтемені ашып жатсаңыз, оның толық көшірілгенін тексеріңіз."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Бет табылмады"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Бұл саясат өзгерсе, жаңа нұсқасын осы бетте жариялап, жоғарыдағы күнді жаңартамыз.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Осы саясаттағы өзгерістер"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Құпиялылық туралы сұрақтарды <a href=\"https://github.com/Draal/secure-share/issues\">GitHub issues</a> арқылы қойыңыз.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Сұрақтар"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>алушы құпияны ашқан сәтте;</li><li>сілтеме бетінде «Қазір жою» түймесін басқанда;</li><li>үшінші қате құпиясөзден кейін;</li><li>1 сағаттан 7 күнге дейінгі таңдалған мерзім аяқталғанда. Мерзімі өткен құпия бірден берілмейді және оның деректері күнделікті тазалау кезінде өшіріледі.</li></ul><p>Жойылған құпияны қалпына келтіру мүмкін емес. Сілтемені алдын ала қарау үшін ашатын мессенджер боттары құпияны ашу мүмкіндігін пайдаланбайды: деректер тек «Құпияны көрсету» түймесі басылғаннан кейін беріледі.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Деректер қашан жойылады"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Құпиясөздер, құпия тіркестер және PIN кодтар браузеріңізде криптографиялық кездейсоқ сандар генераторы арқылы жасалады және серверге ешқашан жіберілмейді.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Құпиясөз генераторы"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One құпияны тек алушы оқи алатындай жасалған — тіпті біз де оқи алмаймыз. Мұнда қызмет арқылы қандай деректер өтетіні және олармен не болатыны түсіндіріледі."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Қолданба сервері тек API сұрауларын журналға жазады: сұрау түрін, нәтижесін және өңдеу уақытын. IP мекенжайлары, құпия идентификаторлары, токендер, бет мекенжайлары және сұрау мазмұны ешқашан журналға жазылмайды.</p><p>Қызметті құпиясөзді қайталап болжаудан және теріс пайдаланудан қорғау үшін сервер әр IP мекенжайының сұрау жиілігін шектейді. Мекенжай тек жедел жадта пайдаланылады және сақталмайды.</p><p>Қолданба алдындағы веб-сервер стандартты кіру журналын сақтауы мүмкін: IP мекенжайы, уақыт және # белгісінен кейінгі бөліксіз бет мекенжайы. Мұндай журналдар тек шабуылдардан қорғау үшін пайдаланылады және шектеулі уақыт сақталады.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Техникалық журналдар"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One құпиялылық саясаты: қызмет қандай деректерді алады, қанша уақыт сақтайды және неліктен құпияларыңызды оқи алмайды."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Құпиялылық саясаты — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Құпиясөздің өзі браузеріңізден ешқашан шықпайды. Браузер құпиясөз бен сілтеме кілтінен екі тәуелсіз мән жасайды: шифрлау кілті және тексеру хэші (600 000 қайталаумен PBKDF2, содан кейін HKDF). Серверге тек хэш жіберіледі. Сервер оны құпиясөзді тексеру үшін пайдаланады, бірақ құпиясөзді де, кілтті де біле алмайды.</p><p>Үш қате әрекеттен кейін құпия жойылады. Әрекеттер санағышы сервер жадында сақталады және келушіге емес, құпияға тиесілі.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Ашу құпиясөзі"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Құпияны кім жасағанын немесе ашқанын білмейміз: қызмет деректерді ешбір адамға, аккаунтқа немесе IP мекенжайына байланыстырмайды. Сондықтан белгілі бір адамның деректерін таба, бере немесе жоя алмаймыз. Құпияңызды мерзімі аяқталмай тұрып жою үшін сілтеме бетін ашып, «Қазір жою» түймесін басыңыз.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Сіздің құқықтарыңыз"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Мәтін мен тіркелген файл жіберілмес бұрын браузеріңізде кірістірілген Web Crypto API арқылы AES-256-GCM көмегімен шифрланады. Файлдың атауы мен түрі де мазмұнымен бірге шифрланады.</p><p>Сервер тек мыналарды сақтайды:</p><ul><li>шифрланған деректерді;</li><li>мерзімінің аяқталу уақытын;</li><li>файл тіркелген-тіркелмегенін;</li><li>ашу құпиясөзі орнатылса, оның тексеру хэшін.</li></ul><p>Шифрды ашу кілті — сілтеменің # белгісінен кейінгі бөлігі. Браузерлер бұл бөлікті серверге ешқашан жібермейді, сондықтан біз де, серверге кірген басқа адам да деректердің шифрын аша алмайды. Сол себепті сілтеме жоғалса, құпияны қалпына келтіре алмаймыз.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Құпиялар мен файлдар"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One — құпиясөздерді, кілттерді және файлдарды бір реттік сілтемелермен бөлісуге арналған тегін қызмет. Тіркелу қажет емес. Қызметті <a href=\"https://final-level.com/\">FINAL LEVEL</a> әзірлейді және басқарады.</p><p>Сілтемені өзіңіз қалаған жолмен жібересіз. Мессенджер, электрондық пошта немесе SMS ұсталып қалуы мүмкін, сонда сілтемені бірінші ашқан адам құпияны алады. Маңызды деректер үшін ашу құпиясөзін орнатып, оны басқа арнамен хабарлаңыз.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Қызмет қалай жұмыс істейді"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Құпияңыз браузеріңізде шифрланады. Сервер тек шифрланған деректерді алады және оларды оқи алмайды.</li><li>Шифрды ашу кілті сілтемеде # белгісінен кейін орналасады және серверге ешқашан жіберілмейді.</li><li>Тіркелу, жарнама, аналитика немесе үшінші тарап скрипттері жоқ.</li><li>Құпия ашылғанда немесе таңдалған мерзім аяқталғанда жойылады.</li><li>Қолданба сервері IP мекенжайларын немесе құпия идентификаторларын журналға жазбайды.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Қысқаша"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Бастапқы код <a href=\"https://github.com/Draal/secure-share\">GitHub</a>-та ашық: шифрлаудың жұмысын тексеруге немесе өз көшірмеңізді іске қосуға болады.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Ашық код"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Біз жарнамалық немесе аналитикалық cookie файлдарын пайдаланбаймыз. Сайт браузеріңізде тек жұмысқа қажетті ақпаратты сақтайды:</p><ul><li><code>lang</code> cookie файлы — таңдағышта таңдаған тіліңіз;</li><li>localStorage ішінде — түс тақырыбы, тіл баннерін жапқаныңыз туралы белгі және осы браузерден жойылған сілтемелер туралы ақпарат;</li><li>sessionStorage ішінде — генератор құпиясөзі басты беттегі пішінге тасымалданған кезде. Ол енгізілгеннен кейін бірден жойылады.</li></ul><p>Бұлардың ішінде тек тіл cookie файлы серверге жетеді және бет нұсқасын таңдау үшін пайдаланылады. Барлығын браузер баптауларында жоя аласыз.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookie файлдары және браузер жады"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Сайт үшінші тарап скрипттерін, қаріптерін, есептегіштерін немесе жарнамаларын жүктемейді: барлығы, соның ішінде қаріптер де, өз серверімізден беріледі. Біз деректерді үшінші тараптарға сатпаймыз және бөліспейміз.</p><p>Telegram, WhatsApp және электрондық пошта арқылы жіберу түймелері мен демеушілер сайттарына сілтемелер — қарапайым сілтемелер. Сыртқы қызмет деректерді тек солардың бірін басқанда алады және содан кейін оның өз саясаты қолданылады.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Үшінші тарап қызметтері"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Құпиялылық саясаты"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Соңғы жаңарту: 2026 жылғы 25 қазан"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Сілтеме бүлінген немесе толық көшірілмеген. Жіберушіден оны қайта жіберуді сұраңыз."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Деректер келді, бірақ шифрын ашу мүмкін болмады: сілтеме бүлінген. Құпия серверден әлдеқашан жойылған, сондықтан жіберушіден жаңа сілтеме жасауды сұраңыз."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Серверге қосылу мүмкін болмады. Байланысты тексеріп, қайта көріңіз."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Әрекеттер тым көп. Бір минут күтіп, қайта көріңіз."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Құпияны ашу мүмкін болмады"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Өз сілтемеңізді жасаңыз"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Бір реттік сілтемелер қалай жұмыс істейді"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Ол бұрын ашылған немесе мерзімі өткен. Сілтемені қайта ашу мүмкін емес."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Жіберушіден жаңа сілтеме жасауды сұраңыз. Егер оны сіз ашпаған болсаңыз, хабарлаңыз: басқа біреу көрген болуы мүмкін."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Бұл құпия енді қолжетімсіз"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Оны тек бір рет көруге болады. Содан кейін бірден серверден жойылады."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Бұл құпия құпиясөзбен қорғалған. Оны тек бір рет көруге болады, содан кейін серверден жойылады."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Біреу сізге құпия жіберді"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One бір реттік сілтемесі. Құпияны бір рет ашуға болады, содан кейін ол серверден жойылады."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Біреу сізге құпия жіберді — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Құпиясөзді енгізіңіз."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Жіберуші құпиясөзді сізге бөлек хабарлауы тиіс. Үш қате әрекеттен кейін құпия жойылады."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Ашу құпиясөзі"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Ашу"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Өз құпияңызбен бөлісіңіз"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Өзіңіздің бір реттік сілтемеңізді жасаңыз. Тіркелу қажет емес."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Өзіңізге де құпиясөзбен бөлісу керек пе?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Құпияны көрсету"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Серверден жойылды"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Жүктеп алу"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Кейін керек болса, сақтап алыңыз: осы бетті жапқаннан кейін құпияны қайта ашу мүмкін емес."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Құпия мәтіні"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Сіздің құпияңыз"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Ашылуда…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One деген не?"
+  }
+]

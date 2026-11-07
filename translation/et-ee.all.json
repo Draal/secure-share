@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Päringut ei saanud töödelda. Laadige leht uuesti ja proovige uuesti."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "See link ei anna õigust saladust hävitada."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Saladust ei leitud: see on juba avatud, hävitatud või aegunud."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Selle saladuse avamiseks on vaja parooli."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Liiga palju päringuid. Oodake minut ja proovige uuesti."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Meie poolel tekkis viga. Proovige minuti pärast uuesti."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Fail on liiga suur. Piirang on {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Parool sisestati kolm korda valesti, seega saladus kustutati."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Vale parool. Katseid alles: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Sulge"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Kopeeritud"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopeeri"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Lingid"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privaatsus"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekt"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Korduma kippuvad küsimused"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Juhendid"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Kuidas see töötab"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Turvalisus"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Ressursid"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Saada fail"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Parooligeneraator"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Jaga saladust"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Teenus"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Ühekordsed lingid paroolide ja failide jagamiseks. Krüptitud teie brauseris."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Lähtekood GitHubis"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Eesti keel"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "ET"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Veebilehe keel: eesti"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One avaleht"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: jagage parooli ühekordse lingiga"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Korduma kippuvad küsimused"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Parooligeneraator"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Kuidas see töötab"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Peamenüü"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Liigu sisu juurde"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Kellaaeg, kalendrid ja pühad igas linnas"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Tasuta mängud otse brauseris"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tuhanded raadiojaamad üle maailma"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One on tasuta tänu meie sponsoritele"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tume"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Teema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Hele"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Süsteemne"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Saatke see adressaadile. Saladust saab avada ainult üks kord."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Teie link on valmis"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Loo uus link"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Sama saladuse jaoks eraldi link igale adressaadile. Praegune link töötab edasi, kuid te ei saa seda enam siit hävitada."
+  },
+  {
+    "id": "created.back",
+    "translation": "Uus saladus"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Hävita kohe"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Kas hävitada saladus? Link lakkab kohe töötamast."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Saladust ei õnnestunud hävitada. Proovige uuesti."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Saadeti valele inimesele? Hävitage saladus ja link lakkab kohe töötamast."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Hävitasite saladuse. Andmed on serverist kustutatud ja link enam ei tööta."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Saladus hävitatud"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Keegi ei avanud linki õigel ajal. Andmed on serverist kustutatud ja link enam ei tööta."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Link on aegunud"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopeeri link"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Ühekordne link"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "See link enam ei tööta"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Linki näidatakse ainult vahekaardil, kus see loodi. Saladuse saate siit siiski hävitada."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One’i ühekordse lingi saatja leht: jagage linki või hävitage saladus."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Teie link on valmis — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Loo uus link"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Ühekordse lingi QR-kood"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Lingi avamiseks suunake telefoni kaamera koodile. Ärge näidake koodi teistele: see avab saladuse samamoodi nagu link."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Lingi QR-kood"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Saada kaudu"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-post"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR-kood"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Saladus teile"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Ühekordne link saladusele:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Kehtib kuni"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Nõuanne:</strong> eriti tundlikele andmetele lisage parool ja edastage see muul viisil, näiteks suuliselt. Nii ei avalda ühe sõnumi pealtkuulamine midagi."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Manusta fail"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Faili manustamiseks vabastage"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Võite faili otse väljale lohistada."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Kuni {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "See brauser ei toeta krüptimist. Värskendage seda või avage veebileht teises brauseris."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Kleepige tekst või manustage fail."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Fail on liiga suur. Piirang on {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Serveriga ei õnnestunud ühendust saada. Kontrollige ühendust ja proovige uuesti."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Sisestage avamisparool või lülitage paroolikaitse välja."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "krüptitakse koos tekstiga"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Eemalda fail"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Loo parool"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Lisa saladuse väljale"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Paku"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Ilma selle paroolita saladus ei avane, isegi kui link pealt kuulatakse. Edastage see adressaadile eraldi, näiteks suuliselt või teises sõnumirakenduses."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Avamisparool"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Näiteks maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Kaitse parooliga"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Mida soovite jagada?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Parool, API-võti, sisselogimisandmed…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Lingi seaded"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Loo ühekordne link"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Krüptimine…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 päev"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 tund"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 päeva"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 päeva"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Aegub"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Säilitusaeg"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Tasuta tugevate paroolide, paroolifraaside ja PIN-koodide generaator. Need luuakse brauseris ja neid ei saadeta kuhugi. Jagage tulemust ühekordse lingiga."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Tugevate paroolide generaator — tasuta ja privaatne | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Numbrid (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Pikkus"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Väiketähed (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Sarnaste märkideta (0 ja O, l ja 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Märgid"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Sümbolid (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Suurtähed (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Juhuslikest sõnadest koosnevat fraasi on lihtne öelda ja meelde jätta, kuid sama raske ära arvata kui pikka parooli. Sõnad pärinevad EFF-i avatud sõnaloendist."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Sõnade arv"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Numbrite arv"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Loo uuesti"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Saada ühekordse lingina"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Tulemus lisatakse otse vormi ja saate lingi, mida saab avada ainult üks kord."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Kas soovite seda parooli jagada?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entroopia ≈ {bits} bitti"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Keskmine"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Sobib ainult PIN-koodiks"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Tugev"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Väga tugev"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Nõrk"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Parooli tüüp"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Parool"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Paroolifraas"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Vähemalt 14–16 märki. Pikkus kaitseb paremini kui tähtede asendamine sümbolitega."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Pikk"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Keerulisi paroole ei pea meeles pidama: kasutage paroolihaldurit."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Salvestatud paroolihalduris"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Mis teeb parooli tugevaks"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Iga teenuse jaoks eraldi parool. Siis ei ava ühe parooli leke teie teisi kontosid."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unikaalne"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Parooligeneraator"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Ei. Saladus krüptitakse enne saatmist teie brauseris. Võti asub lingis pärast # märki ja see aadressi osa ei jõua kunagi serverisse."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Midagi ei juhtu. Saladus ilmub alles pärast nupu „Näita saladust” vajutamist ja eelvaaterobotid nuppe ei vajuta."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Saladus kustutatakse automaatselt valitud säilitusaja lõppedes."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Jah. Lingi lehel on nupp „Hävita kohe”. Pärast seda link enam ei tööta."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Ei. Kontot ei vaja saatja ega adressaat."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Ei leidnud vastust? Looge GitHubis teema."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Kas saate minu saladust lugeda?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Mis juhtub, kui sõnumirakenduse eelvaaterobot avab lingi?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Mis juhtub, kui adressaat linki ei ava?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Kas saan lingi pärast saatmist tühistada?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Kas pean registreeruma?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Korduma kippuvad küsimused"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Teie saladus krüptitakse otse brauseris. Adressaat avab lingi ühe korra ja seejärel kustutatakse andmed serverist."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Registreerimiseta"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 krüptimine teie seadmes"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Avatud lähtekood"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Jagage paroole turvaliselt ühekordsete linkidega"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Parool, API-võti, sisselogimisandmed või fail. Kõik krüptitakse brauseris enne saatmist."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Kleepige saladus"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegrami, WhatsAppi, Signali, Slacki, e-posti või muu sõnumirakenduse kaudu. Vestlusesse jääb ainult link, mitte parool ise."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Saatke link"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Pärast vaatamist kustutatakse andmed serverist. Linki ei saa teist korda avada."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Link kulub ära"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Kuidas see töötab"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Saatke paroole, privaatsõnumeid, API-võtmeid ja faile krüptitud ühekordsete linkidega. Saladused kustutatakse pärast vaatamist. Tasuta, avatud lähtekood, registreerimiseta."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Ühekordsed salalingid — jagage paroole turvaliselt | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Jagage paroole ja kontoandmeid ilma neid vestlusajalukku jätmata."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Paroolid ja sisselogimisandmed"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Saatke tundlikke sõnumeid, mida saab avada ainult üks kord."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Privaatsõnumid"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Jagage API-võtmeid, juurdepääsutokeneid ja seadistusfaile turvaliselt oma meeskonnaga."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API-võtmed ja juurdepääsuandmed"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Jagage privaatseid dokumente ja kuni {{.MaxFileSize}} suurusi faile krüptitud ühekordsete linkidega."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Konfidentsiaalsed failid"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Saatke turvaliselt isehävitavaid sõnumeid, paroole, API-võtmeid ja privaatseid faile. Iga saladus krüptitakse brauseris ja kustutatakse pärast vaatamist serverist."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Mida saab ühekordse lingiga jagada?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Jääb teile.</strong> Dekrüptimisvõti. Brauserid ei saada # märgi järgset osa kunagi serverisse."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Läheb serverisse.</strong> Krüptitud andmete aadress: ilma võtmeta on need vaid juhuslikud baidid."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Brauseri sisseehitatud Web Crypto API ja AES-256-GCM. Kolmandate osapoolte teeke pole."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Krüptitakse brauseris"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Kogu kood on avaldatud <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHubis</a>. Igaüks saab krüptimise toimimist kontrollida."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Avatud lähtekood"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Registreerimist, kolmandate osapoolte skripte ega jälgijaid pole. Seetõttu pole ka küpsiseteadet."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Ei midagi üleliigset"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Dekrüptimisvõti asub lingis # märgi järel. Brauserid ei saada seda aadressi osa serverisse, nii et ainult teie ja adressaat näete seda."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Lisateave toimimise kohta"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Miks me ei saa teie saladust lugeda"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Jaga saladust"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kood GitHubis"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Avatud lähtekood"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Kogu Encrypt.One’i kood on GitHubis. Igaüks saab näha, kuidas krüptimine töötab, ja kontrollida, et võtit ei saadeta serverisse."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Kontrollige ise"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Andmevoog"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Saladus krüptitakse enne saatmist ja selle dekrüptib ainult adressaat. Vahepeal jäävad andmed alati krüptituks."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Laadib krüptitud andmed alla, võtab võtme lingist ja dekrüptib saladuse kohalikult. Server kustutab andmed kohe pärast seda."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Adressaadi brauser"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Loob juhusliku võtme ja krüptib teksti ning faili AES-256-GCM-iga brauseri sisseehitatud Web Crypto API abil."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Saatja brauser"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Võtab vastu ja talletab ainult krüptitud baite. Ilma võtmeta ei saa neid lugeda ei meie ega keegi, kes serverile juurde pääseb."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One’i server"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Server näeb ainult krüptitud andmeid"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One krüptib saladuse otse teie brauseris. Serverisse lähevad ainult krüptitud andmed, võti jääb linki ega lahku kunagi saatja ja adressaadi seadmetest."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Kuidas see töötab ja miks see on turvaline"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Lingi sees"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Lingil on kaks osa. Esimene näitab, kus krüptitud andmeid hoitakse. Teine, pärast # märki, on dekrüptimisvõti."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Igaüks, kellel on täielik link, saab saladuse avada. Saatke see ainult adressaadile ja lisage tundlikele andmetele parool."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Täielik link annab juurdepääsu"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Brauserid ei lisa # järgset osa päringutele. Seega pole võtit ei serveri logides ega võrgu vahepunktides."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Seda ei saadeta serverisse"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Võti luuakse teie seadmes juhuslikult. Seda ei saa kõiki võimalusi läbi proovides ära arvata."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Iga lingi jaoks uus"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Võti on # järel"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Kuidas Encrypt.One krüptib saladusi brauseris: AES-256-GCM, võti pärast # märki, säilitamine, kustutamine ja paroolikaitse."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Kuidas Encrypt.One töötab: läbiva krüptimisega saladuste jagamine"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Ava parooligeneraator"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Avamisparool"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Parool kaitseb saladust ka siis, kui link pealt kuulatakse. Ilma selleta näeb adressaat ainult sisestusvälja."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Pärast kolme valet katset saladus kustutatakse. Parooli ei saa kõiki võimalusi läbi proovides ära arvata."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Kolm katset"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Klõpsake vormis „Paku” või valige parooligeneraatorist fraas: seda on lihtne ette lugeda."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Ärge mõelge ise välja"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Edastage parool teisiti: suuliselt, teises sõnumirakenduses või silmast silma. Siis ei avalda ühe sõnumi pealtkuulamine midagi."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Edastage eraldi"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Teine lukk tundlikele andmetele"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Kui avamisparool sisestatakse kolm korda valesti, kustutatakse saladus jäädavalt."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Pärast kolme valet parooli"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Lingi lehel olev nupp „Hävita kohe” kustutab saladuse kohe."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Teie käsul"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Kui linki valitud säilitusaja jooksul ei avata, kustub saladus automaatselt."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Aegumisel"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Niipea kui adressaat saladuse avab, kustutatakse andmed. Link teist korda ei tööta."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Pärast avamist"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Valede paroolikatsete loendur"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Krüptitud tekst ja fail"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Salvestatakse serveris"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Teie valitud säilitusaeg"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Säilitamine"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Server hoiab saladust täpselt nii kaua, kui adressaadil on vaja selle avamiseks."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Lingi dekrüptimisvõti"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Avamisparool"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Saladuse sisu loetaval kujul"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Ei jõua kunagi serverisse"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Mida server salvestab ja millal kustutab"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Parooligeneraator"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Avalehele"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Sellist lehte Encrypt.One’is ei ole."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Lehte ei leitud — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Aadress võib olla valesti kirjutatud või leht teisaldatud. Kui avasite ühekordset linki, kontrollige, kas see kopeeriti täielikult."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Lehte ei leitud"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Kui see poliitika muutub, avaldame uue versiooni sellel lehel ja uuendame ülal olevat kuupäeva.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Poliitika muudatused"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Privaatsusküsimused esitage <a href=\"https://github.com/Draal/secure-share/issues\">GitHubi teemades</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Küsimused"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>kohe pärast seda, kui adressaat saladuse avab;</li><li>kui vajutate lingi lehel „Hävita kohe”;</li><li>pärast kolmandat valet parooli;</li><li>valitud ajavahemiku, ühest tunnist seitsme päevani, lõppedes. Aegunud saladust ei väljastata enam kohe ja selle andmed kustutatakse igapäevase puhastuse käigus.</li></ul><p>Kustutatud saladust ei saa taastada. Lingieelvaateid loovad sõnumirakenduste robotid ei kuluta saladust: andmed väljastatakse alles pärast „Näita saladust” vajutamist.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Millal andmed kustutatakse"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Paroolid, paroolifraasid ja PIN-koodid luuakse teie brauseris krüptograafilise juhuarvugeneraatoriga ning neid ei saadeta kunagi serverisse.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Parooligeneraator"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One on loodud nii, et saladust saab lugeda ainult adressaat — isegi meie ei saa. Allpool kirjeldame, millised andmed teenust läbivad ja mis nendega juhtub."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Rakendusserver logib ainult API-päringuid: päringu tüübi, tulemuse ja töötlemisaja. IP-aadresse, saladuste ID-sid, tokeneid, leheaadresse ega päringute sisu ei logita.</p><p>Teenuse kaitsmiseks läbiproovimisrünnete ja väärkasutuse eest piirab server päringute sagedust IP-aadressi kohta. Aadressi kasutatakse ainult mälus ja seda ei salvestata.</p><p>Rakenduse ees olev veebiserver võib pidada tavalist juurdepääsulogi: IP-aadress, aeg ja lehe aadress ilma # järgse osata. Selliseid logisid kasutatakse ainult rünnete eest kaitsmiseks ja säilitatakse piiratud aja.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Tehnilised logid"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One’i privaatsuspoliitika: milliseid andmeid teenus saab, kui kaua neid säilitab ja miks ei saa teie saladusi lugeda."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Privaatsuspoliitika — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Parool ise ei lahku kunagi brauserist. Paroolist ja lingi võtmest tuletab brauser kaks sõltumatut väärtust: krüptimisvõtme ja kontrollräsi (PBKDF2 600 000 iteratsiooniga, seejärel HKDF). Serverisse saadetakse ainult räsi. Server kontrollib sellega parooli, kuid ei saa teada parooli ega võtit.</p><p>Pärast kolme valet katset saladus kustutatakse. Katseloendurit hoitakse serveri mälus ja see on seotud saladuse, mitte külastajaga.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Avamisparool"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Me ei tea, kes saladuse lõi või avas: teenus ei seo andmeid inimeste, kontode ega IP-aadressidega. Seetõttu ei saa me konkreetse inimese andmeid leida, väljastada ega kustutada. Saladuse kustutamiseks enne aegumist avage lingi leht ja vajutage „Hävita kohe”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Teie õigused"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Tekst ja manustatud fail krüptitakse enne saatmist teie brauseris AES-256-GCM-iga sisseehitatud Web Crypto API kaudu. Faili nimi ja tüüp krüptitakse koos sisuga.</p><p>Serveris salvestatakse ainult:</p><ul><li>krüptitud andmed;</li><li>aegumisaeg;</li><li>märge selle kohta, kas fail on manustatud;</li><li>parooli kontrollräsi, kui määrasite avamisparooli.</li></ul><p>Dekrüptimisvõti on lingi osa pärast # märki. Brauserid ei saada seda osa serverisse, seega ei saa ei meie ega keegi serverile juurdepääsu saav andmeid dekrüptida. Samal põhjusel ei saa me saladust taastada, kui link kaob.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Saladused ja failid"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One on tasuta teenus paroolide, võtmete ja failide jagamiseks ühekordsete linkidega. Registreerimine pole vajalik. Teenust arendab ja haldab <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Saadate lingi ise endale sobival viisil. Sõnumirakenduse sõnum, e-kiri või SMS võidakse kinni püüda ning saladuse saab see, kes lingi esimesena avab. Oluliste andmete jaoks määrake avamisparool ja edastage see teise kanali kaudu.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Kuidas teenus töötab"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Saladus krüptitakse teie brauseris. Server saab ainult krüptitud andmed ega saa neid lugeda.</li><li>Dekrüptimisvõti on lingis # märgi järel ja seda ei saadeta serverisse.</li><li>Registreerimist, reklaame, analüütikat ega kolmandate osapoolte skripte pole.</li><li>Saladus kustutatakse kohe pärast avamist või valitud aja lõppedes.</li><li>Rakendusserver ei logi IP-aadresse ega saladuste ID-sid.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Lühidalt"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Lähtekood on avatud <a href=\"https://github.com/Draal/secure-share\">GitHubis</a>: saate kontrollida krüptimist või käitada oma koopiat.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Avatud lähtekood"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Me ei kasuta reklaami- ega analüütikaküpsiseid. Sait salvestab teie brauseris ainult toimimiseks vajaliku:</p><ul><li><code>lang</code>-küpsis — teie keel, kui valisite selle keelevalijast;</li><li>localStorage’is — värviteema, märge keeleriba sulgemise kohta ja märked sellest brauserist hävitatud linkide kohta;</li><li>sessionStorage’is — generaatori parool selle avalehe vormi ülekandmise ajal. See eemaldatakse kohe pärast sisestamist.</li></ul><p>Neist jõuab serverisse ainult keeleküpsis, mille abil server valib lehe versiooni. Kõik saab brauseri seadetes kustutada.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Küpsised ja brauseri salvestusruum"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Sait ei laadi kolmandate osapoolte skripte, fonte, loendureid ega reklaame: kõik, ka fondid, edastatakse meie serverist. Me ei müü ega jaga andmeid kolmandatele osapooltele.</p><p>Telegrami, WhatsAppi ja e-posti kaudu saatmise nupud ning sponsorite saitide lingid on tavalised lingid. Väline teenus saab andmeid alles siis, kui klõpsate, ning seejärel kehtib selle enda poliitika.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Kolmandate osapoolte teenused"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Privaatsuspoliitika"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Viimati uuendatud: 25. oktoober 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Link on kahjustatud või pole täielikult kopeeritud. Paluge saatjal see uuesti saata."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Andmed saabusid, kuid neid ei õnnestunud dekrüptida: link on kahjustatud. Saladus on serverist juba kustutatud, seega paluge saatjal uus luua."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Serveriga ei õnnestunud ühendust saada. Kontrollige ühendust ja proovige uuesti."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Liiga palju katseid. Oodake minut ja proovige uuesti."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Saladust ei õnnestunud avada"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Looge oma link"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Kuidas ühekordsed lingid töötavad"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "See on juba avatud või aegunud. Linki ei saa uuesti avada."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Paluge saatjal luua uus link. Kui teie seda ei avanud, andke talle teada: keegi teine võis seda näha."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "See saladus pole enam saadaval"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Seda saab vaadata ainult üks kord. Kohe pärast seda kustutatakse see serverist."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Saladus on parooliga kaitstud. Seda saab vaadata ainult üks kord, seejärel kustutatakse see serverist."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Keegi saatis teile saladuse"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One’i ühekordne link. Saladuse saab avada üks kord, seejärel kustutatakse see serverist."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Keegi saatis teile saladuse — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Sisestage parool."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Saatja oleks pidanud parooli eraldi edastama. Pärast kolme valet katset saladus kustutatakse."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Avamisparool"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Ava"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Jagage oma saladust"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Looge oma ühekordne link. Registreerimiseta."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Kas peate ka ise parooli jagama?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Näita saladust"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Serverist kustutatud"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Laadi alla"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Salvestage see, kui vajate seda hiljem: pärast lehe sulgemist ei saa saladust uuesti avada."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Saladuse tekst"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Teie saladus"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Avamine…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Mis on Encrypt.One?"
+  }
+]

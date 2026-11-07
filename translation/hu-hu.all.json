@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "A kérést nem sikerült feldolgozni. Frissítse az oldalt, és próbálja újra."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Ez a hivatkozás nem jogosítja fel a titok megsemmisítésére."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "A titok nem található: már megnyitották, megsemmisítették vagy lejárt."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "A titok megnyitásához jelszó szükséges."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Túl sok kérés. Várjon egy percet, és próbálja újra."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Hiba történt nálunk. Próbálja újra egy perc múlva."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "A fájl túl nagy. A korlát {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "A jelszót háromszor hibásan adták meg, ezért a titok törlődött."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Hibás jelszó. Hátralévő próbálkozások: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Bezárás"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Másolva"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Másolás"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Hivatkozások"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Adatvédelem"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekt"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Gyakori kérdések"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Útmutatók"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Hogyan működik"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Biztonság"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Források"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Fájl küldése"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Jelszógenerátor"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Titok megosztása"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Szolgáltatás"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Egyszer használatos hivatkozások jelszavak és fájlok megosztásához. Titkosítás a böngészőben."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Forráskód a GitHubon"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Magyar"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "HU"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "A webhely nyelve: magyar"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One kezdőlap"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: jelszó megosztása egyszer használatos hivatkozással"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Gyakori kérdések"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Jelszógenerátor"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Hogyan működik"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Fő navigáció"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Ugrás a tartalomra"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Idő, naptárak és ünnepek bármely városban"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Ingyenes játékok közvetlenül a böngészőben"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Rádióállomások ezrei a világ minden tájáról"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Az Encrypt.One támogatóinknak köszönhetően ingyenes"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Sötét"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Téma"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Világos"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Rendszer"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Küldje el a címzettnek. A titok csak egyszer nyitható meg."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "A hivatkozás elkészült"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Újabb hivatkozás kérése"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Ugyanahhoz a titokhoz minden címzettnek külön hivatkozás. A jelenlegi hivatkozás tovább működik, de innen már nem semmisítheti meg."
+  },
+  {
+    "id": "created.back",
+    "translation": "Új titok"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Megsemmisítés most"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Megsemmisíti a titkot? A hivatkozás azonnal működésképtelenné válik."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "A titkot nem sikerült megsemmisíteni. Próbálja újra."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Rossz személynek küldte? Semmisítse meg a titkot, és a hivatkozás azonnal leáll."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Megsemmisítette a titkot. Az adatokat töröltük a szerverről, és a hivatkozás már nem működik."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "A titok megsemmisült"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Senki sem nyitotta meg időben a hivatkozást. Az adatokat töröltük a szerverről, és a hivatkozás már nem működik."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "A hivatkozás lejárt"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Hivatkozás másolása"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Egyszer használatos hivatkozás"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Ez a hivatkozás már nem működik"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "A hivatkozás csak azon a lapon látható, ahol létrehozták. A titkot innen továbbra is megsemmisítheti."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Az Encrypt.One egyszer használatos hivatkozásának küldői oldala: ossza meg a hivatkozást vagy semmisítse meg a titkot."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "A hivatkozás elkészült — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Új hivatkozás létrehozása"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Az egyszer használatos hivatkozás QR-kódja"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "A hivatkozás megnyitásához irányítsa rá a telefon kameráját. Ne mutassa meg másoknak: a kód ugyanúgy megnyitja a titkot, mint a hivatkozás."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "A hivatkozás QR-kódja"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Küldés ezzel"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-mail"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR-kód"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Egy titok Önnek"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Egyszer használatos hivatkozás egy titokhoz:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Érvényes eddig"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tipp:</strong> különösen érzékeny adatokhoz adjon jelszót a hivatkozáshoz, és más módon, például szóban közölje. Így egyetlen üzenet elfogása nem árul el semmit."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Fájl csatolása"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Engedje el a fájl csatolásához"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "A fájlt közvetlenül a mezőbe húzhatja."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Legfeljebb {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Ez a böngésző nem támogatja a titkosítást. Frissítse, vagy nyissa meg a webhelyet másik böngészőben."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Illesszen be szöveget vagy csatoljon fájlt."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "A fájl túl nagy. A korlát {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "A szerver nem érhető el. Ellenőrizze a kapcsolatot, és próbálja újra."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Adjon meg megnyitási jelszót, vagy kapcsolja ki a jelszavas védelmet."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "a szöveggel együtt lesz titkosítva"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Fájl eltávolítása"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Jelszó generálása"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Beszúrás a titok mezőbe"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Javaslat"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "E jelszó nélkül a titok akkor sem nyitható meg, ha a hivatkozást elfogják. Közölje a címzettel külön, például szóban vagy másik üzenetküldőben."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Megnyitási jelszó"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Például maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Védelem jelszóval"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Mit szeretne megosztani?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Jelszó, API-kulcs, bejelentkezési adatok…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Hivatkozás beállításai"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Egyszer használatos hivatkozás létrehozása"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Titkosítás…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 nap"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 óra"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 nap"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 nap"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Lejárat"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Tárolási idő"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Ingyenes erős jelszó-, jelmondat- és PIN-generátor. Az eredmények a böngészőben készülnek, és nem kerülnek elküldésre. Ossza meg őket egyszer használatos hivatkozással."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Erős jelszógenerátor — ingyenes és privát | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Számjegyek (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Hossz"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Kisbetűk (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Hasonló karakterek nélkül (0 és O, l és 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Karakterek"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Szimbólumok (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Nagybetűk (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "A véletlen szavakból álló jelmondatot könnyű kimondani és megjegyezni, mégis olyan nehéz kitalálni, mint egy hosszú jelszót. A szavak az EFF nyílt szólistájából származnak."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Szavak száma"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Számjegyek száma"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Újragenerálás"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Küldés egyszer használatos hivatkozással"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Az eredmény közvetlenül az űrlapra kerül, és egy csak egyszer megnyitható hivatkozást kap."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Meg kell osztania ezt a jelszót?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entrópia ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Közepes"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Csak PIN-kódként megfelelő"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Erős"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Nagyon erős"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Gyenge"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Jelszó típusa"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Jelszó"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Jelmondat"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Legalább 14–16 karakter. A hossz jobban véd, mint a betűk szimbólumokra cserélése."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Hosszú"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Nem kell megjegyeznie az összetett jelszavakat: használjon jelszókezelőt."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Jelszókezelőben tárolt"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Mitől erős egy jelszó?"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Minden szolgáltatáshoz külön jelszó. Így egy jelszó kiszivárgása nem nyitja meg a többi fiókot."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Egyedi"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Jelszógenerátor"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Nem. A titok küldés előtt a böngészőjében titkosítódik. A kulcs a hivatkozásban a # jel után található, és a cím ezen része soha nem jut el a szerverre."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Semmi sem történik. A titok csak a „Titok megjelenítése” gomb megnyomása után jelenik meg, az előnézeti robotok pedig nem nyomnak meg gombokat."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "A titok a választott tárolási idő lejártakor automatikusan törlődik."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Igen. A hivatkozás oldalán található a „Megsemmisítés most” gomb. Ezután a hivatkozás nem működik tovább."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Nem. Sem a küldőnek, sem a címzettnek nincs szüksége fiókra."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Nem talált választ? Nyisson egy hibajegyet a GitHubon."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "El tudják olvasni a titkomat?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Mi történik, ha egy üzenetküldő előnézeti robotja megnyitja a hivatkozást?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Mi történik, ha a címzett soha nem nyitja meg a hivatkozást?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Visszavonhatok egy hivatkozást küldés után?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Regisztrálnom kell?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Gyakori kérdések"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "A titok közvetlenül a böngészőjében titkosítódik. A címzett egyszer megnyitja a hivatkozást, majd az adatok törlődnek a szerverről."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Regisztráció nélkül"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 titkosítás az eszközén"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Nyílt forráskód"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Osszon meg jelszavakat biztonságosan egyszer használatos hivatkozásokkal"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Jelszó, API-kulcs, bejelentkezési adatok vagy fájl. Minden a böngészőben titkosítódik küldés előtt."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Illessze be a titkot"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegramon, WhatsAppon, Signalon, Slackben, e-mailben vagy más üzenetküldőben. A beszélgetésben csak a hivatkozás marad meg, maga a jelszó nem."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Küldje el a hivatkozást"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Megtekintés után az adatok törlődnek a szerverről. A hivatkozás másodszor nem nyitható meg."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "A hivatkozás elhasználódik"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Hogyan működik"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Küldjön jelszavakat, privát üzeneteket, API-kulcsokat és fájlokat titkosított, egyszer használatos hivatkozásokkal. A titkok megtekintés után törlődnek. Ingyenes, nyílt forráskódú, regisztráció nélkül."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Egyszer használatos titkos hivatkozások — jelszavak biztonságos megosztása | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Osszon meg jelszavakat és fiókadatokat anélkül, hogy azok a beszélgetési előzményekben maradnának."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Jelszavak és bejelentkezési adatok"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Küldjön érzékeny üzeneteket, amelyek csak egyszer nyithatók meg."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Privát üzenetek"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Osszon meg API-kulcsokat, hozzáférési tokeneket és konfigurációs fájlokat biztonságosan a csapatával."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API-kulcsok és hitelesítő adatok"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Osszon meg magándokumentumokat és legfeljebb {{.MaxFileSize}} méretű fájlokat titkosított, egyszer használatos hivatkozásokkal."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Bizalmas fájlok"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Küldjön biztonságosan önmegsemmisítő üzeneteket, jelszavakat, API-kulcsokat és magánfájlokat. Minden titok a böngészőben titkosítódik, és megtekintés után törlődik a szerverről."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Mit oszthat meg egyszer használatos hivatkozással?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Önnél marad.</strong> A visszafejtési kulcs. A böngészők a # utáni részt soha nem küldik a szerverre."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>A szerverre kerül.</strong> A titkosított adatok címe: kulcs nélkül csak véletlenszerű bájtok."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "A böngésző beépített Web Crypto API-ja és az AES-256-GCM. Nincsenek harmadik féltől származó könyvtárak."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Titkosítás a böngészőben"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "A teljes kód elérhető a <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHubon</a>. Bárki ellenőrizheti a titkosítás működését."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Nyílt forráskód"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Nincs regisztráció, külső szkript vagy követő. Ezért sütisáv sincs."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Semmi felesleges"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "A visszafejtési kulcs a hivatkozásban a # jel után található. A böngészők a cím ezen részét soha nem küldik a szerverre, így csak Ön és a címzett láthatja."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "További információ a működésről"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Miért nem tudjuk elolvasni a titkát?"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Titok megosztása"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kód a GitHubon"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Nyílt forráskód"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Az Encrypt.One teljes kódja a GitHubon található. Bárki megnézheti a titkosítás működését, és ellenőrizheti, hogy a kulcs soha nem kerül a szerverre."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Ellenőrizze saját maga"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Adatfolyam"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "A titok küldés előtt titkosítódik, és csak a címzett fejti vissza. Közben az adatok végig titkosítva maradnak."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Letölti a titkosított adatokat, kiveszi a kulcsot a hivatkozásból, és helyben visszafejti a titkot. A szerver ezután azonnal törli az adatokat."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "A címzett böngészője"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Véletlen kulcsot hoz létre, és a böngésző beépített Web Crypto API-jával AES-256-GCM használatával titkosítja a szöveget és a fájlt."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "A küldő böngészője"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Csak titkosított bájtokat fogad és tárol. Kulcs nélkül senki sem olvashatja őket — sem mi, sem aki hozzáfér a szerverhez."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Az Encrypt.One szervere"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "A szerver csak titkosított adatokat lát"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Az Encrypt.One közvetlenül a böngészőjében titkosítja a titkot. Csak titkosított adatok jutnak a szerverre, a kulcs pedig a hivatkozásban marad, és soha nem hagyja el a küldő és a címzett eszközét."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Hogyan működik és miért biztonságos"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "A hivatkozás belseje"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "A hivatkozás két részből áll. Az első a titkosított adatok helyére mutat. A második, a # után, a visszafejtési kulcs."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "A teljes hivatkozás birtokában bárki megnyithatja a titkot. Csak a címzettnek küldje el, és érzékeny adatokhoz adjon hozzá jelszót."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "A teljes hivatkozás hozzáférést ad"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "A böngészők nem foglalják bele a # utáni részt a kérésekbe. Ezért a kulcs sem a szerver naplóiban, sem a köztes hálózati pontokon nem található meg."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Soha nem kerül a szerverre"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "A kulcs véletlenszerűen jön létre az eszközén. Teljes próbálgatással nem található ki."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Minden hivatkozáshoz új"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "A kulcs a # után található"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Hogyan titkosítja az Encrypt.One a titkokat a böngészőben: AES-256-GCM, kulcs a # után, tárolás, törlés és jelszavas védelem."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Az Encrypt.One működése: titkok megosztása végpontok közötti titkosítással"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Jelszógenerátor megnyitása"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Megnyitási jelszó"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "A jelszó akkor is védi a titkot, ha a hivatkozást elfogják. Enélkül a címzett csak a beviteli mezőt látja."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Három hibás próbálkozás után a titok törlődik. A jelszó teljes próbálgatással nem található ki."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Három próbálkozás"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Kattintson az űrlapon a „Javaslat” gombra, vagy válasszon egy jelmondatot a jelszógenerátorból: könnyű felolvasni."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Ne saját maga találja ki"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "A jelszót más módon adja át: szóban, másik üzenetküldőben vagy személyesen. Így egyetlen üzenet elfogása nem árul el semmit."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Adja át külön"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Második zár az érzékeny adatokhoz"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Ha a megnyitási jelszót háromszor hibásan adják meg, a titok végleg törlődik."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Három hibás jelszó után"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "A hivatkozás oldalán található „Megsemmisítés most” gomb azonnal törli a titkot."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Az Ön kérésére"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Ha a hivatkozást nem nyitják meg a választott tárolási idő alatt, a titok automatikusan törlődik."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Lejáratkor"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Amint a címzett megnyitja a titkot, az adatok törlődnek. A hivatkozás másodszor nem működik."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Megnyitás után"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "A hibás jelszópróbálkozások számlálója"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "A titkosított szöveg és fájl"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "A szerveren tárolva"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "A választott tárolási idő"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Tárolás"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "A szerver pontosan addig tárolja a titkot, ameddig a címzettnek szüksége van a megnyitásához."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "A hivatkozásban lévő visszafejtési kulcs"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "A megnyitási jelszó"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "A titok tartalma olvasható formában"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Soha nem jut a szerverre"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Mit tárol a szerver, és mikor törli?"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Jelszógenerátor"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "A kezdőlapra"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Ilyen oldal nincs az Encrypt.One-on."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Az oldal nem található — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Lehet, hogy hibás a cím, vagy az oldalt áthelyezték. Ha egyszer használatos hivatkozást nyitott meg, ellenőrizze, hogy teljes egészében másolta-e."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Az oldal nem található"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Ha ez a szabályzat megváltozik, az új változatot ezen az oldalon tesszük közzé, és frissítjük a fenti dátumot.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "A szabályzat változásai"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Adatvédelmi kérdéseit a <a href=\"https://github.com/Draal/secure-share/issues\">GitHub hibajegyeiben</a> tegye fel.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Kérdések"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>közvetlenül azután, hogy a címzett megnyitja a titkot;</li><li>amikor a hivatkozás oldalán megnyomja a „Megsemmisítés most” gombot;</li><li>a harmadik hibás jelszó után;</li><li>a választott, egy órától hét napig terjedő időszak végén. A lejárt titok azonnal elérhetetlenné válik, adatai pedig a napi takarítás során törlődnek.</li></ul><p>A törölt titok nem állítható helyre. Az üzenetküldők linkelőnézetet készítő robotjai nem használják el a titkot: az adatok csak a „Titok megjelenítése” megnyomása után érhetők el.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Mikor törlődnek az adatok"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>A jelszavak, jelmondatok és PIN-kódok a böngészőben, kriptográfiai véletlenszám-generátorral készülnek, és soha nem kerülnek a szerverre.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Jelszógenerátor"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Az Encrypt.One úgy készült, hogy csak a címzett olvashasson el egy titkot — még mi sem. Az alábbiakban bemutatjuk, milyen adatok haladnak át a szolgáltatáson, és mi történik velük."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Az alkalmazáskiszolgáló csak az API-kéréseket naplózza: a kérés típusát, eredményét és feldolgozási idejét. IP-címeket, titokazonosítókat, tokeneket, oldalcímeket és kéréstartalmakat nem naplóz.</p><p>A szolgáltatás védelmére a próbálgatásos támadások és visszaélések ellen a szerver korlátozza az IP-címenkénti kérések gyakoriságát. A címet csak a memóriában használja, és nem tárolja.</p><p>Az alkalmazás előtti webszerver szokásos hozzáférési naplót vezethet: IP-cím, idő és az oldal címe a # utáni rész nélkül. Ezeket a naplókat csak támadások elleni védelemre használjuk, és korlátozott ideig őrizzük.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Technikai naplók"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Az Encrypt.One adatvédelmi szabályzata: milyen adatokat kap a szolgáltatás, meddig őrzi őket, és miért nem tudja elolvasni a titkait."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Adatvédelmi szabályzat — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Maga a jelszó soha nem hagyja el a böngészőt. A jelszóból és a hivatkozás kulcsából a böngésző két független értéket állít elő: a titkosítási kulcsot és egy ellenőrző hashértéket (PBKDF2 600 000 iterációval, majd HKDF). Csak a hash kerül a szerverre. A szerver ezzel ellenőrzi a jelszót, de sem a jelszót, sem a kulcsot nem tudja meg.</p><p>Három hibás próbálkozás után a titok törlődik. A próbálkozásszámláló a szerver memóriájában marad, és a titokhoz, nem a látogatóhoz tartozik.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Megnyitási jelszó"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Nem tudjuk, ki hozott létre vagy nyitott meg egy titkot: a szolgáltatás nem köti az adatokat emberekhez, fiókokhoz vagy IP-címekhez. Ezért nem tudjuk egy adott személy adatait megtalálni, átadni vagy törölni. A titok lejárat előtti törléséhez nyissa meg a hivatkozás oldalát, és nyomja meg a „Megsemmisítés most” gombot.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Az Ön jogai"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>A szöveget és a csatolt fájlt a böngésző küldés előtt AES-256-GCM-mel, a beépített Web Crypto API segítségével titkosítja. A fájl neve és típusa a tartalommal együtt titkosítódik.</p><p>A szerver csak a következőket tárolja:</p><ul><li>a titkosított adatokat;</li><li>a lejárat időpontját;</li><li>hogy van-e csatolt fájl;</li><li>a jelszó ellenőrző hashét, ha megnyitási jelszót állított be.</li></ul><p>A visszafejtési kulcs a hivatkozás # utáni része. A böngészők ezt soha nem küldik a szerverre, így sem mi, sem a szerverhez hozzáférő személy nem tudja visszafejteni az adatokat. Ugyanezért elveszett hivatkozás esetén a titkot sem tudjuk helyreállítani.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Titkok és fájlok"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Az Encrypt.One ingyenes szolgáltatás jelszavak, kulcsok és fájlok egyszer használatos hivatkozásokkal történő megosztására. Regisztráció nem szükséges. A szolgáltatást a <a href=\"https://final-level.com/\">FINAL LEVEL</a> fejleszti és üzemelteti.</p><p>A hivatkozást Ön küldi el tetszőleges módon. Egy üzenetküldőn, e-mailen vagy SMS-ben küldött üzenetet elfoghatnak, és ekkor az kapja meg a titkot, aki először nyitja meg a hivatkozást. Fontos adatokhoz állítson be megnyitási jelszót, és másik csatornán közölje.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "A szolgáltatás működése"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>A titok a böngészőben titkosítódik. A szerver csak titkosított adatokat kap, és nem tudja elolvasni őket.</li><li>A visszafejtési kulcs a hivatkozásban a # után van, és soha nem kerül a szerverre.</li><li>Nincs regisztráció, hirdetés, analitika vagy külső szkript.</li><li>A titok megnyitáskor vagy a választott időszak végén törlődik.</li><li>Az alkalmazáskiszolgáló nem naplóz IP-címeket vagy titokazonosítókat.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Röviden"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>A forráskód nyílt a <a href=\"https://github.com/Draal/secure-share\">GitHubon</a>: ellenőrizheti a titkosítást vagy futtathat saját példányt.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Nyílt forráskód"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Nem használunk hirdetési vagy analitikai sütiket. A webhely csak a működéséhez szükséges adatokat tárolja a böngészőben:</p><ul><li>a <code>lang</code> sütit — a kiválasztott nyelvet;</li><li>a localStorage-ban — a színtémát, a nyelvi értesítés bezárásának jelzését és az ebből a böngészőből megsemmisített hivatkozások jelzéseit;</li><li>a sessionStorage-ban — a generátor jelszavát, amíg az átkerül a kezdőlapi űrlapra. Beillesztés után azonnal törlődik.</li></ul><p>Ezek közül csak a nyelvi süti jut el a szerverre, amely ez alapján választja ki az oldal változatát. Minden törölhető a böngésző beállításaiban.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Sütik és böngészőtárhely"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>A webhely nem tölt be külső szkripteket, betűtípusokat, számlálókat vagy hirdetéseket: mindent, a betűtípusokat is, saját szerverünkről szolgálunk ki. Nem adjuk el és nem osztjuk meg az adatokat harmadik felekkel.</p><p>A Telegramon, WhatsAppon és e-mailben küldő gombok, valamint a szponzorok oldalaira mutató hivatkozások közönséges hivatkozások. Külső szolgáltatás csak kattintáskor kap adatokat, és utána a saját szabályzata érvényes.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Harmadik felek szolgáltatásai"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Adatvédelmi szabályzat"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Utolsó frissítés: 2026. október 25."
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "A hivatkozás sérült, vagy nem lett teljesen másolva. Kérje meg a küldőt, hogy küldje el újra."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Az adatok megérkeztek, de nem sikerült visszafejteni őket: a hivatkozás sérült. A titok már törlődött a szerverről, ezért kérjen újat a küldőtől."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "A szerver nem érhető el. Ellenőrizze a kapcsolatot, és próbálja újra."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Túl sok próbálkozás. Várjon egy percet, és próbálja újra."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "A titkot nem sikerült megnyitni"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Saját hivatkozás létrehozása"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Hogyan működnek az egyszer használatos hivatkozások"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Már megnyitották vagy lejárt. A hivatkozás nem nyitható meg újra."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Kérje meg a küldőt, hogy hozzon létre új hivatkozást. Ha ezt nem Ön nyitotta meg, jelezze neki: lehet, hogy más látta."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Ez a titok már nem érhető el"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Csak egyszer tekinthető meg. Közvetlenül ezután törlődik a szerverről."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "A titkot jelszó védi. Csak egyszer tekinthető meg, majd törlődik a szerverről."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Valaki titkot küldött Önnek"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Egyszer használatos Encrypt.One-hivatkozás. A titok egyszer nyitható meg, majd törlődik a szerverről."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Valaki titkot küldött Önnek — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Adja meg a jelszót."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "A küldőnek külön kellett közölnie a jelszót. Három hibás próbálkozás után a titok törlődik."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Megnyitási jelszó"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Megnyitás"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Saját titok megosztása"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Hozzon létre saját egyszer használatos hivatkozást. Regisztráció nélkül."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Önnek is meg kell osztania egy jelszót?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Titok megjelenítése"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Törölve a szerverről"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Letöltés"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Mentse el, ha később szüksége lesz rá: az oldal bezárása után a titok nem nyitható meg újra."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "A titok szövege"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Az Ön titka"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Megnyitás…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Mi az Encrypt.One?"
+  }
+]

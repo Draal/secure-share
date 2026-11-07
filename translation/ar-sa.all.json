@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "تعذرت معالجة الطلب. أعد تحميل الصفحة وحاول مرة أخرى."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "لا يسمح هذا الرابط بإتلاف السر."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "لم يُعثر على السر: ربما فُتح أو أُتلف أو انتهت صلاحيته."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "يتطلب فتح هذا السر كلمة مرور."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "طلبات كثيرة جدًا. انتظر دقيقة وحاول مرة أخرى."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "حدث خطأ من جانبنا. حاول مرة أخرى بعد دقيقة."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "الملف كبير جدًا. الحد الأقصى هو {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "أُدخلت كلمة المرور خطأ ثلاث مرات، لذا حُذف السر."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "كلمة المرور غير صحيحة. المحاولات المتبقية: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "إغلاق"
+  },
+  {
+    "id": "common.copied",
+    "translation": "تم النسخ"
+  },
+  {
+    "id": "common.copy",
+    "translation": "نسخ"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "روابط"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "الخصوصية"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "المشروع"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "الأسئلة الشائعة"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "الأدلة"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "كيف يعمل"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "الأمان"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "الموارد"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "إرسال ملف"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "مولّد كلمات المرور"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "مشاركة سر"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "الخدمة"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "روابط للاستخدام مرة واحدة لمشاركة كلمات المرور والملفات. يُجرى التشفير في متصفحك."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "الشيفرة المصدرية على GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "العربية"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "AR"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "لغة الموقع: العربية"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "الصفحة الرئيسية لـ Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: شارك كلمة مرور برابط يُستخدم مرة واحدة"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "الأسئلة الشائعة"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "مولّد كلمات المرور"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "كيف يعمل"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "التنقل الرئيسي"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "انتقل إلى المحتوى"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "الوقت والتقويم والعطلات في أي مدينة"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "ألعاب مجانية في متصفحك مباشرةً"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "آلاف محطات الراديو من جميع أنحاء العالم"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One مجاني بفضل رعاتنا"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "داكن"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "المظهر"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "فاتح"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "حسب النظام"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "أرسله إلى المستلم. لا يمكن فتح السر إلا مرة واحدة."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "رابطك جاهز"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "الحصول على رابط آخر"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "للسر نفسه، رابط لكل مستلم. سيظل الرابط الحالي يعمل، لكن لن تتمكن من إتلافه من هنا."
+  },
+  {
+    "id": "created.back",
+    "translation": "سر جديد"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "إتلاف الآن"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "هل تريد إتلاف السر؟ سيتوقف الرابط عن العمل فورًا."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "تعذر إتلاف السر. حاول مرة أخرى."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "هل أرسلته إلى الشخص الخطأ؟ أتلف السر وسيتوقف الرابط عن العمل فورًا."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "لقد أتلفت السر. حُذفت البيانات من الخادم ولم يعد الرابط يعمل."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "تم إتلاف السر"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "لم يفتح أحد الرابط في الوقت المحدد. حُذفت البيانات من الخادم ولم يعد الرابط يعمل."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "انتهت صلاحية الرابط"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "نسخ الرابط"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "رابط للاستخدام مرة واحدة"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "لم يعد هذا الرابط يعمل"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "يظهر الرابط فقط في علامة التبويب التي أُنشئ فيها. لا يزال بإمكانك إتلاف السر من هنا."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "صفحة مُرسل رابط Encrypt.One للاستخدام مرة واحدة: شارك الرابط أو أتلف السر."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "رابطك جاهز — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "إنشاء رابط جديد"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "رمز QR للرابط أحادي الاستخدام"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "وجّه كاميرا الهاتف إليه لفتح الرابط. لا تعرض الرمز للآخرين: فهو يفتح السر مثل الرابط تمامًا."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "رمز QR للرابط"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "إرسال عبر"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "البريد الإلكتروني"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "رمز QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "سر لك"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "رابط لسر يُستخدم مرة واحدة:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "صالح حتى"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>نصيحة:</strong> للبيانات شديدة الحساسية، أضف كلمة مرور للرابط وشاركها بطريقة أخرى، مثلًا بالصوت. عندها لن يكشف اعتراض رسالة واحدة شيئًا."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "إرفاق ملف"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "أفلت لإرفاق الملف"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "يمكنك سحب ملف مباشرةً إلى الحقل."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "حتى {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "لا يدعم هذا المتصفح التشفير. حدّثه أو افتح الموقع في متصفح آخر."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "ألصق نصًا أو أرفق ملفًا."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "الملف كبير جدًا. الحد الأقصى هو {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "تعذر الاتصال بالخادم. تحقق من اتصالك وحاول مرة أخرى."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "أدخل كلمة مرور للفتح أو أوقف الحماية بكلمة مرور."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "يُشفّر مع النص"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "إزالة الملف"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "إنشاء كلمة مرور"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "إدراج في حقل السر"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "اقتراح"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "لن يُفتح السر دون كلمة المرور هذه، حتى لو اعتُرض الرابط. أرسلها إلى المستلم بشكل منفصل، مثلًا بالصوت أو عبر تطبيق مراسلة آخر."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "كلمة مرور الفتح"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "مثلًا، maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "الحماية بكلمة مرور"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "ماذا تريد أن تشارك؟"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "كلمة مرور، مفتاح API، بيانات تسجيل الدخول…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "إعدادات الرابط"
+  },
+  {
+    "id": "form.submit",
+    "translation": "إنشاء رابط للاستخدام مرة واحدة"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "جارٍ التشفير…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "يوم واحد"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "ساعة واحدة"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 أيام"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 أيام"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "تنتهي الصلاحية بعد"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "مدة التخزين"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "مولّد مجاني لكلمات مرور قوية وعبارات مرور ورموز PIN عشوائية تُنشأ في متصفحك ولا تُرسل إلى أي مكان. شارك النتيجة برابط يُستخدم مرة واحدة."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "مولّد كلمات مرور قوية — مجاني وخاص | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "أرقام (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "الطول"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "أحرف صغيرة (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "استبعاد الأحرف المتشابهة (0 وO، وl و1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "الأحرف"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "رموز (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "أحرف كبيرة (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "عبارة من كلمات عشوائية سهلة النطق والتذكر، لكن يصعب تخمينها مثل كلمة المرور الطويلة. الكلمات من قائمة EFF المفتوحة."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "عدد الكلمات"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "عدد الأرقام"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "إنشاء مجددًا"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "إرسال برابط يُستخدم مرة واحدة"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "تُدرج مباشرةً في النموذج، وستحصل على رابط يُفتح مرة واحدة فقط."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "هل تحتاج إلى مشاركة كلمة المرور؟"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "الإنتروبيا ≈ {bits} بت"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "متوسطة"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "مناسبة لرمز PIN فقط"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "قوية"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "قوية جدًا"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "ضعيفة"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "نوع كلمة المرور"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "كلمة مرور"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "عبارة مرور"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "14–16 حرفًا على الأقل. الطول يوفر حماية أفضل من استبدال الأحرف بالرموز."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "طويلة"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "لا تحتاج إلى تذكر كلمات المرور المعقدة: استخدم مدير كلمات المرور."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "محفوظة في مدير كلمات المرور"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "ما الذي يجعل كلمة المرور قوية؟"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "استخدم كلمة مختلفة لكل خدمة، حتى لا يتيح تسرب إحداها الوصول إلى حساباتك الأخرى."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "فريدة"
+  },
+  {
+    "id": "generator.title",
+    "translation": "مولّد كلمات المرور"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "لا. يُشفّر السر في متصفحك قبل إرساله. يوجد المفتاح في الرابط بعد علامة #، ولا يصل هذا الجزء من العنوان إلى الخادم."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "لن يحدث شيء. لا يظهر السر إلا بعد النقر على «إظهار السر»، ولا تنقر روبوتات المعاينة على الأزرار."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "يُحذف السر تلقائيًا عند انتهاء مدة التخزين التي اخترتها."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "نعم. تحتوي صفحة الرابط على زر «إتلاف الآن». بعدها يتوقف الرابط عن العمل."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "لا. لا يحتاج المرسل ولا المستلم إلى حساب."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "لم تجد إجابة؟ افتح بلاغًا على GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "هل يمكنكم قراءة سري؟"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "ماذا لو فتح روبوت معاينة في تطبيق مراسلة الرابط؟"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "ماذا لو لم يفتح المستلم الرابط؟"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "هل يمكنني إلغاء الرابط بعد إرساله؟"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "هل أحتاج إلى التسجيل؟"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "الأسئلة الشائعة"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "يُشفّر سرك مباشرةً في متصفحك. يفتح المستلم الرابط مرة واحدة، ثم تُحذف البيانات من الخادم."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "دون تسجيل"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "تشفير AES-256 على جهازك"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "مفتوح المصدر"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "شارك كلمات المرور بأمان عبر روابط للاستخدام مرة واحدة"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "كلمة مرور أو مفتاح API أو بيانات دخول أو ملف. يُشفّر كل شيء في متصفحك قبل إرساله."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "ألصق سرك"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "عبر Telegram أو WhatsApp أو Signal أو Slack أو البريد الإلكتروني أو أي تطبيق مراسلة آخر. تحتفظ المحادثة بالرابط فقط، لا بكلمة المرور نفسها."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "أرسل الرابط"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "بعد العرض تُحذف البيانات من الخادم. لا يمكن فتح الرابط مرة ثانية."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "ينتهي الرابط"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "كيف يعمل"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "أرسل كلمات المرور والرسائل الخاصة ومفاتيح API والملفات بروابط مشفرة تُستخدم مرة واحدة. تُحذف الأسرار بعد عرضها. مجاني ومفتوح المصدر ودون تسجيل."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "روابط أسرار للاستخدام مرة واحدة — شارك كلمات المرور بأمان | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "شارك كلمات المرور وبيانات الحساب دون تركها في سجل المحادثات."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "كلمات المرور وبيانات الدخول"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "أرسل رسائل حساسة لا يمكن فتحها إلا مرة واحدة."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "رسائل خاصة"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "شارك مفاتيح API ورموز الوصول وملفات الإعداد بأمان مع زملائك."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "مفاتيح API وبيانات الاعتماد"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "شارك المستندات والملفات الخاصة حتى {{.MaxFileSize}} عبر روابط مشفرة تُستخدم مرة واحدة."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "ملفات سرية"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "أرسل بأمان رسائل ذاتية الإتلاف وكلمات مرور ومفاتيح API وملفات خاصة. يُشفّر كل سر في متصفحك ويُحذف من الخادم بعد عرضه."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "ماذا يمكنك مشاركته برابط يُستخدم مرة واحدة؟"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>يبقى معك.</strong> مفتاح فك التشفير. لا ترسل المتصفحات أي شيء بعد # إلى الخادم."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>يذهب إلى الخادم.</strong> عنوان البيانات المشفرة: من دون المفتاح هي مجرد بايتات عشوائية."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "واجهة Web Crypto API المدمجة في المتصفح وخوارزمية AES-256-GCM. دون مكتبات خارجية."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "تشفير في المتصفح"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "ننشر الشيفرة كاملة على <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. يمكن للجميع التحقق من طريقة عمل التشفير."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "مفتوح المصدر"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "دون تسجيل أو نصوص برمجية خارجية أو أدوات تتبع؛ لذلك لا توجد لافتة لملفات تعريف الارتباط."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "لا إضافات غير ضرورية"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "يوجد مفتاح فك التشفير داخل الرابط بعد علامة #. لا ترسل المتصفحات هذا الجزء من العنوان إلى الخادم، لذا لا يراه إلا أنت والمستلم."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "المزيد عن طريقة العمل"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "لماذا لا نستطيع قراءة سرك"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "مشاركة سر"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "الشيفرة على GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "مفتوح المصدر"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "شيفرة Encrypt.One كاملة على GitHub. يمكن للجميع الاطلاع على طريقة التشفير والتأكد من أن المفتاح لا يصل إلى الخادم."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "تحقق بنفسك"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "تدفق البيانات"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "يُشفّر السر قبل الإرسال ولا يفك تشفيره إلا المستلم. وتبقى البيانات مشفرة طوال الطريق."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "ينزّل النص المشفر ويأخذ المفتاح من الرابط ويفك تشفير السر محليًا. يحذف الخادم البيانات بعد ذلك مباشرةً."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "متصفح المستلم"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "ينشئ مفتاحًا عشوائيًا ويشفّر النص والملف باستخدام AES-256-GCM وواجهة Web Crypto API المدمجة في المتصفح."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "متصفح المرسل"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "يستقبل ويخزن بايتات مشفرة فقط. دون المفتاح لا يستطيع أحد قراءتها، سواء نحن أو من يصل إلى الخادم."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "خادم Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "لا يرى الخادم إلا النص المشفر"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "يشفّر Encrypt.One سرك مباشرةً في متصفحك. لا تصل إلى الخادم إلا البيانات المشفرة، بينما يبقى المفتاح في الرابط ولا يغادر جهازي المرسل والمستلم."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "كيف يعمل ولماذا هو آمن"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "داخل الرابط"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "يتكون الرابط من جزأين. يشير الأول إلى مكان تخزين البيانات المشفرة، أما الثاني بعد # فهو مفتاح فك التشفير."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "يمكن لكل من يملك الرابط كاملًا فتح السر. أرسله إلى المستلم فقط وأضف كلمة مرور للبيانات الحساسة."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "الرابط الكامل يمنح الوصول"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "لا تُدرج المتصفحات الجزء بعد # في الطلبات، لذلك لا يظهر المفتاح في سجلات الخادم أو أي نقطة في الشبكة بينهما."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "لا يُرسل إلى الخادم أبدًا"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "يُنشأ المفتاح عشوائيًا على جهازك. لا يمكن تخمينه بالقوة الغاشمة."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "مفتاح جديد لكل رابط"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "المفتاح بعد #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "كيف يشفّر Encrypt.One الأسرار في متصفحك: AES-256-GCM، والمفتاح بعد # في الرابط، وما يخزنه الخادم، ومتى تُحذف البيانات ولماذا تضيف كلمة مرور."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "كيف يعمل Encrypt.One: مشاركة أسرار مشفرة من طرف إلى طرف"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "فتح مولّد كلمات المرور"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "كلمة مرور الفتح"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "تحمي كلمة المرور السر حتى إذا اعتُرض الرابط. دونها لا يرى المستلم سوى حقل الإدخال."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "يُحذف السر بعد ثلاث محاولات خاطئة، فلا يمكن تخمين كلمة المرور بالقوة الغاشمة."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "ثلاث محاولات"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "انقر على «اقتراح» في النموذج أو اختر عبارة من مولّد كلمات المرور: يسهل نطقها بصوت عالٍ."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "لا تخترعها بنفسك"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "أرسل كلمة المرور بطريقة أخرى: بالصوت أو عبر تطبيق مراسلة آخر أو شخصيًا. عندها لن يكشف اعتراض رسالة واحدة شيئًا."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "أرسلها بشكل منفصل"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "قفل ثانٍ للبيانات الحساسة"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "إذا أُدخلت كلمة مرور الفتح خطأ ثلاث مرات، يُحذف السر نهائيًا."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "بعد ثلاث كلمات مرور خاطئة"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "يحذف زر «إتلاف الآن» في صفحة الرابط السر فورًا."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "بأمرك"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "إذا لم يُفتح الرابط خلال مدة التخزين التي اخترتها، يُحذف السر تلقائيًا."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "عند انتهاء الصلاحية"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "تُحذف البيانات بمجرد أن يفتح المستلم السر. لن يعمل الرابط مرة ثانية."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "بعد فتحه"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "عداد محاولات كلمة المرور الخاطئة"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "النص والملف المشفران"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "يُخزّن على الخادم"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "مدة التخزين التي اخترتها"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "التخزين"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "يحتفظ الخادم بالسر طوال المدة اللازمة ليفتحه المستلم."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "مفتاح فك التشفير من الرابط"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "كلمة مرور الفتح"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "السر بصيغته المقروءة"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "لا يصل إلى الخادم أبدًا"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "ما يخزنه الخادم ومتى يحذفه"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "مولّد كلمات المرور"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "العودة إلى الصفحة الرئيسية"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "هذه الصفحة غير موجودة على Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "الصفحة غير موجودة — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "ربما كُتب العنوان خطأ أو نُقلت الصفحة. إذا كنت تفتح رابطًا للاستخدام مرة واحدة، فتحقق من نسخه كاملًا."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "الصفحة غير موجودة"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>إذا تغيرت هذه السياسة، فسننشر النسخة الجديدة في هذه الصفحة ونحدّث التاريخ أعلاها.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "التغييرات على هذه السياسة"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>اطرح أسئلة الخصوصية في <a href=\"https://github.com/Draal/secure-share/issues\">بلاغات GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "الأسئلة"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>فور فتح المستلم للسر؛</li><li>عند الضغط على «إتلاف الآن» في صفحة الرابط؛</li><li>بعد كلمة المرور الخاطئة الثالثة؛</li><li>عند انتهاء المدة المختارة، من ساعة إلى سبعة أيام. يتوقف تقديم السر المنتهي فورًا وتُمسح بياناته أثناء التنظيف اليومي.</li></ul><p>لا يمكن استعادة السر المحذوف. لا تستهلك روبوتات معاينة الروابط في تطبيقات المراسلة السر: لا تُقدّم البيانات إلا بعد الضغط على «إظهار السر».</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "متى تُحذف البيانات"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>تُنشأ كلمات المرور وعبارات المرور ورموز PIN في متصفحك باستخدام مولّد أرقام عشوائية آمن تشفيريًا ولا تُرسل إلى الخادم.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "مولّد كلمات المرور"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "صُمم Encrypt.One بحيث لا يستطيع قراءة السر إلا المستلم، ولا نستطيع نحن قراءته. فيما يلي البيانات التي تمر عبر الخدمة وما يحدث لها."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>يسجل خادم التطبيق طلبات API فقط: نوع الطلب والنتيجة ووقت المعالجة. لا تُسجل عناوين IP أو معرّفات الأسرار أو الرموز أو عناوين الصفحات أو محتويات الطلبات.</p><p>لحماية الخدمة من التخمين والإساءة، يحد الخادم من معدل الطلبات لكل عنوان IP. يُستخدم العنوان في الذاكرة فقط ولا يُخزّن.</p><p>قد يحتفظ خادم ويب أمام التطبيق بسجل وصول قياسي يتضمن عنوان IP والوقت وعنوان الصفحة دون الجزء بعد #. تُستخدم هذه السجلات للحماية من الهجمات فقط وتُحفظ لمدة محدودة.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "السجلات التقنية"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "سياسة خصوصية Encrypt.One: ما البيانات التي تتلقاها الخدمة، ومدة الاحتفاظ بها، ولماذا لا تستطيع قراءة أسرارك."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "سياسة الخصوصية — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>لا تغادر كلمة المرور متصفحك. يشتق المتصفح من كلمة المرور ومفتاح الرابط قيمتين مستقلتين: مفتاح التشفير وتجزئة للتحقق (PBKDF2 مع 600,000 تكرار، ثم HKDF). لا تُرسل إلى الخادم إلا التجزئة. يستخدمها الخادم للتحقق من كلمة المرور دون معرفة كلمة المرور أو المفتاح.</p><p>يُحذف السر بعد ثلاث محاولات خاطئة. يُحفظ عداد المحاولات في ذاكرة الخادم ويرتبط بالسر لا بالزائر.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "كلمة مرور الفتح"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>لا نعرف من أنشأ السر أو فتحه: لا تربط الخدمة البيانات بأشخاص أو حسابات أو عناوين IP. لذلك لا نستطيع العثور على بيانات شخص معين أو تسليمها أو حذفها. لحذف سرك قبل انتهاء صلاحيته، افتح صفحة الرابط واضغط على «إتلاف الآن».</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "حقوقك"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>يُشفّر النص والملف المرفق في متصفحك باستخدام AES-256-GCM عبر واجهة Web Crypto API المدمجة قبل الإرسال. يُشفّر اسم الملف ونوعه مع المحتوى.</p><p>لا يخزن الخادم إلا:</p><ul><li>البيانات المشفرة؛</li><li>وقت انتهاء الصلاحية؛</li><li>ما إذا كان هناك ملف مرفق؛</li><li>تجزئة للتحقق من كلمة المرور إذا عيّنت كلمة مرور للفتح.</li></ul><p>مفتاح فك التشفير هو جزء الرابط بعد علامة #. لا ترسل المتصفحات هذا الجزء إلى الخادم، لذلك لا نستطيع نحن أو أي شخص يصل إلى الخادم فك تشفير البيانات. وللسبب نفسه لا نستطيع استعادة السر إذا فُقد الرابط.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "الأسرار والملفات"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One خدمة مجانية لمشاركة كلمات المرور والمفاتيح والملفات عبر روابط تُستخدم مرة واحدة. لا يلزم التسجيل. تطور الخدمة وتديرها <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>ترسل الرابط بنفسك بالطريقة التي تختارها. يمكن اعتراض تطبيق المراسلة أو البريد الإلكتروني أو الرسائل النصية، وعندها يحصل على السر من يفتح الرابط أولًا. للبيانات المهمة، عيّن كلمة مرور للفتح وشاركها عبر قناة أخرى.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "كيف تعمل الخدمة"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>يُشفّر سرك في متصفحك. لا يتلقى الخادم إلا بيانات مشفرة ولا يستطيع قراءتها.</li><li>يوجد مفتاح فك التشفير في الرابط بعد علامة # ولا يُرسل إلى الخادم.</li><li>دون تسجيل أو إعلانات أو تحليلات أو نصوص برمجية خارجية.</li><li>يُحذف السر فور فتحه أو عند انتهاء المدة المختارة.</li><li>لا يسجل خادم التطبيق عناوين IP أو معرّفات الأسرار.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "باختصار"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>الشيفرة المصدرية مفتوحة على <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: يمكنك التحقق من طريقة التشفير أو تشغيل نسختك الخاصة.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "مفتوح المصدر"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>لا نستخدم ملفات تعريف الارتباط للإعلانات أو التحليلات. لا يخزن الموقع في متصفحك إلا ما يحتاجه للعمل:</p><ul><li>ملف <code>lang</code>: لغتك إذا اخترتها من القائمة؛</li><li>في localStorage: مظهر الألوان، وعلامة إغلاق لافتة اللغة، وعلامات الروابط التي أُتلفت من هذا المتصفح؛</li><li>في sessionStorage: كلمة مرور المولّد أثناء نقلها إلى النموذج في الصفحة الرئيسية. تُحذف فور إدراجها.</li></ul><p>من بين هذه البيانات لا يصل إلى الخادم إلا ملف اللغة، ويستخدمه لاختيار نسخة الصفحة. يمكنك حذفها كلها من إعدادات متصفحك.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "ملفات تعريف الارتباط وتخزين المتصفح"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>لا يحمّل الموقع نصوصًا برمجية أو خطوطًا أو عدادات أو إعلانات من جهات خارجية: يُقدّم كل شيء، بما في ذلك الخطوط، من خادمنا. لا نبيع البيانات ولا نشاركها مع أطراف ثالثة.</p><p>أزرار الإرسال عبر Telegram وWhatsApp والبريد الإلكتروني، وروابط مواقع الرعاة، هي روابط عادية. لا تتلقى الخدمة الخارجية البيانات إلا عند النقر، وتُطبق سياستها الخاصة بعد ذلك.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "خدمات الجهات الخارجية"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "سياسة الخصوصية"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "آخر تحديث: 25 أكتوبر 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "الرابط تالف أو لم يُنسخ كاملًا. اطلب من المرسل إرساله مجددًا."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "وصلت البيانات لكن تعذر فك تشفيرها: الرابط تالف. حُذف السر بالفعل من الخادم، فاطلب من المرسل إنشاء سر جديد."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "تعذر الاتصال بالخادم. تحقق من اتصالك وحاول مرة أخرى."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "محاولات كثيرة جدًا. انتظر دقيقة وحاول مرة أخرى."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "تعذر فتح السر"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "أنشئ رابطك الخاص"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "كيف تعمل الروابط أحادية الاستخدام"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "فُتح السر بالفعل أو انتهت صلاحيته. لا يمكن فتح الرابط مرة أخرى."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "اطلب من المرسل إنشاء رابط جديد. إذا لم تفتح هذا الرابط فأخبره، فقد يكون شخص آخر قد رآه."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "لم يعد هذا السر متاحًا"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "يمكن عرضه مرة واحدة فقط. بعدها مباشرةً سيُحذف من الخادم."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "هذا السر محمي بكلمة مرور. يمكن عرضه مرة واحدة فقط، ثم سيُحذف من الخادم."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "أرسل إليك أحدهم سرًا"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "رابط Encrypt.One يُستخدم مرة واحدة. يمكن فتح السر مرة واحدة، ثم يُحذف من الخادم."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "أرسل إليك أحدهم سرًا — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "أدخل كلمة المرور."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "كان على المرسل أن يرسل كلمة المرور بشكل منفصل. يُحذف السر بعد ثلاث محاولات خاطئة."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "كلمة مرور الفتح"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "فتح"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "شارك سرك الخاص"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "أنشئ رابطك الخاص للاستخدام مرة واحدة. دون تسجيل."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "هل تحتاج إلى مشاركة كلمة مرور أيضًا؟"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "إظهار السر"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "حُذف من الخادم"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "تنزيل"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "احفظه إذا كنت ستحتاج إليه لاحقًا: بعد إغلاق الصفحة لن تتمكن من فتح السر مرة أخرى."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "نص السر"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "سرك"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "جارٍ الفتح…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "ما هو Encrypt.One؟"
+  }
+]

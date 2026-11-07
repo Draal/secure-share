@@ -1,0 +1,20 @@
+{{define "content"}}<main id="main">
+<section class="container page-hero" aria-labelledby="privacy-title">
+  <h1 class="h1 page-hero__title" id="privacy-title">{{t "privacy.title"}}</h1>
+  <p class="lead lead--lg page-hero__lead">{{t "privacy.lead"}}</p>
+  <p class="muted">{{t "privacy.updated"}}</p>
+</section>
+<div class="container">
+<article class="prose">
+  <section class="prose__summary" aria-labelledby="privacy-short">
+    <h2 id="privacy-short">{{t "privacy.short.title"}}</h2>
+    {{th "privacy.short.body"}}
+  </section>
+  {{- range $s := list "service" "secrets" "password" "deletion" "logs" "storage" "third" "generator" "source" "rights" "changes" "contacts"}}
+  <h2>{{t (print "privacy." $s ".title")}}</h2>
+  {{th (print "privacy." $s ".body")}}
+  {{- end}}
+</article>
+</div>
+</main>
+{{end}}

@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "So‘rovni bajarib bo‘lmadi. Sahifani qayta yuklab, yana urinib ko‘ring."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Bu havola sirni yo‘q qilishga ruxsat bermaydi."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Sir topilmadi: u avval ochilgan, yo‘q qilingan yoki muddati tugagan."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Bu sirni ochish uchun parol kerak."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "So‘rovlar juda ko‘p. Bir daqiqa kutib, qayta urinib ko‘ring."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Biz tomonda xatolik yuz berdi. Bir daqiqadan keyin qayta urinib ko‘ring."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Fayl juda katta. Chegara — {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Parol uch marta noto‘g‘ri kiritilgani sababli sir o‘chirildi."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Parol noto‘g‘ri. Qolgan urinishlar: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Yopish"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Nusxalandi"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Nusxalash"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Havolalar"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Maxfiylik"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Loyiha"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Ko‘p beriladigan savollar"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Qo‘llanmalar"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Qanday ishlaydi"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Xavfsizlik"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Manbalar"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Fayl yuborish"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Parol generatori"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Sirni ulashish"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Xizmat"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Parol va fayllarni ulashish uchun bir martalik havolalar. Brauzeringizda shifrlanadi."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "GitHub’dagi manba kodi"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "O‘zbekcha"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "UZ"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Sayt tili: O‘zbekcha"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One bosh sahifasi"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: parolni bir martalik havola orqali ulashing"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Ko‘p beriladigan savollar"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Parol generatori"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Qanday ishlaydi"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Asosiy navigatsiya"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Mazmunga o‘tish"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Istalgan shahar uchun vaqt, taqvim va bayramlar"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Brauzeringizda bepul o‘yinlar"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Dunyo bo‘ylab minglab radiostansiyalar"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Homiylarimiz tufayli Encrypt.One bepul"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "To‘q"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Mavzu"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Yorug‘"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Tizim bo‘yicha"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Havolani qabul qiluvchiga yuboring. Sirni faqat bir marta ochish mumkin."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Havolangiz tayyor"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Yana bir havola olish"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Bir xil sir uchun har bir qabul qiluvchiga alohida havola yarating. Joriy havola ishlashda davom etadi, lekin uni bu yerdan yo‘q qila olmaysiz."
+  },
+  {
+    "id": "created.back",
+    "translation": "Yangi sir"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Hozir yo‘q qilish"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Sir yo‘q qilinsinmi? Havola darhol ishlamay qoladi."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Sirni yo‘q qilib bo‘lmadi. Qayta urinib ko‘ring."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Noto‘g‘ri odamga yubordingizmi? Sirni yo‘q qiling, havola darhol ishlamay qoladi."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Siz sirni yo‘q qildingiz. Ma’lumotlar serverdan o‘chirildi va havola endi ishlamaydi."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Sir yo‘q qilindi"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Havolani hech kim vaqtida ochmadi. Ma’lumotlar serverdan o‘chirildi va havola endi ishlamaydi."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Havolaning muddati tugadi"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Havoladan nusxa olish"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Bir martalik havola"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Bu havola endi ishlamaydi"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Havola faqat yaratilgan tabda ko‘rsatiladi. Siz bu yerdan sirni hali ham yo‘q qilishingiz mumkin."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One bir martalik havolasini yuboruvchi sahifasi: havolani ulashing yoki sirni yo‘q qiling."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Havolangiz tayyor — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Yangi havola yaratish"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Bir martalik havolaning QR kodi"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Havolani ochish uchun telefon kamerasini unga qarating. Kodni boshqalarga ko‘rsatmang: u ham havola kabi sirni ochadi."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Havola QR kodi"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Orqali yuborish"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Elektron pochta"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR kod"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Siz uchun sir"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Sirga bir martalik havola:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Amal qilish muddati"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Maslahat:</strong> juda maxfiy ma’lumotlar uchun havolaga parol qo‘shing va uni boshqa yo‘l bilan, masalan og‘zaki ayting. Shunda bitta xabar qo‘lga tushishi hech narsani oshkor qilmaydi."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Fayl biriktirish"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Faylni biriktirish uchun shu yerga tashlang"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Faylni bevosita maydonga sudrab olib kelishingiz mumkin."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "{{.MaxFileSize}} gacha"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Bu brauzer shifrlashni qo‘llab-quvvatlamaydi. Uni yangilang yoki saytni boshqa brauzerda oching."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Matn kiriting yoki fayl biriktiring."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Fayl juda katta. Chegara — {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Serverga ulanib bo‘lmadi. Ulanishni tekshirib, qayta urinib ko‘ring."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Ochish parolini kiriting yoki parol himoyasini o‘chiring."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "matn bilan birga shifrlanadi"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Faylni olib tashlash"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Parol yaratish"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Sir maydoniga joylash"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Taklif qilish"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Bu parolsiz, havola qo‘lga tushsa ham, sir ochilmaydi. Uni qabul qiluvchiga alohida, masalan og‘zaki yoki boshqa messenjerda ayting."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Ochish paroli"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Masalan: maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Parol bilan himoyalash"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Nimani ulashmoqchisiz?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Parol, API kaliti, kirish ma’lumotlari…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Havola sozlamalari"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Bir martalik havola yaratish"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Shifrlanmoqda…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 kun"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 soat"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 kun"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 kun"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Muddati tugaydi"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Saqlash muddati"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Bepul kuchli parol generatori: tasodifiy parollar, parol iboralari va PIN kodlar brauzeringizda yaratiladi va hech qayerga yuborilmaydi. Natijani bir martalik havola orqali ulashing."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Kuchli parol generatori — bepul va maxfiy | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Raqamlar (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Uzunlik"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Kichik harflar (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "O‘xshash belgilarni ishlatmaslik (0 va O, l va 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Belgilar"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Belgilar (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Katta harflar (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Tasodifiy so‘zlardan iborat iborani aytish va eslab qolish oson, ammo uni taxmin qilish uzun parol kabi qiyin. So‘zlar EFF ochiq ro‘yxatidan olinadi."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "So‘zlar soni"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Raqamlar soni"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Qayta yaratish"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Bir martalik havola orqali yuborish"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "U to‘g‘ridan-to‘g‘ri shaklga joylanadi va siz faqat bir marta ochiladigan havola olasiz."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Bu parolni ulashmoqchimisiz?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropiya ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "O‘rtacha"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Faqat PIN uchun mos"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Kuchli"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Juda kuchli"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Zaif"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Parol turi"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Parol"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Parol iborasi"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Kamida 14–16 belgi. Uzunlik harflarni belgilar bilan almashtirishdan yaxshiroq himoya qiladi."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Uzun"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Murakkab parollarni eslab qolish shart emas: buning uchun parol menejeri mavjud."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Parol menejerida saqlanadi"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Parolni nima kuchli qiladi"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Har bir xizmat uchun alohida parol. Shunda bitta parol sizib chiqsa, boshqa hisoblaringiz ochilmaydi."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Noyob"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Parol generatori"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Yo‘q. Sir yuborilishidan oldin brauzeringizda shifrlanadi. Kalit havolada # belgisidan keyin joylashgan va manzilning bu qismi hech qachon serverga yetib bormaydi."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Hech narsa bo‘lmaydi. Sir faqat kimdir “Sirni ko‘rsatish” tugmasini bosganda ko‘rinadi, oldindan ko‘rish botlari esa tugmalarni bosmaydi."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Siz tanlagan saqlash muddati tugagach, sir o‘z-o‘zidan o‘chiriladi."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Ha. Havolangiz sahifasida “Hozir yo‘q qilish” tugmasi bor. Shundan keyin havola ishlamaydi."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Yo‘q. Na yuboruvchiga, na qabul qiluvchiga hisob kerak."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Javobni topmadingizmi? GitHub’da muammo yarating."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Siz mening sirimni o‘qiy olasizmi?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Messenjerning oldindan ko‘rish boti havolani ochsa nima bo‘ladi?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Qabul qiluvchi havolani hech qachon ochmasa nima bo‘ladi?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Yuborilgandan keyin havolani bekor qila olamanmi?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Ro‘yxatdan o‘tishim kerakmi?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Ko‘p beriladigan savollar"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Siringiz bevosita brauzeringizda shifrlanadi. Qabul qiluvchi havolani bir marta ochadi, so‘ng ma’lumotlar serverdan o‘chiriladi."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Ro‘yxatdan o‘tishsiz"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Qurilmangizda AES-256 shifrlash"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Ochiq kod"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Parollarni bir martalik havolalar bilan xavfsiz ulashing"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Parol, API kaliti, kirish ma’lumotlari yoki fayl. Hammasi yuborilishidan oldin brauzeringizda shifrlanadi."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Siringizni kiriting"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram, WhatsApp, Signal, Slack, elektron pochta yoki boshqa messenjer orqali. Suhbat tarixida parol emas, faqat havola qoladi."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Havolani yuboring"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Ko‘rilgandan so‘ng ma’lumotlar serverdan o‘chiriladi. Havolani ikkinchi marta ochib bo‘lmaydi."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Havola ishlamay qoladi"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Qanday ishlaydi"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Parollar, shaxsiy xabarlar, API kalitlari va fayllarni shifrlangan bir martalik havolalar orqali yuboring. Sirlar ko‘rilgandan so‘ng o‘chiriladi. Bepul, ochiq kodli, ro‘yxatdan o‘tishsiz."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Bir martalik maxfiy havolalar — parollarni xavfsiz ulashish | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Parollar va hisob ma’lumotlarini chat tarixida qoldirmasdan ulashing."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Parollar va kirish ma’lumotlari"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Faqat bir marta ochiladigan maxfiy xabarlarni yuboring."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Shaxsiy xabarlar"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "API kalitlari, kirish tokenlari va konfiguratsiya fayllarini jamoadoshlaringiz bilan xavfsiz ulashing."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API kalitlari va kirish ma’lumotlari"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "{{.MaxFileSize}} gacha bo‘lgan shaxsiy hujjatlar va fayllarni shifrlangan bir martalik havolalar orqali ulashing."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Maxfiy fayllar"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "O‘z-o‘zidan o‘chadigan xabarlar, parollar, API kalitlari va shaxsiy fayllarni xavfsiz yuboring. Har bir sir brauzeringizda shifrlanadi va ko‘rilgandan keyin serverdan o‘chiriladi."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Bir martalik havola orqali nimalarni ulashish mumkin?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Sizda qoladi.</strong> Shifrni ochish kaliti. Brauzerlar # belgisidan keyingi qismni hech qachon serverga yubormaydi."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Serverga boradi.</strong> Shifrlangan ma’lumotlar manzili: kalitsiz bu faqat tasodifiy baytlar."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Brauzerning ichki Web Crypto API va AES-256-GCM. Uchinchi tomon kutubxonalari yo‘q."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Brauzerda shifrlanadi"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Barcha kod <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>’da e’lon qilingan. Har kim shifrlash qanday ishlashini tekshirishi mumkin."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Ochiq kod"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Ro‘yxatdan o‘tish, uchinchi tomon skriptlari va kuzatuvchilar yo‘q. Shu sababli cookie banneri ham yo‘q."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Ortiqcha hech narsa yo‘q"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Shifrni ochish kaliti havolada # belgisidan keyin joylashgan. Brauzerlar manzilning bu qismini hech qachon serverga yubormaydi, shuning uchun uni faqat siz va qabul qiluvchi ko‘ra oladi."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Qanday ishlashi haqida batafsil"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Nega biz siringizni o‘qiy olmaymiz"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Sirni ulashish"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "GitHub’dagi kod"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Ochiq kod"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.One’ning barcha kodi GitHub’da. Har kim shifrlash qanday ishlashini ko‘rishi va kalit hech qachon serverga bormasligiga ishonch hosil qilishi mumkin."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "O‘zingiz tekshiring"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Ma’lumotlar oqimi"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Sir yuborilishidan oldin shifrlanadi va uni faqat qabul qiluvchi ochadi. Shu orada ma’lumotlar doimo shifrlangan holda qoladi."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Shifrlangan ma’lumotlarni yuklab oladi, havoladan kalitni oladi va sirni o‘z qurilmasida ochadi. Shundan so‘ng server ma’lumotlarni darhol o‘chiradi."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Qabul qiluvchining brauzeri"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Tasodifiy kalit yaratadi va brauzerning ichki Web Crypto API yordamida matn va faylni AES-256-GCM bilan shifrlaydi."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Yuboruvchining brauzeri"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Faqat shifrlangan baytlarni qabul qiladi va saqlaydi. Kalitsiz ularni na biz, na serverga kirgan boshqa kishi o‘qiy oladi."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One serveri"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Server faqat shifrlangan ma’lumotlarni ko‘radi"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One siringizni bevosita brauzeringizda shifrlaydi. Serverga faqat shifrlangan ma’lumot boradi, kalit esa havolada qoladi va yuboruvchi hamda qabul qiluvchining qurilmalaridan tashqariga chiqmaydi."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Qanday ishlaydi va nima uchun xavfsiz"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Havola ichida"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Havola ikki qismdan iborat. Birinchisi shifrlangan ma’lumotlar qayerda saqlanishini ko‘rsatadi. Ikkinchisi, # belgisidan keyin, shifrni ochish kalitidir."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "To‘liq havolaga ega bo‘lgan har kim sirni ochishi mumkin. Uni faqat qabul qiluvchiga yuboring va maxfiy ma’lumotlar uchun parol qo‘shing."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "To‘liq havola kirish imkonini beradi"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Brauzerlar so‘rovlarga # belgisidan keyingi qismni qo‘shmaydi. Shuning uchun kalit na server jurnallarida, na oraliq tarmoq nuqtalarida bo‘ladi."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Hech qachon serverga yuborilmaydi"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Kalit qurilmangizda tasodifiy yaratiladi. Uni barcha variantlarni sinab topish mumkin emas."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Har bir havola uchun yangi"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Kalit # belgisidan keyin joylashgan"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.One brauzeringizda sirlarni qanday shifrlaydi: AES-256-GCM, havolada # dan keyingi kalit, server nimalarni saqlashi, ma’lumotlar qachon o‘chirilishi va parol nima uchun kerakligi."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Encrypt.One qanday ishlaydi: uchdan uchgacha shifrlangan sirlarni ulashish"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Parol generatorini ochish"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Ochish paroli"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Havola qo‘lga tushgan taqdirda ham parol sirni himoya qiladi. Usiz qabul qiluvchi faqat kiritish maydonini ko‘radi."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Uchta noto‘g‘ri urinishdan keyin sir o‘chiriladi. Parolni qayta-qayta taxmin qilib topib bo‘lmaydi."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Uchta urinish"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Shaklda “Taklif qilish” tugmasini bosing yoki parol generatoridan ibora oling: uni ovoz chiqarib aytish oson."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "O‘zingiz o‘ylab topmang"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Parolni boshqa usulda ayting: og‘zaki, boshqa messenjerda yoki yuzma-yuz. Shunda bitta xabar qo‘lga tushishi hech narsani oshkor qilmaydi."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Alohida ayting"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Maxfiy ma’lumotlar uchun ikkinchi qulf"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Ochish paroli uch marta noto‘g‘ri kiritilsa, sir butunlay o‘chiriladi."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Uchta noto‘g‘ri paroldan keyin"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Havola sahifasidagi “Hozir yo‘q qilish” tugmasi sirni darhol o‘chiradi."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Siz xohlagan vaqtda"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Siz tanlagan saqlash muddati ichida havola ochilmasa, sir o‘z-o‘zidan o‘chiriladi."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Muddati tugaganda"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Qabul qiluvchi sirni ochishi bilan ma’lumotlar o‘chiriladi. Havola ikkinchi marta ishlamaydi."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Ochilishidan keyin"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Noto‘g‘ri parol urinishlari hisoblagichi"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Shifrlangan matn va fayl"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Serverda saqlanadi"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Siz tanlagan saqlash muddati"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Saqlash"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Server sirni qabul qiluvchiga ochish uchun kerak bo‘lgan vaqt davomida saqlaydi."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Havoladagi shifrni ochish kaliti"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Ochish paroli"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Ochiq matn ko‘rinishidagi sir"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Hech qachon serverga yetib bormaydi"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Server nimalarni saqlaydi va qachon o‘chiradi"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Parol generatori"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Bosh sahifaga o‘tish"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.One’da bunday sahifa yo‘q."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Sahifa topilmadi — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Manzil noto‘g‘ri kiritilgan yoki sahifa ko‘chirilgan bo‘lishi mumkin. Agar bir martalik havolani ochayotgan bo‘lsangiz, u to‘liq nusxalanganini tekshiring."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Sahifa topilmadi"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Bu siyosat o‘zgarsa, yangi versiyasini shu sahifada e’lon qilamiz va yuqoridagi sanani yangilaymiz.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Ushbu siyosatdagi o‘zgarishlar"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Maxfiylik haqidagi savollarni <a href=\"https://github.com/Draal/secure-share/issues\">GitHub issues</a> orqali bering.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Savollar"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>qabul qiluvchi sirni ochishi bilan;</li><li>havola sahifasida “Hozir yo‘q qilish” tugmasini bosganingizda;</li><li>uchinchi noto‘g‘ri paroldan keyin;</li><li>1 soatdan 7 kungacha bo‘lgan tanlangan muddat tugaganda. Muddati tugagan sir darhol berilmaydi va uning ma’lumotlari kunlik tozalashda o‘chiriladi.</li></ul><p>O‘chirilgan sirni tiklab bo‘lmaydi. Havolani oldindan ko‘rish uchun ochadigan messenjer botlari sirni ochish imkoniyatini sarflamaydi: ma’lumotlar faqat “Sirni ko‘rsatish” tugmasi bosilgandan keyin beriladi.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Ma’lumotlar qachon o‘chiriladi"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Parollar, parol iboralari va PIN kodlar brauzeringizda kriptografik tasodifiy sonlar generatori yordamida yaratiladi va hech qachon serverga yuborilmaydi.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Parol generatori"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One sirni faqat qabul qiluvchi o‘qiy oladigan qilib yaratilgan — hatto biz ham o‘qiy olmaymiz. Quyida xizmat orqali qanday ma’lumotlar o‘tishi va ular bilan nima sodir bo‘lishi tushuntirilgan."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Ilova serveri faqat API so‘rovlarini jurnalga yozadi: so‘rov turi, natijasi va ishlov berish vaqti. IP manzillar, sir identifikatorlari, tokenlar, sahifa manzillari va so‘rov mazmuni hech qachon jurnalga yozilmaydi.</p><p>Xizmatni parolni ko‘p marta taxmin qilish va suiiste’moldan himoyalash uchun server har bir IP manzilning so‘rovlar tezligini cheklaydi. Manzil faqat xotirada ishlatiladi va saqlanmaydi.</p><p>Ilova oldidagi veb-server odatiy kirish jurnalini saqlashi mumkin: IP manzil, vaqt va # dan keyingi qismsiz sahifa manzili. Bunday jurnallar faqat hujumlardan himoyalanish uchun ishlatiladi va cheklangan muddat saqlanadi.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Texnik jurnallar"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One maxfiylik siyosati: xizmat qanday ma’lumotlarni oladi, qancha vaqt saqlaydi va nega sirlaringizni o‘qiy olmaydi."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Maxfiylik siyosati — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Parolning o‘zi hech qachon brauzeringizdan chiqmaydi. Brauzer parol va havola kalitidan ikkita mustaqil qiymat hosil qiladi: shifrlash kaliti va tekshiruv xeshi (600 000 takrorlash bilan PBKDF2, so‘ng HKDF). Serverga faqat xesh yuboriladi. Server undan parolni tekshirish uchun foydalanadi, ammo parolni ham, kalitni ham bila olmaydi.</p><p>Uchta noto‘g‘ri urinishdan keyin sir o‘chiriladi. Urinishlar hisoblagichi server xotirasida saqlanadi va tashrif buyuruvchiga emas, sirga tegishli.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Ochish paroli"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Sirni kim yaratganini yoki ochganini bilmaymiz: xizmat ma’lumotlarni hech qanday shaxs, hisob yoki IP manzilga bog‘lamaydi. Shu sababli muayyan shaxsning ma’lumotlarini topa, topshira yoki o‘chira olmaymiz. Siringizni muddati tugashidan oldin o‘chirish uchun havola sahifasini ochib, “Hozir yo‘q qilish” tugmasini bosing.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Sizning huquqlaringiz"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Matn va biriktirilgan fayl yuborilishidan oldin brauzeringizda ichki Web Crypto API orqali AES-256-GCM bilan shifrlanadi. Fayl nomi va turi ham mazmun bilan birga shifrlanadi.</p><p>Server faqat quyidagilarni saqlaydi:</p><ul><li>shifrlangan ma’lumotlar;</li><li>muddati tugash vaqti;</li><li>fayl biriktirilgan-biriktirilmagani;</li><li>ochish paroli belgilangan bo‘lsa, uning tekshiruv xeshi.</li></ul><p>Shifrni ochish kaliti havolaning # belgisidan keyingi qismidir. Brauzerlar bu qismni hech qachon serverga yubormaydi, shuning uchun na biz, na serverga kirgan boshqa kishi ma’lumotlarni ochishi mumkin. Xuddi shu sababli havola yo‘qolsa, sirni tiklay olmaymiz.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Sirlar va fayllar"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One parollar, kalitlar va fayllarni bir martalik havolalar orqali ulashish uchun bepul xizmatdir. Ro‘yxatdan o‘tish shart emas. Xizmatni <a href=\"https://final-level.com/\">FINAL LEVEL</a> ishlab chiqadi va boshqaradi.</p><p>Havolani o‘zingiz istagan usulda yuborasiz. Messenjer, elektron pochta yoki SMS qo‘lga tushishi mumkin va havolani birinchi bo‘lib ochgan kishi sirni oladi. Muhim ma’lumotlar uchun ochish parolini belgilang va uni boshqa kanal orqali ayting.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Xizmat qanday ishlaydi"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Siringiz brauzeringizda shifrlanadi. Server faqat shifrlangan ma’lumotlarni oladi va ularni o‘qiy olmaydi.</li><li>Shifrni ochish kaliti havolada # belgisidan keyin joylashgan va hech qachon serverga yuborilmaydi.</li><li>Ro‘yxatdan o‘tish, reklama, tahlil yoki uchinchi tomon skriptlari yo‘q.</li><li>Sir ochilishi bilan yoki tanlangan muddat tugaganda o‘chiriladi.</li><li>Ilova serveri IP manzillarni yoki sir identifikatorlarini jurnalga yozmaydi.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Qisqacha"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Manba kodi <a href=\"https://github.com/Draal/secure-share\">GitHub</a>’da ochiq: shifrlash qanday ishlashini tekshirishingiz yoki o‘z nusxangizni ishga tushirishingiz mumkin.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Ochiq kod"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Biz reklama yoki tahlil cookie’laridan foydalanmaymiz. Sayt brauzeringizda faqat ishlash uchun zarur narsalarni saqlaydi:</p><ul><li><code>lang</code> cookie’si — tanlagan tilingiz;</li><li>localStorage’da — rang mavzusi, til bannerini yopganingiz haqidagi belgi va shu brauzerdan yo‘q qilingan havolalar haqidagi ma’lumotlar;</li><li>sessionStorage’da — generator paroli bosh sahifadagi shaklga o‘tkazilayotgan vaqtda. U joylangandan so‘ng darhol o‘chiriladi.</li></ul><p>Ulardan faqat til cookie’si serverga yetib boradi va sahifa versiyasini tanlash uchun ishlatiladi. Bularning hammasini brauzer sozlamalarida o‘chirishingiz mumkin.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookie’lar va brauzer xotirasi"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Sayt uchinchi tomon skriptlari, shriftlari, hisoblagichlari yoki reklamalarini yuklamaydi: hamma narsa, jumladan shriftlar ham, o‘z serverimizdan taqdim etiladi. Ma’lumotlarni uchinchi tomonlarga sotmaymiz yoki ulashmaymiz.</p><p>Telegram, WhatsApp va elektron pochta orqali yuborish tugmalari hamda homiylar saytlariga havolalar oddiy havolalardir. Tashqi xizmat faqat siz ulardan birini bosganingizda ma’lumot oladi va shundan so‘ng uning o‘z siyosati amal qiladi.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Uchinchi tomon xizmatlari"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Maxfiylik siyosati"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Oxirgi yangilanish: 2026-yil 25-oktabr"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Havola buzilgan yoki to‘liq nusxalanmagan. Yuboruvchidan uni qayta yuborishni so‘rang."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Ma’lumotlar yetib keldi, ammo shifrini ochib bo‘lmadi: havola buzilgan. Sir serverdan allaqachon o‘chirilgan, shuning uchun yuboruvchidan yangi havola yaratishni so‘rang."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Serverga ulanib bo‘lmadi. Ulanishni tekshirib, qayta urinib ko‘ring."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Urinishlar juda ko‘p. Bir daqiqa kutib, qayta urinib ko‘ring."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Sirni ochib bo‘lmadi"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "O‘z havolangizni yarating"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Bir martalik havolalar qanday ishlaydi"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "U allaqachon ochilgan yoki muddati tugagan. Havolani qayta ochib bo‘lmaydi."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Yuboruvchidan yangi havola yaratishni so‘rang. Agar uni siz ochmagan bo‘lsangiz, unga ayting: boshqa kishi ko‘rgan bo‘lishi mumkin."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Bu sir endi mavjud emas"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Uni faqat bir marta ko‘rish mumkin. Shundan keyin u darhol serverdan o‘chiriladi."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Bu sir parol bilan himoyalangan. Uni faqat bir marta ko‘rish mumkin, so‘ng serverdan o‘chiriladi."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Kimdir sizga sir yubordi"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One bir martalik havolasi. Sirni bir marta ochish mumkin, keyin u serverdan o‘chiriladi."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Kimdir sizga sir yubordi — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Parolni kiriting."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Yuboruvchi parolni sizga alohida aytgan bo‘lishi kerak. Uchta noto‘g‘ri urinishdan keyin sir o‘chiriladi."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Ochish paroli"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Ochish"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "O‘z siringizni ulashing"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "O‘zingizning bir martalik havolangizni yarating. Ro‘yxatdan o‘tish shart emas."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "O‘zingiz ham parol ulashmoqchimisiz?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Sirni ko‘rsatish"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Serverdan o‘chirildi"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Yuklab olish"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Keyinroq kerak bo‘lsa, saqlab oling: bu sahifani yopganingizdan so‘ng sirni qayta ochib bo‘lmaydi."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Sir matni"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Siringiz"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Ochilmoqda…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One nima?"
+  }
+]

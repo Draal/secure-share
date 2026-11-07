@@ -1,0 +1,34 @@
+{{define "content"}}<main id="main" class="container tool-page" data-generator-page>
+  <div class="tool-page__head">
+    <h1 class="tool-page__title">{{t "generator.title"}}</h1>
+  </div>
+
+  {{template "generator" dict "Compact" false}}
+
+  <div class="cta-band">
+    <div class="cta-band__body">
+      <span class="cta-band__title">{{t "generator.send.title"}}</span>
+      <span class="cta-band__text">{{t "generator.send.text"}}</span>
+    </div>
+    <a class="btn btn--primary btn--lg" href="{{url ""}}#secret-form" data-gen-send><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg><span>{{t "generator.send.button"}}</span></a>
+  </div>
+
+  <section class="tips" aria-labelledby="tips-title">
+    <h2 class="tips__title" id="tips-title">{{t "generator.tips.title"}}</h2>
+    <div class="tips__grid">
+      <div class="tip">
+        <h3 class="tip__title">{{t "generator.tips.long.title"}}</h3>
+        <p class="tip__text">{{t "generator.tips.long.text"}}</p>
+      </div>
+      <div class="tip">
+        <h3 class="tip__title">{{t "generator.tips.unique.title"}}</h3>
+        <p class="tip__text">{{t "generator.tips.unique.text"}}</p>
+      </div>
+      <div class="tip">
+        <h3 class="tip__title">{{t "generator.tips.manager.title"}}</h3>
+        <p class="tip__text">{{t "generator.tips.manager.text"}}</p>
+      </div>
+    </div>
+  </section>
+</main>
+{{end}}

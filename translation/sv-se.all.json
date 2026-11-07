@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Begäran kunde inte behandlas. Ladda om sidan och försök igen."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Den här länken ger inte rätt att förstöra hemligheten."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Hemligheten hittades inte: den har redan öppnats, förstörts eller löpt ut."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Ett lösenord krävs för att öppna hemligheten."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "För många förfrågningar. Vänta en minut och försök igen."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Något gick fel hos oss. Försök igen om en minut."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Filen är för stor. Gränsen är {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Lösenordet angavs fel tre gånger och hemligheten har därför raderats."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Fel lösenord. Återstående försök: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Stäng"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Kopierat"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopiera"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Länkar"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Integritet"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekt"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Vanliga frågor"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Guider"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Så fungerar det"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Säkerhet"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Resurser"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Skicka en fil"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Lösenordsgenerator"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Dela en hemlighet"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Tjänst"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Engångslänkar för att dela lösenord och filer. Krypterat i din webbläsare."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Källkod på GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Svenska"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "SV"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Webbplatsens språk: svenska"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One startsida"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: dela ett lösenord med en engångslänk"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Vanliga frågor"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Lösenordsgenerator"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Så fungerar det"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Huvudnavigering"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Gå till innehållet"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Tid, kalendrar och helgdagar för alla städer"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Gratis spel direkt i webbläsaren"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tusentals radiostationer från hela världen"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One är gratis tack vare våra sponsorer"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Mörkt"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Ljust"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "System"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Skicka den till mottagaren. Hemligheten kan bara öppnas en gång."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Din länk är klar"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Skapa en länk till"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "För samma hemlighet, en länk per mottagare. Den nuvarande länken fortsätter fungera, men du kan inte längre förstöra den härifrån."
+  },
+  {
+    "id": "created.back",
+    "translation": "Ny hemlighet"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Förstör nu"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Förstöra hemligheten? Länken slutar fungera direkt."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Hemligheten kunde inte förstöras. Försök igen."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Skickade du till fel person? Förstör hemligheten så slutar länken fungera direkt."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Du förstörde hemligheten. Uppgifterna har raderats från servern och länken fungerar inte längre."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Hemligheten förstörd"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Ingen öppnade länken i tid. Uppgifterna har raderats från servern och länken fungerar inte längre."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Länken har löpt ut"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopiera länk"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Engångslänk"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Den här länken fungerar inte längre"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Länken visas bara på fliken där den skapades. Du kan fortfarande förstöra hemligheten härifrån."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Avsändarsida för en engångslänk från Encrypt.One: dela länken eller förstör hemligheten."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Din länk är klar — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Skapa en ny länk"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR-kod för engångslänken"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Rikta telefonens kamera mot koden för att öppna länken. Visa inte koden för andra: den öppnar hemligheten precis som länken."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Länkens QR-kod"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Skicka via"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-post"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR-kod"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "En hemlighet till dig"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Engångslänk till en hemlighet:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Giltig till"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tips:</strong> lägg till ett lösenord för särskilt känsliga uppgifter och dela det på ett annat sätt, till exempel muntligt. Då avslöjar avlyssning av ett enda meddelande ingenting."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Bifoga en fil"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Släpp för att bifoga filen"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Du kan dra en fil direkt till fältet."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Upp till {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Den här webbläsaren stöder inte kryptering. Uppdatera den eller öppna webbplatsen i en annan webbläsare."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Klistra in text eller bifoga en fil."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Filen är för stor. Gränsen är {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Det gick inte att nå servern. Kontrollera anslutningen och försök igen."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Ange ett lösenord för att öppna eller stäng av lösenordsskyddet."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "krypteras tillsammans med texten"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Ta bort fil"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Generera ett lösenord"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Infoga i hemlighetsfältet"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Föreslå"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Utan lösenordet kan hemligheten inte öppnas, även om länken avlyssnas. Ge det till mottagaren separat, till exempel muntligt eller i en annan meddelandeapp."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Lösenord för att öppna"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Till exempel maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Skydda med lösenord"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Vad vill du dela?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Lösenord, API-nyckel, inloggningsuppgifter…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Länkinställningar"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Skapa engångslänk"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Krypterar…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 dag"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 timme"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 dagar"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 dagar"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Löper ut om"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Lagringstid"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Gratis generator för starka lösenord, lösenfraser och pinkoder som skapas i webbläsaren och aldrig skickas någonstans. Dela resultatet med en engångslänk."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Generator för starka lösenord — gratis och privat | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Siffror (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Längd"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Små bokstäver (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Inga förväxlingsbara tecken (0 och O, l och 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Tecken"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Symboler (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Stora bokstäver (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "En fras av slumpmässiga ord är lätt att säga och minnas men lika svår att gissa som ett långt lösenord. Orden kommer från EFF:s öppna ordlista."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Antal ord"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Antal siffror"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Generera igen"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Skicka som engångslänk"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Resultatet förs direkt till formuläret och du får en länk som bara kan öppnas en gång."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Behöver du dela lösenordet?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropi ≈ {bits} bitar"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Medel"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Endast lämpligt som pinkod"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Starkt"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Mycket starkt"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Svagt"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Lösenordstyp"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Lösenord"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Lösenfras"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Minst 14–16 tecken. Längd skyddar bättre än att byta bokstäver mot symboler."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Långt"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Du behöver inte minnas komplicerade lösenord: använd en lösenordshanterare."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Sparat i en lösenordshanterare"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Vad gör ett lösenord starkt?"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Ett per tjänst. Då öppnar en lösenordsläcka inte dina andra konton."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unikt"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Lösenordsgenerator"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Nej. Hemligheten krypteras i din webbläsare innan den skickas. Nyckeln finns i länken efter #-tecknet, och den delen av adressen når aldrig servern."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Ingenting händer. Hemligheten visas först efter ett klick på ”Visa hemligheten”, och förhandsvisningsbotar klickar inte på knappar."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Hemligheten raderas automatiskt när den valda lagringstiden går ut."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Ja. På sidan med din länk finns knappen ”Förstör nu”. Därefter slutar länken fungera."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Nej. Varken avsändaren eller mottagaren behöver ett konto."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Hittade du inget svar? Öppna ett ärende på GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Kan ni läsa min hemlighet?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Vad händer om en förhandsvisningsbot i en meddelandeapp öppnar länken?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Vad händer om mottagaren aldrig öppnar länken?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Kan jag återkalla en länk efter att den skickats?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Måste jag registrera mig?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Vanliga frågor"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Din hemlighet krypteras direkt i webbläsaren. Mottagaren öppnar länken en gång och sedan raderas uppgifterna från servern."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Ingen registrering"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256-kryptering på din enhet"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Öppen källkod"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Dela lösenord säkert med engångslänkar"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Ett lösenord, en API-nyckel, inloggningsuppgifter eller en fil. Allt krypteras i webbläsaren innan det skickas."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Klistra in din hemlighet"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Via Telegram, WhatsApp, Signal, Slack, e-post eller en annan meddelandeapp. Chatten behåller bara länken, inte själva lösenordet."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Skicka länken"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Efter visning raderas uppgifterna från servern. Länken kan inte öppnas en andra gång."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Länken förbrukas"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Så fungerar det"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Skicka lösenord, privata meddelanden, API-nycklar och filer med krypterade engångslänkar. Hemligheter raderas efter visning. Gratis, öppen källkod och ingen registrering."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Engångslänkar för hemligheter — dela lösenord säkert | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Dela lösenord och kontouppgifter utan att lämna dem i chatthistoriken."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Lösenord och inloggningsuppgifter"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Skicka känsliga meddelanden som bara kan öppnas en gång."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Privata meddelanden"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Dela API-nycklar, åtkomsttoken och konfigurationsfiler säkert med ditt team."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API-nycklar och inloggningsuppgifter"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Dela privata dokument och filer upp till {{.MaxFileSize}} med krypterade engångslänkar."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Konfidentiella filer"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Skicka självförstörande meddelanden, lösenord, API-nycklar och privata filer säkert. Varje hemlighet krypteras i webbläsaren och raderas från servern efter visning."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Vad kan du dela med en engångslänk?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Stannar hos dig.</strong> Dekrypteringsnyckeln. Webbläsare skickar aldrig något efter # till servern."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Går till servern.</strong> Adressen till de krypterade uppgifterna: utan nyckeln är de bara slumpmässiga byte."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Webbläsarens inbyggda Web Crypto API och AES-256-GCM. Inga tredjepartsbibliotek."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Krypterat i webbläsaren"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "All kod är publicerad på <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Alla kan kontrollera hur krypteringen fungerar."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Öppen källkod"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Ingen registrering, inga tredjepartsskript och inga spårare. Därför finns inte heller någon cookiebanner."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Inget överflödigt"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Dekrypteringsnyckeln finns i länken efter #-tecknet. Webbläsare skickar aldrig den delen av adressen till servern, så bara du och mottagaren kan se den."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Mer om hur det fungerar"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Varför vi inte kan läsa din hemlighet"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Dela en hemlighet"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kod på GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Öppen källkod"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "All Encrypt.Ones kod finns på GitHub. Alla kan se hur krypteringen fungerar och kontrollera att nyckeln aldrig skickas till servern."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Kontrollera själv"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Dataflöde"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Hemligheten krypteras före skickandet och dekrypteras endast av mottagaren. Däremellan förblir uppgifterna krypterade."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Laddar ner de krypterade uppgifterna, hämtar nyckeln från länken och dekrypterar hemligheten lokalt. Servern raderar uppgifterna direkt efteråt."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Mottagarens webbläsare"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Skapar en slumpmässig nyckel och krypterar texten och filen med AES-256-GCM via webbläsarens inbyggda Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Avsändarens webbläsare"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Tar bara emot och lagrar krypterade byte. Utan nyckeln kan ingen läsa dem — varken vi eller någon som får åtkomst till servern."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One-servern"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Servern ser bara krypterade uppgifter"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One krypterar din hemlighet direkt i webbläsaren. Endast krypterade uppgifter skickas till servern, medan nyckeln stannar i länken och aldrig lämnar avsändarens och mottagarens enheter."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Så fungerar det och därför är det säkert"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Inuti länken"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "En länk har två delar. Den första visar var de krypterade uppgifterna lagras. Den andra, efter #, är dekrypteringsnyckeln."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Den som har hela länken kan öppna hemligheten. Skicka den bara till mottagaren och lägg till ett lösenord för känsliga uppgifter."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Hela länken ger åtkomst"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Webbläsare inkluderar inte delen efter # i förfrågningar. Nyckeln finns därför varken i serverloggar eller i mellanliggande nätverkspunkter."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Skickas aldrig till servern"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Nyckeln genereras slumpmässigt på din enhet. Den kan inte gissas med råstyrka."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Ny för varje länk"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Nyckeln finns efter #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Så krypterar Encrypt.One hemligheter i webbläsaren: AES-256-GCM, nyckeln i länken efter #, lagring, radering och lösenordsskydd."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Så fungerar Encrypt.One: delning av hemligheter med ändpunktskryptering"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Öppna lösenordsgeneratorn"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Lösenord för att öppna"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Ett lösenord skyddar hemligheten även om länken avlyssnas. Utan det ser mottagaren bara inmatningsfältet."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Efter tre felaktiga försök raderas hemligheten. Lösenordet kan inte gissas med råstyrka."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tre försök"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Klicka på ”Föreslå” i formuläret eller välj en fras från lösenordsgeneratorn: den är lätt att läsa upp."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Hitta inte på ett själv"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Ge lösenordet på ett annat sätt: muntligt, i en annan meddelandeapp eller personligen. Då avslöjar avlyssning av ett meddelande ingenting."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Dela det separat"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Ett extra lås för känsliga uppgifter"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Om lösenordet anges fel tre gånger raderas hemligheten permanent."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Efter tre felaktiga lösenord"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Knappen ”Förstör nu” på länksidan raderar hemligheten direkt."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "På din begäran"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Om länken inte öppnas under den valda lagringstiden raderas hemligheten automatiskt."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "När tiden går ut"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Så snart mottagaren öppnar hemligheten raderas uppgifterna. Länken fungerar inte en andra gång."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Efter öppning"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "En räknare för felaktiga lösenordsförsök"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Den krypterade texten och filen"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Lagras på servern"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Den lagringstid du valt"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Lagring"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Servern sparar hemligheten precis så länge som mottagaren behöver för att öppna den."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Dekrypteringsnyckeln från länken"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Lösenordet för att öppna"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Hemlighetens innehåll i klartext"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Når aldrig servern"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Vad servern lagrar och när det raderas"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Lösenordsgenerator"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Till startsidan"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Den sidan finns inte på Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Sidan hittades inte — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adressen kan vara felskriven eller sidan flyttad. Om du öppnade en engångslänk, kontrollera att den kopierades i sin helhet."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Sidan hittades inte"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Om policyn ändras publicerar vi den nya versionen på den här sidan och uppdaterar datumet högst upp.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Ändringar i policyn"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Ställ frågor om integritet i <a href=\"https://github.com/Draal/secure-share/issues\">ärenden på GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Frågor"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>direkt efter att mottagaren öppnar hemligheten;</li><li>när du trycker på ”Förstör nu” på länksidan;</li><li>efter det tredje felaktiga lösenordet;</li><li>när den valda perioden, från en timme till sju dagar, går ut. En utgången hemlighet slutar omedelbart att lämnas ut och dess data raderas vid den dagliga rensningen.</li></ul><p>En raderad hemlighet kan inte återställas. Meddelandebotar som skapar länkförhandsvisningar förbrukar inte hemligheten: uppgifterna lämnas ut först efter att ”Visa hemligheten” trycks ned.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "När uppgifter raderas"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Lösenord, lösenfraser och pinkoder skapas i din webbläsare med en kryptografisk slumptalsgenerator och skickas aldrig till servern.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Lösenordsgenerator"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One är byggt så att bara mottagaren kan läsa en hemlighet — inte ens vi kan det. Här beskriver vi vilka uppgifter som passerar genom tjänsten och vad som händer med dem."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Applikationsservern loggar endast API-förfrågningar: förfrågningens typ, resultat och behandlingstid. IP-adresser, hemlighets-ID:n, token, sidadresser och innehåll i förfrågningar loggas inte.</p><p>För att skydda tjänsten mot råstyrkeattacker och missbruk begränsar servern antalet förfrågningar per IP-adress. Adressen används endast i minnet och lagras inte.</p><p>En webbserver framför applikationen kan spara en vanlig åtkomstlogg: IP-adress, tid och sidans adress utan delen efter #. Sådana loggar används endast för skydd mot attacker och sparas under begränsad tid.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Tekniska loggar"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.Ones integritetspolicy: vilka uppgifter tjänsten tar emot, hur länge de sparas och varför tjänsten inte kan läsa dina hemligheter."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Integritetspolicy — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Själva lösenordet lämnar aldrig webbläsaren. Från lösenordet och länknyckeln härleder webbläsaren två oberoende värden: krypteringsnyckeln och en kontrollhash (PBKDF2 med 600 000 iterationer, följt av HKDF). Endast hashen skickas till servern. Servern använder den för att kontrollera lösenordet men kan inte få reda på lösenordet eller nyckeln.</p><p>Efter tre felaktiga försök raderas hemligheten. Räknaren för försök sparas i serverns minne och hör till hemligheten, inte till besökaren.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Lösenord för att öppna"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Vi vet inte vem som skapade eller öppnade en hemlighet: tjänsten kopplar inte data till personer, konton eller IP-adresser. Därför kan vi inte hitta, lämna ut eller radera en viss persons uppgifter. För att radera din hemlighet innan den löper ut, öppna länksidan och tryck på ”Förstör nu”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Dina rättigheter"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Text och bifogad fil krypteras i webbläsaren med AES-256-GCM via det inbyggda Web Crypto API före skickandet. Filnamn och filtyp krypteras tillsammans med innehållet.</p><p>Servern lagrar endast:</p><ul><li>krypterade uppgifter;</li><li>utgångstid;</li><li>om en fil är bifogad;</li><li>en kontrollhash för lösenordet, om du har ställt in ett lösenord.</li></ul><p>Dekrypteringsnyckeln är delen av länken efter #-tecknet. Webbläsare skickar aldrig den delen till servern, så varken vi eller någon med åtkomst till servern kan dekryptera uppgifterna. Av samma skäl kan vi inte återställa en hemlighet om länken försvinner.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Hemligheter och filer"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One är en gratis tjänst för att dela lösenord, nycklar och filer via engångslänkar. Ingen registrering behövs. Tjänsten utvecklas och drivs av <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Du skickar själv länken på valfritt sätt. Ett meddelande via meddelandeapp, e-post eller sms kan avlyssnas, och då får den som öppnar länken först hemligheten. För viktiga uppgifter, ange ett lösenord och dela det via en annan kanal.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Så fungerar tjänsten"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Din hemlighet krypteras i webbläsaren. Servern får bara krypterade uppgifter och kan inte läsa dem.</li><li>Dekrypteringsnyckeln finns i länken efter #-tecknet och skickas aldrig till servern.</li><li>Ingen registrering, reklam, analys eller tredjepartsskript.</li><li>En hemlighet raderas så snart den öppnas eller när den valda perioden går ut.</li><li>Applikationsservern loggar inte IP-adresser eller hemlighets-ID:n.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Kortfattat"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Källkoden är öppen på <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: du kan kontrollera hur krypteringen fungerar eller köra en egen kopia.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Öppen källkod"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Vi använder inga reklam- eller analyscookies. Webbplatsen sparar bara det som behövs för att fungera i din webbläsare:</p><ul><li>cookien <code>lang</code> — ditt språk, om du valt det i språkvalet;</li><li>i localStorage — färgtema, en markering att du stängt språkbanderollen och markeringar för länkar som förstörts från den här webbläsaren;</li><li>i sessionStorage — ett lösenord från generatorn medan det förs över till formuläret på startsidan. Det tas bort direkt efter infogning.</li></ul><p>Av detta når bara språkcookien servern, som använder den för att välja sidversion. Du kan radera allt i webbläsarens inställningar.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookies och webbläsarlagring"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Webbplatsen laddar inga tredjepartsskript, typsnitt, räknare eller annonser: allt, även typsnitt, levereras från vår server. Vi säljer eller delar inte uppgifter med tredje part.</p><p>Knapparna för att skicka via Telegram, WhatsApp och e-post samt länkar till sponsorers webbplatser är vanliga länkar. En extern tjänst får uppgifter först när du klickar och därefter gäller dess egen policy.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Tredjepartstjänster"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Integritetspolicy"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Senast uppdaterad: 25 oktober 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Länken är skadad eller kopierades inte i sin helhet. Be avsändaren skicka den igen."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Uppgifterna kom fram men kunde inte dekrypteras: länken är skadad. Hemligheten har redan raderats från servern, så be avsändaren skapa en ny."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Det gick inte att nå servern. Kontrollera anslutningen och försök igen."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "För många försök. Vänta en minut och försök igen."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Hemligheten kunde inte öppnas"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Skapa en egen länk"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Så fungerar engångslänkar"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Den har redan öppnats eller löpt ut. Länken kan inte öppnas igen."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Be avsändaren skapa en ny länk. Om du inte öppnade den här, berätta det: någon annan kan ha sett den."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Hemligheten är inte längre tillgänglig"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Den kan bara visas en gång. Direkt därefter raderas den från servern."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Hemligheten är lösenordsskyddad. Den kan bara visas en gång och raderas sedan från servern."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Någon har skickat dig en hemlighet"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "En engångslänk från Encrypt.One. Hemligheten kan öppnas en gång och raderas sedan från servern."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Någon har skickat dig en hemlighet — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Ange lösenordet."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Avsändaren skulle ha gett dig lösenordet separat. Efter tre felaktiga försök raderas hemligheten."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Lösenord för att öppna"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Öppna"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Dela en egen hemlighet"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Skapa en egen engångslänk. Ingen registrering."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Behöver du själv dela ett lösenord?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Visa hemligheten"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Raderad från servern"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Ladda ner"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Spara den om du behöver den senare: när sidan stängts kan hemligheten inte öppnas igen."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Hemlighetens text"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Din hemlighet"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Öppnar…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Vad är Encrypt.One?"
+  }
+]

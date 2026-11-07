@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Pieprasījumu neizdevās apstrādāt. Pārlādējiet lapu un mēģiniet vēlreiz."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Šī saite neļauj iznīcināt noslēpumu."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Noslēpums nav atrasts: tas jau ir atvērts, iznīcināts vai beidzies tā derīguma termiņš."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Lai atvērtu šo noslēpumu, nepieciešama parole."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Pārāk daudz pieprasījumu. Uzgaidiet minūti un mēģiniet vēlreiz."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Mūsu pusē radās kļūda. Mēģiniet vēlreiz pēc minūtes."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Fails ir pārāk liels. Ierobežojums ir {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Parole trīs reizes ievadīta nepareizi, tāpēc noslēpums ir dzēsts."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Nepareiza parole. Atlikušie mēģinājumi: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Aizvērt"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Nokopēts"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopēt"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Saites"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privātums"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekts"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Biežāk uzdotie jautājumi"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Pamācības"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Kā tas darbojas"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Drošība"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Resursi"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Nosūtīt failu"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Paroļu ģenerators"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Kopīgot noslēpumu"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Pakalpojums"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Vienreizējas saites paroļu un failu kopīgošanai. Šifrēšana jūsu pārlūkā."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Pirmkods GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Latviešu valoda"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "LV"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Vietnes valoda: latviešu"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One sākumlapa"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: kopīgojiet paroli ar vienreizēju saiti"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Biežāk uzdotie jautājumi"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Paroļu ģenerators"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Kā tas darbojas"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Galvenā navigācija"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Pāriet uz saturu"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Laiks, kalendāri un svētki jebkurā pilsētā"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Bezmaksas spēles tieši pārlūkā"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tūkstošiem radiostaciju no visas pasaules"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One ir bezmaksas, pateicoties mūsu sponsoriem"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tumšs"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Motīvs"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Gaišs"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Sistēmas"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Nosūtiet to saņēmējam. Noslēpumu var atvērt tikai vienu reizi."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Jūsu saite ir gatava"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Iegūt vēl vienu saiti"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Tam pašam noslēpumam — atsevišķa saite katram saņēmējam. Pašreizējā saite turpinās darboties, taču jūs to vairs nevarēsiet iznīcināt no šejienes."
+  },
+  {
+    "id": "created.back",
+    "translation": "Jauns noslēpums"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Iznīcināt tagad"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Iznīcināt noslēpumu? Saite nekavējoties pārtrauks darboties."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Noslēpumu neizdevās iznīcināt. Mēģiniet vēlreiz."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Nosūtījāt nepareizajai personai? Iznīciniet noslēpumu, un saite nekavējoties pārtrauks darboties."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Jūs iznīcinājāt noslēpumu. Dati ir dzēsti no servera, un saite vairs nedarbojas."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Noslēpums iznīcināts"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Neviens laikus neatvēra saiti. Dati ir dzēsti no servera, un saite vairs nedarbojas."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Saites derīguma termiņš ir beidzies"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopēt saiti"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Vienreizēja saite"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Šī saite vairs nedarbojas"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Saite tiek rādīta tikai cilnē, kurā tā izveidota. Noslēpumu joprojām varat iznīcināt no šejienes."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One vienreizējās saites sūtītāja lapa: kopīgojiet saiti vai iznīciniet noslēpumu."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Jūsu saite ir gatava — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Izveidot jaunu saiti"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Vienreizējās saites QR kods"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Pavērsiet tālruņa kameru pret kodu, lai atvērtu saiti. Nerādiet kodu citiem: tas atver noslēpumu tāpat kā saite."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Saites QR kods"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Nosūtīt ar"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-pasts"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR kods"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Noslēpums jums"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Vienreizēja saite uz noslēpumu:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Derīga līdz"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Padoms:</strong> īpaši sensitīviem datiem pievienojiet paroli un paziņojiet to citā veidā, piemēram, balsī. Tad viena ziņojuma pārtveršana neko neatklās."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Pievienot failu"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Atlaidiet, lai pievienotu failu"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Failu var ievilkt tieši laukā."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Līdz {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Šī pārlūkprogramma neatbalsta šifrēšanu. Atjauniniet to vai atveriet vietni citā pārlūkā."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Ielīmējiet tekstu vai pievienojiet failu."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Fails ir pārāk liels. Ierobežojums ir {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Neizdevās sazināties ar serveri. Pārbaudiet savienojumu un mēģiniet vēlreiz."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Ievadiet atvēršanas paroli vai izslēdziet paroles aizsardzību."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "tiks šifrēts kopā ar tekstu"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Noņemt failu"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Ģenerēt paroli"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Ievietot noslēpuma laukā"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Ieteikt"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Bez šīs paroles noslēpums neatvērsies pat tad, ja saite tiks pārtverta. Paziņojiet to saņēmējam atsevišķi, piemēram, balsī vai citā ziņojumapmaiņas lietotnē."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Atvēršanas parole"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Piemēram, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Aizsargāt ar paroli"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Ko vēlaties kopīgot?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Parole, API atslēga, pieteikšanās dati…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Saites iestatījumi"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Izveidot vienreizēju saiti"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Šifrēšana…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 diena"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 stunda"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 dienas"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 dienas"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Beidzas pēc"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Glabāšanas laiks"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Bezmaksas spēcīgu paroļu, paroļfrāžu un PIN kodu ģenerators. Tie tiek izveidoti pārlūkā un nekur netiek nosūtīti. Kopīgojiet rezultātu ar vienreizēju saiti."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Spēcīgu paroļu ģenerators — bezmaksas un privāts | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Cipari (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Garums"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Mazie burti (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Bez līdzīgām rakstzīmēm (0 un O, l un 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Rakstzīmes"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Simboli (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Lielie burti (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Frāzi no nejaušiem vārdiem ir viegli izrunāt un atcerēties, bet tikpat grūti uzminēt kā garu paroli. Vārdi nāk no EFF atvērtā vārdu saraksta."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Vārdu skaits"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Ciparu skaits"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Ģenerēt vēlreiz"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Nosūtīt kā vienreizēju saiti"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Rezultāts nonāk tieši veidlapā, un jūs saņemat saiti, ko var atvērt tikai vienu reizi."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Jāpadalās ar šo paroli?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropija ≈ {bits} biti"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Vidēja"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Piemērota tikai kā PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Spēcīga"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Ļoti spēcīga"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Vāja"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Paroles veids"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Parole"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Paroļfrāze"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Vismaz 14–16 rakstzīmes. Garums aizsargā labāk nekā burtu aizstāšana ar simboliem."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Gara"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Sarežģītas paroles nav jāatceras: izmantojiet paroļu pārvaldnieku."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Saglabāta paroļu pārvaldniekā"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Kas padara paroli spēcīgu"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Atsevišķa katram pakalpojumam. Tad vienas paroles noplūde neatvērs citus kontus."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unikāla"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Paroļu ģenerators"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Nē. Noslēpums pirms nosūtīšanas tiek šifrēts jūsu pārlūkā. Atslēga atrodas saitē aiz zīmes #, un šī adreses daļa nekad nenonāk serverī."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Nekas nenotiek. Noslēpums parādās tikai pēc pogas „Rādīt noslēpumu” nospiešanas, un priekšskatījuma roboti pogas nespiež."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Noslēpums tiek automātiski dzēsts, kad beidzas izvēlētais glabāšanas laiks."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Jā. Saites lapā ir poga „Iznīcināt tagad”. Pēc tam saite pārstāj darboties."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Nē. Konts nav vajadzīgs ne sūtītājam, ne saņēmējam."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Neatradāt atbildi? Izveidojiet pieteikumu GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Vai varat izlasīt manu noslēpumu?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Kas notiek, ja ziņojumapmaiņas lietotnes priekšskatījuma robots atver saiti?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Kas notiek, ja saņēmējs nekad neatver saiti?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Vai varu atsaukt saiti pēc nosūtīšanas?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Vai man jāreģistrējas?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Biežāk uzdotie jautājumi"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Jūsu noslēpums tiek šifrēts tieši pārlūkā. Saņēmējs atver saiti vienreiz, un pēc tam dati tiek dzēsti no servera."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Bez reģistrācijas"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 šifrēšana jūsu ierīcē"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Atvērtais pirmkods"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Droši kopīgojiet paroles ar vienreizējām saitēm"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Parole, API atslēga, pieteikšanās dati vai fails. Viss pirms nosūtīšanas tiek šifrēts pārlūkā."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Ielīmējiet noslēpumu"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Izmantojot Telegram, WhatsApp, Signal, Slack, e-pastu vai citu ziņojumapmaiņas lietotni. Sarunā paliek tikai saite, nevis pati parole."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Nosūtiet saiti"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Pēc apskates dati tiek dzēsti no servera. Saiti nevar atvērt otrreiz."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Saite tiek izmantota"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Kā tas darbojas"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Sūtiet paroles, privātas ziņas, API atslēgas un failus ar šifrētām vienreizējām saitēm. Noslēpumi pēc apskates tiek dzēsti. Bezmaksas, atvērtais pirmkods, bez reģistrācijas."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Vienreizējas noslēpumu saites — droši kopīgojiet paroles | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Kopīgojiet paroles un konta datus, neatstājot tos sarunas vēsturē."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Paroles un pieteikšanās dati"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Sūtiet sensitīvas ziņas, kuras var atvērt tikai vienu reizi."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Privātas ziņas"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Droši kopīgojiet API atslēgas, piekļuves pilnvaras un konfigurācijas failus ar komandu."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API atslēgas un piekļuves dati"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Kopīgojiet privātus dokumentus un failus līdz {{.MaxFileSize}} ar šifrētām vienreizējām saitēm."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Konfidenciāli faili"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Droši sūtiet pašiznīcinošas ziņas, paroles, API atslēgas un privātus failus. Katrs noslēpums tiek šifrēts pārlūkā un pēc apskates dzēsts no servera."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Ko var kopīgot ar vienreizēju saiti?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Paliek pie jums.</strong> Atšifrēšanas atslēga. Pārlūki nekad nenosūta serverim daļu aiz #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Nonāk serverī.</strong> Šifrēto datu adrese: bez atslēgas tie ir tikai nejauši baiti."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Pārlūka iebūvētais Web Crypto API un AES-256-GCM. Bez trešo pušu bibliotēkām."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Šifrēts pārlūkā"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Viss kods ir publicēts <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Ikviens var pārbaudīt, kā darbojas šifrēšana."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Atvērtais pirmkods"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Bez reģistrācijas, trešo pušu skriptiem un izsekotājiem. Tāpēc nav arī sīkdatņu paziņojuma."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Nekā lieka"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Atšifrēšanas atslēga atrodas saitē aiz zīmes #. Pārlūki šo adreses daļu nekad nenosūta serverim, tāpēc to redzat tikai jūs un saņēmējs."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Vairāk par darbību"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Kāpēc mēs nevaram izlasīt jūsu noslēpumu"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Kopīgot noslēpumu"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kods GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Atvērtais pirmkods"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Viss Encrypt.One kods ir GitHub. Ikviens var apskatīt šifrēšanas darbību un pārliecināties, ka atslēga nekad nenonāk serverī."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Pārbaudiet paši"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Datu plūsma"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Noslēpums tiek šifrēts pirms nosūtīšanas un atšifrēts tikai pie saņēmēja. Pa vidu dati vienmēr paliek šifrēti."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Lejupielādē šifrētos datus, iegūst atslēgu no saites un atšifrē noslēpumu lokāli. Serveris tūlīt pēc tam datus dzēš."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Saņēmēja pārlūks"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Izveido nejaušu atslēgu un šifrē tekstu un failu ar AES-256-GCM, izmantojot pārlūka iebūvēto Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Sūtītāja pārlūks"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Saņem un glabā tikai šifrētus baitus. Bez atslēgas tos nevar izlasīt ne mēs, ne kāds, kas piekļūst serverim."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One serveris"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Serveris redz tikai šifrētus datus"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One šifrē jūsu noslēpumu tieši pārlūkā. Serverim tiek nosūtīti tikai šifrēti dati, bet atslēga paliek saitē un nekad neatstāj sūtītāja un saņēmēja ierīces."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Kā tas darbojas un kāpēc ir droši"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Saites iekšienē"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Saitei ir divas daļas. Pirmā norāda, kur glabājas šifrētie dati. Otrā, aiz #, ir atšifrēšanas atslēga."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Ikviens, kam ir pilna saite, var atvērt noslēpumu. Sūtiet to tikai saņēmējam un sensitīviem datiem pievienojiet paroli."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Pilna saite dod piekļuvi"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Pārlūki neiekļauj pieprasījumos daļu aiz #. Tāpēc atslēgas nav ne servera žurnālos, ne tīkla starpposmos."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Nekad netiek nosūtīta serverim"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Atslēga tiek nejauši ģenerēta jūsu ierīcē. To nevar uzminēt ar pilno pārlasi."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Jauna katrai saitei"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Atslēga ir aiz #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Kā Encrypt.One šifrē noslēpumus pārlūkā: AES-256-GCM, atslēga aiz #, glabāšana, datu dzēšana un paroles aizsardzība."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Kā darbojas Encrypt.One: noslēpumu kopīgošana ar pilnšifrēšanu"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Atvērt paroļu ģeneratoru"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Atvēršanas parole"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Parole aizsargā noslēpumu pat tad, ja saite tiek pārtverta. Bez tās saņēmējs redz tikai ievades lauku."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Pēc trim nepareiziem mēģinājumiem noslēpums tiek dzēsts. Paroli nevar uzminēt ar pilno pārlasi."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Trīs mēģinājumi"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Veidlapā noklikšķiniet uz „Ieteikt” vai izvēlieties frāzi no paroļu ģeneratora: to ir viegli nolasīt skaļi."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Neizdomājiet to paši"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Paziņojiet paroli citādi: balsī, citā ziņojumapmaiņas lietotnē vai personīgi. Tad vienas ziņas pārtveršana neko neatklās."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Paziņojiet atsevišķi"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Otra slēdzene sensitīviem datiem"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Ja atvēršanas parole trīsreiz ievadīta nepareizi, noslēpums tiek neatgriezeniski dzēsts."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Pēc trim nepareizām parolēm"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Poga „Iznīcināt tagad” saites lapā nekavējoties dzēš noslēpumu."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Pēc jūsu pieprasījuma"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Ja saite netiek atvērta izvēlētajā glabāšanas laikā, noslēpums tiek automātiski dzēsts."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Pēc termiņa beigām"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Tiklīdz saņēmējs atver noslēpumu, dati tiek dzēsti. Saite otrreiz nedarbosies."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Pēc atvēršanas"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Nepareizo paroles mēģinājumu skaitītājs"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Šifrētais teksts un fails"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Glabājas serverī"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Jūsu izvēlētais glabāšanas laiks"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Glabāšana"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Serveris glabā noslēpumu tieši tik ilgi, cik saņēmējam nepieciešams tā atvēršanai."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Saites atšifrēšanas atslēga"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Atvēršanas parole"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Noslēpuma saturs atklātā veidā"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Nekad nenonāk serverī"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Ko serveris glabā un kad dzēš"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Paroļu ģenerators"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Uz sākumlapu"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Šādas lapas Encrypt.One nav."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Lapa nav atrasta — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adrese var būt ievadīta kļūdaini vai lapa pārvietota. Ja atvērāt vienreizēju saiti, pārbaudiet, vai tā nokopēta pilnībā."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Lapa nav atrasta"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Ja šī politika mainīsies, mēs publicēsim jauno versiju šajā lapā un atjaunināsim datumu augšā.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Politikas izmaiņas"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Jautājumus par privātumu uzdodiet <a href=\"https://github.com/Draal/secure-share/issues\">GitHub pieteikumos</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Jautājumi"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>tūlīt pēc tam, kad saņēmējs atver noslēpumu;</li><li>kad saites lapā nospiežat „Iznīcināt tagad”;</li><li>pēc trešās nepareizās paroles;</li><li>pēc izvēlētā perioda beigām, no vienas stundas līdz septiņām dienām. Noslēpums ar beigušos termiņu uzreiz vairs nav pieejams, un tā dati tiek dzēsti ikdienas tīrīšanas laikā.</li></ul><p>Dzēstu noslēpumu nevar atjaunot. Ziņojumapmaiņas roboti, kas izveido saišu priekšskatījumus, noslēpumu nepatērē: dati tiek izsniegti tikai pēc „Rādīt noslēpumu” nospiešanas.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Kad dati tiek dzēsti"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Paroles, paroļfrāzes un PIN kodi tiek izveidoti jūsu pārlūkā ar kriptogrāfisku nejaušo skaitļu ģeneratoru un nekad netiek sūtīti serverim.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Paroļu ģenerators"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One ir veidots tā, lai noslēpumu varētu izlasīt tikai saņēmējs — pat mēs nevaram. Tālāk aprakstīts, kādi dati nonāk pakalpojumā un kas ar tiem notiek."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Lietotnes serveris reģistrē tikai API pieprasījumus: pieprasījuma veidu, rezultātu un apstrādes laiku. IP adreses, noslēpumu identifikatori, pilnvaras, lapu adreses un pieprasījumu saturs netiek reģistrēts.</p><p>Lai aizsargātu pakalpojumu pret pilnās pārlases uzbrukumiem un ļaunprātīgu izmantošanu, serveris ierobežo pieprasījumu biežumu no vienas IP adreses. Adrese tiek izmantota tikai atmiņā un netiek saglabāta.</p><p>Tīmekļa serveris lietotnes priekšā var uzturēt standarta piekļuves žurnālu: IP adresi, laiku un lapas adresi bez daļas aiz #. Šādi žurnāli tiek izmantoti tikai aizsardzībai pret uzbrukumiem un tiek glabāti ierobežotu laiku.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Tehniskie žurnāli"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One privātuma politika: kādus datus pakalpojums saņem, cik ilgi tos glabā un kāpēc nevar izlasīt jūsu noslēpumus."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Privātuma politika — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Pati parole nekad neatstāj pārlūku. No paroles un saites atslēgas pārlūks iegūst divas neatkarīgas vērtības: šifrēšanas atslēgu un pārbaudes jaucējvērtību (PBKDF2 ar 600 000 iterācijām, pēc tam HKDF). Serverim tiek nosūtīta tikai jaucējvērtība. Serveris to izmanto paroles pārbaudei, bet nevar uzzināt ne paroli, ne atslēgu.</p><p>Pēc trim nepareiziem mēģinājumiem noslēpums tiek dzēsts. Mēģinājumu skaitītājs tiek glabāts servera atmiņā un ir piesaistīts noslēpumam, nevis apmeklētājam.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Atvēršanas parole"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Mēs nezinām, kurš izveidoja vai atvēra noslēpumu: pakalpojums nesaista datus ar cilvēkiem, kontiem vai IP adresēm. Tāpēc nevaram atrast, izsniegt vai dzēst konkrētas personas datus. Lai dzēstu noslēpumu pirms termiņa, atveriet saites lapu un nospiediet „Iznīcināt tagad”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Jūsu tiesības"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Teksts un pievienotais fails pirms nosūtīšanas tiek šifrēti pārlūkā ar AES-256-GCM, izmantojot iebūvēto Web Crypto API. Faila nosaukums un tips tiek šifrēti kopā ar saturu.</p><p>Serveris glabā tikai:</p><ul><li>šifrētos datus;</li><li>termiņa beigu laiku;</li><li>norādi, vai ir pievienots fails;</li><li>paroles pārbaudes jaucējvērtību, ja iestatīta atvēršanas parole.</li></ul><p>Atšifrēšanas atslēga ir saites daļa aiz zīmes #. Pārlūki šo daļu nekad nenosūta serverim, tāpēc ne mēs, ne persona ar piekļuvi serverim nevaram atšifrēt datus. Tā paša iemesla dēļ nevaram atjaunot noslēpumu, ja saite pazūd.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Noslēpumi un faili"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One ir bezmaksas pakalpojums paroļu, atslēgu un failu kopīgošanai ar vienreizējām saitēm. Reģistrācija nav nepieciešama. Pakalpojumu izstrādā un uztur <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Saiti nosūtāt paši jebkurā ērtā veidā. Ziņu lietotnē, e-pastu vai SMS var pārtvert, un tad noslēpumu iegūst tas, kurš pirmais atver saiti. Svarīgiem datiem iestatiet atvēršanas paroli un paziņojiet to pa citu kanālu.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Kā darbojas pakalpojums"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Noslēpums tiek šifrēts jūsu pārlūkā. Serveris saņem tikai šifrētus datus un nevar tos izlasīt.</li><li>Atšifrēšanas atslēga ir saitē aiz zīmes # un nekad netiek nosūtīta serverim.</li><li>Bez reģistrācijas, reklāmām, analītikas un trešo pušu skriptiem.</li><li>Noslēpums tiek dzēsts tūlīt pēc atvēršanas vai izvēlētā perioda beigās.</li><li>Lietotnes serveris nereģistrē IP adreses vai noslēpumu identifikatorus.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Īsumā"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Pirmkods ir atvērts <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: varat pārbaudīt šifrēšanu vai darbināt savu kopiju.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Atvērtais pirmkods"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Mēs neizmantojam reklāmas vai analītikas sīkdatnes. Vietne jūsu pārlūkā saglabā tikai darbībai nepieciešamo:</p><ul><li>sīkdatni <code>lang</code> — jūsu valodu, ja to izvēlējāties pārslēdzējā;</li><li>localStorage — krāsu motīvu, atzīmi, ka aizvērāt valodas paziņojumu, un atzīmes par saitēm, kas iznīcinātas no šī pārlūka;</li><li>sessionStorage — ģeneratora paroli tās pārsūtīšanas laikā uz sākumlapas veidlapu. Tā tiek noņemta tūlīt pēc ievietošanas.</li></ul><p>No šiem datiem tikai valodas sīkdatne nonāk serverī, kas to izmanto lapas versijas izvēlei. Visu varat dzēst pārlūka iestatījumos.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Sīkdatnes un pārlūka krātuve"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Vietne neielādē trešo pušu skriptus, fontus, skaitītājus vai reklāmas: viss, tostarp fonti, tiek nodrošināts no mūsu servera. Mēs nepārdodam un nekopīgojam datus ar trešajām pusēm.</p><p>Sūtīšanas pogas caur Telegram, WhatsApp un e-pastu, kā arī saites uz sponsoru vietnēm ir parastas saites. Ārējs pakalpojums saņem datus tikai pēc klikšķa, un pēc tam piemēro savu politiku.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Trešo pušu pakalpojumi"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Privātuma politika"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Pēdējo reizi atjaunināts: 2026. gada 25. oktobrī"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Saite ir bojāta vai nav nokopēta pilnībā. Lūdziet sūtītājam nosūtīt to vēlreiz."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Dati ir saņemti, bet tos neizdevās atšifrēt: saite ir bojāta. Noslēpums jau ir dzēsts no servera, tāpēc lūdziet sūtītājam izveidot jaunu."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Neizdevās sazināties ar serveri. Pārbaudiet savienojumu un mēģiniet vēlreiz."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Pārāk daudz mēģinājumu. Uzgaidiet minūti un mēģiniet vēlreiz."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Noslēpumu neizdevās atvērt"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Izveidojiet savu saiti"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Kā darbojas vienreizējas saites"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Tas jau ir atvērts vai tā termiņš ir beidzies. Saiti nevar atvērt vēlreiz."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Lūdziet sūtītājam izveidot jaunu saiti. Ja šo saiti neatvērāt, paziņojiet viņam: iespējams, to redzēja kāds cits."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Šis noslēpums vairs nav pieejams"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "To var apskatīt tikai vienu reizi. Tūlīt pēc tam tas tiks dzēsts no servera."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Noslēpums ir aizsargāts ar paroli. To var apskatīt tikai vienu reizi, pēc tam tas tiks dzēsts no servera."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Kāds jums nosūtīja noslēpumu"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One vienreizēja saite. Noslēpumu var atvērt vienu reizi, pēc tam tas tiek dzēsts no servera."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Kāds jums nosūtīja noslēpumu — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Ievadiet paroli."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Sūtītājam parole bija jāpaziņo atsevišķi. Pēc trim nepareiziem mēģinājumiem noslēpums tiek dzēsts."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Atvēršanas parole"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Atvērt"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Kopīgojiet savu noslēpumu"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Izveidojiet savu vienreizējo saiti. Bez reģistrācijas."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Jums arī jāpadalās ar paroli?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Rādīt noslēpumu"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Dzēsts no servera"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Lejupielādēt"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Saglabājiet to, ja vēlāk būs nepieciešams: pēc lapas aizvēršanas noslēpumu vairs nevarēs atvērt."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Noslēpuma teksts"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Jūsu noslēpums"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Atvēršana…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Kas ir Encrypt.One?"
+  }
+]

@@ -1,0 +1,157 @@
+{{define "layout"}}{{$title := t (print .Page.Meta ".title")}}{{$description := t (print .Page.Meta ".description")}}<!doctype html>
+<html lang="{{.Lang.Short}}"{{if .Lang.RTL}} dir="rtl"{{end}}>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{$title}}</title>
+<meta name="description" content="{{$description}}">
+{{- if .Indexable}}
+<link rel="canonical" href="{{.Canonical}}">
+{{- range .Alternates}}
+<link rel="alternate" hreflang="{{.Hreflang}}" href="{{.URL}}">
+{{- end}}
+{{- else}}
+<meta name="robots" content="noindex, nofollow">
+{{- end}}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Encrypt.One">
+<meta property="og:locale" content="{{.Lang.OGLocale}}">
+{{- range .Languages}}{{if ne .Code $.Lang.Code}}
+<meta property="og:locale:alternate" content="{{.OGLocale}}">
+{{- end}}{{end}}
+{{- if .Indexable}}
+<meta property="og:url" content="{{.Canonical}}">
+{{- end}}
+<meta property="og:title" content="{{$title}}">
+<meta property="og:description" content="{{$description}}">
+{{- with asset (print "img/og-" .Lang.Short ".png")}}
+<meta property="og:image" content="{{$.SiteURL}}{{.}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{t "common.meta.ogImageAlt"}}">
+<meta name="twitter:image" content="{{$.SiteURL}}{{.}}">
+{{- end}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{$title}}">
+<meta name="twitter:description" content="{{$description}}">
+<meta name="theme-color" content="#F4F6F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<script src="{{asset "js/theme.js"}}"></script>
+<link rel="icon" href="{{asset "img/favicon.ico"}}" sizes="any">
+<link rel="icon" href="{{asset "img/favicon.svg"}}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{asset "img/apple-touch-icon.png"}}">
+<link rel="stylesheet" href="{{asset "css/site.css"}}">
+<script type="module" src="{{asset "js/app.js"}}"></script>
+{{- with .JSONLD}}
+<script type="application/ld+json">{{.}}</script>
+{{- end}}
+</head>
+<body data-wordlist="{{asset "js/eff-wordlist.js"}}" data-cryptojs="{{asset "vendor/crypto-js.js"}}">
+<div class="page">
+<a class="skip-link" href="#main">{{t "common.skipLink"}}</a>
+
+<div class="lang-banner" data-lang-banner hidden>
+  <div class="container lang-banner__inner">
+    <svg class="lang-banner__globe" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"/></svg>
+    <p class="lang-banner__text">
+      {{- range .Languages}}{{if ne .Code $.Lang.Code}}
+      <a class="lang-banner__link" href="{{index $.LangURLs .Short}}" lang="{{.Short}}" hreflang="{{.Short}}" data-lang-banner-link="{{.Short}}" data-lang-choice="{{.Code}}" hidden>{{.Banner}}</a>
+      {{- end}}{{end}}
+    </p>
+    <button type="button" class="lang-banner__close" data-lang-banner-close aria-label="{{t "common.close"}}">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+  </div>
+</div>
+
+<header class="site-header{{if .CompactHeader}} site-header--compact{{end}}">
+  <div class="container site-header__inner">
+    <a class="logo{{if .CompactHeader}} logo--sm{{end}}" href="{{url ""}}" aria-label="{{t "common.logo.label"}}">{{template "logo"}}</a>
+    {{- if not .CompactHeader}}
+    <nav class="nav" aria-label="{{t "common.nav.label"}}">
+      <a class="nav__link" href="{{url "password-generator/"}}"{{if eq .Page.Template "generator"}} aria-current="page"{{end}}>{{t "common.nav.generator"}}</a>
+      <a class="nav__link" href="{{url "how-it-works/"}}"{{if eq .Page.Template "how"}} aria-current="page"{{end}}>{{t "common.nav.howItWorks"}}</a>
+      <a class="nav__link" href="{{url ""}}#faq">{{t "common.nav.faq"}}</a>
+    </nav>
+    {{- end}}
+    <div class="site-header__actions">
+      {{template "lang-switcher" dict "Data" . "ID" "lang-menu" "Up" false}}
+    </div>
+  </div>
+</header>
+
+{{block "content" .}}{{end}}
+
+<section class="container sponsors" aria-labelledby="sponsors-title">
+  <h2 class="sponsors__title" id="sponsors-title">{{t "common.sponsors.title"}}</h2>
+  <ul class="sponsors__list">
+    <li><a class="sponsor" href="https://onlineradiobox.com/" target="_blank" rel="noopener"><img class="sponsor__logo" src="{{asset "img/sponsor-orb.svg"}}" width="48" height="48" alt=""><span class="sponsor__body"><span class="sponsor__name">Online Radio Box</span><span class="sponsor__text">{{t "common.sponsors.orb"}}</span></span><svg class="sponsor__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></li>
+    <li><a class="sponsor" href="https://dayspedia.com/" target="_blank" rel="noopener"><img class="sponsor__logo" src="{{asset "img/sponsor-dp.svg"}}" width="48" height="48" alt=""><span class="sponsor__body"><span class="sponsor__name">Dayspedia</span><span class="sponsor__text">{{t "common.sponsors.dayspedia"}}</span></span><svg class="sponsor__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></li>
+    <li><a class="sponsor" href="https://casualgamescollection.com/" target="_blank" rel="noopener"><img class="sponsor__logo" src="{{asset "img/sponsor-cgc.svg"}}" width="48" height="48" alt=""><span class="sponsor__body"><span class="sponsor__name">Casual Games Collection</span><span class="sponsor__text">{{t "common.sponsors.games"}}</span></span><svg class="sponsor__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></li>
+  </ul>
+</section>
+
+{{- if eq .Footer "full"}}
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="logo logo--footer" href="{{url ""}}" aria-label="{{t "common.logo.label"}}">{{template "logo"}}</a>
+        <p class="site-footer__tagline">{{t "common.footer.tagline"}}</p>
+      </div>
+      <nav class="site-footer__col" aria-labelledby="footer-service">
+        <span class="site-footer__heading" id="footer-service">{{t "common.footer.service.title"}}</span>
+        <a class="site-footer__link" href="{{url ""}}">{{t "common.footer.service.secret"}}</a>
+        <a class="site-footer__link" href="{{url ""}}#secret-text">{{t "common.footer.service.file"}}</a>
+        <a class="site-footer__link" href="{{url "password-generator/"}}">{{t "common.footer.service.generator"}}</a>
+      </nav>
+      <nav class="site-footer__col" aria-labelledby="footer-resources">
+        <span class="site-footer__heading" id="footer-resources">{{t "common.footer.resources.title"}}</span>
+        <a class="site-footer__link" href="{{url "how-it-works/"}}">{{t "common.footer.resources.howItWorks"}}</a>
+        <a class="site-footer__link" href="{{url "how-it-works/"}}#encryption">{{t "common.footer.resources.security"}}</a>
+        <a class="site-footer__link" href="{{url ""}}#faq">{{t "common.footer.resources.faq"}}</a>
+        <a class="site-footer__link" href="{{url ""}}#what-to-share">{{t "common.footer.resources.guides"}}</a>
+      </nav>
+      <nav class="site-footer__col" aria-labelledby="footer-project">
+        <span class="site-footer__heading" id="footer-project">{{t "common.footer.project.title"}}</span>
+        <a class="site-footer__link" href="https://github.com/Draal/secure-share">GitHub</a>
+        <a class="site-footer__link" href="{{url "privacy/"}}">{{t "common.footer.project.privacy"}}</a>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <span>{{th "common.footer.copyright"}}</span>
+      <div class="site-footer__meta">
+        {{template "theme-switch"}}
+        {{template "lang-switcher" dict "Data" . "ID" "lang-menu-footer" "Up" true}}
+        <a class="icon-link" href="https://github.com/Draal/secure-share" aria-label="{{t "common.github.label"}}">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+{{- else if eq .Footer "compact"}}
+<footer class="site-footer site-footer--compact">
+  <div class="container site-footer__bottom">
+    <span>{{th "common.footer.copyright"}}</span>
+    {{template "theme-switch"}}
+    <nav class="site-footer__links" aria-label="{{t "common.footer.linksLabel"}}">
+      <a href="{{url "privacy/"}}">{{t "common.footer.project.privacy"}}</a>
+      <a href="https://github.com/Draal/secure-share">GitHub</a>
+    </nav>
+  </div>
+</footer>
+{{- end}}
+<div class="visually-hidden" aria-live="polite" data-live-region></div>
+</div>
+</body>
+</html>
+{{end}}
+
+{{define "logo"}}<svg class="logo__mark" viewBox="0 0 41 59" aria-hidden="true"><path d="M0,0c0,0,0,28.9,0,37.7c0,11.7,15.2,18.4,20.5,21c6.1-3.1,20.5-9.4,20.5-21C41,28.6,41,0,41,0H0z M39,37.3 l-18,18v-4.6l18-18V37.3z M21,38.7l18-18v4.6l-18,18V38.7z M39,19.3l-18,18v-4.6l18-18V19.3z M39,13.3l-18,18v-4.6l18-18V13.3z M39,7.3l-18,18v-4.6l18-18V7.3z M21,19.3v-4.6L33.7,2h4.6L21,19.3z M21,13.3V8.7L27.7,2h4.6L21,13.3z M21,7.3V2h5.3L21,7.3z M39,31.3l-18,18v-4.6l18-18V31.3z M2,37.7V2h18v54.3C14.3,53.5,2,47.3,2,37.7z M21.9,55.8l17-17C38.2,47.3,28,52.7,21.9,55.8z"/></svg><span class="logo__text">encrypt<span class="logo__tld">.one</span></span>{{end}}
+
+{{define "theme-switch"}}<div class="theme-switch" role="group" aria-label="{{t "common.theme.label"}}" data-theme-switch>
+  <button type="button" class="theme-switch__button" data-theme-choice="system" aria-pressed="true" aria-label="{{t "common.theme.system"}}" title="{{t "common.theme.system"}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/></svg></button>
+  <button type="button" class="theme-switch__button" data-theme-choice="light" aria-pressed="false" aria-label="{{t "common.theme.light"}}" title="{{t "common.theme.light"}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+  <button type="button" class="theme-switch__button" data-theme-choice="dark" aria-pressed="false" aria-label="{{t "common.theme.dark"}}" title="{{t "common.theme.dark"}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z"/></svg></button>
+</div>{{end}}

@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "درخواست پر کارروائی نہیں ہو سکی۔ صفحہ دوبارہ لوڈ کر کے کوشش کریں۔"
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "اس لنک کے ذریعے راز حذف کرنے کی اجازت نہیں ہے۔"
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "راز نہیں ملا: اسے پہلے کھولا یا حذف کیا جا چکا ہے، یا اس کی مدت ختم ہو گئی ہے۔"
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "اس راز کو کھولنے کے لیے پاس ورڈ درکار ہے۔"
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "بہت زیادہ درخواستیں۔ ایک منٹ انتظار کر کے دوبارہ کوشش کریں۔"
+  },
+  {
+    "id": "api.error.server",
+    "translation": "ہماری طرف کچھ خرابی ہوئی ہے۔ ایک منٹ بعد دوبارہ کوشش کریں۔"
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "فائل بہت بڑی ہے۔ حد {{.MaxFileSize}} ہے۔"
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "تین بار غلط پاس ورڈ درج کرنے پر راز حذف کر دیا گیا ہے۔"
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "غلط پاس ورڈ۔ باقی کوششیں: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "بند کریں"
+  },
+  {
+    "id": "common.copied",
+    "translation": "کاپی ہو گیا"
+  },
+  {
+    "id": "common.copy",
+    "translation": "کاپی کریں"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "لنکس"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "رازداری"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "پروجیکٹ"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "عام سوالات"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "رہنما اصول"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "یہ کیسے کام کرتا ہے"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "سیکیورٹی"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "وسائل"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "فائل بھیجیں"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "پاس ورڈ جنریٹر"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "راز شیئر کریں"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "سروس"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "پاس ورڈ اور فائلیں شیئر کرنے کے لیے ایک بار استعمال ہونے والے لنکس۔ آپ کے براؤزر میں خفیہ کاری ہوتی ہے۔"
+  },
+  {
+    "id": "common.github.label",
+    "translation": "GitHub پر سورس کوڈ"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "اردو"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "UR"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "سائٹ کی زبان: اردو"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One کا مرکزی صفحہ"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: ایک بار استعمال ہونے والے لنک سے پاس ورڈ شیئر کریں"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "عام سوالات"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "پاس ورڈ جنریٹر"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "یہ کیسے کام کرتا ہے"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "مرکزی نیویگیشن"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "مواد پر جائیں"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "ہر شہر کا وقت، کیلنڈر اور تعطیلات"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "براؤزر میں مفت گیمز"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "دنیا بھر کے ہزاروں ریڈیو اسٹیشن"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "ہمارے معاونین کی بدولت Encrypt.One مفت ہے"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "گہرا"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "تھیم"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "ہلکا"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "سسٹم کے مطابق"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "اسے وصول کنندہ کو بھیجیں۔ راز صرف ایک بار کھولا جا سکتا ہے۔"
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "آپ کا لنک تیار ہے"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "ایک اور لنک حاصل کریں"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "اسی راز کے لیے ہر وصول کنندہ کو الگ لنک دیں۔ موجودہ لنک چلتا رہے گا، مگر آپ اسے یہاں سے حذف نہیں کر سکیں گے۔"
+  },
+  {
+    "id": "created.back",
+    "translation": "نیا راز"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "ابھی حذف کریں"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "راز حذف کریں؟ لنک فوراً کام کرنا بند کر دے گا۔"
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "راز حذف نہیں ہو سکا۔ دوبارہ کوشش کریں۔"
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "غلط شخص کو بھیج دیا؟ راز حذف کریں، لنک فوراً کام کرنا بند کر دے گا۔"
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "آپ نے راز حذف کر دیا۔ ڈیٹا سرور سے مٹ گیا ہے اور لنک اب کام نہیں کرتا۔"
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "راز حذف ہو گیا"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "کسی نے وقت پر لنک نہیں کھولا۔ ڈیٹا سرور سے مٹ گیا ہے اور لنک اب کام نہیں کرتا۔"
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "لنک کی مدت ختم ہو گئی"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "لنک کاپی کریں"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "ایک بار استعمال ہونے والا لنک"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "یہ لنک اب کام نہیں کرتا"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "لنک صرف اس ٹیب میں دکھایا جاتا ہے جہاں اسے بنایا گیا تھا۔ آپ یہاں سے راز اب بھی حذف کر سکتے ہیں۔"
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.One کے ایک بار استعمال ہونے والے لنک کا بھیجنے والے کا صفحہ: لنک شیئر کریں یا راز حذف کریں۔"
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "آپ کا لنک تیار ہے — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "نیا لنک بنائیں"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "ایک بار استعمال ہونے والے لنک کا QR کوڈ"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "لنک کھولنے کے لیے فون کے کیمرے سے اسکین کریں۔ کوڈ دوسروں کو نہ دکھائیں: یہ بھی لنک کی طرح راز کھولتا ہے۔"
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "لنک کا QR کوڈ"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "اس کے ذریعے بھیجیں"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "ای میل"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR کوڈ"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "آپ کے لیے ایک راز"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "راز کا ایک بار استعمال ہونے والا لنک:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "اس وقت تک مؤثر"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>مشورہ:</strong> انتہائی حساس ڈیٹا کے لیے لنک پر پاس ورڈ لگائیں اور اسے کسی دوسرے طریقے سے، مثلاً زبانی، بتائیں۔ پھر ایک پیغام پکڑے جانے سے معلومات ظاہر نہیں ہوں گی۔"
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "فائل منسلک کریں"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "فائل منسلک کرنے کے لیے یہاں چھوڑیں"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "آپ فائل براہ راست خانے میں کھینچ سکتے ہیں۔"
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "زیادہ سے زیادہ {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "یہ براؤزر خفیہ کاری کی حمایت نہیں کرتا۔ اسے اپ ڈیٹ کریں یا سائٹ دوسرے براؤزر میں کھولیں۔"
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "کچھ متن درج کریں یا فائل منسلک کریں۔"
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "فائل بہت بڑی ہے۔ حد {{.MaxFileSize}} ہے۔"
+  },
+  {
+    "id": "form.error.network",
+    "translation": "سرور سے رابطہ نہیں ہو سکا۔ اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔"
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "کھولنے کا پاس ورڈ درج کریں یا پاس ورڈ کی حفاظت بند کر دیں۔"
+  },
+  {
+    "id": "form.file.note",
+    "translation": "متن کے ساتھ خفیہ کیا گیا"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "فائل ہٹائیں"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "پاس ورڈ بنائیں"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "راز کے خانے میں شامل کریں"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "تجویز کریں"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "اس پاس ورڈ کے بغیر راز نہیں کھلے گا، چاہے لنک کسی اور کو مل جائے۔ اسے وصول کنندہ کو الگ سے بتائیں، مثلاً زبانی یا کسی دوسرے میسنجر میں۔"
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "کھولنے کا پاس ورڈ"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "مثلاً maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "پاس ورڈ سے محفوظ کریں"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "آپ کیا شیئر کرنا چاہتے ہیں؟"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "پاس ورڈ، API کلید، لاگ ان کی تفصیلات…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "لنک کی ترتیبات"
+  },
+  {
+    "id": "form.submit",
+    "translation": "ایک بار استعمال ہونے والا لنک بنائیں"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "خفیہ کاری جاری ہے…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "۱ دن"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "۱ گھنٹہ"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "۳ دن"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "۷ دن"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "مدت ختم ہو گی"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "ذخیرہ کرنے کی مدت"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "مفت مضبوط پاس ورڈ جنریٹر: بے ترتیب پاس ورڈ، پاس فریز اور PIN آپ کے براؤزر میں بنتے ہیں اور کہیں نہیں بھیجے جاتے۔ نتیجہ ایک بار استعمال ہونے والے لنک سے شیئر کریں۔"
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "مضبوط پاس ورڈ جنریٹر — مفت اور نجی | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "اعداد (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "لمبائی"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "چھوٹے حروف (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "ملتے جلتے حروف کے بغیر (0 اور O، l اور 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "حروف"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "علامات (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "بڑے حروف (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "بے ترتیب الفاظ کا فقرہ بولنا اور یاد رکھنا آسان ہے، مگر اس کا اندازہ لگانا طویل پاس ورڈ کی طرح مشکل ہے۔ الفاظ EFF کی کھلی فہرست سے لیے جاتے ہیں۔"
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "الفاظ کی تعداد"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "اعداد کی تعداد"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "دوبارہ بنائیں"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "ایک بار استعمال ہونے والے لنک سے بھیجیں"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "یہ براہ راست فارم میں جائے گا اور آپ کو صرف ایک بار کھلنے والا لنک ملے گا۔"
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "کیا یہ پاس ورڈ شیئر کرنا ہے؟"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "اینٹروپی ≈ {bits} بِٹ"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "درمیانہ"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "صرف PIN کے لیے موزوں"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "مضبوط"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "بہت مضبوط"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "کمزور"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "پاس ورڈ کی قسم"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "پاس ورڈ"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "پاس فریز"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "کم از کم ۱۴–۱۶ حروف۔ لمبائی حروف کو علامات سے بدلنے کے مقابلے میں بہتر حفاظت دیتی ہے۔"
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "طویل"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "پیچیدہ پاس ورڈ یاد رکھنے کی ضرورت نہیں: پاس ورڈ مینیجر اسی لیے ہے۔"
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "پاس ورڈ مینیجر میں محفوظ"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "پاس ورڈ کو مضبوط کیا بناتا ہے"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "ہر سروس کے لیے الگ پاس ورڈ۔ پھر ایک پاس ورڈ لیک ہونے سے دوسرے اکاؤنٹس نہیں کھلیں گے۔"
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "منفرد"
+  },
+  {
+    "id": "generator.title",
+    "translation": "پاس ورڈ جنریٹر"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "نہیں۔ راز بھیجنے سے پہلے آپ کے براؤزر میں خفیہ کیا جاتا ہے۔ کلید لنک میں # کے بعد ہوتی ہے اور پتے کا وہ حصہ کبھی سرور تک نہیں پہنچتا۔"
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "کچھ نہیں ہوتا۔ راز صرف اس وقت ظاہر ہوتا ہے جب کوئی «راز دکھائیں» دبائے، اور پیش نظارہ بنانے والے بوٹس بٹن نہیں دباتے۔"
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "آپ کی منتخب کردہ مدت ختم ہونے پر راز خود بخود حذف ہو جاتا ہے۔"
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "ہاں۔ آپ کے لنک والے صفحے پر «ابھی حذف کریں» بٹن موجود ہے۔ اس کے بعد لنک کام نہیں کرتا۔"
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "نہیں۔ نہ بھیجنے والے کو اور نہ وصول کنندہ کو اکاؤنٹ کی ضرورت ہے۔"
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "جواب نہیں ملا؟ GitHub پر ایک مسئلہ درج کریں۔"
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "کیا آپ میرا راز پڑھ سکتے ہیں؟"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "اگر میسنجر کا پیش نظارہ بوٹ لنک کھولے تو کیا ہو گا؟"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "اگر وصول کنندہ کبھی لنک نہ کھولے تو کیا ہو گا؟"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "کیا بھیجنے کے بعد لنک منسوخ کیا جا سکتا ہے؟"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "کیا رجسٹریشن ضروری ہے؟"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "عام سوالات"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "آپ کا راز براہ راست آپ کے براؤزر میں خفیہ ہوتا ہے۔ وصول کنندہ لنک ایک بار کھولتا ہے، پھر ڈیٹا سرور سے حذف ہو جاتا ہے۔"
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "رجسٹریشن نہیں"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "آپ کے آلے پر AES-256 خفیہ کاری"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "اوپن سورس"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "ایک بار استعمال ہونے والے لنکس سے پاس ورڈ محفوظ طریقے سے شیئر کریں"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "پاس ورڈ، API کلید، لاگ ان کی تفصیلات یا فائل۔ بھیجنے سے پہلے سب کچھ آپ کے براؤزر میں خفیہ ہوتا ہے۔"
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "اپنا راز درج کریں"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram، WhatsApp، Signal، Slack، ای میل یا کسی دوسرے میسنجر سے۔ گفتگو میں صرف لنک رہتا ہے، پاس ورڈ نہیں۔"
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "لنک بھیجیں"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "دیکھنے کے بعد ڈیٹا سرور سے حذف ہو جاتا ہے۔ لنک دوسری بار نہیں کھولا جا سکتا۔"
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "لنک ناکارہ ہو جاتا ہے"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "یہ کیسے کام کرتا ہے"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "خفیہ ایک بار استعمال ہونے والے لنکس سے پاس ورڈ، نجی پیغامات، API کلیدیں اور فائلیں بھیجیں۔ راز دیکھنے کے بعد حذف ہو جاتے ہیں۔ مفت، اوپن سورس، بغیر رجسٹریشن۔"
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "ایک بار استعمال ہونے والے خفیہ لنکس — محفوظ پاس ورڈ شیئرنگ | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "پاس ورڈ اور اکاؤنٹ کی تفصیلات چیٹ کی تاریخ میں چھوڑے بغیر شیئر کریں۔"
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "پاس ورڈ اور لاگ ان کی تفصیلات"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "حساس پیغامات بھیجیں جو صرف ایک بار کھل سکتے ہیں۔"
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "نجی پیغامات"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "ٹیم کے ساتھ API کلیدیں، رسائی ٹوکن اور کنفیگریشن فائلیں محفوظ طریقے سے شیئر کریں۔"
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API کلیدیں اور اسناد"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "خفیہ ایک بار استعمال ہونے والے لنکس سے {{.MaxFileSize}} تک نجی دستاویزات اور فائلیں شیئر کریں۔"
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "خفیہ فائلیں"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "خود حذف ہونے والے پیغامات، پاس ورڈ، API کلیدیں اور نجی فائلیں محفوظ طریقے سے بھیجیں۔ ہر راز آپ کے براؤزر میں خفیہ ہوتا ہے اور دیکھنے کے بعد سرور سے حذف ہو جاتا ہے۔"
+  },
+  {
+    "id": "home.share.title",
+    "translation": "ایک بار استعمال ہونے والے لنک سے کیا شیئر کر سکتے ہیں؟"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>آپ کے پاس رہتی ہے۔</strong> ڈی کرپشن کلید۔ براؤزر # کے بعد کا حصہ کبھی سرور کو نہیں بھیجتے۔"
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>سرور کو جاتا ہے۔</strong> خفیہ ڈیٹا کا پتہ: کلید کے بغیر یہ محض بے ترتیب بائٹس ہیں۔"
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "براؤزر کا بلٹ اِن Web Crypto API اور AES-256-GCM۔ کسی تیسرے فریق کی لائبریری نہیں۔"
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "براؤزر میں خفیہ کاری"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "تمام کوڈ <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a> پر شائع ہے۔ کوئی بھی خفیہ کاری کا طریقہ جانچ سکتا ہے۔"
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "اوپن سورس"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "نہ رجسٹریشن، نہ تیسرے فریق کے اسکرپٹس، نہ ٹریکرز۔ اسی لیے کوکی بینر بھی نہیں۔"
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "کوئی اضافی چیز نہیں"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "ڈی کرپشن کلید لنک میں # کے بعد ہے۔ براؤزر پتے کا یہ حصہ کبھی سرور کو نہیں بھیجتے، اس لیے صرف آپ اور وصول کنندہ اسے دیکھ سکتے ہیں۔"
+  },
+  {
+    "id": "home.why.more",
+    "translation": "کام کرنے کے طریقے کے بارے میں مزید"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "ہم آپ کا راز کیوں نہیں پڑھ سکتے"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "راز شیئر کریں"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "GitHub پر کوڈ"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "اوپن سورس"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.One کا تمام کوڈ GitHub پر ہے۔ کوئی بھی خفیہ کاری کا طریقہ دیکھ سکتا ہے اور یقینی بنا سکتا ہے کہ کلید کبھی سرور کو نہیں جاتی۔"
+  },
+  {
+    "id": "how.code.title",
+    "translation": "خود جانچیں"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "ڈیٹا کا بہاؤ"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "راز بھیجنے سے پہلے خفیہ ہوتا ہے اور صرف وصول کنندہ اسے ڈی کرپٹ کرتا ہے۔ اس دوران ڈیٹا ہمیشہ خفیہ رہتا ہے۔"
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "خفیہ ڈیٹا ڈاؤن لوڈ کرتا ہے، لنک سے کلید لیتا ہے اور اپنے آلے پر راز ڈی کرپٹ کرتا ہے۔ سرور فوراً بعد ڈیٹا حذف کر دیتا ہے۔"
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "وصول کنندہ کا براؤزر"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "بے ترتیب کلید بناتا ہے اور براؤزر کے بلٹ اِن Web Crypto API سے متن اور فائل کو AES-256-GCM کے ذریعے خفیہ کرتا ہے۔"
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "بھیجنے والے کا براؤزر"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "صرف خفیہ بائٹس وصول اور محفوظ کرتا ہے۔ کلید کے بغیر نہ ہم اور نہ سرور تک رسائی حاصل کرنے والا کوئی شخص انہیں پڑھ سکتا ہے۔"
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One سرور"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "سرور صرف خفیہ ڈیٹا دیکھتا ہے"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One آپ کا راز براہ راست براؤزر میں خفیہ کرتا ہے۔ صرف خفیہ ڈیٹا سرور کو جاتا ہے، جبکہ کلید لنک میں رہتی ہے اور بھیجنے والے اور وصول کنندہ کے آلات سے باہر نہیں جاتی۔"
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "یہ کیسے کام کرتا ہے اور محفوظ کیوں ہے"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "لنک کے اندر"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "لنک کے دو حصے ہیں۔ پہلا بتاتا ہے کہ خفیہ ڈیٹا کہاں محفوظ ہے۔ دوسرا، # کے بعد والا حصہ، ڈی کرپشن کلید ہے۔"
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "جس کے پاس مکمل لنک ہے وہ راز کھول سکتا ہے۔ اسے صرف وصول کنندہ کو بھیجیں اور حساس ڈیٹا کے لیے پاس ورڈ لگائیں۔"
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "مکمل لنک ہی رسائی ہے"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "براؤزر درخواستوں میں # کے بعد کا حصہ شامل نہیں کرتے۔ اس لیے کلید نہ سرور کے لاگ میں ہوتی ہے نہ راستے کے کسی نیٹ ورک پر۔"
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "کبھی سرور کو نہیں بھیجی جاتی"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "کلید آپ کے آلے پر بے ترتیب بنتی ہے۔ تمام امکانات آزما کر اسے تلاش کرنا ممکن نہیں۔"
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "ہر لنک کے لیے نئی"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "کلید # کے بعد ہوتی ہے"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.One آپ کے براؤزر میں راز کیسے خفیہ کرتا ہے: AES-256-GCM، لنک میں # کے بعد کلید، سرور کیا رکھتا ہے، ڈیٹا کب حذف ہوتا ہے اور پاس ورڈ کیوں لگائیں۔"
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Encrypt.One کیسے کام کرتا ہے: اینڈ ٹو اینڈ خفیہ رازوں کا اشتراک"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "پاس ورڈ جنریٹر کھولیں"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "کھولنے کا پاس ورڈ"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "لنک پکڑے جانے پر بھی پاس ورڈ راز کی حفاظت کرتا ہے۔ اس کے بغیر وصول کنندہ صرف اندراج کا خانہ دیکھتا ہے۔"
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "تین غلط کوششوں کے بعد راز حذف ہو جاتا ہے۔ مسلسل اندازے لگا کر پاس ورڈ معلوم کرنا کام نہیں کرے گا۔"
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "تین کوششیں"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "فارم میں «تجویز کریں» دبائیں یا پاس ورڈ جنریٹر سے ایک فقرہ لیں: اسے زبانی بتانا آسان ہے۔"
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "خود نہ سوچیں"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "پاس ورڈ کسی دوسرے طریقے سے بتائیں: زبانی، دوسرے میسنجر میں یا ذاتی طور پر۔ پھر ایک پیغام پکڑے جانے سے کچھ ظاہر نہیں ہو گا۔"
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "الگ سے بتائیں"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "حساس ڈیٹا کے لیے دوسرا تالا"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "کھولنے کا پاس ورڈ تین بار غلط درج کرنے پر راز مستقل طور پر حذف ہو جاتا ہے۔"
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "تین غلط پاس ورڈ کے بعد"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "لنک کے صفحے پر «ابھی حذف کریں» بٹن راز فوراً حذف کر دیتا ہے۔"
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "جب آپ چاہیں"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "آپ کی منتخب کردہ مدت میں لنک نہ کھولا جائے تو راز خود بخود حذف ہو جاتا ہے۔"
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "مدت ختم ہونے پر"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "وصول کنندہ کے راز کھولتے ہی ڈیٹا حذف ہو جاتا ہے۔ لنک دوسری بار کام نہیں کرے گا۔"
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "کھولنے کے بعد"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "غلط پاس ورڈ کی کوششوں کا شمار"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "خفیہ متن اور فائل"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "سرور پر محفوظ"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "آپ کی منتخب کردہ مدت"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "ذخیرہ"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "سرور راز اتنی ہی دیر رکھتا ہے جتنی وصول کنندہ کو اسے کھولنے کے لیے درکار ہے۔"
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "لنک کی ڈی کرپشن کلید"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "کھولنے کا پاس ورڈ"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "سادہ متن میں راز"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "کبھی سرور تک نہیں پہنچتا"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "سرور کیا محفوظ کرتا ہے اور کب حذف کرتا ہے"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "پاس ورڈ جنریٹر"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "مرکزی صفحے پر جائیں"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.One پر ایسا کوئی صفحہ نہیں ہے۔"
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "صفحہ نہیں ملا — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "پتہ غلط درج ہوا ہو سکتا ہے یا صفحہ منتقل ہو گیا ہو۔ اگر آپ ایک بار استعمال ہونے والا لنک کھول رہے تھے تو یقینی بنائیں کہ وہ مکمل کاپی ہوا ہے۔"
+  },
+  {
+    "id": "notFound.title",
+    "translation": "صفحہ نہیں ملا"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>اگر یہ پالیسی بدلی تو ہم نیا نسخہ اس صفحے پر شائع کریں گے اور اوپر کی تاریخ اپ ڈیٹ کریں گے۔</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "اس پالیسی میں تبدیلیاں"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>رازداری کے سوالات <a href=\"https://github.com/Draal/secure-share/issues\">GitHub کے مسائل</a> میں پوچھیں۔</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "سوالات"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>وصول کنندہ کے راز کھولتے ہی؛</li><li>لنک کے صفحے پر «ابھی حذف کریں» دبانے پر؛</li><li>تیسرے غلط پاس ورڈ کے بعد؛</li><li>منتخب مدت ختم ہونے پر، جو ۱ گھنٹے سے ۷ دن تک ہو سکتی ہے۔ مدت ختم ہوتے ہی راز فراہم نہیں کیا جاتا اور روزانہ صفائی کے دوران اس کا ڈیٹا مٹا دیا جاتا ہے۔</li></ul><p>حذف شدہ راز واپس نہیں لایا جا سکتا۔ لنک کا پیش نظارہ بنانے والے میسنجر بوٹس راز کھولنے کا موقع استعمال نہیں کرتے: ڈیٹا صرف «راز دکھائیں» دبانے کے بعد دیا جاتا ہے۔</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "ڈیٹا کب حذف ہوتا ہے"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>پاس ورڈ، پاس فریز اور PIN آپ کے براؤزر میں خفیہ کاری کے لیے موزوں بے ترتیب نمبر جنریٹر سے بنتے ہیں اور کبھی سرور کو نہیں بھیجے جاتے۔</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "پاس ورڈ جنریٹر"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One اس طرح بنایا گیا ہے کہ صرف وصول کنندہ راز پڑھ سکے — ہم بھی نہیں۔ یہاں بتایا گیا ہے کہ سروس سے کون سا ڈیٹا گزرتا ہے اور اس کے ساتھ کیا ہوتا ہے۔"
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>ایپلی کیشن سرور صرف API درخواستوں کا لاگ رکھتا ہے: درخواست کی قسم، نتیجہ اور کارروائی کا وقت۔ IP پتے، راز کے آئی ڈی، ٹوکن، صفحوں کے پتے اور درخواست کا مواد کبھی لاگ نہیں ہوتا۔</p><p>بار بار اندازے اور غلط استعمال سے بچانے کے لیے سرور ہر IP پتے کی درخواستوں کی رفتار محدود کرتا ہے۔ پتہ صرف میموری میں استعمال ہوتا ہے اور محفوظ نہیں ہوتا۔</p><p>ایپلی کیشن کے سامنے موجود ویب سرور عام رسائی لاگ رکھ سکتا ہے: IP پتہ، وقت اور # کے بعد والے حصے کے بغیر صفحے کا پتہ۔ ایسے لاگ صرف حملوں سے بچاؤ کے لیے استعمال ہوتے ہیں اور محدود وقت تک رکھے جاتے ہیں۔</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "تکنیکی لاگز"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One کی رازداری کی پالیسی: سروس کیا ڈیٹا وصول کرتی ہے، کتنی دیر رکھتی ہے اور آپ کے راز کیوں نہیں پڑھ سکتی۔"
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "رازداری کی پالیسی — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>پاس ورڈ خود کبھی آپ کے براؤزر سے باہر نہیں جاتا۔ پاس ورڈ اور لنک کی کلید سے براؤزر دو آزاد قدریں بناتا ہے: انکرپشن کلید اور جانچ کا ہیش (۶۰۰٬۰۰۰ تکرار کے ساتھ PBKDF2، پھر HKDF)۔ صرف ہیش سرور کو بھیجا جاتا ہے۔ سرور اس سے پاس ورڈ جانچتا ہے، مگر پاس ورڈ یا کلید نہیں جان سکتا۔</p><p>تین غلط کوششوں کے بعد راز حذف ہو جاتا ہے۔ کوششوں کا شمار سرور کی میموری میں رکھا جاتا ہے اور راز سے متعلق ہوتا ہے، کسی آنے والے سے نہیں۔</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "کھولنے کا پاس ورڈ"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>ہم نہیں جانتے کہ راز کس نے بنایا یا کھولا: سروس ڈیٹا کو کسی شخص، اکاؤنٹ یا IP پتے سے نہیں جوڑتی۔ اسی لیے ہم کسی مخصوص شخص کا ڈیٹا تلاش، فراہم یا حذف نہیں کر سکتے۔ مدت ختم ہونے سے پہلے اپنا راز حذف کرنے کے لیے لنک والا صفحہ کھولیں اور «ابھی حذف کریں» دبائیں۔</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "آپ کے حقوق"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>متن اور منسلک فائل بھیجنے سے پہلے آپ کے براؤزر میں بلٹ اِن Web Crypto API کے ذریعے AES-256-GCM سے خفیہ ہوتے ہیں۔ فائل کا نام اور قسم بھی مواد کے ساتھ خفیہ ہوتے ہیں۔</p><p>سرور صرف یہ رکھتا ہے:</p><ul><li>خفیہ ڈیٹا؛</li><li>مدت ختم ہونے کا وقت؛</li><li>فائل منسلک ہے یا نہیں؛</li><li>اگر کھولنے کا پاس ورڈ لگایا ہے تو اس کی جانچ کا ہیش۔</li></ul><p>ڈی کرپشن کلید لنک میں # کے بعد والا حصہ ہے۔ براؤزر وہ حصہ کبھی سرور کو نہیں بھیجتے، اس لیے نہ ہم اور نہ سرور تک رسائی حاصل کرنے والا کوئی شخص ڈیٹا ڈی کرپٹ کر سکتا ہے۔ اسی وجہ سے لنک گم ہونے پر ہم راز واپس نہیں لا سکتے۔</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "راز اور فائلیں"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One ایک بار استعمال ہونے والے لنکس سے پاس ورڈ، کلیدیں اور فائلیں شیئر کرنے کی مفت سروس ہے۔ رجسٹریشن ضروری نہیں۔ اس سروس کو <a href=\"https://final-level.com/\">FINAL LEVEL</a> تیار اور چلاتا ہے۔</p><p>آپ لنک اپنی پسند کے طریقے سے خود بھیجتے ہیں۔ میسنجر، ای میل یا SMS پکڑا جا سکتا ہے اور جو پہلے لنک کھولے گا اسے راز ملے گا۔ اہم ڈیٹا کے لیے کھولنے کا پاس ورڈ لگائیں اور اسے کسی دوسرے ذریعے سے بتائیں۔</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "سروس کیسے کام کرتی ہے"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>آپ کا راز براؤزر میں خفیہ ہوتا ہے۔ سرور صرف خفیہ ڈیٹا وصول کرتا ہے اور اسے پڑھ نہیں سکتا۔</li><li>ڈی کرپشن کلید لنک میں # کے بعد ہوتی ہے اور کبھی سرور کو نہیں بھیجی جاتی۔</li><li>نہ رجسٹریشن، نہ اشتہارات، نہ تجزیات اور نہ تیسرے فریق کے اسکرپٹس۔</li><li>راز کھلتے ہی یا منتخب مدت ختم ہونے پر حذف ہو جاتا ہے۔</li><li>ایپلی کیشن سرور IP پتے یا راز کے آئی ڈی لاگ نہیں کرتا۔</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "مختصر خلاصہ"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>سورس کوڈ <a href=\"https://github.com/Draal/secure-share\">GitHub</a> پر کھلا ہے: آپ خفیہ کاری کا طریقہ جانچ سکتے ہیں یا اپنی کاپی چلا سکتے ہیں۔</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "اوپن سورس"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>ہم اشتہارات یا تجزیات کی کوکیز استعمال نہیں کرتے۔ سائٹ آپ کے براؤزر میں صرف کام کے لیے ضروری معلومات رکھتی ہے:</p><ul><li><code>lang</code> کوکی — اگر آپ نے انتخاب کنندہ سے زبان چنی ہے تو وہ زبان؛</li><li>localStorage میں — رنگ کی تھیم، زبان کا بینر بند کرنے کی اطلاع اور اس براؤزر سے حذف کیے گئے لنکس کا ریکارڈ؛</li><li>sessionStorage میں — جنریٹر کا پاس ورڈ جب اسے مرکزی صفحے کے فارم میں منتقل کیا جاتا ہے۔ درج ہوتے ہی ہٹا دیا جاتا ہے۔</li></ul><p>ان میں صرف زبان کی کوکی سرور تک پہنچتی ہے، جو اس سے صفحے کا نسخہ چنتا ہے۔ آپ براؤزر کی ترتیبات میں یہ سب حذف کر سکتے ہیں۔</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "کوکیز اور براؤزر اسٹوریج"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>سائٹ تیسرے فریق کے اسکرپٹس، فونٹس، کاؤنٹرز یا اشتہارات لوڈ نہیں کرتی: فونٹس سمیت سب کچھ ہمارے اپنے سرور سے فراہم ہوتا ہے۔ ہم ڈیٹا تیسرے فریق کو فروخت یا شیئر نہیں کرتے۔</p><p>Telegram، WhatsApp اور ای میل سے بھیجنے کے بٹن اور معاونین کی سائٹس کے لنکس عام لنکس ہیں۔ بیرونی سروس کو ڈیٹا صرف تب ملتا ہے جب آپ کسی لنک پر کلک کرتے ہیں، اور اس کے بعد اس کی اپنی پالیسی لاگو ہوتی ہے۔</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "تیسرے فریق کی خدمات"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "رازداری کی پالیسی"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "آخری تازہ کاری: ۲۵ اکتوبر ۲۰۲۶"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "لنک خراب ہے یا مکمل کاپی نہیں ہوا۔ بھیجنے والے سے دوبارہ بھیجنے کو کہیں۔"
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "ڈیٹا پہنچ گیا مگر ڈی کرپٹ نہ ہو سکا: لنک خراب ہے۔ راز سرور سے پہلے ہی حذف ہو چکا ہے، اس لیے بھیجنے والے سے نیا لنک بنانے کو کہیں۔"
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "سرور سے رابطہ نہیں ہو سکا۔ اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔"
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "بہت زیادہ کوششیں۔ ایک منٹ انتظار کر کے دوبارہ کوشش کریں۔"
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "راز نہیں کھولا جا سکا"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "اپنا لنک بنائیں"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "ایک بار استعمال ہونے والے لنکس کیسے کام کرتے ہیں"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "یہ پہلے ہی کھولا جا چکا ہے یا اس کی مدت ختم ہو گئی ہے۔ لنک دوبارہ نہیں کھولا جا سکتا۔"
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "بھیجنے والے سے نیا لنک بنانے کو کہیں۔ اگر آپ نے یہ نہیں کھولا تو انہیں بتائیں: شاید کسی اور نے اسے دیکھا ہو۔"
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "یہ راز اب دستیاب نہیں"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "اسے صرف ایک بار دیکھا جا سکتا ہے۔ فوراً بعد یہ سرور سے حذف ہو جائے گا۔"
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "یہ راز پاس ورڈ سے محفوظ ہے۔ اسے صرف ایک بار دیکھا جا سکتا ہے، پھر یہ سرور سے حذف ہو جائے گا۔"
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "کسی نے آپ کو ایک راز بھیجا ہے"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.One کا ایک بار استعمال ہونے والا لنک۔ راز ایک بار کھولا جا سکتا ہے، پھر سرور سے حذف ہو جاتا ہے۔"
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "کسی نے آپ کو ایک راز بھیجا ہے — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "پاس ورڈ درج کریں۔"
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "بھیجنے والے نے پاس ورڈ آپ کو الگ سے دیا ہو گا۔ تین غلط کوششوں کے بعد راز حذف ہو جاتا ہے۔"
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "کھولنے کا پاس ورڈ"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "کھولیں"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "اپنا راز شیئر کریں"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "اپنا ایک بار استعمال ہونے والا لنک بنائیں۔ رجسٹریشن نہیں۔"
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "کیا آپ کو بھی پاس ورڈ شیئر کرنا ہے؟"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "راز دکھائیں"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "سرور سے حذف کر دیا گیا"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "ڈاؤن لوڈ"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "اگر بعد میں ضرورت ہو تو محفوظ کر لیں: یہ صفحہ بند کرنے کے بعد راز دوبارہ نہیں کھولا جا سکتا۔"
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "خفیہ متن"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "آپ کا راز"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "کھولا جا رہا ہے…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One کیا ہے؟"
+  }
+]

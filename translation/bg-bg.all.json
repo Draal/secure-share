@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Заявката не можа да бъде обработена. Презаредете страницата и опитайте отново."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Тази връзка не позволява унищожаване на тайната."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Тайната не е намерена: вече е отворена, унищожена или е изтекъл срокът ѝ."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "За отварянето на тази тайна е необходима парола."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Твърде много заявки. Изчакайте минута и опитайте отново."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Възникна проблем от наша страна. Опитайте отново след минута."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Файлът е твърде голям. Ограничението е {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Паролата е въведена грешно три пъти, затова тайната е изтрита."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Грешна парола. Оставащи опити: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Затвори"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Копирано"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Копирай"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Връзки"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Поверителност"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Проект"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Често задавани въпроси"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Ръководства"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Как работи"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Сигурност"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Ресурси"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Изпращане на файл"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Генератор на пароли"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Споделяне на тайна"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Услуга"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Еднократни връзки за споделяне на пароли и файлове. Шифроване във вашия браузър."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Изходен код в GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Български"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "BG"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Език на сайта: български"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Начална страница на Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: споделете парола с еднократна връзка"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Често задавани въпроси"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Генератор на пароли"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Как работи"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Основна навигация"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Към съдържанието"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Час, календари и празници за всеки град"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Безплатни игри директно в браузъра"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Хиляди радиостанции от цял свят"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One е безплатен благодарение на нашите спонсори"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Тъмна"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Тема"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Светла"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Системна"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Изпратете я на получателя. Тайната може да бъде отворена само веднъж."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Вашата връзка е готова"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Получете още една връзка"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "За същата тайна — отделна връзка за всеки получател. Текущата връзка ще продължи да работи, но вече няма да можете да я унищожите оттук."
+  },
+  {
+    "id": "created.back",
+    "translation": "Нова тайна"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Унищожи сега"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Да се унищожи ли тайната? Връзката ще спре да работи веднага."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Тайната не можа да бъде унищожена. Опитайте отново."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Изпратихте я на грешния човек? Унищожете тайната и връзката веднага ще спре да работи."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Унищожихте тайната. Данните са изтрити от сървъра и връзката вече не работи."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Тайната е унищожена"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Никой не отвори връзката навреме. Данните са изтрити от сървъра и връзката вече не работи."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Връзката е изтекла"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Копирай връзката"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Еднократна връзка"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Тази връзка вече не работи"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Връзката се показва само в раздела, в който е създадена. Все още можете да унищожите тайната оттук."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Страница на изпращача на еднократна връзка на Encrypt.One: споделете връзката или унищожете тайната."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Вашата връзка е готова — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Създай нова връзка"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR код на еднократната връзка"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Насочете камерата на телефона към кода, за да отворите връзката. Не го показвайте на други: той отваря тайната също като връзката."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "QR код на връзката"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Изпрати чрез"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Имейл"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR код"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Тайна за вас"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Еднократна връзка към тайна:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Валидна до"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Съвет:</strong> за особено чувствителни данни добавете парола към връзката и я съобщете по друг начин, например с глас. Така прихващането на едно съобщение няма да разкрие нищо."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Прикачи файл"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Пуснете, за да прикачите файла"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Можете да плъзнете файл директно в полето."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "До {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Този браузър не поддържа шифроване. Актуализирайте го или отворете сайта в друг браузър."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Поставете текст или прикачете файл."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Файлът е твърде голям. Ограничението е {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Неуспешна връзка със сървъра. Проверете връзката си и опитайте отново."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Въведете парола за отваряне или изключете защитата с парола."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "ще бъде шифрован заедно с текста"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Премахни файла"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Генерирай парола"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Вмъкни в полето за тайна"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Предложи"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Без тази парола тайната няма да се отвори, дори връзката да бъде прихваната. Съобщете я на получателя отделно, например с глас или в друг месинджър."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Парола за отваряне"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Например maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Защити с парола"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Какво искате да споделите?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Парола, API ключ, данни за вход…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Настройки на връзката"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Създай еднократна връзка"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Шифроване…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 ден"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 час"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 дни"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 дни"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Изтича след"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Срок на съхранение"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Безплатен генератор на силни пароли, фрази и PIN кодове, създадени в браузъра и неизпращани никъде. Споделете резултата с еднократна връзка."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Генератор на силни пароли — безплатен и поверителен | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Цифри (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Дължина"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Малки букви (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Без сходни знаци (0 и O, l и 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Знаци"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Символи (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Главни букви (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Фраза от случайни думи се изговаря и помни лесно, но е толкова трудна за отгатване, колкото дълга парола. Думите са от отворения списък на EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Брой думи"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Брой цифри"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Генерирай отново"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Изпрати с еднократна връзка"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Резултатът влиза директно във формуляра и получавате връзка, която се отваря само веднъж."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Трябва да споделите тази парола?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Ентропия ≈ {bits} бита"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Средна"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Подходяща само за PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Силна"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Много силна"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Слаба"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Вид парола"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Парола"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Фраза за достъп"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Поне 14–16 знака. Дължината защитава по-добре от замяната на букви със символи."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Дълга"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Не е нужно да помните сложни пароли: за това служи мениджърът на пароли."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Съхранявана в мениджър на пароли"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Какво прави паролата силна"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Различна за всяка услуга. Така изтичането на една парола няма да отвори другите ви акаунти."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Уникална"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Генератор на пароли"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Не. Тайната се шифрова в браузъра ви преди изпращане. Ключът е във връзката след знака # и тази част от адреса никога не достига до сървъра."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Нищо няма да се случи. Тайната се показва само след натискане на „Покажи тайната“, а ботовете за преглед не натискат бутони."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Тайната се изтрива автоматично след изтичане на избрания срок на съхранение."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Да. На страницата с връзката има бутон „Унищожи сега“. След това връзката спира да работи."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Не. Нито изпращачът, нито получателят се нуждаят от акаунт."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Не намерихте отговор? Отворете заявка в GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Можете ли да прочетете тайната ми?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Какво става, ако бот за преглед на месинджър отвори връзката?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Какво става, ако получателят никога не отвори връзката?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Мога ли да отменя връзка след изпращане?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Трябва ли да се регистрирам?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Често задавани въпроси"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Вашата тайна се шифрова директно в браузъра. Получателят отваря връзката веднъж, след което данните се изтриват от сървъра."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Без регистрация"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 шифроване на вашето устройство"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Отворен код"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Споделяйте пароли сигурно с еднократни връзки"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Парола, API ключ, данни за вход или файл. Всичко се шифрова в браузъра преди изпращане."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Поставете тайната"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Чрез Telegram, WhatsApp, Signal, Slack, имейл или друг месинджър. В чата остава само връзката, а не самата парола."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Изпратете връзката"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "След преглед данните се изтриват от сървъра. Връзката не може да се отвори втори път."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Връзката се изчерпва"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Как работи"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Изпращайте пароли, лични съобщения, API ключове и файлове с шифровани еднократни връзки. Тайните се изтриват след преглед. Безплатно, отворен код, без регистрация."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Еднократни връзки за тайни — споделяйте пароли сигурно | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Споделяйте пароли и данни за достъп, без да ги оставяте в историята на чата."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Пароли и данни за вход"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Изпращайте чувствителни съобщения, които могат да се отворят само веднъж."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Лични съобщения"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Споделяйте сигурно API ключове, токени за достъп и конфигурационни файлове с екипа си."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API ключове и данни за достъп"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Споделяйте лични документи и файлове до {{.MaxFileSize}} чрез шифровани еднократни връзки."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Поверителни файлове"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Изпращайте сигурно самоунищожаващи се съобщения, пароли, API ключове и лични файлове. Всяка тайна се шифрова в браузъра и се изтрива от сървъра след преглед."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Какво можете да споделите с еднократна връзка?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Остава при вас.</strong> Ключът за дешифриране. Браузърите никога не изпращат на сървъра частта след #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Отива на сървъра.</strong> Адресът на шифрованите данни: без ключа те са просто случайни байтове."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Вграденият Web Crypto API на браузъра и AES-256-GCM. Без библиотеки на трети страни."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Шифровано в браузъра"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Целият код е публикуван в <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Всеки може да провери как работи шифроването."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Отворен код"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Без регистрация, външни скриптове и проследяващи инструменти. Затова няма и банер за бисквитки."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Нищо излишно"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Ключът за дешифриране е във връзката след знака #. Браузърите никога не изпращат тази част от адреса на сървъра, така че само вие и получателят можете да я видите."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Повече за начина на работа"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Защо не можем да прочетем тайната ви"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Сподели тайна"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Код в GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Отворен код"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Целият код на Encrypt.One е в GitHub. Всеки може да види как работи шифроването и да провери, че ключът никога не се изпраща на сървъра."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Проверете сами"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Поток на данните"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Тайната се шифрова преди изпращане и се дешифрира само от получателя. Междувременно данните остават шифровани."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Изтегля шифрованите данни, взема ключа от връзката и дешифрира тайната локално. Сървърът изтрива данните веднага след това."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Браузър на получателя"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Създава случаен ключ и шифрова текста и файла с AES-256-GCM чрез вградения в браузъра Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Браузър на изпращача"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Получава и съхранява само шифровани байтове. Без ключа никой не може да ги прочете — нито ние, нито някой с достъп до сървъра."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Сървър на Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Сървърът вижда само шифровани данни"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One шифрова тайната директно в браузъра ви. Към сървъра отиват само шифровани данни, а ключът остава във връзката и никога не напуска устройствата на изпращача и получателя."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Как работи и защо е сигурно"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Вътре във връзката"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Връзката има две части. Първата посочва къде се съхраняват шифрованите данни. Втората, след #, е ключът за дешифриране."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Всеки с пълната връзка може да отвори тайната. Изпращайте я само на получателя и добавяйте парола за чувствителни данни."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Пълната връзка дава достъп"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Браузърите не включват частта след # в заявките. Затова ключът не присъства в сървърните дневници или в междинните точки на мрежата."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Никога не се изпраща на сървъра"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Ключът се генерира случайно на вашето устройство. Не може да бъде отгатнат с груба сила."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Нов за всяка връзка"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Ключът е след #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Как Encrypt.One шифрова тайните в браузъра: AES-256-GCM, ключът във връзката след #, съхранението, изтриването и защитата с парола."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Как работи Encrypt.One: споделяне на тайни с криптиране от край до край"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Отвори генератора на пароли"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Парола за отваряне"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Паролата защитава тайната дори ако връзката бъде прихваната. Без нея получателят вижда само полето за въвеждане."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "След три грешни опита тайната се изтрива. Паролата не може да се отгатне с груба сила."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Три опита"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Натиснете „Предложи“ във формуляра или изберете фраза от генератора на пароли: тя се диктува лесно."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Не я измисляйте сами"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Съобщете паролата по друг начин: с глас, в друг месинджър или лично. Така прихващането на едно съобщение няма да разкрие нищо."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Споделете я отделно"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Втора ключалка за чувствителни данни"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Ако паролата за отваряне бъде въведена грешно три пъти, тайната се изтрива окончателно."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "След три грешни пароли"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Бутонът „Унищожи сега“ на страницата на връзката изтрива тайната веднага."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "По ваша команда"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Ако връзката не бъде отворена в избрания срок на съхранение, тайната се изтрива автоматично."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "При изтичане на срока"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Щом получателят отвори тайната, данните се изтриват. Връзката няма да работи втори път."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "След отваряне"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Брояч на грешните опити за парола"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Шифрования текст и файл"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Съхранява се на сървъра"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Избраният срок на съхранение"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Съхранение"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Сървърът пази тайната точно толкова, колкото е необходимо на получателя да я отвори."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Ключът за дешифриране от връзката"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Паролата за отваряне"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Съдържанието на тайната в открит вид"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Никога не достига до сървъра"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Какво съхранява сървърът и кога го изтрива"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Генератор на пароли"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Към началната страница"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Такава страница няма в Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Страницата не е намерена — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Адресът може да е написан погрешно или страницата да е преместена. Ако отваряте еднократна връзка, проверете дали е копирана цялата."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Страницата не е намерена"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Ако тази политика се промени, ще публикуваме новата версия на тази страница и ще актуализираме датата горе.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Промени в политиката"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Задавайте въпроси за поверителността в <a href=\"https://github.com/Draal/secure-share/issues\">заявките в GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Въпроси"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>веднага след като получателят отвори тайната;</li><li>когато натиснете „Унищожи сега“ на страницата на връзката;</li><li>след третата грешна парола;</li><li>след изтичане на избрания срок от един час до седем дни. Изтеклата тайна веднага става недостъпна, а данните ѝ се изтриват при ежедневното почистване.</li></ul><p>Изтрита тайна не може да бъде възстановена. Ботовете на месинджъри, които създават прегледи на връзки, не изразходват тайната: данните се предоставят само след натискане на „Покажи тайната“.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Кога се изтриват данните"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Паролите, фразите и PIN кодовете се създават във вашия браузър с криптографски генератор на случайни числа и никога не се изпращат на сървъра.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Генератор на пароли"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One е създаден така, че само получателят да може да прочете тайната — дори ние не можем. По-долу описваме какви данни преминават през услугата и какво се случва с тях."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Сървърът на приложението записва само API заявки: вида на заявката, резултата и времето за обработка. Не се записват IP адреси, идентификатори на тайни, токени, адреси на страници и съдържание на заявки.</p><p>За защита от атаки с груба сила и злоупотреби сървърът ограничава честотата на заявките от един IP адрес. Адресът се използва само в паметта и не се съхранява.</p><p>Уеб сървър пред приложението може да пази стандартен дневник за достъп: IP адрес, час и адрес на страницата без частта след #. Тези дневници се използват само за защита от атаки и се пазят ограничено време.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Технически дневници"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Политика за поверителност на Encrypt.One: какви данни получава услугата, колко време ги пази и защо не може да чете тайните ви."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Политика за поверителност — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Самата парола никога не напуска браузъра. От паролата и ключа на връзката браузърът извежда две независими стойности: ключ за шифроване и контролен хеш (PBKDF2 с 600 000 итерации, след това HKDF). На сървъра се изпраща само хешът. Сървърът го използва за проверка на паролата, но не може да научи нито паролата, нито ключа.</p><p>След три грешни опита тайната се изтрива. Броячът на опитите се пази в паметта на сървъра и е свързан с тайната, а не с посетителя.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Парола за отваряне"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Не знаем кой е създал или отворил тайна: услугата не свързва данни с хора, акаунти или IP адреси. Затова не можем да намерим, предоставим или изтрием данни на конкретен човек. За да изтриете тайната преди изтичане на срока, отворете страницата на връзката и натиснете „Унищожи сега“.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Вашите права"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Текстът и прикаченият файл се шифроват в браузъра с AES-256-GCM чрез вградения Web Crypto API преди изпращане. Името и типът на файла се шифроват заедно със съдържанието.</p><p>На сървъра се съхраняват само:</p><ul><li>шифрованите данни;</li><li>времето на изтичане;</li><li>дали има прикачен файл;</li><li>хеш за проверка на паролата, ако сте задали парола за отваряне.</li></ul><p>Ключът за дешифриране е частта от връзката след знака #. Браузърите никога не я изпращат на сървъра, затова нито ние, нито някой с достъп до сървъра можем да дешифрираме данните. По същата причина не можем да възстановим тайна, ако връзката бъде изгубена.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Тайни и файлове"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One е безплатна услуга за споделяне на пароли, ключове и файлове чрез еднократни връзки. Не е нужна регистрация. Услугата се разработва и поддържа от <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Вие изпращате връзката сами по удобен начин. Съобщение в месинджър, имейл или SMS може да бъде прихванато и тогава тайната получава този, който първи отвори връзката. За важни данни задавайте парола за отваряне и я съобщавайте по друг канал.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Как работи услугата"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Тайната се шифрова във вашия браузър. Сървърът получава само шифровани данни и не може да ги прочете.</li><li>Ключът за дешифриране е във връзката след знака # и никога не се изпраща на сървъра.</li><li>Без регистрация, реклами, анализи и външни скриптове.</li><li>Тайната се изтрива веднага след отваряне или след изтичане на избрания срок.</li><li>Сървърът на приложението не записва IP адреси и идентификатори на тайни.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Накратко"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Изходният код е отворен в <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: можете да проверите шифроването или да стартирате собствено копие.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Отворен код"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Не използваме рекламни или аналитични бисквитки. Сайтът запазва в браузъра само необходимото за работа:</p><ul><li>бисквитката <code>lang</code> — вашия език, ако сте го избрали от превключвателя;</li><li>в localStorage — цветовата тема, отбелязване, че сте затворили езиковия банер, и отбелязвания за връзки, унищожени от този браузър;</li><li>в sessionStorage — парола от генератора, докато се прехвърля във формуляра на началната страница. Тя се премахва веднага след вмъкване.</li></ul><p>От тях само езиковата бисквитка достига до сървъра, който я използва за избор на версия на страницата. Можете да изтриете всичко от настройките на браузъра.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Бисквитки и хранилище на браузъра"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Сайтът не зарежда външни скриптове, шрифтове, броячи или реклами: всичко, включително шрифтовете, се предоставя от нашия сървър. Не продаваме и не споделяме данни с трети страни.</p><p>Бутоните за изпращане чрез Telegram, WhatsApp и имейл, както и връзките към сайтовете на спонсорите, са обикновени връзки. Външната услуга получава данни само когато щракнете, след което се прилага нейната политика.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Услуги на трети страни"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Политика за поверителност"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Последна актуализация: 25 октомври 2026 г."
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Връзката е повредена или не е копирана изцяло. Помолете изпращача да я изпрати отново."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Данните пристигнаха, но не можаха да бъдат дешифрирани: връзката е повредена. Тайната вече е изтрита от сървъра; помолете изпращача да създаде нова."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Неуспешна връзка със сървъра. Проверете връзката си и опитайте отново."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Твърде много опити. Изчакайте минута и опитайте отново."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Тайната не можа да бъде отворена"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Създайте собствена връзка"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Как работят еднократните връзки"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Тя вече е отворена или срокът ѝ е изтекъл. Връзката не може да се отвори отново."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Помолете изпращача да създаде нова връзка. Ако не сте отваряли тази, уведомете го: може да я е видял някой друг."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Тази тайна вече не е достъпна"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Може да бъде прегледана само веднъж. Веднага след това ще бъде изтрита от сървъра."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Тайната е защитена с парола. Може да бъде прегледана само веднъж, след което ще бъде изтрита от сървъра."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Някой ви изпрати тайна"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Еднократна връзка на Encrypt.One. Тайната може да бъде отворена веднъж, след което се изтрива от сървъра."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Някой ви изпрати тайна — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Въведете паролата."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Изпращачът е трябвало да ви съобщи паролата отделно. След три грешни опита тайната се изтрива."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Парола за отваряне"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Отвори"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Споделете своя тайна"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Създайте собствена еднократна връзка. Без регистрация."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Трябва и вие да споделите парола?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Покажи тайната"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Изтрита от сървъра"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Изтегли"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Запазете я, ако ще ви трябва по-късно: след затваряне на страницата не можете да отворите тайната отново."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Текст на тайната"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Вашата тайна"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Отваряне…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Какво е Encrypt.One?"
+  }
+]

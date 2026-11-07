@@ -1,0 +1,233 @@
+{{define "content"}}<main id="main">
+<div class="page-narrow" data-manage hidden>
+{{template "manage-view" .}}
+</div>
+<div data-compose>
+
+<!-- Hero -->
+<section class="container hero" aria-labelledby="hero-title">
+  <div class="hero__intro">
+    <h1 class="h1" id="hero-title">{{t "home.hero.title"}}</h1>
+    <p class="lead lead--lg hero__lead">{{t "home.hero.lead"}}</p>
+    <ul class="checklist">
+      <li class="checklist__item"><span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span>{{t "home.hero.point1"}}</span></li>
+      <li class="checklist__item"><span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span>{{t "home.hero.point2"}}</span></li>
+      <li class="checklist__item"><span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span>{{t "home.hero.point3"}}</span></li>
+    </ul>
+  </div>
+
+  <div class="hero__form">
+    <form class="card secret-form" id="secret-form" data-secret-form novalidate data-max-file-size="{{.MaxFileBytes}}"
+      data-msg-empty="{{t "form.error.empty"}}" data-msg-file-too-large="{{t "form.error.fileTooLarge"}}"
+      data-msg-password-empty="{{t "form.error.passwordEmpty"}}" data-msg-network="{{t "form.error.network"}}"
+      data-msg-crypto="{{t "form.error.crypto"}}" data-msg-submitting="{{t "form.submitting"}}">
+      <div class="field">
+        <label class="label" for="secret-text">{{t "form.secret.label"}}</label>
+        <div class="composer" data-dropzone>
+          <textarea class="textarea" id="secret-text" rows="5" placeholder="{{t "form.secret.placeholder"}}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="attach-hint"></textarea>
+          <div class="file-card" data-file-card hidden>
+            <span class="file-card__icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg></span>
+            <span class="file-card__body">
+              <span class="file-card__name" data-file-name></span>
+              <span class="file-card__meta"><span data-file-size></span>, <span>{{t "form.file.note"}}</span></span>
+            </span>
+            <button type="button" class="btn btn--ghost btn--icon file-card__action" data-file-remove aria-label="{{t "form.file.remove"}}">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+          </div>
+          <p class="composer__drop-hint" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+            <span>{{t "form.attach.drop"}}</span>
+          </p>
+          <div class="composer__bar">
+            <button type="button" class="btn btn--secondary btn--sm btn--icon" data-dialog-open="generator-dialog" aria-label="{{t "form.generate.button"}}" title="{{t "form.generate.button"}}">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="3"/><path d="M8 9.5v5"/><path d="m5.8 10.7 4.4 2.6"/><path d="m5.8 13.3 4.4-2.6"/><path d="M13.5 15h5"/></svg>
+            </button>
+            <button type="button" class="btn btn--secondary btn--sm" data-file-pick title="{{t "form.attach.button"}}">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20.5 11.5-8.4 8.4a5.3 5.3 0 0 1-7.5-7.5l8.4-8.4a3.5 3.5 0 0 1 5 5l-8.4 8.4a1.8 1.8 0 0 1-2.5-2.5l7.7-7.7"/></svg>
+              <span class="visually-hidden">{{t "form.attach.button"}}, </span><span>{{t "form.attach.limit"}}</span>
+            </button>
+            <input type="file" class="visually-hidden" data-file-input tabindex="-1" aria-hidden="true">
+            <span class="hint" id="attach-hint">{{t "form.attach.hint"}}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="secret-form__group">
+        <span class="label" id="link-settings-label">{{t "form.settings.label"}}</span>
+        <div class="pills" role="group" aria-labelledby="link-settings-label">
+          <button type="button" class="pill" aria-pressed="false" aria-controls="protect-panel" data-toggle-panel>
+            <svg class="pill__icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.7 12.3 9.8-9.8"/><path d="m17 6 3 3"/><path d="m14.5 8.5 2 2"/></svg>
+            <span>{{t "form.protect.toggle"}}</span>
+          </button>
+          <div class="select" data-select>
+            <button type="button" class="pill pill--select" aria-haspopup="listbox" aria-expanded="false" aria-controls="ttl-list">
+              <svg class="pill__icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <span>{{t "form.ttl.label"}}</span>
+              <strong class="pill__value" data-select-value>{{t "form.ttl.1d"}}</strong>
+              <svg class="select__chevron" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <ul class="select__list" id="ttl-list" role="listbox" aria-label="{{t "form.ttl.listLabel"}}" tabindex="-1" hidden>
+              <li class="select__option" role="option" tabindex="-1" data-value="1h" aria-selected="false"><span>{{t "form.ttl.1h"}}</span><svg class="select__option-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></li>
+              <li class="select__option" role="option" tabindex="-1" data-value="1d" aria-selected="true"><span>{{t "form.ttl.1d"}}</span><svg class="select__option-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></li>
+              <li class="select__option" role="option" tabindex="-1" data-value="3d" aria-selected="false"><span>{{t "form.ttl.3d"}}</span><svg class="select__option-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></li>
+              <li class="select__option" role="option" tabindex="-1" data-value="7d" aria-selected="false"><span>{{t "form.ttl.7d"}}</span><svg class="select__option-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></li>
+            </ul>
+            <input type="hidden" name="ttl" data-select-input value="1d">
+          </div>
+        </div>
+        <div class="panel" id="protect-panel" hidden>
+          <label class="label" for="open-password">{{t "form.protect.label"}}</label>
+          <div class="input-row">
+            <input class="input" id="open-password" type="text" placeholder="{{t "form.protect.placeholder"}}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="open-password-hint">
+            <button type="button" class="btn btn--secondary btn--md" data-generate-phrase="open-password">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3.5"/><circle cx="8.5" cy="8.5" r="1.3" fill="currentColor"/><circle cx="12" cy="12" r="1.3" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.3" fill="currentColor"/></svg>
+              <span>{{t "form.protect.generate"}}</span>
+            </button>
+          </div>
+          <p class="hint" id="open-password-hint">{{t "form.protect.hint"}}</p>
+        </div>
+      </div>
+
+      <div class="secret-form__submit">
+        <p class="field-error" role="alert" data-form-error hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5 2.5 20h19z"/><path d="M12 10v4.5"/><path d="M12 17.5v.5"/></svg><span data-form-error-text></span></p>
+        <button type="submit" class="btn btn--primary btn--xl btn--block" data-submit>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>
+          <span data-submit-label>{{t "form.submit"}}</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- How it works -->
+<section class="container section section--how" id="how" aria-labelledby="how-title">
+  <h2 class="h2 section-title" id="how-title">{{t "home.how.title"}}</h2>
+  <ol class="steps">
+    <li class="step">
+      <span class="step__num" aria-hidden="true">1</span>
+      <h3 class="step__title">{{t "home.how.step1.title"}}</h3>
+      <p class="step__text">{{t "home.how.step1.text"}}</p>
+    </li>
+    <li class="step">
+      <span class="step__num" aria-hidden="true">2</span>
+      <h3 class="step__title">{{t "home.how.step2.title"}}</h3>
+      <p class="step__text">{{t "home.how.step2.text"}}</p>
+    </li>
+    <li class="step">
+      <span class="step__num" aria-hidden="true">3</span>
+      <h3 class="step__title">{{t "home.how.step3.title"}}</h3>
+      <p class="step__text">{{t "home.how.step3.text"}}</p>
+    </li>
+  </ol>
+</section>
+
+<!-- What can be shared -->
+<section class="container section section--share" id="what-to-share" aria-labelledby="share-title">
+  <div class="share-head">
+    <h2 class="h2" id="share-title">{{t "home.share.title"}}</h2>
+    <p class="lead">{{t "home.share.lead"}}</p>
+  </div>
+  <ul class="share-cards">
+    <li class="share-card">
+      <span class="share-card__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.7 12.3 9.8-9.8"/><path d="m17 6 3 3"/><path d="m14.5 8.5 2 2"/></svg></span>
+      <h3 class="share-card__title">{{t "home.share.card1.title"}}</h3>
+      <p class="share-card__text">{{t "home.share.card1.text"}}</p>
+    </li>
+    <li class="share-card">
+      <span class="share-card__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.6-4.3A8.5 8.5 0 1 1 20.5 11.5z"/><path d="M8.5 11.5h7"/></svg></span>
+      <h3 class="share-card__title">{{t "home.share.card2.title"}}</h3>
+      <p class="share-card__text">{{t "home.share.card2.text"}}</p>
+    </li>
+    <li class="share-card">
+      <span class="share-card__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/><path d="m13.5 4-3 16"/></svg></span>
+      <h3 class="share-card__title">{{t "home.share.card3.title"}}</h3>
+      <p class="share-card__text">{{t "home.share.card3.text"}}</p>
+    </li>
+    <li class="share-card">
+      <span class="share-card__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><rect x="9" y="13" width="6" height="4.5" rx="1"/><path d="M10.5 13v-1a1.5 1.5 0 0 1 3 0v1"/></svg></span>
+      <h3 class="share-card__title">{{t "home.share.card4.title"}}</h3>
+      <p class="share-card__text">{{t "home.share.card4.text"}}</p>
+    </li>
+  </ul>
+</section>
+
+<!-- Why we can't read your secret -->
+<section class="section section--band" aria-labelledby="why-title">
+  <div class="container why">
+    <div class="why__head">
+      <h2 class="h2" id="why-title">{{t "home.why.title"}}</h2>
+      <p class="lead">{{t "home.why.lead"}}</p>
+    </div>
+
+    {{template "link-diagram" .}}
+
+    <div class="features">
+      <div class="feature">
+        <svg class="feature__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 9h18"/><path d="M9.5 14.5h5"/></svg>
+        <h3 class="feature__title">{{t "home.why.feature1.title"}}</h3>
+        <p class="feature__text">{{t "home.why.feature1.text"}}</p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></svg>
+        <h3 class="feature__title">{{t "home.why.feature2.title"}}</h3>
+        <p class="feature__text">{{th "home.why.feature2.text"}}</p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.5 3.2 8.3 7.5 9.5 4.3-1.2 7.5-5 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg>
+        <h3 class="feature__title">{{t "home.why.feature3.title"}}</h3>
+        <p class="feature__text">{{t "home.why.feature3.text"}}</p>
+      </div>
+    </div>
+
+    <a class="more-link" href="{{url "how-it-works/"}}">
+      <span>{{t "home.why.more"}}</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="container section section--faq faq-layout" id="faq" aria-labelledby="faq-title">
+  <div class="faq-layout__intro">
+    <h2 class="h2" id="faq-title">{{t "home.faq.title"}}</h2>
+    <p>{{t "home.faq.lead"}}</p>
+  </div>
+  <div class="faq" data-accordion>
+    <div class="faq__item">
+      <h3 class="faq__q"><button type="button" class="faq__button" aria-expanded="true" aria-controls="faq-a1" id="faq-q1"><span>{{t "home.faq.q1"}}</span><svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>
+      <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1"><p>{{t "home.faq.a1"}}</p></div>
+    </div>
+    <div class="faq__item">
+      <h3 class="faq__q"><button type="button" class="faq__button" aria-expanded="false" aria-controls="faq-a2" id="faq-q2"><span>{{t "home.faq.q2"}}</span><svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>
+      <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden><p>{{t "home.faq.a2"}}</p></div>
+    </div>
+    <div class="faq__item">
+      <h3 class="faq__q"><button type="button" class="faq__button" aria-expanded="false" aria-controls="faq-a3" id="faq-q3"><span>{{t "home.faq.q3"}}</span><svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>
+      <div class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden><p>{{t "home.faq.a3"}}</p></div>
+    </div>
+    <div class="faq__item">
+      <h3 class="faq__q"><button type="button" class="faq__button" aria-expanded="false" aria-controls="faq-a4" id="faq-q4"><span>{{t "home.faq.q4"}}</span><svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>
+      <div class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden><p>{{t "home.faq.a4"}}</p></div>
+    </div>
+    <div class="faq__item">
+      <h3 class="faq__q"><button type="button" class="faq__button" aria-expanded="false" aria-controls="faq-a5" id="faq-q5"><span>{{t "home.faq.q5"}}</span><svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h3>
+      <div class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden><p>{{t "home.faq.a5"}}</p></div>
+    </div>
+  </div>
+</section>
+
+</div>
+</main>
+{{template "qr-dialog" .}}
+<dialog class="dialog dialog--wide" id="generator-dialog" aria-labelledby="generator-dialog-title">
+  <div class="dialog__inner">
+    <div class="dialog__head">
+      <h2 class="dialog__title" id="generator-dialog-title">{{t "generator.title"}}</h2>
+      <button type="button" class="btn btn--ghost btn--icon dialog__close" data-dialog-close aria-label="{{t "common.close"}}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+    </div>
+    {{template "generator" dict "Compact" true}}
+    <button type="button" class="btn btn--primary btn--lg btn--block" data-gen-insert>{{t "form.generate.insert"}}</button>
+  </div>
+</dialog>
+{{end}}

@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Không thể xử lý yêu cầu. Hãy tải lại trang và thử lại."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Liên kết này không cho phép hủy nội dung bí mật."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Không tìm thấy nội dung bí mật: nội dung đã được mở, bị hủy hoặc hết hạn."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Cần mật khẩu để mở nội dung bí mật này."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Quá nhiều yêu cầu. Hãy đợi một phút rồi thử lại."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Đã xảy ra lỗi từ phía chúng tôi. Hãy thử lại sau một phút."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Tệp quá lớn. Giới hạn là {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Nội dung bí mật đã bị xóa vì mật khẩu được nhập sai ba lần."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Sai mật khẩu. Số lần thử còn lại: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Đóng"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Đã sao chép"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Sao chép"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Liên kết"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Quyền riêng tư"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Dự án"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Câu hỏi thường gặp"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Hướng dẫn"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Cách hoạt động"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Bảo mật"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Tài nguyên"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Gửi tệp"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Trình tạo mật khẩu"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Chia sẻ bí mật"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Dịch vụ"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Liên kết dùng một lần để chia sẻ mật khẩu và tệp. Được mã hóa trong trình duyệt của bạn."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Mã nguồn trên GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Tiếng Việt"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "VI"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Ngôn ngữ trang web: Tiếng Việt"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Trang chủ Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: chia sẻ mật khẩu bằng liên kết dùng một lần"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Câu hỏi thường gặp"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Trình tạo mật khẩu"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Cách hoạt động"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Điều hướng chính"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Chuyển đến nội dung"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Giờ, lịch và ngày lễ của mọi thành phố"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Trò chơi miễn phí ngay trong trình duyệt"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Hàng nghìn đài phát thanh từ khắp thế giới"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One miễn phí nhờ các nhà tài trợ"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Tối"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Giao diện"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Sáng"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Theo hệ thống"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Hãy gửi cho người nhận. Nội dung bí mật chỉ có thể mở một lần."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Liên kết của bạn đã sẵn sàng"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Tạo liên kết khác"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Với cùng một nội dung bí mật, hãy tạo một liên kết cho mỗi người nhận. Liên kết hiện tại vẫn hoạt động, nhưng bạn sẽ không thể hủy nó từ đây."
+  },
+  {
+    "id": "created.back",
+    "translation": "Bí mật mới"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Hủy ngay"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Hủy nội dung bí mật? Liên kết sẽ ngừng hoạt động ngay lập tức."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Không thể hủy nội dung bí mật. Vui lòng thử lại."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Gửi nhầm người? Hủy nội dung bí mật để liên kết ngừng hoạt động ngay."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Bạn đã hủy nội dung bí mật. Dữ liệu đã bị xóa khỏi máy chủ và liên kết không còn hoạt động."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Đã hủy nội dung bí mật"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Không ai mở liên kết kịp thời. Dữ liệu đã bị xóa khỏi máy chủ và liên kết không còn hoạt động."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Liên kết đã hết hạn"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Sao chép liên kết"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Liên kết dùng một lần"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Liên kết này không còn hoạt động"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Liên kết chỉ hiển thị trong thẻ đã tạo ra nó. Bạn vẫn có thể hủy nội dung bí mật từ đây."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Trang người gửi của liên kết dùng một lần Encrypt.One: chia sẻ liên kết hoặc hủy nội dung bí mật."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Liên kết của bạn đã sẵn sàng — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Tạo liên kết mới"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "Mã QR của liên kết dùng một lần"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Dùng máy ảnh điện thoại quét mã để mở liên kết. Đừng cho người khác xem mã: mã cũng mở được nội dung bí mật như liên kết."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Mã QR của liên kết"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Gửi qua"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Email"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "Mã QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Một bí mật dành cho bạn"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Liên kết dùng một lần đến nội dung bí mật:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Có hiệu lực đến"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Mẹo:</strong> với dữ liệu thực sự nhạy cảm, hãy thêm mật khẩu cho liên kết và gửi mật khẩu bằng cách khác, chẳng hạn nói trực tiếp. Khi đó việc chặn một tin nhắn sẽ không tiết lộ nội dung."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Đính kèm tệp"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Thả tệp để đính kèm"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Bạn có thể kéo tệp trực tiếp vào ô."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Tối đa {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Trình duyệt này không hỗ trợ mã hóa. Hãy cập nhật hoặc mở trang bằng trình duyệt khác."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Nhập văn bản hoặc đính kèm tệp."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Tệp quá lớn. Giới hạn là {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Không thể kết nối với máy chủ. Hãy kiểm tra kết nối và thử lại."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Nhập mật khẩu để mở hoặc tắt bảo vệ bằng mật khẩu."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "được mã hóa cùng văn bản"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Xóa tệp"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Tạo mật khẩu"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Chèn vào ô nội dung bí mật"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Đề xuất"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Không có mật khẩu này thì không thể mở nội dung bí mật, ngay cả khi liên kết bị chặn. Hãy gửi mật khẩu riêng cho người nhận, chẳng hạn nói trực tiếp hoặc qua ứng dụng nhắn tin khác."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Mật khẩu để mở"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Ví dụ: maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Bảo vệ bằng mật khẩu"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Bạn muốn chia sẻ gì?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Mật khẩu, khóa API, thông tin đăng nhập…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Cài đặt liên kết"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Tạo liên kết dùng một lần"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Đang mã hóa…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 ngày"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 giờ"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 ngày"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 ngày"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Hết hạn sau"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Thời gian lưu"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Trình tạo mật khẩu mạnh miễn phí: tạo mật khẩu ngẫu nhiên, cụm mật khẩu và mã PIN ngay trong trình duyệt mà không gửi đi đâu. Chia sẻ kết quả bằng liên kết dùng một lần."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Trình tạo mật khẩu mạnh — Miễn phí và riêng tư | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Chữ số (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Độ dài"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Chữ thường (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Không dùng ký tự dễ nhầm (0 và O, l và 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Ký tự"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Ký hiệu (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Chữ hoa (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Cụm từ gồm các từ ngẫu nhiên dễ đọc thành tiếng và dễ nhớ, nhưng khó đoán như mật khẩu dài. Các từ lấy từ danh sách công khai của EFF."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Số từ"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Số chữ số"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Tạo lại"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Gửi dưới dạng liên kết dùng một lần"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Nội dung được đưa thẳng vào biểu mẫu và bạn sẽ nhận được liên kết chỉ mở được một lần."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Bạn cần chia sẻ mật khẩu này?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropy ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Trung bình"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Chỉ phù hợp làm mã PIN"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Mạnh"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Rất mạnh"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Yếu"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Loại mật khẩu"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Mật khẩu"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Cụm mật khẩu"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Ít nhất 14–16 ký tự. Độ dài bảo vệ tốt hơn việc khéo léo thay chữ bằng ký hiệu."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Dài"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Bạn không cần nhớ mật khẩu phức tạp: trình quản lý mật khẩu sẽ giúp bạn."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Lưu trong trình quản lý mật khẩu"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Điều gì tạo nên mật khẩu mạnh"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Mỗi dịch vụ dùng một mật khẩu riêng. Khi một mật khẩu bị lộ, các tài khoản khác vẫn an toàn."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Duy nhất"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Trình tạo mật khẩu"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Không. Nội dung bí mật được mã hóa trong trình duyệt trước khi gửi. Khóa nằm trong liên kết sau dấu # và phần đó không bao giờ đến máy chủ."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Không có gì xảy ra. Nội dung bí mật chỉ hiện ra khi ai đó nhấn “Hiện nội dung bí mật”, còn bot xem trước không nhấn nút."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Nội dung bí mật tự xóa khi hết thời gian lưu bạn đã chọn."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Có. Trang chứa liên kết có nút “Hủy ngay”. Sau đó liên kết ngừng hoạt động."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Không. Cả người gửi lẫn người nhận đều không cần tài khoản."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Không tìm thấy câu trả lời? Hãy tạo một issue trên GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Các bạn có thể đọc nội dung bí mật của tôi không?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Điều gì xảy ra nếu bot xem trước của ứng dụng nhắn tin mở liên kết?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Nếu người nhận không bao giờ mở liên kết thì sao?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Tôi có thể thu hồi liên kết sau khi gửi không?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Tôi có cần đăng ký không?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Câu hỏi thường gặp"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Nội dung bí mật được mã hóa ngay trong trình duyệt. Người nhận mở liên kết một lần, sau đó dữ liệu bị xóa khỏi máy chủ."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Không cần đăng ký"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "Mã hóa AES-256 trên thiết bị của bạn"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Mã nguồn mở"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Chia sẻ mật khẩu an toàn bằng liên kết dùng một lần"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Mật khẩu, khóa API, thông tin đăng nhập hoặc tệp. Mọi thứ được mã hóa trong trình duyệt trước khi gửi."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Nhập nội dung bí mật"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Qua Telegram, WhatsApp, Signal, Slack, email hoặc ứng dụng nhắn tin khác. Cuộc trò chuyện chỉ lưu liên kết, không lưu mật khẩu."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Gửi liên kết"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Sau khi xem, dữ liệu bị xóa khỏi máy chủ. Liên kết không thể mở lần thứ hai."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Liên kết hết hiệu lực"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Cách hoạt động"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Gửi mật khẩu, tin nhắn riêng tư, khóa API và tệp bằng liên kết dùng một lần được mã hóa. Nội dung bí mật bị xóa sau khi xem. Miễn phí, mã nguồn mở, không cần đăng ký."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Liên kết bí mật dùng một lần — Chia sẻ mật khẩu an toàn | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Chia sẻ mật khẩu và thông tin tài khoản mà không để lại trong lịch sử trò chuyện."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Mật khẩu và thông tin đăng nhập"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Gửi tin nhắn nhạy cảm chỉ có thể mở một lần."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Tin nhắn riêng tư"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Chia sẻ an toàn khóa API, mã thông báo truy cập và tệp cấu hình với đồng đội."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "Khóa API và thông tin xác thực"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Chia sẻ tài liệu riêng tư và tệp tối đa {{.MaxFileSize}} qua liên kết dùng một lần được mã hóa."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Tệp bảo mật"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Gửi an toàn tin nhắn tự hủy, mật khẩu, khóa API và tệp riêng tư. Mỗi nội dung bí mật được mã hóa trong trình duyệt và xóa khỏi máy chủ sau khi xem."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Bạn có thể chia sẻ gì bằng liên kết dùng một lần?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Ở lại với bạn.</strong> Khóa giải mã. Trình duyệt không bao giờ gửi phần sau dấu # đến máy chủ."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Được gửi đến máy chủ.</strong> Địa chỉ dữ liệu mã hóa: không có khóa, đó chỉ là các byte ngẫu nhiên."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Web Crypto API tích hợp trong trình duyệt và AES-256-GCM. Không dùng thư viện bên thứ ba."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Mã hóa trong trình duyệt"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Toàn bộ mã được công khai trên <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Bất kỳ ai cũng có thể kiểm tra cách mã hóa hoạt động."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Mã nguồn mở"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Không đăng ký, không tập lệnh bên thứ ba, không công cụ theo dõi. Vì vậy cũng không có biểu ngữ cookie."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Không có thành phần thừa"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Khóa giải mã nằm trong liên kết sau dấu #. Trình duyệt không bao giờ gửi phần này của địa chỉ đến máy chủ, nên chỉ bạn và người nhận nhìn thấy."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Tìm hiểu thêm về cách hoạt động"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Vì sao chúng tôi không thể đọc nội dung bí mật của bạn"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Chia sẻ bí mật"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Mã nguồn trên GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Mã nguồn mở"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Toàn bộ mã của Encrypt.One có trên GitHub. Bất kỳ ai cũng có thể xem cách mã hóa hoạt động và kiểm tra rằng khóa không bao giờ được gửi đến máy chủ."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Tự kiểm tra"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Luồng dữ liệu"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Nội dung bí mật được mã hóa trước khi gửi và chỉ người nhận mới giải mã. Trong quá trình truyền, dữ liệu luôn được mã hóa."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Tải dữ liệu mã hóa, lấy khóa từ liên kết và giải mã nội dung bí mật trên thiết bị. Máy chủ xóa dữ liệu ngay sau đó."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Trình duyệt của người nhận"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Tạo khóa ngẫu nhiên và mã hóa văn bản cùng tệp bằng AES-256-GCM thông qua Web Crypto API tích hợp trong trình duyệt."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Trình duyệt của người gửi"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Chỉ nhận và lưu các byte đã mã hóa. Không có khóa, không ai có thể đọc chúng — kể cả chúng tôi hay người truy cập được máy chủ."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Máy chủ Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Máy chủ chỉ thấy dữ liệu đã mã hóa"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One mã hóa nội dung bí mật ngay trong trình duyệt của bạn. Chỉ dữ liệu đã mã hóa được gửi đến máy chủ, còn khóa nằm trong liên kết và không rời khỏi thiết bị của người gửi và người nhận."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Cách hoạt động và lý do an toàn"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Bên trong liên kết"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Một liên kết có hai phần. Phần đầu chỉ nơi lưu dữ liệu đã mã hóa. Phần thứ hai, sau dấu #, là khóa giải mã."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Ai có toàn bộ liên kết đều có thể mở nội dung bí mật. Chỉ gửi cho người nhận và thêm mật khẩu cho dữ liệu nhạy cảm."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Toàn bộ liên kết là quyền truy cập"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Trình duyệt không đưa phần sau dấu # vào yêu cầu. Vì vậy khóa không xuất hiện trong nhật ký máy chủ hay tại bất kỳ điểm trung gian nào trên mạng."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Không bao giờ gửi đến máy chủ"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Khóa được tạo ngẫu nhiên trên thiết bị của bạn. Không thể dò tìm bằng cách thử tất cả khả năng."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Mới cho mỗi liên kết"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Khóa nằm sau dấu #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Cách Encrypt.One mã hóa nội dung bí mật trong trình duyệt: AES-256-GCM, khóa trong liên kết sau #, máy chủ lưu gì, khi nào dữ liệu bị xóa và vì sao nên thêm mật khẩu."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Cách Encrypt.One hoạt động: chia sẻ bí mật mã hóa đầu cuối"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Mở trình tạo mật khẩu"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Mật khẩu để mở"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Mật khẩu bảo vệ nội dung bí mật ngay cả khi liên kết bị chặn. Không có mật khẩu, người nhận chỉ thấy ô nhập."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Sau ba lần nhập sai, nội dung bí mật bị xóa. Không thể dò mật khẩu bằng cách thử liên tục."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Ba lần thử"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Nhấn “Đề xuất” trong biểu mẫu hoặc lấy cụm từ từ trình tạo mật khẩu: cụm từ dễ đọc thành tiếng."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Đừng tự nghĩ mật khẩu"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Gửi mật khẩu bằng cách khác: nói trực tiếp, dùng ứng dụng nhắn tin khác hoặc gặp trực tiếp. Khi đó việc chặn một tin nhắn sẽ không tiết lộ nội dung."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Gửi riêng"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Lớp khóa thứ hai cho dữ liệu nhạy cảm"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Nếu nhập sai mật khẩu mở ba lần, nội dung bí mật sẽ bị xóa vĩnh viễn."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Sau ba lần nhập sai mật khẩu"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Nút “Hủy ngay” trên trang liên kết xóa nội dung bí mật ngay lập tức."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Khi bạn quyết định"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Nếu liên kết không được mở trong thời gian lưu đã chọn, nội dung bí mật tự xóa."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Khi hết hạn"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Ngay khi người nhận mở nội dung bí mật, dữ liệu bị xóa. Liên kết không hoạt động lần thứ hai."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Sau khi được mở"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Bộ đếm số lần nhập sai mật khẩu"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Văn bản và tệp đã mã hóa"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Được lưu trên máy chủ"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Thời gian lưu bạn đã chọn"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Lưu trữ"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Máy chủ giữ nội dung bí mật đúng trong thời gian người nhận cần để mở."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Khóa giải mã trong liên kết"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Mật khẩu để mở"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Nội dung bí mật ở dạng văn bản thuần"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Không bao giờ đến máy chủ"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Máy chủ lưu gì và khi nào xóa"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Trình tạo mật khẩu"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Về trang chủ"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Không có trang này trên Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Không tìm thấy trang — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Địa chỉ có thể bị nhập sai hoặc trang đã được chuyển đi. Nếu bạn đang mở liên kết dùng một lần, hãy kiểm tra xem liên kết đã được sao chép đầy đủ chưa."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Không tìm thấy trang"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Nếu chính sách này thay đổi, chúng tôi sẽ đăng phiên bản mới tại đây và cập nhật ngày ở đầu trang.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Thay đổi chính sách"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Đặt câu hỏi về quyền riêng tư trong <a href=\"https://github.com/Draal/secure-share/issues\">GitHub issues</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Câu hỏi"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>ngay sau khi người nhận mở nội dung bí mật;</li><li>khi bạn nhấn “Hủy ngay” trên trang liên kết;</li><li>sau lần nhập sai mật khẩu thứ ba;</li><li>khi hết thời gian đã chọn, từ 1 giờ đến 7 ngày. Nội dung hết hạn không còn được cung cấp ngay lập tức, và dữ liệu được xóa trong lần dọn dẹp hàng ngày.</li></ul><p>Không thể khôi phục nội dung đã xóa. Bot tạo bản xem trước liên kết không làm mất lượt mở: dữ liệu chỉ được cung cấp sau khi nhấn “Hiện nội dung bí mật”.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Khi nào dữ liệu bị xóa"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Mật khẩu, cụm mật khẩu và mã PIN được tạo trong trình duyệt bằng bộ sinh số ngẫu nhiên mật mã và không bao giờ được gửi đến máy chủ.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Trình tạo mật khẩu"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One được thiết kế để chỉ người nhận mới đọc được nội dung bí mật — ngay cả chúng tôi cũng không thể. Đây là dữ liệu đi qua dịch vụ và cách dữ liệu được xử lý."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Máy chủ ứng dụng chỉ ghi nhật ký yêu cầu API: loại yêu cầu, kết quả và thời gian xử lý. Địa chỉ IP, ID bí mật, mã thông báo, địa chỉ trang và nội dung yêu cầu không bao giờ được ghi lại.</p><p>Để bảo vệ dịch vụ khỏi dò mật khẩu và lạm dụng, máy chủ giới hạn tần suất yêu cầu theo địa chỉ IP. Địa chỉ chỉ được dùng trong bộ nhớ và không được lưu trữ.</p><p>Máy chủ web phía trước ứng dụng có thể giữ nhật ký truy cập thông thường: địa chỉ IP, thời gian và địa chỉ trang không có phần sau #. Nhật ký này chỉ dùng để chống tấn công và được giữ trong thời gian giới hạn.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Nhật ký kỹ thuật"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Chính sách quyền riêng tư của Encrypt.One: dịch vụ nhận dữ liệu gì, lưu bao lâu và vì sao không thể đọc nội dung bí mật của bạn."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Chính sách quyền riêng tư — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Mật khẩu không bao giờ rời khỏi trình duyệt. Từ mật khẩu và khóa trong liên kết, trình duyệt tạo hai giá trị độc lập: khóa mã hóa và hàm băm kiểm tra (PBKDF2 với 600.000 vòng lặp, sau đó là HKDF). Chỉ hàm băm được gửi đến máy chủ. Máy chủ dùng nó để kiểm tra mật khẩu nhưng không thể biết mật khẩu hay khóa.</p><p>Sau ba lần nhập sai, nội dung bí mật bị xóa. Bộ đếm số lần thử nằm trong bộ nhớ máy chủ và gắn với nội dung bí mật, không phải khách truy cập.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Mật khẩu để mở"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Chúng tôi không biết ai đã tạo hoặc mở nội dung bí mật: dịch vụ không liên kết dữ liệu với người, tài khoản hay địa chỉ IP. Vì vậy chúng tôi không thể tìm, cung cấp hay xóa dữ liệu của một người cụ thể. Để xóa nội dung trước khi hết hạn, hãy mở trang liên kết và nhấn “Hủy ngay”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Quyền của bạn"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Văn bản và tệp đính kèm được mã hóa trong trình duyệt bằng AES-256-GCM qua Web Crypto API tích hợp trước khi gửi. Tên và loại tệp được mã hóa cùng nội dung.</p><p>Máy chủ chỉ lưu:</p><ul><li>dữ liệu đã mã hóa;</li><li>thời điểm hết hạn;</li><li>có tệp đính kèm hay không;</li><li>hàm băm kiểm tra mật khẩu, nếu bạn đặt mật khẩu mở.</li></ul><p>Khóa giải mã là phần liên kết sau dấu #. Trình duyệt không bao giờ gửi phần đó đến máy chủ, nên cả chúng tôi lẫn bất kỳ ai truy cập được máy chủ đều không thể giải mã dữ liệu. Vì lý do đó, chúng tôi cũng không thể khôi phục nội dung nếu liên kết bị mất.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Nội dung bí mật và tệp"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One là dịch vụ miễn phí để chia sẻ mật khẩu, khóa và tệp qua liên kết dùng một lần. Không cần đăng ký. Dịch vụ do <a href=\"https://final-level.com/\">FINAL LEVEL</a> phát triển và vận hành.</p><p>Bạn tự gửi liên kết theo cách mình muốn. Tin nhắn, email hoặc SMS có thể bị chặn, và người mở liên kết đầu tiên sẽ nhận được nội dung bí mật. Với dữ liệu quan trọng, hãy đặt mật khẩu mở và gửi mật khẩu qua kênh khác.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Cách dịch vụ hoạt động"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Nội dung bí mật được mã hóa trong trình duyệt. Máy chủ chỉ nhận dữ liệu đã mã hóa và không thể đọc.</li><li>Khóa giải mã nằm trong liên kết sau dấu # và không bao giờ được gửi đến máy chủ.</li><li>Không đăng ký, quảng cáo, phân tích hay tập lệnh bên thứ ba.</li><li>Nội dung bí mật bị xóa ngay sau khi mở hoặc khi hết thời gian đã chọn.</li><li>Máy chủ ứng dụng không ghi địa chỉ IP hay ID bí mật.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Tóm tắt"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Mã nguồn được công khai trên <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: bạn có thể kiểm tra cách mã hóa hoạt động hoặc tự chạy bản sao.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Mã nguồn mở"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Chúng tôi không dùng cookie quảng cáo hoặc phân tích. Trang web chỉ lưu trong trình duyệt những gì cần thiết để hoạt động:</p><ul><li>cookie <code>lang</code> — ngôn ngữ bạn chọn trong bộ chọn;</li><li>trong localStorage — giao diện màu, ghi nhận bạn đã đóng biểu ngữ ngôn ngữ và các liên kết đã hủy từ trình duyệt này;</li><li>trong sessionStorage — mật khẩu từ trình tạo khi chuyển sang biểu mẫu trên trang chủ. Mật khẩu được xóa ngay sau khi chèn.</li></ul><p>Trong số này, chỉ cookie ngôn ngữ được gửi đến máy chủ để chọn phiên bản trang. Bạn có thể xóa tất cả trong cài đặt trình duyệt.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookie và bộ nhớ trình duyệt"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Trang web không tải tập lệnh, phông chữ, bộ đếm hay quảng cáo của bên thứ ba: mọi thứ, kể cả phông chữ, đều đến từ máy chủ của chúng tôi. Chúng tôi không bán hay chia sẻ dữ liệu với bên thứ ba.</p><p>Các nút gửi qua Telegram, WhatsApp và email, cũng như liên kết đến trang tài trợ, là liên kết thông thường. Dịch vụ bên ngoài chỉ nhận dữ liệu khi bạn nhấn vào liên kết và từ đó chính sách riêng của họ được áp dụng.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Dịch vụ bên thứ ba"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Chính sách quyền riêng tư"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Cập nhật lần cuối: 25 tháng 10 năm 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Liên kết bị hỏng hoặc chưa được sao chép đầy đủ. Hãy yêu cầu người gửi gửi lại."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Dữ liệu đã đến nhưng không thể giải mã vì liên kết bị hỏng. Nội dung bí mật đã bị xóa khỏi máy chủ, vì vậy hãy yêu cầu người gửi tạo liên kết mới."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Không thể kết nối với máy chủ. Hãy kiểm tra kết nối và thử lại."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Quá nhiều lần thử. Hãy đợi một phút rồi thử lại."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Không thể mở nội dung bí mật"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Tạo liên kết của bạn"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Cách liên kết dùng một lần hoạt động"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Nội dung đã được mở hoặc hết hạn. Không thể mở lại liên kết."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Hãy yêu cầu người gửi tạo liên kết mới. Nếu bạn chưa mở liên kết này, hãy báo cho họ: có thể người khác đã xem."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Nội dung bí mật này không còn khả dụng"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Chỉ có thể xem một lần. Ngay sau đó, nội dung sẽ bị xóa khỏi máy chủ."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Nội dung bí mật này được bảo vệ bằng mật khẩu. Chỉ có thể xem một lần, sau đó sẽ bị xóa khỏi máy chủ."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Ai đó đã gửi cho bạn một bí mật"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Liên kết dùng một lần của Encrypt.One. Nội dung bí mật có thể được mở một lần rồi bị xóa khỏi máy chủ."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Ai đó đã gửi cho bạn một bí mật — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Nhập mật khẩu."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Người gửi hẳn đã cung cấp mật khẩu riêng cho bạn. Sau ba lần nhập sai, nội dung bí mật sẽ bị xóa."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Mật khẩu để mở"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Mở"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Chia sẻ bí mật của bạn"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Tạo liên kết dùng một lần của riêng bạn. Không cần đăng ký."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Bạn cũng cần chia sẻ mật khẩu?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Hiện nội dung bí mật"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Đã xóa khỏi máy chủ"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Tải xuống"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Hãy lưu lại nếu bạn cần sau này: khi đóng trang, nội dung bí mật không thể mở lại."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Văn bản bí mật"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Bí mật của bạn"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Đang mở…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One là gì?"
+  }
+]

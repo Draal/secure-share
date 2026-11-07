@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Hindi namin maproseso ang kahilingan. I-reload ang pahina at subukang muli."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Hindi pinapayagan ng link na ito ang pagbura sa lihim."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Hindi nahanap ang lihim: nabuksan na, nabura na o nag-expire na ito."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Kailangan ng password upang mabuksan ang lihim na ito."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "Masyadong maraming kahilingan. Maghintay ng isang minuto at subukang muli."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "May nangyaring mali sa aming panig. Subukang muli makalipas ang isang minuto."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Masyadong malaki ang file. Ang limitasyon ay {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Nabura ang lihim dahil tatlong beses na nailagay ang maling password."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Maling password. Natitirang pagsubok: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Isara"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Nakopya"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopyahin"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Mga link"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privacy"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Proyekto"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Mga karaniwang tanong"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Mga gabay"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Paano ito gumagana"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Seguridad"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Mga mapagkukunan"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Magpadala ng file"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Password generator"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Magbahagi ng lihim"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Serbisyo"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Mga link na isang beses lang magagamit para magbahagi ng password at file. Naka-encrypt sa iyong browser."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Source code sa GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Filipino"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "FIL"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Wika ng site: Filipino"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Home page ng Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: magbahagi ng password gamit ang link na isang beses lang magagamit"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Mga karaniwang tanong"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Password generator"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Paano ito gumagana"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Pangunahing nabigasyon"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Lumaktaw sa nilalaman"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Oras, mga kalendaryo at pista opisyal para sa anumang lungsod"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Mga libreng laro mismo sa iyong browser"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Libo-libong istasyon ng radyo mula sa buong mundo"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Libre ang Encrypt.One salamat sa aming mga sponsor"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Madilim"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Maliwanag"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "Ayon sa system"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Ipadala ito sa tatanggap. Isang beses lang mabubuksan ang lihim."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Handa na ang iyong link"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Kumuha ng isa pang link"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Para sa parehong lihim, gumawa ng isang link para sa bawat tatanggap. Patuloy na gagana ang kasalukuyang link, ngunit hindi mo na ito mabubura mula rito."
+  },
+  {
+    "id": "created.back",
+    "translation": "Bagong lihim"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Burahin ngayon"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Burahin ang lihim? Agad na hihinto sa paggana ang link."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Hindi namin mabura ang lihim. Pakisubukang muli."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Maling tao ang napadalhan? Burahin ang lihim at agad na hihinto sa paggana ang link."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Binura mo ang lihim. Nabura na ang data sa server at hindi na gumagana ang link."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Nabura ang lihim"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Walang nagbukas ng link sa oras. Nabura na ang data sa server at hindi na gumagana ang link."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Nag-expire na ang link"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopyahin ang link"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Link na isang beses lang magagamit"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Hindi na gumagana ang link na ito"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Ang link ay ipinapakita lamang sa tab kung saan ito ginawa. Maaari mo pa ring burahin ang lihim mula rito."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Pahina ng nagpadala ng link ng Encrypt.One na isang beses lang magagamit: ibahagi ang link o burahin ang lihim."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Handa na ang iyong link — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Gumawa ng bagong link"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR code ng link na isang beses lang magagamit"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Itapat ang camera ng telepono para buksan ang link. Huwag ipakita ang code sa iba: nabubuksan nito ang lihim tulad ng link."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "QR code ng link"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Ipadala sa pamamagitan ng"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Email"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR code"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "Isang lihim para sa iyo"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Link sa lihim na isang beses lang magagamit:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Balido hanggang"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tip:</strong> para sa talagang sensitibong data, magdagdag ng password sa link at ibigay ito sa ibang paraan, halimbawa nang pasalita. Sa gayon, walang malalaman ang makakaharang ng isang mensahe lamang."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Mag-attach ng file"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "I-drop ang file para i-attach"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Maaari mong i-drag ang file nang direkta sa field."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Hanggang {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Hindi sinusuportahan ng browser na ito ang encryption. I-update ito o buksan ang site sa ibang browser."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Maglagay ng text o mag-attach ng file."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Masyadong malaki ang file. Ang limitasyon ay {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Hindi makakonekta sa server. Suriin ang koneksyon at subukang muli."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Ilagay ang password sa pagbubukas o i-off ang proteksyon ng password."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "naka-encrypt kasama ng text"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Alisin ang file"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Gumawa ng password"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Ilagay sa field ng lihim"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Magmungkahi"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Kung wala ang password na ito, hindi mabubuksan ang lihim kahit maharang ang link. Ibigay ito nang hiwalay sa tatanggap, halimbawa nang pasalita o sa ibang messenger."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Password sa pagbubukas"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "Halimbawa: maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Protektahan gamit ang password"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Ano ang gusto mong ibahagi?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Password, API key, mga detalye sa pag-login…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Mga setting ng link"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Gumawa ng link na isang beses lang magagamit"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Nag-e-encrypt…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 araw"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 oras"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 araw"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 araw"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Mag-e-expire sa loob ng"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Panahon ng pag-iimbak"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Libreng generator ng malalakas na password: gumagawa ng random na password, passphrase at PIN mismo sa iyong browser at hindi ipinapadala ang mga ito. Ibahagi ang resulta sa pamamagitan ng link na isang beses lang magagamit."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Generator ng Malalakas na Password — Libre at Pribado | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Mga digit (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Haba"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Maliliit na titik (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Walang magkakahawig na character (0 at O, l at 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Mga character"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Mga simbolo (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Malalaking titik (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "Ang pariralang binubuo ng mga random na salita ay madaling sabihin at tandaan, ngunit mahirap hulaan gaya ng mahabang password. Mula sa bukas na listahan ng EFF ang mga salita."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Bilang ng mga salita"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Bilang ng mga digit"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Gumawa muli"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Ipadala bilang link na isang beses lang magagamit"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Direkta itong ilalagay sa form, at makakakuha ka ng link na isang beses lang mabubuksan."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Kailangang ibahagi ang password na ito?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropy ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Katamtaman"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Angkop para sa PIN lamang"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Malakas"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Napakalakas"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Mahina"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Uri ng password"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Password"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Passphrase"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Hindi bababa sa 14–16 na character. Mas mahusay na proteksyon ang haba kaysa sa pagpapalit ng mga titik ng mga simbolo."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Mahaba"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Hindi mo kailangang tandaan ang mga kumplikadong password: para rito ang password manager."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Naka-save sa password manager"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Ano ang nagpapalakas sa password"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Gumamit ng magkakaibang password sa bawat serbisyo. Sa gayon, hindi mabubuksan ng isang na-leak na password ang iba mo pang account."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Natatangi"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Password generator"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Hindi. Naka-encrypt ang lihim sa iyong browser bago ipadala. Nasa link pagkatapos ng # ang key, at hindi kailanman nakakarating sa server ang bahaging iyon ng address."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Walang mangyayari. Lilitaw lamang ang lihim kapag may pumindot sa “Ipakita ang lihim”, at hindi pumipindot ng mga button ang mga preview bot."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Kusang nabubura ang lihim kapag natapos ang panahon ng pag-iimbak na pinili mo."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Oo. May button na “Burahin ngayon” sa pahina ng iyong link. Pagkatapos nito, hindi na gagana ang link."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Hindi. Hindi kailangan ng account ang nagpadala o ang tatanggap."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Hindi mahanap ang sagot? Magbukas ng issue sa GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Mababasa ba ninyo ang aking lihim?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Paano kung buksan ng preview bot ng messenger ang link?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Paano kung hindi kailanman buksan ng tatanggap ang link?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Maaari ko bang bawiin ang link pagkatapos ipadala?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Kailangan ko bang mag-sign up?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Mga karaniwang tanong"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Naka-encrypt ang iyong lihim mismo sa browser. Isang beses bubuksan ng tatanggap ang link, at pagkatapos ay mabubura ang data sa server."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Hindi kailangan ng account"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 encryption sa iyong device"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Open source"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Ligtas na magbahagi ng mga password gamit ang mga link na isang beses lang magagamit"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "Password, API key, detalye sa pag-login o file. Lahat ay naka-encrypt sa iyong browser bago ipadala."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Ilagay ang iyong lihim"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Sa pamamagitan ng Telegram, WhatsApp, Signal, Slack, email o anumang messenger. Link lamang ang mananatili sa chat, hindi ang password."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Ipadala ang link"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Pagkatapos makita, mabubura ang data sa server. Hindi na mabubuksan ang link sa ikalawang pagkakataon."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Hindi na gagana ang link"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Paano ito gumagana"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Magpadala ng mga password, pribadong mensahe, API key at file gamit ang mga naka-encrypt na link na isang beses lang magagamit. Nabubura ang mga lihim pagkatapos makita. Libre, open source at walang sign-up."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Mga Link sa Lihim na Isang Beses Lang Magagamit — Ligtas na Pagbabahagi ng Password | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Magbahagi ng mga password at detalye ng account nang hindi iniiwan ang mga ito sa history ng chat."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Mga Password at Detalye sa Pag-login"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Magpadala ng mga sensitibong mensaheng isang beses lang mabubuksan."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Mga Pribadong Mensahe"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Ligtas na magbahagi ng mga API key, access token at configuration file sa mga kasama sa trabaho."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "Mga API Key at Kredensyal"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Magbahagi ng mga pribadong dokumento at file hanggang {{.MaxFileSize}} gamit ang mga naka-encrypt na link na isang beses lang magagamit."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Mga Kumpidensyal na File"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Ligtas na magpadala ng mga mensaheng kusang nabubura, password, API key at pribadong file. Naka-encrypt sa iyong browser ang bawat lihim at nabubura sa server pagkatapos makita."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Ano ang maaari mong ibahagi gamit ang link na isang beses lang magagamit?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Nananatili sa iyo.</strong> Ang decryption key. Hindi kailanman ipinapadala ng mga browser sa server ang anumang nasa pagkatapos ng #."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Pumupunta sa server.</strong> Ang address ng naka-encrypt na data: kung wala ang key, mga random na byte lamang ito."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Ang built-in na Web Crypto API ng browser at AES-256-GCM. Walang third-party na library."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Naka-encrypt sa browser"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Naka-publish ang lahat ng code sa <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Maaaring suriin ng sinuman kung paano gumagana ang encryption."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Open source"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Walang sign-up, third-party na script o tracker. Kaya wala ring cookie banner."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Walang dagdag na hindi kailangan"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Nasa link pagkatapos ng # ang decryption key. Hindi kailanman ipinapadala ng browser sa server ang bahaging iyon ng address, kaya ikaw at ang tatanggap lamang ang makakakita nito."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Higit pa tungkol sa paggana"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Bakit hindi namin mabasa ang iyong lihim"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Magbahagi ng lihim"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Code sa GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Open source"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Nasa GitHub ang lahat ng code ng Encrypt.One. Maaaring makita ng sinuman kung paano gumagana ang encryption at tiyaking hindi kailanman napupunta sa server ang key."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Suriin mismo"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Daloy ng data"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Naka-encrypt ang lihim bago ipadala at ang tatanggap lamang ang nagde-decrypt nito. Sa pagitan nito, nananatiling naka-encrypt ang data."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Dina-download ang naka-encrypt na data, kinukuha ang key mula sa link at dine-decrypt ang lihim sa sariling device. Agad na binubura ng server ang data pagkatapos nito."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Browser ng tatanggap"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Gumagawa ng random na key at ine-encrypt ang text at file gamit ang AES-256-GCM sa pamamagitan ng built-in na Web Crypto API ng browser."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Browser ng nagpadala"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Mga naka-encrypt na byte lamang ang tinatanggap at iniimbak. Kung wala ang key, walang makakabasa sa mga ito — hindi kami at hindi rin ang sinumang makapasok sa server."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Server ng Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Naka-encrypt na data lamang ang nakikita ng server"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Ine-encrypt ng Encrypt.One ang iyong lihim mismo sa browser. Naka-encrypt na data lamang ang napupunta sa server, habang nananatili ang key sa link at hindi umaalis sa mga device ng nagpadala at tatanggap."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Paano ito gumagana at bakit ito ligtas"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Sa loob ng link"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "May dalawang bahagi ang link. Ang una ay tumutukoy sa lokasyon ng naka-encrypt na data. Ang ikalawa, pagkatapos ng #, ay ang decryption key."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Sinumang may kumpletong link ay maaaring magbukas ng lihim. Ipadala lamang ito sa tatanggap at magdagdag ng password para sa sensitibong data."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Ang kumpletong link ang nagbibigay ng access"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Hindi isinasama ng mga browser sa mga request ang bahagi pagkatapos ng #. Kaya wala ang key sa mga log ng server o sa alinmang bahagi ng network sa pagitan."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Hindi kailanman ipinapadala sa server"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Random na ginagawa ang key sa iyong device. Hindi ito mahahanap sa pamamagitan ng pagsubok sa lahat ng posibilidad."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Bago para sa bawat link"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Nasa pagkatapos ng # ang key"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Paano ine-encrypt ng Encrypt.One ang mga lihim sa iyong browser: AES-256-GCM, ang key sa link pagkatapos ng #, ano ang iniimbak ng server, kailan binubura ang data at bakit magdagdag ng password."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Paano Gumagana ang Encrypt.One: End-to-End na Naka-encrypt na Pagbabahagi ng Lihim"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Buksan ang password generator"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Password sa pagbubukas"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "Pinoprotektahan ng password ang lihim kahit maharang ang link. Kung wala ito, input field lamang ang makikita ng tatanggap."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Pagkatapos ng tatlong maling pagsubok, mabubura ang lihim. Hindi uubra ang paghula ng password sa pamamagitan ng paulit-ulit na pagsubok."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tatlong pagsubok"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Pindutin ang “Magmungkahi” sa form o kumuha ng parirala mula sa password generator: madali itong basahin nang malakas."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Huwag basta mag-isip ng sarili"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Ibigay ang password sa ibang paraan: nang pasalita, sa ibang messenger o nang personal. Sa gayon, walang malalaman ang makakaharang ng isang mensahe lamang."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Ibahagi ito nang hiwalay"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "Ikalawang kandado para sa sensitibong data"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Kung tatlong beses maling nailagay ang password sa pagbubukas, permanenteng mabubura ang lihim."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Pagkatapos ng tatlong maling password"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Agad na binubura ng button na “Burahin ngayon” sa pahina ng link ang lihim."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "Kapag iniutos mo"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Kung hindi nabuksan ang link sa panahon ng pag-iimbak na pinili mo, kusang mabubura ang lihim."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Kapag nag-expire"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Pagkabukas ng tatanggap sa lihim, binubura ang data. Hindi na gagana ang link sa ikalawang pagkakataon."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Pagkatapos buksan"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "Bilang ng mga maling pagtatangka sa password"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Ang naka-encrypt na text at file"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Iniimbak sa server"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Ang panahon ng pag-iimbak na pinili mo"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Pag-iimbak"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Iniimbak ng server ang lihim sa panahong kailangan ng tatanggap upang buksan ito."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Ang decryption key mula sa link"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Ang password sa pagbubukas"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Ang lihim sa plain text"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Hindi kailanman nakakarating sa server"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Ano ang iniimbak ng server at kailan ito binubura"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Password generator"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Pumunta sa home page"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Walang ganitong pahina sa Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Hindi nahanap ang pahina — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Maaaring mali ang pagkakatype ng address o nailipat ang pahina. Kung nagbubukas ka ng link na isang beses lang magagamit, tiyaking nakopya ito nang buo."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Hindi nahanap ang pahina"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Kung magbabago ang patakarang ito, ilalathala namin ang bagong bersyon sa pahinang ito at ia-update ang petsa sa itaas.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Mga pagbabago sa patakarang ito"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Magtanong tungkol sa privacy sa <a href=\"https://github.com/Draal/secure-share/issues\">GitHub issues</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Mga tanong"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>pagkabukas ng tatanggap sa lihim;</li><li>kapag pinindot mo ang “Burahin ngayon” sa pahina ng link;</li><li>pagkatapos ng ikatlong maling password;</li><li>kapag natapos ang piniling panahon, mula 1 oras hanggang 7 araw. Hindi na agad ibinibigay ang nag-expire na lihim, at binubura ang data nito sa araw-araw na paglilinis.</li></ul><p>Hindi na mababawi ang naburang lihim. Hindi nauubos ng mga messenger bot na gumagawa ng link preview ang lihim: ibinibigay lamang ang data pagkatapos pindutin ang “Ipakita ang lihim”.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Kailan binubura ang data"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Ang mga password, passphrase at PIN ay ginagawa sa iyong browser gamit ang cryptographic random number generator at hindi kailanman ipinapadala sa server.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Password generator"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Ginawa ang Encrypt.One upang ang tatanggap lamang ang makabasa ng lihim — kahit kami ay hindi. Narito ang data na dumadaan sa serbisyo at ang nangyayari rito."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Mga API request lamang ang nilolog ng application server: uri ng request, resulta at oras ng pagproseso. Hindi kailanman nilolog ang mga IP address, ID ng lihim, token, address ng pahina at nilalaman ng request.</p><p>Upang protektahan ang serbisyo laban sa paulit-ulit na paghula at pang-aabuso, nililimitahan ng server ang dalas ng request bawat IP address. Ginagamit lamang ang address sa memory at hindi iniimbak.</p><p>Maaaring magtago ng karaniwang access log ang web server sa harap ng application: IP address, oras at address ng pahina na wala ang bahagi pagkatapos ng #. Ginagamit lamang ang mga log na ito para sa proteksyon laban sa mga atake at iniimbak nang limitadong panahon.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Mga teknikal na log"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Patakaran sa privacy ng Encrypt.One: anong data ang natatanggap ng serbisyo, gaano ito katagal iniimbak at bakit hindi nito mabasa ang iyong mga lihim."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Patakaran sa Privacy — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Hindi kailanman umaalis ang password mismo sa iyong browser. Mula sa password at sa key ng link, gumagawa ang browser ng dalawang hiwalay na value: ang encryption key at isang check hash (PBKDF2 na may 600,000 iteration, saka HKDF). Ang hash lamang ang ipinapadala sa server. Ginagamit ito ng server upang suriin ang password ngunit hindi nito malalaman ang password o ang key.</p><p>Pagkatapos ng tatlong maling pagsubok, mabubura ang lihim. Nasa memory ng server ang bilang ng mga pagsubok at kaugnay ito ng lihim, hindi ng bisita.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Password sa pagbubukas"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Hindi namin alam kung sino ang gumawa o nagbukas ng lihim: hindi iniuugnay ng serbisyo ang data sa tao, account o IP address. Kaya hindi namin mahahanap, maibibigay o mabubura ang data ng isang partikular na tao. Upang burahin ang iyong lihim bago ito mag-expire, buksan ang pahina ng link at pindutin ang “Burahin ngayon”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Ang iyong mga karapatan"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Ang text at naka-attach na file ay ine-encrypt sa iyong browser gamit ang AES-256-GCM sa pamamagitan ng built-in na Web Crypto API bago ipadala. Ine-encrypt din ang pangalan at uri ng file kasama ng nilalaman.</p><p>Ang iniimbak lamang ng server ay:</p><ul><li>ang naka-encrypt na data;</li><li>ang oras ng expiration;</li><li>kung may naka-attach na file;</li><li>isang check hash ng password, kung nagtakda ka ng password sa pagbubukas.</li></ul><p>Ang decryption key ay ang bahagi ng link pagkatapos ng #. Hindi kailanman ipinapadala ng browser ang bahaging iyon sa server, kaya hindi namin o ng sinumang makakuha ng access sa server made-decrypt ang data. Sa parehong dahilan, hindi namin mababawi ang lihim kung mawala ang link.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Mga lihim at file"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Ang Encrypt.One ay libreng serbisyo para magbahagi ng mga password, key at file gamit ang mga link na isang beses lang magagamit. Hindi kailangan ng account. Ang serbisyo ay binuo at pinapatakbo ng <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Ikaw mismo ang magpapadala ng link sa anumang paraang gusto mo. Maaaring maharang ang messenger, email o SMS, at makukuha ng unang magbukas ng link ang lihim. Para sa mahalagang data, magtakda ng password sa pagbubukas at ibigay ito sa ibang channel.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Paano gumagana ang serbisyo"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Naka-encrypt ang iyong lihim sa iyong browser. Naka-encrypt na data lamang ang natatanggap ng server at hindi nito ito mababasa.</li><li>Nasa link pagkatapos ng # ang decryption key at hindi ito kailanman ipinapadala sa server.</li><li>Walang sign-up, ad, analytics o third-party na script.</li><li>Nabubura ang lihim pagkabukas nito o kapag natapos ang piniling panahon.</li><li>Hindi nilolog ng application server ang mga IP address o ID ng lihim.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Sa madaling sabi"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Bukas ang source code sa <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: maaari mong suriin kung paano gumagana ang encryption o magpatakbo ng sarili mong kopya.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Open source"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Hindi kami gumagamit ng mga cookie para sa advertising o analytics. Tanging kailangan lamang sa paggana ang iniimbak ng site sa iyong browser:</p><ul><li>ang <code>lang</code> cookie — ang iyong wika, kung pumili ka sa tagapili ng wika;</li><li>sa localStorage — ang color theme, tala na isinara mo ang language banner at mga tala tungkol sa mga link na binura mula sa browser na ito;</li><li>sa sessionStorage — isang password mula sa generator habang inililipat ito sa form sa home page. Inaalis ito pagkailagay.</li></ul><p>Sa mga ito, ang language cookie lamang ang nakakarating sa server, na ginagamit ito upang pumili ng bersyon ng pahina. Maaari mong burahin ang lahat sa mga setting ng browser.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Mga cookie at imbakan ng browser"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Hindi naglo-load ang site ng third-party na script, font, counter o ad: lahat, kabilang ang mga font, ay mula sa sarili naming server. Hindi namin ibinebenta o ibinabahagi sa mga third party ang data.</p><p>Ang mga button para magpadala sa Telegram, WhatsApp at email, pati ang mga link sa site ng sponsor, ay mga ordinaryong link. Makakakuha lamang ng data ang panlabas na serbisyo kapag pinindot mo ang isa sa mga ito, at mula noon ay ang sarili nitong patakaran ang nalalapat.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Mga serbisyo ng third party"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Patakaran sa privacy"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Huling na-update: Oktubre 25, 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Sira ang link o hindi nakopya nang buo. Hilingin sa nagpadala na ipadala itong muli."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Dumating ang data ngunit hindi ma-decrypt: sira ang link. Nabura na ang lihim sa server, kaya hilingin sa nagpadala na gumawa ng bago."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Hindi makakonekta sa server. Suriin ang koneksyon at subukang muli."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Masyadong maraming pagsubok. Maghintay ng isang minuto at subukang muli."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Hindi mabuksan ang lihim"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Gumawa ng sarili mong link"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Paano gumagana ang mga link na isang beses lang magagamit"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Nabuksan na ito o nag-expire na. Hindi na mabubuksang muli ang link."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Hilingin sa nagpadala na gumawa ng bagong link. Kung hindi mo ito binuksan, sabihin sa kanila: maaaring may ibang nakakita nito."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Hindi na available ang lihim na ito"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Isang beses lamang ito makikita. Agad pagkatapos nito, mabubura ito sa server."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Protektado ng password ang lihim na ito. Isang beses lamang ito makikita, pagkatapos ay mabubura sa server."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "May nagpadala sa iyo ng lihim"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Link ng Encrypt.One na isang beses lang magagamit. Isang beses lang mabubuksan ang lihim, saka ito mabubura sa server."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "May nagpadala sa iyo ng lihim — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Ilagay ang password."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Dapat ay hiwalay na ibinigay sa iyo ng nagpadala ang password. Pagkatapos ng tatlong maling pagsubok, mabubura ang lihim."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Password sa pagbubukas"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Buksan"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Ibahagi ang sarili mong lihim"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Gumawa ng sarili mong link na isang beses lang magagamit. Hindi kailangan ng account."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Kailangan mo rin bang magbahagi ng password?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Ipakita ang lihim"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Nabura na sa server"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "I-download"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "I-save ito kung kakailanganin mo pa: kapag isinara mo ang pahinang ito, hindi na mabubuksang muli ang lihim."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Text ng lihim"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Ang iyong lihim"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Binubuksan…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Ano ang Encrypt.One?"
+  }
+]

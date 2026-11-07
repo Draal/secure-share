@@ -1,237 +1,1234 @@
 [
   {
-    "id": "backgammon_partner",
-    "translation": "Backgammon"
+    "id": "api.error.badRequest",
+    "translation": "We couldn't process the request. Reload the page and try again."
   },
   {
-    "id": "citatis_partner",
-    "translation": "Citatis - Best Quotes by Famous People"
+    "id": "api.error.forbidden",
+    "translation": "This link doesn't allow destroying the secret."
   },
   {
-    "id": "colorsbattle_partner",
-    "translation": "Colors Battle — fight for color dominance! Play with computer or other players online for free!"
+    "id": "api.error.notFound",
+    "translation": "Secret not found: it has already been opened, destroyed or has expired."
   },
   {
-    "id": "dayspedia_partner",
-    "translation": "Dayspedia — it's all about Time!"
+    "id": "api.error.passwordRequired",
+    "translation": "This secret needs a password to open."
   },
   {
-    "id": "decrypt_in_browser",
-    "translation": "Decrypt in the recipient's browser"
+    "id": "api.error.rateLimited",
+    "translation": "Too many requests. Wait a minute and try again."
   },
   {
-    "id": "decrypt_in_browser_text",
-    "translation": "Send your link with the passphrase via any kind of communication. Once the recipient's browser decrypts it the information is deleted from the server."
+    "id": "api.error.server",
+    "translation": "Something went wrong on our side. Please try again in a minute."
   },
   {
-    "id": "delete_button",
-    "translation": "Delete"
+    "id": "api.error.tooLarge",
+    "translation": "The file is too large. The limit is {{.MaxFileSize}}."
   },
   {
-    "id": "drag_or_upload",
-    "translation": "Your secret file ({{.Limit}} max)"
+    "id": "api.error.tooManyAttempts",
+    "translation": "The password was entered wrong three times, so the secret has been deleted."
   },
   {
-    "id": "encrypt_button",
-    "translation": "Encrypt and get link"
+    "id": "api.error.wrongPassword",
+    "translation": "Wrong password. Attempts left: {{.Count}}"
   },
   {
-    "id": "encrypt_in_browser",
-    "translation": "Encrypt in your browser"
+    "id": "common.close",
+    "translation": "Close"
   },
   {
-    "id": "encrypt_in_browser_text",
-    "translation": "Before information is sent to the server it is encrypted (by AES 256) in your browser with a randomly generated key or your passphrase."
+    "id": "common.copied",
+    "translation": "Copied"
   },
   {
-    "id": "expires",
-    "translation": "Expires"
+    "id": "common.copy",
+    "translation": "Copy"
   },
   {
-    "id": "generate_passphrase",
-    "translation": "Generate passphrase"
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
   },
   {
-    "id": "generate_secret",
-    "translation": "Generate password"
+    "id": "common.footer.linksLabel",
+    "translation": "Links"
   },
   {
-    "id": "generator_h3",
-    "translation": "Random password generator"
+    "id": "common.footer.project.privacy",
+    "translation": "Privacy"
   },
   {
-    "id": "generator_insert_passphrase",
-    "translation": "Fill in passphrase field"
+    "id": "common.footer.project.title",
+    "translation": "Project"
   },
   {
-    "id": "generator_insert_secret",
-    "translation": "Fill in secret field"
+    "id": "common.footer.resources.faq",
+    "translation": "FAQ"
   },
   {
-    "id": "gn_character_sets",
-    "translation": "Character sets"
+    "id": "common.footer.resources.guides",
+    "translation": "Guides"
   },
   {
-    "id": "gn_dashes",
-    "translation": "Dashes (-_)"
+    "id": "common.footer.resources.howItWorks",
+    "translation": "How it works"
   },
   {
-    "id": "gn_length",
-    "translation": "Length"
+    "id": "common.footer.resources.security",
+    "translation": "Security"
   },
   {
-    "id": "gn_lower_letters",
-    "translation": "lower case letters"
+    "id": "common.footer.resources.title",
+    "translation": "Resources"
   },
   {
-    "id": "gn_numbers",
-    "translation": "Numbers"
+    "id": "common.footer.service.file",
+    "translation": "Send a file"
   },
   {
-    "id": "gn_password",
-    "translation": "Password"
+    "id": "common.footer.service.generator",
+    "translation": "Password generator"
   },
   {
-    "id": "gn_quality",
-    "translation": "Quality"
+    "id": "common.footer.service.secret",
+    "translation": "Share a secret"
   },
   {
-    "id": "gn_regenerate",
-    "translation": "Regenerate"
+    "id": "common.footer.service.title",
+    "translation": "Service"
   },
   {
-    "id": "gn_special_characters",
-    "translation": "Special characters (;#$^\u003c\u003e)"
+    "id": "common.footer.tagline",
+    "translation": "One-time links for sharing passwords and files. Encrypted in your browser."
   },
   {
-    "id": "gn_upper_letters",
-    "translation": "UPPER CASE LETTERS"
+    "id": "common.github.label",
+    "translation": "Source code on GitHub"
   },
   {
-    "id": "gn_white_spaces",
-    "translation": "Whitespaces"
+    "id": "common.lang.current",
+    "translation": "English"
   },
   {
-    "id": "index_h1",
-    "translation": "Share encrypted text or file"
+    "id": "common.lang.currentShort",
+    "translation": "EN"
   },
   {
-    "id": "invalid_passphrase",
-    "translation": {
-      "one": "Invalid passphrase. One try left",
-      "other": "Invalid passphrase. {{.Count}} tries left"
-    }
+    "id": "common.lang.label",
+    "translation": "Site language: English"
   },
   {
-    "id": "label_decode_passphrase",
-    "translation": "Password"
+    "id": "common.logo.label",
+    "translation": "Encrypt.One home"
   },
   {
-    "id": "label_share_link",
-    "translation": "Safely share this link"
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: share a password with a one-time link"
   },
   {
-    "id": "label_shared_file",
-    "translation": "Shared file"
+    "id": "common.nav.faq",
+    "translation": "FAQ"
   },
   {
-    "id": "label_shared_secret",
-    "translation": "Shared secret"
+    "id": "common.nav.generator",
+    "translation": "Password generator"
   },
   {
-    "id": "mahjong_partner",
-    "translation": "Mahjong Chest - play mahjong online!"
+    "id": "common.nav.howItWorks",
+    "translation": "How it works"
   },
   {
-    "id": "maxsize-error-message",
-    "translation": "Maximum file size should not exceed {{.Limit}}"
+    "id": "common.nav.label",
+    "translation": "Main navigation"
   },
   {
-    "id": "maxsize-error-title",
-    "translation": "Maximum file size exceeded"
+    "id": "common.skipLink",
+    "translation": "Skip to content"
   },
   {
-    "id": "meta_description",
-    "translation": "Encrypt One — online encrypted text and secure files sharing service. Browser AES encryption. Share your secret file or password with maximum security!"
+    "id": "common.sponsors.dayspedia",
+    "translation": "Time, calendars and holidays for any city"
   },
   {
-    "id": "meta_keywords",
-    "translation": "encryption, text encryption, file encryption, secure text transfer, secure file transfer"
+    "id": "common.sponsors.games",
+    "translation": "Free games right in your browser"
   },
   {
-    "id": "minesweeper_partner",
-    "translation": "Minesweeper"
+    "id": "common.sponsors.orb",
+    "translation": "Thousands of radio stations from around the world"
   },
   {
-    "id": "new_button",
-    "translation": "Share another secret"
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One is free thanks to our sponsors"
   },
   {
-    "id": "orb_partner",
-    "translation": "Online Radio Box - Free Online Internet Radio Stations"
+    "id": "common.theme.dark",
+    "translation": "Dark"
   },
   {
-    "id": "our_sponsors",
-    "translation": "Our Sponsors"
+    "id": "common.theme.label",
+    "translation": "Theme"
   },
   {
-    "id": "placeholder_passphrase",
-    "translation": "Type Passphrase (optional)"
+    "id": "common.theme.light",
+    "translation": "Light"
   },
   {
-    "id": "placeholder_secret",
-    "translation": "Type your Secret"
+    "id": "common.theme.system",
+    "translation": "System"
   },
   {
-    "id": "progress_spiner",
-    "translation": "Protecting"
+    "id": "created.alive.lead",
+    "translation": "Send it to the recipient. The secret can be opened only once."
   },
   {
-    "id": "puzzlegarage_partner",
-    "translation": "Puzzle Garage - play the best jigsaw puzzles online!"
+    "id": "created.alive.title",
+    "translation": "Your link is ready"
   },
   {
-    "id": "re_share_button",
+    "id": "created.another.button",
     "translation": "Get another link"
   },
   {
-    "id": "reversi_partner",
-    "translation": "Reversi"
+    "id": "created.another.hint",
+    "translation": "For the same secret, one link per recipient. The current link keeps working, but you won't be able to destroy it from here."
   },
   {
-    "id": "secret_not_found",
-    "translation": "The secret has been deleted or expired"
+    "id": "created.back",
+    "translation": "New secret"
   },
   {
-    "id": "service_advantages",
-    "translation": "Why is ENCRYPT.One safer than other services?"
+    "id": "created.destroy.button",
+    "translation": "Destroy now"
   },
   {
-    "id": "show_secret_button",
-    "translation": "Show Secret"
+    "id": "created.destroy.confirm",
+    "translation": "Destroy the secret? The link will stop working right away."
   },
   {
-    "id": "solitairehut_partner",
-    "translation": "Solitaire Hut - play the best Solitaire games online!"
+    "id": "created.destroy.error",
+    "translation": "We couldn't destroy the secret. Please try again."
   },
   {
-    "id": "soruce_code_footer",
-    "translation": "The project source code is available on {{.Link}}"
+    "id": "created.destroy.text",
+    "translation": "Sent it to the wrong person? Destroy the secret and the link stops working immediately."
   },
   {
-    "id": "storage_on_server",
-    "translation": "Store on our server"
+    "id": "created.destroyed.lead",
+    "translation": "You destroyed the secret. The data is deleted from the server and the link no longer works."
   },
   {
-    "id": "storage_on_server_text",
-    "translation": "Our server receives your information encrypted and cannot decrypt it, because neither the link nor your passphrase were ever sent to the server."
+    "id": "created.destroyed.title",
+    "translation": "Secret destroyed"
   },
   {
-    "id": "sudoku_partner",
-    "translation": "Sudoku Table — play sudoku online!"
+    "id": "created.expired.lead",
+    "translation": "Nobody opened the link in time. The data is deleted from the server and the link no longer works."
   },
   {
-    "id": "title",
-    "translation": "Encrypt \u0026 Decrypt Text or File Online (AES encryption) — Encrypt.One"
+    "id": "created.expired.title",
+    "translation": "The link has expired"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Copy link"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "One-time link"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "This link no longer works"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "The link is shown only in the tab where it was created. You can still destroy the secret from here."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Sender page of an Encrypt.One one-time link: share the link or destroy the secret."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Your link is ready — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Create a new link"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR code of the one-time link"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Point a phone camera at it to open the link. Don't show the code to others: it opens the secret just like the link does."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Link QR code"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Send via"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "Email"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR code"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "A secret for you"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "One-time link to a secret:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Valid until"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tip:</strong> for really sensitive data, add a password to the link and share it another way, for example by voice. Then intercepting one message gives nothing away."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Attach a file"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Drop to attach the file"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "You can drag a file right into the field."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Up to {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "This browser doesn't support encryption. Update it or open the site in another one."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Paste some text or attach a file."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "The file is too large. The limit is {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Couldn't reach the server. Check your connection and try again."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Enter a password for opening or turn the password protection off."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "encrypted together with the text"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Remove file"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Generate a password"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Insert into the secret field"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Suggest"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Without this password the secret won't open, even if the link is intercepted. Give it to the recipient separately, for example by voice or in another messenger."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Password for opening"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "For example, maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Protect with a password"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "What do you want to share?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Password, API key, login details…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Link settings"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Create one-time link"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Encrypting…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 day"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 hour"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 days"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 days"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Expires in"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Storage time"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Free strong password generator: random passwords, passphrases and PINs created right in your browser and never sent anywhere. Share the result with a one-time link."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Strong Password Generator — Free & Private | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Digits (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Length"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Lowercase (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "No look-alike characters (0 and O, l and 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Characters"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Symbols (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Uppercase (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "A phrase of random words is easy to say out loud and remember, yet as hard to guess as a long password. Words come from the open EFF wordlist."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Number of words"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Number of digits"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Generate again"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Send as a one-time link"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "It goes straight into the form, and you'll get a link that opens only once."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Need to share this password?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropy ≈ {bits} bits"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Fair"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Good for a PIN only"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Strong"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Very strong"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Weak"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Password type"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Password"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Passphrase"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "At least 14–16 characters. Length protects better than clever swaps of letters for symbols."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Long"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "You don't need to remember complex passwords: that's what a password manager is for."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Kept in a password manager"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "What makes a password strong"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "One per service. Then a leak of one password won't open your other accounts."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unique"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Password generator"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "No. The secret is encrypted in your browser before it is sent. The key lives in the link after the # sign, and that part of the address never reaches the server."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Nothing happens. The secret appears only after someone clicks “Show secret”, and preview bots don't click buttons."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "The secret deletes itself when the storage time you chose runs out."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Yes. The page with your link has a “Destroy now” button. After that the link stops working."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "No. Neither the sender nor the recipient needs an account."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Didn't find an answer? Open an issue on GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Can you read my secret?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "What if a messenger preview bot opens the link?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "What if the recipient never opens the link?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Can I revoke a link after sending it?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Do I need to sign up?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "FAQ"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Your secret is encrypted right in your browser. The recipient opens the link once, and then the data is deleted from the server."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "No sign-up"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256 encryption on your device"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Open source"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Share Passwords Securely with One-Time Links"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "A password, an API key, login details or a file. Everything is encrypted in your browser before it is sent."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Paste your secret"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Via Telegram, WhatsApp, Signal, Slack, email or any other messenger. The chat keeps only the link, not the password itself."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Send the link"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Once viewed, the data is deleted from the server. The link cannot be opened a second time."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "The link burns"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "How it works"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Send passwords, private messages, API keys and files with encrypted one-time links. Secrets are deleted after viewing. Free, open source, no signup."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "One-Time Secret Links — Share Passwords Securely | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Share passwords and account credentials without leaving them in chat history."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Passwords & Login Details"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Send sensitive messages that can only be opened once."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Private Messages"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Securely share API keys, access tokens, and configuration files with teammates."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API Keys & Credentials"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Share private documents and files up to {{.MaxFileSize}} through encrypted one-time links."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Confidential Files"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Send self-destructing messages, passwords, API keys, and private files securely. Each secret is encrypted in your browser and deleted from the server after viewing."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "What Can You Share with a One-Time Link?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Stays with you.</strong> The decryption key. Browsers never send anything after the # to the server."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Goes to the server.</strong> The address of the encrypted data: without the key it is just random bytes."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "The browser's built-in Web Crypto API and AES-256-GCM. No third-party libraries."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Encrypted in the browser"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "All the code is published on <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Anyone can check how the encryption works."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Open source"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "No sign-up, no third-party scripts, no trackers. That's why there is no cookie banner either."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Nothing extra"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "The decryption key is inside the link, after the # sign. Browsers never send that part of the address to the server, so only you and the recipient can see it."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "More on how it works"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Why we can't read your secret"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Share a secret"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Code on GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Open source"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "All of Encrypt.One's code is on GitHub. Anyone can see how the encryption works and make sure the key never goes to the server."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Check it yourself"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Data flow"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "The secret is encrypted before it is sent and decrypted only by the recipient. In between, the data always stays encrypted."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Downloads the ciphertext, takes the key from the link and decrypts the secret locally. The server deletes the data right after that."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Recipient's browser"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Creates a random key and encrypts the text and the file with AES-256-GCM using the browser's built-in Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Sender's browser"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Receives and stores only encrypted bytes. Without the key nobody can read them — not us, not anyone who gets into the server."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One server"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "The server sees only ciphertext"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One encrypts your secret right in your browser. Only encrypted data goes to the server, while the key stays in the link and never leaves the devices of the sender and the recipient."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "How it works and why it's safe"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Inside the link"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "A link has two parts. The first one points to where the encrypted data is stored. The second one, after the #, is the decryption key."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Whoever has the full link can open the secret. Send it only to the recipient, and add a password for sensitive data."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "The full link is the access"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Browsers don't include the part after # in requests. So the key is neither in the server logs nor at any network hop in between."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Never sent to the server"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "The key is generated randomly on your device. It cannot be brute-forced."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "New for every link"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "The key lives after the #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "How Encrypt.One encrypts secrets in your browser: AES-256-GCM, the key in the link after #, what the server stores, when data is deleted and why to add a password."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "How Encrypt.One Works: End-to-End Encrypted Secret Sharing"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Open the password generator"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Password for opening"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "A password protects the secret even if the link is intercepted. Without it the recipient sees only the input field."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "After three wrong attempts the secret is deleted. Guessing the password by brute force won't work."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Three attempts"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Click “Suggest” in the form or take a phrase from the password generator: it is easy to read out loud."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Don't make one up"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Give the password another way: by voice, in a different messenger or in person. Then intercepting one message gives nothing away."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Share it separately"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "A second lock for sensitive data"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "If the password for opening is entered wrong three times, the secret is deleted for good."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "After three wrong passwords"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "The “Destroy now” button on the link page deletes the secret immediately."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "When you say so"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "If the link isn't opened within the storage time you chose, the secret deletes itself."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "When it expires"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "As soon as the recipient opens the secret, the data is deleted. The link won't work a second time."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "After it is opened"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "A counter of wrong password attempts"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "The encrypted text and file"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Stored on the server"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "The storage time you chose"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Storage"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "The server keeps a secret exactly as long as the recipient needs to open it."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "The decryption key from the link"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "The password for opening"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "The secret in plain text"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Never reaches the server"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "What the server stores and when it deletes it"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Password generator"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Go to home page"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "There is no such page on Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Page not found — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "The address may be mistyped or the page may have moved. If you were opening a one-time link, make sure it was copied in full."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Page not found"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>If this policy changes, we will publish the new version on this page and update the date at the top.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Changes to this policy"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Ask privacy questions in the <a href=\"https://github.com/Draal/secure-share/issues\">GitHub issues</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Questions"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>right after the recipient opens the secret;</li><li>when you press “Destroy now” on the link page;</li><li>after the third wrong password;</li><li>when the chosen period ends, from 1 hour to 7 days. An expired secret is no longer served at once, and its data is wiped by the daily cleanup.</li></ul><p>A deleted secret cannot be recovered. Messenger bots that build link previews do not use up a secret: the data is served only after “Show secret” is pressed.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "When data is deleted"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Passwords, passphrases and PINs are created in your browser with a cryptographic random number generator and are never sent to the server.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Password generator"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One is built so that only the recipient can read a secret — not even us. Here is what data passes through the service and what happens to it."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>The application server logs only API requests: the request type, the result and the processing time. IP addresses, secret ids, tokens, page addresses and request contents are never logged.</p><p>To protect the service from brute force and abuse, the server limits the request rate per IP address. The address is used only in memory and is not stored.</p><p>A web server in front of the application may keep a standard access log: IP address, time and page address without the part after #. Such logs are used only to protect against attacks and are kept for a limited time.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Technical logs"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.One privacy policy: what data the service receives, how long it keeps it and why it can't read your secrets."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Privacy Policy — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>The password itself never leaves your browser. From the password and the link key the browser derives two independent values: the encryption key and a check hash (PBKDF2 with 600,000 iterations, then HKDF). Only the hash is sent to the server. The server uses it to check the password but can learn neither the password nor the key.</p><p>After three wrong attempts the secret is deleted. The attempt counter is kept in the server memory and belongs to the secret, not to a visitor.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Opening password"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>We do not know who created or opened a secret: the service links data to no people, accounts or IP addresses. That is why we cannot find, hand over or delete the data of a particular person. To delete your secret before it expires, open the link page and press “Destroy now”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Your rights"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Text and an attached file are encrypted in your browser with AES-256-GCM through the built-in Web Crypto API before they are sent. The file name and type are encrypted together with the content.</p><p>The server stores only:</p><ul><li>the encrypted data;</li><li>the expiry time;</li><li>whether a file is attached;</li><li>a password check hash, if you set an opening password.</li></ul><p>The decryption key is the part of the link after the # sign. Browsers never send that part to the server, so neither we nor anyone who gains access to the server can decrypt the data. For the same reason we cannot recover a secret if the link is lost.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Secrets and files"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One is a free service for sharing passwords, keys and files through one-time links. No sign-up is needed. The service is developed and run by <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>You send the link yourself, in any way you like. A messenger, email or SMS can be intercepted, and then whoever opens the link first gets the secret. For important data, set an opening password and share it through a different channel.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "How the service works"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Your secret is encrypted in your browser. The server receives only encrypted data and cannot read it.</li><li>The decryption key lives in the link after the # sign and is never sent to the server.</li><li>No sign-up, ads, analytics or third-party scripts.</li><li>A secret is deleted as soon as it is opened or when the chosen period ends.</li><li>The application server does not log IP addresses or secret ids.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "The short version"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>The source code is open on <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: you can check how the encryption works or run your own copy.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Open source"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>We use no advertising or analytics cookies. The site stores in your browser only what it needs to work:</p><ul><li>the <code>lang</code> cookie — your language, if you picked one in the switcher;</li><li>in localStorage — the color theme, a note that you closed the language banner and notes about links destroyed from this browser;</li><li>in sessionStorage — a password from the generator while it is carried over to the form on the home page. It is removed right after it is inserted.</li></ul><p>Of these, only the language cookie reaches the server, which uses it to pick the page version. You can delete all of it in your browser settings.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookies and browser storage"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>The site loads no third-party scripts, fonts, counters or ads: everything, fonts included, is served from our own server. We do not sell or share data with third parties.</p><p>The buttons for sending via Telegram, WhatsApp and email, as well as links to sponsor sites, are plain links. An external service gets data only when you click one, and its own policy applies from then on.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Third-party services"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Privacy policy"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Last updated: October 25, 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "The link is damaged or was not copied in full. Ask the sender to send it again."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "The data arrived but couldn't be decrypted: the link is damaged. The secret has already been deleted from the server, so ask the sender to create a new one."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Couldn't reach the server. Check your connection and try again."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "Too many attempts. Wait a minute and try again."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Couldn't open the secret"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Create your own link"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "How one-time links work"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "It has already been opened or has expired. The link cannot be opened again."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Ask the sender to create a new link. If you didn't open this one, tell them: someone else may have seen it."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "This secret is no longer available"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "It can be viewed only once. Right after that it will be deleted from the server."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "This secret is password-protected. It can be viewed only once, then it will be deleted from the server."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Someone sent you a secret"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "An Encrypt.One one-time link. The secret can be opened once, then it is deleted from the server."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Someone sent you a secret — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Enter the password."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "The sender should have given you the password separately. After three wrong attempts the secret is deleted."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Password for opening"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Open"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Share your own secret"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Create your own one-time link. No sign-up."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Need to share a password yourself?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Show secret"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Deleted from the server"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Download"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Save it if you need it later: once you close this page, the secret can't be opened again."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Secret text"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Your secret"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Opening…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "What is Encrypt.One?"
   }
 ]

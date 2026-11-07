@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "ไม่สามารถประมวลผลคำขอได้ โปรดโหลดหน้าใหม่แล้วลองอีกครั้ง"
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "ลิงก์นี้ไม่อนุญาตให้ทำลายความลับ"
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "ไม่พบความลับ: อาจถูกเปิด ทำลาย หรือหมดอายุแล้ว"
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "ต้องใช้รหัสผ่านเพื่อเปิดความลับนี้"
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "มีคำขอมากเกินไป โปรดรอสักครู่แล้วลองอีกครั้ง"
+  },
+  {
+    "id": "api.error.server",
+    "translation": "เกิดข้อผิดพลาดทางฝั่งเรา โปรดลองอีกครั้งในอีกหนึ่งนาที"
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "ไฟล์มีขนาดใหญ่เกินไป ขนาดสูงสุดคือ {{.MaxFileSize}}"
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "ป้อนรหัสผ่านผิดสามครั้ง จึงลบความลับแล้ว"
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "รหัสผ่านไม่ถูกต้อง จำนวนครั้งที่เหลือ: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "ปิด"
+  },
+  {
+    "id": "common.copied",
+    "translation": "คัดลอกแล้ว"
+  },
+  {
+    "id": "common.copy",
+    "translation": "คัดลอก"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "ลิงก์"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "ความเป็นส่วนตัว"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "โครงการ"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "คำถามที่พบบ่อย"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "คู่มือ"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "วิธีการทำงาน"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "ความปลอดภัย"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "แหล่งข้อมูล"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "ส่งไฟล์"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "เครื่องมือสร้างรหัสผ่าน"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "แชร์ความลับ"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "บริการ"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "ลิงก์ใช้ครั้งเดียวสำหรับแชร์รหัสผ่านและไฟล์ เข้ารหัสในเบราว์เซอร์ของคุณ"
+  },
+  {
+    "id": "common.github.label",
+    "translation": "ซอร์สโค้ดบน GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "ภาษาไทย"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "TH"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "ภาษาของเว็บไซต์: ภาษาไทย"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "หน้าหลัก Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: แชร์รหัสผ่านด้วยลิงก์ใช้ครั้งเดียว"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "คำถามที่พบบ่อย"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "เครื่องมือสร้างรหัสผ่าน"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "วิธีการทำงาน"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "เมนูหลัก"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "ข้ามไปยังเนื้อหา"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "เวลา ปฏิทิน และวันหยุดสำหรับทุกเมือง"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "เกมฟรีในเบราว์เซอร์ของคุณ"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "สถานีวิทยุนับพันจากทั่วโลก"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One ให้บริการฟรีด้วยผู้สนับสนุนของเรา"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "มืด"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "ธีม"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "สว่าง"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "ตามระบบ"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "ส่งลิงก์ให้ผู้รับ ความลับสามารถเปิดได้เพียงครั้งเดียว"
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "ลิงก์ของคุณพร้อมแล้ว"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "รับลิงก์อีกอัน"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "สำหรับความลับเดียวกัน ให้ใช้หนึ่งลิงก์ต่อผู้รับหนึ่งคน ลิงก์ปัจจุบันยังใช้งานได้ แต่คุณจะไม่สามารถทำลายจากหน้านี้ได้อีก"
+  },
+  {
+    "id": "created.back",
+    "translation": "ความลับใหม่"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "ทำลายทันที"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "ทำลายความลับหรือไม่? ลิงก์จะหยุดทำงานทันที"
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "ไม่สามารถทำลายความลับได้ โปรดลองอีกครั้ง"
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "ส่งผิดคนหรือไม่? ทำลายความลับ แล้วลิงก์จะหยุดทำงานทันที"
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "คุณทำลายความลับแล้ว ข้อมูลถูกลบจากเซิร์ฟเวอร์และลิงก์ไม่สามารถใช้งานได้อีก"
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "ทำลายความลับแล้ว"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "ไม่มีใครเปิดลิงก์ทันเวลา ข้อมูลถูกลบจากเซิร์ฟเวอร์และลิงก์ไม่สามารถใช้งานได้อีก"
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "ลิงก์หมดอายุแล้ว"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "คัดลอกลิงก์"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "ลิงก์ใช้ครั้งเดียว"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "ลิงก์นี้ใช้งานไม่ได้อีกแล้ว"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "ลิงก์แสดงเฉพาะในแท็บที่สร้างขึ้น คุณยังทำลายความลับจากหน้านี้ได้"
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "หน้าผู้ส่งลิงก์ใช้ครั้งเดียวของ Encrypt.One: แชร์ลิงก์หรือทำลายความลับ"
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "ลิงก์ของคุณพร้อมแล้ว — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "สร้างลิงก์ใหม่"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "รหัส QR ของลิงก์ใช้ครั้งเดียว"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "หันกล้องโทรศัพท์ไปที่รหัสเพื่อเปิดลิงก์ อย่าแสดงรหัสให้ผู้อื่นเห็น เพราะสามารถเปิดความลับได้เช่นเดียวกับลิงก์"
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "รหัส QR ของลิงก์"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "ส่งผ่าน"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "อีเมล"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "รหัส QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "ความลับสำหรับคุณ"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "ลิงก์ใช้ครั้งเดียวสำหรับความลับ:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "ใช้ได้ถึง"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>เคล็ดลับ:</strong> สำหรับข้อมูลที่ละเอียดอ่อนมาก ให้เพิ่มรหัสผ่านและแจ้งผ่านช่องทางอื่น เช่น การพูดคุย การดักรับข้อความเพียงข้อความเดียวจึงไม่เปิดเผยข้อมูล"
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "แนบไฟล์"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "ปล่อยเพื่อแนบไฟล์"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "คุณสามารถลากไฟล์ลงในช่องได้โดยตรง"
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "สูงสุด {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "เบราว์เซอร์นี้ไม่รองรับการเข้ารหัส โปรดอัปเดตหรือเปิดเว็บไซต์ในเบราว์เซอร์อื่น"
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "วางข้อความหรือแนบไฟล์"
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "ไฟล์มีขนาดใหญ่เกินไป ขนาดสูงสุดคือ {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.network",
+    "translation": "ไม่สามารถติดต่อเซิร์ฟเวอร์ได้ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "ป้อนรหัสผ่านสำหรับเปิดหรือปิดการป้องกันด้วยรหัสผ่าน"
+  },
+  {
+    "id": "form.file.note",
+    "translation": "จะเข้ารหัสพร้อมข้อความ"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "นำไฟล์ออก"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "สร้างรหัสผ่าน"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "แทรกในช่องความลับ"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "แนะนำ"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "หากไม่มีรหัสผ่านนี้จะเปิดความลับไม่ได้ แม้ลิงก์ถูกดักรับ โปรดแจ้งรหัสผ่านแก่ผู้รับแยกต่างหาก เช่น ทางเสียงหรือแอปข้อความอื่น"
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "รหัสผ่านสำหรับเปิด"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "ตัวอย่าง maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "ป้องกันด้วยรหัสผ่าน"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "คุณต้องการแชร์อะไร?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "รหัสผ่าน คีย์ API ข้อมูลเข้าสู่ระบบ…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "การตั้งค่าลิงก์"
+  },
+  {
+    "id": "form.submit",
+    "translation": "สร้างลิงก์ใช้ครั้งเดียว"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "กำลังเข้ารหัส…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 วัน"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 ชั่วโมง"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 วัน"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 วัน"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "หมดอายุใน"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "ระยะเวลาจัดเก็บ"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "เครื่องมือฟรีสำหรับสร้างรหัสผ่านที่รัดกุม วลีรหัสผ่าน และ PIN แบบสุ่มในเบราว์เซอร์โดยไม่ส่งไปที่ใด แชร์ผลลัพธ์ด้วยลิงก์ใช้ครั้งเดียว"
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "เครื่องมือสร้างรหัสผ่านที่รัดกุม — ฟรีและเป็นส่วนตัว | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "ตัวเลข (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "ความยาว"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "ตัวพิมพ์เล็ก (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "ไม่ใช้ตัวอักษรที่คล้ายกัน (0 กับ O, l กับ 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "อักขระ"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "สัญลักษณ์ (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "ตัวพิมพ์ใหญ่ (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "วลีจากคำสุ่มพูดและจดจำได้ง่าย แต่คาดเดายากพอ ๆ กับรหัสผ่านยาว คำมาจากรายการคำแบบเปิดของ EFF"
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "จำนวนคำ"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "จำนวนหลัก"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "สร้างอีกครั้ง"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "ส่งเป็นลิงก์ใช้ครั้งเดียว"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "ผลลัพธ์จะถูกใส่ในแบบฟอร์มโดยตรง และคุณจะได้รับลิงก์ที่เปิดได้เพียงครั้งเดียว"
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "ต้องการแชร์รหัสผ่านนี้หรือไม่?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "เอนโทรปี ≈ {bits} บิต"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "ปานกลาง"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "เหมาะสำหรับ PIN เท่านั้น"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "รัดกุม"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "รัดกุมมาก"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "อ่อนแอ"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "ประเภทรหัสผ่าน"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "รหัสผ่าน"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "วลีรหัสผ่าน"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "อย่างน้อย 14–16 อักขระ ความยาวป้องกันได้ดีกว่าการแทนตัวอักษรด้วยสัญลักษณ์"
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "ยาว"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "คุณไม่จำเป็นต้องจำรหัสผ่านที่ซับซ้อน: ใช้โปรแกรมจัดการรหัสผ่าน"
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "เก็บในโปรแกรมจัดการรหัสผ่าน"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "อะไรทำให้รหัสผ่านรัดกุม"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "ใช้รหัสผ่านต่างกันสำหรับแต่ละบริการ เพื่อให้การรั่วไหลของรหัสผ่านหนึ่งไม่เปิดบัญชีอื่นของคุณ"
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "ไม่ซ้ำกัน"
+  },
+  {
+    "id": "generator.title",
+    "translation": "เครื่องมือสร้างรหัสผ่าน"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "ไม่ได้ ความลับถูกเข้ารหัสในเบราว์เซอร์ก่อนส่ง คีย์อยู่ในลิงก์หลังเครื่องหมาย # และส่วนนี้ของที่อยู่จะไม่ไปถึงเซิร์ฟเวอร์"
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "ไม่มีอะไรเกิดขึ้น ความลับจะแสดงหลังจากกด «แสดงความลับ» เท่านั้น และบอตแสดงตัวอย่างไม่กดปุ่ม"
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "ความลับจะถูกลบโดยอัตโนมัติเมื่อสิ้นสุดระยะเวลาจัดเก็บที่เลือก"
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "ได้ หน้าลิงก์มีปุ่ม «ทำลายทันที» หลังจากนั้นลิงก์จะหยุดทำงาน"
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "ไม่จำเป็น ทั้งผู้ส่งและผู้รับไม่ต้องมีบัญชี"
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "ไม่พบคำตอบหรือไม่? เปิดประเด็นใน GitHub"
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "คุณอ่านความลับของฉันได้หรือไม่?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "หากบอตแสดงตัวอย่างของแอปข้อความเปิดลิงก์จะเกิดอะไรขึ้น?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "หากผู้รับไม่เปิดลิงก์เลยจะเกิดอะไรขึ้น?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "สามารถยกเลิกลิงก์หลังส่งแล้วได้หรือไม่?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "ต้องลงทะเบียนหรือไม่?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "คำถามที่พบบ่อย"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "ความลับของคุณถูกเข้ารหัสโดยตรงในเบราว์เซอร์ ผู้รับเปิดลิงก์หนึ่งครั้ง จากนั้นข้อมูลจะถูกลบจากเซิร์ฟเวอร์"
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "ไม่ต้องลงทะเบียน"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "เข้ารหัส AES-256 บนอุปกรณ์ของคุณ"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "โอเพนซอร์ส"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "แชร์รหัสผ่านอย่างปลอดภัยด้วยลิงก์ใช้ครั้งเดียว"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "รหัสผ่าน คีย์ API ข้อมูลเข้าสู่ระบบ หรือไฟล์ ทุกอย่างถูกเข้ารหัสในเบราว์เซอร์ก่อนส่ง"
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "วางความลับของคุณ"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "ผ่าน Telegram, WhatsApp, Signal, Slack, อีเมล หรือแอปข้อความอื่น ในแชตจะเหลือเพียงลิงก์ ไม่ใช่รหัสผ่าน"
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "ส่งลิงก์"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "หลังจากดูแล้ว ข้อมูลจะถูกลบจากเซิร์ฟเวอร์ ลิงก์ไม่สามารถเปิดครั้งที่สองได้"
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "ลิงก์ถูกใช้แล้ว"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "วิธีการทำงาน"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "ส่งรหัสผ่าน ข้อความส่วนตัว คีย์ API และไฟล์ด้วยลิงก์ใช้ครั้งเดียวที่เข้ารหัส ความลับจะถูกลบหลังดู ฟรี โอเพนซอร์ส ไม่ต้องลงทะเบียน"
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "ลิงก์ความลับใช้ครั้งเดียว — แชร์รหัสผ่านอย่างปลอดภัย | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "แชร์รหัสผ่านและข้อมูลบัญชีโดยไม่ทิ้งไว้ในประวัติแชต"
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "รหัสผ่านและข้อมูลเข้าสู่ระบบ"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "ส่งข้อความละเอียดอ่อนที่เปิดได้เพียงครั้งเดียว"
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "ข้อความส่วนตัว"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "แชร์คีย์ API โทเคนเข้าถึง และไฟล์กำหนดค่ากับทีมอย่างปลอดภัย"
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "คีย์ API และข้อมูลรับรอง"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "แชร์เอกสารและไฟล์ส่วนตัวขนาดไม่เกิน {{.MaxFileSize}} ผ่านลิงก์ใช้ครั้งเดียวที่เข้ารหัส"
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "ไฟล์ลับ"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "ส่งข้อความที่ทำลายตัวเอง รหัสผ่าน คีย์ API และไฟล์ส่วนตัวอย่างปลอดภัย ทุกความลับถูกเข้ารหัสในเบราว์เซอร์และลบจากเซิร์ฟเวอร์หลังดู"
+  },
+  {
+    "id": "home.share.title",
+    "translation": "คุณแชร์อะไรด้วยลิงก์ใช้ครั้งเดียวได้บ้าง?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>อยู่กับคุณ</strong> คีย์ถอดรหัส เบราว์เซอร์ไม่ส่งส่วนหลัง # ไปยังเซิร์ฟเวอร์"
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>ส่งไปยังเซิร์ฟเวอร์</strong> ที่อยู่ของข้อมูลที่เข้ารหัส หากไม่มีคีย์ก็เป็นเพียงไบต์สุ่ม"
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Web Crypto API ที่มีในเบราว์เซอร์และ AES-256-GCM ไม่มีไลบรารีของบุคคลที่สาม"
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "เข้ารหัสในเบราว์เซอร์"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "โค้ดทั้งหมดเผยแพร่บน <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a> ทุกคนตรวจสอบวิธีการเข้ารหัสได้"
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "โอเพนซอร์ส"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "ไม่ต้องลงทะเบียน ไม่มีสคริปต์บุคคลที่สามหรือเครื่องมือติดตาม จึงไม่มีแบนเนอร์คุกกี้"
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "ไม่มีสิ่งที่ไม่จำเป็น"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "คีย์ถอดรหัสอยู่ในลิงก์หลังเครื่องหมาย # เบราว์เซอร์ไม่ส่งส่วนนี้ของที่อยู่ไปยังเซิร์ฟเวอร์ จึงมีเพียงคุณและผู้รับที่เห็นได้"
+  },
+  {
+    "id": "home.why.more",
+    "translation": "ข้อมูลเพิ่มเติมเกี่ยวกับการทำงาน"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "เหตุใดเราจึงอ่านความลับของคุณไม่ได้"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "แชร์ความลับ"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "โค้ดบน GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "โอเพนซอร์ส"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "โค้ดทั้งหมดของ Encrypt.One อยู่บน GitHub ทุกคนสามารถดูวิธีการเข้ารหัสและตรวจสอบว่าคีย์ไม่เคยถูกส่งไปยังเซิร์ฟเวอร์"
+  },
+  {
+    "id": "how.code.title",
+    "translation": "ตรวจสอบด้วยตนเอง"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "การไหลของข้อมูล"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "ความลับถูกเข้ารหัสก่อนส่งและถอดรหัสโดยผู้รับเท่านั้น ระหว่างทางข้อมูลยังคงเข้ารหัสอยู่เสมอ"
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "ดาวน์โหลดข้อมูลที่เข้ารหัส นำคีย์จากลิงก์ และถอดรหัสความลับในเครื่อง เซิร์ฟเวอร์จะลบข้อมูลทันทีหลังจากนั้น"
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "เบราว์เซอร์ของผู้รับ"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "สร้างคีย์สุ่มและเข้ารหัสข้อความกับไฟล์ด้วย AES-256-GCM โดยใช้ Web Crypto API ในเบราว์เซอร์"
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "เบราว์เซอร์ของผู้ส่ง"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "รับและจัดเก็บเฉพาะไบต์ที่เข้ารหัส หากไม่มีคีย์ ทั้งเราและผู้ที่เข้าถึงเซิร์ฟเวอร์ก็อ่านไม่ได้"
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "เซิร์ฟเวอร์ Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "เซิร์ฟเวอร์เห็นเฉพาะข้อมูลที่เข้ารหัส"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One เข้ารหัสความลับโดยตรงในเบราว์เซอร์ มีเพียงข้อมูลที่เข้ารหัสส่งไปยังเซิร์ฟเวอร์ ส่วนคีย์อยู่ในลิงก์และไม่ออกจากอุปกรณ์ของผู้ส่งและผู้รับ"
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "วิธีการทำงานและเหตุผลที่ปลอดภัย"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "ภายในลิงก์"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "ลิงก์มีสองส่วน ส่วนแรกระบุตำแหน่งจัดเก็บข้อมูลที่เข้ารหัส ส่วนที่สองหลัง # คือคีย์ถอดรหัส"
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "ใครก็ตามที่มีลิงก์ครบถ้วนสามารถเปิดความลับได้ ส่งให้ผู้รับเท่านั้นและเพิ่มรหัสผ่านสำหรับข้อมูลละเอียดอ่อน"
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "ลิงก์ครบถ้วนให้สิทธิ์เข้าถึง"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "เบราว์เซอร์ไม่รวมส่วนหลัง # ในคำขอ ดังนั้นคีย์จึงไม่อยู่ในบันทึกเซิร์ฟเวอร์หรือจุดระหว่างทางในเครือข่าย"
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "ไม่ส่งไปยังเซิร์ฟเวอร์"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "คีย์สร้างแบบสุ่มบนอุปกรณ์ของคุณ ไม่สามารถเดาด้วยการลองทุกความเป็นไปได้"
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "ใหม่สำหรับทุกลิงก์"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "คีย์อยู่หลัง #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "วิธีที่ Encrypt.One เข้ารหัสความลับในเบราว์เซอร์: AES-256-GCM คีย์หลัง # การจัดเก็บ การลบข้อมูล และการป้องกันด้วยรหัสผ่าน"
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "วิธีทำงานของ Encrypt.One: แชร์ความลับด้วยการเข้ารหัสจากต้นทางถึงปลายทาง"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "เปิดเครื่องมือสร้างรหัสผ่าน"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "รหัสผ่านสำหรับเปิด"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "รหัสผ่านป้องกันความลับแม้ลิงก์ถูกดักรับ หากไม่มีรหัสผ่าน ผู้รับจะเห็นเพียงช่องป้อนข้อมูล"
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "หลังจากป้อนผิดสามครั้ง ความลับจะถูกลบ จึงไม่สามารถเดารหัสผ่านด้วยการลองทุกความเป็นไปได้"
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "สามครั้ง"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "คลิก «แนะนำ» ในแบบฟอร์มหรือเลือกวลีจากเครื่องมือสร้างรหัสผ่าน ซึ่งอ่านออกเสียงได้ง่าย"
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "ไม่ต้องคิดเอง"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "แจ้งรหัสผ่านด้วยวิธีอื่น เช่น พูดคุย ใช้แอปข้อความอื่น หรือพบกัน การดักรับข้อความเดียวจึงไม่เปิดเผยข้อมูล"
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "แจ้งแยกต่างหาก"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "กุญแจชั้นที่สองสำหรับข้อมูลละเอียดอ่อน"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "หากป้อนรหัสผ่านสำหรับเปิดผิดสามครั้ง ความลับจะถูกลบถาวร"
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "หลังป้อนรหัสผ่านผิดสามครั้ง"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "ปุ่ม «ทำลายทันที» บนหน้าลิงก์จะลบความลับทันที"
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "เมื่อคุณสั่ง"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "หากไม่เปิดลิงก์ภายในระยะเวลาจัดเก็บที่เลือก ความลับจะถูกลบโดยอัตโนมัติ"
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "เมื่อหมดอายุ"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "ทันทีที่ผู้รับเปิดความลับ ข้อมูลจะถูกลบ ลิงก์จะไม่ทำงานครั้งที่สอง"
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "หลังเปิด"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "ตัวนับจำนวนครั้งที่ป้อนรหัสผ่านผิด"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "ข้อความและไฟล์ที่เข้ารหัส"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "จัดเก็บบนเซิร์ฟเวอร์"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "ระยะเวลาจัดเก็บที่คุณเลือก"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "การจัดเก็บ"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "เซิร์ฟเวอร์จัดเก็บความลับไว้เท่าที่ผู้รับต้องการสำหรับเปิด"
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "คีย์ถอดรหัสจากลิงก์"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "รหัสผ่านสำหรับเปิด"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "เนื้อหาความลับในรูปแบบที่อ่านได้"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "ไม่ถึงเซิร์ฟเวอร์"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "เซิร์ฟเวอร์จัดเก็บอะไรและลบเมื่อใด"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "เครื่องมือสร้างรหัสผ่าน"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "ไปหน้าหลัก"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "ไม่มีหน้านี้ใน Encrypt.One"
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "ไม่พบหน้า — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "ที่อยู่อาจพิมพ์ผิดหรือหน้าถูกย้าย หากคุณกำลังเปิดลิงก์ใช้ครั้งเดียว โปรดตรวจสอบว่าคัดลอกมาครบถ้วน"
+  },
+  {
+    "id": "notFound.title",
+    "translation": "ไม่พบหน้า"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>หากนโยบายนี้เปลี่ยนแปลง เราจะเผยแพร่ฉบับใหม่บนหน้านี้และอัปเดตวันที่ด้านบน</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "การเปลี่ยนแปลงนโยบาย"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>สอบถามเรื่องความเป็นส่วนตัวได้ที่ <a href=\"https://github.com/Draal/secure-share/issues\">ประเด็นบน GitHub</a></p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "คำถาม"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>ทันทีหลังจากผู้รับเปิดความลับ</li><li>เมื่อคุณกด «ทำลายทันที» บนหน้าลิงก์</li><li>หลังจากป้อนรหัสผ่านผิดครั้งที่สาม</li><li>เมื่อสิ้นสุดระยะเวลาที่เลือก ตั้งแต่หนึ่งชั่วโมงถึงเจ็ดวัน ความลับที่หมดอายุจะไม่สามารถเรียกดูได้ทันที และข้อมูลจะถูกลบระหว่างการล้างข้อมูลประจำวัน</li></ul><p>ความลับที่ลบแล้วไม่สามารถกู้คืนได้ บอตของแอปข้อความที่สร้างตัวอย่างลิงก์จะไม่ใช้ความลับ ข้อมูลจะถูกส่งหลังจากกด «แสดงความลับ» เท่านั้น</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "ข้อมูลถูกลบเมื่อใด"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>รหัสผ่าน วลีรหัสผ่าน และ PIN สร้างในเบราว์เซอร์ด้วยเครื่องสร้างเลขสุ่มเชิงเข้ารหัสและไม่เคยส่งไปยังเซิร์ฟเวอร์</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "เครื่องมือสร้างรหัสผ่าน"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One สร้างขึ้นเพื่อให้มีเพียงผู้รับที่อ่านความลับได้ แม้แต่เราก็อ่านไม่ได้ ต่อไปนี้คือข้อมูลที่ผ่านบริการและสิ่งที่เกิดขึ้นกับข้อมูลนั้น"
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>เซิร์ฟเวอร์แอปพลิเคชันบันทึกเฉพาะคำขอ API ได้แก่ ประเภทคำขอ ผลลัพธ์ และเวลาประมวลผล โดยไม่บันทึกที่อยู่ IP รหัสความลับ โทเคน ที่อยู่หน้า หรือเนื้อหาคำขอ</p><p>เพื่อป้องกันการโจมตีแบบลองทุกความเป็นไปได้และการใช้งานในทางที่ผิด เซิร์ฟเวอร์จำกัดความถี่ของคำขอต่อที่อยู่ IP ที่อยู่นี้ใช้เฉพาะในหน่วยความจำและไม่ถูกจัดเก็บ</p><p>เว็บเซิร์ฟเวอร์ที่อยู่หน้าแอปพลิเคชันอาจเก็บบันทึกการเข้าถึงมาตรฐาน ได้แก่ ที่อยู่ IP เวลา และที่อยู่หน้าโดยไม่มีส่วนหลัง # บันทึกเหล่านี้ใช้เพื่อป้องกันการโจมตีเท่านั้นและเก็บไว้ในระยะเวลาจำกัด</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "บันทึกทางเทคนิค"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "นโยบายความเป็นส่วนตัวของ Encrypt.One: บริการได้รับข้อมูลใด เก็บไว้นานเพียงใด และเหตุใดจึงอ่านความลับของคุณไม่ได้"
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "นโยบายความเป็นส่วนตัว — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>รหัสผ่านจริงไม่เคยออกจากเบราว์เซอร์ เบราว์เซอร์ใช้รหัสผ่านและคีย์ในลิงก์สร้างค่าสองค่าที่เป็นอิสระต่อกัน ได้แก่ คีย์เข้ารหัสและแฮชตรวจสอบ (PBKDF2 จำนวน 600,000 รอบ แล้วตามด้วย HKDF) มีเพียงแฮชที่ส่งไปยังเซิร์ฟเวอร์ เซิร์ฟเวอร์ใช้แฮชตรวจสอบรหัสผ่านแต่ไม่สามารถทราบรหัสผ่านหรือคีย์ได้</p><p>หลังป้อนผิดสามครั้ง ความลับจะถูกลบ ตัวนับจำนวนครั้งเก็บในหน่วยความจำเซิร์ฟเวอร์และผูกกับความลับ ไม่ใช่ผู้เยี่ยมชม</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "รหัสผ่านสำหรับเปิด"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>เราไม่ทราบว่าใครสร้างหรือเปิดความลับ เพราะบริการไม่ได้เชื่อมโยงข้อมูลกับบุคคล บัญชี หรือที่อยู่ IP ดังนั้นเราจึงไม่สามารถค้นหา ส่งมอบ หรือลบข้อมูลของบุคคลใดบุคคลหนึ่งได้ หากต้องการลบความลับก่อนหมดอายุ ให้เปิดหน้าลิงก์และกด «ทำลายทันที»</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "สิทธิของคุณ"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>ข้อความและไฟล์แนบถูกเข้ารหัสในเบราว์เซอร์ด้วย AES-256-GCM ผ่าน Web Crypto API ที่มีอยู่ก่อนส่ง ชื่อและประเภทไฟล์ถูกเข้ารหัสพร้อมเนื้อหา</p><p>เซิร์ฟเวอร์จัดเก็บเฉพาะ:</p><ul><li>ข้อมูลที่เข้ารหัส</li><li>เวลาหมดอายุ</li><li>ข้อมูลว่ามีไฟล์แนบหรือไม่</li><li>แฮชตรวจสอบรหัสผ่าน หากคุณตั้งรหัสผ่านสำหรับเปิด</li></ul><p>คีย์ถอดรหัสคือส่วนของลิงก์หลังเครื่องหมาย # เบราว์เซอร์ไม่ส่งส่วนนี้ไปยังเซิร์ฟเวอร์ ทั้งเราและผู้ที่เข้าถึงเซิร์ฟเวอร์จึงไม่สามารถถอดรหัสข้อมูลได้ ด้วยเหตุผลเดียวกัน เราไม่สามารถกู้คืนความลับหากลิงก์สูญหาย</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "ความลับและไฟล์"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One เป็นบริการฟรีสำหรับแชร์รหัสผ่าน คีย์ และไฟล์ผ่านลิงก์ใช้ครั้งเดียว ไม่ต้องลงทะเบียน บริการพัฒนาและดำเนินการโดย <a href=\"https://final-level.com/\">FINAL LEVEL</a></p><p>คุณส่งลิงก์เองได้ตามวิธีที่ต้องการ ข้อความในแอป อีเมล หรือ SMS อาจถูกดักรับ และผู้ที่เปิดลิงก์ก่อนจะได้รับความลับ สำหรับข้อมูลสำคัญ ให้ตั้งรหัสผ่านสำหรับเปิดและแจ้งผ่านช่องทางอื่น</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "บริการทำงานอย่างไร"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>ความลับถูกเข้ารหัสในเบราว์เซอร์ เซิร์ฟเวอร์ได้รับเฉพาะข้อมูลที่เข้ารหัสและอ่านไม่ได้</li><li>คีย์ถอดรหัสอยู่ในลิงก์หลัง # และไม่ส่งไปยังเซิร์ฟเวอร์</li><li>ไม่ต้องลงทะเบียน ไม่มีโฆษณา การวิเคราะห์ หรือสคริปต์บุคคลที่สาม</li><li>ความลับถูกลบทันทีหลังเปิดหรือเมื่อสิ้นสุดระยะเวลาที่เลือก</li><li>เซิร์ฟเวอร์แอปพลิเคชันไม่บันทึกที่อยู่ IP หรือรหัสความลับ</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "โดยสรุป"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>ซอร์สโค้ดเปิดเผยบน <a href=\"https://github.com/Draal/secure-share\">GitHub</a> คุณสามารถตรวจสอบการเข้ารหัสหรือเรียกใช้สำเนาของตนเองได้</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "โอเพนซอร์ส"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>เราไม่ใช้คุกกี้โฆษณาหรือวิเคราะห์ เว็บไซต์จัดเก็บเฉพาะสิ่งที่จำเป็นต่อการทำงานในเบราว์เซอร์:</p><ul><li>คุกกี้ <code>lang</code> — ภาษาของคุณ หากเลือกในตัวเลือกภาษา</li><li>ใน localStorage — ธีมสี เครื่องหมายว่าคุณปิดแบนเนอร์ภาษา และเครื่องหมายของลิงก์ที่ทำลายจากเบราว์เซอร์นี้</li><li>ใน sessionStorage — รหัสผ่านจากเครื่องมือสร้างระหว่างโอนไปยังแบบฟอร์มหน้าหลัก โดยจะลบทันทีหลังแทรก</li></ul><p>ในข้อมูลเหล่านี้ มีเพียงคุกกี้ภาษาที่ส่งถึงเซิร์ฟเวอร์เพื่อเลือกเวอร์ชันหน้า คุณสามารถลบทั้งหมดได้ในการตั้งค่าเบราว์เซอร์</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "คุกกี้และพื้นที่จัดเก็บเบราว์เซอร์"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>เว็บไซต์ไม่โหลดสคริปต์ ฟอนต์ ตัวนับ หรือโฆษณาจากบุคคลที่สาม ทุกอย่างรวมถึงฟอนต์ให้บริการจากเซิร์ฟเวอร์ของเรา เราไม่ขายหรือแชร์ข้อมูลกับบุคคลที่สาม</p><p>ปุ่มส่งผ่าน Telegram, WhatsApp และอีเมล รวมถึงลิงก์ไปยังเว็บไซต์ผู้สนับสนุน เป็นลิงก์ธรรมดา บริการภายนอกจะได้รับข้อมูลเมื่อคุณคลิกเท่านั้น และหลังจากนั้นจะใช้นโยบายของบริการนั้น</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "บริการของบุคคลที่สาม"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "นโยบายความเป็นส่วนตัว"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "อัปเดตล่าสุด: 25 ตุลาคม 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "ลิงก์เสียหายหรือคัดลอกมาไม่ครบ โปรดขอให้ผู้ส่งส่งอีกครั้ง"
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "ได้รับข้อมูลแล้วแต่ถอดรหัสไม่ได้: ลิงก์เสียหาย ความลับถูกลบจากเซิร์ฟเวอร์แล้ว โปรดขอให้ผู้ส่งสร้างใหม่"
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "ไม่สามารถติดต่อเซิร์ฟเวอร์ได้ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง"
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "พยายามมากเกินไป โปรดรอหนึ่งนาทีแล้วลองอีกครั้ง"
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "ไม่สามารถเปิดความลับได้"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "สร้างลิงก์ของคุณ"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "ลิงก์ใช้ครั้งเดียวทำงานอย่างไร"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "ความลับถูกเปิดแล้วหรือหมดอายุ ไม่สามารถเปิดลิงก์อีกครั้งได้"
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "ขอให้ผู้ส่งสร้างลิงก์ใหม่ หากคุณไม่ได้เปิดลิงก์นี้ โปรดแจ้งผู้ส่ง เพราะอาจมีคนอื่นเห็นแล้ว"
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "ความลับนี้ไม่พร้อมใช้งานแล้ว"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "ดูได้เพียงครั้งเดียว หลังจากนั้นจะถูกลบจากเซิร์ฟเวอร์ทันที"
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "ความลับนี้ป้องกันด้วยรหัสผ่าน ดูได้เพียงครั้งเดียว จากนั้นจะถูกลบจากเซิร์ฟเวอร์"
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "มีคนส่งความลับถึงคุณ"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "ลิงก์ใช้ครั้งเดียวของ Encrypt.One ความลับเปิดได้ครั้งเดียว จากนั้นจะถูกลบจากเซิร์ฟเวอร์"
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "มีคนส่งความลับถึงคุณ — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "ป้อนรหัสผ่าน"
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "ผู้ส่งควรแจ้งรหัสผ่านแยกต่างหาก หลังจากป้อนผิดสามครั้ง ความลับจะถูกลบ"
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "รหัสผ่านสำหรับเปิด"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "เปิด"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "แชร์ความลับของคุณ"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "สร้างลิงก์ใช้ครั้งเดียวของคุณเอง ไม่ต้องลงทะเบียน"
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "คุณต้องการแชร์รหัสผ่านด้วยหรือไม่?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "แสดงความลับ"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "ลบจากเซิร์ฟเวอร์แล้ว"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "ดาวน์โหลด"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "บันทึกไว้หากต้องใช้ภายหลัง เพราะเมื่อปิดหน้านี้แล้วจะไม่สามารถเปิดความลับอีกได้"
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "ข้อความลับ"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "ความลับของคุณ"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "กำลังเปิด…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One คืออะไร?"
+  }
+]

@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "درخواست پردازش نشد. صفحه را دوباره بارگذاری کنید و دوباره تلاش کنید."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "این پیوند اجازه حذف اطلاعات محرمانه را نمی‌دهد."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "اطلاعات محرمانه پیدا نشد: قبلاً باز یا حذف شده یا مهلت آن به پایان رسیده است."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "برای باز کردن این اطلاعات محرمانه به گذرواژه نیاز است."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "تعداد درخواست‌ها بیش از حد است. یک دقیقه صبر کنید و دوباره تلاش کنید."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "در سمت ما مشکلی پیش آمد. یک دقیقه دیگر دوباره تلاش کنید."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "فایل بیش از حد بزرگ است. محدودیت {{.MaxFileSize}} است."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "به دلیل سه بار ورود گذرواژه نادرست، اطلاعات محرمانه حذف شد."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "گذرواژه نادرست است. تعداد تلاش باقی‌مانده: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "بستن"
+  },
+  {
+    "id": "common.copied",
+    "translation": "کپی شد"
+  },
+  {
+    "id": "common.copy",
+    "translation": "کپی"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "پیوندها"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "حریم خصوصی"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "پروژه"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "پرسش‌های متداول"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "راهنماها"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "نحوه کار"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "امنیت"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "منابع"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "ارسال فایل"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "سازنده گذرواژه"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "اشتراک اطلاعات محرمانه"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "خدمات"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "پیوندهای یک‌بارمصرف برای اشتراک گذرواژه و فایل. رمزگذاری در مرورگر شما انجام می‌شود."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "کد منبع در GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "فارسی"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "FA"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "زبان سایت: فارسی"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "صفحه اصلی Encrypt.One"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: اشتراک گذرواژه با پیوند یک‌بارمصرف"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "پرسش‌های متداول"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "سازنده گذرواژه"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "نحوه کار"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "ناوبری اصلی"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "رفتن به محتوا"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "ساعت، تقویم و تعطیلات همه شهرها"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "بازی رایگان در مرورگر"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "هزاران ایستگاه رادیویی از سراسر جهان"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One به لطف حامیان ما رایگان است"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "تیره"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "پوسته"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "روشن"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "مطابق سیستم"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "آن را برای گیرنده بفرستید. اطلاعات محرمانه فقط یک بار باز می‌شود."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "پیوند شما آماده است"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "دریافت پیوند دیگر"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "برای همان اطلاعات، برای هر گیرنده یک پیوند جداگانه بسازید. پیوند فعلی همچنان کار می‌کند، اما دیگر نمی‌توانید آن را از اینجا حذف کنید."
+  },
+  {
+    "id": "created.back",
+    "translation": "اطلاعات محرمانه جدید"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "حذف فوری"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "اطلاعات محرمانه حذف شود؟ پیوند فوراً از کار می‌افتد."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "حذف اطلاعات محرمانه انجام نشد. دوباره تلاش کنید."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "برای شخص اشتباهی فرستادید؟ اطلاعات محرمانه را حذف کنید تا پیوند فوراً از کار بیفتد."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "شما اطلاعات محرمانه را حذف کردید. داده‌ها از سرور پاک شده‌اند و پیوند دیگر کار نمی‌کند."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "اطلاعات محرمانه حذف شد"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "هیچ‌کس پیوند را به‌موقع باز نکرد. داده‌ها از سرور پاک شده‌اند و پیوند دیگر کار نمی‌کند."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "مهلت پیوند به پایان رسیده است"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "کپی پیوند"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "پیوند یک‌بارمصرف"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "این پیوند دیگر کار نمی‌کند"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "پیوند فقط در زبانه‌ای نمایش داده می‌شود که در آن ساخته شده است. همچنان می‌توانید اطلاعات محرمانه را از اینجا حذف کنید."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "صفحه فرستنده پیوند یک‌بارمصرف Encrypt.One: پیوند را به اشتراک بگذارید یا اطلاعات محرمانه را حذف کنید."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "پیوند شما آماده است — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "ساخت پیوند جدید"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "کد QR پیوند یک‌بارمصرف"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "برای باز کردن پیوند، دوربین تلفن را به سمت آن بگیرید. کد را به دیگران نشان ندهید: مانند پیوند، اطلاعات محرمانه را باز می‌کند."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "کد QR پیوند"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "ارسال از طریق"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "ایمیل"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "کد QR"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "اطلاعات محرمانه‌ای برای شما"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "پیوند یک‌بارمصرف به اطلاعات محرمانه:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "معتبر تا"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>نکته:</strong> برای داده‌های بسیار حساس، گذرواژه‌ای به پیوند اضافه کنید و آن را از راه دیگری، مثلاً شفاهی، اطلاع دهید. در این صورت شنود یک پیام به‌تنهایی اطلاعاتی آشکار نمی‌کند."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "پیوست فایل"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "برای پیوست، فایل را رها کنید"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "می‌توانید فایل را مستقیماً به داخل کادر بکشید."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "حداکثر {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "این مرورگر از رمزگذاری پشتیبانی نمی‌کند. آن را به‌روزرسانی کنید یا سایت را در مرورگر دیگری باز کنید."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "متنی وارد کنید یا فایلی پیوست کنید."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "فایل بیش از حد بزرگ است. محدودیت {{.MaxFileSize}} است."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "اتصال به سرور برقرار نشد. اتصال خود را بررسی کنید و دوباره تلاش کنید."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "گذرواژه باز کردن را وارد کنید یا حفاظت با گذرواژه را خاموش کنید."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "همراه متن رمزگذاری می‌شود"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "حذف فایل"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "ساخت گذرواژه"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "درج در کادر اطلاعات محرمانه"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "پیشنهاد"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "بدون این گذرواژه اطلاعات محرمانه باز نمی‌شود، حتی اگر پیوند به دست دیگری برسد. گذرواژه را جداگانه، مثلاً شفاهی یا در پیام‌رسانی دیگر، به گیرنده اطلاع دهید."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "گذرواژه باز کردن"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "برای مثال: maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "حفاظت با گذرواژه"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "چه چیزی می‌خواهید به اشتراک بگذارید؟"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "گذرواژه، کلید API، اطلاعات ورود…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "تنظیمات پیوند"
+  },
+  {
+    "id": "form.submit",
+    "translation": "ساخت پیوند یک‌بارمصرف"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "در حال رمزگذاری…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "۱ روز"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "۱ ساعت"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "۳ روز"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "۷ روز"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "انقضا پس از"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "مدت نگهداری"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "سازنده رایگان گذرواژه قوی: گذرواژه، عبارت عبور و PIN تصادفی مستقیماً در مرورگر شما ساخته می‌شوند و به جایی فرستاده نمی‌شوند. نتیجه را با پیوند یک‌بارمصرف به اشتراک بگذارید."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "سازنده گذرواژه قوی — رایگان و خصوصی | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "اعداد (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "طول"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "حروف کوچک (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "بدون نویسه‌های مشابه (0 و O، l و 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "نویسه‌ها"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "نمادها (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "حروف بزرگ (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "عبارتی از کلمات تصادفی را می‌توان به‌راحتی گفت و به خاطر سپرد، اما حدس زدن آن مانند گذرواژه‌ای طولانی دشوار است. کلمات از فهرست عمومی EFF گرفته می‌شوند."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "تعداد کلمات"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "تعداد ارقام"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "ساخت دوباره"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "ارسال با پیوند یک‌بارمصرف"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "مستقیماً در فرم قرار می‌گیرد و پیوندی دریافت می‌کنید که فقط یک بار باز می‌شود."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "می‌خواهید این گذرواژه را به اشتراک بگذارید؟"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "آنتروپی ≈ {bits} بیت"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "متوسط"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "فقط برای PIN مناسب است"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "قوی"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "بسیار قوی"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "ضعیف"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "نوع گذرواژه"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "گذرواژه"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "عبارت عبور"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "حداقل ۱۴ تا ۱۶ نویسه. طول، بهتر از جایگزینی هوشمندانه حروف با نمادها محافظت می‌کند."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "طولانی"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "لازم نیست گذرواژه‌های پیچیده را حفظ کنید: مدیر گذرواژه برای همین است."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "نگهداری در مدیر گذرواژه"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "چه چیزی گذرواژه را قوی می‌کند"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "برای هر سرویس یک گذرواژه متفاوت. در این صورت افشای یک گذرواژه حساب‌های دیگر شما را باز نمی‌کند."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "منحصربه‌فرد"
+  },
+  {
+    "id": "generator.title",
+    "translation": "سازنده گذرواژه"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "خیر. اطلاعات محرمانه پیش از ارسال در مرورگر شما رمزگذاری می‌شود. کلید در پیوند پس از علامت # قرار دارد و آن بخش از نشانی هرگز به سرور نمی‌رسد."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "هیچ اتفاقی نمی‌افتد. اطلاعات محرمانه فقط پس از انتخاب «نمایش اطلاعات محرمانه» ظاهر می‌شود و ربات‌های پیش‌نمایش روی دکمه‌ها کلیک نمی‌کنند."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "با پایان مدت نگهداری انتخاب‌شده، اطلاعات محرمانه خودبه‌خود حذف می‌شود."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "بله. در صفحه پیوند شما دکمه «حذف فوری» وجود دارد. پس از آن پیوند از کار می‌افتد."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "خیر. نه فرستنده و نه گیرنده به حساب کاربری نیاز ندارند."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "پاسخ را پیدا نکردید؟ در GitHub یک مسئله ثبت کنید."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "آیا می‌توانید اطلاعات محرمانه مرا بخوانید؟"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "اگر ربات پیش‌نمایش پیام‌رسان پیوند را باز کند چه می‌شود؟"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "اگر گیرنده هرگز پیوند را باز نکند چه می‌شود؟"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "آیا می‌توانم پس از ارسال پیوند را لغو کنم؟"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "آیا ثبت‌نام لازم است؟"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "پرسش‌های متداول"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "اطلاعات محرمانه شما مستقیماً در مرورگر رمزگذاری می‌شود. گیرنده یک بار پیوند را باز می‌کند و سپس داده‌ها از سرور حذف می‌شوند."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "بدون ثبت‌نام"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "رمزگذاری AES-256 روی دستگاه شما"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "متن‌باز"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "اشتراک امن گذرواژه‌ها با پیوندهای یک‌بارمصرف"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "گذرواژه، کلید API، اطلاعات ورود یا فایل. همه چیز پیش از ارسال در مرورگر شما رمزگذاری می‌شود."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "اطلاعات محرمانه را وارد کنید"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "از طریق Telegram، WhatsApp، Signal، Slack، ایمیل یا هر پیام‌رسان دیگر. فقط پیوند در گفتگو می‌ماند، نه خود گذرواژه."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "پیوند را بفرستید"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "پس از مشاهده، داده‌ها از سرور حذف می‌شوند. پیوند بار دوم باز نمی‌شود."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "پیوند از کار می‌افتد"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "نحوه کار"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "گذرواژه، پیام خصوصی، کلید API و فایل را با پیوندهای یک‌بارمصرف رمزگذاری‌شده بفرستید. اطلاعات پس از مشاهده حذف می‌شوند. رایگان، متن‌باز و بدون ثبت‌نام."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "پیوند محرمانه یک‌بارمصرف — اشتراک امن گذرواژه | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "گذرواژه و اطلاعات حساب را بدون باقی گذاشتن در تاریخچه گفتگو به اشتراک بگذارید."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "گذرواژه و اطلاعات ورود"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "پیام‌های حساسی بفرستید که فقط یک بار باز می‌شوند."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "پیام‌های خصوصی"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "کلیدهای API، توکن‌های دسترسی و فایل‌های پیکربندی را با هم‌تیمی‌ها به‌صورت امن به اشتراک بگذارید."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "کلید API و اطلاعات دسترسی"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "اسناد خصوصی و فایل‌های تا {{.MaxFileSize}} را با پیوندهای یک‌بارمصرف رمزگذاری‌شده به اشتراک بگذارید."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "فایل‌های محرمانه"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "پیام‌های خودحذف‌شونده، گذرواژه‌ها، کلیدهای API و فایل‌های خصوصی را امن بفرستید. هر اطلاعات محرمانه در مرورگر شما رمزگذاری و پس از مشاهده از سرور حذف می‌شود."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "با پیوند یک‌بارمصرف چه چیزی می‌توان به اشتراک گذاشت؟"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>نزد شما می‌ماند.</strong> کلید رمزگشایی. مرورگرها هرگز بخش پس از # را به سرور نمی‌فرستند."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>به سرور می‌رود.</strong> نشانی داده رمزگذاری‌شده: بدون کلید فقط مجموعه‌ای از بایت‌های تصادفی است."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Web Crypto API داخلی مرورگر و AES-256-GCM. بدون کتابخانه شخص ثالث."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "رمزگذاری در مرورگر"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "تمام کد در <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a> منتشر شده است. هر کسی می‌تواند نحوه رمزگذاری را بررسی کند."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "متن‌باز"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "بدون ثبت‌نام، اسکریپت شخص ثالث یا ردیاب. به همین دلیل بنر کوکی هم وجود ندارد."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "بدون موارد اضافی"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "کلید رمزگشایی در پیوند پس از علامت # قرار دارد. مرورگرها هرگز آن بخش از نشانی را به سرور نمی‌فرستند؛ بنابراین فقط شما و گیرنده آن را می‌بینید."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "اطلاعات بیشتر درباره نحوه کار"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "چرا نمی‌توانیم اطلاعات محرمانه شما را بخوانیم"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "اشتراک اطلاعات محرمانه"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "کد در GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "متن‌باز"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "تمام کد Encrypt.One در GitHub است. هر کسی می‌تواند نحوه رمزگذاری را ببیند و مطمئن شود کلید هرگز به سرور نمی‌رود."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "خودتان بررسی کنید"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "جریان داده"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "اطلاعات محرمانه پیش از ارسال رمزگذاری می‌شود و فقط گیرنده آن را رمزگشایی می‌کند. در این میان داده‌ها همیشه رمزگذاری‌شده باقی می‌مانند."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "داده رمزگذاری‌شده را دریافت می‌کند، کلید را از پیوند برمی‌دارد و اطلاعات را روی دستگاه خود رمزگشایی می‌کند. سرور بلافاصله پس از آن داده‌ها را حذف می‌کند."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "مرورگر گیرنده"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "یک کلید تصادفی می‌سازد و با Web Crypto API داخلی مرورگر، متن و فایل را با AES-256-GCM رمزگذاری می‌کند."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "مرورگر فرستنده"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "فقط بایت‌های رمزگذاری‌شده را دریافت و نگهداری می‌کند. بدون کلید هیچ‌کس نمی‌تواند آنها را بخواند؛ نه ما و نه کسی که به سرور دسترسی پیدا کند."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "سرور Encrypt.One"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "سرور فقط داده رمزگذاری‌شده را می‌بیند"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One اطلاعات محرمانه شما را مستقیماً در مرورگر رمزگذاری می‌کند. فقط داده رمزگذاری‌شده به سرور می‌رود و کلید در پیوند می‌ماند و از دستگاه فرستنده و گیرنده خارج نمی‌شود."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "نحوه کار و دلیل امنیت آن"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "درون پیوند"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "پیوند دو بخش دارد. بخش اول محل نگهداری داده رمزگذاری‌شده را نشان می‌دهد. بخش دوم، پس از #، کلید رمزگشایی است."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "هر کس پیوند کامل را داشته باشد می‌تواند اطلاعات محرمانه را باز کند. آن را فقط برای گیرنده بفرستید و برای داده حساس گذرواژه اضافه کنید."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "پیوند کامل یعنی دسترسی"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "مرورگرها بخش پس از # را در درخواست‌ها قرار نمی‌دهند. بنابراین کلید نه در گزارش سرور است و نه در هیچ نقطه‌ای از شبکه در مسیر."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "هرگز به سرور فرستاده نمی‌شود"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "کلید به‌صورت تصادفی روی دستگاه شما ساخته می‌شود. یافتن آن با آزمودن همه حالت‌ها ممکن نیست."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "برای هر پیوند تازه است"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "کلید پس از # قرار دارد"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.One چگونه اطلاعات را در مرورگر رمزگذاری می‌کند: AES-256-GCM، کلید پیوند پس از #، داده‌های سرور، زمان حذف و دلیل افزودن گذرواژه."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "نحوه کار Encrypt.One: اشتراک اطلاعات محرمانه با رمزگذاری سرتاسری"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "باز کردن سازنده گذرواژه"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "گذرواژه باز کردن"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "گذرواژه حتی در صورت رهگیری پیوند از اطلاعات محرمانه محافظت می‌کند. بدون آن گیرنده فقط کادر ورود را می‌بیند."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "پس از سه تلاش نادرست اطلاعات محرمانه حذف می‌شود. حدس گذرواژه با آزمون پیاپی ممکن نخواهد بود."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "سه تلاش"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "در فرم «پیشنهاد» را انتخاب کنید یا عبارتی از سازنده گذرواژه بگیرید: گفتن آن آسان است."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "خودتان حدس نزنید"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "گذرواژه را از راه دیگری بگویید: شفاهی، در پیام‌رسانی دیگر یا حضوری. در این صورت شنود یک پیام به‌تنهایی چیزی آشکار نمی‌کند."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "جداگانه اطلاع دهید"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "قفل دوم برای داده حساس"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "اگر گذرواژه باز کردن سه بار نادرست وارد شود، اطلاعات محرمانه برای همیشه حذف می‌شود."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "پس از سه گذرواژه نادرست"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "دکمه «حذف فوری» در صفحه پیوند اطلاعات محرمانه را فوراً حذف می‌کند."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "هر وقت شما بخواهید"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "اگر در مدت نگهداری انتخاب‌شده پیوند باز نشود، اطلاعات محرمانه خودبه‌خود حذف می‌شود."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "با پایان مهلت"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "به‌محض باز کردن اطلاعات محرمانه توسط گیرنده، داده‌ها حذف می‌شوند. پیوند بار دوم کار نمی‌کند."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "پس از باز شدن"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "شمارنده تلاش‌های نادرست گذرواژه"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "متن و فایل رمزگذاری‌شده"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "در سرور نگهداری می‌شود"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "مدت نگهداری انتخاب‌شده توسط شما"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "نگهداری"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "سرور اطلاعات محرمانه را به اندازه زمانی که گیرنده برای باز کردن نیاز دارد نگه می‌دارد."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "کلید رمزگشایی موجود در پیوند"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "گذرواژه باز کردن"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "اطلاعات محرمانه به‌صورت متن خوانا"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "هرگز به سرور نمی‌رسد"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "سرور چه چیزهایی را نگهداری می‌کند و چه زمانی حذف می‌کند"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "سازنده گذرواژه"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "رفتن به صفحه اصلی"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "چنین صفحه‌ای در Encrypt.One وجود ندارد."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "صفحه پیدا نشد — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "ممکن است نشانی اشتباه وارد شده یا صفحه جابه‌جا شده باشد. اگر پیوند یک‌بارمصرف را باز می‌کردید، مطمئن شوید کامل کپی شده است."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "صفحه پیدا نشد"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>اگر این سیاست تغییر کند، نسخه جدید را در همین صفحه منتشر می‌کنیم و تاریخ بالای صفحه را به‌روزرسانی می‌کنیم.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "تغییرات این سیاست"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>پرسش‌های مربوط به حریم خصوصی را در <a href=\"https://github.com/Draal/secure-share/issues\">مسائل GitHub</a> مطرح کنید.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "پرسش‌ها"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>بلافاصله پس از باز کردن اطلاعات محرمانه توسط گیرنده؛</li><li>با انتخاب «حذف فوری» در صفحه پیوند؛</li><li>پس از سومین گذرواژه نادرست؛</li><li>با پایان مدت انتخاب‌شده، از ۱ ساعت تا ۷ روز. اطلاعات منقضی فوراً دیگر ارائه نمی‌شود و داده‌های آن در پاک‌سازی روزانه حذف می‌شوند.</li></ul><p>اطلاعات حذف‌شده قابل بازیابی نیست. ربات‌های پیام‌رسان برای پیش‌نمایش، نوبت باز کردن اطلاعات را مصرف نمی‌کنند: داده فقط پس از انتخاب «نمایش اطلاعات محرمانه» ارائه می‌شود.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "زمان حذف داده‌ها"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>گذرواژه‌ها، عبارت‌های عبور و PINها در مرورگر شما با تولیدکننده عدد تصادفی رمزنگارانه ساخته می‌شوند و هرگز به سرور فرستاده نمی‌شوند.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "سازنده گذرواژه"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One به‌گونه‌ای ساخته شده که فقط گیرنده بتواند اطلاعات محرمانه را بخواند؛ حتی ما هم نمی‌توانیم. در اینجا می‌بینید چه داده‌هایی از سرویس می‌گذرند و چه اتفاقی برایشان می‌افتد."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>سرور برنامه فقط درخواست‌های API را ثبت می‌کند: نوع درخواست، نتیجه و زمان پردازش. نشانی‌های IP، شناسه اطلاعات محرمانه، توکن‌ها، نشانی صفحات و محتوای درخواست هرگز ثبت نمی‌شوند.</p><p>برای محافظت در برابر حدس پیاپی و سوءاستفاده، سرور نرخ درخواست هر نشانی IP را محدود می‌کند. نشانی فقط در حافظه استفاده می‌شود و ذخیره نمی‌شود.</p><p>یک وب‌سرور در جلوی برنامه ممکن است گزارش دسترسی استاندارد نگه دارد: نشانی IP، زمان و نشانی صفحه بدون بخش پس از #. این گزارش‌ها فقط برای محافظت در برابر حمله استفاده می‌شوند و مدت محدودی نگهداری می‌شوند.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "گزارش‌های فنی"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "سیاست حریم خصوصی Encrypt.One: سرویس چه داده‌هایی دریافت می‌کند، چه مدت نگه می‌دارد و چرا نمی‌تواند اطلاعات محرمانه شما را بخواند."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "سیاست حریم خصوصی — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>خود گذرواژه هرگز از مرورگر شما خارج نمی‌شود. مرورگر از گذرواژه و کلید پیوند دو مقدار مستقل به دست می‌آورد: کلید رمزگذاری و هش بررسی (PBKDF2 با ۶۰۰٬۰۰۰ تکرار و سپس HKDF). فقط هش به سرور فرستاده می‌شود. سرور با آن گذرواژه را بررسی می‌کند اما نمی‌تواند گذرواژه یا کلید را بفهمد.</p><p>پس از سه تلاش نادرست اطلاعات محرمانه حذف می‌شود. شمارنده تلاش در حافظه سرور نگهداری می‌شود و به اطلاعات محرمانه تعلق دارد، نه به بازدیدکننده.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "گذرواژه باز کردن"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>ما نمی‌دانیم چه کسی اطلاعات محرمانه را ساخته یا باز کرده است: سرویس داده را به هیچ شخص، حساب یا نشانی IP مرتبط نمی‌کند. به همین دلیل نمی‌توانیم داده شخص مشخصی را پیدا، تحویل یا حذف کنیم. برای حذف اطلاعات خود پیش از پایان مهلت، صفحه پیوند را باز و «حذف فوری» را انتخاب کنید.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "حقوق شما"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>متن و فایل پیوست پیش از ارسال در مرورگر شما با AES-256-GCM از طریق Web Crypto API داخلی رمزگذاری می‌شوند. نام و نوع فایل نیز همراه محتوا رمزگذاری می‌شوند.</p><p>سرور فقط این موارد را نگه می‌دارد:</p><ul><li>داده رمزگذاری‌شده؛</li><li>زمان انقضا؛</li><li>اینکه فایلی پیوست شده است یا نه؛</li><li>در صورت تعیین گذرواژه باز کردن، هش بررسی گذرواژه.</li></ul><p>کلید رمزگشایی بخش پیوند پس از علامت # است. مرورگرها هرگز آن بخش را به سرور نمی‌فرستند، بنابراین نه ما و نه کسی که به سرور دسترسی پیدا کند نمی‌توانیم داده را رمزگشایی کنیم. به همین دلیل در صورت گم شدن پیوند نمی‌توانیم اطلاعات محرمانه را بازیابی کنیم.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "اطلاعات محرمانه و فایل‌ها"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One سرویسی رایگان برای اشتراک گذرواژه، کلید و فایل از طریق پیوندهای یک‌بارمصرف است. ثبت‌نام لازم نیست. این سرویس را <a href=\"https://final-level.com/\">FINAL LEVEL</a> توسعه می‌دهد و اداره می‌کند.</p><p>شما خودتان پیوند را به روش دلخواه ارسال می‌کنید. پیام‌رسان، ایمیل یا پیامک ممکن است رهگیری شود و هر کس ابتدا پیوند را باز کند اطلاعات را دریافت می‌کند. برای داده‌های مهم، گذرواژه باز کردن تعیین کنید و آن را از کانالی دیگر اطلاع دهید.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "نحوه کار سرویس"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>اطلاعات محرمانه در مرورگر شما رمزگذاری می‌شود. سرور فقط داده رمزگذاری‌شده دریافت می‌کند و نمی‌تواند آن را بخواند.</li><li>کلید رمزگشایی در پیوند پس از # قرار دارد و هرگز به سرور فرستاده نمی‌شود.</li><li>بدون ثبت‌نام، تبلیغات، تحلیل یا اسکریپت شخص ثالث.</li><li>اطلاعات محرمانه به‌محض باز شدن یا پایان مدت انتخاب‌شده حذف می‌شود.</li><li>سرور برنامه نشانی‌های IP یا شناسه اطلاعات محرمانه را ثبت نمی‌کند.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "خلاصه"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>کد منبع در <a href=\"https://github.com/Draal/secure-share\">GitHub</a> باز است: می‌توانید نحوه رمزگذاری را بررسی کنید یا نسخه خودتان را اجرا کنید.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "متن‌باز"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>ما از کوکی‌های تبلیغاتی یا تحلیلی استفاده نمی‌کنیم. سایت فقط موارد لازم برای کار را در مرورگر شما نگه می‌دارد:</p><ul><li>کوکی <code>lang</code> — زبان انتخابی شما در انتخابگر؛</li><li>در localStorage — پوسته رنگی، وضعیت بسته شدن بنر زبان و اطلاعات پیوندهای حذف‌شده از این مرورگر؛</li><li>در sessionStorage — گذرواژه سازنده هنگام انتقال به فرم صفحه اصلی. بلافاصله پس از درج حذف می‌شود.</li></ul><p>از این موارد فقط کوکی زبان به سرور می‌رسد و برای انتخاب نسخه صفحه استفاده می‌شود. می‌توانید همه را در تنظیمات مرورگر حذف کنید.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "کوکی‌ها و ذخیره‌سازی مرورگر"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>سایت اسکریپت، فونت، شمارنده یا تبلیغات شخص ثالث بارگذاری نمی‌کند: همه چیز، از جمله فونت‌ها، از سرور خودمان ارائه می‌شود. ما داده‌ها را به اشخاص ثالث نمی‌فروشیم یا با آنها به اشتراک نمی‌گذاریم.</p><p>دکمه‌های ارسال از طریق Telegram، WhatsApp و ایمیل و همچنین پیوندهای سایت حامیان، پیوندهای معمولی هستند. سرویس خارجی فقط وقتی روی یکی کلیک کنید داده دریافت می‌کند و از آن پس سیاست خودش اعمال می‌شود.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "سرویس‌های شخص ثالث"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "سیاست حریم خصوصی"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "آخرین به‌روزرسانی: ۲۵ اکتبر ۲۰۲۶"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "پیوند خراب است یا کامل کپی نشده است. از فرستنده بخواهید آن را دوباره بفرستد."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "داده رسید اما رمزگشایی نشد: پیوند خراب است. اطلاعات محرمانه قبلاً از سرور حذف شده است، پس از فرستنده بخواهید پیوند جدیدی بسازد."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "اتصال به سرور برقرار نشد. اتصال خود را بررسی کنید و دوباره تلاش کنید."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "تعداد تلاش‌ها بیش از حد است. یک دقیقه صبر کنید و دوباره تلاش کنید."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "اطلاعات محرمانه باز نشد"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "ساخت پیوند خودتان"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "پیوندهای یک‌بارمصرف چگونه کار می‌کنند"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "این اطلاعات قبلاً باز شده یا مهلت آن پایان یافته است. پیوند دوباره باز نمی‌شود."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "از فرستنده بخواهید پیوند جدیدی بسازد. اگر شما این پیوند را باز نکرده‌اید، به او اطلاع دهید: ممکن است شخص دیگری آن را دیده باشد."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "این اطلاعات محرمانه دیگر در دسترس نیست"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "فقط یک بار قابل مشاهده است. بلافاصله پس از آن از سرور حذف می‌شود."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "این اطلاعات محرمانه با گذرواژه محافظت می‌شود. فقط یک بار قابل مشاهده است و سپس از سرور حذف می‌شود."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "کسی اطلاعات محرمانه‌ای برای شما فرستاده است"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "پیوند یک‌بارمصرف Encrypt.One. اطلاعات محرمانه یک بار باز می‌شود و سپس از سرور حذف می‌شود."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "کسی اطلاعات محرمانه‌ای برای شما فرستاده است — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "گذرواژه را وارد کنید."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "فرستنده باید گذرواژه را جداگانه به شما داده باشد. پس از سه تلاش نادرست اطلاعات محرمانه حذف می‌شود."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "گذرواژه باز کردن"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "باز کردن"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "اشتراک اطلاعات محرمانه خودتان"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "پیوند یک‌بارمصرف خود را بسازید. بدون ثبت‌نام."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "خودتان هم باید گذرواژه‌ای به اشتراک بگذارید؟"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "نمایش اطلاعات محرمانه"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "از سرور حذف شد"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "دانلود"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "اگر بعداً به آن نیاز دارید ذخیره‌اش کنید: پس از بستن این صفحه، اطلاعات محرمانه دوباره باز نمی‌شود."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "متن محرمانه"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "اطلاعات محرمانه شما"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "در حال باز کردن…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.One چیست؟"
+  }
+]

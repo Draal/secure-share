@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "リクエストを処理できませんでした。ページを再読み込みして、もう一度お試しください。"
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "このリンクでは秘密を破棄できません。"
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "秘密が見つかりません。すでに開封・破棄されたか、有効期限が切れています。"
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "この秘密を開くにはパスワードが必要です。"
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "リクエストが多すぎます。1分待ってからもう一度お試しください。"
+  },
+  {
+    "id": "api.error.server",
+    "translation": "サーバー側で問題が発生しました。1分後にもう一度お試しください。"
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "ファイルが大きすぎます。上限は{{.MaxFileSize}}です。"
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "パスワードを3回間違えたため、秘密は削除されました。"
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "パスワードが違います。残りの試行回数：{{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "閉じる"
+  },
+  {
+    "id": "common.copied",
+    "translation": "コピーしました"
+  },
+  {
+    "id": "common.copy",
+    "translation": "コピー"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "リンク"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "プライバシー"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "プロジェクト"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "よくある質問"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "ガイド"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "仕組み"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "セキュリティ"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "資料"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "ファイルを送る"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "パスワード生成"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "秘密を共有"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "サービス"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "パスワードやファイルを共有するための使い捨てリンク。ブラウザ内で暗号化します。"
+  },
+  {
+    "id": "common.github.label",
+    "translation": "GitHubのソースコード"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "日本語"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "JA"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "サイトの言語：日本語"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One ホーム"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One：使い捨てリンクでパスワードを共有"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "よくある質問"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "パスワード生成"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "仕組み"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "メインナビゲーション"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "本文へ移動"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "世界の都市の時刻、カレンダー、祝日"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "ブラウザですぐ遊べる無料ゲーム"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "世界中の数千のラジオ局"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.Oneはスポンサーのおかげで無料です"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "ダーク"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "テーマ"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "ライト"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "システム"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "受信者に送ってください。秘密は一度だけ開けます。"
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "リンクの準備ができました"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "別のリンクを作成"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "同じ秘密を受信者ごとに別のリンクで送れます。現在のリンクは有効なままですが、ここから破棄することはできなくなります。"
+  },
+  {
+    "id": "created.back",
+    "translation": "新しい秘密"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "今すぐ破棄"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "秘密を破棄しますか？リンクは直ちに使えなくなります。"
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "秘密を破棄できませんでした。もう一度お試しください。"
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "間違った相手に送りましたか？秘密を破棄すると、リンクは直ちに使えなくなります。"
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "秘密を破棄しました。データはサーバーから削除され、リンクは使えなくなりました。"
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "秘密を破棄しました"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "期限までにリンクが開かれませんでした。データはサーバーから削除され、リンクは使えなくなりました。"
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "リンクの有効期限が切れました"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "リンクをコピー"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "使い捨てリンク"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "このリンクはもう使えません"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "リンクは作成したタブにのみ表示されます。ここから秘密を破棄することはできます。"
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Encrypt.Oneの使い捨てリンクの送信者ページ：リンクの共有または秘密の破棄。"
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "リンクの準備ができました — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "新しいリンクを作成"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "使い捨てリンクのQRコード"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "スマートフォンのカメラを向けるとリンクが開きます。このコードはリンクと同じように秘密を開けるため、他人に見せないでください。"
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "リンクのQRコード"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "送信方法"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "メール"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QRコード"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "あなたへの秘密"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "秘密への使い捨てリンク："
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "有効期限"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>ヒント：</strong>特に機密性の高い情報にはパスワードを追加し、音声など別の方法で伝えてください。一つのメッセージが傍受されても内容は漏れません。"
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "ファイルを添付"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "離してファイルを添付"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "ファイルをこの欄に直接ドラッグできます。"
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "最大{{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "このブラウザは暗号化に対応していません。更新するか、別のブラウザで開いてください。"
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "テキストを貼り付けるか、ファイルを添付してください。"
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "ファイルが大きすぎます。上限は{{.MaxFileSize}}です。"
+  },
+  {
+    "id": "form.error.network",
+    "translation": "サーバーに接続できませんでした。接続を確認して、もう一度お試しください。"
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "開封用パスワードを入力するか、パスワード保護を無効にしてください。"
+  },
+  {
+    "id": "form.file.note",
+    "translation": "テキストと一緒に暗号化されます"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "ファイルを削除"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "パスワードを生成"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "秘密の入力欄に挿入"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "提案"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "リンクが傍受されても、このパスワードなしでは秘密を開けません。音声や別のメッセージアプリなどで受信者に別途伝えてください。"
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "開封用パスワード"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "例：maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "パスワードで保護"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "何を共有しますか？"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "パスワード、APIキー、ログイン情報…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "リンクの設定"
+  },
+  {
+    "id": "form.submit",
+    "translation": "使い捨てリンクを作成"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "暗号化中…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1日"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1時間"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3日"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7日"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "有効期間"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "保存期間"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "強力なパスワード、パスフレーズ、PINを無料で生成。ブラウザ内で作成され、外部に送信されません。結果を使い捨てリンクで共有できます。"
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "強力なパスワード生成 — 無料・プライベート | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "数字（0～9）"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "長さ"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "小文字（a～z）"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "似た文字を除外（0とO、lと1）"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "文字の種類"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "記号（!#$%&*）"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "大文字（A～Z）"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "ランダムな単語のフレーズは声に出しやすく覚えやすいうえ、長いパスワードと同じくらい推測が困難です。単語はEFFの公開単語リストから選ばれます。"
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "単語数"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "桁数"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "再生成"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "使い捨てリンクで送る"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "結果がフォームに直接入力され、一度だけ開けるリンクを取得できます。"
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "このパスワードを共有しますか？"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "エントロピー ≈ {bits}ビット"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "普通"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "PINとしてのみ適切"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "強い"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "非常に強い"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "弱い"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "パスワードの種類"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "パスワード"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "パスフレーズ"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "14～16文字以上にしましょう。文字を記号に置き換えるより、長さが重要です。"
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "長い"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "複雑なパスワードを覚える必要はありません。パスワードマネージャーを使いましょう。"
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "パスワードマネージャーに保存"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "強力なパスワードの条件"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "サービスごとに別のパスワードを使用しましょう。一つが漏れても他のアカウントを守れます。"
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "使い回さない"
+  },
+  {
+    "id": "generator.title",
+    "translation": "パスワード生成"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "いいえ。秘密は送信前にブラウザ内で暗号化されます。鍵はリンクの#以降にあり、その部分はサーバーに送信されません。"
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "何も起こりません。秘密は「秘密を表示」を押して初めて表示され、プレビューボットはボタンを押しません。"
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "選択した保存期間が過ぎると、秘密は自動的に削除されます。"
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "はい。リンクのページに「今すぐ破棄」ボタンがあります。押すとリンクは使えなくなります。"
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "いいえ。送信者も受信者もアカウントは不要です。"
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "答えが見つかりませんか？GitHubで問題を報告してください。"
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "私の秘密を読むことはできますか？"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "メッセージアプリのプレビューボットがリンクを開いたらどうなりますか？"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "受信者がリンクを開かない場合はどうなりますか？"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "送信後にリンクを取り消せますか？"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "登録は必要ですか？"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "よくある質問"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "秘密はブラウザ内で直接暗号化されます。受信者がリンクを一度開くと、データはサーバーから削除されます。"
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "登録不要"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "お使いの端末でAES-256暗号化"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "オープンソース"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "使い捨てリンクでパスワードを安全に共有"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "パスワード、APIキー、ログイン情報、ファイルなど。すべて送信前にブラウザ内で暗号化されます。"
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "秘密を貼り付ける"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Telegram、WhatsApp、Signal、Slack、メールなどで送信。チャットに残るのはリンクだけで、パスワード自体は残りません。"
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "リンクを送る"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "閲覧後、データはサーバーから削除されます。リンクを二度開くことはできません。"
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "リンクが失効"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "仕組み"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "暗号化された使い捨てリンクでパスワード、プライベートメッセージ、APIキー、ファイルを送信。秘密は閲覧後に削除されます。無料、オープンソース、登録不要。"
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "使い捨ての秘密リンク — パスワードを安全に共有 | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "パスワードやログイン情報をチャット履歴に残さず共有できます。"
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "パスワードとログイン情報"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "一度しか開けない機密メッセージを送信できます。"
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "プライベートメッセージ"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "APIキー、アクセストークン、設定ファイルをチームと安全に共有できます。"
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "APIキーと認証情報"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "最大{{.MaxFileSize}}の機密文書やファイルを暗号化された使い捨てリンクで共有できます。"
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "機密ファイル"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "自動消去されるメッセージ、パスワード、APIキー、機密ファイルを安全に送信。各秘密はブラウザ内で暗号化され、閲覧後にサーバーから削除されます。"
+  },
+  {
+    "id": "home.share.title",
+    "translation": "使い捨てリンクで何を共有できますか？"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>あなたの手元に残る。</strong>復号キー。ブラウザは#以降をサーバーに送信しません。"
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>サーバーに送信される。</strong>暗号化データのアドレス。鍵がなければランダムなバイト列にすぎません。"
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "ブラウザ内蔵のWeb Crypto APIとAES-256-GCM。サードパーティーのライブラリは不要です。"
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "ブラウザ内で暗号化"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "すべてのコードは<a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>で公開されています。誰でも暗号化の仕組みを確認できます。"
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "オープンソース"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "登録、外部スクリプト、トラッカーはありません。そのためCookieバナーもありません。"
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "余計なものはありません"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "復号キーはリンクの#以降にあります。ブラウザはその部分をサーバーに送信しないため、見られるのはあなたと受信者だけです。"
+  },
+  {
+    "id": "home.why.more",
+    "translation": "仕組みの詳細"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "私たちが秘密を読めない理由"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "秘密を共有"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "GitHubのコード"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "オープンソース"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Encrypt.OneのすべてのコードはGitHubで公開されています。誰でも暗号化の仕組みを確認し、鍵がサーバーに送信されないことを確かめられます。"
+  },
+  {
+    "id": "how.code.title",
+    "translation": "ご自身で確認"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "データの流れ"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "秘密は送信前に暗号化され、受信者だけが復号します。その間、データは常に暗号化されたままです。"
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "暗号化データをダウンロードし、リンクから鍵を取得してローカルで復号します。その直後、サーバーはデータを削除します。"
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "受信者のブラウザ"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "ランダムな鍵を生成し、ブラウザ内蔵のWeb Crypto APIを使ってテキストとファイルをAES-256-GCMで暗号化します。"
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "送信者のブラウザ"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "暗号化されたバイト列だけを受信・保存します。鍵がなければ、私たちもサーバーにアクセスした人も読めません。"
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.Oneサーバー"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "サーバーに見えるのは暗号化データだけ"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.Oneは秘密をブラウザ内で直接暗号化します。サーバーに送られるのは暗号化データだけで、鍵はリンク内に残り、送信者と受信者の端末から外に出ません。"
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "仕組みと安全性の理由"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "リンクの中身"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "リンクは二つの部分からなります。前半は暗号化データの保存場所を示し、#以降の後半が復号キーです。"
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "完全なリンクを持つ人は誰でも秘密を開けます。受信者だけに送り、機密性の高い情報にはパスワードを追加してください。"
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "完全なリンクがアクセス権になります"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "ブラウザは#以降をリクエストに含めません。そのため鍵はサーバーログにも途中のネットワークにも現れません。"
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "サーバーには送信されません"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "鍵はお使いの端末でランダムに生成されます。総当たりで推測することはできません。"
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "リンクごとに新規生成"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "鍵は#の後にあります"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Encrypt.Oneがブラウザで秘密を暗号化する仕組み：AES-256-GCM、#以降の鍵、保存と削除、パスワード保護。"
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Encrypt.Oneの仕組み：エンドツーエンド暗号化で秘密を共有"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "パスワード生成を開く"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "開封用パスワード"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "パスワードはリンクが傍受されても秘密を守ります。パスワードがなければ受信者には入力欄しか表示されません。"
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "3回間違えると秘密が削除されます。総当たりでパスワードを推測することはできません。"
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "試行は3回まで"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "フォームの「提案」を押すか、パスワード生成からフレーズを選んでください。声に出して伝えやすくなります。"
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "自分で考えない"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "パスワードは音声、別のメッセージアプリ、対面など別の方法で伝えてください。一つのメッセージが傍受されても内容は漏れません。"
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "別の方法で伝える"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "機密情報のための二つ目の鍵"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "開封用パスワードを3回間違えると、秘密は完全に削除されます。"
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "パスワードを3回間違えたとき"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "リンクページの「今すぐ破棄」ボタンで秘密を直ちに削除できます。"
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "ご自身の操作で"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "選択した保存期間内にリンクが開かれなければ、秘密は自動的に削除されます。"
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "期限が切れたとき"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "受信者が秘密を開くとすぐにデータが削除されます。リンクは二度と使えません。"
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "開封後"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "パスワードの失敗回数"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "暗号化されたテキストとファイル"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "サーバーに保存されるもの"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "選択した保存期間"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "保存"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "サーバーは受信者が秘密を開くために必要な期間だけ秘密を保存します。"
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "リンク内の復号キー"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "開封用パスワード"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "暗号化されていない秘密の内容"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "サーバーに送信されないもの"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "サーバーが保存するものと削除のタイミング"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "パスワード生成"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "ホームへ"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Encrypt.Oneにそのページはありません。"
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "ページが見つかりません — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "アドレスが間違っているか、ページが移動した可能性があります。使い捨てリンクを開こうとした場合は、リンク全体がコピーされているか確認してください。"
+  },
+  {
+    "id": "notFound.title",
+    "translation": "ページが見つかりません"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>このポリシーが変更された場合は、このページに新しい版を公開し、上部の日付を更新します。</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "ポリシーの変更"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>プライバシーに関する質問は<a href=\"https://github.com/Draal/secure-share/issues\">GitHubのIssue</a>でお寄せください。</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "お問い合わせ"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>受信者が秘密を開いた直後</li><li>リンクページで「今すぐ破棄」を押したとき</li><li>パスワードを3回間違えた後</li><li>1時間から7日までの選択した期間が終了したとき。期限切れの秘密は直ちに提供されなくなり、データは毎日のクリーンアップで消去されます。</li></ul><p>削除された秘密は復元できません。リンクのプレビューを作るメッセージアプリのボットは秘密を消費しません。データは「秘密を表示」を押して初めて提供されます。</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "データが削除されるタイミング"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>パスワード、パスフレーズ、PINはブラウザ内で暗号学的乱数生成器を使って作成され、サーバーに送信されません。</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "パスワード生成"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.Oneは、受信者だけが秘密を読めるように設計されています。私たちにも読めません。ここではサービスを通過するデータとその扱いを説明します。"
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>アプリケーションサーバーが記録するのはAPIリクエストの種類、結果、処理時間のみです。IPアドレス、秘密のID、トークン、ページアドレス、リクエスト内容は記録されません。</p><p>総当たり攻撃や不正使用からサービスを守るため、サーバーはIPアドレスごとのリクエスト頻度を制限します。アドレスはメモリ内でのみ使用され、保存されません。</p><p>アプリケーションの前段にあるウェブサーバーは、IPアドレス、時刻、#以降を除くページアドレスを通常のアクセスログに記録する場合があります。これらのログは攻撃からの保護にのみ使用され、保存期間は限定されています。</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "技術ログ"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.Oneのプライバシーポリシー：サービスが受け取るデータ、保存期間、秘密を読めない理由。"
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "プライバシーポリシー — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>パスワード自体がブラウザから出ることはありません。ブラウザはパスワードとリンク内の鍵から、暗号化キーと検証用ハッシュという二つの独立した値を導出します（PBKDF2を600,000回反復し、続いてHKDFを使用）。サーバーに送られるのはハッシュだけです。サーバーはこれでパスワードを検証しますが、パスワードや鍵を知ることはできません。</p><p>3回間違えると秘密は削除されます。試行回数はサーバーのメモリに保存され、訪問者ではなく秘密に紐付けられます。</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "開封用パスワード"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>私たちは誰が秘密を作成・開封したか知りません。サービスはデータを人、アカウント、IPアドレスに結び付けないためです。そのため特定の人のデータを探したり、提供・削除したりできません。期限前に秘密を削除するには、リンクページを開いて「今すぐ破棄」を押してください。</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "あなたの権利"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>テキストと添付ファイルは送信前にブラウザ内で、内蔵のWeb Crypto APIを通じてAES-256-GCMで暗号化されます。ファイル名と種類も内容と一緒に暗号化されます。</p><p>サーバーに保存されるのは次の情報だけです：</p><ul><li>暗号化されたデータ</li><li>有効期限</li><li>ファイルが添付されているかどうか</li><li>開封用パスワードを設定した場合の検証用ハッシュ</li></ul><p>復号キーはリンクの#以降の部分です。ブラウザはこの部分をサーバーに送信しないため、私たちもサーバーにアクセスした人もデータを復号できません。同じ理由で、リンクを紛失した場合に秘密を復元することもできません。</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "秘密とファイル"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.Oneは、パスワード、鍵、ファイルを使い捨てリンクで共有する無料サービスです。登録は不要です。サービスは<a href=\"https://final-level.com/\">FINAL LEVEL</a>が開発・運営しています。</p><p>リンクはお好きな方法でご自身で送信します。メッセージアプリ、メール、SMSは傍受される可能性があり、その場合は最初にリンクを開いた人が秘密を取得します。重要な情報には開封用パスワードを設定し、別の経路で伝えてください。</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "サービスの仕組み"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>秘密はブラウザ内で暗号化されます。サーバーは暗号化データのみを受け取り、内容を読めません。</li><li>復号キーはリンクの#以降にあり、サーバーには送信されません。</li><li>登録、広告、分析、外部スクリプトはありません。</li><li>秘密は開封直後または選択した期間の終了時に削除されます。</li><li>アプリケーションサーバーはIPアドレスや秘密のIDを記録しません。</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "概要"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>ソースコードは<a href=\"https://github.com/Draal/secure-share\">GitHub</a>で公開されています。暗号化の仕組みを確認したり、独自のコピーを運用したりできます。</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "オープンソース"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>広告や分析用のCookieは使用していません。サイトがブラウザに保存するのは動作に必要な情報だけです：</p><ul><li><code>lang</code> Cookie：言語選択で選んだ言語</li><li>localStorage：カラーテーマ、言語バナーを閉じた記録、このブラウザから破棄したリンクの記録</li><li>sessionStorage：生成したパスワードをホームのフォームに移す間の一時保存。挿入直後に削除されます。</li></ul><p>このうちサーバーに送られるのは言語Cookieだけで、ページの言語選択に使用されます。すべてブラウザの設定から削除できます。</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookieとブラウザの保存領域"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>サイトは外部のスクリプト、フォント、カウンター、広告を読み込みません。フォントを含むすべてが当社のサーバーから提供されます。データを第三者に販売・共有しません。</p><p>Telegram、WhatsApp、メールの送信ボタンやスポンサーサイトへのリンクは通常のリンクです。外部サービスがデータを受け取るのはクリックしたときだけで、その後は外部サービスのポリシーが適用されます。</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "外部サービス"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "プライバシーポリシー"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "最終更新：2026年10月25日"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "リンクが壊れているか、全体がコピーされていません。送信者に再送を依頼してください。"
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "データは受信しましたが復号できませんでした。リンクが壊れています。秘密はすでにサーバーから削除されているため、送信者に新しいものを依頼してください。"
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "サーバーに接続できませんでした。接続を確認して、もう一度お試しください。"
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "試行回数が多すぎます。1分待ってからもう一度お試しください。"
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "秘密を開けませんでした"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "自分のリンクを作成"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "使い捨てリンクの仕組み"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "すでに開封されたか、有効期限が切れています。リンクを再度開くことはできません。"
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "送信者に新しいリンクを依頼してください。このリンクを開いていない場合は、他の人が見た可能性があることを送信者に知らせてください。"
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "この秘密はもう利用できません"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "閲覧できるのは一度だけです。閲覧後すぐにサーバーから削除されます。"
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "この秘密はパスワードで保護されています。閲覧できるのは一度だけで、その後サーバーから削除されます。"
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "秘密が届きました"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Encrypt.Oneの使い捨てリンク。秘密は一度だけ開くことができ、その後サーバーから削除されます。"
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "秘密が届きました — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "パスワードを入力してください。"
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "送信者から別途パスワードが伝えられているはずです。3回間違えると秘密は削除されます。"
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "開封用パスワード"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "開く"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "自分の秘密を送る"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "自分の使い捨てリンクを作成。登録不要です。"
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "あなたもパスワードを共有しますか？"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "秘密を表示"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "サーバーから削除済み"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "ダウンロード"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "後で必要な場合は保存してください。このページを閉じると、秘密を再び開くことはできません。"
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "秘密のテキスト"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "あなたの秘密"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "開いています…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Encrypt.Oneとは？"
+  }
+]

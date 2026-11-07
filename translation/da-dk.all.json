@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "api.error.badRequest",
+    "translation": "Anmodningen kunne ikke behandles. Genindlæs siden, og prøv igen."
+  },
+  {
+    "id": "api.error.forbidden",
+    "translation": "Dette link giver ikke ret til at destruere hemmeligheden."
+  },
+  {
+    "id": "api.error.notFound",
+    "translation": "Hemmeligheden blev ikke fundet: Den er allerede åbnet, destrueret eller udløbet."
+  },
+  {
+    "id": "api.error.passwordRequired",
+    "translation": "Der kræves en adgangskode for at åbne hemmeligheden."
+  },
+  {
+    "id": "api.error.rateLimited",
+    "translation": "For mange anmodninger. Vent et minut, og prøv igen."
+  },
+  {
+    "id": "api.error.server",
+    "translation": "Noget gik galt hos os. Prøv igen om et minut."
+  },
+  {
+    "id": "api.error.tooLarge",
+    "translation": "Filen er for stor. Grænsen er {{.MaxFileSize}}."
+  },
+  {
+    "id": "api.error.tooManyAttempts",
+    "translation": "Adgangskoden blev indtastet forkert tre gange, så hemmeligheden er slettet."
+  },
+  {
+    "id": "api.error.wrongPassword",
+    "translation": "Forkert adgangskode. Resterende forsøg: {{.Count}}"
+  },
+  {
+    "id": "common.close",
+    "translation": "Luk"
+  },
+  {
+    "id": "common.copied",
+    "translation": "Kopieret"
+  },
+  {
+    "id": "common.copy",
+    "translation": "Kopiér"
+  },
+  {
+    "id": "common.footer.copyright",
+    "translation": "© 2016–{{.Year}} <a class=\"copyright-link\" href=\"https://final-level.com/\" target=\"_blank\" rel=\"noopener\">FINAL LEVEL</a>"
+  },
+  {
+    "id": "common.footer.linksLabel",
+    "translation": "Links"
+  },
+  {
+    "id": "common.footer.project.privacy",
+    "translation": "Privatliv"
+  },
+  {
+    "id": "common.footer.project.title",
+    "translation": "Projekt"
+  },
+  {
+    "id": "common.footer.resources.faq",
+    "translation": "Ofte stillede spørgsmål"
+  },
+  {
+    "id": "common.footer.resources.guides",
+    "translation": "Vejledninger"
+  },
+  {
+    "id": "common.footer.resources.howItWorks",
+    "translation": "Sådan virker det"
+  },
+  {
+    "id": "common.footer.resources.security",
+    "translation": "Sikkerhed"
+  },
+  {
+    "id": "common.footer.resources.title",
+    "translation": "Ressourcer"
+  },
+  {
+    "id": "common.footer.service.file",
+    "translation": "Send en fil"
+  },
+  {
+    "id": "common.footer.service.generator",
+    "translation": "Adgangskodegenerator"
+  },
+  {
+    "id": "common.footer.service.secret",
+    "translation": "Del en hemmelighed"
+  },
+  {
+    "id": "common.footer.service.title",
+    "translation": "Tjeneste"
+  },
+  {
+    "id": "common.footer.tagline",
+    "translation": "Engangslinks til deling af adgangskoder og filer. Krypteret i din browser."
+  },
+  {
+    "id": "common.github.label",
+    "translation": "Kildekode på GitHub"
+  },
+  {
+    "id": "common.lang.current",
+    "translation": "Dansk"
+  },
+  {
+    "id": "common.lang.currentShort",
+    "translation": "DA"
+  },
+  {
+    "id": "common.lang.label",
+    "translation": "Webstedets sprog: dansk"
+  },
+  {
+    "id": "common.logo.label",
+    "translation": "Encrypt.One-forside"
+  },
+  {
+    "id": "common.meta.ogImageAlt",
+    "translation": "Encrypt.One: del en adgangskode med et engangslink"
+  },
+  {
+    "id": "common.nav.faq",
+    "translation": "Ofte stillede spørgsmål"
+  },
+  {
+    "id": "common.nav.generator",
+    "translation": "Adgangskodegenerator"
+  },
+  {
+    "id": "common.nav.howItWorks",
+    "translation": "Sådan virker det"
+  },
+  {
+    "id": "common.nav.label",
+    "translation": "Hovednavigation"
+  },
+  {
+    "id": "common.skipLink",
+    "translation": "Gå til indhold"
+  },
+  {
+    "id": "common.sponsors.dayspedia",
+    "translation": "Tid, kalendere og helligdage for enhver by"
+  },
+  {
+    "id": "common.sponsors.games",
+    "translation": "Gratis spil direkte i browseren"
+  },
+  {
+    "id": "common.sponsors.orb",
+    "translation": "Tusindvis af radiostationer fra hele verden"
+  },
+  {
+    "id": "common.sponsors.title",
+    "translation": "Encrypt.One er gratis takket være vores sponsorer"
+  },
+  {
+    "id": "common.theme.dark",
+    "translation": "Mørkt"
+  },
+  {
+    "id": "common.theme.label",
+    "translation": "Tema"
+  },
+  {
+    "id": "common.theme.light",
+    "translation": "Lyst"
+  },
+  {
+    "id": "common.theme.system",
+    "translation": "System"
+  },
+  {
+    "id": "created.alive.lead",
+    "translation": "Send det til modtageren. Hemmeligheden kan kun åbnes én gang."
+  },
+  {
+    "id": "created.alive.title",
+    "translation": "Dit link er klar"
+  },
+  {
+    "id": "created.another.button",
+    "translation": "Opret endnu et link"
+  },
+  {
+    "id": "created.another.hint",
+    "translation": "Til samme hemmelighed, ét link pr. modtager. Det nuværende link fortsætter med at virke, men du kan ikke længere destruere det herfra."
+  },
+  {
+    "id": "created.back",
+    "translation": "Ny hemmelighed"
+  },
+  {
+    "id": "created.destroy.button",
+    "translation": "Destruér nu"
+  },
+  {
+    "id": "created.destroy.confirm",
+    "translation": "Destruere hemmeligheden? Linket holder straks op med at virke."
+  },
+  {
+    "id": "created.destroy.error",
+    "translation": "Hemmeligheden kunne ikke destrueres. Prøv igen."
+  },
+  {
+    "id": "created.destroy.text",
+    "translation": "Sendt til den forkerte person? Destruér hemmeligheden, så holder linket straks op med at virke."
+  },
+  {
+    "id": "created.destroyed.lead",
+    "translation": "Du destruerede hemmeligheden. Dataene er slettet fra serveren, og linket virker ikke længere."
+  },
+  {
+    "id": "created.destroyed.title",
+    "translation": "Hemmeligheden er destrueret"
+  },
+  {
+    "id": "created.expired.lead",
+    "translation": "Ingen åbnede linket i tide. Dataene er slettet fra serveren, og linket virker ikke længere."
+  },
+  {
+    "id": "created.expired.title",
+    "translation": "Linket er udløbet"
+  },
+  {
+    "id": "created.link.copy",
+    "translation": "Kopiér link"
+  },
+  {
+    "id": "created.link.label",
+    "translation": "Engangslink"
+  },
+  {
+    "id": "created.link.labelInactive",
+    "translation": "Dette link virker ikke længere"
+  },
+  {
+    "id": "created.link.unavailable",
+    "translation": "Linket vises kun i den fane, hvor det blev oprettet. Du kan stadig destruere hemmeligheden herfra."
+  },
+  {
+    "id": "created.meta.description",
+    "translation": "Afsenderside for et Encrypt.One-engangslink: del linket eller destruér hemmeligheden."
+  },
+  {
+    "id": "created.meta.title",
+    "translation": "Dit link er klar — Encrypt.One"
+  },
+  {
+    "id": "created.newSecret",
+    "translation": "Opret et nyt link"
+  },
+  {
+    "id": "created.qr.alt",
+    "translation": "QR-kode til engangslinket"
+  },
+  {
+    "id": "created.qr.text",
+    "translation": "Ret telefonens kamera mod koden for at åbne linket. Vis ikke koden til andre: Den åbner hemmeligheden ligesom linket."
+  },
+  {
+    "id": "created.qr.title",
+    "translation": "Linkets QR-kode"
+  },
+  {
+    "id": "created.share.label",
+    "translation": "Send via"
+  },
+  {
+    "id": "created.share.mail",
+    "translation": "E-mail"
+  },
+  {
+    "id": "created.share.qr",
+    "translation": "QR-kode"
+  },
+  {
+    "id": "created.share.subject",
+    "translation": "En hemmelighed til dig"
+  },
+  {
+    "id": "created.share.text",
+    "translation": "Engangslink til en hemmelighed:"
+  },
+  {
+    "id": "created.status.expiresLabel",
+    "translation": "Gyldigt indtil"
+  },
+  {
+    "id": "created.tip",
+    "translation": "<strong>Tip:</strong> tilføj en adgangskode til særligt følsomme oplysninger, og giv den videre på en anden måde, f.eks. mundtligt. Så afslører opsnapning af én besked ingenting."
+  },
+  {
+    "id": "form.attach.button",
+    "translation": "Vedhæft en fil"
+  },
+  {
+    "id": "form.attach.drop",
+    "translation": "Slip for at vedhæfte filen"
+  },
+  {
+    "id": "form.attach.hint",
+    "translation": "Du kan trække en fil direkte ind i feltet."
+  },
+  {
+    "id": "form.attach.limit",
+    "translation": "Op til {{.MaxFileSize}}"
+  },
+  {
+    "id": "form.error.crypto",
+    "translation": "Denne browser understøtter ikke kryptering. Opdater den, eller åbn siden i en anden browser."
+  },
+  {
+    "id": "form.error.empty",
+    "translation": "Indsæt tekst eller vedhæft en fil."
+  },
+  {
+    "id": "form.error.fileTooLarge",
+    "translation": "Filen er for stor. Grænsen er {{.MaxFileSize}}."
+  },
+  {
+    "id": "form.error.network",
+    "translation": "Serveren kunne ikke kontaktes. Tjek forbindelsen, og prøv igen."
+  },
+  {
+    "id": "form.error.passwordEmpty",
+    "translation": "Indtast en adgangskode til åbning, eller slå adgangskodebeskyttelsen fra."
+  },
+  {
+    "id": "form.file.note",
+    "translation": "krypteres sammen med teksten"
+  },
+  {
+    "id": "form.file.remove",
+    "translation": "Fjern fil"
+  },
+  {
+    "id": "form.generate.button",
+    "translation": "Generér en adgangskode"
+  },
+  {
+    "id": "form.generate.insert",
+    "translation": "Indsæt i hemmelighedsfeltet"
+  },
+  {
+    "id": "form.protect.generate",
+    "translation": "Foreslå"
+  },
+  {
+    "id": "form.protect.hint",
+    "translation": "Uden denne adgangskode kan hemmeligheden ikke åbnes, selv hvis linket opsnappes. Giv den til modtageren separat, f.eks. mundtligt eller i en anden beskedapp."
+  },
+  {
+    "id": "form.protect.label",
+    "translation": "Adgangskode til åbning"
+  },
+  {
+    "id": "form.protect.placeholder",
+    "translation": "For eksempel maple-orbit-velvet"
+  },
+  {
+    "id": "form.protect.toggle",
+    "translation": "Beskyt med adgangskode"
+  },
+  {
+    "id": "form.secret.label",
+    "translation": "Hvad vil du dele?"
+  },
+  {
+    "id": "form.secret.placeholder",
+    "translation": "Adgangskode, API-nøgle, loginoplysninger…"
+  },
+  {
+    "id": "form.settings.label",
+    "translation": "Linkindstillinger"
+  },
+  {
+    "id": "form.submit",
+    "translation": "Opret engangslink"
+  },
+  {
+    "id": "form.submitting",
+    "translation": "Krypterer…"
+  },
+  {
+    "id": "form.ttl.1d",
+    "translation": "1 dag"
+  },
+  {
+    "id": "form.ttl.1h",
+    "translation": "1 time"
+  },
+  {
+    "id": "form.ttl.3d",
+    "translation": "3 dage"
+  },
+  {
+    "id": "form.ttl.7d",
+    "translation": "7 dage"
+  },
+  {
+    "id": "form.ttl.label",
+    "translation": "Udløber om"
+  },
+  {
+    "id": "form.ttl.listLabel",
+    "translation": "Opbevaringstid"
+  },
+  {
+    "id": "generator.meta.description",
+    "translation": "Gratis generator til stærke adgangskoder, adgangsfraser og PIN-koder, som oprettes i browseren og aldrig sendes nogen steder. Del resultatet med et engangslink."
+  },
+  {
+    "id": "generator.meta.title",
+    "translation": "Generator til stærke adgangskoder — gratis og privat | Encrypt.One"
+  },
+  {
+    "id": "generator.password.digits",
+    "translation": "Tal (0–9)"
+  },
+  {
+    "id": "generator.password.length",
+    "translation": "Længde"
+  },
+  {
+    "id": "generator.password.lower",
+    "translation": "Små bogstaver (a–z)"
+  },
+  {
+    "id": "generator.password.noSimilar",
+    "translation": "Ingen tegn, der ligner hinanden (0 og O, l og 1)"
+  },
+  {
+    "id": "generator.password.sets",
+    "translation": "Tegn"
+  },
+  {
+    "id": "generator.password.symbols",
+    "translation": "Symboler (!#$%&*)"
+  },
+  {
+    "id": "generator.password.upper",
+    "translation": "Store bogstaver (A–Z)"
+  },
+  {
+    "id": "generator.phrase.hint",
+    "translation": "En frase af tilfældige ord er nem at sige og huske, men lige så svær at gætte som en lang adgangskode. Ordene kommer fra EFF’s åbne ordliste."
+  },
+  {
+    "id": "generator.phrase.words",
+    "translation": "Antal ord"
+  },
+  {
+    "id": "generator.pin.digits",
+    "translation": "Antal cifre"
+  },
+  {
+    "id": "generator.regenerate",
+    "translation": "Generér igen"
+  },
+  {
+    "id": "generator.send.button",
+    "translation": "Send som engangslink"
+  },
+  {
+    "id": "generator.send.text",
+    "translation": "Resultatet indsættes direkte i formularen, og du får et link, der kun kan åbnes én gang."
+  },
+  {
+    "id": "generator.send.title",
+    "translation": "Har du brug for at dele adgangskoden?"
+  },
+  {
+    "id": "generator.strength.bits",
+    "translation": "Entropi ≈ {bits} bit"
+  },
+  {
+    "id": "generator.strength.fair",
+    "translation": "Middel"
+  },
+  {
+    "id": "generator.strength.pinOnly",
+    "translation": "Kun egnet som PIN-kode"
+  },
+  {
+    "id": "generator.strength.strong",
+    "translation": "Stærk"
+  },
+  {
+    "id": "generator.strength.veryStrong",
+    "translation": "Meget stærk"
+  },
+  {
+    "id": "generator.strength.weak",
+    "translation": "Svag"
+  },
+  {
+    "id": "generator.tabs.label",
+    "translation": "Type adgangskode"
+  },
+  {
+    "id": "generator.tabs.password",
+    "translation": "Adgangskode"
+  },
+  {
+    "id": "generator.tabs.phrase",
+    "translation": "Adgangsfrase"
+  },
+  {
+    "id": "generator.tabs.pin",
+    "translation": "PIN"
+  },
+  {
+    "id": "generator.tips.long.text",
+    "translation": "Mindst 14–16 tegn. Længde beskytter bedre end at udskifte bogstaver med symboler."
+  },
+  {
+    "id": "generator.tips.long.title",
+    "translation": "Lang"
+  },
+  {
+    "id": "generator.tips.manager.text",
+    "translation": "Du behøver ikke huske komplicerede adgangskoder: Brug en adgangskodeadministrator."
+  },
+  {
+    "id": "generator.tips.manager.title",
+    "translation": "Gemt i en adgangskodeadministrator"
+  },
+  {
+    "id": "generator.tips.title",
+    "translation": "Hvad gør en adgangskode stærk?"
+  },
+  {
+    "id": "generator.tips.unique.text",
+    "translation": "Én pr. tjeneste. Så giver et læk af én adgangskode ikke adgang til dine andre konti."
+  },
+  {
+    "id": "generator.tips.unique.title",
+    "translation": "Unik"
+  },
+  {
+    "id": "generator.title",
+    "translation": "Adgangskodegenerator"
+  },
+  {
+    "id": "home.faq.a1",
+    "translation": "Nej. Hemmeligheden krypteres i din browser før afsendelse. Nøglen står i linket efter #-tegnet, og den del af adressen når aldrig serveren."
+  },
+  {
+    "id": "home.faq.a2",
+    "translation": "Der sker ingenting. Hemmeligheden vises først efter et klik på ”Vis hemmelighed”, og forhåndsvisningsbots klikker ikke på knapper."
+  },
+  {
+    "id": "home.faq.a3",
+    "translation": "Hemmeligheden slettes automatisk, når den valgte opbevaringstid udløber."
+  },
+  {
+    "id": "home.faq.a4",
+    "translation": "Ja. På siden med dit link er der en knap ”Destruér nu”. Derefter virker linket ikke længere."
+  },
+  {
+    "id": "home.faq.a5",
+    "translation": "Nej. Hverken afsender eller modtager behøver en konto."
+  },
+  {
+    "id": "home.faq.lead",
+    "translation": "Fandt du ikke et svar? Opret en sag på GitHub."
+  },
+  {
+    "id": "home.faq.q1",
+    "translation": "Kan I læse min hemmelighed?"
+  },
+  {
+    "id": "home.faq.q2",
+    "translation": "Hvad hvis en forhåndsvisningsbot i en beskedapp åbner linket?"
+  },
+  {
+    "id": "home.faq.q3",
+    "translation": "Hvad hvis modtageren aldrig åbner linket?"
+  },
+  {
+    "id": "home.faq.q4",
+    "translation": "Kan jeg tilbagekalde et link efter afsendelse?"
+  },
+  {
+    "id": "home.faq.q5",
+    "translation": "Skal jeg registrere mig?"
+  },
+  {
+    "id": "home.faq.title",
+    "translation": "Ofte stillede spørgsmål"
+  },
+  {
+    "id": "home.hero.lead",
+    "translation": "Din hemmelighed krypteres direkte i browseren. Modtageren åbner linket én gang, hvorefter dataene slettes fra serveren."
+  },
+  {
+    "id": "home.hero.point1",
+    "translation": "Ingen registrering"
+  },
+  {
+    "id": "home.hero.point2",
+    "translation": "AES-256-kryptering på din enhed"
+  },
+  {
+    "id": "home.hero.point3",
+    "translation": "Åben kildekode"
+  },
+  {
+    "id": "home.hero.title",
+    "translation": "Del adgangskoder sikkert med engangslinks"
+  },
+  {
+    "id": "home.how.step1.text",
+    "translation": "En adgangskode, en API-nøgle, loginoplysninger eller en fil. Alt krypteres i browseren før afsendelse."
+  },
+  {
+    "id": "home.how.step1.title",
+    "translation": "Indsæt din hemmelighed"
+  },
+  {
+    "id": "home.how.step2.text",
+    "translation": "Via Telegram, WhatsApp, Signal, Slack, e-mail eller en anden beskedapp. Chatten beholder kun linket, ikke selve adgangskoden."
+  },
+  {
+    "id": "home.how.step2.title",
+    "translation": "Send linket"
+  },
+  {
+    "id": "home.how.step3.text",
+    "translation": "Efter visning slettes dataene fra serveren. Linket kan ikke åbnes en anden gang."
+  },
+  {
+    "id": "home.how.step3.title",
+    "translation": "Linket opbruges"
+  },
+  {
+    "id": "home.how.title",
+    "translation": "Sådan virker det"
+  },
+  {
+    "id": "home.meta.description",
+    "translation": "Send adgangskoder, private beskeder, API-nøgler og filer med krypterede engangslinks. Hemmeligheder slettes efter visning. Gratis, åben kildekode og uden registrering."
+  },
+  {
+    "id": "home.meta.title",
+    "translation": "Engangslinks til hemmeligheder — del adgangskoder sikkert | Encrypt.One"
+  },
+  {
+    "id": "home.share.card1.text",
+    "translation": "Del adgangskoder og kontooplysninger uden at efterlade dem i chathistorikken."
+  },
+  {
+    "id": "home.share.card1.title",
+    "translation": "Adgangskoder og loginoplysninger"
+  },
+  {
+    "id": "home.share.card2.text",
+    "translation": "Send følsomme beskeder, der kun kan åbnes én gang."
+  },
+  {
+    "id": "home.share.card2.title",
+    "translation": "Private beskeder"
+  },
+  {
+    "id": "home.share.card3.text",
+    "translation": "Del API-nøgler, adgangstokens og konfigurationsfiler sikkert med dit team."
+  },
+  {
+    "id": "home.share.card3.title",
+    "translation": "API-nøgler og adgangsoplysninger"
+  },
+  {
+    "id": "home.share.card4.text",
+    "translation": "Del private dokumenter og filer op til {{.MaxFileSize}} via krypterede engangslinks."
+  },
+  {
+    "id": "home.share.card4.title",
+    "translation": "Fortrolige filer"
+  },
+  {
+    "id": "home.share.lead",
+    "translation": "Send selvdestruerende beskeder, adgangskoder, API-nøgler og private filer sikkert. Hver hemmelighed krypteres i browseren og slettes fra serveren efter visning."
+  },
+  {
+    "id": "home.share.title",
+    "translation": "Hvad kan du dele med et engangslink?"
+  },
+  {
+    "id": "home.why.diagram.key",
+    "translation": "<strong>Bliver hos dig.</strong> Dekrypteringsnøglen. Browsere sender aldrig noget efter # til serveren."
+  },
+  {
+    "id": "home.why.diagram.server",
+    "translation": "<strong>Sendes til serveren.</strong> Adressen på de krypterede data: Uden nøglen er de blot tilfældige bytes."
+  },
+  {
+    "id": "home.why.feature1.text",
+    "translation": "Browserens indbyggede Web Crypto API og AES-256-GCM. Ingen tredjepartsbiblioteker."
+  },
+  {
+    "id": "home.why.feature1.title",
+    "translation": "Krypteret i browseren"
+  },
+  {
+    "id": "home.why.feature2.text",
+    "translation": "Al kode er udgivet på <a class=\"text-link\" href=\"https://github.com/Draal/secure-share\">GitHub</a>. Alle kan kontrollere, hvordan krypteringen virker."
+  },
+  {
+    "id": "home.why.feature2.title",
+    "translation": "Åben kildekode"
+  },
+  {
+    "id": "home.why.feature3.text",
+    "translation": "Ingen registrering, tredjepartsscripts eller sporingsværktøjer. Derfor er der heller intet cookiebanner."
+  },
+  {
+    "id": "home.why.feature3.title",
+    "translation": "Intet overflødigt"
+  },
+  {
+    "id": "home.why.lead",
+    "translation": "Dekrypteringsnøglen findes i linket efter #-tegnet. Browsere sender aldrig den del af adressen til serveren, så kun du og modtageren kan se den."
+  },
+  {
+    "id": "home.why.more",
+    "translation": "Mere om, hvordan det virker"
+  },
+  {
+    "id": "home.why.title",
+    "translation": "Hvorfor vi ikke kan læse din hemmelighed"
+  },
+  {
+    "id": "how.code.cta",
+    "translation": "Del en hemmelighed"
+  },
+  {
+    "id": "how.code.github",
+    "translation": "Kode på GitHub"
+  },
+  {
+    "id": "how.code.kicker",
+    "translation": "Åben kildekode"
+  },
+  {
+    "id": "how.code.lead",
+    "translation": "Al Encrypt.Ones kode findes på GitHub. Alle kan se, hvordan krypteringen virker, og kontrollere, at nøglen aldrig sendes til serveren."
+  },
+  {
+    "id": "how.code.title",
+    "translation": "Kontrollér selv"
+  },
+  {
+    "id": "how.flow.kicker",
+    "translation": "Dataflow"
+  },
+  {
+    "id": "how.flow.lead",
+    "translation": "Hemmeligheden krypteres før afsendelse og dekrypteres kun af modtageren. Undervejs forbliver dataene krypterede."
+  },
+  {
+    "id": "how.flow.recipient.text",
+    "translation": "Henter de krypterede data, tager nøglen fra linket og dekrypterer hemmeligheden lokalt. Serveren sletter dataene straks derefter."
+  },
+  {
+    "id": "how.flow.recipient.title",
+    "translation": "Modtagerens browser"
+  },
+  {
+    "id": "how.flow.sender.text",
+    "translation": "Opretter en tilfældig nøgle og krypterer teksten og filen med AES-256-GCM via browserens indbyggede Web Crypto API."
+  },
+  {
+    "id": "how.flow.sender.title",
+    "translation": "Afsenderens browser"
+  },
+  {
+    "id": "how.flow.server.text",
+    "translation": "Modtager og gemmer kun krypterede bytes. Uden nøglen kan ingen læse dem — hverken vi eller nogen, der får adgang til serveren."
+  },
+  {
+    "id": "how.flow.server.title",
+    "translation": "Encrypt.One-serveren"
+  },
+  {
+    "id": "how.flow.title",
+    "translation": "Serveren ser kun krypterede data"
+  },
+  {
+    "id": "how.hero.lead",
+    "translation": "Encrypt.One krypterer din hemmelighed direkte i browseren. Kun krypterede data sendes til serveren, mens nøglen bliver i linket og aldrig forlader afsenderens og modtagerens enheder."
+  },
+  {
+    "id": "how.hero.title",
+    "translation": "Sådan virker det, og derfor er det sikkert"
+  },
+  {
+    "id": "how.link.kicker",
+    "translation": "Inde i linket"
+  },
+  {
+    "id": "how.link.lead",
+    "translation": "Et link har to dele. Den første viser, hvor de krypterede data er gemt. Den anden, efter #, er dekrypteringsnøglen."
+  },
+  {
+    "id": "how.link.points.access.text",
+    "translation": "Alle med det fulde link kan åbne hemmeligheden. Send det kun til modtageren, og tilføj en adgangskode til følsomme data."
+  },
+  {
+    "id": "how.link.points.access.title",
+    "translation": "Det fulde link giver adgang"
+  },
+  {
+    "id": "how.link.points.fragment.text",
+    "translation": "Browsere medtager ikke delen efter # i anmodninger. Nøglen findes derfor hverken i serverlogfiler eller på mellemliggende netværkspunkter."
+  },
+  {
+    "id": "how.link.points.fragment.title",
+    "translation": "Sendes aldrig til serveren"
+  },
+  {
+    "id": "how.link.points.random.text",
+    "translation": "Nøglen genereres tilfældigt på din enhed. Den kan ikke gættes med brute force."
+  },
+  {
+    "id": "how.link.points.random.title",
+    "translation": "Ny for hvert link"
+  },
+  {
+    "id": "how.link.title",
+    "translation": "Nøglen står efter #"
+  },
+  {
+    "id": "how.meta.description",
+    "translation": "Sådan krypterer Encrypt.One hemmeligheder i browseren: AES-256-GCM, nøglen i linket efter #, lagring, sletning og adgangskodebeskyttelse."
+  },
+  {
+    "id": "how.meta.title",
+    "translation": "Sådan virker Encrypt.One: deling af hemmeligheder med ende-til-ende-kryptering"
+  },
+  {
+    "id": "how.password.generatorLink",
+    "translation": "Åbn adgangskodegeneratoren"
+  },
+  {
+    "id": "how.password.kicker",
+    "translation": "Adgangskode til åbning"
+  },
+  {
+    "id": "how.password.lead",
+    "translation": "En adgangskode beskytter hemmeligheden, selv hvis linket opsnappes. Uden den ser modtageren kun indtastningsfeltet."
+  },
+  {
+    "id": "how.password.points.attempts.text",
+    "translation": "Efter tre forkerte forsøg slettes hemmeligheden. Adgangskoden kan ikke gættes med brute force."
+  },
+  {
+    "id": "how.password.points.attempts.title",
+    "translation": "Tre forsøg"
+  },
+  {
+    "id": "how.password.points.generate.text",
+    "translation": "Klik på ”Foreslå” i formularen, eller vælg en frase fra adgangskodegeneratoren: Den er nem at læse op."
+  },
+  {
+    "id": "how.password.points.generate.title",
+    "translation": "Find ikke selv på en"
+  },
+  {
+    "id": "how.password.points.separate.text",
+    "translation": "Giv adgangskoden videre på en anden måde: mundtligt, i en anden beskedapp eller personligt. Så afslører opsnapning af én besked ingenting."
+  },
+  {
+    "id": "how.password.points.separate.title",
+    "translation": "Del den separat"
+  },
+  {
+    "id": "how.password.title",
+    "translation": "En ekstra lås til følsomme data"
+  },
+  {
+    "id": "how.storage.delete.attempts.text",
+    "translation": "Hvis adgangskoden indtastes forkert tre gange, slettes hemmeligheden permanent."
+  },
+  {
+    "id": "how.storage.delete.attempts.title",
+    "translation": "Efter tre forkerte adgangskoder"
+  },
+  {
+    "id": "how.storage.delete.destroyed.text",
+    "translation": "Knappen ”Destruér nu” på linksiden sletter straks hemmeligheden."
+  },
+  {
+    "id": "how.storage.delete.destroyed.title",
+    "translation": "På din kommando"
+  },
+  {
+    "id": "how.storage.delete.expired.text",
+    "translation": "Hvis linket ikke åbnes inden for den valgte opbevaringstid, slettes hemmeligheden automatisk."
+  },
+  {
+    "id": "how.storage.delete.expired.title",
+    "translation": "Når tiden udløber"
+  },
+  {
+    "id": "how.storage.delete.opened.text",
+    "translation": "Så snart modtageren åbner hemmeligheden, slettes dataene. Linket virker ikke en anden gang."
+  },
+  {
+    "id": "how.storage.delete.opened.title",
+    "translation": "Efter åbning"
+  },
+  {
+    "id": "how.storage.keeps.attempts",
+    "translation": "En tæller for forkerte adgangskodeforsøg"
+  },
+  {
+    "id": "how.storage.keeps.data",
+    "translation": "Den krypterede tekst og fil"
+  },
+  {
+    "id": "how.storage.keeps.title",
+    "translation": "Gemmes på serveren"
+  },
+  {
+    "id": "how.storage.keeps.ttl",
+    "translation": "Den valgte opbevaringstid"
+  },
+  {
+    "id": "how.storage.kicker",
+    "translation": "Opbevaring"
+  },
+  {
+    "id": "how.storage.lead",
+    "translation": "Serveren gemmer hemmeligheden præcis så længe, modtageren har brug for til at åbne den."
+  },
+  {
+    "id": "how.storage.never.key",
+    "translation": "Dekrypteringsnøglen fra linket"
+  },
+  {
+    "id": "how.storage.never.password",
+    "translation": "Adgangskoden til åbning"
+  },
+  {
+    "id": "how.storage.never.plain",
+    "translation": "Hemmelighedens indhold i klartekst"
+  },
+  {
+    "id": "how.storage.never.title",
+    "translation": "Når aldrig serveren"
+  },
+  {
+    "id": "how.storage.title",
+    "translation": "Hvad serveren gemmer, og hvornår det slettes"
+  },
+  {
+    "id": "notFound.generator",
+    "translation": "Adgangskodegenerator"
+  },
+  {
+    "id": "notFound.home",
+    "translation": "Til forsiden"
+  },
+  {
+    "id": "notFound.meta.description",
+    "translation": "Den side findes ikke på Encrypt.One."
+  },
+  {
+    "id": "notFound.meta.title",
+    "translation": "Siden blev ikke fundet — Encrypt.One"
+  },
+  {
+    "id": "notFound.text",
+    "translation": "Adressen kan være skrevet forkert, eller siden kan være flyttet. Hvis du åbnede et engangslink, skal du kontrollere, at det er kopieret fuldt ud."
+  },
+  {
+    "id": "notFound.title",
+    "translation": "Siden blev ikke fundet"
+  },
+  {
+    "id": "privacy.changes.body",
+    "translation": "<p>Hvis politikken ændres, offentliggør vi den nye version på denne side og opdaterer datoen øverst.</p>"
+  },
+  {
+    "id": "privacy.changes.title",
+    "translation": "Ændringer i politikken"
+  },
+  {
+    "id": "privacy.contacts.body",
+    "translation": "<p>Stil spørgsmål om privatliv i <a href=\"https://github.com/Draal/secure-share/issues\">sager på GitHub</a>.</p>"
+  },
+  {
+    "id": "privacy.contacts.title",
+    "translation": "Spørgsmål"
+  },
+  {
+    "id": "privacy.deletion.body",
+    "translation": "<ul><li>straks efter at modtageren åbner hemmeligheden;</li><li>når du trykker på ”Destruér nu” på linksiden;</li><li>efter den tredje forkerte adgangskode;</li><li>når den valgte periode på én time til syv dage udløber. En udløbet hemmelighed udleveres straks ikke længere, og dens data slettes ved den daglige oprydning.</li></ul><p>En slettet hemmelighed kan ikke gendannes. Beskedbots, der opretter linkforhåndsvisninger, opbruger ikke hemmeligheden: Dataene udleveres først efter et tryk på ”Vis hemmelighed”.</p>"
+  },
+  {
+    "id": "privacy.deletion.title",
+    "translation": "Hvornår data slettes"
+  },
+  {
+    "id": "privacy.generator.body",
+    "translation": "<p>Adgangskoder, adgangsfraser og PIN-koder oprettes i din browser med en kryptografisk tilfældighedsgenerator og sendes aldrig til serveren.</p>"
+  },
+  {
+    "id": "privacy.generator.title",
+    "translation": "Adgangskodegenerator"
+  },
+  {
+    "id": "privacy.lead",
+    "translation": "Encrypt.One er bygget, så kun modtageren kan læse en hemmelighed — ikke engang vi kan. Her beskriver vi, hvilke data der passerer gennem tjenesten, og hvad der sker med dem."
+  },
+  {
+    "id": "privacy.logs.body",
+    "translation": "<p>Applikationsserveren logger kun API-anmodninger: anmodningstype, resultat og behandlingstid. IP-adresser, hemmeligheds-id’er, tokens, sideadresser og anmodningers indhold logges ikke.</p><p>For at beskytte tjenesten mod brute force og misbrug begrænser serveren antallet af anmodninger pr. IP-adresse. Adressen bruges kun i hukommelsen og gemmes ikke.</p><p>En webserver foran applikationen kan gemme en almindelig adgangslog: IP-adresse, tid og sideadresse uden delen efter #. Sådanne logfiler bruges kun til beskyttelse mod angreb og opbevares i begrænset tid.</p>"
+  },
+  {
+    "id": "privacy.logs.title",
+    "translation": "Tekniske logfiler"
+  },
+  {
+    "id": "privacy.meta.description",
+    "translation": "Encrypt.Ones privatlivspolitik: hvilke data tjenesten modtager, hvor længe de gemmes, og hvorfor den ikke kan læse dine hemmeligheder."
+  },
+  {
+    "id": "privacy.meta.title",
+    "translation": "Privatlivspolitik — Encrypt.One"
+  },
+  {
+    "id": "privacy.password.body",
+    "translation": "<p>Selve adgangskoden forlader aldrig browseren. Ud fra adgangskoden og linknøglen afleder browseren to uafhængige værdier: krypteringsnøglen og en kontrolhash (PBKDF2 med 600.000 iterationer, efterfulgt af HKDF). Kun hashen sendes til serveren. Serveren bruger den til at kontrollere adgangskoden, men kan ikke finde adgangskoden eller nøglen.</p><p>Efter tre forkerte forsøg slettes hemmeligheden. Forsøgstælleren gemmes i serverens hukommelse og hører til hemmeligheden, ikke til en besøgende.</p>"
+  },
+  {
+    "id": "privacy.password.title",
+    "translation": "Adgangskode til åbning"
+  },
+  {
+    "id": "privacy.rights.body",
+    "translation": "<p>Vi ved ikke, hvem der oprettede eller åbnede en hemmelighed: Tjenesten knytter ikke data til personer, konti eller IP-adresser. Derfor kan vi ikke finde, udlevere eller slette en bestemt persons data. For at slette din hemmelighed før udløb skal du åbne linksiden og trykke på ”Destruér nu”.</p>"
+  },
+  {
+    "id": "privacy.rights.title",
+    "translation": "Dine rettigheder"
+  },
+  {
+    "id": "privacy.secrets.body",
+    "translation": "<p>Tekst og vedhæftet fil krypteres i browseren med AES-256-GCM via den indbyggede Web Crypto API før afsendelse. Filnavn og filtype krypteres sammen med indholdet.</p><p>Serveren gemmer kun:</p><ul><li>de krypterede data;</li><li>udløbstidspunktet;</li><li>om en fil er vedhæftet;</li><li>en kontrolhash for adgangskoden, hvis du har angivet en adgangskode.</li></ul><p>Dekrypteringsnøglen er delen af linket efter #-tegnet. Browsere sender aldrig den del til serveren, så hverken vi eller nogen med adgang til serveren kan dekryptere dataene. Af samme grund kan vi ikke gendanne en hemmelighed, hvis linket går tabt.</p>"
+  },
+  {
+    "id": "privacy.secrets.title",
+    "translation": "Hemmeligheder og filer"
+  },
+  {
+    "id": "privacy.service.body",
+    "translation": "<p>Encrypt.One er en gratis tjeneste til at dele adgangskoder, nøgler og filer via engangslinks. Registrering er ikke nødvendig. Tjenesten udvikles og drives af <a href=\"https://final-level.com/\">FINAL LEVEL</a>.</p><p>Du sender selv linket på valgfri vis. En besked via beskedapp, e-mail eller SMS kan opsnappes, og så får den, der først åbner linket, hemmeligheden. Til vigtige data skal du angive en adgangskode og dele den via en anden kanal.</p>"
+  },
+  {
+    "id": "privacy.service.title",
+    "translation": "Sådan virker tjenesten"
+  },
+  {
+    "id": "privacy.short.body",
+    "translation": "<ul><li>Din hemmelighed krypteres i browseren. Serveren modtager kun krypterede data og kan ikke læse dem.</li><li>Dekrypteringsnøglen står i linket efter #-tegnet og sendes aldrig til serveren.</li><li>Ingen registrering, reklamer, analyse eller tredjepartsscripts.</li><li>En hemmelighed slettes, så snart den åbnes, eller når den valgte periode udløber.</li><li>Applikationsserveren logger ikke IP-adresser eller hemmeligheds-id’er.</li></ul>"
+  },
+  {
+    "id": "privacy.short.title",
+    "translation": "Kort fortalt"
+  },
+  {
+    "id": "privacy.source.body",
+    "translation": "<p>Kildekoden er åben på <a href=\"https://github.com/Draal/secure-share\">GitHub</a>: Du kan kontrollere krypteringen eller køre din egen kopi.</p>"
+  },
+  {
+    "id": "privacy.source.title",
+    "translation": "Åben kildekode"
+  },
+  {
+    "id": "privacy.storage.body",
+    "translation": "<p>Vi bruger ikke reklame- eller analysecookies. Webstedet gemmer kun det, der er nødvendigt for at fungere, i din browser:</p><ul><li>cookien <code>lang</code> — dit sprog, hvis du har valgt det i sprogmenuen;</li><li>i localStorage — farvetemaet, en markering af, at du har lukket sprogbanneret, samt markeringer af links destrueret fra denne browser;</li><li>i sessionStorage — en adgangskode fra generatoren, mens den overføres til formularen på forsiden. Den fjernes straks efter indsættelse.</li></ul><p>Af disse når kun sprogcookien serveren, som bruger den til at vælge sideversion. Du kan slette det hele i browserens indstillinger.</p>"
+  },
+  {
+    "id": "privacy.storage.title",
+    "translation": "Cookies og browserlager"
+  },
+  {
+    "id": "privacy.third.body",
+    "translation": "<p>Webstedet indlæser ingen tredjepartsscripts, skrifttyper, tællere eller reklamer: Alt, inklusive skrifttyper, leveres fra vores server. Vi sælger eller deler ikke data med tredjeparter.</p><p>Knapperne til at sende via Telegram, WhatsApp og e-mail samt links til sponsorers websteder er almindelige links. En ekstern tjeneste modtager først data, når du klikker, og derefter gælder dens egen politik.</p>"
+  },
+  {
+    "id": "privacy.third.title",
+    "translation": "Tredjepartstjenester"
+  },
+  {
+    "id": "privacy.title",
+    "translation": "Privatlivspolitik"
+  },
+  {
+    "id": "privacy.updated",
+    "translation": "Senest opdateret: 25. oktober 2026"
+  },
+  {
+    "id": "secret.error.badLink",
+    "translation": "Linket er beskadiget eller ikke kopieret fuldt ud. Bed afsenderen om at sende det igen."
+  },
+  {
+    "id": "secret.error.decrypt",
+    "translation": "Dataene kom frem, men kunne ikke dekrypteres: Linket er beskadiget. Hemmeligheden er allerede slettet fra serveren, så bed afsenderen oprette en ny."
+  },
+  {
+    "id": "secret.error.network",
+    "translation": "Serveren kunne ikke kontaktes. Tjek forbindelsen, og prøv igen."
+  },
+  {
+    "id": "secret.error.rateLimit",
+    "translation": "For mange forsøg. Vent et minut, og prøv igen."
+  },
+  {
+    "id": "secret.error.title",
+    "translation": "Hemmeligheden kunne ikke åbnes"
+  },
+  {
+    "id": "secret.gone.button",
+    "translation": "Opret dit eget link"
+  },
+  {
+    "id": "secret.gone.faqLink",
+    "translation": "Sådan virker engangslinks"
+  },
+  {
+    "id": "secret.gone.text1",
+    "translation": "Den er allerede åbnet eller udløbet. Linket kan ikke åbnes igen."
+  },
+  {
+    "id": "secret.gone.text2",
+    "translation": "Bed afsenderen oprette et nyt link. Hvis du ikke åbnede dette, så fortæl det: En anden kan have set det."
+  },
+  {
+    "id": "secret.gone.title",
+    "translation": "Denne hemmelighed er ikke længere tilgængelig"
+  },
+  {
+    "id": "secret.intro.text",
+    "translation": "Den kan kun vises én gang. Umiddelbart derefter slettes den fra serveren."
+  },
+  {
+    "id": "secret.intro.textPassword",
+    "translation": "Hemmeligheden er beskyttet med en adgangskode. Den kan kun vises én gang og slettes derefter fra serveren."
+  },
+  {
+    "id": "secret.intro.title",
+    "translation": "Nogen har sendt dig en hemmelighed"
+  },
+  {
+    "id": "secret.meta.description",
+    "translation": "Et engangslink fra Encrypt.One. Hemmeligheden kan åbnes én gang og slettes derefter fra serveren."
+  },
+  {
+    "id": "secret.meta.title",
+    "translation": "Nogen har sendt dig en hemmelighed — Encrypt.One"
+  },
+  {
+    "id": "secret.password.empty",
+    "translation": "Indtast adgangskoden."
+  },
+  {
+    "id": "secret.password.hint",
+    "translation": "Afsenderen skulle have givet dig adgangskoden separat. Efter tre forkerte forsøg slettes hemmeligheden."
+  },
+  {
+    "id": "secret.password.label",
+    "translation": "Adgangskode til åbning"
+  },
+  {
+    "id": "secret.password.submit",
+    "translation": "Åbn"
+  },
+  {
+    "id": "secret.promo.button",
+    "translation": "Del din egen hemmelighed"
+  },
+  {
+    "id": "secret.promo.text",
+    "translation": "Opret dit eget engangslink. Ingen registrering."
+  },
+  {
+    "id": "secret.promo.title",
+    "translation": "Har du selv brug for at dele en adgangskode?"
+  },
+  {
+    "id": "secret.reveal.button",
+    "translation": "Vis hemmelighed"
+  },
+  {
+    "id": "secret.revealed.deleted",
+    "translation": "Slettet fra serveren"
+  },
+  {
+    "id": "secret.revealed.download",
+    "translation": "Download"
+  },
+  {
+    "id": "secret.revealed.saveHint",
+    "translation": "Gem den, hvis du får brug for den senere: Når siden er lukket, kan hemmeligheden ikke åbnes igen."
+  },
+  {
+    "id": "secret.revealed.textLabel",
+    "translation": "Hemmelighedens tekst"
+  },
+  {
+    "id": "secret.revealed.title",
+    "translation": "Din hemmelighed"
+  },
+  {
+    "id": "secret.revealing",
+    "translation": "Åbner…"
+  },
+  {
+    "id": "secret.whatIs",
+    "translation": "Hvad er Encrypt.One?"
+  }
+]
