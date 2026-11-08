@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Serverul aplicației înregistrează numai cererile API: tipul cererii, rezultatul și timpul de procesare. Adresele IP, identificatorii secretelor, tokenurile, adresele paginilor și conținutul cererilor nu sunt înregistrate.</p><p>Pentru protecția împotriva atacurilor prin forță brută și a abuzurilor, serverul limitează frecvența cererilor pentru fiecare adresă IP. Adresa este folosită numai în memorie și nu este stocată.</p><p>Un server web din fața aplicației poate păstra un jurnal standard de acces: adresa IP, ora și adresa paginii fără partea de după #. Aceste jurnale sunt folosite doar pentru protecția împotriva atacurilor și sunt păstrate pentru o perioadă limitată.</p>"
+    "translation": "<p>Serverul aplicației nu păstrează jurnale ale cererilor. Înregistrează doar propriile erori tehnice, fără adrese IP, identificatori ai secretelor, tokenuri sau conținutul cererilor.</p><p>Pentru protecția împotriva atacurilor prin forță brută și a abuzurilor, serverul limitează frecvența cererilor pentru fiecare adresă IP. Adresa este folosită numai în memorie și nu este stocată.</p><p>Un server web din fața aplicației poate păstra un jurnal standard de acces: adresa IP, ora și adresa paginii fără partea de după #. Aceste jurnale sunt folosite doar pentru protecția împotriva atacurilor și sunt păstrate pentru o perioadă limitată.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Secretul este criptat în browser. Serverul primește doar date criptate și nu le poate citi.</li><li>Cheia de decriptare se află în link după semnul # și nu este trimisă niciodată la server.</li><li>Fără înregistrare, reclame, analiză sau scripturi terțe.</li><li>Secretul este șters imediat după deschidere sau la sfârșitul perioadei alese.</li><li>Serverul aplicației nu înregistrează adrese IP sau identificatori ai secretelor.</li></ul>"
+    "translation": "<ul><li>Secretul este criptat în browser. Serverul primește doar date criptate și nu le poate citi.</li><li>Cheia de decriptare se află în link după semnul # și nu este trimisă niciodată la server.</li><li>Fără înregistrare, reclame, analiză sau scripturi terțe.</li><li>Secretul este șters imediat după deschidere sau la sfârșitul perioadei alese.</li><li>Serverul aplicației nu păstrează jurnale ale cererilor.</li></ul>"
   },
   {
     "id": "privacy.short.title",

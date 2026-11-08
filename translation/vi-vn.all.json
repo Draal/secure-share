@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Máy chủ ứng dụng chỉ ghi nhật ký yêu cầu API: loại yêu cầu, kết quả và thời gian xử lý. Địa chỉ IP, ID bí mật, mã thông báo, địa chỉ trang và nội dung yêu cầu không bao giờ được ghi lại.</p><p>Để bảo vệ dịch vụ khỏi dò mật khẩu và lạm dụng, máy chủ giới hạn tần suất yêu cầu theo địa chỉ IP. Địa chỉ chỉ được dùng trong bộ nhớ và không được lưu trữ.</p><p>Máy chủ web phía trước ứng dụng có thể giữ nhật ký truy cập thông thường: địa chỉ IP, thời gian và địa chỉ trang không có phần sau #. Nhật ký này chỉ dùng để chống tấn công và được giữ trong thời gian giới hạn.</p>"
+    "translation": "<p>Máy chủ ứng dụng không lưu nhật ký yêu cầu. Máy chủ chỉ ghi lại các lỗi kỹ thuật của chính mình, không bao gồm địa chỉ IP, ID bí mật, mã thông báo hoặc nội dung yêu cầu.</p><p>Để bảo vệ dịch vụ khỏi dò mật khẩu và lạm dụng, máy chủ giới hạn tần suất yêu cầu theo địa chỉ IP. Địa chỉ chỉ được dùng trong bộ nhớ và không được lưu trữ.</p><p>Máy chủ web phía trước ứng dụng có thể giữ nhật ký truy cập thông thường: địa chỉ IP, thời gian và địa chỉ trang không có phần sau #. Nhật ký này chỉ dùng để chống tấn công và được giữ trong thời gian giới hạn.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Nội dung bí mật được mã hóa trong trình duyệt. Máy chủ chỉ nhận dữ liệu đã mã hóa và không thể đọc.</li><li>Khóa giải mã nằm trong liên kết sau dấu # và không bao giờ được gửi đến máy chủ.</li><li>Không đăng ký, quảng cáo, phân tích hay tập lệnh bên thứ ba.</li><li>Nội dung bí mật bị xóa ngay sau khi mở hoặc khi hết thời gian đã chọn.</li><li>Máy chủ ứng dụng không ghi địa chỉ IP hay ID bí mật.</li></ul>"
+    "translation": "<ul><li>Nội dung bí mật được mã hóa trong trình duyệt. Máy chủ chỉ nhận dữ liệu đã mã hóa và không thể đọc.</li><li>Khóa giải mã nằm trong liên kết sau dấu # và không bao giờ được gửi đến máy chủ.</li><li>Không đăng ký, quảng cáo, phân tích hay tập lệnh bên thứ ba.</li><li>Nội dung bí mật bị xóa ngay sau khi mở hoặc khi hết thời gian đã chọn.</li><li>Máy chủ ứng dụng không lưu nhật ký yêu cầu.</li></ul>"
   },
   {
     "id": "privacy.short.title",

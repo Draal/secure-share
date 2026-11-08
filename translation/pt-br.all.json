@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>O servidor da aplicação registra apenas solicitações à API: tipo, resultado e tempo de processamento. Endereços IP, identificadores de segredos, tokens, endereços de páginas e conteúdos de solicitações não são registrados.</p><p>Para proteger o serviço contra força bruta e abusos, o servidor limita a frequência de solicitações por endereço IP. O endereço é usado apenas na memória e não é armazenado.</p><p>Um servidor web à frente da aplicação pode manter um registro de acesso padrão: endereço IP, horário e endereço da página sem a parte após #. Esses registros são usados apenas para proteção contra ataques e mantidos por tempo limitado.</p>"
+    "translation": "<p>O servidor da aplicação não mantém registros de solicitações. Ele registra apenas seus próprios erros técnicos, sem endereços IP, identificadores de segredos, tokens ou conteúdo das solicitações.</p><p>Para proteger o serviço contra força bruta e abusos, o servidor limita a frequência de solicitações por endereço IP. O endereço é usado apenas na memória e não é armazenado.</p><p>Um servidor web à frente da aplicação pode manter um registro de acesso padrão: endereço IP, horário e endereço da página sem a parte após #. Esses registros são usados apenas para proteção contra ataques e mantidos por tempo limitado.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Seu segredo é criptografado no navegador. O servidor recebe apenas dados criptografados e não pode lê-los.</li><li>A chave de descriptografia fica no link após o sinal # e nunca é enviada ao servidor.</li><li>Sem cadastro, publicidade, análise ou scripts de terceiros.</li><li>Um segredo é excluído assim que é aberto ou quando termina o prazo escolhido.</li><li>O servidor da aplicação não registra endereços IP nem identificadores de segredos.</li></ul>"
+    "translation": "<ul><li>Seu segredo é criptografado no navegador. O servidor recebe apenas dados criptografados e não pode lê-los.</li><li>A chave de descriptografia fica no link após o sinal # e nunca é enviada ao servidor.</li><li>Sem cadastro, publicidade, análise ou scripts de terceiros.</li><li>Um segredo é excluído assim que é aberto ou quando termina o prazo escolhido.</li><li>O servidor da aplicação não mantém registros de solicitações.</li></ul>"
   },
   {
     "id": "privacy.short.title",

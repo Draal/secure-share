@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Mga API request lamang ang nilolog ng application server: uri ng request, resulta at oras ng pagproseso. Hindi kailanman nilolog ang mga IP address, ID ng lihim, token, address ng pahina at nilalaman ng request.</p><p>Upang protektahan ang serbisyo laban sa paulit-ulit na paghula at pang-aabuso, nililimitahan ng server ang dalas ng request bawat IP address. Ginagamit lamang ang address sa memory at hindi iniimbak.</p><p>Maaaring magtago ng karaniwang access log ang web server sa harap ng application: IP address, oras at address ng pahina na wala ang bahagi pagkatapos ng #. Ginagamit lamang ang mga log na ito para sa proteksyon laban sa mga atake at iniimbak nang limitadong panahon.</p>"
+    "translation": "<p>Hindi nag-iingat ng request log ang application server. Sarili nitong mga teknikal na error lamang ang itinatala nito, nang walang mga IP address, ID ng lihim, token o nilalaman ng request.</p><p>Upang protektahan ang serbisyo laban sa paulit-ulit na paghula at pang-aabuso, nililimitahan ng server ang dalas ng request bawat IP address. Ginagamit lamang ang address sa memory at hindi iniimbak.</p><p>Maaaring magtago ng karaniwang access log ang web server sa harap ng application: IP address, oras at address ng pahina na wala ang bahagi pagkatapos ng #. Ginagamit lamang ang mga log na ito para sa proteksyon laban sa mga atake at iniimbak nang limitadong panahon.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Naka-encrypt ang iyong lihim sa iyong browser. Naka-encrypt na data lamang ang natatanggap ng server at hindi nito ito mababasa.</li><li>Nasa link pagkatapos ng # ang decryption key at hindi ito kailanman ipinapadala sa server.</li><li>Walang sign-up, ad, analytics o third-party na script.</li><li>Nabubura ang lihim pagkabukas nito o kapag natapos ang piniling panahon.</li><li>Hindi nilolog ng application server ang mga IP address o ID ng lihim.</li></ul>"
+    "translation": "<ul><li>Naka-encrypt ang iyong lihim sa iyong browser. Naka-encrypt na data lamang ang natatanggap ng server at hindi nito ito mababasa.</li><li>Nasa link pagkatapos ng # ang decryption key at hindi ito kailanman ipinapadala sa server.</li><li>Walang sign-up, ad, analytics o third-party na script.</li><li>Nabubura ang lihim pagkabukas nito o kapag natapos ang piniling panahon.</li><li>Hindi nag-iingat ng request log ang application server.</li></ul>"
   },
   {
     "id": "privacy.short.title",

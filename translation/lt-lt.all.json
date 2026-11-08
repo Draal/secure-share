@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Programos serveris registruoja tik API užklausas: užklausos tipą, rezultatą ir apdorojimo laiką. IP adresai, paslapčių identifikatoriai, prieigos raktai, puslapių adresai ir užklausų turinys neregistruojami.</p><p>Siekdamas apsaugoti paslaugą nuo perrinkimo atakų ir piktnaudžiavimo, serveris riboja užklausų dažnumą vienam IP adresui. Adresas naudojamas tik atmintyje ir neišsaugomas.</p><p>Prieš programą esantis žiniatinklio serveris gali saugoti standartinį prieigos žurnalą: IP adresą, laiką ir puslapio adresą be dalies po #. Tokie žurnalai naudojami tik apsaugai nuo atakų ir saugomi ribotą laiką.</p>"
+    "translation": "<p>Programos serveris netvarko užklausų žurnalų. Jis registruoja tik savo technines klaidas be IP adresų, paslapčių identifikatorių, prieigos raktų ar užklausų turinio.</p><p>Siekdamas apsaugoti paslaugą nuo perrinkimo atakų ir piktnaudžiavimo, serveris riboja užklausų dažnumą vienam IP adresui. Adresas naudojamas tik atmintyje ir neišsaugomas.</p><p>Prieš programą esantis žiniatinklio serveris gali saugoti standartinį prieigos žurnalą: IP adresą, laiką ir puslapio adresą be dalies po #. Tokie žurnalai naudojami tik apsaugai nuo atakų ir saugomi ribotą laiką.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Jūsų paslaptis šifruojama naršyklėje. Serveris gauna tik šifruotus duomenis ir negali jų perskaityti.</li><li>Iššifravimo raktas yra nuorodoje po # ir niekada nesiunčiamas į serverį.</li><li>Be registracijos, reklamų, analizės ir trečiųjų šalių scenarijų.</li><li>Paslaptis ištrinama iškart ją atidarius arba pasibaigus pasirinktam laikotarpiui.</li><li>Programos serveris neregistruoja IP adresų ar paslapčių identifikatorių.</li></ul>"
+    "translation": "<ul><li>Jūsų paslaptis šifruojama naršyklėje. Serveris gauna tik šifruotus duomenis ir negali jų perskaityti.</li><li>Iššifravimo raktas yra nuorodoje po # ir niekada nesiunčiamas į serverį.</li><li>Be registracijos, reklamų, analizės ir trečiųjų šalių scenarijų.</li><li>Paslaptis ištrinama iškart ją atidarius arba pasibaigus pasirinktam laikotarpiui.</li><li>Programos serveris netvarko užklausų žurnalų.</li></ul>"
   },
   {
     "id": "privacy.short.title",

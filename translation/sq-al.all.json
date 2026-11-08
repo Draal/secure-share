@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Serveri i aplikacionit regjistron vetëm kërkesat API: llojin, rezultatin dhe kohën e përpunimit. Adresat IP, identifikuesit e sekreteve, tokenat, adresat e faqeve dhe përmbajtja e kërkesave nuk regjistrohen.</p><p>Për të mbrojtur shërbimin nga sulmet me forcë brutale dhe abuzimi, serveri kufizon shpeshtësinë e kërkesave për çdo adresë IP. Adresa përdoret vetëm në memorie dhe nuk ruhet.</p><p>Një server ueb përpara aplikacionit mund të ruajë një regjistër standard aksesi: adresën IP, kohën dhe adresën e faqes pa pjesën pas #. Këta regjistra përdoren vetëm për mbrojtje nga sulmet dhe ruhen për kohë të kufizuar.</p>"
+    "translation": "<p>Serveri i aplikacionit nuk mban regjistra kërkesash. Ai regjistron vetëm gabimet e veta teknike, pa adresa IP, identifikues sekretesh, tokena ose përmbajtje kërkesash.</p><p>Për të mbrojtur shërbimin nga sulmet me forcë brutale dhe abuzimi, serveri kufizon shpeshtësinë e kërkesave për çdo adresë IP. Adresa përdoret vetëm në memorie dhe nuk ruhet.</p><p>Një server ueb përpara aplikacionit mund të ruajë një regjistër standard aksesi: adresën IP, kohën dhe adresën e faqes pa pjesën pas #. Këta regjistra përdoren vetëm për mbrojtje nga sulmet dhe ruhen për kohë të kufizuar.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Sekreti juaj enkriptohet në shfletues. Serveri merr vetëm të dhëna të enkriptuara dhe nuk mund t’i lexojë.</li><li>Çelësi i dekriptimit është në lidhje pas shenjës # dhe nuk dërgohet kurrë në server.</li><li>Pa regjistrim, reklama, analiza apo skripte të palëve të treta.</li><li>Sekreti fshihet sapo hapet ose kur përfundon periudha e zgjedhur.</li><li>Serveri i aplikacionit nuk regjistron adresa IP apo identifikues sekretesh.</li></ul>"
+    "translation": "<ul><li>Sekreti juaj enkriptohet në shfletues. Serveri merr vetëm të dhëna të enkriptuara dhe nuk mund t’i lexojë.</li><li>Çelësi i dekriptimit është në lidhje pas shenjës # dhe nuk dërgohet kurrë në server.</li><li>Pa regjistrim, reklama, analiza apo skripte të palëve të treta.</li><li>Sekreti fshihet sapo hapet ose kur përfundon periudha e zgjedhur.</li><li>Serveri i aplikacionit nuk mban regjistra kërkesash.</li></ul>"
   },
   {
     "id": "privacy.short.title",

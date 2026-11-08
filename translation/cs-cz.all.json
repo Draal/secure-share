@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Server aplikace zaznamenává pouze požadavky API: typ požadavku, výsledek a dobu zpracování. IP adresy, identifikátory tajemství, tokeny, adresy stránek ani obsah požadavků se nezaznamenávají.</p><p>K ochraně služby před útoky hrubou silou a zneužitím server omezuje četnost požadavků z jedné IP adresy. Adresa se používá pouze v paměti a neukládá se.</p><p>Webový server před aplikací může vést standardní přístupový protokol: IP adresu, čas a adresu stránky bez části za #. Tyto protokoly se používají pouze k ochraně před útoky a uchovávají se omezenou dobu.</p>"
+    "translation": "<p>Server aplikace neuchovává žádné záznamy o požadavcích. Zaznamenává pouze vlastní technické chyby bez IP adres, identifikátorů tajemství, tokenů a obsahu požadavků.</p><p>K ochraně služby před útoky hrubou silou a zneužitím server omezuje četnost požadavků z jedné IP adresy. Adresa se používá pouze v paměti a neukládá se.</p><p>Webový server před aplikací může vést standardní přístupový protokol: IP adresu, čas a adresu stránky bez části za #. Tyto protokoly se používají pouze k ochraně před útoky a uchovávají se omezenou dobu.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Tajemství se šifruje ve vašem prohlížeči. Server přijímá jen šifrovaná data a nemůže je číst.</li><li>Dešifrovací klíč je v odkazu za znakem # a nikdy se neposílá na server.</li><li>Bez registrace, reklamy, analytiky a skriptů třetích stran.</li><li>Tajemství se smaže ihned po otevření nebo po uplynutí zvolené doby.</li><li>Server aplikace nezaznamenává IP adresy ani identifikátory tajemství.</li></ul>"
+    "translation": "<ul><li>Tajemství se šifruje ve vašem prohlížeči. Server přijímá jen šifrovaná data a nemůže je číst.</li><li>Dešifrovací klíč je v odkazu za znakem # a nikdy se neposílá na server.</li><li>Bez registrace, reklamy, analytiky a skriptů třetích stran.</li><li>Tajemství se smaže ihned po otevření nebo po uplynutí zvolené doby.</li><li>Server aplikace neuchovává žádné záznamy o požadavcích.</li></ul>"
   },
   {
     "id": "privacy.short.title",

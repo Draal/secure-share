@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Rakendusserver logib ainult API-päringuid: päringu tüübi, tulemuse ja töötlemisaja. IP-aadresse, saladuste ID-sid, tokeneid, leheaadresse ega päringute sisu ei logita.</p><p>Teenuse kaitsmiseks läbiproovimisrünnete ja väärkasutuse eest piirab server päringute sagedust IP-aadressi kohta. Aadressi kasutatakse ainult mälus ja seda ei salvestata.</p><p>Rakenduse ees olev veebiserver võib pidada tavalist juurdepääsulogi: IP-aadress, aeg ja lehe aadress ilma # järgse osata. Selliseid logisid kasutatakse ainult rünnete eest kaitsmiseks ja säilitatakse piiratud aja.</p>"
+    "translation": "<p>Rakendusserver ei pea päringuloge. See salvestab ainult oma tehnilised vead ilma IP-aadresside, saladuste ID-de, tokenite ja päringute sisuta.</p><p>Teenuse kaitsmiseks läbiproovimisrünnete ja väärkasutuse eest piirab server päringute sagedust IP-aadressi kohta. Aadressi kasutatakse ainult mälus ja seda ei salvestata.</p><p>Rakenduse ees olev veebiserver võib pidada tavalist juurdepääsulogi: IP-aadress, aeg ja lehe aadress ilma # järgse osata. Selliseid logisid kasutatakse ainult rünnete eest kaitsmiseks ja säilitatakse piiratud aja.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Saladus krüptitakse teie brauseris. Server saab ainult krüptitud andmed ega saa neid lugeda.</li><li>Dekrüptimisvõti on lingis # märgi järel ja seda ei saadeta serverisse.</li><li>Registreerimist, reklaame, analüütikat ega kolmandate osapoolte skripte pole.</li><li>Saladus kustutatakse kohe pärast avamist või valitud aja lõppedes.</li><li>Rakendusserver ei logi IP-aadresse ega saladuste ID-sid.</li></ul>"
+    "translation": "<ul><li>Saladus krüptitakse teie brauseris. Server saab ainult krüptitud andmed ega saa neid lugeda.</li><li>Dekrüptimisvõti on lingis # märgi järel ja seda ei saadeta serverisse.</li><li>Registreerimist, reklaame, analüütikat ega kolmandate osapoolte skripte pole.</li><li>Saladus kustutatakse kohe pärast avamist või valitud aja lõppedes.</li><li>Rakendusserver ei pea päringuloge.</li></ul>"
   },
   {
     "id": "privacy.short.title",

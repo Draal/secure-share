@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Az alkalmazáskiszolgáló csak az API-kéréseket naplózza: a kérés típusát, eredményét és feldolgozási idejét. IP-címeket, titokazonosítókat, tokeneket, oldalcímeket és kéréstartalmakat nem naplóz.</p><p>A szolgáltatás védelmére a próbálgatásos támadások és visszaélések ellen a szerver korlátozza az IP-címenkénti kérések gyakoriságát. A címet csak a memóriában használja, és nem tárolja.</p><p>Az alkalmazás előtti webszerver szokásos hozzáférési naplót vezethet: IP-cím, idő és az oldal címe a # utáni rész nélkül. Ezeket a naplókat csak támadások elleni védelemre használjuk, és korlátozott ideig őrizzük.</p>"
+    "translation": "<p>Az alkalmazáskiszolgáló nem vezet kérésnaplót. Csak a saját technikai hibáit naplózza, IP-címek, titokazonosítók, tokenek és a kérések tartalma nélkül.</p><p>A szolgáltatás védelmére a próbálgatásos támadások és visszaélések ellen a szerver korlátozza az IP-címenkénti kérések gyakoriságát. A címet csak a memóriában használja, és nem tárolja.</p><p>Az alkalmazás előtti webszerver szokásos hozzáférési naplót vezethet: IP-cím, idő és az oldal címe a # utáni rész nélkül. Ezeket a naplókat csak támadások elleni védelemre használjuk, és korlátozott ideig őrizzük.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>A titok a böngészőben titkosítódik. A szerver csak titkosított adatokat kap, és nem tudja elolvasni őket.</li><li>A visszafejtési kulcs a hivatkozásban a # után van, és soha nem kerül a szerverre.</li><li>Nincs regisztráció, hirdetés, analitika vagy külső szkript.</li><li>A titok megnyitáskor vagy a választott időszak végén törlődik.</li><li>Az alkalmazáskiszolgáló nem naplóz IP-címeket vagy titokazonosítókat.</li></ul>"
+    "translation": "<ul><li>A titok a böngészőben titkosítódik. A szerver csak titkosított adatokat kap, és nem tudja elolvasni őket.</li><li>A visszafejtési kulcs a hivatkozásban a # után van, és soha nem kerül a szerverre.</li><li>Nincs regisztráció, hirdetés, analitika vagy külső szkript.</li><li>A titok megnyitáskor vagy a választott időszak végén törlődik.</li><li>Az alkalmazáskiszolgáló nem vezet kérésnaplót.</li></ul>"
   },
   {
     "id": "privacy.short.title",

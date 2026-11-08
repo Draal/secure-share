@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Uygulama sunucusu yalnızca API isteklerini günlüğe kaydeder: istek türü, sonuç ve işlem süresi. IP adresleri, sır kimlikleri, belirteçler, sayfa adresleri ve istek içerikleri kaydedilmez.</p><p>Hizmeti kaba kuvvet saldırılarından ve kötüye kullanımdan korumak için sunucu, IP adresi başına istek hızını sınırlar. Adres yalnızca bellekte kullanılır ve saklanmaz.</p><p>Uygulamanın önündeki web sunucusu standart bir erişim günlüğü tutabilir: IP adresi, zaman ve sayfa adresinin # sonrasını içermeyen kısmı. Bu günlükler yalnızca saldırılardan korunmak için kullanılır ve sınırlı süre saklanır.</p>"
+    "translation": "<p>Uygulama sunucusu istek günlüğü tutmaz. Yalnızca kendi teknik hatalarını IP adresleri, sır kimlikleri, belirteçler veya istek içerikleri olmadan kaydeder.</p><p>Hizmeti kaba kuvvet saldırılarından ve kötüye kullanımdan korumak için sunucu, IP adresi başına istek hızını sınırlar. Adres yalnızca bellekte kullanılır ve saklanmaz.</p><p>Uygulamanın önündeki web sunucusu standart bir erişim günlüğü tutabilir: IP adresi, zaman ve sayfa adresinin # sonrasını içermeyen kısmı. Bu günlükler yalnızca saldırılardan korunmak için kullanılır ve sınırlı süre saklanır.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Sırrınız tarayıcınızda şifrelenir. Sunucu yalnızca şifreli verileri alır ve okuyamaz.</li><li>Şifre çözme anahtarı bağlantıda # işaretinden sonra bulunur ve sunucuya asla gönderilmez.</li><li>Kayıt, reklam, analiz veya üçüncü taraf betik yoktur.</li><li>Sır açılır açılmaz veya seçilen süre dolduğunda silinir.</li><li>Uygulama sunucusu IP adreslerini veya sır kimliklerini günlüğe kaydetmez.</li></ul>"
+    "translation": "<ul><li>Sırrınız tarayıcınızda şifrelenir. Sunucu yalnızca şifreli verileri alır ve okuyamaz.</li><li>Şifre çözme anahtarı bağlantıda # işaretinden sonra bulunur ve sunucuya asla gönderilmez.</li><li>Kayıt, reklam, analiz veya üçüncü taraf betik yoktur.</li><li>Sır açılır açılmaz veya seçilen süre dolduğunda silinir.</li><li>Uygulama sunucusu istek günlüğü tutmaz.</li></ul>"
   },
   {
     "id": "privacy.short.title",

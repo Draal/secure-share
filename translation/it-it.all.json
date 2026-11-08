@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Il server dell’applicazione registra solo le richieste API: tipo, risultato e tempo di elaborazione. Indirizzi IP, identificativi dei segreti, token, indirizzi delle pagine e contenuti delle richieste non vengono registrati.</p><p>Per proteggere il servizio da attacchi di forza bruta e abusi, il server limita la frequenza delle richieste per indirizzo IP. L’indirizzo viene usato solo in memoria e non viene conservato.</p><p>Un server web posto davanti all’applicazione può conservare un registro degli accessi standard: indirizzo IP, ora e indirizzo della pagina senza la parte dopo #. Questi registri servono solo a proteggere dagli attacchi e vengono conservati per un periodo limitato.</p>"
+    "translation": "<p>Il server dell’applicazione non conserva registri delle richieste. Registra solo i propri errori tecnici, senza indirizzi IP, identificativi dei segreti, token o contenuti delle richieste.</p><p>Per proteggere il servizio da attacchi di forza bruta e abusi, il server limita la frequenza delle richieste per indirizzo IP. L’indirizzo viene usato solo in memoria e non viene conservato.</p><p>Un server web posto davanti all’applicazione può conservare un registro degli accessi standard: indirizzo IP, ora e indirizzo della pagina senza la parte dopo #. Questi registri servono solo a proteggere dagli attacchi e vengono conservati per un periodo limitato.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Il segreto viene cifrato nel browser. Il server riceve solo dati cifrati e non può leggerli.</li><li>La chiave di decifrazione si trova nel link dopo il simbolo # e non viene mai inviata al server.</li><li>Senza registrazione, pubblicità, analisi o script di terze parti.</li><li>Il segreto viene eliminato appena aperto o alla fine del periodo scelto.</li><li>Il server dell’applicazione non registra indirizzi IP o identificativi dei segreti.</li></ul>"
+    "translation": "<ul><li>Il segreto viene cifrato nel browser. Il server riceve solo dati cifrati e non può leggerli.</li><li>La chiave di decifrazione si trova nel link dopo il simbolo # e non viene mai inviata al server.</li><li>Senza registrazione, pubblicità, analisi o script di terze parti.</li><li>Il segreto viene eliminato appena aperto o alla fine del periodo scelto.</li><li>Il server dell’applicazione non conserva registri delle richieste.</li></ul>"
   },
   {
     "id": "privacy.short.title",

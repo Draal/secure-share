@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Lietotnes serveris reģistrē tikai API pieprasījumus: pieprasījuma veidu, rezultātu un apstrādes laiku. IP adreses, noslēpumu identifikatori, pilnvaras, lapu adreses un pieprasījumu saturs netiek reģistrēts.</p><p>Lai aizsargātu pakalpojumu pret pilnās pārlases uzbrukumiem un ļaunprātīgu izmantošanu, serveris ierobežo pieprasījumu biežumu no vienas IP adreses. Adrese tiek izmantota tikai atmiņā un netiek saglabāta.</p><p>Tīmekļa serveris lietotnes priekšā var uzturēt standarta piekļuves žurnālu: IP adresi, laiku un lapas adresi bez daļas aiz #. Šādi žurnāli tiek izmantoti tikai aizsardzībai pret uzbrukumiem un tiek glabāti ierobežotu laiku.</p>"
+    "translation": "<p>Lietotnes serveris neveido pieprasījumu žurnālus. Tas reģistrē tikai savas tehniskās kļūdas bez IP adresēm, noslēpumu identifikatoriem, pilnvarām vai pieprasījumu satura.</p><p>Lai aizsargātu pakalpojumu pret pilnās pārlases uzbrukumiem un ļaunprātīgu izmantošanu, serveris ierobežo pieprasījumu biežumu no vienas IP adreses. Adrese tiek izmantota tikai atmiņā un netiek saglabāta.</p><p>Tīmekļa serveris lietotnes priekšā var uzturēt standarta piekļuves žurnālu: IP adresi, laiku un lapas adresi bez daļas aiz #. Šādi žurnāli tiek izmantoti tikai aizsardzībai pret uzbrukumiem un tiek glabāti ierobežotu laiku.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Noslēpums tiek šifrēts jūsu pārlūkā. Serveris saņem tikai šifrētus datus un nevar tos izlasīt.</li><li>Atšifrēšanas atslēga ir saitē aiz zīmes # un nekad netiek nosūtīta serverim.</li><li>Bez reģistrācijas, reklāmām, analītikas un trešo pušu skriptiem.</li><li>Noslēpums tiek dzēsts tūlīt pēc atvēršanas vai izvēlētā perioda beigās.</li><li>Lietotnes serveris nereģistrē IP adreses vai noslēpumu identifikatorus.</li></ul>"
+    "translation": "<ul><li>Noslēpums tiek šifrēts jūsu pārlūkā. Serveris saņem tikai šifrētus datus un nevar tos izlasīt.</li><li>Atšifrēšanas atslēga ir saitē aiz zīmes # un nekad netiek nosūtīta serverim.</li><li>Bez reģistrācijas, reklāmām, analītikas un trešo pušu skriptiem.</li><li>Noslēpums tiek dzēsts tūlīt pēc atvēršanas vai izvēlētā perioda beigās.</li><li>Lietotnes serveris neveido pieprasījumu žurnālus.</li></ul>"
   },
   {
     "id": "privacy.short.title",

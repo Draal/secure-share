@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Strežnik aplikacije beleži samo zahteve API: vrsto zahteve, rezultat in čas obdelave. Naslovi IP, identifikatorji skrivnosti, žetoni, naslovi strani in vsebina zahtev se ne beležijo.</p><p>Za zaščito storitve pred napadi z grobo silo in zlorabami strežnik omejuje pogostost zahtev na naslov IP. Naslov se uporablja samo v pomnilniku in se ne shranjuje.</p><p>Spletni strežnik pred aplikacijo lahko vodi standardni dnevnik dostopa: naslov IP, čas in naslov strani brez dela za #. Ti dnevniki se uporabljajo samo za zaščito pred napadi in se hranijo omejen čas.</p>"
+    "translation": "<p>Strežnik aplikacije ne vodi dnevnikov zahtev. Beleži samo lastne tehnične napake brez naslovov IP, identifikatorjev skrivnosti, žetonov ali vsebine zahtev.</p><p>Za zaščito storitve pred napadi z grobo silo in zlorabami strežnik omejuje pogostost zahtev na naslov IP. Naslov se uporablja samo v pomnilniku in se ne shranjuje.</p><p>Spletni strežnik pred aplikacijo lahko vodi standardni dnevnik dostopa: naslov IP, čas in naslov strani brez dela za #. Ti dnevniki se uporabljajo samo za zaščito pred napadi in se hranijo omejen čas.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Skrivnost se šifrira v vašem brskalniku. Strežnik prejme samo šifrirane podatke in jih ne more prebrati.</li><li>Ključ za dešifriranje je v povezavi za znakom # in se nikoli ne pošlje strežniku.</li><li>Brez registracije, oglasov, analitike in skriptov tretjih oseb.</li><li>Skrivnost se izbriše takoj po odprtju ali ob koncu izbranega obdobja.</li><li>Strežnik aplikacije ne beleži naslovov IP ali identifikatorjev skrivnosti.</li></ul>"
+    "translation": "<ul><li>Skrivnost se šifrira v vašem brskalniku. Strežnik prejme samo šifrirane podatke in jih ne more prebrati.</li><li>Ključ za dešifriranje je v povezavi za znakom # in se nikoli ne pošlje strežniku.</li><li>Brez registracije, oglasov, analitike in skriptov tretjih oseb.</li><li>Skrivnost se izbriše takoj po odprtju ali ob koncu izbranega obdobja.</li><li>Strežnik aplikacije ne vodi dnevnikov zahtev.</li></ul>"
   },
   {
     "id": "privacy.short.title",

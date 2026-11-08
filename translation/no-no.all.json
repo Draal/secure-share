@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Applikasjonsserveren logger bare API-forespørsler: forespørselstype, resultat og behandlingstid. IP-adresser, hemmelighets-ID-er, tokener, sideadresser og innhold i forespørsler logges ikke.</p><p>For å beskytte tjenesten mot råkraftangrep og misbruk begrenser serveren antall forespørsler per IP-adresse. Adressen brukes bare i minnet og lagres ikke.</p><p>En webserver foran applikasjonen kan lagre en vanlig tilgangslogg: IP-adresse, tid og sideadresse uten delen etter #. Slike logger brukes bare til beskyttelse mot angrep og oppbevares i begrenset tid.</p>"
+    "translation": "<p>Applikasjonsserveren fører ingen forespørselslogger. Den registrerer bare sine egne tekniske feil, uten IP-adresser, hemmelighets-ID-er, tokener eller innhold i forespørsler.</p><p>For å beskytte tjenesten mot råkraftangrep og misbruk begrenser serveren antall forespørsler per IP-adresse. Adressen brukes bare i minnet og lagres ikke.</p><p>En webserver foran applikasjonen kan lagre en vanlig tilgangslogg: IP-adresse, tid og sideadresse uten delen etter #. Slike logger brukes bare til beskyttelse mot angrep og oppbevares i begrenset tid.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Hemmeligheten din krypteres i nettleseren. Serveren mottar bare krypterte data og kan ikke lese dem.</li><li>Dekrypteringsnøkkelen står i lenken etter #-tegnet og sendes aldri til serveren.</li><li>Ingen registrering, reklame, analyse eller tredjepartsskript.</li><li>En hemmelighet slettes så snart den åpnes, eller når den valgte perioden utløper.</li><li>Applikasjonsserveren logger ikke IP-adresser eller hemmelighets-ID-er.</li></ul>"
+    "translation": "<ul><li>Hemmeligheten din krypteres i nettleseren. Serveren mottar bare krypterte data og kan ikke lese dem.</li><li>Dekrypteringsnøkkelen står i lenken etter #-tegnet og sendes aldri til serveren.</li><li>Ingen registrering, reklame, analyse eller tredjepartsskript.</li><li>En hemmelighet slettes så snart den åpnes, eller når den valgte perioden utløper.</li><li>Applikasjonsserveren fører ingen forespørselslogger.</li></ul>"
   },
   {
     "id": "privacy.short.title",

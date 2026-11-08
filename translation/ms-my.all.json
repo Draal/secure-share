@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Pelayan aplikasi hanya merekod permintaan API: jenis permintaan, hasil dan masa pemprosesan. Alamat IP, ID rahsia, token, alamat halaman dan kandungan permintaan tidak direkodkan.</p><p>Untuk melindungi perkhidmatan daripada serangan kekerasan dan penyalahgunaan, pelayan mengehadkan kekerapan permintaan bagi setiap alamat IP. Alamat hanya digunakan dalam memori dan tidak disimpan.</p><p>Pelayan web di hadapan aplikasi boleh menyimpan log akses standard: alamat IP, masa dan alamat halaman tanpa bahagian selepas #. Log ini hanya digunakan untuk melindungi daripada serangan dan disimpan untuk masa terhad.</p>"
+    "translation": "<p>Pelayan aplikasi tidak menyimpan log permintaan. Pelayan hanya merekod ralat teknikalnya sendiri tanpa alamat IP, ID rahsia, token atau kandungan permintaan.</p><p>Untuk melindungi perkhidmatan daripada serangan kekerasan dan penyalahgunaan, pelayan mengehadkan kekerapan permintaan bagi setiap alamat IP. Alamat hanya digunakan dalam memori dan tidak disimpan.</p><p>Pelayan web di hadapan aplikasi boleh menyimpan log akses standard: alamat IP, masa dan alamat halaman tanpa bahagian selepas #. Log ini hanya digunakan untuk melindungi daripada serangan dan disimpan untuk masa terhad.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Rahsia disulitkan dalam pelayar anda. Pelayan hanya menerima data tersulit dan tidak boleh membacanya.</li><li>Kunci penyahsulitan berada dalam pautan selepas tanda # dan tidak pernah dihantar ke pelayan.</li><li>Tanpa pendaftaran, iklan, analitik atau skrip pihak ketiga.</li><li>Rahsia dipadam sebaik sahaja dibuka atau apabila tempoh yang dipilih berakhir.</li><li>Pelayan aplikasi tidak merekod alamat IP atau ID rahsia.</li></ul>"
+    "translation": "<ul><li>Rahsia disulitkan dalam pelayar anda. Pelayan hanya menerima data tersulit dan tidak boleh membacanya.</li><li>Kunci penyahsulitan berada dalam pautan selepas tanda # dan tidak pernah dihantar ke pelayan.</li><li>Tanpa pendaftaran, iklan, analitik atau skrip pihak ketiga.</li><li>Rahsia dipadam sebaik sahaja dibuka atau apabila tempoh yang dipilih berakhir.</li><li>Pelayan aplikasi tidak menyimpan log permintaan.</li></ul>"
   },
   {
     "id": "privacy.short.title",

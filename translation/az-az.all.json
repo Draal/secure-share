@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Tətbiq serveri yalnız API sorğularını qeyd edir: sorğu növü, nəticə və emal vaxtı. IP ünvanları, sirr identifikatorları, tokenlər, səhifə ünvanları və sorğu məzmunu qeydə alınmır.</p><p>Xidməti tam axtarış hücumlarından və sui-istifadədən qorumaq üçün server hər IP ünvanına düşən sorğuların tezliyini məhdudlaşdırır. Ünvan yalnız yaddaşda istifadə edilir və saxlanmır.</p><p>Tətbiqin qarşısındakı veb server standart giriş jurnalı saxlaya bilər: IP ünvanı, vaxt və səhifə ünvanının # sonrası olmayan hissəsi. Belə jurnallar yalnız hücumlardan qorunmaq üçün istifadə olunur və məhdud müddət saxlanır.</p>"
+    "translation": "<p>Tətbiq serveri sorğu jurnalları saxlamır. Yalnız öz texniki xətalarını IP ünvanları, sirr identifikatorları, tokenlər və sorğu məzmunu olmadan qeydə alır.</p><p>Xidməti tam axtarış hücumlarından və sui-istifadədən qorumaq üçün server hər IP ünvanına düşən sorğuların tezliyini məhdudlaşdırır. Ünvan yalnız yaddaşda istifadə edilir və saxlanmır.</p><p>Tətbiqin qarşısındakı veb server standart giriş jurnalı saxlaya bilər: IP ünvanı, vaxt və səhifə ünvanının # sonrası olmayan hissəsi. Belə jurnallar yalnız hücumlardan qorunmaq üçün istifadə olunur və məhdud müddət saxlanır.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Sirriniz brauzerinizdə şifrələnir. Server yalnız şifrəli məlumatları alır və onları oxuya bilmir.</li><li>Şifrənin açılması açarı keçiddə # işarəsindən sonra yerləşir və heç vaxt serverə göndərilmir.</li><li>Qeydiyyat, reklam, analitika və üçüncü tərəf skriptləri yoxdur.</li><li>Sirr açılan kimi və ya seçilən müddət bitdikdə silinir.</li><li>Tətbiq serveri IP ünvanlarını və sirr identifikatorlarını qeydə almır.</li></ul>"
+    "translation": "<ul><li>Sirriniz brauzerinizdə şifrələnir. Server yalnız şifrəli məlumatları alır və onları oxuya bilmir.</li><li>Şifrənin açılması açarı keçiddə # işarəsindən sonra yerləşir və heç vaxt serverə göndərilmir.</li><li>Qeydiyyat, reklam, analitika və üçüncü tərəf skriptləri yoxdur.</li><li>Sirr açılan kimi və ya seçilən müddət bitdikdə silinir.</li><li>Tətbiq serveri sorğu jurnalları saxlamır.</li></ul>"
   },
   {
     "id": "privacy.short.title",

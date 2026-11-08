@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Server aplikasi hanya mencatat permintaan API: jenis permintaan, hasil, dan waktu pemrosesan. Alamat IP, ID rahasia, token, alamat halaman, dan isi permintaan tidak dicatat.</p><p>Untuk melindungi layanan dari serangan brute force dan penyalahgunaan, server membatasi frekuensi permintaan per alamat IP. Alamat hanya digunakan di memori dan tidak disimpan.</p><p>Server web di depan aplikasi dapat menyimpan log akses standar: alamat IP, waktu, dan alamat halaman tanpa bagian setelah #. Log tersebut hanya digunakan untuk melindungi dari serangan dan disimpan untuk waktu terbatas.</p>"
+    "translation": "<p>Server aplikasi tidak menyimpan log permintaan. Server hanya mencatat kesalahan teknisnya sendiri, tanpa alamat IP, ID rahasia, token, atau isi permintaan.</p><p>Untuk melindungi layanan dari serangan brute force dan penyalahgunaan, server membatasi frekuensi permintaan per alamat IP. Alamat hanya digunakan di memori dan tidak disimpan.</p><p>Server web di depan aplikasi dapat menyimpan log akses standar: alamat IP, waktu, dan alamat halaman tanpa bagian setelah #. Log tersebut hanya digunakan untuk melindungi dari serangan dan disimpan untuk waktu terbatas.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Rahasia dienkripsi di peramban Anda. Server hanya menerima data terenkripsi dan tidak dapat membacanya.</li><li>Kunci dekripsi berada di tautan setelah tanda # dan tidak pernah dikirim ke server.</li><li>Tanpa pendaftaran, iklan, analitik, atau skrip pihak ketiga.</li><li>Rahasia dihapus segera setelah dibuka atau saat masa yang dipilih berakhir.</li><li>Server aplikasi tidak mencatat alamat IP atau ID rahasia.</li></ul>"
+    "translation": "<ul><li>Rahasia dienkripsi di peramban Anda. Server hanya menerima data terenkripsi dan tidak dapat membacanya.</li><li>Kunci dekripsi berada di tautan setelah tanda # dan tidak pernah dikirim ke server.</li><li>Tanpa pendaftaran, iklan, analitik, atau skrip pihak ketiga.</li><li>Rahasia dihapus segera setelah dibuka atau saat masa yang dipilih berakhir.</li><li>Server aplikasi tidak menyimpan log permintaan.</li></ul>"
   },
   {
     "id": "privacy.short.title",

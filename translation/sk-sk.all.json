@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Server aplikácie zaznamenáva iba požiadavky API: typ požiadavky, výsledok a čas spracovania. IP adresy, identifikátory tajomstiev, tokeny, adresy stránok ani obsah požiadaviek sa nezaznamenávajú.</p><p>Na ochranu služby pred útokmi hrubou silou a zneužitím server obmedzuje počet požiadaviek z jednej IP adresy. Adresa sa používa iba v pamäti a neukladá sa.</p><p>Webový server pred aplikáciou môže viesť štandardný prístupový protokol: IP adresu, čas a adresu stránky bez časti za #. Tieto protokoly sa používajú iba na ochranu pred útokmi a uchovávajú sa obmedzený čas.</p>"
+    "translation": "<p>Server aplikácie neuchováva záznamy o požiadavkách. Zaznamenáva iba vlastné technické chyby bez IP adries, identifikátorov tajomstiev, tokenov a obsahu požiadaviek.</p><p>Na ochranu služby pred útokmi hrubou silou a zneužitím server obmedzuje počet požiadaviek z jednej IP adresy. Adresa sa používa iba v pamäti a neukladá sa.</p><p>Webový server pred aplikáciou môže viesť štandardný prístupový protokol: IP adresu, čas a adresu stránky bez časti za #. Tieto protokoly sa používajú iba na ochranu pred útokmi a uchovávajú sa obmedzený čas.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Tajomstvo sa šifruje vo vašom prehliadači. Server prijíma len šifrované údaje a nemôže ich čítať.</li><li>Dešifrovací kľúč je v odkaze za znakom # a nikdy sa neposiela na server.</li><li>Bez registrácie, reklamy, analytiky a skriptov tretích strán.</li><li>Tajomstvo sa vymaže ihneď po otvorení alebo po uplynutí zvoleného času.</li><li>Server aplikácie nezaznamenáva IP adresy ani identifikátory tajomstiev.</li></ul>"
+    "translation": "<ul><li>Tajomstvo sa šifruje vo vašom prehliadači. Server prijíma len šifrované údaje a nemôže ich čítať.</li><li>Dešifrovací kľúč je v odkaze za znakom # a nikdy sa neposiela na server.</li><li>Bez registrácie, reklamy, analytiky a skriptov tretích strán.</li><li>Tajomstvo sa vymaže ihneď po otvorení alebo po uplynutí zvoleného času.</li><li>Server aplikácie neuchováva záznamy o požiadavkách.</li></ul>"
   },
   {
     "id": "privacy.short.title",

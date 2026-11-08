@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>The application server logs only API requests: the request type, the result and the processing time. IP addresses, secret ids, tokens, page addresses and request contents are never logged.</p><p>To protect the service from brute force and abuse, the server limits the request rate per IP address. The address is used only in memory and is not stored.</p><p>A web server in front of the application may keep a standard access log: IP address, time and page address without the part after #. Such logs are used only to protect against attacks and are kept for a limited time.</p>"
+    "translation": "<p>The application server keeps no request logs. It records only its own technical errors, without IP addresses, secret ids, tokens or request contents.</p><p>To protect the service from brute force and abuse, the server limits the request rate per IP address. The address is used only in memory and is not stored.</p><p>A web server in front of the application may keep a standard access log: IP address, time and page address without the part after #. Such logs are used only to protect against attacks and are kept for a limited time.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Your secret is encrypted in your browser. The server receives only encrypted data and cannot read it.</li><li>The decryption key lives in the link after the # sign and is never sent to the server.</li><li>No sign-up, ads, analytics or third-party scripts.</li><li>A secret is deleted as soon as it is opened or when the chosen period ends.</li><li>The application server does not log IP addresses or secret ids.</li></ul>"
+    "translation": "<ul><li>Your secret is encrypted in your browser. The server receives only encrypted data and cannot read it.</li><li>The decryption key lives in the link after the # sign and is never sent to the server.</li><li>No sign-up, ads, analytics or third-party scripts.</li><li>A secret is deleted as soon as it is opened or when the chosen period ends.</li><li>The application server keeps no request logs.</li></ul>"
   },
   {
     "id": "privacy.short.title",

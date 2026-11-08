@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>El servidor de la aplicación solo registra solicitudes a la API: tipo de solicitud, resultado y tiempo de procesamiento. No se registran direcciones IP, identificadores de secretos, tokens, direcciones de páginas ni contenidos de solicitudes.</p><p>Para proteger el servicio contra ataques de fuerza bruta y abusos, el servidor limita la frecuencia de solicitudes por dirección IP. La dirección solo se utiliza en memoria y no se almacena.</p><p>Un servidor web situado delante de la aplicación puede mantener un registro de acceso estándar: dirección IP, hora y dirección de la página sin la parte posterior a #. Estos registros solo se usan para proteger contra ataques y se conservan durante un tiempo limitado.</p>"
+    "translation": "<p>El servidor de la aplicación no guarda registros de solicitudes. Solo registra sus propios errores técnicos, sin direcciones IP, identificadores de secretos, tokens ni contenido de solicitudes.</p><p>Para proteger el servicio contra ataques de fuerza bruta y abusos, el servidor limita la frecuencia de solicitudes por dirección IP. La dirección solo se utiliza en memoria y no se almacena.</p><p>Un servidor web situado delante de la aplicación puede mantener un registro de acceso estándar: dirección IP, hora y dirección de la página sin la parte posterior a #. Estos registros solo se usan para proteger contra ataques y se conservan durante un tiempo limitado.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Tu secreto se cifra en tu navegador. El servidor solo recibe datos cifrados y no puede leerlos.</li><li>La clave de descifrado está en el enlace después del signo # y nunca se envía al servidor.</li><li>Sin registro, publicidad, análisis ni scripts de terceros.</li><li>El secreto se elimina al abrirse o al finalizar el plazo elegido.</li><li>El servidor de la aplicación no registra direcciones IP ni identificadores de secretos.</li></ul>"
+    "translation": "<ul><li>Tu secreto se cifra en tu navegador. El servidor solo recibe datos cifrados y no puede leerlos.</li><li>La clave de descifrado está en el enlace después del signo # y nunca se envía al servidor.</li><li>Sin registro, publicidad, análisis ni scripts de terceros.</li><li>El secreto se elimina al abrirse o al finalizar el plazo elegido.</li><li>El servidor de la aplicación no guarda registros de solicitudes.</li></ul>"
   },
   {
     "id": "privacy.short.title",

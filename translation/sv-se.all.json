@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Applikationsservern loggar endast API-förfrågningar: förfrågningens typ, resultat och behandlingstid. IP-adresser, hemlighets-ID:n, token, sidadresser och innehåll i förfrågningar loggas inte.</p><p>För att skydda tjänsten mot råstyrkeattacker och missbruk begränsar servern antalet förfrågningar per IP-adress. Adressen används endast i minnet och lagras inte.</p><p>En webbserver framför applikationen kan spara en vanlig åtkomstlogg: IP-adress, tid och sidans adress utan delen efter #. Sådana loggar används endast för skydd mot attacker och sparas under begränsad tid.</p>"
+    "translation": "<p>Applikationsservern för inga loggar över förfrågningar. Den loggar endast sina egna tekniska fel, utan IP-adresser, hemlighets-ID:n, token eller innehåll i förfrågningar.</p><p>För att skydda tjänsten mot råstyrkeattacker och missbruk begränsar servern antalet förfrågningar per IP-adress. Adressen används endast i minnet och lagras inte.</p><p>En webbserver framför applikationen kan spara en vanlig åtkomstlogg: IP-adress, tid och sidans adress utan delen efter #. Sådana loggar används endast för skydd mot attacker och sparas under begränsad tid.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Din hemlighet krypteras i webbläsaren. Servern får bara krypterade uppgifter och kan inte läsa dem.</li><li>Dekrypteringsnyckeln finns i länken efter #-tecknet och skickas aldrig till servern.</li><li>Ingen registrering, reklam, analys eller tredjepartsskript.</li><li>En hemlighet raderas så snart den öppnas eller när den valda perioden går ut.</li><li>Applikationsservern loggar inte IP-adresser eller hemlighets-ID:n.</li></ul>"
+    "translation": "<ul><li>Din hemlighet krypteras i webbläsaren. Servern får bara krypterade uppgifter och kan inte läsa dem.</li><li>Dekrypteringsnyckeln finns i länken efter #-tecknet och skickas aldrig till servern.</li><li>Ingen registrering, reklam, analys eller tredjepartsskript.</li><li>En hemlighet raderas så snart den öppnas eller när den valda perioden går ut.</li><li>Applikationsservern för inga loggar över förfrågningar.</li></ul>"
   },
   {
     "id": "privacy.short.title",

@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>De applicatieserver registreert alleen API-verzoeken: het type verzoek, het resultaat en de verwerkingstijd. IP-adressen, geheim-ID’s, tokens, pagina-adressen en inhoud van verzoeken worden niet gelogd.</p><p>Om de dienst tegen brute kracht en misbruik te beschermen, beperkt de server het aantal verzoeken per IP-adres. Het adres wordt alleen in het geheugen gebruikt en niet opgeslagen.</p><p>Een webserver vóór de applicatie kan een standaard toegangslog bijhouden: IP-adres, tijd en pagina-adres zonder het deel na #. Zulke logs dienen alleen ter bescherming tegen aanvallen en worden beperkt bewaard.</p>"
+    "translation": "<p>De applicatieserver houdt geen logboeken van verzoeken bij. Hij registreert alleen eigen technische fouten, zonder IP-adressen, geheim-ID’s, tokens of inhoud van verzoeken.</p><p>Om de dienst tegen brute kracht en misbruik te beschermen, beperkt de server het aantal verzoeken per IP-adres. Het adres wordt alleen in het geheugen gebruikt en niet opgeslagen.</p><p>Een webserver vóór de applicatie kan een standaard toegangslog bijhouden: IP-adres, tijd en pagina-adres zonder het deel na #. Zulke logs dienen alleen ter bescherming tegen aanvallen en worden beperkt bewaard.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Je geheim wordt versleuteld in je browser. De server ontvangt alleen versleutelde gegevens en kan ze niet lezen.</li><li>De ontsleutelingssleutel staat in de link na het #-teken en wordt nooit naar de server gestuurd.</li><li>Geen registratie, advertenties, analyses of scripts van derden.</li><li>Een geheim wordt direct na openen of na afloop van de gekozen periode verwijderd.</li><li>De applicatieserver logt geen IP-adressen of geheim-ID’s.</li></ul>"
+    "translation": "<ul><li>Je geheim wordt versleuteld in je browser. De server ontvangt alleen versleutelde gegevens en kan ze niet lezen.</li><li>De ontsleutelingssleutel staat in de link na het #-teken en wordt nooit naar de server gestuurd.</li><li>Geen registratie, advertenties, analyses of scripts van derden.</li><li>Een geheim wordt direct na openen of na afloop van de gekozen periode verwijderd.</li><li>De applicatieserver houdt geen logboeken van verzoeken bij.</li></ul>"
   },
   {
     "id": "privacy.short.title",

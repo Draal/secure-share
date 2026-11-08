@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Der Anwendungsserver protokolliert nur API-Anfragen: Anfragetyp, Ergebnis und Bearbeitungszeit. IP-Adressen, Geheimnis-IDs, Token, Seitenadressen und Anfrageinhalte werden nicht protokolliert.</p><p>Zum Schutz vor Ausprobieren von Passwörtern und Missbrauch begrenzt der Server die Anfragerate pro IP-Adresse. Die Adresse wird nur im Arbeitsspeicher verwendet und nicht gespeichert.</p><p>Ein vorgeschalteter Webserver kann ein übliches Zugriffsprotokoll führen: IP-Adresse, Uhrzeit und Seitenadresse ohne den Teil nach #. Solche Protokolle dienen nur dem Schutz vor Angriffen und werden begrenzte Zeit aufbewahrt.</p>"
+    "translation": "<p>Der Anwendungsserver führt keine Anfrageprotokolle. Er protokolliert nur eigene technische Fehler, ohne IP-Adressen, Geheimnis-IDs, Token oder Anfrageinhalte.</p><p>Zum Schutz vor Ausprobieren von Passwörtern und Missbrauch begrenzt der Server die Anfragerate pro IP-Adresse. Die Adresse wird nur im Arbeitsspeicher verwendet und nicht gespeichert.</p><p>Ein vorgeschalteter Webserver kann ein übliches Zugriffsprotokoll führen: IP-Adresse, Uhrzeit und Seitenadresse ohne den Teil nach #. Solche Protokolle dienen nur dem Schutz vor Angriffen und werden begrenzte Zeit aufbewahrt.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Das Geheimnis wird in deinem Browser verschlüsselt. Der Server erhält nur verschlüsselte Daten und kann sie nicht lesen.</li><li>Der Entschlüsselungsschlüssel steht im Link nach dem Zeichen # und wird nie an den Server gesendet.</li><li>Keine Registrierung, Werbung, Analyse oder Skripte von Drittanbietern.</li><li>Ein Geheimnis wird unmittelbar nach dem Öffnen oder nach Ablauf der gewählten Frist gelöscht.</li><li>Der Anwendungsserver protokolliert weder IP-Adressen noch Geheimnis-IDs.</li></ul>"
+    "translation": "<ul><li>Das Geheimnis wird in deinem Browser verschlüsselt. Der Server erhält nur verschlüsselte Daten und kann sie nicht lesen.</li><li>Der Entschlüsselungsschlüssel steht im Link nach dem Zeichen # und wird nie an den Server gesendet.</li><li>Keine Registrierung, Werbung, Analyse oder Skripte von Drittanbietern.</li><li>Ein Geheimnis wird unmittelbar nach dem Öffnen oder nach Ablauf der gewählten Frist gelöscht.</li><li>Der Anwendungsserver führt keine Anfrageprotokolle.</li></ul>"
   },
   {
     "id": "privacy.short.title",

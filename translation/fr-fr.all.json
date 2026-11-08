@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Le serveur de l’application ne journalise que les requêtes API : leur type, leur résultat et leur temps de traitement. Les adresses IP, identifiants de secrets, jetons, adresses de pages et contenus des requêtes ne sont pas enregistrés.</p><p>Pour protéger le service contre les attaques par force brute et les abus, le serveur limite la fréquence des requêtes par adresse IP. L’adresse est utilisée uniquement en mémoire et n’est pas stockée.</p><p>Un serveur web placé devant l’application peut conserver un journal d’accès standard : adresse IP, heure et adresse de la page sans la partie après #. Ces journaux servent uniquement à protéger contre les attaques et sont conservés pour une durée limitée.</p>"
+    "translation": "<p>Le serveur de l’application ne conserve aucun journal des requêtes. Il enregistre uniquement ses propres erreurs techniques, sans adresses IP, identifiants de secrets, jetons ni contenu des requêtes.</p><p>Pour protéger le service contre les attaques par force brute et les abus, le serveur limite la fréquence des requêtes par adresse IP. L’adresse est utilisée uniquement en mémoire et n’est pas stockée.</p><p>Un serveur web placé devant l’application peut conserver un journal d’accès standard : adresse IP, heure et adresse de la page sans la partie après #. Ces journaux servent uniquement à protéger contre les attaques et sont conservés pour une durée limitée.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Votre secret est chiffré dans votre navigateur. Le serveur ne reçoit que des données chiffrées et ne peut pas les lire.</li><li>La clé de déchiffrement se trouve dans le lien après le signe # et n’est jamais envoyée au serveur.</li><li>Sans inscription, publicité, analyse ni scripts tiers.</li><li>Un secret est supprimé dès son ouverture ou à la fin de la durée choisie.</li><li>Le serveur de l’application ne journalise ni les adresses IP ni les identifiants des secrets.</li></ul>"
+    "translation": "<ul><li>Votre secret est chiffré dans votre navigateur. Le serveur ne reçoit que des données chiffrées et ne peut pas les lire.</li><li>La clé de déchiffrement se trouve dans le lien après le signe # et n’est jamais envoyée au serveur.</li><li>Sans inscription, publicité, analyse ni scripts tiers.</li><li>Un secret est supprimé dès son ouverture ou à la fin de la durée choisie.</li><li>Le serveur de l’application ne conserve aucun journal des requêtes.</li></ul>"
   },
   {
     "id": "privacy.short.title",

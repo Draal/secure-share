@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Sovelluspalvelin kirjaa vain API-pyynnöt: pyynnön tyypin, tuloksen ja käsittelyajan. IP-osoitteita, salaisuuksien tunnuksia, tokeneita, sivujen osoitteita tai pyyntöjen sisältöä ei kirjata.</p><p>Palvelun suojaamiseksi raakavoimahyökkäyksiltä ja väärinkäytöksiltä palvelin rajoittaa pyyntöjen määrää IP-osoitetta kohti. Osoitetta käytetään vain muistissa eikä sitä tallenneta.</p><p>Sovelluksen edessä oleva verkkopalvelin voi pitää tavallista käyttölokia: IP-osoite, aika ja sivun osoite ilman #-merkin jälkeistä osaa. Lokeja käytetään vain hyökkäyksiltä suojautumiseen ja niitä säilytetään rajoitetun ajan.</p>"
+    "translation": "<p>Sovelluspalvelin ei pidä pyyntölokeja. Se kirjaa vain omat tekniset virheensä ilman IP-osoitteita, salaisuuksien tunnuksia, tokeneita tai pyyntöjen sisältöä.</p><p>Palvelun suojaamiseksi raakavoimahyökkäyksiltä ja väärinkäytöksiltä palvelin rajoittaa pyyntöjen määrää IP-osoitetta kohti. Osoitetta käytetään vain muistissa eikä sitä tallenneta.</p><p>Sovelluksen edessä oleva verkkopalvelin voi pitää tavallista käyttölokia: IP-osoite, aika ja sivun osoite ilman #-merkin jälkeistä osaa. Lokeja käytetään vain hyökkäyksiltä suojautumiseen ja niitä säilytetään rajoitetun ajan.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Salaisuutesi salataan selaimessasi. Palvelin saa vain salattuja tietoja eikä voi lukea niitä.</li><li>Salauksen purkuavain on linkissä #-merkin jälkeen eikä sitä koskaan lähetetä palvelimelle.</li><li>Ei rekisteröitymistä, mainoksia, analytiikkaa tai kolmansien osapuolten skriptejä.</li><li>Salaisuus poistetaan heti avaamisen jälkeen tai valitun ajan päättyessä.</li><li>Sovelluspalvelin ei kirjaa IP-osoitteita tai salaisuuksien tunnuksia.</li></ul>"
+    "translation": "<ul><li>Salaisuutesi salataan selaimessasi. Palvelin saa vain salattuja tietoja eikä voi lukea niitä.</li><li>Salauksen purkuavain on linkissä #-merkin jälkeen eikä sitä koskaan lähetetä palvelimelle.</li><li>Ei rekisteröitymistä, mainoksia, analytiikkaa tai kolmansien osapuolten skriptejä.</li><li>Salaisuus poistetaan heti avaamisen jälkeen tai valitun ajan päättyessä.</li><li>Sovelluspalvelin ei pidä pyyntölokeja.</li></ul>"
   },
   {
     "id": "privacy.short.title",

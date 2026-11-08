@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Server aplikacije beleži samo API zahteve: vrstu zahteva, rezultat i vreme obrade. IP adrese, identifikatori tajni, tokeni, adrese stranica i sadržaj zahteva ne beleže se.</p><p>Radi zaštite usluge od napada grubom silom i zloupotrebe, server ograničava učestalost zahteva po IP adresi. Adresa se koristi samo u memoriji i ne čuva se.</p><p>Veb-server ispred aplikacije može voditi standardni zapis pristupa: IP adresu, vreme i adresu stranice bez dela posle #. Takvi zapisi služe samo za zaštitu od napada i čuvaju se ograničeno vreme.</p>"
+    "translation": "<p>Server aplikacije ne vodi evidenciju zahteva. Beleži samo sopstvene tehničke greške, bez IP adresa, identifikatora tajni, tokena ili sadržaja zahteva.</p><p>Radi zaštite usluge od napada grubom silom i zloupotrebe, server ograničava učestalost zahteva po IP adresi. Adresa se koristi samo u memoriji i ne čuva se.</p><p>Veb-server ispred aplikacije može voditi standardni zapis pristupa: IP adresu, vreme i adresu stranice bez dela posle #. Takvi zapisi služe samo za zaštitu od napada i čuvaju se ograničeno vreme.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Tajna se šifruje u vašem pregledaču. Server prima samo šifrovane podatke i ne može ih pročitati.</li><li>Ključ za dešifrovanje nalazi se u linku posle znaka # i nikada se ne šalje serveru.</li><li>Bez registracije, oglasa, analitike i skripti trećih strana.</li><li>Tajna se briše odmah nakon otvaranja ili po isteku izabranog perioda.</li><li>Server aplikacije ne beleži IP adrese ni identifikatore tajni.</li></ul>"
+    "translation": "<ul><li>Tajna se šifruje u vašem pregledaču. Server prima samo šifrovane podatke i ne može ih pročitati.</li><li>Ključ za dešifrovanje nalazi se u linku posle znaka # i nikada se ne šalje serveru.</li><li>Bez registracije, oglasa, analitike i skripti trećih strana.</li><li>Tajna se briše odmah nakon otvaranja ili po isteku izabranog perioda.</li><li>Server aplikacije ne vodi evidenciju zahteva.</li></ul>"
   },
   {
     "id": "privacy.short.title",

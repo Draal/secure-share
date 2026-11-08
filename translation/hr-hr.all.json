@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Poslužitelj aplikacije bilježi samo API zahtjeve: vrstu zahtjeva, rezultat i vrijeme obrade. IP adrese, identifikatori tajni, tokeni, adrese stranica i sadržaj zahtjeva ne bilježe se.</p><p>Radi zaštite usluge od napada grubom silom i zlouporabe, poslužitelj ograničava učestalost zahtjeva po IP adresi. Adresa se koristi samo u memoriji i ne pohranjuje se.</p><p>Web-poslužitelj ispred aplikacije može voditi standardni zapis pristupa: IP adresu, vrijeme i adresu stranice bez dijela nakon #. Takvi zapisi služe samo za zaštitu od napada i čuvaju se ograničeno vrijeme.</p>"
+    "translation": "<p>Poslužitelj aplikacije ne vodi zapisnike zahtjeva. Bilježi samo vlastite tehničke pogreške, bez IP adresa, identifikatora tajni, tokena ili sadržaja zahtjeva.</p><p>Radi zaštite usluge od napada grubom silom i zlouporabe, poslužitelj ograničava učestalost zahtjeva po IP adresi. Adresa se koristi samo u memoriji i ne pohranjuje se.</p><p>Web-poslužitelj ispred aplikacije može voditi standardni zapis pristupa: IP adresu, vrijeme i adresu stranice bez dijela nakon #. Takvi zapisi služe samo za zaštitu od napada i čuvaju se ograničeno vrijeme.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Tajna se šifrira u vašem pregledniku. Poslužitelj prima samo šifrirane podatke i ne može ih pročitati.</li><li>Ključ za dešifriranje nalazi se u poveznici nakon znaka # i nikada se ne šalje poslužitelju.</li><li>Bez registracije, oglasa, analitike i skripti trećih strana.</li><li>Tajna se briše odmah nakon otvaranja ili po isteku odabranog razdoblja.</li><li>Poslužitelj aplikacije ne bilježi IP adrese ni identifikatore tajni.</li></ul>"
+    "translation": "<ul><li>Tajna se šifrira u vašem pregledniku. Poslužitelj prima samo šifrirane podatke i ne može ih pročitati.</li><li>Ključ za dešifriranje nalazi se u poveznici nakon znaka # i nikada se ne šalje poslužitelju.</li><li>Bez registracije, oglasa, analitike i skripti trećih strana.</li><li>Tajna se briše odmah nakon otvaranja ili po isteku odabranog razdoblja.</li><li>Poslužitelj aplikacije ne vodi zapisnike zahtjeva.</li></ul>"
   },
   {
     "id": "privacy.short.title",

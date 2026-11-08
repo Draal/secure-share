@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Serwer aplikacji zapisuje tylko żądania API: ich typ, wynik i czas przetwarzania. Adresy IP, identyfikatory sekretów, tokeny, adresy stron i treść żądań nie są zapisywane.</p><p>Aby chronić usługę przed atakami siłowymi i nadużyciami, serwer ogranicza częstotliwość żądań z jednego adresu IP. Adres jest używany tylko w pamięci i nie jest zapisywany.</p><p>Serwer WWW przed aplikacją może prowadzić standardowy dziennik dostępu: adres IP, czas i adres strony bez części po #. Dzienniki te służą wyłącznie do ochrony przed atakami i są przechowywane przez ograniczony czas.</p>"
+    "translation": "<p>Serwer aplikacji nie prowadzi dzienników żądań. Zapisuje tylko własne błędy techniczne, bez adresów IP, identyfikatorów sekretów, tokenów i treści żądań.</p><p>Aby chronić usługę przed atakami siłowymi i nadużyciami, serwer ogranicza częstotliwość żądań z jednego adresu IP. Adres jest używany tylko w pamięci i nie jest zapisywany.</p><p>Serwer WWW przed aplikacją może prowadzić standardowy dziennik dostępu: adres IP, czas i adres strony bez części po #. Dzienniki te służą wyłącznie do ochrony przed atakami i są przechowywane przez ograniczony czas.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Sekret jest szyfrowany w przeglądarce. Serwer otrzymuje tylko zaszyfrowane dane i nie może ich odczytać.</li><li>Klucz odszyfrowania znajduje się w linku po znaku # i nigdy nie jest wysyłany na serwer.</li><li>Bez rejestracji, reklam, analityki i skryptów zewnętrznych.</li><li>Sekret jest usuwany zaraz po otwarciu lub po upływie wybranego czasu.</li><li>Serwer aplikacji nie zapisuje adresów IP ani identyfikatorów sekretów.</li></ul>"
+    "translation": "<ul><li>Sekret jest szyfrowany w przeglądarce. Serwer otrzymuje tylko zaszyfrowane dane i nie może ich odczytać.</li><li>Klucz odszyfrowania znajduje się w linku po znaku # i nigdy nie jest wysyłany na serwer.</li><li>Bez rejestracji, reklam, analityki i skryptów zewnętrznych.</li><li>Sekret jest usuwany zaraz po otwarciu lub po upływie wybranego czasu.</li><li>Serwer aplikacji nie prowadzi dzienników żądań.</li></ul>"
   },
   {
     "id": "privacy.short.title",

@@ -1025,7 +1025,7 @@
   },
   {
     "id": "privacy.logs.body",
-    "translation": "<p>Ilova serveri faqat API so‘rovlarini jurnalga yozadi: so‘rov turi, natijasi va ishlov berish vaqti. IP manzillar, sir identifikatorlari, tokenlar, sahifa manzillari va so‘rov mazmuni hech qachon jurnalga yozilmaydi.</p><p>Xizmatni parolni ko‘p marta taxmin qilish va suiiste’moldan himoyalash uchun server har bir IP manzilning so‘rovlar tezligini cheklaydi. Manzil faqat xotirada ishlatiladi va saqlanmaydi.</p><p>Ilova oldidagi veb-server odatiy kirish jurnalini saqlashi mumkin: IP manzil, vaqt va # dan keyingi qismsiz sahifa manzili. Bunday jurnallar faqat hujumlardan himoyalanish uchun ishlatiladi va cheklangan muddat saqlanadi.</p>"
+    "translation": "<p>Ilova serveri so‘rovlar jurnalini yuritmaydi. U faqat o‘zining texnik xatolarini IP manzillar, sir identifikatorlari, tokenlar va so‘rov mazmunisiz qayd etadi.</p><p>Xizmatni parolni ko‘p marta taxmin qilish va suiiste’moldan himoyalash uchun server har bir IP manzilning so‘rovlar tezligini cheklaydi. Manzil faqat xotirada ishlatiladi va saqlanmaydi.</p><p>Ilova oldidagi veb-server odatiy kirish jurnalini saqlashi mumkin: IP manzil, vaqt va # dan keyingi qismsiz sahifa manzili. Bunday jurnallar faqat hujumlardan himoyalanish uchun ishlatiladi va cheklangan muddat saqlanadi.</p>"
   },
   {
     "id": "privacy.logs.title",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "privacy.short.body",
-    "translation": "<ul><li>Siringiz brauzeringizda shifrlanadi. Server faqat shifrlangan ma’lumotlarni oladi va ularni o‘qiy olmaydi.</li><li>Shifrni ochish kaliti havolada # belgisidan keyin joylashgan va hech qachon serverga yuborilmaydi.</li><li>Ro‘yxatdan o‘tish, reklama, tahlil yoki uchinchi tomon skriptlari yo‘q.</li><li>Sir ochilishi bilan yoki tanlangan muddat tugaganda o‘chiriladi.</li><li>Ilova serveri IP manzillarni yoki sir identifikatorlarini jurnalga yozmaydi.</li></ul>"
+    "translation": "<ul><li>Siringiz brauzeringizda shifrlanadi. Server faqat shifrlangan ma’lumotlarni oladi va ularni o‘qiy olmaydi.</li><li>Shifrni ochish kaliti havolada # belgisidan keyin joylashgan va hech qachon serverga yuborilmaydi.</li><li>Ro‘yxatdan o‘tish, reklama, tahlil yoki uchinchi tomon skriptlari yo‘q.</li><li>Sir ochilishi bilan yoki tanlangan muddat tugaganda o‘chiriladi.</li><li>Ilova serveri so‘rovlar jurnalini yuritmaydi.</li></ul>"
   },
   {
     "id": "privacy.short.title",
